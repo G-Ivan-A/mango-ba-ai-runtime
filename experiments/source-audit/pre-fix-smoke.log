@@ -1,0 +1,43 @@
+not ok - .hub-profile.json exists
+ok - AGENTS.md exists
+ok - README.md exists
+ok - compilation-manifest.yaml exists
+not ok - tools/validate-package.sh exists
+not ok - docs/guides/README.md exists
+not ok - docs/guides/00-quick-start.md exists
+not ok - docs/guides/01-repository-setup.md exists
+not ok - docs/guides/02-processes.md exists
+not ok - docs/guides/03-task-types.md exists
+not ok - docs/guides/04-running-tasks.md exists
+not ok - docs/guides/05-human-review.md exists
+not ok - docs/guides/06-dialog-rules.md exists
+not ok - README declares package 0.4
+not ok - manifest declares package 0.4
+not ok - manifest pins meta-model 0.4
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile declares docs/kb fallback
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile isolates tasks by chat
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile writes outputs to runs
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile declares corporate_repository
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile declares confluence
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile declares mango_web
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile declares external_systems
+grep: /tmp/gh-issue-solver-1789812274533/.hub-profile.json: No such file or directory
+not ok - profile declares local_repository_fallback
+not ok - tier 1 corporate repository exists
+not ok - tier 2 Confluence exists
+not ok - tier 3 Mango web exists
+not ok - tier 4 external systems exists
+not ok - tier 5 local fallback exists
+not ok - unconfigured tiers are explicit out_of_slice
+not ok - C-IN accepts local fallback tier
+not ok - run sheet declares MD output path
+not ok - shell validator is executable
+not ok - shell validator runs without Python on PATH
+runtime smoke test failed: 31 check(s)

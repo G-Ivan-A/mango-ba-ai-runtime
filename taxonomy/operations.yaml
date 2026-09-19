@@ -1,0 +1,44 @@
+# Закрытый словарь операций: 31 значение в пяти когнитивных классах.
+# Операция не привязана к процессу (OC-3): её вызывает любой навык, чей вход
+# удовлетворяет контракту. Ярус в каталоге — нижняя граница (OC-5).
+# Словарь компилируется целиком: контракт «шаг навыка принадлежит закрытому
+# словарю» проверяем только против полного каталога.
+vocabulary: operations
+closed: true
+version: "1.0"
+id_format: "OP-(EXT|TRN|GEN|CHK|ASM)-NN"
+tiers_note: >-
+  Ярус — механизм контроля по шкале G1–G7: G1 самопроверка формы, G2 схема,
+  G3 словарь, G5 человек, G6 проверка со ссылкой на источник.
+items:
+  - {id: OP-EXT-01, slug: extract-entities, class: extract, input: "связный текст предметной области", output: "перечень сущностей с цитатой-подтверждением на каждую", refusal: "текст не содержит предметных сущностей", tier: G6}
+  - {id: OP-EXT-02, slug: extract-actors, class: extract, input: "связный текст или A-CORE", output: "перечень акторов: роль, тип (человек, агент, Система), цитата", refusal: "роль не названа во входе явно", tier: G6}
+  - {id: OP-EXT-03, slug: extract-statements, class: extract, input: "связный текст", output: "перечень утверждений о желаемом поведении с цитатами", refusal: "во входе нет утверждений о поведении", tier: G6}
+  - {id: OP-EXT-04, slug: extract-constraints, class: extract, input: "связный текст или внешний документ", output: "перечень ограничений: предмет, значение, источник", refusal: "ограничения не заявлены", tier: G6}
+  - {id: OP-EXT-05, slug: extract-metrics, class: extract, input: "связный текст", output: "перечень измеримых показателей: имя, значение, единица", refusal: "числовых показателей нет", tier: G6}
+  - {id: OP-EXT-06, slug: extract-source-reference, class: extract, input: "элемент и его источник", output: "ссылка: документ, раздел, страница или таймкод, дословная цитата", refusal: "цитата не находится в источнике", tier: G6}
+  - {id: OP-TRN-01, slug: normalize-text, class: transform, input: "сырой текст, расшифровка, письмо", output: "нормализованный текст с сохранением атрибуции реплик", refusal: "вход не является текстом", tier: G2}
+  - {id: OP-TRN-02, slug: deduplicate-items, class: transform, input: "перечень однородных элементов", output: "перечень без дублей и с записью о каждом слиянии", refusal: "элементы разнородны по классу", tier: G2}
+  - {id: OP-TRN-03, slug: split-statement, class: transform, input: "составное утверждение", output: "перечень утверждений, каждое из которых атомарно", refusal: "утверждение уже атомарно", tier: G2}
+  - {id: OP-TRN-04, slug: classify-item, class: transform, input: "элемент и закрытый словарь значений", output: "элемент с ровно одним значением классификации", refusal: "ни одно значение словаря не подходит", tier: G2}
+  - {id: OP-TRN-05, slug: map-to-slot, class: transform, input: "элемент и объявленный скелет документа", output: "пара «элемент → раздел»", refusal: "для элемента нет раздела в скелете", tier: G2}
+  - {id: OP-TRN-06, slug: link-elements, class: transform, input: "два элемента и тип связи", output: "ребро следа: источник, приёмник, тип, основание", refusal: "один из концов не существует", tier: G2}
+  - {id: OP-TRN-07, slug: render-projection, class: transform, input: "структурированная модель и целевая нотация", output: "текст проекции в нотации", refusal: "модель не полна для нотации", tier: G2}
+  - {id: OP-GEN-01, slug: generate-statement, class: generate, input: "элементы A-CORE и целевая форма утверждения", output: "одно утверждение целевой формы со ссылкой на основание", refusal: "основание отсутствует или не покрывает утверждение", tier: G6}
+  - {id: OP-GEN-02, slug: generate-question, class: generate, input: "одна неоднозначность", output: "один вопрос, отвечаемый одним фактом", refusal: "неоднозначность не сформулирована", tier: G2}
+  - {id: OP-GEN-03, slug: generate-acceptance-criterion, class: generate, input: "атомарное требование", output: "один проверяемый критерий приёмки", refusal: "требование не атомарно", tier: G6}
+  - {id: OP-GEN-04, slug: generate-rationale, class: generate, input: "решение или вердикт и его вход", output: "обоснование со ссылками на элементы входа", refusal: "вход не содержит оснований решения", tier: G6}
+  - {id: OP-GEN-05, slug: generate-abstract, class: generate, input: "документ или его раздел", output: "краткое изложение без новых утверждений", refusal: "документ пуст", tier: G6}
+  - {id: OP-CHK-01, slug: check-atomicity, class: check, input: "утверждение", output: "вердикт «атомарно / нет» с перечнем составных частей", refusal: "вход не является утверждением", tier: G6}
+  - {id: OP-CHK-02, slug: check-ambiguity, class: check, input: "утверждение", output: "перечень неоднозначных мест с их видом (референциальная, количественная, модальная)", refusal: "вход пуст", tier: G6}
+  - {id: OP-CHK-03, slug: check-completeness, class: check, input: "набор элементов и объявленная модель полноты", output: "перечень отсутствующих обязательных элементов", refusal: "модель полноты не объявлена", tier: G6}
+  - {id: OP-CHK-04, slug: check-consistency, class: check, input: "набор утверждений", output: "перечень противоречащих пар с видом противоречия", refusal: "в наборе менее двух утверждений", tier: G6}
+  - {id: OP-CHK-05, slug: check-verifiability, class: check, input: "требование или критерий", output: "вердикт с указанием способа проверки или причины его отсутствия", refusal: "вход не является требованием", tier: G6}
+  - {id: OP-CHK-06, slug: check-source-evidence, class: check, input: "утверждение и ссылка на источник", output: "вердикт «цитата существует и разрешима»", refusal: "ссылка отсутствует", tier: G6}
+  - {id: OP-CHK-07, slug: check-vocabulary, class: check, input: "значение и закрытый словарь", output: "вердикт принадлежности с ближайшими значениями при отказе", refusal: "словарь не объявлен", tier: G3}
+  - {id: OP-CHK-08, slug: check-schema, class: check, input: "документ или структура и схема", output: "вердикт соответствия с перечнем нарушений полей", refusal: "схема не объявлена", tier: G2}
+  - {id: OP-ASM-01, slug: score-item, class: assess, input: "элемент и объявленная шкала", output: "значение по шкале с обоснованием", refusal: "шкала не объявлена", tier: G1}
+  - {id: OP-ASM-02, slug: rank-items, class: assess, input: "перечень элементов с оценками", output: "упорядоченный перечень с правилом порядка", refusal: "оценки отсутствуют", tier: G1}
+  - {id: OP-ASM-03, slug: match-coverage, class: assess, input: "два набора элементов и правило соответствия", output: "матрица покрытия с непокрытыми элементами обеих сторон", refusal: "правило соответствия не объявлено", tier: G6}
+  - {id: OP-ASM-04, slug: classify-severity, class: assess, input: "нарушение или разрыв и шкала значимости", output: "одно значение значимости с обоснованием", refusal: "шкала не объявлена", tier: G1}
+  - {id: OP-ASM-05, slug: select-option, class: assess, input: "закрытое множество вариантов и критерий", output: "один выбранный вариант с обоснованием и отвергнутыми", refusal: "множество вариантов пусто", tier: G5}

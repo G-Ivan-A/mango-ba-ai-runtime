@@ -1,0 +1,148 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "contracts/c-out-bcreq.schema.json",
+  "title": "C-OUT (профиль A-BCREQ) — контракт результирующего документа",
+  "description": "Скелет документа закрыт: слот словаря присутствует в документе всегда, различается только заполненность (правило R-4). Профиль продукта задаёт значение по умолчанию «заполнен» или «пуст с причиной», но не состав слотов (PT-4/R-3). Слот S-OTHER запрещён в итоговом документе. Класс формата F-MIXED — дефект и отвергается гейтом.",
+  "type": "object",
+  "required": [
+    "artifact_class",
+    "state",
+    "task_id",
+    "format_class",
+    "products",
+    "slots",
+    "trace",
+    "projection"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "artifact_class": {
+      "const": "A-BCREQ"
+    },
+    "state": {
+      "enum": [
+        "draft",
+        "in-review",
+        "validated",
+        "approved",
+        "baselined"
+      ]
+    },
+    "task_id": {
+      "type": "string",
+      "pattern": "^TASK-[0-9]{4}$"
+    },
+    "format_class": {
+      "enum": [
+        "F-SHORT",
+        "F-APPROVAL",
+        "F-CLASSIC",
+        "F-NARRATIVE"
+      ]
+    },
+    "projection": {
+      "enum": [
+        "V-BIZ",
+        "V-APPROVE",
+        "V-DEV",
+        "V-CONTRACT"
+      ],
+      "description": "проекция документа из закрытого словаря taxonomy/projections.yaml: адресат чтения. Поле обязательно: документ без объявленного адресата не проверяем на полноту раскрытия слотов, а необъявленная проекция — пустая ветка контракта. Ровно одна проекция на документ."
+    },
+    "products": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object"
+      }
+    },
+    "slots": {
+      "type": "object",
+      "description": "Ключи фиксированы и присутствуют все до единого. Пустой слот обязан нести причину пустоты — иначе «нет по продукту» неотличимо от «забыли».",
+      "required": [
+        "S-GLOSSARY",
+        "S-PROBLEM",
+        "S-SCOPE",
+        "S-SOLUTION",
+        "S-FR",
+        "S-SETTINGS",
+        "S-UI",
+        "S-SCENARIO",
+        "S-AC",
+        "S-NFR",
+        "S-LIMITS",
+        "S-OPEN",
+        "S-TRACE",
+        "S-INTEGRATION"
+      ],
+      "additionalProperties": false,
+      "patternProperties": {
+        "^S-[A-Z]+$": {
+          "type": "object",
+          "required": [
+            "heading",
+            "filled"
+          ],
+          "additionalProperties": false,
+          "properties": {
+            "heading": {
+              "type": "string",
+              "minLength": 1,
+              "description": "каноническая подпись слота; союз «и», соединяющий два слота словаря, запрещён (R-2.1)"
+            },
+            "filled": {
+              "type": "boolean"
+            },
+            "content": {
+              "type": "string"
+            },
+            "empty_reason": {
+              "enum": [
+                "нет по продукту",
+                "нет в источнике",
+                "вынесено в открытые вопросы"
+              ]
+            },
+            "items": {
+              "type": "array",
+              "items": {
+                "type": "object"
+              }
+            }
+          }
+        }
+      }
+    },
+    "trace": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Прослеживаемость источник → A-CORE → требование → критерий приёмки. Пустой след означает недоказуемый документ.",
+      "items": {
+        "type": "object",
+        "required": [
+          "requirement_id",
+          "core_id",
+          "source_id"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "requirement_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "core_id": {
+            "type": "string",
+            "minLength": 1
+          },
+          "source_id": {
+            "type": "string",
+            "pattern": "^SRC-[0-9]{2}$"
+          },
+          "acceptance_id": {
+            "type": "string"
+          }
+        }
+      }
+    }
+  }
+}

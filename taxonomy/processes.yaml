@@ -1,0 +1,90 @@
+# Закрытый словарь процессов и навыков. Уровни L0 (области знаний BABOK),
+# L1 (семейства преобразований), L2 (10 процессов Манго КК), L3 (33 навыка).
+# В срез MVP входят P-01, P-02, P-03: их навыки скомпилированы в .agents/skills/,
+# у остальных in_slice: false и скомпилированного навыка нет — узел маршрута,
+# ссылающийся на них, обязан нести actor: human.
+vocabulary: processes
+closed: true
+version: "1.0"
+levels:
+  L0: области знаний BABOK — внешняя рамка, не исполняется
+  L1: семейство преобразований
+  L2: процесс Манго КК — единица маршрута
+  L3: навык (подпроцесс), поставляется папкой с SKILL.md
+l1:
+  - {id: L1-ELICIT, name: Выявление, transform: "источник → зафиксированная информация", l0: [EC]}
+  - {id: L1-ANALYZE, name: Анализ, transform: "зафиксированная информация → структурированная модель", l0: [SA, RADD]}
+  - {id: L1-SPECIFY, name: Специфицирование, transform: "модель → документ целевой формы", l0: [RADD]}
+  - {id: L1-VERIFY, name: Верификация, transform: "документ → вердикт о качестве", l0: [RADD]}
+  - {id: L1-MANAGE, name: Ведение, transform: "событие изменения → согласованное состояние корпуса", l0: [RLCM, BAPM]}
+  - {id: L1-ASSESS, name: Оценка, transform: "предложение → суждение о ценности и осуществимости", l0: [SA, SE]}
+l2:
+  - id: P-01
+    slug: elicitation-processing
+    name: обработка сессии выявления
+    l1: L1-ELICIT
+    input: {class: A-IN, state: raw}
+    output: A-CORE
+    done_when: "A-CORE прошёл машинную схему и не содержит неразрешённых неоднозначностей значимости blocker"
+    in_slice: true
+  - id: P-02
+    slug: clarification-management
+    name: управление уточнениями
+    l1: L1-ELICIT
+    input: {class: A-CORE, state: needs-clarification}
+    output: A-QUEST
+    done_when: "ответы Заказчика интегрированы, A-CORE вернулся в draft"
+    in_slice: true
+  - id: P-03
+    slug: bcreq-formation
+    name: формирование бизнес-требования к изменению
+    l1: L1-ANALYZE
+    input: {class: A-CORE, state: validated}
+    output: A-BCREQ
+    done_when: "A-BCREQ в approved"
+    in_slice: true
+  - {id: P-04, slug: fr-detailing, name: детализация ФТ для разработки, l1: L1-SPECIFY, input: {class: A-BCREQ, state: approved}, output: A-FR, done_when: "A-FR в validated", in_slice: false}
+  - {id: P-05, slug: tz-composition, name: сборка технического задания, l1: L1-SPECIFY, input: {class: A-FR, state: validated}, output: A-TZ, done_when: "A-TZ в approved", in_slice: false}
+  - {id: P-06, slug: scenario-modeling, name: сценарное моделирование, l1: L1-ANALYZE, input: {class: A-CORE, state: validated}, output: A-UC, done_when: "модель покрывает все объявленные акторы", in_slice: false}
+  - {id: P-07, slug: requirements-verification, name: верификация требований, l1: L1-VERIFY, input: {class: A-BCREQ, state: in-review}, output: A-REP, done_when: "вердикт вынесен по каждому проверяемому элементу", in_slice: false}
+  - {id: P-08, slug: tender-tz-assessment, name: оценка тендерного ТЗ, l1: L1-ASSESS, input: {class: A-IN, state: raw}, output: A-REP, done_when: "вынесено суждение об осуществимости", in_slice: false}
+  - {id: P-09, slug: change-impact-assessment, name: оценка влияния изменения, l1: L1-MANAGE, input: {class: A-TRACE, state: baselined}, output: A-REP, done_when: "перечислены затронутые элементы с рёбрами следа", in_slice: false}
+  - {id: P-10, slug: requirements-lifecycle-management, name: ведение жизненного цикла требований, l1: L1-MANAGE, input: {class: A-TRACE, state: draft}, output: A-TRACE, done_when: "след замкнут от источника до критерия приёмки", in_slice: false}
+# L3: `operations` — последовательность шагов навыка, каждый шаг принадлежит
+# словарю taxonomy/operations.yaml. Для навыков вне среза перечень не приводится:
+# он не читается ни одним исполнением среза (правило EP-C4 — только то, что
+# читается в исполнении).
+l3:
+  - {id: SK-transcript-normalization, process: P-01, tier: G2, in_slice: true, operations: [normalize-text, deduplicate-items, check-schema]}
+  - {id: SK-context-extraction, process: P-01, tier: G6, in_slice: true, operations: [extract-entities, extract-actors, extract-statements, extract-constraints, extract-metrics, extract-source-reference, check-source-evidence]}
+  - {id: SK-ambiguity-detection, process: P-01, tier: G6, in_slice: true, operations: [check-ambiguity, classify-severity, rank-items]}
+  - {id: SK-core-assembly, process: P-01, tier: G2, in_slice: true, operations: [classify-item, map-to-slot, link-elements, check-schema]}
+  - {id: SK-question-formation, process: P-02, tier: G2, in_slice: true, operations: [generate-question, deduplicate-items, check-schema]}
+  - {id: SK-question-prioritization, process: P-02, tier: G1, in_slice: true, operations: [score-item, rank-items, generate-rationale]}
+  - {id: SK-answer-integration, process: P-02, tier: G5, in_slice: true, operations: [extract-statements, map-to-slot, link-elements, check-consistency]}
+  - {id: SK-problem-statement, process: P-03, tier: G5, in_slice: true, operations: [extract-statements, generate-statement, check-source-evidence]}
+  - {id: SK-value-hypothesis, process: P-03, tier: G5, in_slice: true, operations: [extract-metrics, generate-statement, check-verifiability]}
+  - {id: SK-bcreq-decomposition, process: P-03, tier: G5, in_slice: true, operations: [split-statement, classify-item, check-atomicity]}
+  - {id: SK-bcreq-assembly, process: P-03, tier: G2, in_slice: true, operations: [map-to-slot, generate-abstract, check-schema]}
+  - {id: SK-fr-atomization, process: P-04, tier: G6, in_slice: false}
+  - {id: SK-actor-role-identification, process: P-04, tier: G6, in_slice: false}
+  - {id: SK-acceptance-criteria, process: P-04, tier: G6, in_slice: false}
+  - {id: SK-fr-assembly, process: P-04, tier: G2, in_slice: false}
+  - {id: SK-tz-structure-mapping, process: P-05, tier: G2, in_slice: false}
+  - {id: SK-nfr-specification, process: P-05, tier: G6, in_slice: false}
+  - {id: SK-constraint-consolidation, process: P-05, tier: G6, in_slice: false}
+  - {id: SK-tz-assembly, process: P-05, tier: G5, in_slice: false}
+  - {id: SK-scenario-extraction, process: P-06, tier: G6, in_slice: false}
+  - {id: SK-flow-modeling, process: P-06, tier: G6, in_slice: false}
+  - {id: SK-diagram-projection, process: P-06, tier: G2, in_slice: false}
+  - {id: SK-quality-audit, process: P-07, tier: G6, in_slice: false}
+  - {id: SK-coverage-matching, process: P-07, tier: G6, in_slice: false}
+  - {id: SK-defect-report, process: P-07, tier: G2, in_slice: false}
+  - {id: SK-tender-requirement-extraction, process: P-08, tier: G6, in_slice: false}
+  - {id: SK-gap-assessment, process: P-08, tier: G6, in_slice: false}
+  - {id: SK-feasibility-verdict, process: P-08, tier: G5, in_slice: false}
+  - {id: SK-change-localization, process: P-09, tier: G6, in_slice: false}
+  - {id: SK-impact-propagation, process: P-09, tier: G6, in_slice: false}
+  - {id: SK-state-transition, process: P-10, tier: G3, in_slice: false}
+  - {id: SK-trace-materialization, process: P-10, tier: G2, in_slice: false}
+  - {id: SK-baseline-assembly, process: P-10, tier: G5, in_slice: false}
