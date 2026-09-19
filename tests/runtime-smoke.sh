@@ -53,6 +53,7 @@ require_text taxonomy/source-tiers.yaml 'id: ST-3-MANGO-WEB' 'tier 3 Mango web e
 require_text taxonomy/source-tiers.yaml 'id: ST-4-EXTERNAL' 'tier 4 external systems exists'
 require_text taxonomy/source-tiers.yaml 'id: ST-5-LOCAL' 'tier 5 local fallback exists'
 require_text taxonomy/source-tiers.yaml 'status: out_of_slice' 'unconfigured tiers are explicit out_of_slice'
+require_file docs/kb/.gitkeep
 require_text contracts/c-in.schema.json 'ST-5-LOCAL' 'C-IN accepts local fallback tier'
 require_text routes/run-sheet-template.yaml 'output_path: "runs/' 'run sheet declares MD output path'
 

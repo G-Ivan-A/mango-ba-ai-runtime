@@ -1,6 +1,6 @@
 # Closed runtime vocabulary for product-knowledge routing. A task may enable a
 # subset, but every level must be declared in .hub-profile.json. Unconfigured
-# remote levels are `out_of_slice`; ST-5-LOCAL remains the offline fallback.
+# levels are `out_of_slice`; ST-5-LOCAL becomes available after KB provisioning.
 vocabulary: source-tiers
 closed: true
 version: "0.4"
@@ -46,10 +46,10 @@ tiers:
     name: Локальная резервная копия
     evidence_form: EF-QUOTE
     priority: 5
-    default_status: available
-    status: available
+    default_status: out_of_slice
+    status: out_of_slice
     path: docs/kb
-    rationale: запасной вариант, а не замена уровней 1–4
+    rationale: содержимое БЗ не входит в поставку; после отдельного наполнения используется как запасной вариант, а не замена уровней 1–4
   - id: ST-0-ATTACHED
     name: Материал текущей задачи
     evidence_form: EF-INLINE

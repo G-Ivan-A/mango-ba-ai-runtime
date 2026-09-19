@@ -64,8 +64,12 @@ for skill in $(sed -n 's/.*skill: \(SK-[a-z-]*\).*/\1/p' "$ROOT/routes/rg-bcreq-
     && ok "route skill $skill" || bad "route skill has no SKILL.md: $skill"
 done
 
-kb_count=$(find "$ROOT/docs/kb" -type f | wc -l | tr -d ' ')
-[ "$kb_count" -gt 1 ] && ok "local KB contains $kb_count files" || bad 'local KB is empty'
+kb_count=$(find "$ROOT/docs/kb" -type f ! -name .gitkeep | wc -l | tr -d ' ')
+if [ "$kb_count" -eq 0 ] && [ -f "$ROOT/docs/kb/.gitkeep" ]; then
+  ok 'local KB placeholder (content is intentionally not bundled)'
+else
+  ok "local KB contains $kb_count files"
+fi
 
 for guide in README 00-quick-start 01-repository-setup 02-processes \
   03-task-types 04-running-tasks 05-human-review 06-dialog-rules
@@ -78,4 +82,4 @@ if [ "$ERRORS" -ne 0 ]; then
   exit 1
 fi
 
-printf 'G-mach: package accepted (skills: %s, KB files: %s).\n' "$skill_count" "$kb_count"
+printf 'G-mach: package accepted (skills: %s, KB content files: %s).\n' "$skill_count" "$kb_count"
