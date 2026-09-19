@@ -1,0 +1,33 @@
+# Шаблон листа прогона. Заполняется оркестратором по факту; строка журнала
+# append-only — исправление добавляется новой записью, а не правкой прежней
+# (EP-R9). Проверяется схемой contracts/c-rk.schema.json.
+run_id: RUN-0000
+route_id: RG-BCREQ-v1
+task_id: TASK-0000
+started_at: "<ISO-8601>"
+finished_at: ""
+outcome: in-progress          # completed | refused | escalated | in-progress
+events:
+  - seq: 1
+    node: n1
+    skill: SK-transcript-normalization
+    actor: agent
+    gate: G-mach
+    verdict: pass             # pass | reject | refused | skipped
+    attempt: 1
+    decision: "entry → n1 по предикату c_in.valid == true"
+    rationale: "<почему выбрано это ребро>"
+    artifact_ref: "<путь к выходу узла>"
+    at: "<ISO-8601>"
+# Проекция для передачи прогона в новый чат (EP-R8): она заменяет свободный
+# файл памяти проекта и не содержит фактов, которых нет выше.
+handover:
+  objective: ""
+  ssot_refs: []
+  process_version: RG-BCREQ-v1
+  current_node: ""
+  path: []
+  decisions: []
+  gate_results: []
+  open_items: []
+  artifact_refs: []

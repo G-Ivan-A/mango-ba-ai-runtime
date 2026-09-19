@@ -1,0 +1,115 @@
+# Машиночитаемый индекс Golden Set: по нему G-mach отбирает проверки, не читая
+# markdown-описания. Эталон — обязательный элемент машинного гейта наравне со
+# схемой и чек-листом, а не альтернатива им.
+golden_set: mvp-bcreq
+version: "1.0"
+product_class: contact-center
+structural_only: true   # все эталоны synthetic и до подтверждения человеком
+                        # применяются только структурно (расхождение по
+                        # содержанию отказом не является)
+cases:
+  - id: GS-CC-01
+    kind: positive
+    file: golden/gs-cc-01-queue-overflow.md
+    origin: synthetic
+    confirmed_by: none
+    artifact_class: A-BCREQ
+    format_class: F-APPROVAL
+    projection: V-APPROVE
+    product_profile: P-SETTINGS
+    expect:
+      outcome: completed
+      slots_present_all: true
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SETTINGS, S-UI, S-SCENARIO, S-AC, S-NFR, S-LIMITS, S-TRACE]
+      empty_with_reason:
+        S-OPEN: "открытых вопросов нет"
+        S-INTEGRATION: "нет по продукту"
+      glossary_terms: [Входящие, Очередь, SLA]
+      trace_nonempty: true
+  - id: GS-CC-02
+    kind: positive
+    file: golden/gs-cc-02-report-export.md
+    origin: synthetic
+    confirmed_by: none
+    artifact_class: A-BCREQ
+    format_class: F-SHORT
+    projection: V-BIZ
+    product_profile: P-NO-SETTINGS
+    expect:
+      outcome: completed
+      slots_present_all: true
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SCENARIO, S-AC, S-LIMITS, S-OPEN, S-TRACE]
+      empty_with_reason:
+        S-SETTINGS: "нет по продукту"
+        S-UI: "нет в источнике"
+        S-NFR: "в источнике нет требований к качеству"
+        S-INTEGRATION: "нет по продукту"
+      glossary_terms: [AHT]
+      trace_nonempty: true
+  - id: GS-CC-NEG-01
+    kind: negative
+    file: golden/gs-cc-neg-01-inbound-vs-outbound.md
+    origin: synthetic
+    confirmed_by: none
+    glossary_pair: [TRM-INBOUND, TRM-OUTBOUND]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_skill: context-extraction-contact-center
+      reason: "термин входа близок к двум значениям словаря, источник не позволяет выбрать одно"
+      artifact_produced: false
+      # Если прогон всё же дошёл до документа, допустимое прохождение —
+      # явный статус каждого понятия пары в слоте S-LIMITS.
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Входящие, ИО]
+        allowed_statuses: [включено, исключено, не применимо]
+  - id: GS-CC-NEG-02
+    kind: negative
+    file: golden/gs-cc-neg-02-queue-vs-group.md
+    origin: synthetic
+    confirmed_by: none
+    glossary_pair: [TRM-QUEUE, TRM-GROUP]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_skill: context-extraction-contact-center
+      reason: "предмет лимита близок к двум значениям словаря, источник не позволяет выбрать один"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Очередь, Группа]
+        allowed_statuses: [включено, исключено, не применимо]
+  - id: GS-CC-NEG-03
+    kind: negative
+    file: golden/gs-cc-neg-03-sla-vs-aht.md
+    origin: synthetic
+    confirmed_by: none
+    glossary_pair: [TRM-SLA, TRM-AHT]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_skill: context-extraction-contact-center
+      reason: "измеряемая величина близка к двум значениям словаря, единица измерения различить их не позволяет"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [SLA, AHT]
+        allowed_statuses: [включено, исключено, не применимо]
+        source_tier_required: ST-4-HUMAN   # статус «включено» допустим только со ссылкой на ответ Заказчика
+  - id: GS-CC-NEG-04
+    kind: negative
+    file: golden/gs-cc-neg-04-ivr-vs-announcer.md
+    origin: synthetic
+    confirmed_by: none
+    glossary_pair: [TRM-IVR, TRM-ANNOUNCER]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_skill: context-extraction-contact-center
+      reason: "сценарий описан признаками двух разных понятий словаря одновременно"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [IVR, Автоинформатор]
+        allowed_statuses: [включено, исключено, не применимо]

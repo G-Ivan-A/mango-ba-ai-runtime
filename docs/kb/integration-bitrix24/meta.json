@@ -1,0 +1,5049 @@
+{
+  "body_font_size": 12.0,
+  "body_font_sizes": [
+    12.0
+  ],
+  "doc_code": "INTB24",
+  "doc_title": "Интеграция Виртуальной АТС и Битрикс24. Инструкция по настройке",
+  "doc_version": "03.03.2026",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 221,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Инструкция по настройке интеграции виртуальной АТС Mango Office с CRM Битрикс24. Описывает подключение, настройку синхронизации данных, управление звонками и использование телефонных функций внутри Битрикс24.",
+  "page_count": 178,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 192,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-4",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-4",
+          "pages": "1-4",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 1476
+    },
+    {
+      "file": "sections/01-nachalo-raboty-s-integraciey.md",
+      "number": "1",
+      "order": "01",
+      "pages": "4",
+      "pdf_heading": "1 Начало работы с интеграцией",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Начало работы с интеграцией",
+      "tokens": 89
+    },
+    {
+      "file": "sections/02-kak-nastroit-integraciyu.md",
+      "number": "1.1",
+      "order": "02",
+      "pages": "4",
+      "pdf_heading": "1.1 Как настроить интеграцию",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить интеграцию",
+      "tokens": 72
+    },
+    {
+      "file": "sections/03-podgotovka.md",
+      "number": "1.1",
+      "order": "03",
+      "pages": "4",
+      "pdf_heading": "Подготовка",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Подготовка",
+      "tokens": 485
+    },
+    {
+      "file": "sections/04-poryadok-deystviy.md",
+      "number": "1.1",
+      "order": "04",
+      "pages": "4-5",
+      "pdf_heading": "Порядок действий",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "4-5",
+          "pages": "4-5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Порядок действий",
+      "tokens": 646
+    },
+    {
+      "file": "sections/05-shag-1-podklyuchite-virtualnuyu-ats-mang.md",
+      "number": "1.1",
+      "order": "05",
+      "pages": "5",
+      "pdf_heading": "Шаг 1. Подключите Виртуальную АТС MANGO OFFICE",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Шаг 1. Подключите Виртуальную АТС MANGO OFFICE",
+      "tokens": 168
+    },
+    {
+      "file": "sections/06-shag-2-ustanovka-softfona-mango-talker.md",
+      "number": "1.1",
+      "order": "06",
+      "pages": "5",
+      "pdf_heading": "Шаг 2. Установка софтфона Mango Talker",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Шаг 2. Установка софтфона Mango Talker",
+      "tokens": 537
+    },
+    {
+      "file": "sections/07-shag-3-nastroyka-virtualnoy-ats-vybor-pa.md",
+      "number": "1.1",
+      "order": "07",
+      "pages": "5-7",
+      "pdf_heading": "Шаг 3. Настройка Виртуальной АТС. Выбор пакета интеграции",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "5-7",
+          "pages": "5-7",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Шаг 3. Настройка Виртуальной АТС. Выбор пакета интеграции",
+      "tokens": 744
+    },
+    {
+      "file": "sections/08-shag-4-ustanovka-prilozheniya-integracii.md",
+      "number": "1.1",
+      "order": "08",
+      "pages": "7-10",
+      "pdf_heading": "Шаг 4. Установка приложения интеграции в Битрикс24",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "7-10",
+          "pages": "7-10",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Шаг 4. Установка приложения интеграции в Битрикс24",
+      "tokens": 934
+    },
+    {
+      "file": "sections/09-shag-5-sopostavlenie-sotrudnikov-virtual.md",
+      "number": "1.1",
+      "order": "09",
+      "pages": "10",
+      "pdf_heading": "Шаг 5. Сопоставление сотрудников Виртуальной АТС и Битрикс24",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "10",
+          "pages": "10",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Шаг 5. Сопоставление сотрудников Виртуальной АТС и Битрикс24",
+      "tokens": 147
+    },
+    {
+      "file": "sections/10-obschee.md",
+      "number": "1.1",
+      "order": "10",
+      "pages": "10-11",
+      "pdf_heading": "Общее",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "10-11",
+          "pages": "10-11",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 790
+    },
+    {
+      "file": "sections/11-kak-nastroit-sopostavlenie-sotrudnikov.md",
+      "number": "1.1",
+      "order": "11",
+      "pages": "11-13",
+      "pdf_heading": "Как настроить сопоставление сотрудников",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "11-13",
+          "pages": "11-13",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить сопоставление сотрудников",
+      "tokens": 614
+    },
+    {
+      "file": "sections/12-kak-sohranyat-vse-zvonki-v-bitriks24-obo.md",
+      "number": "1.1",
+      "order": "12",
+      "pages": "13-14",
+      "pdf_heading": "Как сохранять все звонки в Битрикс24. Обобщенно",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как сохранять все звонки в Битрикс24. Обобщенно",
+      "tokens": 399
+    },
+    {
+      "file": "sections/13-kak-vklyuchit-peredachu-dannyh-po-ne-zvo.md",
+      "number": "1.1",
+      "order": "13",
+      "pages": "14",
+      "pdf_heading": "Как включить передачу данных по “не звонковым” обращениям",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "14",
+          "pages": "14",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить передачу данных по “не звонковым” обращениям",
+      "tokens": 364
+    },
+    {
+      "file": "sections/14-kak-posmotret-spiski-sotrudnikov-vats-i.md",
+      "number": "1.1",
+      "order": "14",
+      "pages": "14-15",
+      "pdf_heading": "Как посмотреть списки сотрудников ВАТС и сотрудников Битрикс24",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "14-15",
+          "pages": "14-15",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как посмотреть списки сотрудников ВАТС и сотрудников Битрикс24",
+      "tokens": 361
+    },
+    {
+      "file": "sections/15-shag-6-proverka-nastroyki-telefonii.md",
+      "number": "1.1",
+      "order": "15",
+      "pages": "15-18",
+      "pdf_heading": "Шаг 6. Проверка настройки телефонии",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "15-18",
+          "pages": "15-18",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Шаг 6. Проверка настройки телефонии",
+      "tokens": 698
+    },
+    {
+      "file": "sections/16-ustanovka-dopolnitelnyh-nastroek-integra.md",
+      "number": "1.1",
+      "order": "16",
+      "pages": "18-19",
+      "pdf_heading": "Установка дополнительных настроек интеграции при подключении расширенного пакета",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "18-19",
+          "pages": "18-19",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Установка дополнительных настроек интеграции при подключении расширенного пакета",
+      "tokens": 219
+    },
+    {
+      "file": "sections/17-raznye-vozmozhnosti-bazovogo-i-rasshiren.md",
+      "number": "1.2",
+      "order": "17",
+      "pages": "19",
+      "pdf_heading": "1.2 Разные возможности базового и расширенного пакетов",
+      "pdf_section": "1.2",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Разные возможности базового и расширенного пакетов",
+      "tokens": 79
+    },
+    {
+      "file": "sections/18-bazovyy-paket.md",
+      "number": "1.2",
+      "order": "18",
+      "pages": "19-20",
+      "pdf_heading": "Базовый пакет",
+      "pdf_section": "1.2",
+      "source_refs": [
+        {
+          "global_pages": "19-20",
+          "pages": "19-20",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Базовый пакет",
+      "tokens": 1297
+    },
+    {
+      "file": "sections/19-rasshirennyy-paket.md",
+      "number": "1.2",
+      "order": "19",
+      "pages": "20-22",
+      "pdf_heading": "Расширенный пакет",
+      "pdf_section": "1.2",
+      "source_refs": [
+        {
+          "global_pages": "20-22",
+          "pages": "20-22",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Расширенный пакет",
+      "tokens": 1905
+    },
+    {
+      "file": "sections/20-kak-proverit-chto-dannye-o-zvonkah-pered.md",
+      "number": "1.3",
+      "order": "20",
+      "pages": "22-23",
+      "pdf_heading": "1.3 Как проверить, что данные о звонках передаются в Битрикс24",
+      "pdf_section": "1.3",
+      "source_refs": [
+        {
+          "global_pages": "22-23",
+          "pages": "22-23",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как проверить, что данные о звонках передаются в Битрикс24",
+      "tokens": 901
+    },
+    {
+      "file": "sections/21-kak-otobrazhayutsya-dannye-o-zvonke-v-bi.md",
+      "number": "1.4",
+      "order": "21",
+      "pages": "23",
+      "pdf_heading": "1.4 Как отображаются данные о звонке в Битрикс24. Обобщенно",
+      "pdf_section": "1.4",
+      "source_refs": [
+        {
+          "global_pages": "23",
+          "pages": "23",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как отображаются данные о звонке в Битрикс24. Обобщенно",
+      "tokens": 286
+    },
+    {
+      "file": "sections/22-kak-pozvonit-ili-prinyat-zvonok.md",
+      "number": "1.5",
+      "order": "22",
+      "pages": "23-25",
+      "pdf_heading": "1.5 Как позвонить или принять звонок",
+      "pdf_section": "1.5",
+      "source_refs": [
+        {
+          "global_pages": "23-25",
+          "pages": "23-25",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как позвонить или принять звонок",
+      "tokens": 487
+    },
+    {
+      "file": "sections/23-nastroyki-prilozheniya-integracii-s-bitr.md",
+      "number": "2",
+      "order": "23",
+      "pages": "25",
+      "pdf_heading": "2 Настройки приложения интеграции с Битрикс24",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "25",
+          "pages": "25",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройки приложения интеграции с Битрикс24",
+      "tokens": 124
+    },
+    {
+      "file": "sections/24-kak-otkryt-formu-nastroyki-prilozheniya.md",
+      "number": "2.1",
+      "order": "24",
+      "pages": "25-27",
+      "pdf_heading": "2.1 Как открыть форму настройки приложения",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "25-27",
+          "pages": "25-27",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как открыть форму настройки приложения",
+      "tokens": 383
+    },
+    {
+      "file": "sections/25-nastroyka-sohranyat-vse-zvonki-ili-kak-s.md",
+      "number": "2.2",
+      "order": "25",
+      "pages": "27",
+      "pdf_heading": "2.2 Настройка “Сохранять все звонки” или как сохраняются звонки сотрудников, не указанных в таблице сопоставления",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "27",
+          "pages": "27",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройка “Сохранять все звонки” или как сохраняются звонки сотрудников, не указанных в таблице сопоставления",
+      "tokens": 160
+    },
+    {
+      "file": "sections/26-obschee.md",
+      "number": "2.2",
+      "order": "26",
+      "pages": "27",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "27",
+          "pages": "27",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 285
+    },
+    {
+      "file": "sections/27-podrobno-ob-osobennostyah-raboty.md",
+      "number": "2.2",
+      "order": "27",
+      "pages": "27-29",
+      "pdf_heading": "Подробно об особенностях работы",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "27-29",
+          "pages": "27-29",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Подробно об особенностях работы",
+      "tokens": 1600
+    },
+    {
+      "file": "sections/28-kak-vklyuchit-nastroyku.md",
+      "number": "2.2",
+      "order": "28",
+      "pages": "29-30",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "29-30",
+          "pages": "29-30",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 306
+    },
+    {
+      "file": "sections/29-obrabotka-vhodyaschih-zvonkov.md",
+      "number": "2.3",
+      "order": "29",
+      "pages": "30",
+      "pdf_heading": "2.3 Обработка входящих звонков",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "30",
+          "pages": "30",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обработка входящих звонков",
+      "tokens": 72
+    },
+    {
+      "file": "sections/30-avtomaticheski-sozdavat-lid-i-delo-pri-v.md",
+      "number": "2.3",
+      "order": "30",
+      "pages": "30-32",
+      "pdf_heading": "Автоматически создавать лид и дело при входящих звонках",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "30-32",
+          "pages": "30-32",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Автоматически создавать лид и дело при входящих звонках",
+      "tokens": 648
+    },
+    {
+      "file": "sections/31-ukazyvat-istochnik-pri-vhodyaschih-zvonk.md",
+      "number": "2.3",
+      "order": "31",
+      "pages": "32",
+      "pdf_heading": "Указывать источник при входящих звонках",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "32",
+          "pages": "32",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Указывать источник при входящих звонках",
+      "tokens": 74
+    },
+    {
+      "file": "sections/32-na-chto-vliyaet-eta-nastroyka.md",
+      "number": "2.3",
+      "order": "32",
+      "pages": "32-33",
+      "pdf_heading": "На что влияет эта настройка",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "32-33",
+          "pages": "32-33",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "На что влияет эта настройка",
+      "tokens": 475
+    },
+    {
+      "file": "sections/33-trebovaniya.md",
+      "number": "2.3",
+      "order": "33",
+      "pages": "33-34",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "33-34",
+          "pages": "33-34",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 166
+    },
+    {
+      "file": "sections/34-kak-nastroit-spravochnik-istochnikov.md",
+      "number": "2.3",
+      "order": "34",
+      "pages": "34-38",
+      "pdf_heading": "Как настроить справочник источников",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "34-38",
+          "pages": "34-38",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить справочник источников",
+      "tokens": 853
+    },
+    {
+      "file": "sections/35-kak-vklyuchit-nastroyku.md",
+      "number": "2.3",
+      "order": "35",
+      "pages": "38-39",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "38-39",
+          "pages": "38-39",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 432
+    },
+    {
+      "file": "sections/36-obnovlyat-otvetstvennogo-pri-perevodah-v.md",
+      "number": "2.3",
+      "order": "36",
+      "pages": "39",
+      "pdf_heading": "Обновлять ответственного при переводах входящих вызовов",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "39",
+          "pages": "39",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обновлять ответственного при переводах входящих вызовов",
+      "tokens": 118
+    },
+    {
+      "file": "sections/37-na-chto-vliyaet-eta-nastroyka.md",
+      "number": "2.3",
+      "order": "37",
+      "pages": "39",
+      "pdf_heading": "На что влияет эта настройка",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "39",
+          "pages": "39",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "На что влияет эта настройка",
+      "tokens": 314
+    },
+    {
+      "file": "sections/38-kak-vklyuchit-nastroyku.md",
+      "number": "2.3",
+      "order": "38",
+      "pages": "39-40",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "39-40",
+          "pages": "39-40",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 285
+    },
+    {
+      "file": "sections/39-ukazat-otvetstvennogo-pri-propuschennyh.md",
+      "number": "2.3",
+      "order": "39",
+      "pages": "40",
+      "pdf_heading": "Указать ответственного при пропущенных звонках в группу",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "40",
+          "pages": "40",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Указать ответственного при пропущенных звонках в группу",
+      "tokens": 77
+    },
+    {
+      "file": "sections/40-trebovaniya.md",
+      "number": "2.3",
+      "order": "40",
+      "pages": "40",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "40",
+          "pages": "40",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 125
+    },
+    {
+      "file": "sections/41-na-chto-vliyaet-eta-nastroyka.md",
+      "number": "2.3",
+      "order": "41",
+      "pages": "40",
+      "pdf_heading": "На что влияет эта настройка",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "40",
+          "pages": "40",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "На что влияет эта настройка",
+      "tokens": 221
+    },
+    {
+      "file": "sections/42-vot-kak-vklyuchit-nastroyku.md",
+      "number": "2.3",
+      "order": "42",
+      "pages": "40-41",
+      "pdf_heading": "Вот как включить настройку",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "40-41",
+          "pages": "40-41",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Вот как включить настройку",
+      "tokens": 329
+    },
+    {
+      "file": "sections/43-ukazat-otvetstvennogo-pri-propuschennyh.md",
+      "number": "2.3",
+      "order": "43",
+      "pages": "41",
+      "pdf_heading": "Указать ответственного при пропущенных звонках в IVR",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "41",
+          "pages": "41",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Указать ответственного при пропущенных звонках в IVR",
+      "tokens": 76
+    },
+    {
+      "file": "sections/44-trebovaniya.md",
+      "number": "2.3",
+      "order": "44",
+      "pages": "41",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "41",
+          "pages": "41",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 125
+    },
+    {
+      "file": "sections/45-na-chto-vliyaet-eta-nastroyka.md",
+      "number": "2.3",
+      "order": "45",
+      "pages": "41",
+      "pdf_heading": "На что влияет эта настройка",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "41",
+          "pages": "41",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "На что влияет эта настройка",
+      "tokens": 196
+    },
+    {
+      "file": "sections/46-kak-vklyuchit-nastroyku.md",
+      "number": "2.3",
+      "order": "46",
+      "pages": "41-42",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "41-42",
+          "pages": "41-42",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 325
+    },
+    {
+      "file": "sections/47-integraciya-s-dinamicheskim-kolltrekingo.md",
+      "number": "2.3",
+      "order": "47",
+      "pages": "42",
+      "pdf_heading": "Интеграция с Динамическим коллтрекингом",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Интеграция с Динамическим коллтрекингом",
+      "tokens": 76
+    },
+    {
+      "file": "sections/48-obschee.md",
+      "number": "2.3",
+      "order": "48",
+      "pages": "42",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 404
+    },
+    {
+      "file": "sections/49-chto-eto-daet.md",
+      "number": "2.3",
+      "order": "49",
+      "pages": "42-43",
+      "pdf_heading": "Что это дает?",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "42-43",
+          "pages": "42-43",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Что это дает?",
+      "tokens": 1053
+    },
+    {
+      "file": "sections/50-vo-vremya-zvonka.md",
+      "number": "2.3",
+      "order": "50",
+      "pages": "43-45",
+      "pdf_heading": "Во время звонка",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "43-45",
+          "pages": "43-45",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Во время звонка",
+      "tokens": 504
+    },
+    {
+      "file": "sections/51-v-otchetah-i-spiskah-bitriks24.md",
+      "number": "2.3",
+      "order": "51",
+      "pages": "45-46",
+      "pdf_heading": "В отчетах и списках Битрикс24",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "45-46",
+          "pages": "45-46",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "В отчетах и списках Битрикс24",
+      "tokens": 380
+    },
+    {
+      "file": "sections/52-kak-vklyuchit-nastroyku.md",
+      "number": "2.3",
+      "order": "52",
+      "pages": "46-47",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "46-47",
+          "pages": "46-47",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 273
+    },
+    {
+      "file": "sections/53-kak-zagruzit-v-bitriks24-dannye-kolltrek.md",
+      "number": "2.3",
+      "order": "53",
+      "pages": "47",
+      "pdf_heading": "Как загрузить в Битрикс24 данные коллтрекинга о других типах обращений, кроме звонков",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "47",
+          "pages": "47",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как загрузить в Битрикс24 данные коллтрекинга о других типах обращений, кроме звонков",
+      "tokens": 247
+    },
+    {
+      "file": "sections/54-dobavlyat-soobschenie-o-zvonke-sotrudnik.md",
+      "number": "2.3",
+      "order": "54",
+      "pages": "47-48",
+      "pdf_heading": "Добавлять сообщение о звонке сотруднику Битрикс24 в чат",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "47-48",
+          "pages": "47-48",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Добавлять сообщение о звонке сотруднику Битрикс24 в чат",
+      "tokens": 629
+    },
+    {
+      "file": "sections/55-umnye-algoritmy-raspredeleniya-vhodyasch.md",
+      "number": "2.3",
+      "order": "55",
+      "pages": "48",
+      "pdf_heading": "Умные алгоритмы распределения входящих вызовов",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "48",
+          "pages": "48",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Умные алгоритмы распределения входящих вызовов",
+      "tokens": 77
+    },
+    {
+      "file": "sections/56-obzor.md",
+      "number": "2.3",
+      "order": "56",
+      "pages": "48-49",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "48-49",
+          "pages": "48-49",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 825
+    },
+    {
+      "file": "sections/57-predvaritelnye-deystviya-vklyuchenie-zvu.md",
+      "number": "2.3",
+      "order": "57",
+      "pages": "49-50",
+      "pdf_heading": "Предварительные действия. Включение звукового приветствия",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "49-50",
+          "pages": "49-50",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Предварительные действия. Включение звукового приветствия",
+      "tokens": 335
+    },
+    {
+      "file": "sections/58-kak-nastroit-raspredelenie-zvonkov-v-pri.md",
+      "number": "2.3",
+      "order": "58",
+      "pages": "50-53",
+      "pdf_heading": "Как настроить распределение звонков в приложении интеграции",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "50-53",
+          "pages": "50-53",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить распределение звонков в приложении интеграции",
+      "tokens": 1248
+    },
+    {
+      "file": "sections/59-chto-budet-esli-v-sheme-raspredeleniya-n.md",
+      "number": "2.3",
+      "order": "59",
+      "pages": "53-54",
+      "pdf_heading": "Что будет, если в схеме распределения не включен параметр \"ожидать окончания\" или отсутствует звуковое приветствие",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "53-54",
+          "pages": "53-54",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Что будет, если в схеме распределения не включен параметр \"ожидать окончания\" или отсутствует звуковое приветствие",
+      "tokens": 683
+    },
+    {
+      "file": "sections/60-znachenie-pereadresovyvat-na-otvetstvenn.md",
+      "number": "2.3",
+      "order": "60",
+      "pages": "54-56",
+      "pdf_heading": "Значение \"Переадресовывать на ответственного и переадресовывать далее на номер, если нет ответа\"",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "54-56",
+          "pages": "54-56",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Значение \"Переадресовывать на ответственного и переадресовывать далее на номер, если нет ответа\"",
+      "tokens": 866
+    },
+    {
+      "file": "sections/61-primery-nastroyki-pravil-umnogo-algoritm.md",
+      "number": "2.3",
+      "order": "61",
+      "pages": "56-61",
+      "pdf_heading": "Примеры настройки правил умного алгоритма распределения",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "56-61",
+          "pages": "56-61",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Примеры настройки правил умного алгоритма распределения",
+      "tokens": 1344
+    },
+    {
+      "file": "sections/62-nastroyka-raspisaniya-raboty-umnyh-pravi.md",
+      "number": "2.3",
+      "order": "62",
+      "pages": "61",
+      "pdf_heading": "Настройка расписания работы умных правил",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "61",
+          "pages": "61",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройка расписания работы умных правил",
+      "tokens": 352
+    },
+    {
+      "file": "sections/63-filtrovat-vhodyaschie-zvonki-po-liniyam.md",
+      "number": "2.3",
+      "order": "63",
+      "pages": "61-63",
+      "pdf_heading": "Фильтровать входящие звонки по линиям",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "61-63",
+          "pages": "61-63",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Фильтровать входящие звонки по линиям",
+      "tokens": 736
+    },
+    {
+      "file": "sections/64-sovershenie-ishodyaschih-zvonkov.md",
+      "number": "2.4",
+      "order": "64",
+      "pages": "63",
+      "pdf_heading": "2.4 Совершение исходящих звонков",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "63",
+          "pages": "63",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Совершение исходящих звонков",
+      "tokens": 75
+    },
+    {
+      "file": "sections/65-avtomaticheskiy-priem-pri-ishodyaschem-z.md",
+      "number": "2.4",
+      "order": "65",
+      "pages": "63-64",
+      "pdf_heading": "Автоматический прием при исходящем звонке",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "63-64",
+          "pages": "63-64",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Автоматический прием при исходящем звонке",
+      "tokens": 604
+    },
+    {
+      "file": "sections/66-perezvanivat-s-nomera-na-kotoryy-zvonil.md",
+      "number": "2.4",
+      "order": "66",
+      "pages": "64",
+      "pdf_heading": "Перезванивать с номера, на который звонил Клиент",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "64",
+          "pages": "64",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Перезванивать с номера, на который звонил Клиент",
+      "tokens": 75
+    },
+    {
+      "file": "sections/67-obzor.md",
+      "number": "2.4",
+      "order": "67",
+      "pages": "64",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "64",
+          "pages": "64",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 551
+    },
+    {
+      "file": "sections/68-kak-vklyuchit-nastroyku.md",
+      "number": "2.4",
+      "order": "68",
+      "pages": "64-65",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "64-65",
+          "pages": "64-65",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 293
+    },
+    {
+      "file": "sections/69-otpravka-sms.md",
+      "number": "2.5",
+      "order": "69",
+      "pages": "65",
+      "pdf_heading": "2.5 Отправка SMS",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "65",
+          "pages": "65",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Отправка SMS",
+      "tokens": 65
+    },
+    {
+      "file": "sections/70-sms-vizitka.md",
+      "number": "2.5",
+      "order": "70",
+      "pages": "65",
+      "pdf_heading": "SMS-визитка",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "65",
+          "pages": "65",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "SMS-визитка",
+      "tokens": 61
+    },
+    {
+      "file": "sections/71-obzor.md",
+      "number": "2.5",
+      "order": "71",
+      "pages": "65-66",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "65-66",
+          "pages": "65-66",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 550
+    },
+    {
+      "file": "sections/72-kak-vklyuchit-i-nastroit.md",
+      "number": "2.5",
+      "order": "72",
+      "pages": "66-68",
+      "pdf_heading": "Как включить и настроить",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "66-68",
+          "pages": "66-68",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить и настроить",
+      "tokens": 1073
+    },
+    {
+      "file": "sections/73-otpravka-sms-vruchnuyu-iz-kartochki-lida.md",
+      "number": "2.5",
+      "order": "73",
+      "pages": "68",
+      "pdf_heading": "Отправка SMS вручную из карточки лида/контакта/сделки",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "68",
+          "pages": "68",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Отправка SMS вручную из карточки лида/контакта/сделки",
+      "tokens": 81
+    },
+    {
+      "file": "sections/74-obzor.md",
+      "number": "2.5",
+      "order": "74",
+      "pages": "68-70",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "68-70",
+          "pages": "68-70",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 578
+    },
+    {
+      "file": "sections/75-kak-vklyuchit-vozmozhnost-otpravki-sms.md",
+      "number": "2.5",
+      "order": "75",
+      "pages": "70",
+      "pdf_heading": "Как включить возможность отправки sms",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "70",
+          "pages": "70",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить возможность отправки sms",
+      "tokens": 187
+    },
+    {
+      "file": "sections/76-sms-rassylka.md",
+      "number": "2.6",
+      "order": "76",
+      "pages": "70",
+      "pdf_heading": "2.6 SMS-рассылка",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "70",
+          "pages": "70",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "SMS-рассылка",
+      "tokens": 67
+    },
+    {
+      "file": "sections/77-obzor.md",
+      "number": "2.6",
+      "order": "77",
+      "pages": "70",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "70",
+          "pages": "70",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 171
+    },
+    {
+      "file": "sections/78-trebovaniya.md",
+      "number": "2.6",
+      "order": "78",
+      "pages": "70-71",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "70-71",
+          "pages": "70-71",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 200
+    },
+    {
+      "file": "sections/79-kak-vklyuchit-nastroyku.md",
+      "number": "2.6",
+      "order": "79",
+      "pages": "71",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "71",
+          "pages": "71",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 173
+    },
+    {
+      "file": "sections/80-kak-otpravit-sms-rassylku.md",
+      "number": "2.6",
+      "order": "80",
+      "pages": "71-74",
+      "pdf_heading": "Как отправить sms-рассылку",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "71-74",
+          "pages": "71-74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как отправить sms-рассылку",
+      "tokens": 508
+    },
+    {
+      "file": "sections/81-sms-uvedomleniya-iz-robotov-prodazh-proc.md",
+      "number": "2.7",
+      "order": "81",
+      "pages": "74",
+      "pdf_heading": "2.7 SMS уведомления из роботов продаж/процессов",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "74",
+          "pages": "74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "SMS уведомления из роботов продаж/процессов",
+      "tokens": 79
+    },
+    {
+      "file": "sections/82-obzor.md",
+      "number": "2.7",
+      "order": "82",
+      "pages": "74",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "74",
+          "pages": "74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 238
+    },
+    {
+      "file": "sections/83-kak-vklyuchit-nastroyku.md",
+      "number": "2.7",
+      "order": "83",
+      "pages": "74-75",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "74-75",
+          "pages": "74-75",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 218
+    },
+    {
+      "file": "sections/84-kak-nastroit-uvedomlenie-v-robotah-i-biz.md",
+      "number": "2.7",
+      "order": "84",
+      "pages": "75-78",
+      "pdf_heading": "Как настроить уведомление в роботах и бизнес-процессах",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "75-78",
+          "pages": "75-78",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить уведомление в роботах и бизнес-процессах",
+      "tokens": 762
+    },
+    {
+      "file": "sections/85-otobrazhat-sdelki-v-kartochke-zvonka.md",
+      "number": "2.8",
+      "order": "85",
+      "pages": "78-79",
+      "pdf_heading": "2.8 Отображать сделки в карточке звонка",
+      "pdf_section": "2.8",
+      "source_refs": [
+        {
+          "global_pages": "78-79",
+          "pages": "78-79",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Отображать сделки в карточке звонка",
+      "tokens": 368
+    },
+    {
+      "file": "sections/86-podderzhivat-obratnye-zvonki-ot-bitriks2.md",
+      "number": "2.9",
+      "order": "86",
+      "pages": "79",
+      "pdf_heading": "2.9 Поддерживать обратные звонки от Битрикс24",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "79",
+          "pages": "79",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Поддерживать обратные звонки от Битрикс24",
+      "tokens": 80
+    },
+    {
+      "file": "sections/87-kak-eto-rabotaet.md",
+      "number": "2.9",
+      "order": "87",
+      "pages": "79",
+      "pdf_heading": "Как это работает",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "79",
+          "pages": "79",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как это работает",
+      "tokens": 495
+    },
+    {
+      "file": "sections/88-ogranicheniya.md",
+      "number": "2.9",
+      "order": "88",
+      "pages": "79-80",
+      "pdf_heading": "Ограничения",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "79-80",
+          "pages": "79-80",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Ограничения",
+      "tokens": 271
+    },
+    {
+      "file": "sections/89-kak-vklyuchit-ili-vyklyuchit-podderzhku.md",
+      "number": "2.9",
+      "order": "89",
+      "pages": "80-81",
+      "pdf_heading": "Как включить или выключить поддержку обратных звонков",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "80-81",
+          "pages": "80-81",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить или выключить поддержку обратных звонков",
+      "tokens": 324
+    },
+    {
+      "file": "sections/90-integraciya-s-rechevoy-analitikoy.md",
+      "number": "2.10",
+      "order": "90",
+      "pages": "81",
+      "pdf_heading": "2.10 Интеграция с речевой аналитикой",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "81",
+          "pages": "81",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Интеграция с речевой аналитикой",
+      "tokens": 77
+    },
+    {
+      "file": "sections/91-pered-nachalom-raboty.md",
+      "number": "2.10",
+      "order": "91",
+      "pages": "81",
+      "pdf_heading": "Перед началом работы",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "81",
+          "pages": "81",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Перед началом работы",
+      "tokens": 296
+    },
+    {
+      "file": "sections/92-sohranenie-tematik-razgovorov.md",
+      "number": "2.10",
+      "order": "92",
+      "pages": "81",
+      "pdf_heading": "Сохранение тематик разговоров",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "81",
+          "pages": "81",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Сохранение тематик разговоров",
+      "tokens": 68
+    },
+    {
+      "file": "sections/93-obschie-svedeniya.md",
+      "number": "2.10",
+      "order": "93",
+      "pages": "81-82",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "81-82",
+          "pages": "81-82",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 761
+    },
+    {
+      "file": "sections/94-kak-eto-rabotaet.md",
+      "number": "2.10",
+      "order": "94",
+      "pages": "82",
+      "pdf_heading": "Как это работает",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "82",
+          "pages": "82",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как это работает",
+      "tokens": 509
+    },
+    {
+      "file": "sections/95-kak-vklyuchit-sohranenie-tematik.md",
+      "number": "2.10",
+      "order": "95",
+      "pages": "82-84",
+      "pdf_heading": "Как включить сохранение тематик",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "82-84",
+          "pages": "82-84",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить сохранение тематик",
+      "tokens": 375
+    },
+    {
+      "file": "sections/96-kak-posmotret-tematiku-razgovora.md",
+      "number": "2.10",
+      "order": "96",
+      "pages": "84",
+      "pdf_heading": "Как посмотреть тематику разговора",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "84",
+          "pages": "84",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как посмотреть тематику разговора",
+      "tokens": 196
+    },
+    {
+      "file": "sections/97-sohranenie-tekstov-rechevoy-analitiki.md",
+      "number": "2.10",
+      "order": "97",
+      "pages": "84",
+      "pdf_heading": "Сохранение текстов Речевой аналитики",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "84",
+          "pages": "84",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Сохранение текстов Речевой аналитики",
+      "tokens": 71
+    },
+    {
+      "file": "sections/98-obschie-svedeniya.md",
+      "number": "2.10",
+      "order": "98",
+      "pages": "84-85",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "84-85",
+          "pages": "84-85",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 506
+    },
+    {
+      "file": "sections/99-kak-nastroit.md",
+      "number": "2.10",
+      "order": "99",
+      "pages": "85-86",
+      "pdf_heading": "Как настроить",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "85-86",
+          "pages": "85-86",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить",
+      "tokens": 278
+    },
+    {
+      "file": "sections/100-kak-posmotret-raspoznannyy-tekst.md",
+      "number": "2.10",
+      "order": "100",
+      "pages": "86-87",
+      "pdf_heading": "Как посмотреть распознанный текст",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "86-87",
+          "pages": "86-87",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как посмотреть распознанный текст",
+      "tokens": 267
+    },
+    {
+      "file": "sections/101-peredacha-dannyh-v-rechevuyu-analitiku.md",
+      "number": "2.10",
+      "order": "101",
+      "pages": "87-88",
+      "pdf_heading": "Передача данных в Речевую аналитику",
+      "pdf_section": "2.10",
+      "source_refs": [
+        {
+          "global_pages": "87-88",
+          "pages": "87-88",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Передача данных в Речевую аналитику",
+      "tokens": 497
+    },
+    {
+      "file": "sections/102-obrabotka-vhodyaschih-vebhukov.md",
+      "number": "2.11",
+      "order": "102",
+      "pages": "88",
+      "pdf_heading": "2.11 Обработка входящих вебхуков",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "88",
+          "pages": "88",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обработка входящих вебхуков",
+      "tokens": 73
+    },
+    {
+      "file": "sections/103-tipy-vebhukov.md",
+      "number": "2.11",
+      "order": "103",
+      "pages": "88",
+      "pdf_heading": "Типы вебхуков",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "88",
+          "pages": "88",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Типы вебхуков",
+      "tokens": 659
+    },
+    {
+      "file": "sections/104-avtoperezvon-cherez-vebhuk.md",
+      "number": "2.11",
+      "order": "104",
+      "pages": "88",
+      "pdf_heading": "Автоперезвон через вебхук",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "88",
+          "pages": "88",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Автоперезвон через вебхук",
+      "tokens": 69
+    },
+    {
+      "file": "sections/105-obzor.md",
+      "number": "2.11",
+      "order": "105",
+      "pages": "88-89",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "88-89",
+          "pages": "88-89",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 456
+    },
+    {
+      "file": "sections/106-kak-vklyuchit-avtoperezvon-cherez-vebhuk.md",
+      "number": "2.11",
+      "order": "106",
+      "pages": "89-90",
+      "pdf_heading": "Как включить автоперезвон через вебхук",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "89-90",
+          "pages": "89-90",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить автоперезвон через вебхук",
+      "tokens": 442
+    },
+    {
+      "file": "sections/107-peremeschenie-sdelok-v-bitriks24-cherez.md",
+      "number": "2.11",
+      "order": "107",
+      "pages": "90",
+      "pdf_heading": "Перемещение сделок в Битрикс24 через вебхук",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "90",
+          "pages": "90",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Перемещение сделок в Битрикс24 через вебхук",
+      "tokens": 76
+    },
+    {
+      "file": "sections/108-obschee.md",
+      "number": "2.11",
+      "order": "108",
+      "pages": "90-91",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "90-91",
+          "pages": "90-91",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 652
+    },
+    {
+      "file": "sections/109-nastroyka-vebhuka-v-prilozhenii-integrac.md",
+      "number": "2.11",
+      "order": "109",
+      "pages": "91-94",
+      "pdf_heading": "Настройка вебхука в приложении интеграции Битрикс24",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "91-94",
+          "pages": "91-94",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройка вебхука в приложении интеграции Битрикс24",
+      "tokens": 1117
+    },
+    {
+      "file": "sections/110-dobavlenie-vo-vneshnyuyu-sistemu-url-adr.md",
+      "number": "2.11",
+      "order": "110",
+      "pages": "94-95",
+      "pdf_heading": "Добавление во внешнюю систему URL-адреса вебхука перемещения сделок. Общие требования.",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "94-95",
+          "pages": "94-95",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Добавление во внешнюю систему URL-адреса вебхука перемещения сделок. Общие требования.",
+      "tokens": 775
+    },
+    {
+      "file": "sections/111-opisanie-parametrov-vebhuka.md",
+      "number": "2.11",
+      "order": "111",
+      "pages": "95",
+      "pdf_heading": "Описание параметров вебхука",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "95",
+          "pages": "95",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Описание параметров вебхука",
+      "tokens": 151
+    },
+    {
+      "file": "sections/112-dealid.md",
+      "number": "2.11",
+      "order": "112",
+      "pages": "95-96",
+      "pdf_heading": "DealID",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "95-96",
+          "pages": "95-96",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "DealID",
+      "tokens": 214
+    },
+    {
+      "file": "sections/113-result.md",
+      "number": "2.11",
+      "order": "113",
+      "pages": "96",
+      "pdf_heading": "Result",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "96",
+          "pages": "96",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Result",
+      "tokens": 150
+    },
+    {
+      "file": "sections/114-opisanie-dopustimyh-znacheniy-parametra.md",
+      "number": "2.11",
+      "order": "114",
+      "pages": "96-98",
+      "pdf_heading": "Описание допустимых значений параметра Result.",
+      "pdf_section": "2.11",
+      "source_refs": [
+        {
+          "global_pages": "96-98",
+          "pages": "96-98",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Описание допустимых значений параметра Result.",
+      "tokens": 1274
+    },
+    {
+      "file": "sections/115-zagruzhat-otsutstvuyuschie-zvonki-v-crm.md",
+      "number": "2.12",
+      "order": "115",
+      "pages": "98-99",
+      "pdf_heading": "2.12 Загружать отсутствующие звонки в CRM",
+      "pdf_section": "2.12",
+      "source_refs": [
+        {
+          "global_pages": "98-99",
+          "pages": "98-99",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Загружать отсутствующие звонки в CRM",
+      "tokens": 463
+    },
+    {
+      "file": "sections/116-vsplyvayuschie-soobscheniya-ob-oshibkah.md",
+      "number": "2.13",
+      "order": "116",
+      "pages": "99",
+      "pdf_heading": "2.13 Всплывающие сообщения об ошибках в интерфейсе Битрикс24",
+      "pdf_section": "2.13",
+      "source_refs": [
+        {
+          "global_pages": "99",
+          "pages": "99",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Всплывающие сообщения об ошибках в интерфейсе Битрикс24",
+      "tokens": 406
+    },
+    {
+      "file": "sections/117-kak-vklyuchit-ili-vyklyuchit-pokaz-zvonk.md",
+      "number": "2.14",
+      "order": "117",
+      "pages": "99-101",
+      "pdf_heading": "2.14 Как включить или выключить показ звонков в календаре",
+      "pdf_section": "2.14",
+      "source_refs": [
+        {
+          "global_pages": "99-101",
+          "pages": "99-101",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить или выключить показ звонков в календаре",
+      "tokens": 600
+    },
+    {
+      "file": "sections/118-poisk-po-nomeru-telefona-sredi-zapisey-b.md",
+      "number": "2.15",
+      "order": "118",
+      "pages": "101",
+      "pdf_heading": "2.15 Поиск по номеру телефона среди записей Битрикс24 (в приложении)",
+      "pdf_section": "2.15",
+      "source_refs": [
+        {
+          "global_pages": "101",
+          "pages": "101",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Поиск по номеру телефона среди записей Битрикс24 (в приложении)",
+      "tokens": 127
+    },
+    {
+      "file": "sections/119-nomer-drugogo-operatora-podklyuchennyy-k.md",
+      "number": "2.16",
+      "order": "119",
+      "pages": "101",
+      "pdf_heading": "2.16 Номер другого оператора, подключенный к Виртуальной АТС в Личном кабинете MANGO OFFICE",
+      "pdf_section": "2.16",
+      "source_refs": [
+        {
+          "global_pages": "101",
+          "pages": "101",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Номер другого оператора, подключенный к Виртуальной АТС в Личном кабинете MANGO OFFICE",
+      "tokens": 224
+    },
+    {
+      "file": "sections/120-ispolzovanie-sposobov-dozvona-do-sotrudn.md",
+      "number": "2.17",
+      "order": "120",
+      "pages": "101-102",
+      "pdf_heading": "2.17 Использование способов дозвона до сотрудника и алгоритмов дозвона в ЛК",
+      "pdf_section": "2.17",
+      "source_refs": [
+        {
+          "global_pages": "101-102",
+          "pages": "101-102",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Использование способов дозвона до сотрудника и алгоритмов дозвона в ЛК",
+      "tokens": 221
+    },
+    {
+      "file": "sections/121-ispolzovanie-algoritmov-raspredeleniya-v.md",
+      "number": "2.18",
+      "order": "121",
+      "pages": "102",
+      "pdf_heading": "2.18 Использование алгоритмов распределения вызовов",
+      "pdf_section": "2.18",
+      "source_refs": [
+        {
+          "global_pages": "102",
+          "pages": "102",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Использование алгоритмов распределения вызовов",
+      "tokens": 155
+    },
+    {
+      "file": "sections/122-pereklyuchenie-mezhdu-rezhimami-raboty-b.md",
+      "number": "2.19",
+      "order": "122",
+      "pages": "102-104",
+      "pdf_heading": "2.19 Переключение между режимами работы Битрикс24",
+      "pdf_section": "2.19",
+      "source_refs": [
+        {
+          "global_pages": "102-104",
+          "pages": "102-104",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Переключение между режимами работы Битрикс24",
+      "tokens": 643
+    },
+    {
+      "file": "sections/123-nastroyka-otobrazheniya-kartochki-zvonka.md",
+      "number": "2.20",
+      "order": "123",
+      "pages": "104-105",
+      "pdf_heading": "2.20 Настройка отображения карточки звонка",
+      "pdf_section": "2.20",
+      "source_refs": [
+        {
+          "global_pages": "104-105",
+          "pages": "104-105",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройка отображения карточки звонка",
+      "tokens": 538
+    },
+    {
+      "file": "sections/124-integraciya-s-kontakt-centrom-mango-offi.md",
+      "number": "2.22",
+      "order": "124",
+      "pages": "105",
+      "pdf_heading": "2.22 Интеграция с Контакт-центром MANGO OFFICE",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "105",
+          "pages": "105",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Интеграция с Контакт-центром MANGO OFFICE",
+      "tokens": 80
+    },
+    {
+      "file": "sections/125-obzor.md",
+      "number": "2.22",
+      "order": "125",
+      "pages": "105-106",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "105-106",
+          "pages": "105-106",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 344
+    },
+    {
+      "file": "sections/126-trebovaniya.md",
+      "number": "2.22",
+      "order": "126",
+      "pages": "106",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "106",
+          "pages": "106",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 238
+    },
+    {
+      "file": "sections/127-nastroyka-integracii-s-kontakt-centrom-m.md",
+      "number": "2.22",
+      "order": "127",
+      "pages": "106-108",
+      "pdf_heading": "Настройка интеграции с Контакт-центром MANGO OFFICE. Общие инструкции",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "106-108",
+          "pages": "106-108",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройка интеграции с Контакт-центром MANGO OFFICE. Общие инструкции",
+      "tokens": 706
+    },
+    {
+      "file": "sections/128-otpravka-dannyh-o-lide-iz-kontakt-centra.md",
+      "number": "2.22",
+      "order": "128",
+      "pages": "108",
+      "pdf_heading": "Отправка данных о лиде из Контакт-центра MANGO OFFICE",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "108",
+          "pages": "108",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Отправка данных о лиде из Контакт-центра MANGO OFFICE",
+      "tokens": 77
+    },
+    {
+      "file": "sections/129-obzor.md",
+      "number": "2.22",
+      "order": "129",
+      "pages": "108",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "108",
+          "pages": "108",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 252
+    },
+    {
+      "file": "sections/130-trebovaniya.md",
+      "number": "2.22",
+      "order": "130",
+      "pages": "108",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "108",
+          "pages": "108",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 177
+    },
+    {
+      "file": "sections/131-ogranicheniya-importa-dannyh-obrascheniy.md",
+      "number": "2.22",
+      "order": "131",
+      "pages": "108-109",
+      "pdf_heading": "Ограничения импорта данных обращений",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "108-109",
+          "pages": "108-109",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Ограничения импорта данных обращений",
+      "tokens": 400
+    },
+    {
+      "file": "sections/132-import-dannyh-iz-polzovatelskih-poley.md",
+      "number": "2.22",
+      "order": "132",
+      "pages": "109-110",
+      "pdf_heading": "Импорт данных из \"пользовательских\" полей",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "109-110",
+          "pages": "109-110",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Импорт данных из \"пользовательских\" полей",
+      "tokens": 315
+    },
+    {
+      "file": "sections/133-kak-nastroit.md",
+      "number": "2.22",
+      "order": "133",
+      "pages": "110-111",
+      "pdf_heading": "Как настроить",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "110-111",
+          "pages": "110-111",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить",
+      "tokens": 383
+    },
+    {
+      "file": "sections/134-kak-vklyuchit-avtomaticheskoe-sozdanie-k.md",
+      "number": "2.22",
+      "order": "134",
+      "pages": "111-113",
+      "pdf_heading": "Как включить автоматическое создание контактов и сделок в Битрикс24",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "111-113",
+          "pages": "111-113",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить автоматическое создание контактов и сделок в Битрикс24",
+      "tokens": 974
+    },
+    {
+      "file": "sections/135-kak-otpravit-dannye-o-lidah-v-bitriks24.md",
+      "number": "2.22",
+      "order": "135",
+      "pages": "113-115",
+      "pdf_heading": "Как отправить данные о лидах в Битрикс24",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "113-115",
+          "pages": "113-115",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как отправить данные о лидах в Битрикс24",
+      "tokens": 408
+    },
+    {
+      "file": "sections/136-kak-v-bitriks24-posmotret-kontakty-i-sde.md",
+      "number": "2.22",
+      "order": "136",
+      "pages": "115-116",
+      "pdf_heading": "Как в Битрикс24 посмотреть контакты и сделки, созданные по входящему обращению Контакт-центра MANGO OFFICE",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "115-116",
+          "pages": "115-116",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как в Битрикс24 посмотреть контакты и сделки, созданные по входящему обращению Контакт-центра MANGO OFFICE",
+      "tokens": 554
+    },
+    {
+      "file": "sections/137-peredavaemye-dannye.md",
+      "number": "2.22",
+      "order": "137",
+      "pages": "116",
+      "pdf_heading": "Передаваемые данные",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "116",
+          "pages": "116",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Передаваемые данные",
+      "tokens": 62
+    },
+    {
+      "file": "sections/138-sdelka.md",
+      "number": "2.22",
+      "order": "138",
+      "pages": "116",
+      "pdf_heading": "Сделка",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "116",
+          "pages": "116",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Сделка",
+      "tokens": 536
+    },
+    {
+      "file": "sections/139-kontakt.md",
+      "number": "2.22",
+      "order": "139",
+      "pages": "116-117",
+      "pdf_heading": "Контакт",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "116-117",
+          "pages": "116-117",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Контакт",
+      "tokens": 401
+    },
+    {
+      "file": "sections/140-kak-nastroit-peredachu-dialoga-s-kliento.md",
+      "number": "2.22",
+      "order": "140",
+      "pages": "117",
+      "pdf_heading": "Как настроить передачу диалога с Клиентом (чата) из Контакт-Центра MANGO OFFICE в историю коммуникаций Битрикс24",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "117",
+          "pages": "117",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить передачу диалога с Клиентом (чата) из Контакт-Центра MANGO OFFICE в историю коммуникаций Битрикс24",
+      "tokens": 132
+    },
+    {
+      "file": "sections/141-obzor.md",
+      "number": "2.22",
+      "order": "141",
+      "pages": "117",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "117",
+          "pages": "117",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 470
+    },
+    {
+      "file": "sections/142-poryadok-deystviy.md",
+      "number": "2.22",
+      "order": "142",
+      "pages": "117-118",
+      "pdf_heading": "Порядок действий",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "117-118",
+          "pages": "117-118",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Порядок действий",
+      "tokens": 294
+    },
+    {
+      "file": "sections/143-sohranenie-tematik-kontakt-centra-mango.md",
+      "number": "2.22",
+      "order": "143",
+      "pages": "118",
+      "pdf_heading": "Сохранение тематик Контакт-Центра MANGO OFFICE",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "118",
+          "pages": "118",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Сохранение тематик Контакт-Центра MANGO OFFICE",
+      "tokens": 75
+    },
+    {
+      "file": "sections/144-obzor.md",
+      "number": "2.22",
+      "order": "144",
+      "pages": "118-119",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "118-119",
+          "pages": "118-119",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 597
+    },
+    {
+      "file": "sections/145-kak-vklyuchit-nastroyku.md",
+      "number": "2.22",
+      "order": "145",
+      "pages": "119-120",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "119-120",
+          "pages": "119-120",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 255
+    },
+    {
+      "file": "sections/146-kak-posmotret-tematiku-kontakt-centra.md",
+      "number": "2.22",
+      "order": "146",
+      "pages": "120",
+      "pdf_heading": "Как посмотреть тематику Контакт-Центра",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "120",
+          "pages": "120",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как посмотреть тематику Контакт-Центра",
+      "tokens": 181
+    },
+    {
+      "file": "sections/147-avtopostanovka-zadaniya-v-kampaniyu-isho.md",
+      "number": "2.22",
+      "order": "147",
+      "pages": "120",
+      "pdf_heading": "Автопостановка задания в кампанию исходящего обзвона при изменении в воронке продаж. Интеграция с Контакт-центром MANGO OFFICE через вебхуки",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "120",
+          "pages": "120",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Автопостановка задания в кампанию исходящего обзвона при изменении в воронке продаж. Интеграция с Контакт-центром MANGO OFFICE через вебхуки",
+      "tokens": 300
+    },
+    {
+      "file": "sections/148-obzor.md",
+      "number": "2.22",
+      "order": "148",
+      "pages": "120-121",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "120-121",
+          "pages": "120-121",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 505
+    },
+    {
+      "file": "sections/149-ponyatie-tehnicheskiy-task-v-kampanii-is.md",
+      "number": "2.22",
+      "order": "149",
+      "pages": "121-122",
+      "pdf_heading": "Понятие \"Технический таск\" в кампании исходящего обзвона",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "121-122",
+          "pages": "121-122",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Понятие \"Технический таск\" в кампании исходящего обзвона",
+      "tokens": 602
+    },
+    {
+      "file": "sections/150-ogranicheniya.md",
+      "number": "2.22",
+      "order": "150",
+      "pages": "122",
+      "pdf_heading": "Ограничения",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "122",
+          "pages": "122",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Ограничения",
+      "tokens": 464
+    },
+    {
+      "file": "sections/151-kak-nastroit-integraciyu-v-kontakt-centr.md",
+      "number": "2.22",
+      "order": "151",
+      "pages": "122-124",
+      "pdf_heading": "Как настроить интеграцию в Контакт-центром MANGO OFFICE через вебхуки",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "122-124",
+          "pages": "122-124",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как настроить интеграцию в Контакт-центром MANGO OFFICE через вебхуки",
+      "tokens": 598
+    },
+    {
+      "file": "sections/152-kak-dobavit-vebhuki-integracii-v-robota.md",
+      "number": "2.22",
+      "order": "152",
+      "pages": "124-126",
+      "pdf_heading": "Как добавить вебхуки интеграции в робота в Битрик24",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "124-126",
+          "pages": "124-126",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как добавить вебхуки интеграции в робота в Битрик24",
+      "tokens": 528
+    },
+    {
+      "file": "sections/153-skripty-razgovora-s-klientom-v-bitriks24.md",
+      "number": "2.22",
+      "order": "153",
+      "pages": "126",
+      "pdf_heading": "Скрипты разговора с Клиентом в Битрикс24",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "126",
+          "pages": "126",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Скрипты разговора с Клиентом в Битрикс24",
+      "tokens": 77
+    },
+    {
+      "file": "sections/154-skripty.md",
+      "number": "2.22",
+      "order": "154",
+      "pages": "126-127",
+      "pdf_heading": "Скрипты",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "126-127",
+          "pages": "126-127",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Скрипты",
+      "tokens": 507
+    },
+    {
+      "file": "sections/155-trebovaniya.md",
+      "number": "2.22",
+      "order": "155",
+      "pages": "127-128",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "127-128",
+          "pages": "127-128",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 410
+    },
+    {
+      "file": "sections/156-kak-vydat-ili-snyat-prava-dostupa-k-pril.md",
+      "number": "2.22",
+      "order": "156",
+      "pages": "128-130",
+      "pdf_heading": "Как выдать или снять права доступа к приложению интеграции",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "128-130",
+          "pages": "128-130",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как выдать или снять права доступа к приложению интеграции",
+      "tokens": 581
+    },
+    {
+      "file": "sections/157-kak-vklyuchit-ispolzovanie-skriptov-v-pr.md",
+      "number": "2.22",
+      "order": "157",
+      "pages": "130-132",
+      "pdf_heading": "Как включить использование скриптов в приложении",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "130-132",
+          "pages": "130-132",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить использование скриптов в приложении",
+      "tokens": 480
+    },
+    {
+      "file": "sections/158-sohranyat-postzvonkovuyu-ocenku-kachestv.md",
+      "number": "2.22",
+      "order": "158",
+      "pages": "132-133",
+      "pdf_heading": "Сохранять постзвонковую оценку качества",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "132-133",
+          "pages": "132-133",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Сохранять постзвонковую оценку качества",
+      "tokens": 437
+    },
+    {
+      "file": "sections/159-sohranyat-dannye-kampaniy-ishodyaschih-o.md",
+      "number": "2.22",
+      "order": "159",
+      "pages": "133-134",
+      "pdf_heading": "Сохранять данные кампаний исходящих обзвонов Контакт-центра",
+      "pdf_section": "2.22",
+      "source_refs": [
+        {
+          "global_pages": "133-134",
+          "pages": "133-134",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Сохранять данные кампаний исходящих обзвонов Контакт-центра",
+      "tokens": 520
+    },
+    {
+      "file": "sections/160-otpravlyat-whatsapp-soobschenie-pri-prop.md",
+      "number": "2.23",
+      "order": "160",
+      "pages": "134",
+      "pdf_heading": "2.23 Отправлять WhatsApp-сообщение при пропущенном звонке",
+      "pdf_section": "2.23",
+      "source_refs": [
+        {
+          "global_pages": "134",
+          "pages": "134",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Отправлять WhatsApp-сообщение при пропущенном звонке",
+      "tokens": 81
+    },
+    {
+      "file": "sections/161-naznachenie.md",
+      "number": "2.23",
+      "order": "161",
+      "pages": "134",
+      "pdf_heading": "Назначение",
+      "pdf_section": "2.23",
+      "source_refs": [
+        {
+          "global_pages": "134",
+          "pages": "134",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Назначение",
+      "tokens": 243
+    },
+    {
+      "file": "sections/162-princip-raboty.md",
+      "number": "2.23",
+      "order": "162",
+      "pages": "134-135",
+      "pdf_heading": "Принцип работы",
+      "pdf_section": "2.23",
+      "source_refs": [
+        {
+          "global_pages": "134-135",
+          "pages": "134-135",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Принцип работы",
+      "tokens": 673
+    },
+    {
+      "file": "sections/163-kak-vklyuchit.md",
+      "number": "2.23",
+      "order": "163",
+      "pages": "135-137",
+      "pdf_heading": "Как включить",
+      "pdf_section": "2.23",
+      "source_refs": [
+        {
+          "global_pages": "135-137",
+          "pages": "135-137",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как включить",
+      "tokens": 531
+    },
+    {
+      "file": "sections/164-ispolzovanie-servisa-mango-dialogi-dlya.md",
+      "number": "2.24",
+      "order": "164",
+      "pages": "137",
+      "pdf_heading": "2.24 Использование сервиса «Манго Диалоги» для обмена сообщениями",
+      "pdf_section": "2.24",
+      "source_refs": [
+        {
+          "global_pages": "137",
+          "pages": "137",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Использование сервиса «Манго Диалоги» для обмена сообщениями",
+      "tokens": 91
+    },
+    {
+      "file": "sections/165-naznachenie-integracii.md",
+      "number": "2.24.1",
+      "order": "165",
+      "pages": "137",
+      "pdf_heading": "2.24.1 Назначение интеграции",
+      "pdf_section": "2.24.1",
+      "source_refs": [
+        {
+          "global_pages": "137",
+          "pages": "137",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Назначение интеграции",
+      "tokens": 458
+    },
+    {
+      "file": "sections/166-podklyuchenie-mango-dialogov-v-lk-vats.md",
+      "number": "2.24.2",
+      "order": "166",
+      "pages": "137",
+      "pdf_heading": "2.24.2 Подключение Манго Диалогов в ЛК ВАТС",
+      "pdf_section": "2.24.2",
+      "source_refs": [
+        {
+          "global_pages": "137",
+          "pages": "137",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Подключение Манго Диалогов в ЛК ВАТС",
+      "tokens": 238
+    },
+    {
+      "file": "sections/167-podklyuchenie-kanalov-mango-dialogi-v-lk.md",
+      "number": "2.24.3",
+      "order": "167",
+      "pages": "137-139",
+      "pdf_heading": "2.24.3 Подключение каналов «Манго Диалоги» в ЛК ВАТС",
+      "pdf_section": "2.24.3",
+      "source_refs": [
+        {
+          "global_pages": "137-139",
+          "pages": "137-139",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Подключение каналов «Манго Диалоги» в ЛК ВАТС",
+      "tokens": 777
+    },
+    {
+      "file": "sections/168-aktiviruyte-ispolzovanie-mango-dialogov.md",
+      "number": "2.24.4",
+      "order": "168",
+      "pages": "139-140",
+      "pdf_heading": "2.24.4 Активируйте использование Манго Диалогов для передачи текстовых сообщений",
+      "pdf_section": "2.24.4",
+      "source_refs": [
+        {
+          "global_pages": "139-140",
+          "pages": "139-140",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Активируйте использование Манго Диалогов для передачи текстовых сообщений",
+      "tokens": 405
+    },
+    {
+      "file": "sections/169-proverte-podklyuchenie-vidzheta-mango-di.md",
+      "number": "2.24.5",
+      "order": "169",
+      "pages": "140-141",
+      "pdf_heading": "2.24.5 Проверьте подключение виджета Манго Диалоги в Битрикс24",
+      "pdf_section": "2.24.5",
+      "source_refs": [
+        {
+          "global_pages": "140-141",
+          "pages": "140-141",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Проверьте подключение виджета Манго Диалоги в Битрикс24",
+      "tokens": 452
+    },
+    {
+      "file": "sections/170-nastroyte-otkrytuyu-liniyu-v-bitriks24.md",
+      "number": "2.24.6",
+      "order": "170",
+      "pages": "141-143",
+      "pdf_heading": "2.24.6 Настройте «Открытую линию» в Битрикс24",
+      "pdf_section": "2.24.6",
+      "source_refs": [
+        {
+          "global_pages": "141-143",
+          "pages": "141-143",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Настройте «Открытую линию» в Битрикс24",
+      "tokens": 742
+    },
+    {
+      "file": "sections/171-kak-obrabatyvat-chaty-v-kontakt-centre-b.md",
+      "number": "2.24.7",
+      "order": "171",
+      "pages": "143-146",
+      "pdf_heading": "2.24.7 Как обрабатывать чаты в Контакт-центре Битрикс24",
+      "pdf_section": "2.24.7",
+      "source_refs": [
+        {
+          "global_pages": "143-146",
+          "pages": "143-146",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как обрабатывать чаты в Контакт-центре Битрикс24",
+      "tokens": 871
+    },
+    {
+      "file": "sections/172-obrabotka-zvonkov.md",
+      "number": "3",
+      "order": "172",
+      "pages": "146",
+      "pdf_heading": "3 Обработка звонков",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "146",
+          "pages": "146",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обработка звонков",
+      "tokens": 63
+    },
+    {
+      "file": "sections/173-vhodyaschiy-zvonok.md",
+      "number": "3.1",
+      "order": "173",
+      "pages": "146-149",
+      "pdf_heading": "3.1 Входящий звонок",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "146-149",
+          "pages": "146-149",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Входящий звонок",
+      "tokens": 704
+    },
+    {
+      "file": "sections/174-ishodyaschiy-zvonok.md",
+      "number": "3.2",
+      "order": "174",
+      "pages": "149-150",
+      "pdf_heading": "3.2 Исходящий звонок",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "149-150",
+          "pages": "149-150",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Исходящий звонок",
+      "tokens": 346
+    },
+    {
+      "file": "sections/175-propuschennye-zvonki.md",
+      "number": "3.3",
+      "order": "175",
+      "pages": "150-152",
+      "pdf_heading": "3.3 Пропущенные звонки",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "150-152",
+          "pages": "150-152",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Пропущенные звонки",
+      "tokens": 766
+    },
+    {
+      "file": "sections/176-kontrol-za-obrabotkoy-propuschennogo-zvo.md",
+      "number": "3.4",
+      "order": "176",
+      "pages": "152",
+      "pdf_heading": "3.4 Контроль за обработкой пропущенного звонка",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "152",
+          "pages": "152",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Контроль за обработкой пропущенного звонка",
+      "tokens": 78
+    },
+    {
+      "file": "sections/177-obzor.md",
+      "number": "3.4",
+      "order": "177",
+      "pages": "152-154",
+      "pdf_heading": "Обзор",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "152-154",
+          "pages": "152-154",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 699
+    },
+    {
+      "file": "sections/178-kak-obrabotat-propuschennyy-zvonok.md",
+      "number": "3.4",
+      "order": "178",
+      "pages": "154-157",
+      "pdf_heading": "Как обработать пропущенный звонок",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "154-157",
+          "pages": "154-157",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Как обработать пропущенный звонок",
+      "tokens": 1180
+    },
+    {
+      "file": "sections/179-istoriya-vyzovov.md",
+      "number": "3.5",
+      "order": "179",
+      "pages": "157-158",
+      "pdf_heading": "3.5 История вызовов",
+      "pdf_section": "3.5",
+      "source_refs": [
+        {
+          "global_pages": "157-158",
+          "pages": "157-158",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "История вызовов",
+      "tokens": 266
+    },
+    {
+      "file": "sections/180-prosmotr-svedeniy-o-zvonkah-v-kalendare.md",
+      "number": "3.6",
+      "order": "180",
+      "pages": "158-159",
+      "pdf_heading": "3.6 Просмотр сведений о звонках в календаре",
+      "pdf_section": "3.6",
+      "source_refs": [
+        {
+          "global_pages": "158-159",
+          "pages": "158-159",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Просмотр сведений о звонках в календаре",
+      "tokens": 340
+    },
+    {
+      "file": "sections/181-zapis-razgovorov.md",
+      "number": "3.7",
+      "order": "181",
+      "pages": "159-160",
+      "pdf_heading": "3.7 Запись разговоров",
+      "pdf_section": "3.7",
+      "source_refs": [
+        {
+          "global_pages": "159-160",
+          "pages": "159-160",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Запись разговоров",
+      "tokens": 421
+    },
+    {
+      "file": "sections/182-integraciya-s-adresnoy-knigoy-virtualnoy.md",
+      "number": "4",
+      "order": "182",
+      "pages": "160-163",
+      "pdf_heading": "4 Интеграция с адресной книгой Виртуальной АТС",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "160-163",
+          "pages": "160-163",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Интеграция с адресной книгой Виртуальной АТС",
+      "tokens": 881
+    },
+    {
+      "file": "sections/183-softfon-mango-connect.md",
+      "number": "5",
+      "order": "183",
+      "pages": "163",
+      "pdf_heading": "5 Софтфон MANGO CONNECT",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "163",
+          "pages": "163",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Софтфон MANGO CONNECT",
+      "tokens": 65
+    },
+    {
+      "file": "sections/184-opisanie.md",
+      "number": "5.1",
+      "order": "184",
+      "pages": "163-167",
+      "pdf_heading": "5.1 Описание",
+      "pdf_section": "5.1",
+      "source_refs": [
+        {
+          "global_pages": "163-167",
+          "pages": "163-167",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Описание",
+      "tokens": 1094
+    },
+    {
+      "file": "sections/185-dopolnitelno-kak-vklyuchit-i-vyklyuchit.md",
+      "number": "5.2",
+      "order": "185",
+      "pages": "167-168",
+      "pdf_heading": "5.2 Дополнительно. Как включить и выключить режим \"Не беспокоить\" / DND",
+      "pdf_section": "5.2",
+      "source_refs": [
+        {
+          "global_pages": "167-168",
+          "pages": "167-168",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Дополнительно. Как включить и выключить режим \"Не беспокоить\" / DND",
+      "tokens": 472
+    },
+    {
+      "file": "sections/186-korobochnaya-versiya-bitriks24.md",
+      "number": "6",
+      "order": "186",
+      "pages": "168-169",
+      "pdf_heading": "6 Коробочная версия Битрикс24",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "168-169",
+          "pages": "168-169",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Коробочная версия Битрикс24",
+      "tokens": 597
+    },
+    {
+      "file": "sections/187-obnovlenie-prilozheniya.md",
+      "number": "7",
+      "order": "187",
+      "pages": "169-170",
+      "pdf_heading": "7 Обновление приложения",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "169-170",
+          "pages": "169-170",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Обновление приложения",
+      "tokens": 506
+    },
+    {
+      "file": "sections/188-prilozheniya.md",
+      "number": "—",
+      "order": "188",
+      "pages": "170",
+      "pdf_heading": "Приложения.",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "170",
+          "pages": "170",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Приложения.",
+      "tokens": 57
+    },
+    {
+      "file": "sections/189-a-kak-otkryt-otchet-detalizaciya-zvonkov.md",
+      "number": "—",
+      "order": "189",
+      "pages": "170-172",
+      "pdf_heading": "А. Как открыть отчет \"Детализация звонков\" в Битрикс24",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "170-172",
+          "pages": "170-172",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "А. Как открыть отчет \"Детализация звонков\" в Битрикс24",
+      "tokens": 515
+    },
+    {
+      "file": "sections/190-b-nastroyka-otobrazheniya-kolonok-v-spis.md",
+      "number": "—",
+      "order": "190",
+      "pages": "172-174",
+      "pdf_heading": "Б. Настройка отображения колонок в списке лидов, сделок, контактов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "172-174",
+          "pages": "172-174",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Б. Настройка отображения колонок в списке лидов, сделок, контактов",
+      "tokens": 573
+    },
+    {
+      "file": "sections/191-spisok-izmeneniy-v-dokumente.md",
+      "number": "—",
+      "order": "191",
+      "pages": "174-178",
+      "pdf_heading": "Список изменений в документе",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "174-178",
+          "pages": "174-178",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+        }
+      ],
+      "title": "Список изменений в документе",
+      "tokens": 2700
+    }
+  ],
+  "source_document": "integration-bitrix24",
+  "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf",
+  "source_pdfs": [
+    "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf"
+  ],
+  "source_set": "integration-bitrix24",
+  "source_sha256": "745afeb7eb31fab734d8e4e81301cdde2dde120c5ae81764c76fed328134c5c9",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 178,
+      "source_pdf": "kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf",
+      "source_sha256": "745afeb7eb31fab734d8e4e81301cdde2dde120c5ae81764c76fed328134c5c9"
+    }
+  ],
+  "table_count": 9,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 18466,
+  "tokens_total": 84837,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 785,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 66,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-4",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/01-nachalo-raboty-s-integraciey.md",
+        "gap_pages": [],
+        "pages": "4",
+        "title": "Начало работы с интеграцией",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/02-kak-nastroit-integraciyu.md",
+        "gap_pages": [],
+        "pages": "4",
+        "title": "Как настроить интеграцию",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/03-podgotovka.md",
+        "gap_pages": [],
+        "pages": "4",
+        "title": "Подготовка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/04-poryadok-deystviy.md",
+        "gap_pages": [],
+        "pages": "4-5",
+        "title": "Порядок действий",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/05-shag-1-podklyuchite-virtualnuyu-ats-mang.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Шаг 1. Подключите Виртуальную АТС MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/06-shag-2-ustanovka-softfona-mango-talker.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Шаг 2. Установка софтфона Mango Talker",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/07-shag-3-nastroyka-virtualnoy-ats-vybor-pa.md",
+        "gap_pages": [],
+        "pages": "5-7",
+        "title": "Шаг 3. Настройка Виртуальной АТС. Выбор пакета интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/08-shag-4-ustanovka-prilozheniya-integracii.md",
+        "gap_pages": [],
+        "pages": "7-10",
+        "title": "Шаг 4. Установка приложения интеграции в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/09-shag-5-sopostavlenie-sotrudnikov-virtual.md",
+        "gap_pages": [],
+        "pages": "10",
+        "title": "Шаг 5. Сопоставление сотрудников Виртуальной АТС и Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/10-obschee.md",
+        "gap_pages": [],
+        "pages": "10-11",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/11-kak-nastroit-sopostavlenie-sotrudnikov.md",
+        "gap_pages": [],
+        "pages": "11-13",
+        "title": "Как настроить сопоставление сотрудников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/12-kak-sohranyat-vse-zvonki-v-bitriks24-obo.md",
+        "gap_pages": [],
+        "pages": "13-14",
+        "title": "Как сохранять все звонки в Битрикс24. Обобщенно",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/13-kak-vklyuchit-peredachu-dannyh-po-ne-zvo.md",
+        "gap_pages": [],
+        "pages": "14",
+        "title": "Как включить передачу данных по “не звонковым” обращениям",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/14-kak-posmotret-spiski-sotrudnikov-vats-i.md",
+        "gap_pages": [],
+        "pages": "14-15",
+        "title": "Как посмотреть списки сотрудников ВАТС и сотрудников Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/15-shag-6-proverka-nastroyki-telefonii.md",
+        "gap_pages": [],
+        "pages": "15-18",
+        "title": "Шаг 6. Проверка настройки телефонии",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/16-ustanovka-dopolnitelnyh-nastroek-integra.md",
+        "gap_pages": [],
+        "pages": "18-19",
+        "title": "Установка дополнительных настроек интеграции при подключении расширенного пакета",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/17-raznye-vozmozhnosti-bazovogo-i-rasshiren.md",
+        "gap_pages": [],
+        "pages": "19",
+        "title": "Разные возможности базового и расширенного пакетов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/18-bazovyy-paket.md",
+        "gap_pages": [],
+        "pages": "19-20",
+        "title": "Базовый пакет",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/19-rasshirennyy-paket.md",
+        "gap_pages": [],
+        "pages": "20-22",
+        "title": "Расширенный пакет",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/20-kak-proverit-chto-dannye-o-zvonkah-pered.md",
+        "gap_pages": [],
+        "pages": "22-23",
+        "title": "Как проверить, что данные о звонках передаются в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/21-kak-otobrazhayutsya-dannye-o-zvonke-v-bi.md",
+        "gap_pages": [],
+        "pages": "23",
+        "title": "Как отображаются данные о звонке в Битрикс24. Обобщенно",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/22-kak-pozvonit-ili-prinyat-zvonok.md",
+        "gap_pages": [],
+        "pages": "23-25",
+        "title": "Как позвонить или принять звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/23-nastroyki-prilozheniya-integracii-s-bitr.md",
+        "gap_pages": [],
+        "pages": "25",
+        "title": "Настройки приложения интеграции с Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/24-kak-otkryt-formu-nastroyki-prilozheniya.md",
+        "gap_pages": [],
+        "pages": "25-27",
+        "title": "Как открыть форму настройки приложения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/25-nastroyka-sohranyat-vse-zvonki-ili-kak-s.md",
+        "gap_pages": [],
+        "pages": "27",
+        "title": "Настройка “Сохранять все звонки” или как сохраняются звонки сотрудников, не указанных в таблице сопоставления",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/26-obschee.md",
+        "gap_pages": [],
+        "pages": "27",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/27-podrobno-ob-osobennostyah-raboty.md",
+        "gap_pages": [],
+        "pages": "27-29",
+        "title": "Подробно об особенностях работы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/28-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "29-30",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/29-obrabotka-vhodyaschih-zvonkov.md",
+        "gap_pages": [],
+        "pages": "30",
+        "title": "Обработка входящих звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/30-avtomaticheski-sozdavat-lid-i-delo-pri-v.md",
+        "gap_pages": [],
+        "pages": "30-32",
+        "title": "Автоматически создавать лид и дело при входящих звонках",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/31-ukazyvat-istochnik-pri-vhodyaschih-zvonk.md",
+        "gap_pages": [],
+        "pages": "32",
+        "title": "Указывать источник при входящих звонках",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/32-na-chto-vliyaet-eta-nastroyka.md",
+        "gap_pages": [],
+        "pages": "32-33",
+        "title": "На что влияет эта настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/33-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "33-34",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/34-kak-nastroit-spravochnik-istochnikov.md",
+        "gap_pages": [],
+        "pages": "34-38",
+        "title": "Как настроить справочник источников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/35-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "38-39",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/36-obnovlyat-otvetstvennogo-pri-perevodah-v.md",
+        "gap_pages": [],
+        "pages": "39",
+        "title": "Обновлять ответственного при переводах входящих вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/37-na-chto-vliyaet-eta-nastroyka.md",
+        "gap_pages": [],
+        "pages": "39",
+        "title": "На что влияет эта настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/38-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "39-40",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/39-ukazat-otvetstvennogo-pri-propuschennyh.md",
+        "gap_pages": [],
+        "pages": "40",
+        "title": "Указать ответственного при пропущенных звонках в группу",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/40-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "40",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/41-na-chto-vliyaet-eta-nastroyka.md",
+        "gap_pages": [],
+        "pages": "40",
+        "title": "На что влияет эта настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/42-vot-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "40-41",
+        "title": "Вот как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/43-ukazat-otvetstvennogo-pri-propuschennyh.md",
+        "gap_pages": [],
+        "pages": "41",
+        "title": "Указать ответственного при пропущенных звонках в IVR",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/44-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "41",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/45-na-chto-vliyaet-eta-nastroyka.md",
+        "gap_pages": [],
+        "pages": "41",
+        "title": "На что влияет эта настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/46-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "41-42",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/47-integraciya-s-dinamicheskim-kolltrekingo.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Интеграция с Динамическим коллтрекингом",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/48-obschee.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 16,
+        "file": "sections/49-chto-eto-daet.md",
+        "gap_pages": [],
+        "pages": "42-43",
+        "title": "Что это дает?",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/50-vo-vremya-zvonka.md",
+        "gap_pages": [],
+        "pages": "43-45",
+        "title": "Во время звонка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/51-v-otchetah-i-spiskah-bitriks24.md",
+        "gap_pages": [],
+        "pages": "45-46",
+        "title": "В отчетах и списках Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/52-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "46-47",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/53-kak-zagruzit-v-bitriks24-dannye-kolltrek.md",
+        "gap_pages": [],
+        "pages": "47",
+        "title": "Как загрузить в Битрикс24 данные коллтрекинга о других типах обращений, кроме звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/54-dobavlyat-soobschenie-o-zvonke-sotrudnik.md",
+        "gap_pages": [],
+        "pages": "47-48",
+        "title": "Добавлять сообщение о звонке сотруднику Битрикс24 в чат",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/55-umnye-algoritmy-raspredeleniya-vhodyasch.md",
+        "gap_pages": [],
+        "pages": "48",
+        "title": "Умные алгоритмы распределения входящих вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/56-obzor.md",
+        "gap_pages": [],
+        "pages": "48-49",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/57-predvaritelnye-deystviya-vklyuchenie-zvu.md",
+        "gap_pages": [],
+        "pages": "49-50",
+        "title": "Предварительные действия. Включение звукового приветствия",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/58-kak-nastroit-raspredelenie-zvonkov-v-pri.md",
+        "gap_pages": [],
+        "pages": "50-53",
+        "title": "Как настроить распределение звонков в приложении интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/59-chto-budet-esli-v-sheme-raspredeleniya-n.md",
+        "gap_pages": [],
+        "pages": "53-54",
+        "title": "Что будет, если в схеме распределения не включен параметр \"ожидать окончания\" или отсутствует звуковое приветствие",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/60-znachenie-pereadresovyvat-na-otvetstvenn.md",
+        "gap_pages": [],
+        "pages": "54-56",
+        "title": "Значение \"Переадресовывать на ответственного и переадресовывать далее на номер, если нет ответа\"",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/61-primery-nastroyki-pravil-umnogo-algoritm.md",
+        "gap_pages": [],
+        "pages": "56-61",
+        "title": "Примеры настройки правил умного алгоритма распределения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/62-nastroyka-raspisaniya-raboty-umnyh-pravi.md",
+        "gap_pages": [],
+        "pages": "61",
+        "title": "Настройка расписания работы умных правил",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/63-filtrovat-vhodyaschie-zvonki-po-liniyam.md",
+        "gap_pages": [],
+        "pages": "61-63",
+        "title": "Фильтровать входящие звонки по линиям",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/64-sovershenie-ishodyaschih-zvonkov.md",
+        "gap_pages": [],
+        "pages": "63",
+        "title": "Совершение исходящих звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/65-avtomaticheskiy-priem-pri-ishodyaschem-z.md",
+        "gap_pages": [],
+        "pages": "63-64",
+        "title": "Автоматический прием при исходящем звонке",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/66-perezvanivat-s-nomera-na-kotoryy-zvonil.md",
+        "gap_pages": [],
+        "pages": "64",
+        "title": "Перезванивать с номера, на который звонил Клиент",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/67-obzor.md",
+        "gap_pages": [],
+        "pages": "64",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/68-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "64-65",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/69-otpravka-sms.md",
+        "gap_pages": [],
+        "pages": "65",
+        "title": "Отправка SMS",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/70-sms-vizitka.md",
+        "gap_pages": [],
+        "pages": "65",
+        "title": "SMS-визитка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/71-obzor.md",
+        "gap_pages": [],
+        "pages": "65-66",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/72-kak-vklyuchit-i-nastroit.md",
+        "gap_pages": [],
+        "pages": "66-68",
+        "title": "Как включить и настроить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/73-otpravka-sms-vruchnuyu-iz-kartochki-lida.md",
+        "gap_pages": [],
+        "pages": "68",
+        "title": "Отправка SMS вручную из карточки лида/контакта/сделки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/74-obzor.md",
+        "gap_pages": [],
+        "pages": "68-70",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/75-kak-vklyuchit-vozmozhnost-otpravki-sms.md",
+        "gap_pages": [],
+        "pages": "70",
+        "title": "Как включить возможность отправки sms",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/76-sms-rassylka.md",
+        "gap_pages": [],
+        "pages": "70",
+        "title": "SMS-рассылка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/77-obzor.md",
+        "gap_pages": [],
+        "pages": "70",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/78-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "70-71",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/79-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "71",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/80-kak-otpravit-sms-rassylku.md",
+        "gap_pages": [],
+        "pages": "71-74",
+        "title": "Как отправить sms-рассылку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/81-sms-uvedomleniya-iz-robotov-prodazh-proc.md",
+        "gap_pages": [],
+        "pages": "74",
+        "title": "SMS уведомления из роботов продаж/процессов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/82-obzor.md",
+        "gap_pages": [],
+        "pages": "74",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/83-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "74-75",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/84-kak-nastroit-uvedomlenie-v-robotah-i-biz.md",
+        "gap_pages": [],
+        "pages": "75-78",
+        "title": "Как настроить уведомление в роботах и бизнес-процессах",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/85-otobrazhat-sdelki-v-kartochke-zvonka.md",
+        "gap_pages": [],
+        "pages": "78-79",
+        "title": "Отображать сделки в карточке звонка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/86-podderzhivat-obratnye-zvonki-ot-bitriks2.md",
+        "gap_pages": [],
+        "pages": "79",
+        "title": "Поддерживать обратные звонки от Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/87-kak-eto-rabotaet.md",
+        "gap_pages": [],
+        "pages": "79",
+        "title": "Как это работает",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/88-ogranicheniya.md",
+        "gap_pages": [],
+        "pages": "79-80",
+        "title": "Ограничения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/89-kak-vklyuchit-ili-vyklyuchit-podderzhku.md",
+        "gap_pages": [],
+        "pages": "80-81",
+        "title": "Как включить или выключить поддержку обратных звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/90-integraciya-s-rechevoy-analitikoy.md",
+        "gap_pages": [],
+        "pages": "81",
+        "title": "Интеграция с речевой аналитикой",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/91-pered-nachalom-raboty.md",
+        "gap_pages": [],
+        "pages": "81",
+        "title": "Перед началом работы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/92-sohranenie-tematik-razgovorov.md",
+        "gap_pages": [],
+        "pages": "81",
+        "title": "Сохранение тематик разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/93-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "81-82",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/94-kak-eto-rabotaet.md",
+        "gap_pages": [],
+        "pages": "82",
+        "title": "Как это работает",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/95-kak-vklyuchit-sohranenie-tematik.md",
+        "gap_pages": [],
+        "pages": "82-84",
+        "title": "Как включить сохранение тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/96-kak-posmotret-tematiku-razgovora.md",
+        "gap_pages": [],
+        "pages": "84",
+        "title": "Как посмотреть тематику разговора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/97-sohranenie-tekstov-rechevoy-analitiki.md",
+        "gap_pages": [],
+        "pages": "84",
+        "title": "Сохранение текстов Речевой аналитики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/98-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "84-85",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/99-kak-nastroit.md",
+        "gap_pages": [],
+        "pages": "85-86",
+        "title": "Как настроить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/100-kak-posmotret-raspoznannyy-tekst.md",
+        "gap_pages": [],
+        "pages": "86-87",
+        "title": "Как посмотреть распознанный текст",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/101-peredacha-dannyh-v-rechevuyu-analitiku.md",
+        "gap_pages": [],
+        "pages": "87-88",
+        "title": "Передача данных в Речевую аналитику",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/102-obrabotka-vhodyaschih-vebhukov.md",
+        "gap_pages": [],
+        "pages": "88",
+        "title": "Обработка входящих вебхуков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/103-tipy-vebhukov.md",
+        "gap_pages": [],
+        "pages": "88",
+        "title": "Типы вебхуков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/104-avtoperezvon-cherez-vebhuk.md",
+        "gap_pages": [],
+        "pages": "88",
+        "title": "Автоперезвон через вебхук",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/105-obzor.md",
+        "gap_pages": [],
+        "pages": "88-89",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/106-kak-vklyuchit-avtoperezvon-cherez-vebhuk.md",
+        "gap_pages": [],
+        "pages": "89-90",
+        "title": "Как включить автоперезвон через вебхук",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/107-peremeschenie-sdelok-v-bitriks24-cherez.md",
+        "gap_pages": [],
+        "pages": "90",
+        "title": "Перемещение сделок в Битрикс24 через вебхук",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/108-obschee.md",
+        "gap_pages": [],
+        "pages": "90-91",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/109-nastroyka-vebhuka-v-prilozhenii-integrac.md",
+        "gap_pages": [],
+        "pages": "91-94",
+        "title": "Настройка вебхука в приложении интеграции Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 27,
+        "file": "sections/110-dobavlenie-vo-vneshnyuyu-sistemu-url-adr.md",
+        "gap_pages": [],
+        "pages": "94-95",
+        "title": "Добавление во внешнюю систему URL-адреса вебхука перемещения сделок. Общие требования.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/111-opisanie-parametrov-vebhuka.md",
+        "gap_pages": [],
+        "pages": "95",
+        "title": "Описание параметров вебхука",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 22,
+        "file": "sections/112-dealid.md",
+        "gap_pages": [],
+        "pages": "95-96",
+        "title": "DealID",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/113-result.md",
+        "gap_pages": [],
+        "pages": "96",
+        "title": "Result",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 25,
+        "file": "sections/114-opisanie-dopustimyh-znacheniy-parametra.md",
+        "gap_pages": [],
+        "pages": "96-98",
+        "title": "Описание допустимых значений параметра Result.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/115-zagruzhat-otsutstvuyuschie-zvonki-v-crm.md",
+        "gap_pages": [],
+        "pages": "98-99",
+        "title": "Загружать отсутствующие звонки в CRM",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/116-vsplyvayuschie-soobscheniya-ob-oshibkah.md",
+        "gap_pages": [],
+        "pages": "99",
+        "title": "Всплывающие сообщения об ошибках в интерфейсе Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/117-kak-vklyuchit-ili-vyklyuchit-pokaz-zvonk.md",
+        "gap_pages": [],
+        "pages": "99-101",
+        "title": "Как включить или выключить показ звонков в календаре",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/118-poisk-po-nomeru-telefona-sredi-zapisey-b.md",
+        "gap_pages": [],
+        "pages": "101",
+        "title": "Поиск по номеру телефона среди записей Битрикс24 (в приложении)",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/119-nomer-drugogo-operatora-podklyuchennyy-k.md",
+        "gap_pages": [],
+        "pages": "101",
+        "title": "Номер другого оператора, подключенный к Виртуальной АТС в Личном кабинете MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/120-ispolzovanie-sposobov-dozvona-do-sotrudn.md",
+        "gap_pages": [],
+        "pages": "101-102",
+        "title": "Использование способов дозвона до сотрудника и алгоритмов дозвона в ЛК",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/121-ispolzovanie-algoritmov-raspredeleniya-v.md",
+        "gap_pages": [],
+        "pages": "102",
+        "title": "Использование алгоритмов распределения вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/122-pereklyuchenie-mezhdu-rezhimami-raboty-b.md",
+        "gap_pages": [],
+        "pages": "102-104",
+        "title": "Переключение между режимами работы Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/123-nastroyka-otobrazheniya-kartochki-zvonka.md",
+        "gap_pages": [],
+        "pages": "104-105",
+        "title": "Настройка отображения карточки звонка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/124-integraciya-s-kontakt-centrom-mango-offi.md",
+        "gap_pages": [],
+        "pages": "105",
+        "title": "Интеграция с Контакт-центром MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/125-obzor.md",
+        "gap_pages": [],
+        "pages": "105-106",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/126-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "106",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/127-nastroyka-integracii-s-kontakt-centrom-m.md",
+        "gap_pages": [],
+        "pages": "106-108",
+        "title": "Настройка интеграции с Контакт-центром MANGO OFFICE. Общие инструкции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/128-otpravka-dannyh-o-lide-iz-kontakt-centra.md",
+        "gap_pages": [],
+        "pages": "108",
+        "title": "Отправка данных о лиде из Контакт-центра MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/129-obzor.md",
+        "gap_pages": [],
+        "pages": "108",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/130-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "108",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/131-ogranicheniya-importa-dannyh-obrascheniy.md",
+        "gap_pages": [],
+        "pages": "108-109",
+        "title": "Ограничения импорта данных обращений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/132-import-dannyh-iz-polzovatelskih-poley.md",
+        "gap_pages": [],
+        "pages": "109-110",
+        "title": "Импорт данных из \"пользовательских\" полей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/133-kak-nastroit.md",
+        "gap_pages": [],
+        "pages": "110-111",
+        "title": "Как настроить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/134-kak-vklyuchit-avtomaticheskoe-sozdanie-k.md",
+        "gap_pages": [],
+        "pages": "111-113",
+        "title": "Как включить автоматическое создание контактов и сделок в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/135-kak-otpravit-dannye-o-lidah-v-bitriks24.md",
+        "gap_pages": [],
+        "pages": "113-115",
+        "title": "Как отправить данные о лидах в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/136-kak-v-bitriks24-posmotret-kontakty-i-sde.md",
+        "gap_pages": [],
+        "pages": "115-116",
+        "title": "Как в Битрикс24 посмотреть контакты и сделки, созданные по входящему обращению Контакт-центра MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/137-peredavaemye-dannye.md",
+        "gap_pages": [],
+        "pages": "116",
+        "title": "Передаваемые данные",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/138-sdelka.md",
+        "gap_pages": [],
+        "pages": "116",
+        "title": "Сделка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/139-kontakt.md",
+        "gap_pages": [],
+        "pages": "116-117",
+        "title": "Контакт",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/140-kak-nastroit-peredachu-dialoga-s-kliento.md",
+        "gap_pages": [],
+        "pages": "117",
+        "title": "Как настроить передачу диалога с Клиентом (чата) из Контакт-Центра MANGO OFFICE в историю коммуникаций Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/141-obzor.md",
+        "gap_pages": [],
+        "pages": "117",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/142-poryadok-deystviy.md",
+        "gap_pages": [],
+        "pages": "117-118",
+        "title": "Порядок действий",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/143-sohranenie-tematik-kontakt-centra-mango.md",
+        "gap_pages": [],
+        "pages": "118",
+        "title": "Сохранение тематик Контакт-Центра MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/144-obzor.md",
+        "gap_pages": [],
+        "pages": "118-119",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/145-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "119-120",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/146-kak-posmotret-tematiku-kontakt-centra.md",
+        "gap_pages": [],
+        "pages": "120",
+        "title": "Как посмотреть тематику Контакт-Центра",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/147-avtopostanovka-zadaniya-v-kampaniyu-isho.md",
+        "gap_pages": [],
+        "pages": "120",
+        "title": "Автопостановка задания в кампанию исходящего обзвона при изменении в воронке продаж. Интеграция с Контакт-центром MANGO OFFICE через вебхуки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/148-obzor.md",
+        "gap_pages": [],
+        "pages": "120-121",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/149-ponyatie-tehnicheskiy-task-v-kampanii-is.md",
+        "gap_pages": [],
+        "pages": "121-122",
+        "title": "Понятие \"Технический таск\" в кампании исходящего обзвона",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/150-ogranicheniya.md",
+        "gap_pages": [],
+        "pages": "122",
+        "title": "Ограничения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/151-kak-nastroit-integraciyu-v-kontakt-centr.md",
+        "gap_pages": [],
+        "pages": "122-124",
+        "title": "Как настроить интеграцию в Контакт-центром MANGO OFFICE через вебхуки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/152-kak-dobavit-vebhuki-integracii-v-robota.md",
+        "gap_pages": [],
+        "pages": "124-126",
+        "title": "Как добавить вебхуки интеграции в робота в Битрик24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/153-skripty-razgovora-s-klientom-v-bitriks24.md",
+        "gap_pages": [],
+        "pages": "126",
+        "title": "Скрипты разговора с Клиентом в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/154-skripty.md",
+        "gap_pages": [],
+        "pages": "126-127",
+        "title": "Скрипты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/155-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "127-128",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/156-kak-vydat-ili-snyat-prava-dostupa-k-pril.md",
+        "gap_pages": [],
+        "pages": "128-130",
+        "title": "Как выдать или снять права доступа к приложению интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/157-kak-vklyuchit-ispolzovanie-skriptov-v-pr.md",
+        "gap_pages": [],
+        "pages": "130-132",
+        "title": "Как включить использование скриптов в приложении",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/158-sohranyat-postzvonkovuyu-ocenku-kachestv.md",
+        "gap_pages": [],
+        "pages": "132-133",
+        "title": "Сохранять постзвонковую оценку качества",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/159-sohranyat-dannye-kampaniy-ishodyaschih-o.md",
+        "gap_pages": [],
+        "pages": "133-134",
+        "title": "Сохранять данные кампаний исходящих обзвонов Контакт-центра",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/160-otpravlyat-whatsapp-soobschenie-pri-prop.md",
+        "gap_pages": [],
+        "pages": "134",
+        "title": "Отправлять WhatsApp-сообщение при пропущенном звонке",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/161-naznachenie.md",
+        "gap_pages": [],
+        "pages": "134",
+        "title": "Назначение",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/162-princip-raboty.md",
+        "gap_pages": [],
+        "pages": "134-135",
+        "title": "Принцип работы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/163-kak-vklyuchit.md",
+        "gap_pages": [],
+        "pages": "135-137",
+        "title": "Как включить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/164-ispolzovanie-servisa-mango-dialogi-dlya.md",
+        "gap_pages": [],
+        "pages": "137",
+        "title": "Использование сервиса «Манго Диалоги» для обмена сообщениями",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/165-naznachenie-integracii.md",
+        "gap_pages": [],
+        "pages": "137",
+        "title": "Назначение интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/166-podklyuchenie-mango-dialogov-v-lk-vats.md",
+        "gap_pages": [],
+        "pages": "137",
+        "title": "Подключение Манго Диалогов в ЛК ВАТС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/167-podklyuchenie-kanalov-mango-dialogi-v-lk.md",
+        "gap_pages": [],
+        "pages": "137-139",
+        "title": "Подключение каналов «Манго Диалоги» в ЛК ВАТС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/168-aktiviruyte-ispolzovanie-mango-dialogov.md",
+        "gap_pages": [],
+        "pages": "139-140",
+        "title": "Активируйте использование Манго Диалогов для передачи текстовых сообщений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/169-proverte-podklyuchenie-vidzheta-mango-di.md",
+        "gap_pages": [],
+        "pages": "140-141",
+        "title": "Проверьте подключение виджета Манго Диалоги в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/170-nastroyte-otkrytuyu-liniyu-v-bitriks24.md",
+        "gap_pages": [],
+        "pages": "141-143",
+        "title": "Настройте «Открытую линию» в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/171-kak-obrabatyvat-chaty-v-kontakt-centre-b.md",
+        "gap_pages": [],
+        "pages": "143-146",
+        "title": "Как обрабатывать чаты в Контакт-центре Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/172-obrabotka-zvonkov.md",
+        "gap_pages": [],
+        "pages": "146",
+        "title": "Обработка звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/173-vhodyaschiy-zvonok.md",
+        "gap_pages": [],
+        "pages": "146-149",
+        "title": "Входящий звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/174-ishodyaschiy-zvonok.md",
+        "gap_pages": [],
+        "pages": "149-150",
+        "title": "Исходящий звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/175-propuschennye-zvonki.md",
+        "gap_pages": [],
+        "pages": "150-152",
+        "title": "Пропущенные звонки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/176-kontrol-za-obrabotkoy-propuschennogo-zvo.md",
+        "gap_pages": [],
+        "pages": "152",
+        "title": "Контроль за обработкой пропущенного звонка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/177-obzor.md",
+        "gap_pages": [],
+        "pages": "152-154",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/178-kak-obrabotat-propuschennyy-zvonok.md",
+        "gap_pages": [],
+        "pages": "154-157",
+        "title": "Как обработать пропущенный звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/179-istoriya-vyzovov.md",
+        "gap_pages": [],
+        "pages": "157-158",
+        "title": "История вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/180-prosmotr-svedeniy-o-zvonkah-v-kalendare.md",
+        "gap_pages": [],
+        "pages": "158-159",
+        "title": "Просмотр сведений о звонках в календаре",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/181-zapis-razgovorov.md",
+        "gap_pages": [],
+        "pages": "159-160",
+        "title": "Запись разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/182-integraciya-s-adresnoy-knigoy-virtualnoy.md",
+        "gap_pages": [],
+        "pages": "160-163",
+        "title": "Интеграция с адресной книгой Виртуальной АТС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/183-softfon-mango-connect.md",
+        "gap_pages": [],
+        "pages": "163",
+        "title": "Софтфон MANGO CONNECT",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/184-opisanie.md",
+        "gap_pages": [],
+        "pages": "163-167",
+        "title": "Описание",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/185-dopolnitelno-kak-vklyuchit-i-vyklyuchit.md",
+        "gap_pages": [],
+        "pages": "167-168",
+        "title": "Дополнительно. Как включить и выключить режим \"Не беспокоить\" / DND",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 29,
+        "file": "sections/186-korobochnaya-versiya-bitriks24.md",
+        "gap_pages": [],
+        "pages": "168-169",
+        "title": "Коробочная версия Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/187-obnovlenie-prilozheniya.md",
+        "gap_pages": [],
+        "pages": "169-170",
+        "title": "Обновление приложения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/188-prilozheniya.md",
+        "gap_pages": [],
+        "pages": "170",
+        "title": "Приложения.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/189-a-kak-otkryt-otchet-detalizaciya-zvonkov.md",
+        "gap_pages": [],
+        "pages": "170-172",
+        "title": "А. Как открыть отчет \"Детализация звонков\" в Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/190-b-nastroyka-otobrazheniya-kolonok-v-spis.md",
+        "gap_pages": [],
+        "pages": "172-174",
+        "title": "Б. Настройка отображения колонок в списке лидов, сделок, контактов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 36,
+        "file": "sections/191-spisok-izmeneniy-v-dokumente.md",
+        "gap_pages": [],
+        "pages": "174-178",
+        "title": "Список изменений в документе",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

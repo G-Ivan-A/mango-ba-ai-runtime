@@ -1,0 +1,317 @@
+{
+  "body_font_size": 11.0,
+  "body_font_sizes": [
+    11.0
+  ],
+  "doc_code": "LKSSO",
+  "doc_title": "Аутентификация и авторизация в рамках SSO",
+  "doc_version": "1.0",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 59,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство пользователя по настройке и использованию единой системы аутентификации (SSO) в Mango Office. Описывает процесс входа, управление доступом и авторизацию через внешних провайдеров.",
+  "page_count": 22,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 10,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-2",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-2",
+          "pages": "1-2",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 188
+    },
+    {
+      "file": "sections/01-soderzhanie-v2-13-03-2026.md",
+      "number": "—",
+      "order": "01",
+      "pages": "2-3",
+      "pdf_heading": "Содержание                                                  v2 | 13.03.2026",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "2-3",
+          "pages": "2-3",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Содержание                                                  v2 | 13.03.2026",
+      "tokens": 409
+    },
+    {
+      "file": "sections/02-terminy-i-opredeleniya.md",
+      "number": "1",
+      "order": "02",
+      "pages": "3-4",
+      "pdf_heading": "1. Термины и определения",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "3-4",
+          "pages": "3-4",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Термины и определения",
+      "tokens": 609
+    },
+    {
+      "file": "sections/03-obschie-svedeniya.md",
+      "number": "2",
+      "order": "03",
+      "pages": "4-5",
+      "pdf_heading": "2. Общие сведения",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "4-5",
+          "pages": "4-5",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 742
+    },
+    {
+      "file": "sections/04-nastroyka-idp-v-lk-vats-mango-office.md",
+      "number": "3",
+      "order": "04",
+      "pages": "5-6",
+      "pdf_heading": "3. Настройка IdP в ЛК ВАТС MANGO OFFICE",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Настройка IdP в ЛК ВАТС MANGO OFFICE",
+      "tokens": 383
+    },
+    {
+      "file": "sections/05-dobavlenie-provaydera.md",
+      "number": "4",
+      "order": "05",
+      "pages": "6",
+      "pdf_heading": "4. Добавление провайдера",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Добавление провайдера",
+      "tokens": 67
+    },
+    {
+      "file": "sections/06-shag-1-nastroyka-identity-provaydera-idp.md",
+      "number": "4",
+      "order": "06",
+      "pages": "6-8",
+      "pdf_heading": "Шаг 1. Настройка Identity-провайдера (IdP).",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "6-8",
+          "pages": "6-8",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Шаг 1. Настройка Identity-провайдера (IdP).",
+      "tokens": 1552
+    },
+    {
+      "file": "sections/07-shag-2-sopostavlenie-poley.md",
+      "number": "4",
+      "order": "07",
+      "pages": "8-12",
+      "pdf_heading": "Шаг 2. Сопоставление полей",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "8-12",
+          "pages": "8-12",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Шаг 2. Сопоставление полей",
+      "tokens": 2146
+    },
+    {
+      "file": "sections/08-vhod-sotrudnika-v-lichnyy-kabinet-vats.md",
+      "number": "5",
+      "order": "08",
+      "pages": "12-13",
+      "pdf_heading": "5. Вход сотрудника в Личный кабинет ВАТС",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "12-13",
+          "pages": "12-13",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Вход сотрудника в Личный кабинет ВАТС",
+      "tokens": 610
+    },
+    {
+      "file": "sections/09-nastroyka-autentifikacii-i-avtorizacii-n.md",
+      "number": "6",
+      "order": "09",
+      "pages": "13-22",
+      "pdf_heading": "6. Настройка аутентификации и авторизации на примере Keycloak",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "13-22",
+          "pages": "13-22",
+          "part": 1,
+          "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+        }
+      ],
+      "title": "Настройка аутентификации и авторизации на примере Keycloak",
+      "tokens": 3366
+    }
+  ],
+  "source_document": "lk-vats-sso",
+  "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf",
+  "source_pdfs": [
+    "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf"
+  ],
+  "source_set": "lk-vats-sso",
+  "source_sha256": "d103d572a213756256c52bfe33a4de6417c37eac51c3a26ace794c8fe61ac1f6",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 22,
+      "source_pdf": "kb/sources/lk-vats-sso/MANGO_OFFICE_LK_VATS_Auth_SSO.pdf",
+      "source_sha256": "d103d572a213756256c52bfe33a4de6417c37eac51c3a26ace794c8fe61ac1f6"
+    }
+  ],
+  "table_count": 3,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 1325,
+  "tokens_total": 10072,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 235,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-22",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 2,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-2",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/01-soderzhanie-v2-13-03-2026.md",
+        "gap_pages": [],
+        "pages": "2-3",
+        "title": "Содержание                                                  v2 | 13.03.2026",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/02-terminy-i-opredeleniya.md",
+        "gap_pages": [],
+        "pages": "3-4",
+        "title": "Термины и определения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/03-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "4-5",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/04-nastroyka-idp-v-lk-vats-mango-office.md",
+        "gap_pages": [],
+        "pages": "5-6",
+        "title": "Настройка IdP в ЛК ВАТС MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/05-dobavlenie-provaydera.md",
+        "gap_pages": [],
+        "pages": "6",
+        "title": "Добавление провайдера",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 60,
+        "file": "sections/06-shag-1-nastroyka-identity-provaydera-idp.md",
+        "gap_pages": [],
+        "pages": "6-8",
+        "title": "Шаг 1. Настройка Identity-провайдера (IdP).",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 66,
+        "file": "sections/07-shag-2-sopostavlenie-poley.md",
+        "gap_pages": [],
+        "pages": "8-12",
+        "title": "Шаг 2. Сопоставление полей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/08-vhod-sotrudnika-v-lichnyy-kabinet-vats.md",
+        "gap_pages": [],
+        "pages": "12-13",
+        "title": "Вход сотрудника в Личный кабинет ВАТС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 70,
+        "file": "sections/09-nastroyka-autentifikacii-i-avtorizacii-n.md",
+        "gap_pages": [],
+        "pages": "13-22",
+        "title": "Настройка аутентификации и авторизации на примере Keycloak",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

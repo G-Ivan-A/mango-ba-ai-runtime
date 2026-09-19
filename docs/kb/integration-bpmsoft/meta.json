@@ -1,0 +1,3359 @@
+{
+  "body_font_size": 12.0,
+  "body_font_sizes": [
+    12.0
+  ],
+  "doc_code": "INTBPM",
+  "doc_title": "Интеграция Виртуальной АТС и BPMSoft. Руководство по интеграции",
+  "doc_version": "22.06.2026",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 163,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство по интеграции виртуальной АТС Mango Office с BPMSoft. Описывает подключение, настройку синхронизации данных, управление звонками и использование телефонных функций внутри BPMSoft.",
+  "page_count": 96,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 127,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-5",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-5",
+          "pages": "1-5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 1755
+    },
+    {
+      "file": "sections/01-nachalo-raboty-s-integraciey.md",
+      "number": "1",
+      "order": "01",
+      "pages": "5",
+      "pdf_heading": "1 Начало работы с интеграцией",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Начало работы с интеграцией",
+      "tokens": 67
+    },
+    {
+      "file": "sections/02-obzor.md",
+      "number": "1",
+      "order": "02",
+      "pages": "5",
+      "pdf_heading": "Обзор",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 94
+    },
+    {
+      "file": "sections/03-vazhnaya-informaciya.md",
+      "number": "1",
+      "order": "03",
+      "pages": "5",
+      "pdf_heading": "Важная информация",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Важная информация",
+      "tokens": 319
+    },
+    {
+      "file": "sections/04-podgotovka.md",
+      "number": "1",
+      "order": "04",
+      "pages": "5",
+      "pdf_heading": "Подготовка",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Подготовка",
+      "tokens": 169
+    },
+    {
+      "file": "sections/05-poryadok-deystviy.md",
+      "number": "1",
+      "order": "05",
+      "pages": "5-6",
+      "pdf_heading": "Порядок действий",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Порядок действий",
+      "tokens": 496
+    },
+    {
+      "file": "sections/06-shag-1-podklyuchenie-virtualnoy-ats-mang.md",
+      "number": "1",
+      "order": "06",
+      "pages": "6",
+      "pdf_heading": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "tokens": 246
+    },
+    {
+      "file": "sections/07-shag-2-ustanovka-softfona-mango-talker.md",
+      "number": "1",
+      "order": "07",
+      "pages": "6-7",
+      "pdf_heading": "Шаг 2. Установка софтфона Mango Talker",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "6-7",
+          "pages": "6-7",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Шаг 2. Установка софтфона Mango Talker",
+      "tokens": 426
+    },
+    {
+      "file": "sections/08-shag-3-ustanovka-prilozheniya-integracii.md",
+      "number": "1",
+      "order": "08",
+      "pages": "7",
+      "pdf_heading": "Шаг 3. Установка приложения интеграции в BPMSoft",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Шаг 3. Установка приложения интеграции в BPMSoft",
+      "tokens": 95
+    },
+    {
+      "file": "sections/09-ustanovka-prilozheniya.md",
+      "number": "1",
+      "order": "09",
+      "pages": "7-9",
+      "pdf_heading": "Установка приложения",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "7-9",
+          "pages": "7-9",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Установка приложения",
+      "tokens": 831
+    },
+    {
+      "file": "sections/10-ustanovka-sistemnyh-nastroek.md",
+      "number": "1",
+      "order": "10",
+      "pages": "9-13",
+      "pdf_heading": "Установка системных настроек",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "9-13",
+          "pages": "9-13",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Установка системных настроек",
+      "tokens": 1190
+    },
+    {
+      "file": "sections/11-shag-4-nastroyka-integracii-v-lichnom-ka.md",
+      "number": "1",
+      "order": "11",
+      "pages": "13",
+      "pdf_heading": "Шаг 4. Настройка интеграции в Личном кабинете MANGO OFFICE",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "13",
+          "pages": "13",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Шаг 4. Настройка интеграции в Личном кабинете MANGO OFFICE",
+      "tokens": 81
+    },
+    {
+      "file": "sections/12-ustanovka-i-bazovye-nastroyki.md",
+      "number": "1",
+      "order": "12",
+      "pages": "13-14",
+      "pdf_heading": "Установка и базовые настройки",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Установка и базовые настройки",
+      "tokens": 591
+    },
+    {
+      "file": "sections/13-nastoyka-podklyucheniya-k-bpmsoft.md",
+      "number": "1",
+      "order": "13",
+      "pages": "14-17",
+      "pdf_heading": "Настойка подключения к BPMSoft",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "14-17",
+          "pages": "14-17",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Настойка подключения к BPMSoft",
+      "tokens": 1455
+    },
+    {
+      "file": "sections/14-nastroyka-sootvetstviya-vnutrennih-nomer.md",
+      "number": "1",
+      "order": "14",
+      "pages": "17",
+      "pdf_heading": "Настройка соответствия внутренних номеров сотрудников",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Настройка соответствия внутренних номеров сотрудников",
+      "tokens": 76
+    },
+    {
+      "file": "sections/15-obschee.md",
+      "number": "1",
+      "order": "15",
+      "pages": "17-18",
+      "pdf_heading": "Общее",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "17-18",
+          "pages": "17-18",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 597
+    },
+    {
+      "file": "sections/16-kak-nastroit-sopostavlenie-sotrudnikov.md",
+      "number": "1",
+      "order": "16",
+      "pages": "18-20",
+      "pdf_heading": "Как настроить сопоставление сотрудников",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "18-20",
+          "pages": "18-20",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как настроить сопоставление сотрудников",
+      "tokens": 435
+    },
+    {
+      "file": "sections/17-dopolnitelnye-nastroyki-integracii.md",
+      "number": "2",
+      "order": "17",
+      "pages": "20",
+      "pdf_heading": "2 Дополнительные настройки интеграции",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "20",
+          "pages": "20",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Дополнительные настройки интеграции",
+      "tokens": 68
+    },
+    {
+      "file": "sections/18-obrabotka-zvonkov.md",
+      "number": "2.1",
+      "order": "18",
+      "pages": "20",
+      "pdf_heading": "2.1 Обработка звонков",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "20",
+          "pages": "20",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обработка звонков",
+      "tokens": 66
+    },
+    {
+      "file": "sections/19-kak-nastroit-dlitelnost-uspeshno-prinyat.md",
+      "number": "2.1",
+      "order": "19",
+      "pages": "20-22",
+      "pdf_heading": "Как настроить длительность успешно принятых и дозвонившихся",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "20-22",
+          "pages": "20-22",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как настроить длительность успешно принятых и дозвонившихся",
+      "tokens": 589
+    },
+    {
+      "file": "sections/20-sozdavat-kontakt-kontragenta-lid-pri-zvo.md",
+      "number": "2.1",
+      "order": "20",
+      "pages": "22-24",
+      "pdf_heading": "Создавать контакт / контрагента / лид при звонках с новых номеров",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "22-24",
+          "pages": "22-24",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Создавать контакт / контрагента / лид при звонках с новых номеров",
+      "tokens": 733
+    },
+    {
+      "file": "sections/21-otvetstvennyy-pri-propuschennyh-zvonkah.md",
+      "number": "2.1",
+      "order": "21",
+      "pages": "24-25",
+      "pdf_heading": "Ответственный при пропущенных звонках в группу",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "24-25",
+          "pages": "24-25",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Ответственный при пропущенных звонках в группу",
+      "tokens": 517
+    },
+    {
+      "file": "sections/22-flag-fiksirovat-propuschennye-v-ivr.md",
+      "number": "2.1",
+      "order": "22",
+      "pages": "25-26",
+      "pdf_heading": "Флаг “Фиксировать пропущенные в IVR”",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "25-26",
+          "pages": "25-26",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Флаг “Фиксировать пропущенные в IVR”",
+      "tokens": 455
+    },
+    {
+      "file": "sections/23-zagruzhat-postzvonkovuyu-ocenku.md",
+      "number": "2.1",
+      "order": "23",
+      "pages": "26",
+      "pdf_heading": "Загружать постзвонковую оценку",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "26",
+          "pages": "26",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Загружать постзвонковую оценку",
+      "tokens": 70
+    },
+    {
+      "file": "sections/24-obzor.md",
+      "number": "2.1",
+      "order": "24",
+      "pages": "26",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "26",
+          "pages": "26",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 466
+    },
+    {
+      "file": "sections/25-trebovaniya.md",
+      "number": "2.1",
+      "order": "25",
+      "pages": "26",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "26",
+          "pages": "26",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 98
+    },
+    {
+      "file": "sections/26-kak-podklyuchit.md",
+      "number": "2.1",
+      "order": "26",
+      "pages": "26-27",
+      "pdf_heading": "Как подключить",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "26-27",
+          "pages": "26-27",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как подключить",
+      "tokens": 230
+    },
+    {
+      "file": "sections/27-obrabotka-povtornyh-vhodyaschih-vyzovov.md",
+      "number": "2.2",
+      "order": "27",
+      "pages": "27",
+      "pdf_heading": "2.2 Обработка повторных входящих вызовов",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "27",
+          "pages": "27",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обработка повторных входящих вызовов",
+      "tokens": 73
+    },
+    {
+      "file": "sections/28-sozdat-lid.md",
+      "number": "2.2",
+      "order": "28",
+      "pages": "27-28",
+      "pdf_heading": "Создать лид",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "27-28",
+          "pages": "27-28",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Создать лид",
+      "tokens": 462
+    },
+    {
+      "file": "sections/29-sohranenie-dannyh-kolltrekinga-mango-off.md",
+      "number": "2.2",
+      "order": "29",
+      "pages": "28",
+      "pdf_heading": "Сохранение данных Коллтрекинга MANGO OFFICE",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "28",
+          "pages": "28",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Сохранение данных Коллтрекинга MANGO OFFICE",
+      "tokens": 72
+    },
+    {
+      "file": "sections/30-obzor.md",
+      "number": "2.2",
+      "order": "30",
+      "pages": "28-30",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "28-30",
+          "pages": "28-30",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 1193
+    },
+    {
+      "file": "sections/31-kak-vklyuchit-ili-vyklyuchit-sohranenie.md",
+      "number": "2.2",
+      "order": "31",
+      "pages": "30-31",
+      "pdf_heading": "Как включить или выключить сохранение данных коллтрекинга",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "30-31",
+          "pages": "30-31",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить или выключить сохранение данных коллтрекинга",
+      "tokens": 346
+    },
+    {
+      "file": "sections/32-kak-posmotret-dannye-kolltrekinga-v-bpms.md",
+      "number": "2.2",
+      "order": "32",
+      "pages": "31-32",
+      "pdf_heading": "Как посмотреть данные коллтрекинга в BPMSoft",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "31-32",
+          "pages": "31-32",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как посмотреть данные коллтрекинга в BPMSoft",
+      "tokens": 391
+    },
+    {
+      "file": "sections/33-umnye-pravila-raspredeleniya-vhodyaschih.md",
+      "number": "2.2",
+      "order": "33",
+      "pages": "32",
+      "pdf_heading": "Умные правила распределения входящих звонков",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "32",
+          "pages": "32",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Умные правила распределения входящих звонков",
+      "tokens": 73
+    },
+    {
+      "file": "sections/34-obzor.md",
+      "number": "2.2",
+      "order": "34",
+      "pages": "32",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "32",
+          "pages": "32",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 112
+    },
+    {
+      "file": "sections/35-kak-sozdat-i-nastroit-umnye-pravila.md",
+      "number": "2.2",
+      "order": "35",
+      "pages": "32-35",
+      "pdf_heading": "Как создать и настроить умные правила",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "32-35",
+          "pages": "32-35",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как создать и настроить умные правила",
+      "tokens": 1521
+    },
+    {
+      "file": "sections/36-primery-nastroyki-umnogo-algoritma-raspr.md",
+      "number": "2.2",
+      "order": "36",
+      "pages": "35-36",
+      "pdf_heading": "Примеры настройки умного алгоритма распределения",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "35-36",
+          "pages": "35-36",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Примеры настройки умного алгоритма распределения",
+      "tokens": 340
+    },
+    {
+      "file": "sections/37-obrabotka-ishodyaschih-zvonkov.md",
+      "number": "2.3",
+      "order": "37",
+      "pages": "36",
+      "pdf_heading": "2.3 Обработка исходящих звонков",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "36",
+          "pages": "36",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обработка исходящих звонков",
+      "tokens": 72
+    },
+    {
+      "file": "sections/38-ishodyaschiy-zvonok-po-kliku-iz-bpmsoft.md",
+      "number": "2.3",
+      "order": "38",
+      "pages": "36-37",
+      "pdf_heading": "Исходящий звонок по клику из BPMSoft",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "36-37",
+          "pages": "36-37",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Исходящий звонок по клику из BPMSoft",
+      "tokens": 351
+    },
+    {
+      "file": "sections/39-dopolnitelnye-nastroyki-integracii.md",
+      "number": "2.4",
+      "order": "39",
+      "pages": "37",
+      "pdf_heading": "2.4 Дополнительные настройки интеграции",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "37",
+          "pages": "37",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Дополнительные настройки интеграции",
+      "tokens": 72
+    },
+    {
+      "file": "sections/40-sohranenie-dannyh-rechevoy-analitiki.md",
+      "number": "2.4",
+      "order": "40",
+      "pages": "37",
+      "pdf_heading": "Сохранение данных речевой аналитики",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "37",
+          "pages": "37",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Сохранение данных речевой аналитики",
+      "tokens": 69
+    },
+    {
+      "file": "sections/41-pered-nachalom-raboty.md",
+      "number": "2.4",
+      "order": "41",
+      "pages": "37",
+      "pdf_heading": "Перед началом работы",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "37",
+          "pages": "37",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Перед началом работы",
+      "tokens": 236
+    },
+    {
+      "file": "sections/42-sohranenie-tematik-razgovorov.md",
+      "number": "2.4",
+      "order": "42",
+      "pages": "37-40",
+      "pdf_heading": "Сохранение тематик разговоров",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "37-40",
+          "pages": "37-40",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Сохранение тематик разговоров",
+      "tokens": 1640
+    },
+    {
+      "file": "sections/43-sohranenie-tekstov-rechevoy-analitiki.md",
+      "number": "2.4",
+      "order": "43",
+      "pages": "40",
+      "pdf_heading": "Сохранение текстов Речевой аналитики",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "40",
+          "pages": "40",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Сохранение текстов Речевой аналитики",
+      "tokens": 70
+    },
+    {
+      "file": "sections/44-obschie-svedeniya.md",
+      "number": "2.4",
+      "order": "44",
+      "pages": "40-41",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "40-41",
+          "pages": "40-41",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 508
+    },
+    {
+      "file": "sections/45-kak-nastroit.md",
+      "number": "2.4",
+      "order": "45",
+      "pages": "41-42",
+      "pdf_heading": "Как настроить",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "41-42",
+          "pages": "41-42",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как настроить",
+      "tokens": 249
+    },
+    {
+      "file": "sections/46-kak-posmotret-raspoznannyy-tekst.md",
+      "number": "2.4",
+      "order": "46",
+      "pages": "42",
+      "pdf_heading": "Как посмотреть распознанный текст",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как посмотреть распознанный текст",
+      "tokens": 263
+    },
+    {
+      "file": "sections/47-obschie-svedeniya.md",
+      "number": "2.4",
+      "order": "47",
+      "pages": "42-43",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "42-43",
+          "pages": "42-43",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 396
+    },
+    {
+      "file": "sections/48-kak-vklyuchit-sohranenie-rezyume-razgovo.md",
+      "number": "2.4",
+      "order": "48",
+      "pages": "43-44",
+      "pdf_heading": "Как включить сохранение резюме разговора",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "43-44",
+          "pages": "43-44",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить сохранение резюме разговора",
+      "tokens": 321
+    },
+    {
+      "file": "sections/49-kak-rabotaet-formirovanie-rezyume.md",
+      "number": "2.4",
+      "order": "49",
+      "pages": "44",
+      "pdf_heading": "Как работает формирование резюме",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "44",
+          "pages": "44",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как работает формирование резюме",
+      "tokens": 165
+    },
+    {
+      "file": "sections/50-kak-posmotret-rezyume-razgovora.md",
+      "number": "2.4",
+      "order": "50",
+      "pages": "44-45",
+      "pdf_heading": "Как посмотреть резюме разговора",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "44-45",
+          "pages": "44-45",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как посмотреть резюме разговора",
+      "tokens": 310
+    },
+    {
+      "file": "sections/51-ispolzovanie-vks-mango-talker.md",
+      "number": "2.4",
+      "order": "51",
+      "pages": "45",
+      "pdf_heading": "Использование ВКС MANGO TALKER",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "45",
+          "pages": "45",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Использование ВКС MANGO TALKER",
+      "tokens": 355
+    },
+    {
+      "file": "sections/52-kak-vklyuchit-ispolzovanie-vks.md",
+      "number": "2.4",
+      "order": "52",
+      "pages": "45-46",
+      "pdf_heading": "Как включить использование ВКС",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "45-46",
+          "pages": "45-46",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить использование ВКС",
+      "tokens": 367
+    },
+    {
+      "file": "sections/53-kak-rabotat-s-videokonferenciey-v-kartoc.md",
+      "number": "2.4",
+      "order": "53",
+      "pages": "46-47",
+      "pdf_heading": "Как работать с видеоконференцией в карточке контакта",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "46-47",
+          "pages": "46-47",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как работать с видеоконференцией в карточке контакта",
+      "tokens": 360
+    },
+    {
+      "file": "sections/54-rezultaty-video-vstrechi.md",
+      "number": "2.4",
+      "order": "54",
+      "pages": "47-48",
+      "pdf_heading": "Результаты видео-встречи",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "47-48",
+          "pages": "47-48",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Результаты видео-встречи",
+      "tokens": 388
+    },
+    {
+      "file": "sections/55-zagruzka-otsutstvuyuschih-v-crm-zvonkov.md",
+      "number": "2.4",
+      "order": "55",
+      "pages": "48",
+      "pdf_heading": "Загрузка отсутствующих в CRM звонков",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "48",
+          "pages": "48",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Загрузка отсутствующих в CRM звонков",
+      "tokens": 70
+    },
+    {
+      "file": "sections/56-obzor.md",
+      "number": "2.4",
+      "order": "56",
+      "pages": "48-49",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "48-49",
+          "pages": "48-49",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 268
+    },
+    {
+      "file": "sections/57-kak-vklyuchit.md",
+      "number": "2.4",
+      "order": "57",
+      "pages": "49",
+      "pdf_heading": "Как включить",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "49",
+          "pages": "49",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить",
+      "tokens": 209
+    },
+    {
+      "file": "sections/58-otklyuchit-rabotu-s-lidami.md",
+      "number": "2.4",
+      "order": "58",
+      "pages": "49",
+      "pdf_heading": "Отключить работу с лидами",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "49",
+          "pages": "49",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Отключить работу с лидами",
+      "tokens": 64
+    },
+    {
+      "file": "sections/59-obzor.md",
+      "number": "2.4",
+      "order": "59",
+      "pages": "49",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "49",
+          "pages": "49",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 227
+    },
+    {
+      "file": "sections/60-kak-vklyuchit.md",
+      "number": "2.4",
+      "order": "60",
+      "pages": "49-50",
+      "pdf_heading": "Как включить",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "49-50",
+          "pages": "49-50",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить",
+      "tokens": 204
+    },
+    {
+      "file": "sections/61-ispolzovat-statusy-kontakt-centra.md",
+      "number": "2.4",
+      "order": "61",
+      "pages": "50",
+      "pdf_heading": "Использовать статусы Контакт-Центра",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "50",
+          "pages": "50",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Использовать статусы Контакт-Центра",
+      "tokens": 117
+    },
+    {
+      "file": "sections/62-obzor.md",
+      "number": "2.4",
+      "order": "62",
+      "pages": "50",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "50",
+          "pages": "50",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 503
+    },
+    {
+      "file": "sections/63-trebovaniya.md",
+      "number": "2.4",
+      "order": "63",
+      "pages": "50-51",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "50-51",
+          "pages": "50-51",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 190
+    },
+    {
+      "file": "sections/64-statusy-kontakt-centra-v-interfeyse-bpms.md",
+      "number": "2.4",
+      "order": "64",
+      "pages": "51",
+      "pdf_heading": "Статусы Контакт-центра в интерфейсе BPMSoft",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Статусы Контакт-центра в интерфейсе BPMSoft",
+      "tokens": 204
+    },
+    {
+      "file": "sections/65-kak-vklyuchit-nastroyku-ispolzovat-statu.md",
+      "number": "2.4",
+      "order": "65",
+      "pages": "51-52",
+      "pdf_heading": "Как включить настройку “Использовать статусы Контакт-Центра”",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "51-52",
+          "pages": "51-52",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить настройку “Использовать статусы Контакт-Центра”",
+      "tokens": 276
+    },
+    {
+      "file": "sections/66-ruchnaya-privyazka-zvonka-k-suschnostyam.md",
+      "number": "2.4",
+      "order": "66",
+      "pages": "52",
+      "pdf_heading": "Ручная привязка звонка к сущностям",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Ручная привязка звонка к сущностям",
+      "tokens": 72
+    },
+    {
+      "file": "sections/67-obzor.md",
+      "number": "2.4",
+      "order": "67",
+      "pages": "52",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 308
+    },
+    {
+      "file": "sections/68-kak-vklyuchit.md",
+      "number": "2.4",
+      "order": "68",
+      "pages": "52-53",
+      "pdf_heading": "Как включить",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "52-53",
+          "pages": "52-53",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить",
+      "tokens": 214
+    },
+    {
+      "file": "sections/69-privyazka-zvonka-k-suschnosti-vruchnuyu.md",
+      "number": "2.4",
+      "order": "69",
+      "pages": "53",
+      "pdf_heading": "Привязка звонка к сущности вручную",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "53",
+          "pages": "53",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Привязка звонка к сущности вручную",
+      "tokens": 239
+    },
+    {
+      "file": "sections/70-nastroyka-deystviy-v-zavisimosti-ot-roli.md",
+      "number": "2.5",
+      "order": "70",
+      "pages": "53",
+      "pdf_heading": "2.5 Настройка действий в зависимости от роли",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "53",
+          "pages": "53",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Настройка действий в зависимости от роли",
+      "tokens": 75
+    },
+    {
+      "file": "sections/71-obschee.md",
+      "number": "2.5",
+      "order": "71",
+      "pages": "53",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "53",
+          "pages": "53",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 57
+    },
+    {
+      "file": "sections/72-naznachenie.md",
+      "number": "2.5",
+      "order": "72",
+      "pages": "53-54",
+      "pdf_heading": "Назначение",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "53-54",
+          "pages": "53-54",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Назначение",
+      "tokens": 619
+    },
+    {
+      "file": "sections/73-prosmotr-primenennyh-pravil-v-kartochke.md",
+      "number": "2.5",
+      "order": "73",
+      "pages": "54",
+      "pdf_heading": "Просмотр примененных правил в карточке звонка",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "54",
+          "pages": "54",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Просмотр примененных правил в карточке звонка",
+      "tokens": 201
+    },
+    {
+      "file": "sections/74-ogranicheniya.md",
+      "number": "2.5",
+      "order": "74",
+      "pages": "54",
+      "pdf_heading": "Ограничения",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "54",
+          "pages": "54",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Ограничения",
+      "tokens": 144
+    },
+    {
+      "file": "sections/75-testovye-pravila.md",
+      "number": "2.5",
+      "order": "75",
+      "pages": "54",
+      "pdf_heading": "Тестовые правила",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "54",
+          "pages": "54",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Тестовые правила",
+      "tokens": 155
+    },
+    {
+      "file": "sections/76-kak-otkryt-nastroyku.md",
+      "number": "2.5",
+      "order": "76",
+      "pages": "54-55",
+      "pdf_heading": "Как открыть настройку",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "54-55",
+          "pages": "54-55",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как открыть настройку",
+      "tokens": 374
+    },
+    {
+      "file": "sections/77-kak-ustroena-tablica-pravil.md",
+      "number": "2.5",
+      "order": "77",
+      "pages": "55",
+      "pdf_heading": "Как устроена таблица правил",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "55",
+          "pages": "55",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как устроена таблица правил",
+      "tokens": 64
+    },
+    {
+      "file": "sections/78-opisanie-interfeysa.md",
+      "number": "2.5",
+      "order": "78",
+      "pages": "55-58",
+      "pdf_heading": "Описание интерфейса",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "55-58",
+          "pages": "55-58",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Описание интерфейса",
+      "tokens": 1843
+    },
+    {
+      "file": "sections/79-o-vidah-deystviy.md",
+      "number": "2.5",
+      "order": "79",
+      "pages": "58-60",
+      "pdf_heading": "О видах действий",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "58-60",
+          "pages": "58-60",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "О видах действий",
+      "tokens": 1227
+    },
+    {
+      "file": "sections/80-trebovanie-k-zapolneniyu-grafy-znachenie.md",
+      "number": "2.5",
+      "order": "80",
+      "pages": "60",
+      "pdf_heading": "Требование к заполнению графы “Значение”",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "60",
+          "pages": "60",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Требование к заполнению графы “Значение”",
+      "tokens": 490
+    },
+    {
+      "file": "sections/81-kak-interpretiruyutsya-pravila-ukazannye.md",
+      "number": "2.5",
+      "order": "81",
+      "pages": "60-61",
+      "pdf_heading": "Как интерпретируются правила, указанные в таблице",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "60-61",
+          "pages": "60-61",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как интерпретируются правила, указанные в таблице",
+      "tokens": 644
+    },
+    {
+      "file": "sections/82-kak-aktivirovat-nastroyku.md",
+      "number": "2.5",
+      "order": "82",
+      "pages": "61",
+      "pdf_heading": "Как активировать настройку",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "61",
+          "pages": "61",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как активировать настройку",
+      "tokens": 63
+    },
+    {
+      "file": "sections/83-vazhnaya-informaciya.md",
+      "number": "2.5",
+      "order": "83",
+      "pages": "61",
+      "pdf_heading": "Важная информация",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "61",
+          "pages": "61",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Важная информация",
+      "tokens": 266
+    },
+    {
+      "file": "sections/84-kak-aktivirovat-ili-deaktivirovat-nastro.md",
+      "number": "2.5",
+      "order": "84",
+      "pages": "61-62",
+      "pdf_heading": "Как активировать или деактивировать настройку",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "61-62",
+          "pages": "61-62",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как активировать или деактивировать настройку",
+      "tokens": 551
+    },
+    {
+      "file": "sections/85-upravlenie-pravilami-vypolneniya-deystvi.md",
+      "number": "2.5",
+      "order": "85",
+      "pages": "62",
+      "pdf_heading": "Управление правилами выполнения действий",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "62",
+          "pages": "62",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Управление правилами выполнения действий",
+      "tokens": 335
+    },
+    {
+      "file": "sections/86-kak-vklyuchit-ili-priostanovit-deystvie.md",
+      "number": "2.5",
+      "order": "86",
+      "pages": "62-64",
+      "pdf_heading": "Как включить или приостановить действие правила",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "62-64",
+          "pages": "62-64",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить или приостановить действие правила",
+      "tokens": 652
+    },
+    {
+      "file": "sections/87-kak-nastroit-kolonki-v-tablice.md",
+      "number": "2.5",
+      "order": "87",
+      "pages": "64-65",
+      "pdf_heading": "Как настроить колонки в таблице",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "64-65",
+          "pages": "64-65",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как настроить колонки в таблице",
+      "tokens": 564
+    },
+    {
+      "file": "sections/88-dobavlenie.md",
+      "number": "2.5",
+      "order": "88",
+      "pages": "65-66",
+      "pdf_heading": "Добавление",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "65-66",
+          "pages": "65-66",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Добавление",
+      "tokens": 443
+    },
+    {
+      "file": "sections/89-redaktirovanie-ili-udalenie-pravila.md",
+      "number": "2.5",
+      "order": "89",
+      "pages": "66-68",
+      "pdf_heading": "Редактирование или удаление правила",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "66-68",
+          "pages": "66-68",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Редактирование или удаление правила",
+      "tokens": 709
+    },
+    {
+      "file": "sections/90-nastroyka-sohranyat-istoriyu-deystviy-po.md",
+      "number": "2.6",
+      "order": "90",
+      "pages": "68",
+      "pdf_heading": "2.6 Настройка “Сохранять историю действий по звонкам”",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "68",
+          "pages": "68",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Настройка “Сохранять историю действий по звонкам”",
+      "tokens": 82
+    },
+    {
+      "file": "sections/91-obschee.md",
+      "number": "2.6",
+      "order": "91",
+      "pages": "68",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "68",
+          "pages": "68",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 285
+    },
+    {
+      "file": "sections/92-kak-vklyuchit-ili-vyklyuchit-nastroyku.md",
+      "number": "2.6",
+      "order": "92",
+      "pages": "68-69",
+      "pdf_heading": "Как включить или выключить настройку",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "68-69",
+          "pages": "68-69",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить или выключить настройку",
+      "tokens": 511
+    },
+    {
+      "file": "sections/93-dalneyshie-deystviya.md",
+      "number": "2.6",
+      "order": "93",
+      "pages": "69-70",
+      "pdf_heading": "Дальнейшие действия",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "69-70",
+          "pages": "69-70",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Дальнейшие действия",
+      "tokens": 264
+    },
+    {
+      "file": "sections/94-kak-proverit-vklyuchena-li-nastroyka-nas.md",
+      "number": "2.6",
+      "order": "94",
+      "pages": "70-71",
+      "pdf_heading": "Как проверить, включена ли настройка ”Настройки действий в зависимости от роли”",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "70-71",
+          "pages": "70-71",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как проверить, включена ли настройка ”Настройки действий в зависимости от роли”",
+      "tokens": 575
+    },
+    {
+      "file": "sections/95-otchet-deystviya-zvonka.md",
+      "number": "2.7",
+      "order": "95",
+      "pages": "71",
+      "pdf_heading": "2.7 Отчет “Действия звонка”",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "71",
+          "pages": "71",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Отчет “Действия звонка”",
+      "tokens": 70
+    },
+    {
+      "file": "sections/96-obschee.md",
+      "number": "2.7",
+      "order": "96",
+      "pages": "71",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "71",
+          "pages": "71",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 260
+    },
+    {
+      "file": "sections/97-trebovaniya.md",
+      "number": "2.7",
+      "order": "97",
+      "pages": "71-72",
+      "pdf_heading": "Требования",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "71-72",
+          "pages": "71-72",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Требования",
+      "tokens": 232
+    },
+    {
+      "file": "sections/98-kak-otkryt-otchet.md",
+      "number": "2.7",
+      "order": "98",
+      "pages": "72-73",
+      "pdf_heading": "Как открыть отчет",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "72-73",
+          "pages": "72-73",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как открыть отчет",
+      "tokens": 289
+    },
+    {
+      "file": "sections/99-struktura-otcheta.md",
+      "number": "2.7",
+      "order": "99",
+      "pages": "73",
+      "pdf_heading": "Структура отчета",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "73",
+          "pages": "73",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Структура отчета",
+      "tokens": 116
+    },
+    {
+      "file": "sections/100-dannye-o-pravilah-primenennyh-k-zvonku.md",
+      "number": "2.7",
+      "order": "100",
+      "pages": "73",
+      "pdf_heading": "Данные о правилах, применённых к звонку",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "73",
+          "pages": "73",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Данные о правилах, применённых к звонку",
+      "tokens": 400
+    },
+    {
+      "file": "sections/101-soobschenie-net-dannyh.md",
+      "number": "2.7",
+      "order": "101",
+      "pages": "73",
+      "pdf_heading": "Сообщение “Нет данных”",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "73",
+          "pages": "73",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Сообщение “Нет данных”",
+      "tokens": 128
+    },
+    {
+      "file": "sections/102-soobschenie-1-nepolnaya-nastroyka-sohran.md",
+      "number": "2.7",
+      "order": "102",
+      "pages": "73-74",
+      "pdf_heading": "Сообщение “1”. Неполная настройка сохранения истории действий по звонкам",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "73-74",
+          "pages": "73-74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Сообщение “1”. Неполная настройка сохранения истории действий по звонкам",
+      "tokens": 281
+    },
+    {
+      "file": "sections/103-otpravka-soobscheniy-whatsapp.md",
+      "number": "2.8",
+      "order": "103",
+      "pages": "74",
+      "pdf_heading": "2.8 Отправка сообщений WhatsApp",
+      "pdf_section": "2.8",
+      "source_refs": [
+        {
+          "global_pages": "74",
+          "pages": "74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Отправка сообщений WhatsApp",
+      "tokens": 66
+    },
+    {
+      "file": "sections/104-obschee.md",
+      "number": "2.8",
+      "order": "104",
+      "pages": "74",
+      "pdf_heading": "Общее",
+      "pdf_section": "2.8",
+      "source_refs": [
+        {
+          "global_pages": "74",
+          "pages": "74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 306
+    },
+    {
+      "file": "sections/105-obschee-o-mango-dialogah.md",
+      "number": "2.8",
+      "order": "105",
+      "pages": "74",
+      "pdf_heading": "Общее о Манго Диалогах",
+      "pdf_section": "2.8",
+      "source_refs": [
+        {
+          "global_pages": "74",
+          "pages": "74",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее о Манго Диалогах",
+      "tokens": 125
+    },
+    {
+      "file": "sections/106-kak-vklyuchit-otpravku-soobscheniy-whats.md",
+      "number": "2.8",
+      "order": "106",
+      "pages": "74-75",
+      "pdf_heading": "Как включить отправку сообщений WhatsApp",
+      "pdf_section": "2.8",
+      "source_refs": [
+        {
+          "global_pages": "74-75",
+          "pages": "74-75",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить отправку сообщений WhatsApp",
+      "tokens": 250
+    },
+    {
+      "file": "sections/107-kak-otpravit-klientu-soobschenie-whatsap.md",
+      "number": "2.8",
+      "order": "107",
+      "pages": "75-77",
+      "pdf_heading": "Как отправить Клиенту сообщение WhatsApp",
+      "pdf_section": "2.8",
+      "source_refs": [
+        {
+          "global_pages": "75-77",
+          "pages": "75-77",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как отправить Клиенту сообщение WhatsApp",
+      "tokens": 795
+    },
+    {
+      "file": "sections/108-dobavlenie-zadaniya-na-ishodyaschiy-obzv.md",
+      "number": "2.9",
+      "order": "108",
+      "pages": "77",
+      "pdf_heading": "2.9 Добавление задания на исходящий обзвон в Контакт-центр MANGO OFFICE",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "77",
+          "pages": "77",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Добавление задания на исходящий обзвон в Контакт-центр MANGO OFFICE",
+      "tokens": 93
+    },
+    {
+      "file": "sections/109-obzor.md",
+      "number": "2.9",
+      "order": "109",
+      "pages": "77-78",
+      "pdf_heading": "Обзор",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "77-78",
+          "pages": "77-78",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 539
+    },
+    {
+      "file": "sections/110-kak-vklyuchit-nastroyku.md",
+      "number": "2.9",
+      "order": "110",
+      "pages": "78",
+      "pdf_heading": "Как включить настройку",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "78",
+          "pages": "78",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как включить настройку",
+      "tokens": 231
+    },
+    {
+      "file": "sections/111-kak-dobavit-zadanie-v-kampaniyu-ishodyas.md",
+      "number": "2.9",
+      "order": "111",
+      "pages": "78-81",
+      "pdf_heading": "Как добавить задание в кампанию исходящего обзвона Контакт-центра MANGO OFFICE",
+      "pdf_section": "2.9",
+      "source_refs": [
+        {
+          "global_pages": "78-81",
+          "pages": "78-81",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как добавить задание в кампанию исходящего обзвона Контакт-центра MANGO OFFICE",
+      "tokens": 703
+    },
+    {
+      "file": "sections/112-kak-sovershat-i-prinimat-vyzovy.md",
+      "number": "3",
+      "order": "112",
+      "pages": "81",
+      "pdf_heading": "3 Как совершать и принимать вызовы",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "81",
+          "pages": "81",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как совершать и принимать вызовы",
+      "tokens": 287
+    },
+    {
+      "file": "sections/113-vhodyaschiy-zvonok.md",
+      "number": "3.1",
+      "order": "113",
+      "pages": "81-82",
+      "pdf_heading": "3.1 Входящий звонок",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "81-82",
+          "pages": "81-82",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Входящий звонок",
+      "tokens": 498
+    },
+    {
+      "file": "sections/114-ishodyaschiy-zvonok.md",
+      "number": "3.2",
+      "order": "114",
+      "pages": "82-83",
+      "pdf_heading": "3.2 Исходящий звонок",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "82-83",
+          "pages": "82-83",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Исходящий звонок",
+      "tokens": 342
+    },
+    {
+      "file": "sections/115-kak-perevesti-zvonok-na-drugogo-sotrudni.md",
+      "number": "3.3",
+      "order": "115",
+      "pages": "83",
+      "pdf_heading": "3.3 Как перевести звонок на другого сотрудника или произвольный номер",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "83",
+          "pages": "83",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как перевести звонок на другого сотрудника или произвольный номер",
+      "tokens": 92
+    },
+    {
+      "file": "sections/116-obschee.md",
+      "number": "3.3",
+      "order": "116",
+      "pages": "83",
+      "pdf_heading": "Общее",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "83",
+          "pages": "83",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 438
+    },
+    {
+      "file": "sections/117-ogranicheniya.md",
+      "number": "3.3",
+      "order": "117",
+      "pages": "83",
+      "pdf_heading": "Ограничения",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "83",
+          "pages": "83",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Ограничения",
+      "tokens": 134
+    },
+    {
+      "file": "sections/118-kak-perevesti-zvonok-s-konsultaciey.md",
+      "number": "3.3",
+      "order": "118",
+      "pages": "83-86",
+      "pdf_heading": "Как перевести звонок с консультацией",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "83-86",
+          "pages": "83-86",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как перевести звонок с консультацией",
+      "tokens": 1140
+    },
+    {
+      "file": "sections/119-slepoy-perevod-ili-kak-perevesti-zvonok.md",
+      "number": "3.3",
+      "order": "119",
+      "pages": "86-88",
+      "pdf_heading": "Слепой перевод или как перевести звонок без консультации",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "86-88",
+          "pages": "86-88",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Слепой перевод или как перевести звонок без консультации",
+      "tokens": 892
+    },
+    {
+      "file": "sections/120-propuschennye-zvonki.md",
+      "number": "4",
+      "order": "120",
+      "pages": "88",
+      "pdf_heading": "4 Пропущенные звонки",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "88",
+          "pages": "88",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Пропущенные звонки",
+      "tokens": 362
+    },
+    {
+      "file": "sections/121-nastroyka-vneshnego-vida-tablicy-zvonkov.md",
+      "number": "4.1",
+      "order": "121",
+      "pages": "88-91",
+      "pdf_heading": "4.1 Настройка внешнего вида таблицы звонков",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "88-91",
+          "pages": "88-91",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Настройка внешнего вида таблицы звонков",
+      "tokens": 648
+    },
+    {
+      "file": "sections/122-istoriya-vyzovov.md",
+      "number": "5",
+      "order": "122",
+      "pages": "91-92",
+      "pdf_heading": "5 История вызовов",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "91-92",
+          "pages": "91-92",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "История вызовов",
+      "tokens": 329
+    },
+    {
+      "file": "sections/123-zapis-razgovorov.md",
+      "number": "6",
+      "order": "123",
+      "pages": "92-93",
+      "pdf_heading": "6 Запись разговоров",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "92-93",
+          "pages": "92-93",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Запись разговоров",
+      "tokens": 569
+    },
+    {
+      "file": "sections/124-prilozhenie-informaciya-dlya-administrat.md",
+      "number": "—",
+      "order": "124",
+      "pages": "93",
+      "pdf_heading": "Приложение. Информация для администраторов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "93",
+          "pages": "93",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Приложение. Информация для администраторов",
+      "tokens": 70
+    },
+    {
+      "file": "sections/125-kak-izmenit-login-i-parol-api-bpmsoft.md",
+      "number": "—",
+      "order": "125",
+      "pages": "93-95",
+      "pdf_heading": "Как изменить логин и пароль API BPMSoft",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "93-95",
+          "pages": "93-95",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Как изменить логин и пароль API BPMSoft",
+      "tokens": 676
+    },
+    {
+      "file": "sections/126-spisok-izmeneniy-v-dokumente.md",
+      "number": "—",
+      "order": "126",
+      "pages": "95-96",
+      "pdf_heading": "Список изменений в документе",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "95-96",
+          "pages": "95-96",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+        }
+      ],
+      "title": "Список изменений в документе",
+      "tokens": 1194
+    }
+  ],
+  "source_document": "integration-bpmsoft",
+  "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf",
+  "source_pdfs": [
+    "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf"
+  ],
+  "source_set": "integration-bpmsoft",
+  "source_sha256": "049c094114e963e78c2d8c4c60efb4d91d8014926e8d66d634bed3eceb085bb3",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 96,
+      "source_pdf": "kb/sources/integration-bpmsoft/Mango_office_integration_BPMSoft.pdf",
+      "source_sha256": "049c094114e963e78c2d8c4c60efb4d91d8014926e8d66d634bed3eceb085bb3"
+    }
+  ],
+  "table_count": 7,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 11803,
+  "tokens_total": 49903,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 463,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 24,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-5",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/01-nachalo-raboty-s-integraciey.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Начало работы с интеграцией",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/02-obzor.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/03-vazhnaya-informaciya.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Важная информация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/04-podgotovka.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Подготовка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/05-poryadok-deystviy.md",
+        "gap_pages": [],
+        "pages": "5-6",
+        "title": "Порядок действий",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/06-shag-1-podklyuchenie-virtualnoy-ats-mang.md",
+        "gap_pages": [],
+        "pages": "6",
+        "title": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/07-shag-2-ustanovka-softfona-mango-talker.md",
+        "gap_pages": [],
+        "pages": "6-7",
+        "title": "Шаг 2. Установка софтфона Mango Talker",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/08-shag-3-ustanovka-prilozheniya-integracii.md",
+        "gap_pages": [],
+        "pages": "7",
+        "title": "Шаг 3. Установка приложения интеграции в BPMSoft",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/09-ustanovka-prilozheniya.md",
+        "gap_pages": [],
+        "pages": "7-9",
+        "title": "Установка приложения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/10-ustanovka-sistemnyh-nastroek.md",
+        "gap_pages": [],
+        "pages": "9-13",
+        "title": "Установка системных настроек",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/11-shag-4-nastroyka-integracii-v-lichnom-ka.md",
+        "gap_pages": [],
+        "pages": "13",
+        "title": "Шаг 4. Настройка интеграции в Личном кабинете MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/12-ustanovka-i-bazovye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "13-14",
+        "title": "Установка и базовые настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 34,
+        "file": "sections/13-nastoyka-podklyucheniya-k-bpmsoft.md",
+        "gap_pages": [],
+        "pages": "14-17",
+        "title": "Настойка подключения к BPMSoft",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/14-nastroyka-sootvetstviya-vnutrennih-nomer.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "Настройка соответствия внутренних номеров сотрудников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/15-obschee.md",
+        "gap_pages": [],
+        "pages": "17-18",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/16-kak-nastroit-sopostavlenie-sotrudnikov.md",
+        "gap_pages": [],
+        "pages": "18-20",
+        "title": "Как настроить сопоставление сотрудников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/17-dopolnitelnye-nastroyki-integracii.md",
+        "gap_pages": [],
+        "pages": "20",
+        "title": "Дополнительные настройки интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/18-obrabotka-zvonkov.md",
+        "gap_pages": [],
+        "pages": "20",
+        "title": "Обработка звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/19-kak-nastroit-dlitelnost-uspeshno-prinyat.md",
+        "gap_pages": [],
+        "pages": "20-22",
+        "title": "Как настроить длительность успешно принятых и дозвонившихся",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/20-sozdavat-kontakt-kontragenta-lid-pri-zvo.md",
+        "gap_pages": [],
+        "pages": "22-24",
+        "title": "Создавать контакт / контрагента / лид при звонках с новых номеров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/21-otvetstvennyy-pri-propuschennyh-zvonkah.md",
+        "gap_pages": [],
+        "pages": "24-25",
+        "title": "Ответственный при пропущенных звонках в группу",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/22-flag-fiksirovat-propuschennye-v-ivr.md",
+        "gap_pages": [],
+        "pages": "25-26",
+        "title": "Флаг “Фиксировать пропущенные в IVR”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/23-zagruzhat-postzvonkovuyu-ocenku.md",
+        "gap_pages": [],
+        "pages": "26",
+        "title": "Загружать постзвонковую оценку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/24-obzor.md",
+        "gap_pages": [],
+        "pages": "26",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/25-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "26",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/26-kak-podklyuchit.md",
+        "gap_pages": [],
+        "pages": "26-27",
+        "title": "Как подключить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/27-obrabotka-povtornyh-vhodyaschih-vyzovov.md",
+        "gap_pages": [],
+        "pages": "27",
+        "title": "Обработка повторных входящих вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/28-sozdat-lid.md",
+        "gap_pages": [],
+        "pages": "27-28",
+        "title": "Создать лид",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/29-sohranenie-dannyh-kolltrekinga-mango-off.md",
+        "gap_pages": [],
+        "pages": "28",
+        "title": "Сохранение данных Коллтрекинга MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 20,
+        "file": "sections/30-obzor.md",
+        "gap_pages": [],
+        "pages": "28-30",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/31-kak-vklyuchit-ili-vyklyuchit-sohranenie.md",
+        "gap_pages": [],
+        "pages": "30-31",
+        "title": "Как включить или выключить сохранение данных коллтрекинга",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/32-kak-posmotret-dannye-kolltrekinga-v-bpms.md",
+        "gap_pages": [],
+        "pages": "31-32",
+        "title": "Как посмотреть данные коллтрекинга в BPMSoft",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/33-umnye-pravila-raspredeleniya-vhodyaschih.md",
+        "gap_pages": [],
+        "pages": "32",
+        "title": "Умные правила распределения входящих звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/34-obzor.md",
+        "gap_pages": [],
+        "pages": "32",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/35-kak-sozdat-i-nastroit-umnye-pravila.md",
+        "gap_pages": [],
+        "pages": "32-35",
+        "title": "Как создать и настроить умные правила",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/36-primery-nastroyki-umnogo-algoritma-raspr.md",
+        "gap_pages": [],
+        "pages": "35-36",
+        "title": "Примеры настройки умного алгоритма распределения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/37-obrabotka-ishodyaschih-zvonkov.md",
+        "gap_pages": [],
+        "pages": "36",
+        "title": "Обработка исходящих звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/38-ishodyaschiy-zvonok-po-kliku-iz-bpmsoft.md",
+        "gap_pages": [],
+        "pages": "36-37",
+        "title": "Исходящий звонок по клику из BPMSoft",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/39-dopolnitelnye-nastroyki-integracii.md",
+        "gap_pages": [],
+        "pages": "37",
+        "title": "Дополнительные настройки интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/40-sohranenie-dannyh-rechevoy-analitiki.md",
+        "gap_pages": [],
+        "pages": "37",
+        "title": "Сохранение данных речевой аналитики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/41-pered-nachalom-raboty.md",
+        "gap_pages": [],
+        "pages": "37",
+        "title": "Перед началом работы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/42-sohranenie-tematik-razgovorov.md",
+        "gap_pages": [],
+        "pages": "37-40",
+        "title": "Сохранение тематик разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/43-sohranenie-tekstov-rechevoy-analitiki.md",
+        "gap_pages": [],
+        "pages": "40",
+        "title": "Сохранение текстов Речевой аналитики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/44-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "40-41",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/45-kak-nastroit.md",
+        "gap_pages": [],
+        "pages": "41-42",
+        "title": "Как настроить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/46-kak-posmotret-raspoznannyy-tekst.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Как посмотреть распознанный текст",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/47-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "42-43",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/48-kak-vklyuchit-sohranenie-rezyume-razgovo.md",
+        "gap_pages": [],
+        "pages": "43-44",
+        "title": "Как включить сохранение резюме разговора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/49-kak-rabotaet-formirovanie-rezyume.md",
+        "gap_pages": [],
+        "pages": "44",
+        "title": "Как работает формирование резюме",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/50-kak-posmotret-rezyume-razgovora.md",
+        "gap_pages": [],
+        "pages": "44-45",
+        "title": "Как посмотреть резюме разговора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/51-ispolzovanie-vks-mango-talker.md",
+        "gap_pages": [],
+        "pages": "45",
+        "title": "Использование ВКС MANGO TALKER",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/52-kak-vklyuchit-ispolzovanie-vks.md",
+        "gap_pages": [],
+        "pages": "45-46",
+        "title": "Как включить использование ВКС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/53-kak-rabotat-s-videokonferenciey-v-kartoc.md",
+        "gap_pages": [],
+        "pages": "46-47",
+        "title": "Как работать с видеоконференцией в карточке контакта",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/54-rezultaty-video-vstrechi.md",
+        "gap_pages": [],
+        "pages": "47-48",
+        "title": "Результаты видео-встречи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/55-zagruzka-otsutstvuyuschih-v-crm-zvonkov.md",
+        "gap_pages": [],
+        "pages": "48",
+        "title": "Загрузка отсутствующих в CRM звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/56-obzor.md",
+        "gap_pages": [],
+        "pages": "48-49",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/57-kak-vklyuchit.md",
+        "gap_pages": [],
+        "pages": "49",
+        "title": "Как включить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/58-otklyuchit-rabotu-s-lidami.md",
+        "gap_pages": [],
+        "pages": "49",
+        "title": "Отключить работу с лидами",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/59-obzor.md",
+        "gap_pages": [],
+        "pages": "49",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/60-kak-vklyuchit.md",
+        "gap_pages": [],
+        "pages": "49-50",
+        "title": "Как включить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/61-ispolzovat-statusy-kontakt-centra.md",
+        "gap_pages": [],
+        "pages": "50",
+        "title": "Использовать статусы Контакт-Центра",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/62-obzor.md",
+        "gap_pages": [],
+        "pages": "50",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/63-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "50-51",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/64-statusy-kontakt-centra-v-interfeyse-bpms.md",
+        "gap_pages": [],
+        "pages": "51",
+        "title": "Статусы Контакт-центра в интерфейсе BPMSoft",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/65-kak-vklyuchit-nastroyku-ispolzovat-statu.md",
+        "gap_pages": [],
+        "pages": "51-52",
+        "title": "Как включить настройку “Использовать статусы Контакт-Центра”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/66-ruchnaya-privyazka-zvonka-k-suschnostyam.md",
+        "gap_pages": [],
+        "pages": "52",
+        "title": "Ручная привязка звонка к сущностям",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/67-obzor.md",
+        "gap_pages": [],
+        "pages": "52",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/68-kak-vklyuchit.md",
+        "gap_pages": [],
+        "pages": "52-53",
+        "title": "Как включить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/69-privyazka-zvonka-k-suschnosti-vruchnuyu.md",
+        "gap_pages": [],
+        "pages": "53",
+        "title": "Привязка звонка к сущности вручную",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/70-nastroyka-deystviy-v-zavisimosti-ot-roli.md",
+        "gap_pages": [],
+        "pages": "53",
+        "title": "Настройка действий в зависимости от роли",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/71-obschee.md",
+        "gap_pages": [],
+        "pages": "53",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/72-naznachenie.md",
+        "gap_pages": [],
+        "pages": "53-54",
+        "title": "Назначение",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/73-prosmotr-primenennyh-pravil-v-kartochke.md",
+        "gap_pages": [],
+        "pages": "54",
+        "title": "Просмотр примененных правил в карточке звонка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/74-ogranicheniya.md",
+        "gap_pages": [],
+        "pages": "54",
+        "title": "Ограничения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/75-testovye-pravila.md",
+        "gap_pages": [],
+        "pages": "54",
+        "title": "Тестовые правила",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/76-kak-otkryt-nastroyku.md",
+        "gap_pages": [],
+        "pages": "54-55",
+        "title": "Как открыть настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/77-kak-ustroena-tablica-pravil.md",
+        "gap_pages": [],
+        "pages": "55",
+        "title": "Как устроена таблица правил",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/78-opisanie-interfeysa.md",
+        "gap_pages": [],
+        "pages": "55-58",
+        "title": "Описание интерфейса",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/79-o-vidah-deystviy.md",
+        "gap_pages": [],
+        "pages": "58-60",
+        "title": "О видах действий",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/80-trebovanie-k-zapolneniyu-grafy-znachenie.md",
+        "gap_pages": [],
+        "pages": "60",
+        "title": "Требование к заполнению графы “Значение”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/81-kak-interpretiruyutsya-pravila-ukazannye.md",
+        "gap_pages": [],
+        "pages": "60-61",
+        "title": "Как интерпретируются правила, указанные в таблице",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/82-kak-aktivirovat-nastroyku.md",
+        "gap_pages": [],
+        "pages": "61",
+        "title": "Как активировать настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/83-vazhnaya-informaciya.md",
+        "gap_pages": [],
+        "pages": "61",
+        "title": "Важная информация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/84-kak-aktivirovat-ili-deaktivirovat-nastro.md",
+        "gap_pages": [],
+        "pages": "61-62",
+        "title": "Как активировать или деактивировать настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/85-upravlenie-pravilami-vypolneniya-deystvi.md",
+        "gap_pages": [],
+        "pages": "62",
+        "title": "Управление правилами выполнения действий",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/86-kak-vklyuchit-ili-priostanovit-deystvie.md",
+        "gap_pages": [],
+        "pages": "62-64",
+        "title": "Как включить или приостановить действие правила",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/87-kak-nastroit-kolonki-v-tablice.md",
+        "gap_pages": [],
+        "pages": "64-65",
+        "title": "Как настроить колонки в таблице",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/88-dobavlenie.md",
+        "gap_pages": [],
+        "pages": "65-66",
+        "title": "Добавление",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/89-redaktirovanie-ili-udalenie-pravila.md",
+        "gap_pages": [],
+        "pages": "66-68",
+        "title": "Редактирование или удаление правила",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/90-nastroyka-sohranyat-istoriyu-deystviy-po.md",
+        "gap_pages": [],
+        "pages": "68",
+        "title": "Настройка “Сохранять историю действий по звонкам”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/91-obschee.md",
+        "gap_pages": [],
+        "pages": "68",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/92-kak-vklyuchit-ili-vyklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "68-69",
+        "title": "Как включить или выключить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/93-dalneyshie-deystviya.md",
+        "gap_pages": [],
+        "pages": "69-70",
+        "title": "Дальнейшие действия",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/94-kak-proverit-vklyuchena-li-nastroyka-nas.md",
+        "gap_pages": [],
+        "pages": "70-71",
+        "title": "Как проверить, включена ли настройка ”Настройки действий в зависимости от роли”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/95-otchet-deystviya-zvonka.md",
+        "gap_pages": [],
+        "pages": "71",
+        "title": "Отчет “Действия звонка”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/96-obschee.md",
+        "gap_pages": [],
+        "pages": "71",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/97-trebovaniya.md",
+        "gap_pages": [],
+        "pages": "71-72",
+        "title": "Требования",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/98-kak-otkryt-otchet.md",
+        "gap_pages": [],
+        "pages": "72-73",
+        "title": "Как открыть отчет",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/99-struktura-otcheta.md",
+        "gap_pages": [],
+        "pages": "73",
+        "title": "Структура отчета",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/100-dannye-o-pravilah-primenennyh-k-zvonku.md",
+        "gap_pages": [],
+        "pages": "73",
+        "title": "Данные о правилах, применённых к звонку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/101-soobschenie-net-dannyh.md",
+        "gap_pages": [],
+        "pages": "73",
+        "title": "Сообщение “Нет данных”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/102-soobschenie-1-nepolnaya-nastroyka-sohran.md",
+        "gap_pages": [],
+        "pages": "73-74",
+        "title": "Сообщение “1”. Неполная настройка сохранения истории действий по звонкам",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/103-otpravka-soobscheniy-whatsapp.md",
+        "gap_pages": [],
+        "pages": "74",
+        "title": "Отправка сообщений WhatsApp",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/104-obschee.md",
+        "gap_pages": [],
+        "pages": "74",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/105-obschee-o-mango-dialogah.md",
+        "gap_pages": [],
+        "pages": "74",
+        "title": "Общее о Манго Диалогах",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/106-kak-vklyuchit-otpravku-soobscheniy-whats.md",
+        "gap_pages": [],
+        "pages": "74-75",
+        "title": "Как включить отправку сообщений WhatsApp",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/107-kak-otpravit-klientu-soobschenie-whatsap.md",
+        "gap_pages": [],
+        "pages": "75-77",
+        "title": "Как отправить Клиенту сообщение WhatsApp",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/108-dobavlenie-zadaniya-na-ishodyaschiy-obzv.md",
+        "gap_pages": [],
+        "pages": "77",
+        "title": "Добавление задания на исходящий обзвон в Контакт-центр MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/109-obzor.md",
+        "gap_pages": [],
+        "pages": "77-78",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/110-kak-vklyuchit-nastroyku.md",
+        "gap_pages": [],
+        "pages": "78",
+        "title": "Как включить настройку",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/111-kak-dobavit-zadanie-v-kampaniyu-ishodyas.md",
+        "gap_pages": [],
+        "pages": "78-81",
+        "title": "Как добавить задание в кампанию исходящего обзвона Контакт-центра MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/112-kak-sovershat-i-prinimat-vyzovy.md",
+        "gap_pages": [],
+        "pages": "81",
+        "title": "Как совершать и принимать вызовы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/113-vhodyaschiy-zvonok.md",
+        "gap_pages": [],
+        "pages": "81-82",
+        "title": "Входящий звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/114-ishodyaschiy-zvonok.md",
+        "gap_pages": [],
+        "pages": "82-83",
+        "title": "Исходящий звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/115-kak-perevesti-zvonok-na-drugogo-sotrudni.md",
+        "gap_pages": [],
+        "pages": "83",
+        "title": "Как перевести звонок на другого сотрудника или произвольный номер",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/116-obschee.md",
+        "gap_pages": [],
+        "pages": "83",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/117-ogranicheniya.md",
+        "gap_pages": [],
+        "pages": "83",
+        "title": "Ограничения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/118-kak-perevesti-zvonok-s-konsultaciey.md",
+        "gap_pages": [],
+        "pages": "83-86",
+        "title": "Как перевести звонок с консультацией",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/119-slepoy-perevod-ili-kak-perevesti-zvonok.md",
+        "gap_pages": [],
+        "pages": "86-88",
+        "title": "Слепой перевод или как перевести звонок без консультации",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/120-propuschennye-zvonki.md",
+        "gap_pages": [],
+        "pages": "88",
+        "title": "Пропущенные звонки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/121-nastroyka-vneshnego-vida-tablicy-zvonkov.md",
+        "gap_pages": [],
+        "pages": "88-91",
+        "title": "Настройка внешнего вида таблицы звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/122-istoriya-vyzovov.md",
+        "gap_pages": [],
+        "pages": "91-92",
+        "title": "История вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/123-zapis-razgovorov.md",
+        "gap_pages": [],
+        "pages": "92-93",
+        "title": "Запись разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/124-prilozhenie-informaciya-dlya-administrat.md",
+        "gap_pages": [],
+        "pages": "93",
+        "title": "Приложение. Информация для администраторов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/125-kak-izmenit-login-i-parol-api-bpmsoft.md",
+        "gap_pages": [],
+        "pages": "93-95",
+        "title": "Как изменить логин и пароль API BPMSoft",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 30,
+        "file": "sections/126-spisok-izmeneniy-v-dokumente.md",
+        "gap_pages": [],
+        "pages": "95-96",
+        "title": "Список изменений в документе",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

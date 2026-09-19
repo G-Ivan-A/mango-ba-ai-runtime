@@ -1,0 +1,22 @@
+# Скелет ядра требований A-CORE. Проверяется contracts/c-core.schema.json.
+# Элемент без source_ref ядру не принадлежит: на ссылке держится вся дальнейшая
+# проверка происхождения требования.
+artifact_class: A-CORE
+state: draft                  # draft | validated | needs-clarification
+task_id: TASK-0000
+products:
+  - marker: А
+    product_class: contact-center
+    atomic_function: "<функция>"
+    profile: P-SETTINGS
+    owner: "<роль>"
+entities:
+  - {id: ENT-01, name: "<сущность>", glossary_term: "<термин словаря или пусто>", source_ref: {source_id: SRC-01, locator: "<локатор>", quote: "<дословная цитата>"}}
+actors:
+  - {id: ACT-01, role: "<роль>", kind: human, source_ref: {source_id: SRC-01, locator: "<локатор>", quote: "<цитата>"}}
+statements:
+  - {id: ST-01, text: "<утверждение>", slot: S-FR, atomic: true, product_marker: А, source_ref: {source_id: SRC-01, locator: "<локатор>", quote: "<цитата>"}}
+constraints: []
+metrics: []
+ambiguities:
+  - {id: AMB-01, target_id: ST-01, kind: quantitative, severity: blocker, text: "<в чём неоднозначность>"}

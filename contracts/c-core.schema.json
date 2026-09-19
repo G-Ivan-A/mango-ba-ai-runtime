@@ -1,0 +1,118 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "contracts/c-core.schema.json",
+  "title": "C-CORE — контракт ядра требований",
+  "description": "A-CORE — машиночитаемый промежуточный контракт между выявлением и специфицированием. Каждый элемент несёт ссылку на источник: элемент без source_ref не принадлежит ядру (GT-5, проверка check-source-evidence на ярусе G6).",
+  "type": "object",
+  "required": ["artifact_class", "state", "task_id", "products", "entities", "actors", "statements", "constraints", "metrics", "ambiguities"],
+  "additionalProperties": false,
+  "definitions": {
+    "source_ref": {
+      "type": "object",
+      "required": ["source_id", "locator", "quote"],
+      "additionalProperties": false,
+      "properties": {
+        "source_id": {"type": "string", "pattern": "^SRC-[0-9]{2}$"},
+        "locator": {"type": "string", "minLength": 1},
+        "quote": {"type": "string", "minLength": 1}
+      }
+    }
+  },
+  "properties": {
+    "artifact_class": {"const": "A-CORE"},
+    "state": {"enum": ["raw", "draft", "in-review", "validated", "approved", "baselined", "needs-clarification"]},
+    "task_id": {"type": "string", "pattern": "^TASK-[0-9]{4}$"},
+    "products": {"type": "array", "minItems": 1, "items": {"type": "object"}},
+    "entities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "source_ref"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^ENT-[0-9]{2}$"},
+          "name": {"type": "string", "minLength": 1},
+          "glossary_term": {"type": "string"},
+          "source_ref": {"$ref": "#/definitions/source_ref"}
+        }
+      }
+    },
+    "actors": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "role", "kind", "source_ref"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^ACT-[0-9]{2}$"},
+          "role": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["human", "agent", "system"]},
+          "source_ref": {"$ref": "#/definitions/source_ref"}
+        }
+      }
+    },
+    "statements": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "text", "slot", "atomic", "source_ref"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^ST-[0-9]{2}$"},
+          "text": {"type": "string", "minLength": 1},
+          "slot": {"enum": ["S-PROBLEM", "S-SCOPE", "S-SOLUTION", "S-FR", "S-SETTINGS", "S-UI", "S-SCENARIO", "S-AC", "S-NFR", "S-LIMITS", "S-INTEGRATION"]},
+          "atomic": {"type": "boolean"},
+          "product_marker": {"type": "string", "pattern": "^[A-ZА-Я]$"},
+          "source_ref": {"$ref": "#/definitions/source_ref"}
+        }
+      }
+    },
+    "constraints": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "subject", "value", "source_ref"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^CON-[0-9]{2}$"},
+          "subject": {"type": "string", "minLength": 1},
+          "value": {"type": "string", "minLength": 1},
+          "source_ref": {"$ref": "#/definitions/source_ref"}
+        }
+      }
+    },
+    "metrics": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "name", "value", "unit", "source_ref"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^MET-[0-9]{2}$"},
+          "name": {"type": "string", "minLength": 1},
+          "value": {"type": ["string", "number"]},
+          "unit": {"type": "string", "minLength": 1},
+          "source_ref": {"$ref": "#/definitions/source_ref"}
+        }
+      }
+    },
+    "ambiguities": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["id", "target_id", "kind", "severity", "text"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^AMB-[0-9]{2}$"},
+          "target_id": {"type": "string", "minLength": 1},
+          "kind": {"enum": ["referential", "quantitative", "modal", "terminological"]},
+          "severity": {"enum": ["blocker", "major", "minor"]},
+          "text": {"type": "string", "minLength": 1},
+          "resolved_by": {"type": "string"}
+        }
+      }
+    },
+    "trace": {"type": "array", "items": {"type": "object"}}
+  }
+}

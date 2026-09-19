@@ -1,0 +1,171 @@
+{
+  "body_font_size": 11.0,
+  "body_font_sizes": [
+    11.0
+  ],
+  "doc_code": "MTALKER-QS",
+  "doc_title": "Mango Talker для Windows/Mac - Быстрый старт",
+  "doc_version": "23.08.2024",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 16,
+  "image_extractor": "pymupdf 1.27.2.3",
+  "image_extractors": [
+    "pymupdf 1.27.2.3"
+  ],
+  "note": "Руководство по быстрому старту для Mango Talker. Краткая инструкция по началу работы с приложением.",
+  "page_count": 4,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 7,
+  "section_source": "pdf-outline (pymupdf 1.27.2.3)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.27.2.3)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-2",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-2",
+          "pages": "1-2",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 167
+    },
+    {
+      "file": "sections/01-obschie-svedeniya.md",
+      "number": "—",
+      "order": "01",
+      "pages": "2",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "2",
+          "pages": "2",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 247
+    },
+    {
+      "file": "sections/02-dostup-k-kommunikatoru.md",
+      "number": "—",
+      "order": "02",
+      "pages": "2-3",
+      "pdf_heading": "Доступ к коммуникатору",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "2-3",
+          "pages": "2-3",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Доступ к коммуникатору",
+      "tokens": 582
+    },
+    {
+      "file": "sections/03-vyzov-abonenta-iz-spiska-kontakty.md",
+      "number": "—",
+      "order": "03",
+      "pages": "3",
+      "pdf_heading": "Вызов абонента из списка “Контакты”",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "3",
+          "pages": "3",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Вызов абонента из списка “Контакты”",
+      "tokens": 576
+    },
+    {
+      "file": "sections/04-kak-na-vneshniy-nomer-telefona-pozvonit.md",
+      "number": "—",
+      "order": "04",
+      "pages": "3-4",
+      "pdf_heading": "Как на внешний номер телефона позвонить или отправить СМС",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "3-4",
+          "pages": "3-4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Как на внешний номер телефона позвонить или отправить СМС",
+      "tokens": 441
+    },
+    {
+      "file": "sections/05-tekstovyy-chat.md",
+      "number": "—",
+      "order": "05",
+      "pages": "4",
+      "pdf_heading": "Текстовый чат",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Текстовый чат",
+      "tokens": 296
+    },
+    {
+      "file": "sections/06-kak-otpravit-fayl-abonentu.md",
+      "number": "—",
+      "order": "06",
+      "pages": "4",
+      "pdf_heading": "Как отправить файл абоненту",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf"
+        }
+      ],
+      "title": "Как отправить файл абоненту",
+      "tokens": 236
+    }
+  ],
+  "source_document": "quick-start",
+  "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf",
+  "source_pdfs": [
+    "kb/sources/mtalker/mTalker_Quick_start.pdf"
+  ],
+  "source_set": "mtalker",
+  "source_sha256": "52e59747c5b1d8c983599b50323c0783500a74cf30d7fcb155829f7b8785a3c9",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 4,
+      "source_pdf": "kb/sources/mtalker/mTalker_Quick_start.pdf",
+      "source_sha256": "52e59747c5b1d8c983599b50323c0783500a74cf30d7fcb155829f7b8785a3c9"
+    }
+  ],
+  "table_count": 0,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 1036,
+  "tokens_total": 2545
+}

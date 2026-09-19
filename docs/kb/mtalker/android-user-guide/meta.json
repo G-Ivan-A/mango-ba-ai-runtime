@@ -1,0 +1,2631 @@
+{
+  "body_font_size": 12.0,
+  "body_font_sizes": [
+    12.0
+  ],
+  "doc_code": "MTALKER-MOB",
+  "doc_title": "Mango Talker для Android - Руководство пользователя",
+  "doc_version": "11.06.2026",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 146,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство пользователя мобильного приложения Mango Talker для ОС Android.",
+  "page_count": 66,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 99,
+  "section_source": "typography-heuristic",
+  "section_sources": [
+    "typography-heuristic"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-7",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-7",
+          "pages": "1-7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 2876
+    },
+    {
+      "file": "sections/01-nachalo-raboty.md",
+      "number": "—",
+      "order": "01",
+      "pages": "7",
+      "pdf_heading": "Начало работы",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Начало работы",
+      "tokens": 62
+    },
+    {
+      "file": "sections/02-obzor.md",
+      "number": "—",
+      "order": "02",
+      "pages": "7",
+      "pdf_heading": "Обзор",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 435
+    },
+    {
+      "file": "sections/03-ustanovka-i-udalenie.md",
+      "number": "—",
+      "order": "03",
+      "pages": "7-8",
+      "pdf_heading": "Установка и удаление",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "7-8",
+          "pages": "7-8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Установка и удаление",
+      "tokens": 870
+    },
+    {
+      "file": "sections/04-vhod-i-vyhod.md",
+      "number": "—",
+      "order": "04",
+      "pages": "8-9",
+      "pdf_heading": "Вход и выход",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "8-9",
+          "pages": "8-9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Вход и выход",
+      "tokens": 405
+    },
+    {
+      "file": "sections/05-obschee-opisanie-interfeysa.md",
+      "number": "—",
+      "order": "05",
+      "pages": "9",
+      "pdf_heading": "Общее описание интерфейса",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Общее описание интерфейса",
+      "tokens": 362
+    },
+    {
+      "file": "sections/06-kak-pozvonit-ili-prinyat-vhodyaschiy-zvo.md",
+      "number": "—",
+      "order": "06",
+      "pages": "9",
+      "pdf_heading": "Как позвонить или принять входящий звонок",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как позвонить или принять входящий звонок",
+      "tokens": 76
+    },
+    {
+      "file": "sections/07-zvonok-sotrudniku.md",
+      "number": "—",
+      "order": "07",
+      "pages": "9-10",
+      "pdf_heading": "Звонок сотруднику",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "9-10",
+          "pages": "9-10",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Звонок сотруднику",
+      "tokens": 371
+    },
+    {
+      "file": "sections/08-kak-pozvonit-na-lyuboy-nomer-telefona.md",
+      "number": "—",
+      "order": "08",
+      "pages": "10",
+      "pdf_heading": "Как позвонить на любой номер телефона",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "10",
+          "pages": "10",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как позвонить на любой номер телефона",
+      "tokens": 497
+    },
+    {
+      "file": "sections/09-v-komnatu-audio-konferencsvyazi.md",
+      "number": "—",
+      "order": "09",
+      "pages": "10-11",
+      "pdf_heading": "В комнату аудио конференцсвязи",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "10-11",
+          "pages": "10-11",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "В комнату аудио конференцсвязи",
+      "tokens": 437
+    },
+    {
+      "file": "sections/10-kak-nachat-gruppovoy-videozvonok.md",
+      "number": "—",
+      "order": "10",
+      "pages": "11",
+      "pdf_heading": "Как начать групповой видеозвонок",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "11",
+          "pages": "11",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как начать групповой видеозвонок",
+      "tokens": 808
+    },
+    {
+      "file": "sections/11-kak-prinyat-vhodyaschiy-zvonok.md",
+      "number": "—",
+      "order": "11",
+      "pages": "11-12",
+      "pdf_heading": "Как принять входящий звонок?",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "11-12",
+          "pages": "11-12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как принять входящий звонок?",
+      "tokens": 223
+    },
+    {
+      "file": "sections/12-kak-otpravit-soobschenie-sotrudniku-vats.md",
+      "number": "—",
+      "order": "12",
+      "pages": "12",
+      "pdf_heading": "Как отправить сообщение сотруднику ВАТС",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "12",
+          "pages": "12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как отправить сообщение сотруднику ВАТС",
+      "tokens": 73
+    },
+    {
+      "file": "sections/13-otpravka-soobscheniya-v-chat.md",
+      "number": "—",
+      "order": "13",
+      "pages": "12",
+      "pdf_heading": "Отправка сообщения в чат",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "12",
+          "pages": "12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Отправка сообщения в чат",
+      "tokens": 299
+    },
+    {
+      "file": "sections/14-otpravka-audio-i-videofayla-mestopolozhe.md",
+      "number": "—",
+      "order": "14",
+      "pages": "12",
+      "pdf_heading": "Отправка аудио и видеофайла, местоположения, файля, контакта или СМС-",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "12",
+          "pages": "12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Отправка аудио и видеофайла, местоположения, файля, контакта или СМС-",
+      "tokens": 439
+    },
+    {
+      "file": "sections/15-proverka-statusa-dostavki-otpravlennogo.md",
+      "number": "—",
+      "order": "15",
+      "pages": "12-13",
+      "pdf_heading": "Проверка статуса доставки отправленного сообщения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "12-13",
+          "pages": "12-13",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Проверка статуса доставки отправленного сообщения",
+      "tokens": 386
+    },
+    {
+      "file": "sections/16-kak-pozvonit-ili-otpravit-sms-na-proizvo.md",
+      "number": "—",
+      "order": "16",
+      "pages": "13-14",
+      "pdf_heading": "Как позвонить или отправить смс на произвольный номер",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как позвонить или отправить смс на произвольный номер",
+      "tokens": 772
+    },
+    {
+      "file": "sections/17-poluchenie-soobscheniy.md",
+      "number": "—",
+      "order": "17",
+      "pages": "14",
+      "pdf_heading": "Получение сообщений",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "14",
+          "pages": "14",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Получение сообщений",
+      "tokens": 272
+    },
+    {
+      "file": "sections/18-kak-otpravit-email.md",
+      "number": "—",
+      "order": "18",
+      "pages": "14-15",
+      "pdf_heading": "Как отправить email",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "14-15",
+          "pages": "14-15",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как отправить email",
+      "tokens": 341
+    },
+    {
+      "file": "sections/19-vo-vremya-zvonka.md",
+      "number": "—",
+      "order": "19",
+      "pages": "15",
+      "pdf_heading": "Во время звонка",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "15",
+          "pages": "15",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Во время звонка",
+      "tokens": 64
+    },
+    {
+      "file": "sections/20-upravlenie-videozvonkom.md",
+      "number": "—",
+      "order": "20",
+      "pages": "15-16",
+      "pdf_heading": "Управление видеозвонком",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "15-16",
+          "pages": "15-16",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Управление видеозвонком",
+      "tokens": 936
+    },
+    {
+      "file": "sections/21-upravlenie-audio-zvonkom.md",
+      "number": "—",
+      "order": "21",
+      "pages": "16-19",
+      "pdf_heading": "Управление аудио звонком",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "16-19",
+          "pages": "16-19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Управление аудио звонком",
+      "tokens": 2689
+    },
+    {
+      "file": "sections/22-konferencii.md",
+      "number": "—",
+      "order": "22",
+      "pages": "19",
+      "pdf_heading": "Конференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Конференции",
+      "tokens": 63
+    },
+    {
+      "file": "sections/23-obschee.md",
+      "number": "—",
+      "order": "23",
+      "pages": "19",
+      "pdf_heading": "Общее",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 271
+    },
+    {
+      "file": "sections/24-onbording-videokonferenciy.md",
+      "number": "—",
+      "order": "24",
+      "pages": "19",
+      "pdf_heading": "Онбординг видеоконференций",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Онбординг видеоконференций",
+      "tokens": 268
+    },
+    {
+      "file": "sections/25-ekran-videokonferencii.md",
+      "number": "—",
+      "order": "25",
+      "pages": "19-20",
+      "pdf_heading": "Экран видеоконференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "19-20",
+          "pages": "19-20",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Экран видеоконференции",
+      "tokens": 390
+    },
+    {
+      "file": "sections/26-kak-nachat-audio-konferenciyu.md",
+      "number": "—",
+      "order": "26",
+      "pages": "20",
+      "pdf_heading": "Как начать аудио конференцию",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "20",
+          "pages": "20",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как начать аудио конференцию",
+      "tokens": 389
+    },
+    {
+      "file": "sections/27-kak-pozvonit-v-komnatu-audio-konferencii.md",
+      "number": "—",
+      "order": "27",
+      "pages": "20-21",
+      "pdf_heading": "Как позвонить в комнату аудио конференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "20-21",
+          "pages": "20-21",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как позвонить в комнату аудио конференции",
+      "tokens": 385
+    },
+    {
+      "file": "sections/28-kak-sozdat-novuyu-videokonferenciyu-i-po.md",
+      "number": "—",
+      "order": "28",
+      "pages": "21",
+      "pdf_heading": "Как создать новую видеоконференцию и поделиться ссылкой на нее",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "21",
+          "pages": "21",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как создать новую видеоконференцию и поделиться ссылкой на нее",
+      "tokens": 467
+    },
+    {
+      "file": "sections/29-kak-prisoedinitsya-k-konferencii-po-ssyl.md",
+      "number": "—",
+      "order": "29",
+      "pages": "21-22",
+      "pdf_heading": "Как присоединиться к конференции по ссылке",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "21-22",
+          "pages": "21-22",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как присоединиться к конференции по ссылке",
+      "tokens": 506
+    },
+    {
+      "file": "sections/30-rasshifrovka-i-konspektirovanie-zapisey.md",
+      "number": "—",
+      "order": "30",
+      "pages": "22-27",
+      "pdf_heading": "Расшифровка и конспектирование записей встреч",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "22-27",
+          "pages": "22-27",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Расшифровка и конспектирование записей встреч",
+      "tokens": 1194
+    },
+    {
+      "file": "sections/31-chat-vo-vremya-videokonferencii.md",
+      "number": "—",
+      "order": "31",
+      "pages": "27-29",
+      "pdf_heading": "Чат во время видеоконференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "27-29",
+          "pages": "27-29",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Чат во время видеоконференции",
+      "tokens": 485
+    },
+    {
+      "file": "sections/32-podnyat-ruku-vo-vremya-videokonferencii.md",
+      "number": "—",
+      "order": "32",
+      "pages": "29",
+      "pdf_heading": "Поднять руку во время видеоконференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "29",
+          "pages": "29",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Поднять руку во время видеоконференции",
+      "tokens": 464
+    },
+    {
+      "file": "sections/33-poisk-komnaty-konferencii.md",
+      "number": "—",
+      "order": "33",
+      "pages": "29-30",
+      "pdf_heading": "Поиск комнаты конференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "29-30",
+          "pages": "29-30",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Поиск комнаты конференции",
+      "tokens": 229
+    },
+    {
+      "file": "sections/34-provedenie-chata.md",
+      "number": "—",
+      "order": "34",
+      "pages": "30",
+      "pdf_heading": "Проведение чата",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "30",
+          "pages": "30",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Проведение чата",
+      "tokens": 63
+    },
+    {
+      "file": "sections/35-obschie-svedeniya.md",
+      "number": "—",
+      "order": "35",
+      "pages": "30",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "30",
+          "pages": "30",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 373
+    },
+    {
+      "file": "sections/36-opisanie-elementov-interfeysa-chata-kana.md",
+      "number": "—",
+      "order": "36",
+      "pages": "30-31",
+      "pdf_heading": "Описание элементов интерфейса чата/канала",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "30-31",
+          "pages": "30-31",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Описание элементов интерфейса чата/канала",
+      "tokens": 643
+    },
+    {
+      "file": "sections/37-sozdanie-novogo-chata-ili-kanala.md",
+      "number": "—",
+      "order": "37",
+      "pages": "31",
+      "pdf_heading": "Создание нового чата или канала",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "31",
+          "pages": "31",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Создание нового чата или канала",
+      "tokens": 312
+    },
+    {
+      "file": "sections/38-otobrazhenie-udalennogo-sotrudnika.md",
+      "number": "—",
+      "order": "38",
+      "pages": "31",
+      "pdf_heading": "Отображение удаленного сотрудника",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "31",
+          "pages": "31",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Отображение удаленного сотрудника",
+      "tokens": 159
+    },
+    {
+      "file": "sections/39-vhodyaschie.md",
+      "number": "—",
+      "order": "39",
+      "pages": "31-32",
+      "pdf_heading": "Входящие",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "31-32",
+          "pages": "31-32",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Входящие",
+      "tokens": 736
+    },
+    {
+      "file": "sections/40-gruppy-chatov.md",
+      "number": "—",
+      "order": "40",
+      "pages": "32",
+      "pdf_heading": "Группы чатов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "32",
+          "pages": "32",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Группы чатов",
+      "tokens": 507
+    },
+    {
+      "file": "sections/41-filtr-chatov-po-neprochitannym-soobschen.md",
+      "number": "—",
+      "order": "41",
+      "pages": "32-34",
+      "pdf_heading": "Фильтр чатов по непрочитанным сообщениям",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "32-34",
+          "pages": "32-34",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Фильтр чатов по непрочитанным сообщениям",
+      "tokens": 641
+    },
+    {
+      "file": "sections/42-zakreplenie-i-otkreplenie-chata.md",
+      "number": "—",
+      "order": "42",
+      "pages": "34",
+      "pdf_heading": "Закрепление и открепление чата",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "34",
+          "pages": "34",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Закрепление и открепление чата",
+      "tokens": 270
+    },
+    {
+      "file": "sections/43-poisk-soobscheniy.md",
+      "number": "—",
+      "order": "43",
+      "pages": "34-35",
+      "pdf_heading": "Поиск сообщений",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "34-35",
+          "pages": "34-35",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Поиск сообщений",
+      "tokens": 723
+    },
+    {
+      "file": "sections/44-operacii-nad-soobscheniyami.md",
+      "number": "—",
+      "order": "44",
+      "pages": "35",
+      "pdf_heading": "Операции над сообщениями",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "35",
+          "pages": "35",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Операции над сообщениями",
+      "tokens": 399
+    },
+    {
+      "file": "sections/45-rabota-s-tehpodderzhkoy.md",
+      "number": "—",
+      "order": "45",
+      "pages": "35-40",
+      "pdf_heading": "Работа с техподдержкой",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "35-40",
+          "pages": "35-40",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Работа с техподдержкой",
+      "tokens": 1003
+    },
+    {
+      "file": "sections/46-posmotret-kontaktnye-dannye-sobesednika.md",
+      "number": "—",
+      "order": "46",
+      "pages": "40",
+      "pdf_heading": "Посмотреть контактные данные собеседника",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "40",
+          "pages": "40",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Посмотреть контактные данные собеседника",
+      "tokens": 211
+    },
+    {
+      "file": "sections/47-posmotret-istoriyu-soobscheniy-v-chate.md",
+      "number": "—",
+      "order": "47",
+      "pages": "40-41",
+      "pdf_heading": "Посмотреть историю сообщений в чате",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "40-41",
+          "pages": "40-41",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Посмотреть историю сообщений в чате",
+      "tokens": 360
+    },
+    {
+      "file": "sections/48-udalenie-vsey-perepiski.md",
+      "number": "—",
+      "order": "48",
+      "pages": "41-42",
+      "pdf_heading": "Удаление всей переписки",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "41-42",
+          "pages": "41-42",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Удаление всей переписки",
+      "tokens": 427
+    },
+    {
+      "file": "sections/49-administrirovanie-obschego-chata-ili-kan.md",
+      "number": "—",
+      "order": "49",
+      "pages": "42",
+      "pdf_heading": "Администрирование общего чата или канала",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Администрирование общего чата или канала",
+      "tokens": 74
+    },
+    {
+      "file": "sections/50-obschie-svedeniya.md",
+      "number": "—",
+      "order": "50",
+      "pages": "42",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 346
+    },
+    {
+      "file": "sections/51-opisanie-prav-uchastnikov.md",
+      "number": "—",
+      "order": "51",
+      "pages": "42",
+      "pdf_heading": "Описание прав участников",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Описание прав участников",
+      "tokens": 562
+    },
+    {
+      "file": "sections/52-otobrazhenie-spiska-uchastnikov.md",
+      "number": "—",
+      "order": "52",
+      "pages": "42-43",
+      "pdf_heading": "Отображение списка участников",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "42-43",
+          "pages": "42-43",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Отображение списка участников",
+      "tokens": 236
+    },
+    {
+      "file": "sections/53-dobavit-uchastnika.md",
+      "number": "—",
+      "order": "53",
+      "pages": "43",
+      "pdf_heading": "Добавить участника",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "43",
+          "pages": "43",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Добавить участника",
+      "tokens": 310
+    },
+    {
+      "file": "sections/54-vydacha-snyatie-prav-administratora.md",
+      "number": "—",
+      "order": "54",
+      "pages": "43",
+      "pdf_heading": "Выдача / снятие прав администратора",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "43",
+          "pages": "43",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Выдача / снятие прав администратора",
+      "tokens": 390
+    },
+    {
+      "file": "sections/55-bystryy-perehod-k-kartochke-kontakta.md",
+      "number": "—",
+      "order": "55",
+      "pages": "43-44",
+      "pdf_heading": "Быстрый переход к карточке контакта",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "43-44",
+          "pages": "43-44",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Быстрый переход к карточке контакта",
+      "tokens": 453
+    },
+    {
+      "file": "sections/56-pereimenovat-chat-kanal.md",
+      "number": "—",
+      "order": "56",
+      "pages": "44",
+      "pdf_heading": "Переименовать чат / канал",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "44",
+          "pages": "44",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Переименовать чат / канал",
+      "tokens": 316
+    },
+    {
+      "file": "sections/57-udalit-uchastnika.md",
+      "number": "—",
+      "order": "57",
+      "pages": "44-45",
+      "pdf_heading": "Удалить участника",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "44-45",
+          "pages": "44-45",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Удалить участника",
+      "tokens": 357
+    },
+    {
+      "file": "sections/58-vyhod-iz-obschego-chata-kanala.md",
+      "number": "—",
+      "order": "58",
+      "pages": "45",
+      "pdf_heading": "Выход из общего чата / канала",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "45",
+          "pages": "45",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Выход из общего чата / канала",
+      "tokens": 495
+    },
+    {
+      "file": "sections/59-prosmotr-obschih-faylov.md",
+      "number": "—",
+      "order": "59",
+      "pages": "45-46",
+      "pdf_heading": "Просмотр общих файлов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "45-46",
+          "pages": "45-46",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Просмотр общих файлов",
+      "tokens": 358
+    },
+    {
+      "file": "sections/60-kak-otklyuchit-uvedomleniya-o-novyh-soob.md",
+      "number": "—",
+      "order": "60",
+      "pages": "46-47",
+      "pdf_heading": "Как отключить уведомления о новых сообщениях в чате / канале",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "46-47",
+          "pages": "46-47",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как отключить уведомления о новых сообщениях в чате / канале",
+      "tokens": 380
+    },
+    {
+      "file": "sections/61-zhurnal-vyzovov.md",
+      "number": "—",
+      "order": "61",
+      "pages": "47",
+      "pdf_heading": "Журнал вызовов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "47",
+          "pages": "47",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Журнал вызовов",
+      "tokens": 65
+    },
+    {
+      "file": "sections/62-opisanie-zhurnala-vyzovov.md",
+      "number": "—",
+      "order": "62",
+      "pages": "47",
+      "pdf_heading": "Описание журнала вызовов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "47",
+          "pages": "47",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Описание журнала вызовов",
+      "tokens": 635
+    },
+    {
+      "file": "sections/63-razdely-zhurnala.md",
+      "number": "—",
+      "order": "63",
+      "pages": "47-48",
+      "pdf_heading": "Разделы журнала",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "47-48",
+          "pages": "47-48",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Разделы журнала",
+      "tokens": 503
+    },
+    {
+      "file": "sections/64-poisk-i-filtracii-zapisey.md",
+      "number": "—",
+      "order": "64",
+      "pages": "48-49",
+      "pdf_heading": "Поиск и фильтрации записей",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "48-49",
+          "pages": "48-49",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Поиск и фильтрации записей",
+      "tokens": 935
+    },
+    {
+      "file": "sections/65-kak-posmotret-podrobnye-dannye-o-gruppov.md",
+      "number": "—",
+      "order": "65",
+      "pages": "49-50",
+      "pdf_heading": "Как посмотреть подробные данные о групповом звонке / конференции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "49-50",
+          "pages": "49-50",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как посмотреть подробные данные о групповом звонке / конференции",
+      "tokens": 382
+    },
+    {
+      "file": "sections/66-kak-perezvonit.md",
+      "number": "—",
+      "order": "66",
+      "pages": "50",
+      "pdf_heading": "Как перезвонить ?",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "50",
+          "pages": "50",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как перезвонить ?",
+      "tokens": 512
+    },
+    {
+      "file": "sections/67-kak-otpravit-soobschenie.md",
+      "number": "—",
+      "order": "67",
+      "pages": "50-51",
+      "pdf_heading": "Как отправить сообщение",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "50-51",
+          "pages": "50-51",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как отправить сообщение",
+      "tokens": 473
+    },
+    {
+      "file": "sections/68-kak-zakazat-obratnyy-zvonok.md",
+      "number": "—",
+      "order": "68",
+      "pages": "51",
+      "pdf_heading": "Как заказать обратный звонок?",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как заказать обратный звонок?",
+      "tokens": 364
+    },
+    {
+      "file": "sections/69-opisanie-kartochki-vyzova.md",
+      "number": "—",
+      "order": "69",
+      "pages": "51-52",
+      "pdf_heading": "Описание карточки вызова",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "51-52",
+          "pages": "51-52",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Описание карточки вызова",
+      "tokens": 836
+    },
+    {
+      "file": "sections/70-kak-sohranit-nomer-v-telefonnoy-knige.md",
+      "number": "—",
+      "order": "70",
+      "pages": "52",
+      "pdf_heading": "Как сохранить номер в телефонной книге",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как сохранить номер в телефонной книге",
+      "tokens": 276
+    },
+    {
+      "file": "sections/71-proslushat-zapis-razgovora.md",
+      "number": "—",
+      "order": "71",
+      "pages": "52",
+      "pdf_heading": "Прослушать запись разговора",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Прослушать запись разговора",
+      "tokens": 524
+    },
+    {
+      "file": "sections/72-kak-skopirovat-informaciyu-o-zvonkah-v-z.md",
+      "number": "—",
+      "order": "72",
+      "pages": "52",
+      "pdf_heading": "Как скопировать информацию о звонках в журнале вызовов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как скопировать информацию о звонках в журнале вызовов",
+      "tokens": 219
+    },
+    {
+      "file": "sections/73-udalenie-zapisi-o-zvonke-iz-zhurnala-vyz.md",
+      "number": "—",
+      "order": "73",
+      "pages": "52-54",
+      "pdf_heading": "Удаление записи о звонке из журнала вызовов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "52-54",
+          "pages": "52-54",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Удаление записи о звонке из журнала вызовов",
+      "tokens": 246
+    },
+    {
+      "file": "sections/74-kontakty.md",
+      "number": "—",
+      "order": "74",
+      "pages": "54",
+      "pdf_heading": "Контакты",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "54",
+          "pages": "54",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Контакты",
+      "tokens": 61
+    },
+    {
+      "file": "sections/75-obschie-svedeniya.md",
+      "number": "—",
+      "order": "75",
+      "pages": "54",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "54",
+          "pages": "54",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 615
+    },
+    {
+      "file": "sections/76-poisk-kontakta.md",
+      "number": "—",
+      "order": "76",
+      "pages": "54-55",
+      "pdf_heading": "Поиск контакта",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "54-55",
+          "pages": "54-55",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Поиск контакта",
+      "tokens": 396
+    },
+    {
+      "file": "sections/77-opisanie-kartochki-kontakta.md",
+      "number": "—",
+      "order": "77",
+      "pages": "55",
+      "pdf_heading": "Описание карточки контакта",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "55",
+          "pages": "55",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Описание карточки контакта",
+      "tokens": 564
+    },
+    {
+      "file": "sections/78-kak-svyazatsya-s-kontaktom.md",
+      "number": "—",
+      "order": "78",
+      "pages": "55-56",
+      "pdf_heading": "Как связаться с контактом",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "55-56",
+          "pages": "55-56",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как связаться с контактом",
+      "tokens": 431
+    },
+    {
+      "file": "sections/79-kak-posmotret-istoriyu-vzaimodeystviya-s.md",
+      "number": "—",
+      "order": "79",
+      "pages": "56",
+      "pdf_heading": "Как посмотреть историю взаимодействия с абонентом",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "56",
+          "pages": "56",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как посмотреть историю взаимодействия с абонентом",
+      "tokens": 670
+    },
+    {
+      "file": "sections/80-kak-dobavlyat-importirovat-redaktirovat.md",
+      "number": "—",
+      "order": "80",
+      "pages": "56-57",
+      "pdf_heading": "Как добавлять, импортировать, редактировать и удалять контакты",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "56-57",
+          "pages": "56-57",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как добавлять, импортировать, редактировать и удалять контакты",
+      "tokens": 746
+    },
+    {
+      "file": "sections/81-kak-filtrovat-sortirovat-i-nastroit-otob.md",
+      "number": "—",
+      "order": "81",
+      "pages": "57-59",
+      "pdf_heading": "Как фильтровать, сортировать и настроить отображение контактов",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "57-59",
+          "pages": "57-59",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как фильтровать, сортировать и настроить отображение контактов",
+      "tokens": 856
+    },
+    {
+      "file": "sections/82-avtosekretar.md",
+      "number": "—",
+      "order": "82",
+      "pages": "59",
+      "pdf_heading": "Автосекретарь",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "59",
+          "pages": "59",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Автосекретарь",
+      "tokens": 66
+    },
+    {
+      "file": "sections/83-obschee.md",
+      "number": "—",
+      "order": "83",
+      "pages": "59",
+      "pdf_heading": "Общее",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "59",
+          "pages": "59",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Общее",
+      "tokens": 198
+    },
+    {
+      "file": "sections/84-proverka-statusa-raboty-pravil.md",
+      "number": "—",
+      "order": "84",
+      "pages": "59",
+      "pdf_heading": "Проверка статуса работы правил",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "59",
+          "pages": "59",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Проверка статуса работы правил",
+      "tokens": 322
+    },
+    {
+      "file": "sections/85-kak-vklyuchit-ili-vyklyuchit-pravilo.md",
+      "number": "—",
+      "order": "85",
+      "pages": "59-60",
+      "pdf_heading": "Как включить или выключить правило",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "59-60",
+          "pages": "59-60",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как включить или выключить правило",
+      "tokens": 325
+    },
+    {
+      "file": "sections/86-upravlenie-profilem-polzovatelya.md",
+      "number": "—",
+      "order": "86",
+      "pages": "60",
+      "pdf_heading": "Управление профилем пользователя",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "60",
+          "pages": "60",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Управление профилем пользователя",
+      "tokens": 65
+    },
+    {
+      "file": "sections/87-kak-vyvesti-na-ekran-i-skopirovat-vash-s.md",
+      "number": "—",
+      "order": "87",
+      "pages": "60",
+      "pdf_heading": "Как вывести на экран и скопировать ваш SIP-ID",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "60",
+          "pages": "60",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как вывести на экран и скопировать ваш SIP-ID",
+      "tokens": 284
+    },
+    {
+      "file": "sections/88-kak-izmenit-ili-sbrosit-svoy-parol.md",
+      "number": "—",
+      "order": "88",
+      "pages": "60-61",
+      "pdf_heading": "Как изменить или сбросить свой пароль",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "60-61",
+          "pages": "60-61",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как изменить или сбросить свой пароль",
+      "tokens": 778
+    },
+    {
+      "file": "sections/89-smena-statusa-polzovatelya.md",
+      "number": "—",
+      "order": "89",
+      "pages": "61",
+      "pdf_heading": "Смена статуса пользователя",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "61",
+          "pages": "61",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Смена статуса пользователя",
+      "tokens": 369
+    },
+    {
+      "file": "sections/90-kak-pomenyat-ili-udalit-avatar.md",
+      "number": "—",
+      "order": "90",
+      "pages": "61-62",
+      "pdf_heading": "Как поменять или удалить аватар",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "61-62",
+          "pages": "61-62",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как поменять или удалить аватар",
+      "tokens": 513
+    },
+    {
+      "file": "sections/91-sluzhebnye-operacii.md",
+      "number": "—",
+      "order": "91",
+      "pages": "62",
+      "pdf_heading": "Служебные операции",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "62",
+          "pages": "62",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Служебные операции",
+      "tokens": 64
+    },
+    {
+      "file": "sections/92-konfidencialnost.md",
+      "number": "—",
+      "order": "92",
+      "pages": "62-63",
+      "pdf_heading": "Конфиденциальность",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "62-63",
+          "pages": "62-63",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Конфиденциальность",
+      "tokens": 875
+    },
+    {
+      "file": "sections/93-raspisanie-priema-zvonkov-i-soobscheniy.md",
+      "number": "—",
+      "order": "93",
+      "pages": "63",
+      "pdf_heading": "Расписание приема звонков и сообщений",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "63",
+          "pages": "63",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Расписание приема звонков и сообщений",
+      "tokens": 338
+    },
+    {
+      "file": "sections/94-avtozagruzka-faylov-i-izobrazheniy.md",
+      "number": "—",
+      "order": "94",
+      "pages": "63",
+      "pdf_heading": "Автозагрузка файлов и изображений",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "63",
+          "pages": "63",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Автозагрузка файлов и изображений",
+      "tokens": 414
+    },
+    {
+      "file": "sections/95-kak-obnovit-mtalker.md",
+      "number": "—",
+      "order": "95",
+      "pages": "63",
+      "pdf_heading": "Как обновить MTalker",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "63",
+          "pages": "63",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как обновить MTalker",
+      "tokens": 137
+    },
+    {
+      "file": "sections/96-uvedomleniya.md",
+      "number": "—",
+      "order": "96",
+      "pages": "63-64",
+      "pdf_heading": "Уведомления",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "63-64",
+          "pages": "63-64",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Уведомления",
+      "tokens": 593
+    },
+    {
+      "file": "sections/97-tehnicheskie-nastroyki.md",
+      "number": "—",
+      "order": "97",
+      "pages": "64-66",
+      "pdf_heading": "Технические настройки",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "64-66",
+          "pages": "64-66",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Технические настройки",
+      "tokens": 1356
+    },
+    {
+      "file": "sections/98-kak-soobschit-o-probleme-ili-otpravit-ot.md",
+      "number": "—",
+      "order": "98",
+      "pages": "66",
+      "pdf_heading": "Как сообщить о проблеме или отправить отзыв",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "66",
+          "pages": "66",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+        }
+      ],
+      "title": "Как сообщить о проблеме или отправить отзыв",
+      "tokens": 379
+    }
+  ],
+  "source_document": "android-user-guide",
+  "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf",
+  "source_pdfs": [
+    "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+  ],
+  "source_set": "mtalker",
+  "source_sha256": "a3194149a55e208f41d1182c712cc9a19d35919c81e33727009fd0f4f2e4b1dc",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 66,
+      "source_pdf": "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf",
+      "source_sha256": "a3194149a55e208f41d1182c712cc9a19d35919c81e33727009fd0f4f2e4b1dc"
+    }
+  ],
+  "table_count": 5,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 9235,
+  "tokens_total": 47293,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 313,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 7,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-7",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/01-nachalo-raboty.md",
+        "gap_pages": [],
+        "pages": "7",
+        "title": "Начало работы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/02-obzor.md",
+        "gap_pages": [],
+        "pages": "7",
+        "title": "Обзор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 20,
+        "file": "sections/03-ustanovka-i-udalenie.md",
+        "gap_pages": [],
+        "pages": "7-8",
+        "title": "Установка и удаление",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/04-vhod-i-vyhod.md",
+        "gap_pages": [],
+        "pages": "8-9",
+        "title": "Вход и выход",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/05-obschee-opisanie-interfeysa.md",
+        "gap_pages": [],
+        "pages": "9",
+        "title": "Общее описание интерфейса",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/06-kak-pozvonit-ili-prinyat-vhodyaschiy-zvo.md",
+        "gap_pages": [],
+        "pages": "9",
+        "title": "Как позвонить или принять входящий звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/07-zvonok-sotrudniku.md",
+        "gap_pages": [],
+        "pages": "9-10",
+        "title": "Звонок сотруднику",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/08-kak-pozvonit-na-lyuboy-nomer-telefona.md",
+        "gap_pages": [],
+        "pages": "10",
+        "title": "Как позвонить на любой номер телефона",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/09-v-komnatu-audio-konferencsvyazi.md",
+        "gap_pages": [],
+        "pages": "10-11",
+        "title": "В комнату аудио конференцсвязи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/10-kak-nachat-gruppovoy-videozvonok.md",
+        "gap_pages": [],
+        "pages": "11",
+        "title": "Как начать групповой видеозвонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/11-kak-prinyat-vhodyaschiy-zvonok.md",
+        "gap_pages": [],
+        "pages": "11-12",
+        "title": "Как принять входящий звонок?",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/12-kak-otpravit-soobschenie-sotrudniku-vats.md",
+        "gap_pages": [],
+        "pages": "12",
+        "title": "Как отправить сообщение сотруднику ВАТС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/13-otpravka-soobscheniya-v-chat.md",
+        "gap_pages": [],
+        "pages": "12",
+        "title": "Отправка сообщения в чат",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/14-otpravka-audio-i-videofayla-mestopolozhe.md",
+        "gap_pages": [],
+        "pages": "12",
+        "title": "Отправка аудио и видеофайла, местоположения, файля, контакта или СМС-",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/15-proverka-statusa-dostavki-otpravlennogo.md",
+        "gap_pages": [],
+        "pages": "12-13",
+        "title": "Проверка статуса доставки отправленного сообщения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/16-kak-pozvonit-ili-otpravit-sms-na-proizvo.md",
+        "gap_pages": [],
+        "pages": "13-14",
+        "title": "Как позвонить или отправить смс на произвольный номер",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/17-poluchenie-soobscheniy.md",
+        "gap_pages": [],
+        "pages": "14",
+        "title": "Получение сообщений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/18-kak-otpravit-email.md",
+        "gap_pages": [],
+        "pages": "14-15",
+        "title": "Как отправить email",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/19-vo-vremya-zvonka.md",
+        "gap_pages": [],
+        "pages": "15",
+        "title": "Во время звонка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/20-upravlenie-videozvonkom.md",
+        "gap_pages": [],
+        "pages": "15-16",
+        "title": "Управление видеозвонком",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/21-upravlenie-audio-zvonkom.md",
+        "gap_pages": [],
+        "pages": "16-19",
+        "title": "Управление аудио звонком",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/22-konferencii.md",
+        "gap_pages": [],
+        "pages": "19",
+        "title": "Конференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/23-obschee.md",
+        "gap_pages": [],
+        "pages": "19",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/24-onbording-videokonferenciy.md",
+        "gap_pages": [],
+        "pages": "19",
+        "title": "Онбординг видеоконференций",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/25-ekran-videokonferencii.md",
+        "gap_pages": [],
+        "pages": "19-20",
+        "title": "Экран видеоконференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/26-kak-nachat-audio-konferenciyu.md",
+        "gap_pages": [],
+        "pages": "20",
+        "title": "Как начать аудио конференцию",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/27-kak-pozvonit-v-komnatu-audio-konferencii.md",
+        "gap_pages": [],
+        "pages": "20-21",
+        "title": "Как позвонить в комнату аудио конференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/28-kak-sozdat-novuyu-videokonferenciyu-i-po.md",
+        "gap_pages": [],
+        "pages": "21",
+        "title": "Как создать новую видеоконференцию и поделиться ссылкой на нее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/29-kak-prisoedinitsya-k-konferencii-po-ssyl.md",
+        "gap_pages": [],
+        "pages": "21-22",
+        "title": "Как присоединиться к конференции по ссылке",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/30-rasshifrovka-i-konspektirovanie-zapisey.md",
+        "gap_pages": [],
+        "pages": "22-27",
+        "title": "Расшифровка и конспектирование записей встреч",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/31-chat-vo-vremya-videokonferencii.md",
+        "gap_pages": [],
+        "pages": "27-29",
+        "title": "Чат во время видеоконференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/32-podnyat-ruku-vo-vremya-videokonferencii.md",
+        "gap_pages": [],
+        "pages": "29",
+        "title": "Поднять руку во время видеоконференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/33-poisk-komnaty-konferencii.md",
+        "gap_pages": [],
+        "pages": "29-30",
+        "title": "Поиск комнаты конференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/34-provedenie-chata.md",
+        "gap_pages": [],
+        "pages": "30",
+        "title": "Проведение чата",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/35-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "30",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/36-opisanie-elementov-interfeysa-chata-kana.md",
+        "gap_pages": [],
+        "pages": "30-31",
+        "title": "Описание элементов интерфейса чата/канала",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/37-sozdanie-novogo-chata-ili-kanala.md",
+        "gap_pages": [],
+        "pages": "31",
+        "title": "Создание нового чата или канала",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/38-otobrazhenie-udalennogo-sotrudnika.md",
+        "gap_pages": [],
+        "pages": "31",
+        "title": "Отображение удаленного сотрудника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/39-vhodyaschie.md",
+        "gap_pages": [],
+        "pages": "31-32",
+        "title": "Входящие",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/40-gruppy-chatov.md",
+        "gap_pages": [],
+        "pages": "32",
+        "title": "Группы чатов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/41-filtr-chatov-po-neprochitannym-soobschen.md",
+        "gap_pages": [],
+        "pages": "32-34",
+        "title": "Фильтр чатов по непрочитанным сообщениям",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/42-zakreplenie-i-otkreplenie-chata.md",
+        "gap_pages": [],
+        "pages": "34",
+        "title": "Закрепление и открепление чата",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/43-poisk-soobscheniy.md",
+        "gap_pages": [],
+        "pages": "34-35",
+        "title": "Поиск сообщений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/44-operacii-nad-soobscheniyami.md",
+        "gap_pages": [],
+        "pages": "35",
+        "title": "Операции над сообщениями",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/45-rabota-s-tehpodderzhkoy.md",
+        "gap_pages": [],
+        "pages": "35-40",
+        "title": "Работа с техподдержкой",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/46-posmotret-kontaktnye-dannye-sobesednika.md",
+        "gap_pages": [],
+        "pages": "40",
+        "title": "Посмотреть контактные данные собеседника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/47-posmotret-istoriyu-soobscheniy-v-chate.md",
+        "gap_pages": [],
+        "pages": "40-41",
+        "title": "Посмотреть историю сообщений в чате",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/48-udalenie-vsey-perepiski.md",
+        "gap_pages": [],
+        "pages": "41-42",
+        "title": "Удаление всей переписки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/49-administrirovanie-obschego-chata-ili-kan.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Администрирование общего чата или канала",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/50-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/51-opisanie-prav-uchastnikov.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Описание прав участников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/52-otobrazhenie-spiska-uchastnikov.md",
+        "gap_pages": [],
+        "pages": "42-43",
+        "title": "Отображение списка участников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/53-dobavit-uchastnika.md",
+        "gap_pages": [],
+        "pages": "43",
+        "title": "Добавить участника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/54-vydacha-snyatie-prav-administratora.md",
+        "gap_pages": [],
+        "pages": "43",
+        "title": "Выдача / снятие прав администратора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/55-bystryy-perehod-k-kartochke-kontakta.md",
+        "gap_pages": [],
+        "pages": "43-44",
+        "title": "Быстрый переход к карточке контакта",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/56-pereimenovat-chat-kanal.md",
+        "gap_pages": [],
+        "pages": "44",
+        "title": "Переименовать чат / канал",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/57-udalit-uchastnika.md",
+        "gap_pages": [],
+        "pages": "44-45",
+        "title": "Удалить участника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/58-vyhod-iz-obschego-chata-kanala.md",
+        "gap_pages": [],
+        "pages": "45",
+        "title": "Выход из общего чата / канала",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/59-prosmotr-obschih-faylov.md",
+        "gap_pages": [],
+        "pages": "45-46",
+        "title": "Просмотр общих файлов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/60-kak-otklyuchit-uvedomleniya-o-novyh-soob.md",
+        "gap_pages": [],
+        "pages": "46-47",
+        "title": "Как отключить уведомления о новых сообщениях в чате / канале",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/61-zhurnal-vyzovov.md",
+        "gap_pages": [],
+        "pages": "47",
+        "title": "Журнал вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/62-opisanie-zhurnala-vyzovov.md",
+        "gap_pages": [],
+        "pages": "47",
+        "title": "Описание журнала вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/63-razdely-zhurnala.md",
+        "gap_pages": [],
+        "pages": "47-48",
+        "title": "Разделы журнала",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/64-poisk-i-filtracii-zapisey.md",
+        "gap_pages": [],
+        "pages": "48-49",
+        "title": "Поиск и фильтрации записей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/65-kak-posmotret-podrobnye-dannye-o-gruppov.md",
+        "gap_pages": [],
+        "pages": "49-50",
+        "title": "Как посмотреть подробные данные о групповом звонке / конференции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/66-kak-perezvonit.md",
+        "gap_pages": [],
+        "pages": "50",
+        "title": "Как перезвонить ?",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/67-kak-otpravit-soobschenie.md",
+        "gap_pages": [],
+        "pages": "50-51",
+        "title": "Как отправить сообщение",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/68-kak-zakazat-obratnyy-zvonok.md",
+        "gap_pages": [],
+        "pages": "51",
+        "title": "Как заказать обратный звонок?",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/69-opisanie-kartochki-vyzova.md",
+        "gap_pages": [],
+        "pages": "51-52",
+        "title": "Описание карточки вызова",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/70-kak-sohranit-nomer-v-telefonnoy-knige.md",
+        "gap_pages": [],
+        "pages": "52",
+        "title": "Как сохранить номер в телефонной книге",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/71-proslushat-zapis-razgovora.md",
+        "gap_pages": [],
+        "pages": "52",
+        "title": "Прослушать запись разговора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/72-kak-skopirovat-informaciyu-o-zvonkah-v-z.md",
+        "gap_pages": [],
+        "pages": "52",
+        "title": "Как скопировать информацию о звонках в журнале вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/73-udalenie-zapisi-o-zvonke-iz-zhurnala-vyz.md",
+        "gap_pages": [],
+        "pages": "52-54",
+        "title": "Удаление записи о звонке из журнала вызовов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/74-kontakty.md",
+        "gap_pages": [],
+        "pages": "54",
+        "title": "Контакты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/75-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "54",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/76-poisk-kontakta.md",
+        "gap_pages": [],
+        "pages": "54-55",
+        "title": "Поиск контакта",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/77-opisanie-kartochki-kontakta.md",
+        "gap_pages": [],
+        "pages": "55",
+        "title": "Описание карточки контакта",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/78-kak-svyazatsya-s-kontaktom.md",
+        "gap_pages": [],
+        "pages": "55-56",
+        "title": "Как связаться с контактом",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/79-kak-posmotret-istoriyu-vzaimodeystviya-s.md",
+        "gap_pages": [],
+        "pages": "56",
+        "title": "Как посмотреть историю взаимодействия с абонентом",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 16,
+        "file": "sections/80-kak-dobavlyat-importirovat-redaktirovat.md",
+        "gap_pages": [],
+        "pages": "56-57",
+        "title": "Как добавлять, импортировать, редактировать и удалять контакты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/81-kak-filtrovat-sortirovat-i-nastroit-otob.md",
+        "gap_pages": [],
+        "pages": "57-59",
+        "title": "Как фильтровать, сортировать и настроить отображение контактов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/82-avtosekretar.md",
+        "gap_pages": [],
+        "pages": "59",
+        "title": "Автосекретарь",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/83-obschee.md",
+        "gap_pages": [],
+        "pages": "59",
+        "title": "Общее",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/84-proverka-statusa-raboty-pravil.md",
+        "gap_pages": [],
+        "pages": "59",
+        "title": "Проверка статуса работы правил",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/85-kak-vklyuchit-ili-vyklyuchit-pravilo.md",
+        "gap_pages": [],
+        "pages": "59-60",
+        "title": "Как включить или выключить правило",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/86-upravlenie-profilem-polzovatelya.md",
+        "gap_pages": [],
+        "pages": "60",
+        "title": "Управление профилем пользователя",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/87-kak-vyvesti-na-ekran-i-skopirovat-vash-s.md",
+        "gap_pages": [],
+        "pages": "60",
+        "title": "Как вывести на экран и скопировать ваш SIP-ID",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/88-kak-izmenit-ili-sbrosit-svoy-parol.md",
+        "gap_pages": [],
+        "pages": "60-61",
+        "title": "Как изменить или сбросить свой пароль",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/89-smena-statusa-polzovatelya.md",
+        "gap_pages": [],
+        "pages": "61",
+        "title": "Смена статуса пользователя",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/90-kak-pomenyat-ili-udalit-avatar.md",
+        "gap_pages": [],
+        "pages": "61-62",
+        "title": "Как поменять или удалить аватар",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/91-sluzhebnye-operacii.md",
+        "gap_pages": [],
+        "pages": "62",
+        "title": "Служебные операции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/92-konfidencialnost.md",
+        "gap_pages": [],
+        "pages": "62-63",
+        "title": "Конфиденциальность",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/93-raspisanie-priema-zvonkov-i-soobscheniy.md",
+        "gap_pages": [],
+        "pages": "63",
+        "title": "Расписание приема звонков и сообщений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/94-avtozagruzka-faylov-i-izobrazheniy.md",
+        "gap_pages": [],
+        "pages": "63",
+        "title": "Автозагрузка файлов и изображений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/95-kak-obnovit-mtalker.md",
+        "gap_pages": [],
+        "pages": "63",
+        "title": "Как обновить MTalker",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/96-uvedomleniya.md",
+        "gap_pages": [],
+        "pages": "63-64",
+        "title": "Уведомления",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 16,
+        "file": "sections/97-tehnicheskie-nastroyki.md",
+        "gap_pages": [],
+        "pages": "64-66",
+        "title": "Технические настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/98-kak-soobschit-o-probleme-ili-otpravit-ot.md",
+        "gap_pages": [],
+        "pages": "66",
+        "title": "Как сообщить о проблеме или отправить отзыв",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

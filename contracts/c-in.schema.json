@@ -1,0 +1,199 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "contracts/c-in.schema.json",
+  "title": "C-IN — контракт входа маршрута",
+  "description": "Вход маршрута считается принятым, только если объявлены продукт, задача и источник. Правило PT-1: продуктовый класс объявляется до начала шага и не выводится из текста. Правило MM-1: артефакт без класса не существует. Непринятый вход останавливает маршрут (GT-2, fail-closed), а не помечается предупреждением.",
+  "type": "object",
+  "required": [
+    "artifact_class",
+    "state",
+    "task",
+    "products",
+    "sources",
+    "language"
+  ],
+  "additionalProperties": false,
+  "properties": {
+    "artifact_class": {
+      "const": "A-IN"
+    },
+    "state": {
+      "const": "raw"
+    },
+    "task": {
+      "type": "object",
+      "required": [
+        "id",
+        "title",
+        "requested_by"
+      ],
+      "additionalProperties": false,
+      "properties": {
+        "id": {
+          "type": "string",
+          "pattern": "^TASK-[0-9]{4}$"
+        },
+        "title": {
+          "type": "string",
+          "minLength": 1
+        },
+        "requested_by": {
+          "type": "string",
+          "minLength": 1
+        }
+      }
+    },
+    "products": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Реестр продуктов задачи по правилу MP-2, объявляется до генерации.",
+      "items": {
+        "type": "object",
+        "required": [
+          "marker",
+          "product_class",
+          "atomic_function",
+          "profile",
+          "owner"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "marker": {
+            "type": "string",
+            "pattern": "^[A-ZА-Я]$"
+          },
+          "product_class": {
+            "enum": [
+              "contact-center",
+              "voice-ucaas",
+              "analytics-reporting"
+            ]
+          },
+          "atomic_function": {
+            "type": "string",
+            "minLength": 1
+          },
+          "profile": {
+            "enum": [
+              "P-SETTINGS",
+              "P-NO-SETTINGS",
+              "P-DEVICE",
+              "P-API"
+            ]
+          },
+          "owner": {
+            "type": "string",
+            "minLength": 1
+          }
+        }
+      }
+    },
+    "sources": {
+      "type": "array",
+      "minItems": 1,
+      "description": "Каждый источник разрешим: по нему проверяется существование цитаты операцией check-source-evidence. Уровень источника объявляется до прогона словарём taxonomy/source-tiers.yaml и задаёт обязательную форму доказательства: вклеенный текст (EF-INLINE) или извлечённая цитата с отметкой времени (EF-QUOTE). Источник без уровня — необъявленная ветка маршрутизации, вход отвергается.",
+      "items": {
+        "type": "object",
+        "required": [
+          "id",
+          "kind",
+          "tier",
+          "locator"
+        ],
+        "additionalProperties": false,
+        "properties": {
+          "id": {
+            "type": "string",
+            "pattern": "^SRC-[0-9]{2}$"
+          },
+          "kind": {
+            "enum": [
+              "transcript",
+              "document",
+              "email",
+              "ticket",
+              "system-export"
+            ]
+          },
+          "locator": {
+            "type": "string",
+            "minLength": 1,
+            "description": "документ, раздел, страница или таймкод"
+          },
+          "content": {
+            "type": "string",
+            "minLength": 1,
+            "description": "дословный текст источника; обязателен для формы EF-INLINE"
+          },
+          "tier": {
+            "enum": [
+              "ST-1-ATTACHED",
+              "ST-2-CORPUS",
+              "ST-3-PRODUCT-DOC",
+              "ST-4-HUMAN"
+            ],
+            "description": "уровень источника из закрытого словаря source-tiers; порядок применения ST-1 → ST-2 → ST-3 → ST-4"
+          },
+          "quote": {
+            "type": "string",
+            "minLength": 1,
+            "description": "дословная цитата извлечённого фрагмента; обязательна для формы EF-QUOTE"
+          },
+          "retrieved_at": {
+            "type": "string",
+            "format": "date-time",
+            "description": "момент извлечения; без него цитата невоспроизводима"
+          }
+        },
+        "allOf": [
+          {
+            "if": {
+              "properties": {
+                "tier": {
+                  "enum": [
+                    "ST-1-ATTACHED",
+                    "ST-4-HUMAN"
+                  ]
+                }
+              },
+              "required": [
+                "tier"
+              ]
+            },
+            "then": {
+              "required": [
+                "content"
+              ],
+              "description": "EF-INLINE: материал задачи и ответ человека существуют только вклеенными"
+            }
+          },
+          {
+            "if": {
+              "properties": {
+                "tier": {
+                  "enum": [
+                    "ST-2-CORPUS",
+                    "ST-3-PRODUCT-DOC"
+                  ]
+                }
+              },
+              "required": [
+                "tier"
+              ]
+            },
+            "then": {
+              "required": [
+                "quote",
+                "retrieved_at"
+              ],
+              "description": "EF-QUOTE: извлечение допустимо, но доказательством является цитата с отметкой времени, а не факт обращения"
+            }
+          }
+        ]
+      }
+    },
+    "language": {
+      "const": "ru"
+    }
+  }
+}

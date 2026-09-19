@@ -1,0 +1,32 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "$id": "contracts/c-quest.schema.json",
+  "title": "C-QUEST — контракт перечня вопросов Заказчику",
+  "description": "Выход P-02. Вопрос отвечается одним фактом и адресован конкретной неразрешённой неоднозначности A-CORE: вопрос без ссылки на неоднозначность неотличим от любопытства и не имеет критерия закрытия.",
+  "type": "object",
+  "required": ["artifact_class", "state", "task_id", "questions"],
+  "additionalProperties": false,
+  "properties": {
+    "artifact_class": {"const": "A-QUEST"},
+    "state": {"enum": ["draft", "in-review", "validated", "approved"]},
+    "task_id": {"type": "string", "pattern": "^TASK-[0-9]{4}$"},
+    "questions": {
+      "type": "array",
+      "minItems": 1,
+      "items": {
+        "type": "object",
+        "required": ["id", "ambiguity_id", "text", "addressee", "rank", "rank_rationale"],
+        "additionalProperties": false,
+        "properties": {
+          "id": {"type": "string", "pattern": "^Q-[0-9]{2}$"},
+          "ambiguity_id": {"type": "string", "pattern": "^AMB-[0-9]{2}$"},
+          "text": {"type": "string", "minLength": 1},
+          "addressee": {"type": "string", "minLength": 1},
+          "rank": {"type": "integer", "minimum": 1},
+          "rank_rationale": {"type": "string", "minLength": 1},
+          "answer": {"type": "string"}
+        }
+      }
+    }
+  }
+}

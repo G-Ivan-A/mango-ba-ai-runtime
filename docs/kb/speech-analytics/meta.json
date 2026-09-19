@@ -1,0 +1,75 @@
+{
+  "collection_type": "multi_document",
+  "document_count": 4,
+  "documents": [
+    {
+      "doc_code": "SA",
+      "index": "user-guide/index.md",
+      "meta": "user-guide/meta.json",
+      "output": "kb/processed/speech-analytics/user-guide",
+      "page_count": 126,
+      "section_count": 76,
+      "slug": "user-guide",
+      "source_files": [
+        "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_1.26.18.pdf"
+      ],
+      "title": "Руководство пользователя. Речевая аналитика",
+      "tokens_total": 86230,
+      "version": "1.26.18"
+    },
+    {
+      "doc_code": "SA-KATS",
+      "index": "kats/index.md",
+      "meta": "kats/meta.json",
+      "output": "kb/processed/speech-analytics/kats",
+      "page_count": 146,
+      "section_count": 92,
+      "slug": "kats",
+      "source_files": [
+        "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_c-KATS_v.1.26.18.pdf"
+      ],
+      "title": "Руководство пользователя. Речевая аналитика & КАТС",
+      "tokens_total": 100207,
+      "version": "1.26.18"
+    },
+    {
+      "doc_code": "SA-SCORE",
+      "index": "offline-scoring/index.md",
+      "meta": "offline-scoring/meta.json",
+      "output": "kb/processed/speech-analytics/offline-scoring",
+      "page_count": 133,
+      "section_count": 87,
+      "slug": "offline-scoring",
+      "source_files": [
+        "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+      ],
+      "title": "Руководство пользователя. Речевая аналитика. Офлайн скоринг",
+      "tokens_total": 91583,
+      "version": "1.26.15"
+    },
+    {
+      "doc_code": "SA-VATS-SCORE",
+      "index": "vats-offline-scoring/index.md",
+      "meta": "vats-offline-scoring/meta.json",
+      "output": "kb/processed/speech-analytics/vats-offline-scoring",
+      "page_count": 143,
+      "section_count": 88,
+      "slug": "vats-offline-scoring",
+      "source_files": [
+        "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+      ],
+      "title": "Руководство пользователя. Речевая аналитика. ВАТС & Офлайн скоринг",
+      "tokens_total": 97546,
+      "version": "1.26.18"
+    }
+  ],
+  "generated_by": "scripts/kb/process_sources.py",
+  "language": "ru",
+  "name": "Речевая аналитика – Комплект руководств пользователя",
+  "processing_mode": "multi_document",
+  "product": "Mango Office",
+  "source_dir": "kb/sources/speech-analytics",
+  "tokens_total": 375566,
+  "total_pages": 548,
+  "version": "1.26"
+}
