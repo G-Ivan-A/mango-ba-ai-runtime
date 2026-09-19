@@ -1,0 +1,36 @@
+{
+  "profile_version": "0.4",
+  "package": "execution-package-mvp-bcreq",
+  "meta_model_version": "0.4",
+  "entrypoint": "AGENTS.md",
+  "route": "routes/rg-bcreq-v1.yaml",
+  "skills_path": ".agents/skills",
+  "skills": [
+    "transcript-normalization-contact-center",
+    "context-extraction-contact-center",
+    "ambiguity-detection-contact-center",
+    "core-assembly-contact-center",
+    "question-formation-contact-center",
+    "question-prioritization-contact-center",
+    "answer-integration-contact-center",
+    "problem-statement-contact-center",
+    "value-hypothesis-contact-center",
+    "bcreq-decomposition-contact-center",
+    "bcreq-assembly-contact-center"
+  ],
+  "task_isolation": "chat",
+  "one_chat_one_task": true,
+  "output_directory": "runs",
+  "output_format": "markdown",
+  "knowledge_routing": {
+    "fallback_path": "docs/kb",
+    "levels": {
+      "corporate_repository": {"tier": "ST-1-CORPORATE", "status": "out_of_slice", "reason": "URL and credentials are not supplied"},
+      "confluence": {"tier": "ST-2-CONFLUENCE", "status": "out_of_slice", "reason": "space URL and credentials are not supplied"},
+      "mango_web": {"tier": "ST-3-MANGO-WEB", "status": "out_of_slice", "reason": "approved public URL allow-list is not supplied"},
+      "external_systems": {"tier": "ST-4-EXTERNAL", "status": "out_of_slice", "reason": "systems and access policy are not supplied"},
+      "local_repository_fallback": {"tier": "ST-5-LOCAL", "status": "available", "path": "docs/kb"}
+    }
+  },
+  "validation": {"command": "sh tools/validate-package.sh", "python_required": false}
+}

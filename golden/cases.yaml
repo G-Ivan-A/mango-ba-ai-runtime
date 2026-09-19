@@ -96,7 +96,7 @@ cases:
         slot: S-LIMITS
         statuses_required_for: [SLA, AHT]
         allowed_statuses: [включено, исключено, не применимо]
-        source_tier_required: ST-4-HUMAN   # статус «включено» допустим только со ссылкой на ответ Заказчика
+        source_tier_required: ST-6-HUMAN   # статус «включено» допустим только со ссылкой на ответ Заказчика
   - id: GS-CC-NEG-04
     kind: negative
     file: golden/gs-cc-neg-04-ivr-vs-announcer.md

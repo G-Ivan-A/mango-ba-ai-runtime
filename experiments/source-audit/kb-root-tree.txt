@@ -1,0 +1,16 @@
+file	README.md	kb/processed/README.md
+dir	cov-robot-fil	kb/processed/cov-robot-fil
+dir	integration-1c	kb/processed/integration-1c
+dir	integration-amocrm	kb/processed/integration-amocrm
+dir	integration-bitrix24	kb/processed/integration-bitrix24
+dir	integration-bpmsoft	kb/processed/integration-bpmsoft
+dir	lk-vats-sso	kb/processed/lk-vats-sso
+dir	mango-cc-manual	kb/processed/mango-cc-manual
+dir	mango-lk-manual	kb/processed/mango-lk-manual
+dir	mdialogi-api	kb/processed/mdialogi-api
+dir	mtalker	kb/processed/mtalker
+dir	quality-management	kb/processed/quality-management
+dir	rolevaya-model-vats	kb/processed/rolevaya-model-vats
+dir	sip-trunk	kb/processed/sip-trunk
+dir	speech-analytics	kb/processed/speech-analytics
+dir	vpbx-api	kb/processed/vpbx-api

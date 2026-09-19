@@ -3,10 +3,11 @@
 # Манифест — единственное место пакета, где Хаб упоминается как источник.
 # Ни один артефакт времени выполнения на Хаб не ссылается (контракт 2).
 manifest: execution-package-mvp-bcreq
-version: "1.1"
-compiled_at: 2026-09-15
+version: "0.4"
+meta_model_version: "0.4"
+compiled_at: 2026-09-19
 hub_ssot: https://github.com/G-Ivan-A/hybrid-Intelligence-lab
-hub_commit: a002df943b0cb5dd91afcffca3037627afc9aa59
+hub_commit: dbf3baa96d3585150974212254af81bcf7b03150
 target_spoke: mango-ba-ai-runtime
 slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-center, процессы P-01, P-02, P-03"
 
@@ -14,7 +15,7 @@ slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-c
 # Поэтому пакет содержит физические копии всего необходимого, а не ссылки.
 deployment:
   mechanism: копирование каталога пакета в корень репозитория-спутника
-  result: ".agents/skills/*, taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, tools/, AGENTS.md"
+  result: ".agents/skills/*, taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, tools/, docs/kb/, docs/guides/, runs/, AGENTS.md, .hub-profile.json"
   hub_access_required_at_runtime: false
 
 # 1. Скопировано физически: содержание перенесено в пакет дословно или с
@@ -34,9 +35,9 @@ copied:
     from: исследование извлечения знания (лестница готовности корпуса, матрица стратегий, приоритет модификаторов)
     to: taxonomy/source-tiers.yaml
     note: >-
-      отраслевая семиуровневая иерархия сужена до четырёх уровней среза;
-      уровни вне среза перечислены явно в out_of_slice, чтобы ни одна ветка
-      маршрутизации не осталась необъявленной
+      runtime объявляет пять обязательных уровней задачи: корпоративная БЗ,
+      Confluence, веб Манго, внешние системы и локальный fallback; каждый
+      ненастроенный уровень явно имеет out_of_slice с причиной
   - what: состав и формулировочные правила проекций документа
     from: практический раздел мета-модели (проекции как три чтения одного артефакта)
     to: taxonomy/projections.yaml

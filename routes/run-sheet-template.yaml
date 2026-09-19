@@ -7,6 +7,8 @@ task_id: TASK-0000
 started_at: "<ISO-8601>"
 finished_at: ""
 outcome: in-progress          # completed | refused | escalated | in-progress
+output_path: "runs/RUN-0000/A-BCREQ.md"
+source_attempts: []           # tier, locator, status, reason, retrieved_at
 events:
   - seq: 1
     node: n1

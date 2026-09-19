@@ -1,0 +1,19 @@
+name: Validate execution package
+
+on:
+  push:
+  pull_request:
+
+permissions:
+  contents: read
+
+jobs:
+  portable-gate:
+    runs-on: ubuntu-latest
+    timeout-minutes: 10
+    steps:
+      - uses: actions/checkout@v4
+      - name: Run runtime acceptance smoke test
+        run: sh tests/runtime-smoke.sh
+      - name: Run portable G-mach gate
+        run: sh tools/validate-package.sh

@@ -21,7 +21,7 @@ nodes:
   - {node: n4, process: P-01, skill: SK-core-assembly, actor: agent, gates: [G-self, G-mach], output: A-CORE}
   - {node: n5, process: P-02, skill: SK-question-formation, actor: agent, gates: [G-self, G-mach], output: A-QUEST}
   - {node: n6, process: P-02, skill: SK-question-prioritization, actor: agent, gates: [G-self, G-mach], output: A-QUEST}
-  - {node: n7, process: P-02, skill: send-questions-to-customer, actor: human, gates: [G-human], output: answers, note: "скомпилированного навыка нет: отправка вовне необратима (GT-6, не ниже G5). Форма исполнения — диалог: агент прерывает исполнение, печатает вопрос, ждёт ответа и продолжает; ответ становится источником уровня ST-4-HUMAN"}
+  - {node: n7, process: P-02, skill: send-questions-to-customer, actor: human, gates: [G-human], output: answers, note: "скомпилированного навыка нет: отправка вовне необратима (GT-6, не ниже G5). Форма исполнения — диалог: агент прерывает исполнение, печатает вопрос, ждёт ответа и продолжает; ответ становится источником уровня ST-6-HUMAN"}
   - {node: n8, process: P-02, skill: SK-answer-integration, actor: agent, gates: [G-self, G-mach, G-human], output: A-CORE}
   - {node: n9, process: P-03, skill: SK-problem-statement, actor: agent, gates: [G-self, G-mach], output: problem_statement}
   - {node: n10, process: P-03, skill: SK-value-hypothesis, actor: agent, gates: [G-self, G-mach], output: value_hypothesis}
@@ -41,7 +41,7 @@ edges:
   - {from: n5, to: n6, condition: gate_passed}
   - {from: n6, to: n7, condition: gate_passed}
   - {from: n7, to: n8, condition: "answers.count > 0"}
-  - {from: n7, to: halt, condition: "answers.count == 0", note: "маршрут остановлен до ответа Заказчика: ожидание — ребро графа, а не пауза внутри навыка. Перед постановкой вопроса обязательна объявленная неудача на ST-2-CORPUS и ST-3-PRODUCT-DOC: вопрос об извлекаемом факте — дефект маршрутизации"}
+  - {from: n7, to: halt, condition: "answers.count == 0", note: "маршрут остановлен до ответа Заказчика: ожидание — ребро графа, а не пауза внутри навыка. Перед вопросом обязательна запись неудач всех доступных уровней ST-1…ST-5; вопрос об извлекаемом факте — дефект маршрутизации"}
   - {from: n8, to: n9, condition: "ambiguities[severity == 'blocker' and resolved == false].count == 0"}
   - {from: n8, to: n5, condition: "ambiguities[severity == 'blocker' and resolved == false].count > 0"}
   - {from: n9, to: n10, condition: gate_passed}

@@ -1,0 +1,11 @@
+dir	.agents	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/.agents
+file	AGENTS.md	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/AGENTS.md
+file	README.md	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/README.md
+file	compilation-manifest.yaml	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/compilation-manifest.yaml
+dir	contracts	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/contracts
+dir	evaluation	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/evaluation
+dir	golden	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/golden
+dir	routes	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/routes
+dir	taxonomy	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/taxonomy
+dir	templates	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/templates
+dir	tools	projects/ba-gigacode-implementation/execution-package-mvp-bcreq/tools

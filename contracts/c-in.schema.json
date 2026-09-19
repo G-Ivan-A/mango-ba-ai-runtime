@@ -127,12 +127,15 @@
           },
           "tier": {
             "enum": [
-              "ST-1-ATTACHED",
-              "ST-2-CORPUS",
-              "ST-3-PRODUCT-DOC",
-              "ST-4-HUMAN"
+              "ST-0-ATTACHED",
+              "ST-1-CORPORATE",
+              "ST-2-CONFLUENCE",
+              "ST-3-MANGO-WEB",
+              "ST-4-EXTERNAL",
+              "ST-5-LOCAL",
+              "ST-6-HUMAN"
             ],
-            "description": "уровень источника из закрытого словаря source-tiers; порядок применения ST-1 → ST-2 → ST-3 → ST-4"
+            "description": "уровень из taxonomy/source-tiers.yaml; внешние уровни 1–4 предшествуют локальному fallback ST-5"
           },
           "quote": {
             "type": "string",
@@ -151,8 +154,8 @@
               "properties": {
                 "tier": {
                   "enum": [
-                    "ST-1-ATTACHED",
-                    "ST-4-HUMAN"
+                    "ST-0-ATTACHED",
+                    "ST-6-HUMAN"
                   ]
                 }
               },
@@ -172,8 +175,11 @@
               "properties": {
                 "tier": {
                   "enum": [
-                    "ST-2-CORPUS",
-                    "ST-3-PRODUCT-DOC"
+                    "ST-1-CORPORATE",
+                    "ST-2-CONFLUENCE",
+                    "ST-3-MANGO-WEB",
+                    "ST-4-EXTERNAL",
+                    "ST-5-LOCAL"
                   ]
                 }
               },

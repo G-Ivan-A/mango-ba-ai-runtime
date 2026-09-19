@@ -1,96 +1,78 @@
-# Закрытый словарь уровней источников знания. Отвечает на вопрос «откуда брать
-# факт и что считать доказательством», который до сих пор в пакете не был
-# объявлен ни одним контрактом. Значение вне словаря — отказ на входе (T-1).
-#
-# Словарь намеренно короче семиуровневой отраслевой иерархии: в срез входят
-# только те уровни, для которых объявлена форма доказательства и достижима
-# готовность корпуса. Уровни вне среза перечислены явно в `out_of_slice`, чтобы
-# ни одна ветка маршрута не осталась необъявленной.
+# Closed runtime vocabulary for product-knowledge routing. A task may enable a
+# subset, but every level must be declared in .hub-profile.json. Unconfigured
+# remote levels are `out_of_slice`; ST-5-LOCAL remains the offline fallback.
 vocabulary: source-tiers
 closed: true
-version: "1.0"
+version: "0.4"
 
-# Готовность корпуса (унаследованная лестница L0–L5, накопительная):
-# L0 хаос, L1 инвентаризован, L2 извлекаем, L3 структурирован,
-# L4 согласован, L5 измерим. Стратегия допустима только на своём уровне.
-readiness_scale: [L0, L1, L2, L3, L4, L5]
-slice_readiness: L2
-slice_strategy: S2   # извлечение по подготовленному корпусу с обязательной цитатой;
-                     # стратегии, требующие L4–L5, в срез не входят
-
-# Формы доказательства. Утверждение без доказательства фактом не является
-# (правило 3 AGENTS.md); уровень источника задаёт, какая форма обязательна.
 evidence_forms:
   - id: EF-INLINE
-    meaning: дословный текст источника вклеен во вход прогона
+    meaning: source text is attached to the task
     required_fields: [locator, content]
   - id: EF-QUOTE
-    meaning: источник извлечён во время прогона, во вход попадает дословная цитата с отметкой времени
+    meaning: source is retrieved and recorded as a verbatim quote with timestamp
     required_fields: [locator, quote, retrieved_at]
 
 tiers:
-  - id: ST-1-ATTACHED
-    name: Материал задачи
-    meaning: расшифровка, письмо, заявка или экспорт, приложенные к задаче
-    evidence_form: EF-INLINE
-    min_readiness: L0
-    in_slice: true
-    rationale: материал существует только в контексте задачи, извлекать его неоткуда
-
-  - id: ST-2-CORPUS
-    name: Подготовленный корпус базы знаний
-    meaning: корпус спутника, прошедший инвентаризацию и разметку (готовность не ниже L2)
+  - id: ST-1-CORPORATE
+    name: Корпоративный репозиторий актуальной БЗ
     evidence_form: EF-QUOTE
-    min_readiness: L2
-    in_slice: true
-    rationale: >-
-      проверяемый факт продукта обязан браться отсюда, а не превращаться в
-      вопрос Заказчику; отсутствие этого уровня измерено как остановка маршрута
-      там, где останавливаться не должен
-
-  - id: ST-3-PRODUCT-DOC
-    name: Документация продукта
-    meaning: опубликованное описание поведения продукта, доступное спутнику
+    priority: 1
+    default_status: out_of_slice
+    status: out_of_slice
+    rationale: основной источник после настройки URL и доступа
+  - id: ST-2-CONFLUENCE
+    name: Confluence проекта
     evidence_form: EF-QUOTE
-    min_readiness: L1
-    in_slice: true
-    rationale: описывает фактическое поведение, но не отражает незадокументированные настройки
-
-  - id: ST-4-HUMAN
-    name: Ответ человека
-    meaning: ответ Заказчика или эксперта, полученный гейтом G-human
+    priority: 2
+    default_status: out_of_slice
+    status: out_of_slice
+    rationale: используется после настройки space URL и доступа
+  - id: ST-3-MANGO-WEB
+    name: Публичные веб-ресурсы Манго
+    evidence_form: EF-QUOTE
+    priority: 3
+    default_status: out_of_slice
+    status: out_of_slice
+    rationale: публичная продуктовая документация Манго
+  - id: ST-4-EXTERNAL
+    name: Внешние системы
+    evidence_form: EF-QUOTE
+    priority: 4
+    default_status: out_of_slice
+    status: out_of_slice
+    rationale: используется только по явному разрешению задачи
+  - id: ST-5-LOCAL
+    name: Локальная резервная копия
+    evidence_form: EF-QUOTE
+    priority: 5
+    default_status: available
+    status: available
+    path: docs/kb
+    rationale: запасной вариант, а не замена уровней 1–4
+  - id: ST-0-ATTACHED
+    name: Материал текущей задачи
     evidence_form: EF-INLINE
-    min_readiness: L0
-    in_slice: true
-    rationale: "последний уровень, а не первый: применяется, когда предыдущие уровни факта не дали"
+    priority: 0
+    default_status: available
+    status: available
+    rationale: исходный текст, ссылка или файл пользователя
+  - id: ST-6-HUMAN
+    name: Ответ Заказчика на G-human
+    evidence_form: EF-INLINE
+    priority: 6
+    default_status: available
+    status: available
+    rationale: эскалация после документированной неудачи поиска
 
-out_of_slice:
-  - id: ST-X-SYSTEM
-    name: Внешняя система
-    why: требует прав доступа и необратимых обращений — узел с actor human отсутствует
-  - id: ST-X-ADHOC
-    name: Ad-hoc поиск
-    why: доказательство невоспроизводимо, отметка времени не гарантирует повторяемость цитаты
-  - id: ST-X-TOOL
-    name: Внешний инструмент по протоколу
-    why: минимальный конверт исполнения инструмента в срезе не объявлен
-
-# Порядок применения. Уровни упорядочены по допустимости, а не по удобству:
-# факт берётся с наименьшего допустимого уровня, дающего доказательство.
-order: [ST-1-ATTACHED, ST-2-CORPUS, ST-3-PRODUCT-DOC, ST-4-HUMAN]
-
-conflict_rule: >-
-  При расхождении источников выигрывает уровень с меньшей стоимостью ошибки,
-  затем более свежий, и только затем более быстрый (M2 > M3 > M1). Задержка
-  никогда не перевешивает стоимость ошибки: сокращение прогона за счёт
-  непроверенного факта — дефект, а не оптимизация.
+allowed_statuses: [available, out_of_slice]
+order: [ST-0-ATTACHED, ST-1-CORPORATE, ST-2-CONFLUENCE, ST-3-MANGO-WEB, ST-4-EXTERNAL, ST-5-LOCAL, ST-6-HUMAN]
 
 escalation_rule: >-
-  Переход на ST-4-HUMAN допустим только после объявленной неудачи на
-  ST-2-CORPUS и ST-3-PRODUCT-DOC. Вопрос Заказчику о факте, который извлекаем
-  из корпуса, — дефект маршрутизации и фиксируется как таковой в листе прогона.
+  Проверять доступные уровни по порядку. Пропускать out_of_slice с записью
+  причины. Если уровни 1–5 не дали доказательства, записать попытки в лист
+  прогона и перейти к ST-6-HUMAN через G-human. Не выдавать гипотезу за факт.
 
-investment_rule: >-
-  Готовность корпуса имеет приоритет над усложнением конвейера: подъём корпуса
-  с L1 до L2 снимает больше остановок маршрута, чем любая доработка стратегии
-  извлечения на том же корпусе.
+conflict_rule: >-
+  При расхождении выигрывает источник более высокого приоритета; внутри уровня
+  — более свежий. Конфликт, который нельзя разрешить, передаётся G-human.
