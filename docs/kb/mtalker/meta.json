@@ -1,0 +1,90 @@
+{
+  "collection_type": "multi_document",
+  "document_count": 5,
+  "documents": [
+    {
+      "doc_code": "MTALKER-QS",
+      "index": "quick-start/index.md",
+      "meta": "quick-start/meta.json",
+      "output": "kb/processed/mtalker/quick-start",
+      "page_count": 4,
+      "section_count": 7,
+      "slug": "quick-start",
+      "source_files": [
+        "kb/sources/mtalker/mTalker_Quick_start.pdf"
+      ],
+      "title": "Mango Talker для Windows/Mac - Быстрый старт",
+      "tokens_total": 2545,
+      "version": "23.08.2024"
+    },
+    {
+      "doc_code": "MTALKER-WORK",
+      "index": "windows-mac-working/index.md",
+      "meta": "windows-mac-working/meta.json",
+      "output": "kb/processed/mtalker/windows-mac-working",
+      "page_count": 128,
+      "section_count": 143,
+      "slug": "windows-mac-working",
+      "source_files": [
+        "kb/sources/mtalker/UserGuide_Windows_mTalker_ch1_Working.11.06.26.pdf"
+      ],
+      "title": "Mango Talker для Windows/Mac - Руководство пользователя (Работа)",
+      "tokens_total": 102173,
+      "version": "11.06.2026"
+    },
+    {
+      "doc_code": "MTALKER-SET",
+      "index": "windows-mac-settings/index.md",
+      "meta": "windows-mac-settings/meta.json",
+      "output": "kb/processed/mtalker/windows-mac-settings",
+      "page_count": 19,
+      "section_count": 55,
+      "slug": "windows-mac-settings",
+      "source_files": [
+        "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+      ],
+      "title": "Mango Talker для Windows/Mac - Установка настроек",
+      "tokens_total": 16436,
+      "version": "23.08.2024"
+    },
+    {
+      "doc_code": "MTALKER-ADM",
+      "index": "windows-mac-admin/index.md",
+      "meta": "windows-mac-admin/meta.json",
+      "output": "kb/processed/mtalker/windows-mac-admin",
+      "page_count": 9,
+      "section_count": 15,
+      "slug": "windows-mac-admin",
+      "source_files": [
+        "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+      ],
+      "title": "Mango Talker для Windows/Mac - Информация для администратора ВАТС",
+      "tokens_total": 6440,
+      "version": "23.08.2024"
+    },
+    {
+      "doc_code": "MTALKER-MOB",
+      "index": "android-user-guide/index.md",
+      "meta": "android-user-guide/meta.json",
+      "output": "kb/processed/mtalker/android-user-guide",
+      "page_count": 66,
+      "section_count": 99,
+      "slug": "android-user-guide",
+      "source_files": [
+        "kb/sources/mtalker/UserGuide_mTalker_4Mobile 11.06.26.pdf"
+      ],
+      "title": "Mango Talker для Android - Руководство пользователя",
+      "tokens_total": 47293,
+      "version": "11.06.2026"
+    }
+  ],
+  "generated_by": "scripts/kb/process_sources.py",
+  "language": "ru",
+  "name": "Mango Talker - Комплект документации",
+  "processing_mode": "multi_document",
+  "product": "Mango Talker",
+  "source_dir": "kb/sources/mtalker",
+  "tokens_total": 174887,
+  "total_pages": 226,
+  "version": "11.06.2026"
+}

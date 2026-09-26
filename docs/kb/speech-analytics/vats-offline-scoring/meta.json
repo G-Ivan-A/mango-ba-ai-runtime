@@ -1,0 +1,2345 @@
+{
+  "body_font_size": 11.0,
+  "body_font_sizes": [
+    11.0
+  ],
+  "doc_code": "SA-VATS-SCORE",
+  "doc_title": "Руководство пользователя. Речевая аналитика. ВАТС & Офлайн скоринг",
+  "doc_version": "1.26.18",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 370,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Комплексное руководство по речевой аналитике с поддержкой ВАТС и офлайн скоринга. Описание всех аспектов аналитики и скоринга в едином продукте.",
+  "page_count": 143,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 88,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-2",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-2",
+          "pages": "1-2",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 221
+    },
+    {
+      "file": "sections/01-oglavlenie.md",
+      "number": "—",
+      "order": "01",
+      "pages": "2-5",
+      "pdf_heading": "Оглавление",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "2-5",
+          "pages": "2-5",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Оглавление",
+      "tokens": 1991
+    },
+    {
+      "file": "sections/02-obschie-svedeniya.md",
+      "number": "1",
+      "order": "02",
+      "pages": "5-8",
+      "pdf_heading": "1. Общие сведения",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5-8",
+          "pages": "5-8",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 1106
+    },
+    {
+      "file": "sections/03-podklyuchenie-uslugi-rechevaya-analitika.md",
+      "number": "2",
+      "order": "03",
+      "pages": "8",
+      "pdf_heading": "2. Подключение услуги «Речевая аналитика»",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение услуги «Речевая аналитика»",
+      "tokens": 146
+    },
+    {
+      "file": "sections/04-podklyuchenie-v-demo-rezhime.md",
+      "number": "2.1",
+      "order": "04",
+      "pages": "8-11",
+      "pdf_heading": "2.1. Подключение в демо-режиме",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "8-11",
+          "pages": "8-11",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение в демо-режиме",
+      "tokens": 2147
+    },
+    {
+      "file": "sections/05-podklyuchenie-uslugi-v-platnom-rezhime.md",
+      "number": "2.2",
+      "order": "05",
+      "pages": "11-13",
+      "pdf_heading": "2.2. Подключение услуги в платном режиме",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "11-13",
+          "pages": "11-13",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение услуги в платном режиме",
+      "tokens": 1173
+    },
+    {
+      "file": "sections/06-nastroyki.md",
+      "number": "3",
+      "order": "06",
+      "pages": "13-14",
+      "pdf_heading": "3. Настройки",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройки",
+      "tokens": 1107
+    },
+    {
+      "file": "sections/07-shagi-onbordinga.md",
+      "number": "3.1",
+      "order": "07",
+      "pages": "14-15",
+      "pdf_heading": "3.1. Шаги онбординга",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "14-15",
+          "pages": "14-15",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Шаги онбординга",
+      "tokens": 977
+    },
+    {
+      "file": "sections/08-nastroyki-raspoznavaniya-zapisey.md",
+      "number": "3.2",
+      "order": "08",
+      "pages": "15-17",
+      "pdf_heading": "3.2. Настройки распознавания записей",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "15-17",
+          "pages": "15-17",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройки распознавания записей",
+      "tokens": 1521
+    },
+    {
+      "file": "sections/09-analitika-tekstovyh-kommunikaciy.md",
+      "number": "3.3",
+      "order": "09",
+      "pages": "17-18",
+      "pdf_heading": "3.3. Аналитика текстовых коммуникаций",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "17-18",
+          "pages": "17-18",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Аналитика текстовых коммуникаций",
+      "tokens": 827
+    },
+    {
+      "file": "sections/10-ii-instrumenty.md",
+      "number": "3.4",
+      "order": "10",
+      "pages": "18",
+      "pdf_heading": "3.4. ИИ Инструменты",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "18",
+          "pages": "18",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Инструменты",
+      "tokens": 82
+    },
+    {
+      "file": "sections/11-ii-konspekty.md",
+      "number": "3.4.1",
+      "order": "11",
+      "pages": "18-20",
+      "pdf_heading": "3.4.1. ИИ Конспекты",
+      "pdf_section": "3.4.1",
+      "source_refs": [
+        {
+          "global_pages": "18-20",
+          "pages": "18-20",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Конспекты",
+      "tokens": 1568
+    },
+    {
+      "file": "sections/12-ii-tegirovanie.md",
+      "number": "3.4.2",
+      "order": "12",
+      "pages": "20-21",
+      "pdf_heading": "3.4.2. ИИ Тегирование",
+      "pdf_section": "3.4.2",
+      "source_refs": [
+        {
+          "global_pages": "20-21",
+          "pages": "20-21",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Тегирование",
+      "tokens": 737
+    },
+    {
+      "file": "sections/13-ii-pomoschniki.md",
+      "number": "3.4.3",
+      "order": "13",
+      "pages": "21",
+      "pdf_heading": "3.4.3. ИИ Помощники",
+      "pdf_section": "3.4.3",
+      "source_refs": [
+        {
+          "global_pages": "21",
+          "pages": "21",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Помощники",
+      "tokens": 85
+    },
+    {
+      "file": "sections/14-chto-eto-takoe-i-zachem-nuzhno.md",
+      "number": "3.4.3.1",
+      "order": "14",
+      "pages": "21",
+      "pdf_heading": "3.4.3.1. Что это такое и зачем нужно",
+      "pdf_section": "3.4.3.1",
+      "source_refs": [
+        {
+          "global_pages": "21",
+          "pages": "21",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Что это такое и зачем нужно",
+      "tokens": 415
+    },
+    {
+      "file": "sections/15-kak-sozdat-ii-pomoschnika.md",
+      "number": "3.4.3.2",
+      "order": "15",
+      "pages": "21-22",
+      "pdf_heading": "3.4.3.2. Как создать ИИ Помощника",
+      "pdf_section": "3.4.3.2",
+      "source_refs": [
+        {
+          "global_pages": "21-22",
+          "pages": "21-22",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Как создать ИИ Помощника",
+      "tokens": 306
+    },
+    {
+      "file": "sections/16-nastroyka-ii-pomoschnika.md",
+      "number": "3.4.3.3",
+      "order": "16",
+      "pages": "22-25",
+      "pdf_heading": "3.4.3.3. Настройка ИИ Помощника",
+      "pdf_section": "3.4.3.3",
+      "source_refs": [
+        {
+          "global_pages": "22-25",
+          "pages": "22-25",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка ИИ Помощника",
+      "tokens": 1861
+    },
+    {
+      "file": "sections/17-gde-smotret-rezultaty.md",
+      "number": "3.4.3.4",
+      "order": "17",
+      "pages": "25-28",
+      "pdf_heading": "3.4.3.4. Где смотреть результаты",
+      "pdf_section": "3.4.3.4",
+      "source_refs": [
+        {
+          "global_pages": "25-28",
+          "pages": "25-28",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Где смотреть результаты",
+      "tokens": 1841
+    },
+    {
+      "file": "sections/18-dopolnitelnye-nastroyki.md",
+      "number": "3.5",
+      "order": "18",
+      "pages": "28-29",
+      "pdf_heading": "3.5. Дополнительные настройки",
+      "pdf_section": "3.5",
+      "source_refs": [
+        {
+          "global_pages": "28-29",
+          "pages": "28-29",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Дополнительные настройки",
+      "tokens": 1100
+    },
+    {
+      "file": "sections/19-otklyuchenie-uslugi.md",
+      "number": "3.6",
+      "order": "19",
+      "pages": "29-31",
+      "pdf_heading": "3.6. Отключение услуги",
+      "pdf_section": "3.6",
+      "source_refs": [
+        {
+          "global_pages": "29-31",
+          "pages": "29-31",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Отключение услуги",
+      "tokens": 492
+    },
+    {
+      "file": "sections/20-kak-rabotaet-poisk-po-razgovoram.md",
+      "number": "4",
+      "order": "20",
+      "pages": "31",
+      "pdf_heading": "4. Как работает поиск по разговорам",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "31",
+          "pages": "31",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Как работает поиск по разговорам",
+      "tokens": 172
+    },
+    {
+      "file": "sections/21-terminy-i-opredeleniya.md",
+      "number": "4.1",
+      "order": "21",
+      "pages": "31-33",
+      "pdf_heading": "4.1. Термины и определения",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "31-33",
+          "pages": "31-33",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Термины и определения",
+      "tokens": 1997
+    },
+    {
+      "file": "sections/22-pravila-obrabotki-poiskovyh-zaprosov.md",
+      "number": "4.2",
+      "order": "22",
+      "pages": "33-34",
+      "pdf_heading": "4.2. Правила обработки поисковых запросов",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "33-34",
+          "pages": "33-34",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Правила обработки поисковых запросов",
+      "tokens": 874
+    },
+    {
+      "file": "sections/23-obschie-sovety-dlya-sostavleniya-poiskov.md",
+      "number": "4.3",
+      "order": "23",
+      "pages": "34-36",
+      "pdf_heading": "4.3. Общие советы для составления поисковых запросов",
+      "pdf_section": "4.3",
+      "source_refs": [
+        {
+          "global_pages": "34-36",
+          "pages": "34-36",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Общие советы для составления поисковых запросов",
+      "tokens": 1034
+    },
+    {
+      "file": "sections/24-poisk-po-audiozapisyam-razgovorov.md",
+      "number": "5",
+      "order": "24",
+      "pages": "36",
+      "pdf_heading": "5. Поиск по аудиозаписям разговоров",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "36",
+          "pages": "36",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Поиск по аудиозаписям разговоров",
+      "tokens": 93
+    },
+    {
+      "file": "sections/25-polya-formy-modulya-poiska-v-zapisyah-ra.md",
+      "number": "5.1",
+      "order": "25",
+      "pages": "36-38",
+      "pdf_heading": "5.1. Поля формы модуля поиска в записях разговоров",
+      "pdf_section": "5.1",
+      "source_refs": [
+        {
+          "global_pages": "36-38",
+          "pages": "36-38",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Поля формы модуля поиска в записях разговоров",
+      "tokens": 2653
+    },
+    {
+      "file": "sections/26-proslushivanie-zapisey.md",
+      "number": "5.2",
+      "order": "26",
+      "pages": "38-44",
+      "pdf_heading": "5.2. Прослушивание записей",
+      "pdf_section": "5.2",
+      "source_refs": [
+        {
+          "global_pages": "38-44",
+          "pages": "38-44",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Прослушивание записей",
+      "tokens": 4199
+    },
+    {
+      "file": "sections/27-tegirovanie-razgovorov.md",
+      "number": "6",
+      "order": "27",
+      "pages": "44",
+      "pdf_heading": "6. Тегирование разговоров",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "44",
+          "pages": "44",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Тегирование разговоров",
+      "tokens": 427
+    },
+    {
+      "file": "sections/28-tematiki.md",
+      "number": "6.1",
+      "order": "28",
+      "pages": "44-45",
+      "pdf_heading": "6.1 Тематики",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "44-45",
+          "pages": "44-45",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Тематики",
+      "tokens": 948
+    },
+    {
+      "file": "sections/29-sozdanie-i-redaktirovanie-tematik.md",
+      "number": "6.2",
+      "order": "29",
+      "pages": "45-46",
+      "pdf_heading": "6.2 Создание и редактирование тематик",
+      "pdf_section": "6.2",
+      "source_refs": [
+        {
+          "global_pages": "45-46",
+          "pages": "45-46",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Создание и редактирование тематик",
+      "tokens": 648
+    },
+    {
+      "file": "sections/30-klyuchevye-slova.md",
+      "number": "6.2.1",
+      "order": "30",
+      "pages": "46-48",
+      "pdf_heading": "6.2.1 Ключевые слова",
+      "pdf_section": "6.2.1",
+      "source_refs": [
+        {
+          "global_pages": "46-48",
+          "pages": "46-48",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Ключевые слова",
+      "tokens": 1105
+    },
+    {
+      "file": "sections/31-rasshirennye-nastroyki.md",
+      "number": "6.2.2",
+      "order": "31",
+      "pages": "48-49",
+      "pdf_heading": "6.2.2 Расширенные настройки",
+      "pdf_section": "6.2.2",
+      "source_refs": [
+        {
+          "global_pages": "48-49",
+          "pages": "48-49",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Расширенные настройки",
+      "tokens": 1053
+    },
+    {
+      "file": "sections/32-nastroyka-uvedomleniy.md",
+      "number": "6.2.3",
+      "order": "32",
+      "pages": "49-51",
+      "pdf_heading": "6.2.3 Настройка уведомлений",
+      "pdf_section": "6.2.3",
+      "source_refs": [
+        {
+          "global_pages": "49-51",
+          "pages": "49-51",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка уведомлений",
+      "tokens": 1326
+    },
+    {
+      "file": "sections/33-sovety-po-nastroyke-tematik.md",
+      "number": "6.3",
+      "order": "33",
+      "pages": "51-54",
+      "pdf_heading": "6.3 Советы по настройке тематик",
+      "pdf_section": "6.3",
+      "source_refs": [
+        {
+          "global_pages": "51-54",
+          "pages": "51-54",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Советы по настройке тематик",
+      "tokens": 1163
+    },
+    {
+      "file": "sections/34-primery-ispolzovaniya-tematiki.md",
+      "number": "6.4",
+      "order": "34",
+      "pages": "54",
+      "pdf_heading": "6.4 Примеры использования тематики",
+      "pdf_section": "6.4",
+      "source_refs": [
+        {
+          "global_pages": "54",
+          "pages": "54",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Примеры использования тематики",
+      "tokens": 520
+    },
+    {
+      "file": "sections/35-predustanovlennye-tematiki.md",
+      "number": "6.5",
+      "order": "35",
+      "pages": "54-56",
+      "pdf_heading": "6.5 Предустановленные тематики",
+      "pdf_section": "6.5",
+      "source_refs": [
+        {
+          "global_pages": "54-56",
+          "pages": "54-56",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Предустановленные тематики",
+      "tokens": 1576
+    },
+    {
+      "file": "sections/36-zayavki-na-uluchshenie-kachestva-raspozn.md",
+      "number": "6.6",
+      "order": "36",
+      "pages": "56-59",
+      "pdf_heading": "6.6  Заявки на улучшение качества распознавания",
+      "pdf_section": "6.6",
+      "source_refs": [
+        {
+          "global_pages": "56-59",
+          "pages": "56-59",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Заявки на улучшение качества распознавания",
+      "tokens": 1393
+    },
+    {
+      "file": "sections/37-tehnicheskaya-tematika.md",
+      "number": "6.7",
+      "order": "37",
+      "pages": "59",
+      "pdf_heading": "6.7 Техническая тематика",
+      "pdf_section": "6.7",
+      "source_refs": [
+        {
+          "global_pages": "59",
+          "pages": "59",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Техническая тематика",
+      "tokens": 342
+    },
+    {
+      "file": "sections/38-ii-tematiki.md",
+      "number": "6.8",
+      "order": "38",
+      "pages": "59-62",
+      "pdf_heading": "6.8 ИИ Тематики",
+      "pdf_section": "6.8",
+      "source_refs": [
+        {
+          "global_pages": "59-62",
+          "pages": "59-62",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Тематики",
+      "tokens": 1373
+    },
+    {
+      "file": "sections/39-oflayn-skoring.md",
+      "number": "7",
+      "order": "39",
+      "pages": "62",
+      "pdf_heading": "7 Офлайн-скоринг",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "62",
+          "pages": "62",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Офлайн-скоринг",
+      "tokens": 251
+    },
+    {
+      "file": "sections/40-oflaynovye-zapisi.md",
+      "number": "7.1",
+      "order": "40",
+      "pages": "62-64",
+      "pdf_heading": "7.1 Офлайновые записи",
+      "pdf_section": "7.1",
+      "source_refs": [
+        {
+          "global_pages": "62-64",
+          "pages": "62-64",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Офлайновые записи",
+      "tokens": 1336
+    },
+    {
+      "file": "sections/41-izbrannye.md",
+      "number": "7.1.1",
+      "order": "41",
+      "pages": "64",
+      "pdf_heading": "7.1.1 Избранные",
+      "pdf_section": "7.1.1",
+      "source_refs": [
+        {
+          "global_pages": "64",
+          "pages": "64",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Избранные",
+      "tokens": 338
+    },
+    {
+      "file": "sections/42-nastroyki.md",
+      "number": "7.1.2",
+      "order": "42",
+      "pages": "64-65",
+      "pdf_heading": "7.1.2 Настройки",
+      "pdf_section": "7.1.2",
+      "source_refs": [
+        {
+          "global_pages": "64-65",
+          "pages": "64-65",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройки",
+      "tokens": 346
+    },
+    {
+      "file": "sections/43-podklyuchennye-kanaly.md",
+      "number": "7.2",
+      "order": "43",
+      "pages": "65",
+      "pdf_heading": "7.2 Подключенные каналы",
+      "pdf_section": "7.2",
+      "source_refs": [
+        {
+          "global_pages": "65",
+          "pages": "65",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключенные каналы",
+      "tokens": 120
+    },
+    {
+      "file": "sections/44-osnovnye-nastroyki.md",
+      "number": "7.2.1",
+      "order": "44",
+      "pages": "65-66",
+      "pdf_heading": "7.2.1 Основные настройки",
+      "pdf_section": "7.2.1",
+      "source_refs": [
+        {
+          "global_pages": "65-66",
+          "pages": "65-66",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Основные настройки",
+      "tokens": 356
+    },
+    {
+      "file": "sections/45-nastroyki-ftp.md",
+      "number": "7.2.2",
+      "order": "45",
+      "pages": "66-69",
+      "pdf_heading": "7.2.2 Настройки FTP",
+      "pdf_section": "7.2.2",
+      "source_refs": [
+        {
+          "global_pages": "66-69",
+          "pages": "66-69",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройки FTP",
+      "tokens": 1841
+    },
+    {
+      "file": "sections/46-nastroyki-api.md",
+      "number": "7.2.3",
+      "order": "46",
+      "pages": "69-70",
+      "pdf_heading": "7.2.3 Настройки API",
+      "pdf_section": "7.2.3",
+      "source_refs": [
+        {
+          "global_pages": "69-70",
+          "pages": "69-70",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройки API",
+      "tokens": 618
+    },
+    {
+      "file": "sections/47-zagruzit-vruchnuyu.md",
+      "number": "7.2.4",
+      "order": "47",
+      "pages": "70-73",
+      "pdf_heading": "7.2.4 Загрузить вручную",
+      "pdf_section": "7.2.4",
+      "source_refs": [
+        {
+          "global_pages": "70-73",
+          "pages": "70-73",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Загрузить вручную",
+      "tokens": 1687
+    },
+    {
+      "file": "sections/48-tekstovye-kommunikacii.md",
+      "number": "8",
+      "order": "48",
+      "pages": "73",
+      "pdf_heading": "8 Текстовые коммуникации",
+      "pdf_section": "8",
+      "source_refs": [
+        {
+          "global_pages": "73",
+          "pages": "73",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Текстовые коммуникации",
+      "tokens": 80
+    },
+    {
+      "file": "sections/49-spisok-tekstovyh-kommunikaciy.md",
+      "number": "8.1",
+      "order": "49",
+      "pages": "73-75",
+      "pdf_heading": "8.1. Список текстовых коммуникаций",
+      "pdf_section": "8.1",
+      "source_refs": [
+        {
+          "global_pages": "73-75",
+          "pages": "73-75",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Список текстовых коммуникаций",
+      "tokens": 1406
+    },
+    {
+      "file": "sections/50-metki-na-oscillogramme-razgovora.md",
+      "number": "8.2",
+      "order": "50",
+      "pages": "75-77",
+      "pdf_heading": "8.2. Метки на осциллограмме разговора",
+      "pdf_section": "8.2",
+      "source_refs": [
+        {
+          "global_pages": "75-77",
+          "pages": "75-77",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Метки на осциллограмме разговора",
+      "tokens": 1297
+    },
+    {
+      "file": "sections/51-otchety.md",
+      "number": "9",
+      "order": "51",
+      "pages": "77",
+      "pdf_heading": "9 Отчеты",
+      "pdf_section": "9",
+      "source_refs": [
+        {
+          "global_pages": "77",
+          "pages": "77",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Отчеты",
+      "tokens": 506
+    },
+    {
+      "file": "sections/52-rashody-rechevoy-analitiki.md",
+      "number": "9.1",
+      "order": "52",
+      "pages": "77-80",
+      "pdf_heading": "9.1 Расходы Речевой аналитики",
+      "pdf_section": "9.1",
+      "source_refs": [
+        {
+          "global_pages": "77-80",
+          "pages": "77-80",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Расходы Речевой аналитики",
+      "tokens": 1253
+    },
+    {
+      "file": "sections/53-analiz-sotrudnikov.md",
+      "number": "9.2",
+      "order": "53",
+      "pages": "80",
+      "pdf_heading": "9.2 Анализ сотрудников",
+      "pdf_section": "9.2",
+      "source_refs": [
+        {
+          "global_pages": "80",
+          "pages": "80",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Анализ сотрудников",
+      "tokens": 163
+    },
+    {
+      "file": "sections/54-blok-filtrov.md",
+      "number": "9.2.1",
+      "order": "54",
+      "pages": "80-82",
+      "pdf_heading": "9.2.1 Блок фильтров",
+      "pdf_section": "9.2.1",
+      "source_refs": [
+        {
+          "global_pages": "80-82",
+          "pages": "80-82",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок фильтров",
+      "tokens": 2094
+    },
+    {
+      "file": "sections/55-blok-vizualizacii-srabatyvaniya-tematik.md",
+      "number": "9.2.2",
+      "order": "55",
+      "pages": "82-83",
+      "pdf_heading": "9.2.2 Блок визуализации срабатывания тематик",
+      "pdf_section": "9.2.2",
+      "source_refs": [
+        {
+          "global_pages": "82-83",
+          "pages": "82-83",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок визуализации срабатывания тематик",
+      "tokens": 1543
+    },
+    {
+      "file": "sections/56-blok-tablicy-razgovory-detalizaciya.md",
+      "number": "9.2.3",
+      "order": "56",
+      "pages": "83-87",
+      "pdf_heading": "9.2.3 Блок таблицы Разговоры, детализация",
+      "pdf_section": "9.2.3",
+      "source_refs": [
+        {
+          "global_pages": "83-87",
+          "pages": "83-87",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок таблицы Разговоры, детализация",
+      "tokens": 2436
+    },
+    {
+      "file": "sections/57-detalizaciya-razgovorov.md",
+      "number": "9.2.4",
+      "order": "57",
+      "pages": "87-88",
+      "pdf_heading": "9.2.4 Детализация разговоров",
+      "pdf_section": "9.2.4",
+      "source_refs": [
+        {
+          "global_pages": "87-88",
+          "pages": "87-88",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Детализация разговоров",
+      "tokens": 924
+    },
+    {
+      "file": "sections/58-analiz-razgovorov.md",
+      "number": "9.3",
+      "order": "58",
+      "pages": "88-89",
+      "pdf_heading": "9.3  Анализ разговоров",
+      "pdf_section": "9.3",
+      "source_refs": [
+        {
+          "global_pages": "88-89",
+          "pages": "88-89",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Анализ разговоров",
+      "tokens": 298
+    },
+    {
+      "file": "sections/59-blok-filtrov.md",
+      "number": "9.3.1",
+      "order": "59",
+      "pages": "89-90",
+      "pdf_heading": "9.3.1 Блок фильтров",
+      "pdf_section": "9.3.1",
+      "source_refs": [
+        {
+          "global_pages": "89-90",
+          "pages": "89-90",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок фильтров",
+      "tokens": 1585
+    },
+    {
+      "file": "sections/60-blok-vizualizaciy.md",
+      "number": "9.3.2",
+      "order": "60",
+      "pages": "90-92",
+      "pdf_heading": "9.3.2 Блок визуализаций",
+      "pdf_section": "9.3.2",
+      "source_refs": [
+        {
+          "global_pages": "90-92",
+          "pages": "90-92",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок визуализаций",
+      "tokens": 871
+    },
+    {
+      "file": "sections/61-blok-tablicy.md",
+      "number": "9.3.3",
+      "order": "61",
+      "pages": "92-93",
+      "pdf_heading": "9.3.3 Блок таблицы",
+      "pdf_section": "9.3.3",
+      "source_refs": [
+        {
+          "global_pages": "92-93",
+          "pages": "92-93",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок таблицы",
+      "tokens": 906
+    },
+    {
+      "file": "sections/62-detalizaciya.md",
+      "number": "9.3.4",
+      "order": "62",
+      "pages": "93-94",
+      "pdf_heading": "9.3.4 Детализация",
+      "pdf_section": "9.3.4",
+      "source_refs": [
+        {
+          "global_pages": "93-94",
+          "pages": "93-94",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Детализация",
+      "tokens": 1048
+    },
+    {
+      "file": "sections/63-analiz-po-chek-listam.md",
+      "number": "9.4",
+      "order": "63",
+      "pages": "94-96",
+      "pdf_heading": "9.4 Анализ по чек-листам",
+      "pdf_section": "9.4",
+      "source_refs": [
+        {
+          "global_pages": "94-96",
+          "pages": "94-96",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Анализ по чек-листам",
+      "tokens": 1314
+    },
+    {
+      "file": "sections/64-konstruktor-chek-listov.md",
+      "number": "9.4.1",
+      "order": "64",
+      "pages": "96-102",
+      "pdf_heading": "9.4.1 Конструктор чек-листов",
+      "pdf_section": "9.4.1",
+      "source_refs": [
+        {
+          "global_pages": "96-102",
+          "pages": "96-102",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Конструктор чек-листов",
+      "tokens": 4895
+    },
+    {
+      "file": "sections/65-statistika.md",
+      "number": "9.4.2",
+      "order": "65",
+      "pages": "102-105",
+      "pdf_heading": "9.4.2 Статистика",
+      "pdf_section": "9.4.2",
+      "source_refs": [
+        {
+          "global_pages": "102-105",
+          "pages": "102-105",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Статистика",
+      "tokens": 2240
+    },
+    {
+      "file": "sections/66-pravila-podscheta-statistiki.md",
+      "number": "9.4.3",
+      "order": "66",
+      "pages": "105-112",
+      "pdf_heading": "9.4.3 Правила подсчета статистики",
+      "pdf_section": "9.4.3",
+      "source_refs": [
+        {
+          "global_pages": "105-112",
+          "pages": "105-112",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Правила подсчета статистики",
+      "tokens": 3919
+    },
+    {
+      "file": "sections/67-lovec-insaytov.md",
+      "number": "9.5",
+      "order": "67",
+      "pages": "112-113",
+      "pdf_heading": "9.5 Ловец инсайтов",
+      "pdf_section": "9.5",
+      "source_refs": [
+        {
+          "global_pages": "112-113",
+          "pages": "112-113",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Ловец инсайтов",
+      "tokens": 328
+    },
+    {
+      "file": "sections/68-blok-parametrov.md",
+      "number": "9.5.1",
+      "order": "68",
+      "pages": "113-114",
+      "pdf_heading": "9.5.1 Блок параметров",
+      "pdf_section": "9.5.1",
+      "source_refs": [
+        {
+          "global_pages": "113-114",
+          "pages": "113-114",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок параметров",
+      "tokens": 1281
+    },
+    {
+      "file": "sections/69-blok-rezultatov.md",
+      "number": "9.5.2",
+      "order": "69",
+      "pages": "114-115",
+      "pdf_heading": "9.5.2 Блок результатов",
+      "pdf_section": "9.5.2",
+      "source_refs": [
+        {
+          "global_pages": "114-115",
+          "pages": "114-115",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Блок результатов",
+      "tokens": 525
+    },
+    {
+      "file": "sections/70-pokazateli-otchetov.md",
+      "number": "9.6",
+      "order": "70",
+      "pages": "115-117",
+      "pdf_heading": "9.6 Показатели отчетов",
+      "pdf_section": "9.6",
+      "source_refs": [
+        {
+          "global_pages": "115-117",
+          "pages": "115-117",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Показатели отчетов",
+      "tokens": 1578
+    },
+    {
+      "file": "sections/71-roli-i-prava-dostupa.md",
+      "number": "10",
+      "order": "71",
+      "pages": "117-119",
+      "pdf_heading": "10 Роли и права доступа",
+      "pdf_section": "10",
+      "source_refs": [
+        {
+          "global_pages": "117-119",
+          "pages": "117-119",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Роли и права доступа",
+      "tokens": 814
+    },
+    {
+      "file": "sections/72-integraciya-rechevoy-analitiki-so-storon.md",
+      "number": "11",
+      "order": "72",
+      "pages": "119-121",
+      "pdf_heading": "11 Интеграция Речевой аналитики со сторонними ВАТС",
+      "pdf_section": "11",
+      "source_refs": [
+        {
+          "global_pages": "119-121",
+          "pages": "119-121",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Интеграция Речевой аналитики со сторонними ВАТС",
+      "tokens": 2928
+    },
+    {
+      "file": "sections/73-tochka-vhoda-passivnyy-sip.md",
+      "number": "11.1",
+      "order": "73",
+      "pages": "121",
+      "pdf_heading": "11.1 Точка входа «Пассивный SIP»",
+      "pdf_section": "11.1",
+      "source_refs": [
+        {
+          "global_pages": "121",
+          "pages": "121",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Точка входа «Пассивный SIP»",
+      "tokens": 165
+    },
+    {
+      "file": "sections/74-podklyuchenie-passivnogo-sip.md",
+      "number": "11.1.1",
+      "order": "74",
+      "pages": "121-124",
+      "pdf_heading": "11.1.1 Подключение пассивного SIP",
+      "pdf_section": "11.1.1",
+      "source_refs": [
+        {
+          "global_pages": "121-124",
+          "pages": "121-124",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение пассивного SIP",
+      "tokens": 1342
+    },
+    {
+      "file": "sections/75-sozdanie-sotrudnika.md",
+      "number": "11.1.2",
+      "order": "75",
+      "pages": "124-125",
+      "pdf_heading": "11.1.2 Создание сотрудника",
+      "pdf_section": "11.1.2",
+      "source_refs": [
+        {
+          "global_pages": "124-125",
+          "pages": "124-125",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Создание сотрудника",
+      "tokens": 507
+    },
+    {
+      "file": "sections/76-tochka-vhoda-aktivnyy-sip.md",
+      "number": "11.2",
+      "order": "76",
+      "pages": "125",
+      "pdf_heading": "11.2 Точка входа «Активный SIP»",
+      "pdf_section": "11.2",
+      "source_refs": [
+        {
+          "global_pages": "125",
+          "pages": "125",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Точка входа «Активный SIP»",
+      "tokens": 166
+    },
+    {
+      "file": "sections/77-sozdanie-sotrudnika.md",
+      "number": "11.2.1",
+      "order": "77",
+      "pages": "125-126",
+      "pdf_heading": "11.2.1 Создание сотрудника",
+      "pdf_section": "11.2.1",
+      "source_refs": [
+        {
+          "global_pages": "125-126",
+          "pages": "125-126",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Создание сотрудника",
+      "tokens": 486
+    },
+    {
+      "file": "sections/78-podklyuchenie-aktivnogo-sip.md",
+      "number": "11.2.2",
+      "order": "78",
+      "pages": "126-132",
+      "pdf_heading": "11.2.2 Подключение активного SIP",
+      "pdf_section": "11.2.2",
+      "source_refs": [
+        {
+          "global_pages": "126-132",
+          "pages": "126-132",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение активного SIP",
+      "tokens": 2368
+    },
+    {
+      "file": "sections/79-tochka-vhoda-did-mango-office.md",
+      "number": "11.3",
+      "order": "79",
+      "pages": "132-133",
+      "pdf_heading": "11.3 Точка входа «DID MANGO OFFICE»",
+      "pdf_section": "11.3",
+      "source_refs": [
+        {
+          "global_pages": "132-133",
+          "pages": "132-133",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Точка входа «DID MANGO OFFICE»",
+      "tokens": 315
+    },
+    {
+      "file": "sections/80-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+      "number": "11.3.1",
+      "order": "80",
+      "pages": "133",
+      "pdf_heading": "11.3.1 Настройка схемы распределения звонков в Личном кабинете",
+      "pdf_section": "11.3.1",
+      "source_refs": [
+        {
+          "global_pages": "133",
+          "pages": "133",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "tokens": 190
+    },
+    {
+      "file": "sections/81-tochka-vhoda-sip-trunk.md",
+      "number": "11.4",
+      "order": "81",
+      "pages": "133-135",
+      "pdf_heading": "11.4 Точка входа «SIP Trunk»",
+      "pdf_section": "11.4",
+      "source_refs": [
+        {
+          "global_pages": "133-135",
+          "pages": "133-135",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Точка входа «SIP Trunk»",
+      "tokens": 463
+    },
+    {
+      "file": "sections/82-vkladka-nastroyka.md",
+      "number": "11.4",
+      "order": "82",
+      "pages": "135-137",
+      "pdf_heading": "Вкладка Настройка",
+      "pdf_section": "11.4",
+      "source_refs": [
+        {
+          "global_pages": "135-137",
+          "pages": "135-137",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка Настройка",
+      "tokens": 1965
+    },
+    {
+      "file": "sections/83-vkladka-nomera.md",
+      "number": "11.4",
+      "order": "83",
+      "pages": "137-138",
+      "pdf_heading": "Вкладка Номера",
+      "pdf_section": "11.4",
+      "source_refs": [
+        {
+          "global_pages": "137-138",
+          "pages": "137-138",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка Номера",
+      "tokens": 760
+    },
+    {
+      "file": "sections/84-vkladka-telefoniya.md",
+      "number": "11.4",
+      "order": "84",
+      "pages": "138",
+      "pdf_heading": "Вкладка Телефония",
+      "pdf_section": "11.4",
+      "source_refs": [
+        {
+          "global_pages": "138",
+          "pages": "138",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка Телефония",
+      "tokens": 535
+    },
+    {
+      "file": "sections/85-aktivaciya-sip-trunk-v-kartochke-sotrudn.md",
+      "number": "11.4.1",
+      "order": "85",
+      "pages": "138",
+      "pdf_heading": "11.4.1 Активация SIP Trunk в карточке сотрудника",
+      "pdf_section": "11.4.1",
+      "source_refs": [
+        {
+          "global_pages": "138",
+          "pages": "138",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Активация SIP Trunk в карточке сотрудника",
+      "tokens": 171
+    },
+    {
+      "file": "sections/86-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+      "number": "11.4.2",
+      "order": "86",
+      "pages": "138-141",
+      "pdf_heading": "11.4.2 Настройка схемы распределения звонков в Личном кабинете",
+      "pdf_section": "11.4.2",
+      "source_refs": [
+        {
+          "global_pages": "138-141",
+          "pages": "138-141",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "tokens": 952
+    },
+    {
+      "file": "sections/87-podklyuchenie-dvuhfaktornoy-autentifikac.md",
+      "number": "12",
+      "order": "87",
+      "pages": "141-143",
+      "pdf_heading": "12 Подключение двухфакторной аутентификации",
+      "pdf_section": "12",
+      "source_refs": [
+        {
+          "global_pages": "141-143",
+          "pages": "141-143",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение двухфакторной аутентификации",
+      "tokens": 1437
+    }
+  ],
+  "source_document": "vats-offline-scoring",
+  "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf",
+  "source_pdfs": [
+    "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf"
+  ],
+  "source_set": "speech-analytics",
+  "source_sha256": "f0319cf0c0da77db3ec798d79f2a6d2c9d6f59f141c5768c6204357e3d50262a",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 143,
+      "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf",
+      "source_sha256": "f0319cf0c0da77db3ec798d79f2a6d2c9d6f59f141c5768c6204357e3d50262a"
+    }
+  ],
+  "table_count": 188,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 8282,
+  "tokens_total": 97546,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 772,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 6,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-2",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 96,
+        "file": "sections/01-oglavlenie.md",
+        "gap_pages": [],
+        "pages": "2-5",
+        "title": "Оглавление",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/02-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "5-8",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/03-podklyuchenie-uslugi-rechevaya-analitika.md",
+        "gap_pages": [],
+        "pages": "8",
+        "title": "Подключение услуги «Речевая аналитика»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/04-podklyuchenie-v-demo-rezhime.md",
+        "gap_pages": [],
+        "pages": "8-11",
+        "title": "Подключение в демо-режиме",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/05-podklyuchenie-uslugi-v-platnom-rezhime.md",
+        "gap_pages": [],
+        "pages": "11-13",
+        "title": "Подключение услуги в платном режиме",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/06-nastroyki.md",
+        "gap_pages": [],
+        "pages": "13-14",
+        "title": "Настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/07-shagi-onbordinga.md",
+        "gap_pages": [],
+        "pages": "14-15",
+        "title": "Шаги онбординга",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/08-nastroyki-raspoznavaniya-zapisey.md",
+        "gap_pages": [],
+        "pages": "15-17",
+        "title": "Настройки распознавания записей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/09-analitika-tekstovyh-kommunikaciy.md",
+        "gap_pages": [],
+        "pages": "17-18",
+        "title": "Аналитика текстовых коммуникаций",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/10-ii-instrumenty.md",
+        "gap_pages": [],
+        "pages": "18",
+        "title": "ИИ Инструменты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/11-ii-konspekty.md",
+        "gap_pages": [],
+        "pages": "18-20",
+        "title": "ИИ Конспекты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/12-ii-tegirovanie.md",
+        "gap_pages": [],
+        "pages": "20-21",
+        "title": "ИИ Тегирование",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/13-ii-pomoschniki.md",
+        "gap_pages": [],
+        "pages": "21",
+        "title": "ИИ Помощники",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/14-chto-eto-takoe-i-zachem-nuzhno.md",
+        "gap_pages": [],
+        "pages": "21",
+        "title": "Что это такое и зачем нужно",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/15-kak-sozdat-ii-pomoschnika.md",
+        "gap_pages": [],
+        "pages": "21-22",
+        "title": "Как создать ИИ Помощника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/16-nastroyka-ii-pomoschnika.md",
+        "gap_pages": [],
+        "pages": "22-25",
+        "title": "Настройка ИИ Помощника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/17-gde-smotret-rezultaty.md",
+        "gap_pages": [],
+        "pages": "25-28",
+        "title": "Где смотреть результаты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/18-dopolnitelnye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "28-29",
+        "title": "Дополнительные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/19-otklyuchenie-uslugi.md",
+        "gap_pages": [],
+        "pages": "29-31",
+        "title": "Отключение услуги",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/20-kak-rabotaet-poisk-po-razgovoram.md",
+        "gap_pages": [],
+        "pages": "31",
+        "title": "Как работает поиск по разговорам",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/21-terminy-i-opredeleniya.md",
+        "gap_pages": [],
+        "pages": "31-33",
+        "title": "Термины и определения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/22-pravila-obrabotki-poiskovyh-zaprosov.md",
+        "gap_pages": [],
+        "pages": "33-34",
+        "title": "Правила обработки поисковых запросов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/23-obschie-sovety-dlya-sostavleniya-poiskov.md",
+        "gap_pages": [],
+        "pages": "34-36",
+        "title": "Общие советы для составления поисковых запросов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/24-poisk-po-audiozapisyam-razgovorov.md",
+        "gap_pages": [],
+        "pages": "36",
+        "title": "Поиск по аудиозаписям разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/25-polya-formy-modulya-poiska-v-zapisyah-ra.md",
+        "gap_pages": [],
+        "pages": "36-38",
+        "title": "Поля формы модуля поиска в записях разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/26-proslushivanie-zapisey.md",
+        "gap_pages": [],
+        "pages": "38-44",
+        "title": "Прослушивание записей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/27-tegirovanie-razgovorov.md",
+        "gap_pages": [],
+        "pages": "44",
+        "title": "Тегирование разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/28-tematiki.md",
+        "gap_pages": [],
+        "pages": "44-45",
+        "title": "Тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/29-sozdanie-i-redaktirovanie-tematik.md",
+        "gap_pages": [],
+        "pages": "45-46",
+        "title": "Создание и редактирование тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/30-klyuchevye-slova.md",
+        "gap_pages": [],
+        "pages": "46-48",
+        "title": "Ключевые слова",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/31-rasshirennye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "48-49",
+        "title": "Расширенные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/32-nastroyka-uvedomleniy.md",
+        "gap_pages": [],
+        "pages": "49-51",
+        "title": "Настройка уведомлений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/33-sovety-po-nastroyke-tematik.md",
+        "gap_pages": [],
+        "pages": "51-54",
+        "title": "Советы по настройке тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/34-primery-ispolzovaniya-tematiki.md",
+        "gap_pages": [],
+        "pages": "54",
+        "title": "Примеры использования тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/35-predustanovlennye-tematiki.md",
+        "gap_pages": [],
+        "pages": "54-56",
+        "title": "Предустановленные тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/36-zayavki-na-uluchshenie-kachestva-raspozn.md",
+        "gap_pages": [],
+        "pages": "56-59",
+        "title": "Заявки на улучшение качества распознавания",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/37-tehnicheskaya-tematika.md",
+        "gap_pages": [],
+        "pages": "59",
+        "title": "Техническая тематика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/38-ii-tematiki.md",
+        "gap_pages": [],
+        "pages": "59-62",
+        "title": "ИИ Тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/39-oflayn-skoring.md",
+        "gap_pages": [],
+        "pages": "62",
+        "title": "Офлайн-скоринг",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/40-oflaynovye-zapisi.md",
+        "gap_pages": [],
+        "pages": "62-64",
+        "title": "Офлайновые записи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/41-izbrannye.md",
+        "gap_pages": [],
+        "pages": "64",
+        "title": "Избранные",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/42-nastroyki.md",
+        "gap_pages": [],
+        "pages": "64-65",
+        "title": "Настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/43-podklyuchennye-kanaly.md",
+        "gap_pages": [],
+        "pages": "65",
+        "title": "Подключенные каналы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/44-osnovnye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "65-66",
+        "title": "Основные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 15,
+        "file": "sections/45-nastroyki-ftp.md",
+        "gap_pages": [],
+        "pages": "66-69",
+        "title": "Настройки FTP",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/46-nastroyki-api.md",
+        "gap_pages": [],
+        "pages": "69-70",
+        "title": "Настройки API",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/47-zagruzit-vruchnuyu.md",
+        "gap_pages": [],
+        "pages": "70-73",
+        "title": "Загрузить вручную",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/48-tekstovye-kommunikacii.md",
+        "gap_pages": [],
+        "pages": "73",
+        "title": "Текстовые коммуникации",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/49-spisok-tekstovyh-kommunikaciy.md",
+        "gap_pages": [],
+        "pages": "73-75",
+        "title": "Список текстовых коммуникаций",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/50-metki-na-oscillogramme-razgovora.md",
+        "gap_pages": [],
+        "pages": "75-77",
+        "title": "Метки на осциллограмме разговора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/51-otchety.md",
+        "gap_pages": [],
+        "pages": "77",
+        "title": "Отчеты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/52-rashody-rechevoy-analitiki.md",
+        "gap_pages": [],
+        "pages": "77-80",
+        "title": "Расходы Речевой аналитики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/53-analiz-sotrudnikov.md",
+        "gap_pages": [],
+        "pages": "80",
+        "title": "Анализ сотрудников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/54-blok-filtrov.md",
+        "gap_pages": [],
+        "pages": "80-82",
+        "title": "Блок фильтров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/55-blok-vizualizacii-srabatyvaniya-tematik.md",
+        "gap_pages": [],
+        "pages": "82-83",
+        "title": "Блок визуализации срабатывания тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/56-blok-tablicy-razgovory-detalizaciya.md",
+        "gap_pages": [],
+        "pages": "83-87",
+        "title": "Блок таблицы Разговоры, детализация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/57-detalizaciya-razgovorov.md",
+        "gap_pages": [],
+        "pages": "87-88",
+        "title": "Детализация разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/58-analiz-razgovorov.md",
+        "gap_pages": [],
+        "pages": "88-89",
+        "title": "Анализ разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/59-blok-filtrov.md",
+        "gap_pages": [],
+        "pages": "89-90",
+        "title": "Блок фильтров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/60-blok-vizualizaciy.md",
+        "gap_pages": [],
+        "pages": "90-92",
+        "title": "Блок визуализаций",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/61-blok-tablicy.md",
+        "gap_pages": [],
+        "pages": "92-93",
+        "title": "Блок таблицы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/62-detalizaciya.md",
+        "gap_pages": [],
+        "pages": "93-94",
+        "title": "Детализация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/63-analiz-po-chek-listam.md",
+        "gap_pages": [],
+        "pages": "94-96",
+        "title": "Анализ по чек-листам",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/64-konstruktor-chek-listov.md",
+        "gap_pages": [],
+        "pages": "96-102",
+        "title": "Конструктор чек-листов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/65-statistika.md",
+        "gap_pages": [],
+        "pages": "102-105",
+        "title": "Статистика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 18,
+        "file": "sections/66-pravila-podscheta-statistiki.md",
+        "gap_pages": [],
+        "pages": "105-112",
+        "title": "Правила подсчета статистики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/67-lovec-insaytov.md",
+        "gap_pages": [],
+        "pages": "112-113",
+        "title": "Ловец инсайтов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/68-blok-parametrov.md",
+        "gap_pages": [],
+        "pages": "113-114",
+        "title": "Блок параметров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/69-blok-rezultatov.md",
+        "gap_pages": [],
+        "pages": "114-115",
+        "title": "Блок результатов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/70-pokazateli-otchetov.md",
+        "gap_pages": [],
+        "pages": "115-117",
+        "title": "Показатели отчетов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/71-roli-i-prava-dostupa.md",
+        "gap_pages": [],
+        "pages": "117-119",
+        "title": "Роли и права доступа",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 14,
+        "file": "sections/72-integraciya-rechevoy-analitiki-so-storon.md",
+        "gap_pages": [],
+        "pages": "119-121",
+        "title": "Интеграция Речевой аналитики со сторонними ВАТС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/73-tochka-vhoda-passivnyy-sip.md",
+        "gap_pages": [],
+        "pages": "121",
+        "title": "Точка входа «Пассивный SIP»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/74-podklyuchenie-passivnogo-sip.md",
+        "gap_pages": [],
+        "pages": "121-124",
+        "title": "Подключение пассивного SIP",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/75-sozdanie-sotrudnika.md",
+        "gap_pages": [],
+        "pages": "124-125",
+        "title": "Создание сотрудника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/76-tochka-vhoda-aktivnyy-sip.md",
+        "gap_pages": [],
+        "pages": "125",
+        "title": "Точка входа «Активный SIP»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/77-sozdanie-sotrudnika.md",
+        "gap_pages": [],
+        "pages": "125-126",
+        "title": "Создание сотрудника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 20,
+        "file": "sections/78-podklyuchenie-aktivnogo-sip.md",
+        "gap_pages": [],
+        "pages": "126-132",
+        "title": "Подключение активного SIP",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/79-tochka-vhoda-did-mango-office.md",
+        "gap_pages": [],
+        "pages": "132-133",
+        "title": "Точка входа «DID MANGO OFFICE»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/80-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+        "gap_pages": [],
+        "pages": "133",
+        "title": "Настройка схемы распределения звонков в Личном кабинете",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/81-tochka-vhoda-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "133-135",
+        "title": "Точка входа «SIP Trunk»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 26,
+        "file": "sections/82-vkladka-nastroyka.md",
+        "gap_pages": [],
+        "pages": "135-137",
+        "title": "Вкладка Настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/83-vkladka-nomera.md",
+        "gap_pages": [],
+        "pages": "137-138",
+        "title": "Вкладка Номера",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/84-vkladka-telefoniya.md",
+        "gap_pages": [],
+        "pages": "138",
+        "title": "Вкладка Телефония",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/85-aktivaciya-sip-trunk-v-kartochke-sotrudn.md",
+        "gap_pages": [],
+        "pages": "138",
+        "title": "Активация SIP Trunk в карточке сотрудника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/86-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+        "gap_pages": [],
+        "pages": "138-141",
+        "title": "Настройка схемы распределения звонков в Личном кабинете",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/87-podklyuchenie-dvuhfaktornoy-autentifikac.md",
+        "gap_pages": [],
+        "pages": "141-143",
+        "title": "Подключение двухфакторной аутентификации",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

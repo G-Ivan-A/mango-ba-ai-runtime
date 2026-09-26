@@ -1,0 +1,2319 @@
+{
+  "body_font_size": 11.0,
+  "body_font_sizes": [
+    11.0
+  ],
+  "doc_code": "SA-SCORE",
+  "doc_title": "Руководство пользователя. Речевая аналитика. Офлайн скоринг",
+  "doc_version": "1.26.15",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 351,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство по речевой аналитике с фокусом на офлайн скоринг. Описание методов оценки качества и построения скоринговых моделей.",
+  "page_count": 133,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 87,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-5",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-5",
+          "pages": "1-5",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 2229
+    },
+    {
+      "file": "sections/01-obschie-svedeniya.md",
+      "number": "1",
+      "order": "01",
+      "pages": "5-7",
+      "pdf_heading": "1. Общие сведения",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5-7",
+          "pages": "5-7",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 993
+    },
+    {
+      "file": "sections/02-moi-otchety.md",
+      "number": "2",
+      "order": "02",
+      "pages": "7",
+      "pdf_heading": "2. Мои отчеты",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Мои отчеты",
+      "tokens": 444
+    },
+    {
+      "file": "sections/03-rashody-rechevoy-analitiki.md",
+      "number": "2.1",
+      "order": "03",
+      "pages": "7-9",
+      "pdf_heading": "2.1. Расходы Речевой аналитики",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "7-9",
+          "pages": "7-9",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Расходы Речевой аналитики",
+      "tokens": 1146
+    },
+    {
+      "file": "sections/04-analiz-sotrudnikov.md",
+      "number": "2.2",
+      "order": "04",
+      "pages": "9",
+      "pdf_heading": "2.2. Анализ сотрудников",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Анализ сотрудников",
+      "tokens": 164
+    },
+    {
+      "file": "sections/05-blok-filtrov.md",
+      "number": "2.2.1",
+      "order": "05",
+      "pages": "9-11",
+      "pdf_heading": "2.2.1. Блок фильтров",
+      "pdf_section": "2.2.1",
+      "source_refs": [
+        {
+          "global_pages": "9-11",
+          "pages": "9-11",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Блок фильтров",
+      "tokens": 1268
+    },
+    {
+      "file": "sections/06-blok-vizualizacii-srabatyvaniya-tematik.md",
+      "number": "2.2.2",
+      "order": "06",
+      "pages": "11-13",
+      "pdf_heading": "2.2.2. Блок визуализации срабатывания тематик",
+      "pdf_section": "2.2.2",
+      "source_refs": [
+        {
+          "global_pages": "11-13",
+          "pages": "11-13",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Блок визуализации срабатывания тематик",
+      "tokens": 1644
+    },
+    {
+      "file": "sections/07-blok-tablicy-razgovory-detalizaciya.md",
+      "number": "2.2.3",
+      "order": "07",
+      "pages": "13-16",
+      "pdf_heading": "2.2.3. Блок таблицы Разговоры, детализация",
+      "pdf_section": "2.2.3",
+      "source_refs": [
+        {
+          "global_pages": "13-16",
+          "pages": "13-16",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Блок таблицы Разговоры, детализация",
+      "tokens": 2023
+    },
+    {
+      "file": "sections/08-analiz-razgovorov.md",
+      "number": "2.3",
+      "order": "08",
+      "pages": "16-20",
+      "pdf_heading": "2.3. Анализ разговоров",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "16-20",
+          "pages": "16-20",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Анализ разговоров",
+      "tokens": 2356
+    },
+    {
+      "file": "sections/09-kak-nastraivaetsya-otchet-analiz-razgovo.md",
+      "number": "2.3.1",
+      "order": "09",
+      "pages": "20-21",
+      "pdf_heading": "2.3.1. Как настраивается отчет “Анализ разговоров”",
+      "pdf_section": "2.3.1",
+      "source_refs": [
+        {
+          "global_pages": "20-21",
+          "pages": "20-21",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Как настраивается отчет “Анализ разговоров”",
+      "tokens": 931
+    },
+    {
+      "file": "sections/10-pokazateli-otchetov.md",
+      "number": "2.4",
+      "order": "10",
+      "pages": "21-22",
+      "pdf_heading": "2.4. Показатели отчетов",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "21-22",
+          "pages": "21-22",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Показатели отчетов",
+      "tokens": 1432
+    },
+    {
+      "file": "sections/11-analiz-po-chek-listam.md",
+      "number": "2.5",
+      "order": "11",
+      "pages": "22-24",
+      "pdf_heading": "2.5. Анализ по чек-листам",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "22-24",
+          "pages": "22-24",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Анализ по чек-листам",
+      "tokens": 1305
+    },
+    {
+      "file": "sections/12-konstruktor-chek-listov.md",
+      "number": "2.5.1",
+      "order": "12",
+      "pages": "24-29",
+      "pdf_heading": "2.5.1. Конструктор чек-листов",
+      "pdf_section": "2.5.1",
+      "source_refs": [
+        {
+          "global_pages": "24-29",
+          "pages": "24-29",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Конструктор чек-листов",
+      "tokens": 4304
+    },
+    {
+      "file": "sections/13-statistika.md",
+      "number": "2.5.2",
+      "order": "13",
+      "pages": "29-31",
+      "pdf_heading": "2.5.2 Статистика",
+      "pdf_section": "2.5.2",
+      "source_refs": [
+        {
+          "global_pages": "29-31",
+          "pages": "29-31",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Статистика",
+      "tokens": 1966
+    },
+    {
+      "file": "sections/14-pravila-podscheta-statistiki.md",
+      "number": "2.5.3",
+      "order": "14",
+      "pages": "31-37",
+      "pdf_heading": "2.5.3 Правила подсчета статистики",
+      "pdf_section": "2.5.3",
+      "source_refs": [
+        {
+          "global_pages": "31-37",
+          "pages": "31-37",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Правила подсчета статистики",
+      "tokens": 3879
+    },
+    {
+      "file": "sections/15-lovec-insaytov.md",
+      "number": "2.6",
+      "order": "15",
+      "pages": "37-38",
+      "pdf_heading": "2.6. Ловец инсайтов",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "37-38",
+          "pages": "37-38",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Ловец инсайтов",
+      "tokens": 326
+    },
+    {
+      "file": "sections/16-blok-parametrov.md",
+      "number": "2.6.1",
+      "order": "16",
+      "pages": "38-39",
+      "pdf_heading": "2.6.1. Блок параметров",
+      "pdf_section": "2.6.1",
+      "source_refs": [
+        {
+          "global_pages": "38-39",
+          "pages": "38-39",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Блок параметров",
+      "tokens": 1174
+    },
+    {
+      "file": "sections/17-blok-rezultatov.md",
+      "number": "2.6.2",
+      "order": "17",
+      "pages": "39-41",
+      "pdf_heading": "2.6.2. Блок результатов",
+      "pdf_section": "2.6.2",
+      "source_refs": [
+        {
+          "global_pages": "39-41",
+          "pages": "39-41",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Блок результатов",
+      "tokens": 603
+    },
+    {
+      "file": "sections/18-tegirovanie-razgovorov.md",
+      "number": "3",
+      "order": "18",
+      "pages": "41",
+      "pdf_heading": "3. Тегирование разговоров",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "41",
+          "pages": "41",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Тегирование разговоров",
+      "tokens": 363
+    },
+    {
+      "file": "sections/19-tematiki.md",
+      "number": "3.1",
+      "order": "19",
+      "pages": "41-42",
+      "pdf_heading": "3.1. Тематики",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "41-42",
+          "pages": "41-42",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Тематики",
+      "tokens": 940
+    },
+    {
+      "file": "sections/20-sozdanie-i-redaktirovanie-tematik.md",
+      "number": "3.2",
+      "order": "20",
+      "pages": "42-43",
+      "pdf_heading": "3.2. Создание и редактирование тематик",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "42-43",
+          "pages": "42-43",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Создание и редактирование тематик",
+      "tokens": 629
+    },
+    {
+      "file": "sections/21-klyuchevye-slova.md",
+      "number": "3.2.1",
+      "order": "21",
+      "pages": "43-45",
+      "pdf_heading": "3.2.1. Ключевые слова",
+      "pdf_section": "3.2.1",
+      "source_refs": [
+        {
+          "global_pages": "43-45",
+          "pages": "43-45",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Ключевые слова",
+      "tokens": 1080
+    },
+    {
+      "file": "sections/22-rasshirennye-nastroyki.md",
+      "number": "3.2.2",
+      "order": "22",
+      "pages": "45-46",
+      "pdf_heading": "3.2.2. Расширенные настройки",
+      "pdf_section": "3.2.2",
+      "source_refs": [
+        {
+          "global_pages": "45-46",
+          "pages": "45-46",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Расширенные настройки",
+      "tokens": 1089
+    },
+    {
+      "file": "sections/23-nastroyka-uvedomleniy.md",
+      "number": "3.2.3",
+      "order": "23",
+      "pages": "46-47",
+      "pdf_heading": "3.2.3. Настройка уведомлений",
+      "pdf_section": "3.2.3",
+      "source_refs": [
+        {
+          "global_pages": "46-47",
+          "pages": "46-47",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Настройка уведомлений",
+      "tokens": 910
+    },
+    {
+      "file": "sections/24-sovety-po-nastroyke-tematik.md",
+      "number": "3.3",
+      "order": "24",
+      "pages": "48-51",
+      "pdf_heading": "3.3. Советы по настройке тематик",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "48-51",
+          "pages": "48-51",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Советы по настройке тематик",
+      "tokens": 1582
+    },
+    {
+      "file": "sections/25-primery-ispolzovaniya-tematiki.md",
+      "number": "3.4",
+      "order": "25",
+      "pages": "51",
+      "pdf_heading": "3.4. Примеры использования тематики",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Примеры использования тематики",
+      "tokens": 534
+    },
+    {
+      "file": "sections/26-predustanovlennye-tematiki.md",
+      "number": "3.5",
+      "order": "26",
+      "pages": "51-53",
+      "pdf_heading": "3.5. Предустановленные тематики",
+      "pdf_section": "3.5",
+      "source_refs": [
+        {
+          "global_pages": "51-53",
+          "pages": "51-53",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Предустановленные тематики",
+      "tokens": 1566
+    },
+    {
+      "file": "sections/27-tehnicheskaya-tematika.md",
+      "number": "3.6",
+      "order": "27",
+      "pages": "53",
+      "pdf_heading": "3.6. Техническая тематика",
+      "pdf_section": "3.6",
+      "source_refs": [
+        {
+          "global_pages": "53",
+          "pages": "53",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Техническая тематика",
+      "tokens": 346
+    },
+    {
+      "file": "sections/28-zayavki-na-uluchshenie-kachestva-raspozn.md",
+      "number": "3.7",
+      "order": "28",
+      "pages": "53-57",
+      "pdf_heading": "3.7. Заявки на улучшение качества распознавания",
+      "pdf_section": "3.7",
+      "source_refs": [
+        {
+          "global_pages": "53-57",
+          "pages": "53-57",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Заявки на улучшение качества распознавания",
+      "tokens": 1431
+    },
+    {
+      "file": "sections/29-ai-tematiki.md",
+      "number": "3.8",
+      "order": "29",
+      "pages": "57-60",
+      "pdf_heading": "3.8. AI Тематики",
+      "pdf_section": "3.8",
+      "source_refs": [
+        {
+          "global_pages": "57-60",
+          "pages": "57-60",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "AI Тематики",
+      "tokens": 1339
+    },
+    {
+      "file": "sections/30-podklyuchennye-kanaly.md",
+      "number": "4",
+      "order": "30",
+      "pages": "60",
+      "pdf_heading": "4. Подключенные каналы",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "60",
+          "pages": "60",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Подключенные каналы",
+      "tokens": 125
+    },
+    {
+      "file": "sections/31-osnovnye-nastroyki.md",
+      "number": "4.1",
+      "order": "31",
+      "pages": "60",
+      "pdf_heading": "4.1. Основные настройки",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "60",
+          "pages": "60",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Основные настройки",
+      "tokens": 240
+    },
+    {
+      "file": "sections/32-nastroyki-ftp.md",
+      "number": "4.2",
+      "order": "32",
+      "pages": "60-64",
+      "pdf_heading": "4.2. Настройки FTP",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "60-64",
+          "pages": "60-64",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Настройки FTP",
+      "tokens": 1901
+    },
+    {
+      "file": "sections/33-nastroyki-api.md",
+      "number": "4.3",
+      "order": "33",
+      "pages": "64-65",
+      "pdf_heading": "4.3. Настройки API",
+      "pdf_section": "4.3",
+      "source_refs": [
+        {
+          "global_pages": "64-65",
+          "pages": "64-65",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Настройки API",
+      "tokens": 788
+    },
+    {
+      "file": "sections/34-zagruzit-vruchnuyu.md",
+      "number": "4.4",
+      "order": "34",
+      "pages": "65-67",
+      "pdf_heading": "4.4. Загрузить вручную",
+      "pdf_section": "4.4",
+      "source_refs": [
+        {
+          "global_pages": "65-67",
+          "pages": "65-67",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Загрузить вручную",
+      "tokens": 1577
+    },
+    {
+      "file": "sections/35-oflaynovye-zapisi.md",
+      "number": "5",
+      "order": "35",
+      "pages": "67",
+      "pdf_heading": "5. Офлайновые записи",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "67",
+          "pages": "67",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Офлайновые записи",
+      "tokens": 121
+    },
+    {
+      "file": "sections/36-vse-razgovory.md",
+      "number": "5.1",
+      "order": "36",
+      "pages": "67-69",
+      "pdf_heading": "5.1. Все разговоры",
+      "pdf_section": "5.1",
+      "source_refs": [
+        {
+          "global_pages": "67-69",
+          "pages": "67-69",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Все разговоры",
+      "tokens": 2127
+    },
+    {
+      "file": "sections/37-metki-na-pleere-pri-proslushivanii-zapis.md",
+      "number": "5.1.1",
+      "order": "37",
+      "pages": "69-73",
+      "pdf_heading": "5.1.1. Метки на плеере при прослушивании записи разговора",
+      "pdf_section": "5.1.1",
+      "source_refs": [
+        {
+          "global_pages": "69-73",
+          "pages": "69-73",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Метки на плеере при прослушивании записи разговора",
+      "tokens": 3296
+    },
+    {
+      "file": "sections/38-izbrannoe.md",
+      "number": "5.2",
+      "order": "38",
+      "pages": "73-74",
+      "pdf_heading": "5.2. Избранное",
+      "pdf_section": "5.2",
+      "source_refs": [
+        {
+          "global_pages": "73-74",
+          "pages": "73-74",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Избранное",
+      "tokens": 429
+    },
+    {
+      "file": "sections/39-nastroyki-oflayn-skoringa.md",
+      "number": "5.3",
+      "order": "39",
+      "pages": "74-75",
+      "pdf_heading": "5.3. Настройки (офлайн скоринга)",
+      "pdf_section": "5.3",
+      "source_refs": [
+        {
+          "global_pages": "74-75",
+          "pages": "74-75",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Настройки (офлайн скоринга)",
+      "tokens": 387
+    },
+    {
+      "file": "sections/40-kak-rabotaet-poisk-po-raspoznannym-zapis.md",
+      "number": "6",
+      "order": "40",
+      "pages": "75",
+      "pdf_heading": "6. Как работает поиск по распознанным записям разговоров",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "75",
+          "pages": "75",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Как работает поиск по распознанным записям разговоров",
+      "tokens": 230
+    },
+    {
+      "file": "sections/41-terminy-i-opredeleniya.md",
+      "number": "6.1",
+      "order": "41",
+      "pages": "75-77",
+      "pdf_heading": "6.1. Термины и определения",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "75-77",
+          "pages": "75-77",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Термины и определения",
+      "tokens": 1916
+    },
+    {
+      "file": "sections/42-pravila-obrabotki-poiskovyh-zaprosov.md",
+      "number": "6.2",
+      "order": "42",
+      "pages": "77-78",
+      "pdf_heading": "6.2. Правила обработки поисковых запросов",
+      "pdf_section": "6.2",
+      "source_refs": [
+        {
+          "global_pages": "77-78",
+          "pages": "77-78",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Правила обработки поисковых запросов",
+      "tokens": 872
+    },
+    {
+      "file": "sections/43-obschie-sovety-dlya-sostavleniya-poiskov.md",
+      "number": "6.3",
+      "order": "43",
+      "pages": "78-80",
+      "pdf_heading": "6.3. Общие советы для составления поисковых запросов",
+      "pdf_section": "6.3",
+      "source_refs": [
+        {
+          "global_pages": "78-80",
+          "pages": "78-80",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Общие советы для составления поисковых запросов",
+      "tokens": 1025
+    },
+    {
+      "file": "sections/44-obschie-nastroyki.md",
+      "number": "7",
+      "order": "44",
+      "pages": "80",
+      "pdf_heading": "7. Общие настройки",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "80",
+          "pages": "80",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Общие настройки",
+      "tokens": 85
+    },
+    {
+      "file": "sections/45-nastroyki.md",
+      "number": "7.1",
+      "order": "45",
+      "pages": "80-81",
+      "pdf_heading": "7.1 Настройки",
+      "pdf_section": "7.1",
+      "source_refs": [
+        {
+          "global_pages": "80-81",
+          "pages": "80-81",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Настройки",
+      "tokens": 748
+    },
+    {
+      "file": "sections/46-raspoznavanie-razgovorov.md",
+      "number": "7.1.1",
+      "order": "46",
+      "pages": "81-82",
+      "pdf_heading": "7.1.1. Распознавание разговоров",
+      "pdf_section": "7.1.1",
+      "source_refs": [
+        {
+          "global_pages": "81-82",
+          "pages": "81-82",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Распознавание разговоров",
+      "tokens": 810
+    },
+    {
+      "file": "sections/47-ai-konspekty.md",
+      "number": "7.1.2",
+      "order": "47",
+      "pages": "82-84",
+      "pdf_heading": "7.1.2. AI Конспекты",
+      "pdf_section": "7.1.2",
+      "source_refs": [
+        {
+          "global_pages": "82-84",
+          "pages": "82-84",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "AI Конспекты",
+      "tokens": 1551
+    },
+    {
+      "file": "sections/48-ai-tegirovanie.md",
+      "number": "7.1.3",
+      "order": "48",
+      "pages": "84-85",
+      "pdf_heading": "7.1.3. AI Тегирование",
+      "pdf_section": "7.1.3",
+      "source_refs": [
+        {
+          "global_pages": "84-85",
+          "pages": "84-85",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "AI Тегирование",
+      "tokens": 729
+    },
+    {
+      "file": "sections/49-dopolnitelnye-nastroyki.md",
+      "number": "7.1.4",
+      "order": "49",
+      "pages": "85-86",
+      "pdf_heading": "7.1.4. Дополнительные настройки",
+      "pdf_section": "7.1.4",
+      "source_refs": [
+        {
+          "global_pages": "85-86",
+          "pages": "85-86",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Дополнительные настройки",
+      "tokens": 964
+    },
+    {
+      "file": "sections/50-sotrudniki-i-gruppy.md",
+      "number": "7.2",
+      "order": "50",
+      "pages": "86",
+      "pdf_heading": "7.2. Сотрудники и группы",
+      "pdf_section": "7.2",
+      "source_refs": [
+        {
+          "global_pages": "86",
+          "pages": "86",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Сотрудники и группы",
+      "tokens": 231
+    },
+    {
+      "file": "sections/51-vkladka-sotrudniki.md",
+      "number": "7.2.1",
+      "order": "51",
+      "pages": "86-89",
+      "pdf_heading": "7.2.1. Вкладка «Сотрудники»",
+      "pdf_section": "7.2.1",
+      "source_refs": [
+        {
+          "global_pages": "86-89",
+          "pages": "86-89",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Вкладка «Сотрудники»",
+      "tokens": 1255
+    },
+    {
+      "file": "sections/52-vkladka-gruppy.md",
+      "number": "7.2.2",
+      "order": "52",
+      "pages": "89-90",
+      "pdf_heading": "7.2.2. Вкладка «Группы»",
+      "pdf_section": "7.2.2",
+      "source_refs": [
+        {
+          "global_pages": "89-90",
+          "pages": "89-90",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Вкладка «Группы»",
+      "tokens": 644
+    },
+    {
+      "file": "sections/53-bezopasnost-i-ogranicheniya.md",
+      "number": "7.3",
+      "order": "53",
+      "pages": "90-91",
+      "pdf_heading": "7.3. Безопасность и ограничения",
+      "pdf_section": "7.3",
+      "source_refs": [
+        {
+          "global_pages": "90-91",
+          "pages": "90-91",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Безопасность и ограничения",
+      "tokens": 428
+    },
+    {
+      "file": "sections/54-vkladka-nastroyki.md",
+      "number": "7.3.1",
+      "order": "54",
+      "pages": "91-93",
+      "pdf_heading": "7.3.1. Вкладка «Настройки»",
+      "pdf_section": "7.3.1",
+      "source_refs": [
+        {
+          "global_pages": "91-93",
+          "pages": "91-93",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Вкладка «Настройки»",
+      "tokens": 1690
+    },
+    {
+      "file": "sections/55-bezopasnost-pro.md",
+      "number": "7.3.2",
+      "order": "55",
+      "pages": "93-95",
+      "pdf_heading": "7.3.2. Безопасность PRO",
+      "pdf_section": "7.3.2",
+      "source_refs": [
+        {
+          "global_pages": "93-95",
+          "pages": "93-95",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Безопасность PRO",
+      "tokens": 1560
+    },
+    {
+      "file": "sections/56-vkladka-zhurnal-deystviy.md",
+      "number": "7.3.3",
+      "order": "56",
+      "pages": "95-96",
+      "pdf_heading": "7.3.3. Вкладка «Журнал действий»",
+      "pdf_section": "7.3.3",
+      "source_refs": [
+        {
+          "global_pages": "95-96",
+          "pages": "95-96",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Вкладка «Журнал действий»",
+      "tokens": 557
+    },
+    {
+      "file": "sections/57-vkladka-nastroyki-dostupa.md",
+      "number": "7.3.4",
+      "order": "57",
+      "pages": "96-98",
+      "pdf_heading": "7.3.4. Вкладка «Настройки доступа»",
+      "pdf_section": "7.3.4",
+      "source_refs": [
+        {
+          "global_pages": "96-98",
+          "pages": "96-98",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Вкладка «Настройки доступа»",
+      "tokens": 1516
+    },
+    {
+      "file": "sections/58-vkladka-ogranicheniya.md",
+      "number": "7.3.5",
+      "order": "58",
+      "pages": "98",
+      "pdf_heading": "7.3.5. Вкладка «Ограничения»",
+      "pdf_section": "7.3.5",
+      "source_refs": [
+        {
+          "global_pages": "98",
+          "pages": "98",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Вкладка «Ограничения»",
+      "tokens": 306
+    },
+    {
+      "file": "sections/59-sso-single-sign-on.md",
+      "number": "7.3.6",
+      "order": "59",
+      "pages": "98-100",
+      "pdf_heading": "7.3.6. SSO (Single Sign-On)",
+      "pdf_section": "7.3.6",
+      "source_refs": [
+        {
+          "global_pages": "98-100",
+          "pages": "98-100",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "SSO (Single Sign-On)",
+      "tokens": 837
+    },
+    {
+      "file": "sections/60-oblachnoe-hranilische.md",
+      "number": "7.4",
+      "order": "60",
+      "pages": "100",
+      "pdf_heading": "7.4. Облачное хранилище",
+      "pdf_section": "7.4",
+      "source_refs": [
+        {
+          "global_pages": "100",
+          "pages": "100",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Облачное хранилище",
+      "tokens": 624
+    },
+    {
+      "file": "sections/61-podklyuchenie-po-ldap.md",
+      "number": "7.5",
+      "order": "61",
+      "pages": "100-102",
+      "pdf_heading": "7.5. Подключение по LDAP",
+      "pdf_section": "7.5",
+      "source_refs": [
+        {
+          "global_pages": "100-102",
+          "pages": "100-102",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Подключение по LDAP",
+      "tokens": 724
+    },
+    {
+      "file": "sections/62-shag-1-podklyuchenie-k-ldap-serveru.md",
+      "number": "7.5",
+      "order": "62",
+      "pages": "102",
+      "pdf_heading": "Шаг 1. Подключение к LDAP-серверу",
+      "pdf_section": "7.5",
+      "source_refs": [
+        {
+          "global_pages": "102",
+          "pages": "102",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Шаг 1. Подключение к LDAP-серверу",
+      "tokens": 418
+    },
+    {
+      "file": "sections/63-shag-2-sopostavlenie-atributov.md",
+      "number": "7.5",
+      "order": "63",
+      "pages": "102-104",
+      "pdf_heading": "Шаг 2. Сопоставление атрибутов",
+      "pdf_section": "7.5",
+      "source_refs": [
+        {
+          "global_pages": "102-104",
+          "pages": "102-104",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Шаг 2. Сопоставление атрибутов",
+      "tokens": 629
+    },
+    {
+      "file": "sections/64-shag-3-sopostavlenie-sotrudnikov.md",
+      "number": "7.5",
+      "order": "64",
+      "pages": "104-106",
+      "pdf_heading": "Шаг 3. Сопоставление сотрудников",
+      "pdf_section": "7.5",
+      "source_refs": [
+        {
+          "global_pages": "104-106",
+          "pages": "104-106",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Шаг 3. Сопоставление сотрудников",
+      "tokens": 1486
+    },
+    {
+      "file": "sections/65-shag-4-nastroyka-sinhronizacii.md",
+      "number": "7.5",
+      "order": "65",
+      "pages": "106-109",
+      "pdf_heading": "Шаг 4. Настройка синхронизации",
+      "pdf_section": "7.5",
+      "source_refs": [
+        {
+          "global_pages": "106-109",
+          "pages": "106-109",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Шаг 4. Настройка синхронизации",
+      "tokens": 2733
+    },
+    {
+      "file": "sections/66-api-konnektor.md",
+      "number": "7.6",
+      "order": "66",
+      "pages": "109-114",
+      "pdf_heading": "7.6. API коннектор",
+      "pdf_section": "7.6",
+      "source_refs": [
+        {
+          "global_pages": "109-114",
+          "pages": "109-114",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "API коннектор",
+      "tokens": 3784
+    },
+    {
+      "file": "sections/67-upravlenie-uslugami.md",
+      "number": "7.7",
+      "order": "67",
+      "pages": "114-116",
+      "pdf_heading": "7.7. Управление услугами",
+      "pdf_section": "7.7",
+      "source_refs": [
+        {
+          "global_pages": "114-116",
+          "pages": "114-116",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Управление услугами",
+      "tokens": 554
+    },
+    {
+      "file": "sections/68-finansy.md",
+      "number": "8",
+      "order": "68",
+      "pages": "116",
+      "pdf_heading": "8. Финансы",
+      "pdf_section": "8",
+      "source_refs": [
+        {
+          "global_pages": "116",
+          "pages": "116",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Финансы",
+      "tokens": 415
+    },
+    {
+      "file": "sections/69-dokumenty.md",
+      "number": "8.1",
+      "order": "69",
+      "pages": "116",
+      "pdf_heading": "8.1. Документы",
+      "pdf_section": "8.1",
+      "source_refs": [
+        {
+          "global_pages": "116",
+          "pages": "116",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Документы",
+      "tokens": 245
+    },
+    {
+      "file": "sections/70-prosmotret-zagruzit-buhgalterskie-dokume.md",
+      "number": "9.1.2",
+      "order": "70",
+      "pages": "116-117",
+      "pdf_heading": "9.1.2. Просмотреть/загрузить бухгалтерские документы",
+      "pdf_section": "9.1.2",
+      "source_refs": [
+        {
+          "global_pages": "116-117",
+          "pages": "116-117",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Просмотреть/загрузить бухгалтерские документы",
+      "tokens": 562
+    },
+    {
+      "file": "sections/71-sformirovat-schet-na-predoplatu-telekomm.md",
+      "number": "9.1.3",
+      "order": "71",
+      "pages": "117",
+      "pdf_heading": "9.1.3. Сформировать счет на предоплату телекоммуникационных услуг",
+      "pdf_section": "9.1.3",
+      "source_refs": [
+        {
+          "global_pages": "117",
+          "pages": "117",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Сформировать счет на предоплату телекоммуникационных услуг",
+      "tokens": 526
+    },
+    {
+      "file": "sections/72-sozdat-akt-sverki-vzaimnyh-raschetov.md",
+      "number": "9.1.4",
+      "order": "72",
+      "pages": "117",
+      "pdf_heading": "9.1.4. Создать акт сверки взаимных расчетов",
+      "pdf_section": "9.1.4",
+      "source_refs": [
+        {
+          "global_pages": "117",
+          "pages": "117",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Создать акт сверки взаимных расчетов",
+      "tokens": 175
+    },
+    {
+      "file": "sections/73-poluchit-detalizaciyu-sovershennyh-razgo.md",
+      "number": "9.1.5",
+      "order": "73",
+      "pages": "117-118",
+      "pdf_heading": "9.1.5. Получить детализацию совершенных разговоров",
+      "pdf_section": "9.1.5",
+      "source_refs": [
+        {
+          "global_pages": "117-118",
+          "pages": "117-118",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Получить детализацию совершенных разговоров",
+      "tokens": 492
+    },
+    {
+      "file": "sections/74-dogovory.md",
+      "number": "8.2",
+      "order": "74",
+      "pages": "118-119",
+      "pdf_heading": "8.2. Договоры",
+      "pdf_section": "8.2",
+      "source_refs": [
+        {
+          "global_pages": "118-119",
+          "pages": "118-119",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Договоры",
+      "tokens": 826
+    },
+    {
+      "file": "sections/75-rashody-na-produkt.md",
+      "number": "8.3",
+      "order": "75",
+      "pages": "119-123",
+      "pdf_heading": "8.3. Расходы на продукт",
+      "pdf_section": "8.3",
+      "source_refs": [
+        {
+          "global_pages": "119-123",
+          "pages": "119-123",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Расходы на продукт",
+      "tokens": 2045
+    },
+    {
+      "file": "sections/76-platezhi.md",
+      "number": "8.4",
+      "order": "76",
+      "pages": "123-124",
+      "pdf_heading": "8.4. Платежи",
+      "pdf_section": "8.4",
+      "source_refs": [
+        {
+          "global_pages": "123-124",
+          "pages": "123-124",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Платежи",
+      "tokens": 533
+    },
+    {
+      "file": "sections/77-popolnit-schet.md",
+      "number": "8.5",
+      "order": "77",
+      "pages": "124-125",
+      "pdf_heading": "8.5. Пополнить счет",
+      "pdf_section": "8.5",
+      "source_refs": [
+        {
+          "global_pages": "124-125",
+          "pages": "124-125",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Пополнить счет",
+      "tokens": 408
+    },
+    {
+      "file": "sections/78-bankovskiy-perevod.md",
+      "number": "9.5.1",
+      "order": "78",
+      "pages": "125",
+      "pdf_heading": "9.5.1. Банковский перевод",
+      "pdf_section": "9.5.1",
+      "source_refs": [
+        {
+          "global_pages": "125",
+          "pages": "125",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Банковский перевод",
+      "tokens": 95
+    },
+    {
+      "file": "sections/79-dlya-yuridicheskih-lic.md",
+      "number": "9.5.1.1",
+      "order": "79",
+      "pages": "125",
+      "pdf_heading": "9.5.1.1. Для юридических лиц",
+      "pdf_section": "9.5.1.1",
+      "source_refs": [
+        {
+          "global_pages": "125",
+          "pages": "125",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Для юридических лиц",
+      "tokens": 307
+    },
+    {
+      "file": "sections/80-dlya-fizicheskih-lic.md",
+      "number": "8.5.1.1",
+      "order": "80",
+      "pages": "125-126",
+      "pdf_heading": "8.5.1.1. Для физических лиц",
+      "pdf_section": "8.5.1.1",
+      "source_refs": [
+        {
+          "global_pages": "125-126",
+          "pages": "125-126",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Для физических лиц",
+      "tokens": 448
+    },
+    {
+      "file": "sections/81-bankovskie-karty.md",
+      "number": "9.5.2",
+      "order": "81",
+      "pages": "126-128",
+      "pdf_heading": "9.5.2. Банковские карты",
+      "pdf_section": "9.5.2",
+      "source_refs": [
+        {
+          "global_pages": "126-128",
+          "pages": "126-128",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Банковские карты",
+      "tokens": 420
+    },
+    {
+      "file": "sections/82-oplata-cherez-qr-kod.md",
+      "number": "9.5.3",
+      "order": "82",
+      "pages": "128",
+      "pdf_heading": "9.5.3. Оплата через QR-код",
+      "pdf_section": "9.5.3",
+      "source_refs": [
+        {
+          "global_pages": "128",
+          "pages": "128",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Оплата через QR-код",
+      "tokens": 308
+    },
+    {
+      "file": "sections/83-avtoplatezh.md",
+      "number": "8.6",
+      "order": "83",
+      "pages": "128-130",
+      "pdf_heading": "8.6. Автоплатеж",
+      "pdf_section": "8.6",
+      "source_refs": [
+        {
+          "global_pages": "128-130",
+          "pages": "128-130",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Автоплатеж",
+      "tokens": 1188
+    },
+    {
+      "file": "sections/84-rekvizity.md",
+      "number": "8.7",
+      "order": "84",
+      "pages": "130",
+      "pdf_heading": "8.7. Реквизиты",
+      "pdf_section": "8.7",
+      "source_refs": [
+        {
+          "global_pages": "130",
+          "pages": "130",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Реквизиты",
+      "tokens": 752
+    },
+    {
+      "file": "sections/85-nastroyka-uvedomleniy.md",
+      "number": "8.8",
+      "order": "85",
+      "pages": "130-133",
+      "pdf_heading": "8.8. Настройка уведомлений",
+      "pdf_section": "8.8",
+      "source_refs": [
+        {
+          "global_pages": "130-133",
+          "pages": "130-133",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Настройка уведомлений",
+      "tokens": 1317
+    },
+    {
+      "file": "sections/86-roli-i-prava-dostupa.md",
+      "number": "9",
+      "order": "86",
+      "pages": "133",
+      "pdf_heading": "9. Роли и права доступа",
+      "pdf_section": "9",
+      "source_refs": [
+        {
+          "global_pages": "133",
+          "pages": "133",
+          "part": 1,
+          "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+        }
+      ],
+      "title": "Роли и права доступа",
+      "tokens": 628
+    }
+  ],
+  "source_document": "offline-scoring",
+  "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf",
+  "source_pdfs": [
+    "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf"
+  ],
+  "source_set": "speech-analytics",
+  "source_sha256": "c1f7ac1fb3fbbd5aaf1f2834a9d110872f63c8f42a61d1282f40446d196e3055",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 133,
+      "source_pdf": "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_Skoring_Rukovodstvo-polzovatelya_v.1.26.15.pdf",
+      "source_sha256": "c1f7ac1fb3fbbd5aaf1f2834a9d110872f63c8f42a61d1282f40446d196e3055"
+    }
+  ],
+  "table_count": 161,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 8392,
+  "tokens_total": 91583,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 734,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 101,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-5",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/01-obschie-svedeniya.md",
+        "gap_pages": [],
+        "pages": "5-7",
+        "title": "Общие сведения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/02-moi-otchety.md",
+        "gap_pages": [],
+        "pages": "7",
+        "title": "Мои отчеты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/03-rashody-rechevoy-analitiki.md",
+        "gap_pages": [],
+        "pages": "7-9",
+        "title": "Расходы Речевой аналитики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/04-analiz-sotrudnikov.md",
+        "gap_pages": [],
+        "pages": "9",
+        "title": "Анализ сотрудников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/05-blok-filtrov.md",
+        "gap_pages": [],
+        "pages": "9-11",
+        "title": "Блок фильтров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/06-blok-vizualizacii-srabatyvaniya-tematik.md",
+        "gap_pages": [],
+        "pages": "11-13",
+        "title": "Блок визуализации срабатывания тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/07-blok-tablicy-razgovory-detalizaciya.md",
+        "gap_pages": [],
+        "pages": "13-16",
+        "title": "Блок таблицы Разговоры, детализация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/08-analiz-razgovorov.md",
+        "gap_pages": [],
+        "pages": "16-20",
+        "title": "Анализ разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/09-kak-nastraivaetsya-otchet-analiz-razgovo.md",
+        "gap_pages": [],
+        "pages": "20-21",
+        "title": "Как настраивается отчет “Анализ разговоров”",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/10-pokazateli-otchetov.md",
+        "gap_pages": [],
+        "pages": "21-22",
+        "title": "Показатели отчетов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/11-analiz-po-chek-listam.md",
+        "gap_pages": [],
+        "pages": "22-24",
+        "title": "Анализ по чек-листам",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/12-konstruktor-chek-listov.md",
+        "gap_pages": [],
+        "pages": "24-29",
+        "title": "Конструктор чек-листов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/13-statistika.md",
+        "gap_pages": [],
+        "pages": "29-31",
+        "title": "Статистика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/14-pravila-podscheta-statistiki.md",
+        "gap_pages": [],
+        "pages": "31-37",
+        "title": "Правила подсчета статистики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/15-lovec-insaytov.md",
+        "gap_pages": [],
+        "pages": "37-38",
+        "title": "Ловец инсайтов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/16-blok-parametrov.md",
+        "gap_pages": [],
+        "pages": "38-39",
+        "title": "Блок параметров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/17-blok-rezultatov.md",
+        "gap_pages": [],
+        "pages": "39-41",
+        "title": "Блок результатов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/18-tegirovanie-razgovorov.md",
+        "gap_pages": [],
+        "pages": "41",
+        "title": "Тегирование разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/19-tematiki.md",
+        "gap_pages": [],
+        "pages": "41-42",
+        "title": "Тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/20-sozdanie-i-redaktirovanie-tematik.md",
+        "gap_pages": [],
+        "pages": "42-43",
+        "title": "Создание и редактирование тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/21-klyuchevye-slova.md",
+        "gap_pages": [],
+        "pages": "43-45",
+        "title": "Ключевые слова",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/22-rasshirennye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "45-46",
+        "title": "Расширенные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/23-nastroyka-uvedomleniy.md",
+        "gap_pages": [],
+        "pages": "46-47",
+        "title": "Настройка уведомлений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/24-sovety-po-nastroyke-tematik.md",
+        "gap_pages": [],
+        "pages": "48-51",
+        "title": "Советы по настройке тематик",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/25-primery-ispolzovaniya-tematiki.md",
+        "gap_pages": [],
+        "pages": "51",
+        "title": "Примеры использования тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/26-predustanovlennye-tematiki.md",
+        "gap_pages": [],
+        "pages": "51-53",
+        "title": "Предустановленные тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/27-tehnicheskaya-tematika.md",
+        "gap_pages": [],
+        "pages": "53",
+        "title": "Техническая тематика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/28-zayavki-na-uluchshenie-kachestva-raspozn.md",
+        "gap_pages": [],
+        "pages": "53-57",
+        "title": "Заявки на улучшение качества распознавания",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/29-ai-tematiki.md",
+        "gap_pages": [],
+        "pages": "57-60",
+        "title": "AI Тематики",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/30-podklyuchennye-kanaly.md",
+        "gap_pages": [],
+        "pages": "60",
+        "title": "Подключенные каналы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/31-osnovnye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "60",
+        "title": "Основные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 15,
+        "file": "sections/32-nastroyki-ftp.md",
+        "gap_pages": [],
+        "pages": "60-64",
+        "title": "Настройки FTP",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 12,
+        "file": "sections/33-nastroyki-api.md",
+        "gap_pages": [],
+        "pages": "64-65",
+        "title": "Настройки API",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/34-zagruzit-vruchnuyu.md",
+        "gap_pages": [],
+        "pages": "65-67",
+        "title": "Загрузить вручную",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/35-oflaynovye-zapisi.md",
+        "gap_pages": [],
+        "pages": "67",
+        "title": "Офлайновые записи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/36-vse-razgovory.md",
+        "gap_pages": [],
+        "pages": "67-69",
+        "title": "Все разговоры",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/37-metki-na-pleere-pri-proslushivanii-zapis.md",
+        "gap_pages": [],
+        "pages": "69-73",
+        "title": "Метки на плеере при прослушивании записи разговора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/38-izbrannoe.md",
+        "gap_pages": [],
+        "pages": "73-74",
+        "title": "Избранное",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/39-nastroyki-oflayn-skoringa.md",
+        "gap_pages": [],
+        "pages": "74-75",
+        "title": "Настройки (офлайн скоринга)",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/40-kak-rabotaet-poisk-po-raspoznannym-zapis.md",
+        "gap_pages": [],
+        "pages": "75",
+        "title": "Как работает поиск по распознанным записям разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/41-terminy-i-opredeleniya.md",
+        "gap_pages": [],
+        "pages": "75-77",
+        "title": "Термины и определения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/42-pravila-obrabotki-poiskovyh-zaprosov.md",
+        "gap_pages": [],
+        "pages": "77-78",
+        "title": "Правила обработки поисковых запросов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/43-obschie-sovety-dlya-sostavleniya-poiskov.md",
+        "gap_pages": [],
+        "pages": "78-80",
+        "title": "Общие советы для составления поисковых запросов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/44-obschie-nastroyki.md",
+        "gap_pages": [],
+        "pages": "80",
+        "title": "Общие настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/45-nastroyki.md",
+        "gap_pages": [],
+        "pages": "80-81",
+        "title": "Настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/46-raspoznavanie-razgovorov.md",
+        "gap_pages": [],
+        "pages": "81-82",
+        "title": "Распознавание разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/47-ai-konspekty.md",
+        "gap_pages": [],
+        "pages": "82-84",
+        "title": "AI Конспекты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/48-ai-tegirovanie.md",
+        "gap_pages": [],
+        "pages": "84-85",
+        "title": "AI Тегирование",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/49-dopolnitelnye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "85-86",
+        "title": "Дополнительные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/50-sotrudniki-i-gruppy.md",
+        "gap_pages": [],
+        "pages": "86",
+        "title": "Сотрудники и группы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/51-vkladka-sotrudniki.md",
+        "gap_pages": [],
+        "pages": "86-89",
+        "title": "Вкладка «Сотрудники»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/52-vkladka-gruppy.md",
+        "gap_pages": [],
+        "pages": "89-90",
+        "title": "Вкладка «Группы»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/53-bezopasnost-i-ogranicheniya.md",
+        "gap_pages": [],
+        "pages": "90-91",
+        "title": "Безопасность и ограничения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/54-vkladka-nastroyki.md",
+        "gap_pages": [],
+        "pages": "91-93",
+        "title": "Вкладка «Настройки»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/55-bezopasnost-pro.md",
+        "gap_pages": [],
+        "pages": "93-95",
+        "title": "Безопасность PRO",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/56-vkladka-zhurnal-deystviy.md",
+        "gap_pages": [],
+        "pages": "95-96",
+        "title": "Вкладка «Журнал действий»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/57-vkladka-nastroyki-dostupa.md",
+        "gap_pages": [],
+        "pages": "96-98",
+        "title": "Вкладка «Настройки доступа»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/58-vkladka-ogranicheniya.md",
+        "gap_pages": [],
+        "pages": "98",
+        "title": "Вкладка «Ограничения»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 15,
+        "file": "sections/59-sso-single-sign-on.md",
+        "gap_pages": [],
+        "pages": "98-100",
+        "title": "SSO (Single Sign-On)",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/60-oblachnoe-hranilische.md",
+        "gap_pages": [],
+        "pages": "100",
+        "title": "Облачное хранилище",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 14,
+        "file": "sections/61-podklyuchenie-po-ldap.md",
+        "gap_pages": [],
+        "pages": "100-102",
+        "title": "Подключение по LDAP",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/62-shag-1-podklyuchenie-k-ldap-serveru.md",
+        "gap_pages": [],
+        "pages": "102",
+        "title": "Шаг 1. Подключение к LDAP-серверу",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/63-shag-2-sopostavlenie-atributov.md",
+        "gap_pages": [],
+        "pages": "102-104",
+        "title": "Шаг 2. Сопоставление атрибутов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/64-shag-3-sopostavlenie-sotrudnikov.md",
+        "gap_pages": [],
+        "pages": "104-106",
+        "title": "Шаг 3. Сопоставление сотрудников",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 14,
+        "file": "sections/65-shag-4-nastroyka-sinhronizacii.md",
+        "gap_pages": [],
+        "pages": "106-109",
+        "title": "Шаг 4. Настройка синхронизации",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 43,
+        "file": "sections/66-api-konnektor.md",
+        "gap_pages": [],
+        "pages": "109-114",
+        "title": "API коннектор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/67-upravlenie-uslugami.md",
+        "gap_pages": [],
+        "pages": "114-116",
+        "title": "Управление услугами",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/68-finansy.md",
+        "gap_pages": [],
+        "pages": "116",
+        "title": "Финансы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/69-dokumenty.md",
+        "gap_pages": [],
+        "pages": "116",
+        "title": "Документы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/70-prosmotret-zagruzit-buhgalterskie-dokume.md",
+        "gap_pages": [],
+        "pages": "116-117",
+        "title": "Просмотреть/загрузить бухгалтерские документы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/71-sformirovat-schet-na-predoplatu-telekomm.md",
+        "gap_pages": [],
+        "pages": "117",
+        "title": "Сформировать счет на предоплату телекоммуникационных услуг",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/72-sozdat-akt-sverki-vzaimnyh-raschetov.md",
+        "gap_pages": [],
+        "pages": "117",
+        "title": "Создать акт сверки взаимных расчетов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/73-poluchit-detalizaciyu-sovershennyh-razgo.md",
+        "gap_pages": [],
+        "pages": "117-118",
+        "title": "Получить детализацию совершенных разговоров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/74-dogovory.md",
+        "gap_pages": [],
+        "pages": "118-119",
+        "title": "Договоры",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/75-rashody-na-produkt.md",
+        "gap_pages": [],
+        "pages": "119-123",
+        "title": "Расходы на продукт",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/76-platezhi.md",
+        "gap_pages": [],
+        "pages": "123-124",
+        "title": "Платежи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/77-popolnit-schet.md",
+        "gap_pages": [],
+        "pages": "124-125",
+        "title": "Пополнить счет",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/78-bankovskiy-perevod.md",
+        "gap_pages": [],
+        "pages": "125",
+        "title": "Банковский перевод",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/79-dlya-yuridicheskih-lic.md",
+        "gap_pages": [],
+        "pages": "125",
+        "title": "Для юридических лиц",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/80-dlya-fizicheskih-lic.md",
+        "gap_pages": [],
+        "pages": "125-126",
+        "title": "Для физических лиц",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/81-bankovskie-karty.md",
+        "gap_pages": [],
+        "pages": "126-128",
+        "title": "Банковские карты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/82-oplata-cherez-qr-kod.md",
+        "gap_pages": [],
+        "pages": "128",
+        "title": "Оплата через QR-код",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/83-avtoplatezh.md",
+        "gap_pages": [],
+        "pages": "128-130",
+        "title": "Автоплатеж",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/84-rekvizity.md",
+        "gap_pages": [],
+        "pages": "130",
+        "title": "Реквизиты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 14,
+        "file": "sections/85-nastroyka-uvedomleniy.md",
+        "gap_pages": [],
+        "pages": "130-133",
+        "title": "Настройка уведомлений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/86-roli-i-prava-dostupa.md",
+        "gap_pages": [],
+        "pages": "133",
+        "title": "Роли и права доступа",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}
