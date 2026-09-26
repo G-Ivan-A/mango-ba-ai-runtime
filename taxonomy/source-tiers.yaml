@@ -1,9 +1,10 @@
-# Closed runtime vocabulary for product-knowledge routing. A task may enable a
-# subset, but every level must be declared in .hub-profile.json. Unconfigured
-# levels are `out_of_slice`; ST-5-LOCAL becomes available after KB provisioning.
+# Closed runtime vocabulary for product-knowledge routing. Every level is
+# available by default; a level that the executing model cannot reach is
+# skipped with a recorded reason and never blocks the run. ST-5-LOCAL is the
+# knowledge base bundled in docs/kb.
 vocabulary: source-tiers
 closed: true
-version: "0.4"
+version: "0.5"
 
 evidence_forms:
   - id: EF-INLINE
@@ -18,38 +19,38 @@ tiers:
     name: Корпоративный репозиторий актуальной БЗ
     evidence_form: EF-QUOTE
     priority: 1
-    default_status: out_of_slice
-    status: out_of_slice
-    rationale: основной источник после настройки URL и доступа
+    default_status: available
+    status: available
+    rationale: основной источник актуальной БЗ, если он доступен модели
   - id: ST-2-CONFLUENCE
     name: Confluence проекта
     evidence_form: EF-QUOTE
     priority: 2
-    default_status: out_of_slice
-    status: out_of_slice
-    rationale: используется после настройки space URL и доступа
+    default_status: available
+    status: available
+    rationale: пространство проекта, если оно доступно модели
   - id: ST-3-MANGO-WEB
     name: Публичные веб-ресурсы Манго
     evidence_form: EF-QUOTE
     priority: 3
-    default_status: out_of_slice
-    status: out_of_slice
+    default_status: available
+    status: available
     rationale: публичная продуктовая документация Манго
   - id: ST-4-EXTERNAL
     name: Внешние системы
     evidence_form: EF-QUOTE
     priority: 4
-    default_status: out_of_slice
-    status: out_of_slice
-    rationale: используется только по явному разрешению задачи
+    default_status: available
+    status: available
+    rationale: внешние системы, доступные модели в текущей работе
   - id: ST-5-LOCAL
     name: Локальная резервная копия
     evidence_form: EF-QUOTE
     priority: 5
-    default_status: out_of_slice
-    status: out_of_slice
+    default_status: available
+    status: available
     path: docs/kb
-    rationale: содержимое БЗ не входит в поставку; после отдельного наполнения используется как запасной вариант, а не замена уровней 1–4
+    rationale: копия БЗ в репозитории (docs/kb/<документ>/index.md → sections/); используется, когда уровни 1–4 не дали доказательства
   - id: ST-0-ATTACHED
     name: Материал текущей задачи
     evidence_form: EF-INLINE
@@ -65,13 +66,13 @@ tiers:
     status: available
     rationale: эскалация после документированной неудачи поиска
 
-allowed_statuses: [available, out_of_slice]
+allowed_statuses: [available]
 order: [ST-0-ATTACHED, ST-1-CORPORATE, ST-2-CONFLUENCE, ST-3-MANGO-WEB, ST-4-EXTERNAL, ST-5-LOCAL, ST-6-HUMAN]
 
 escalation_rule: >-
-  Проверять доступные уровни по порядку. Пропускать out_of_slice с записью
-  причины. Если уровни 1–5 не дали доказательства, записать попытки в лист
-  прогона и перейти к ST-6-HUMAN через G-human. Не выдавать гипотезу за факт.
+  Проверять уровни по порядку. Уровень, недоступный модели в текущей работе,
+  пропускается с записью причины и работу не блокирует. Если уровни 1–5
+  не дали доказательства, записать попытки в лист прогона и перейти к ST-6-HUMAN через G-human. Не выдавать гипотезу за факт.
 
 conflict_rule: >-
   При расхождении выигрывает источник более высокого приоритета; внутри уровня

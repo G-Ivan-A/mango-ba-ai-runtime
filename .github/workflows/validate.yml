@@ -1,4 +1,4 @@
-name: Validate execution package
+name: Validate runtime repository
 
 on:
   push:
@@ -8,12 +8,10 @@ permissions:
   contents: read
 
 jobs:
-  portable-gate:
+  smoke:
     runs-on: ubuntu-latest
     timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
-      - name: Run runtime acceptance smoke test
+      - name: Run runtime smoke test
         run: sh tests/runtime-smoke.sh
-      - name: Run portable G-mach gate
-        run: sh tools/validate-package.sh

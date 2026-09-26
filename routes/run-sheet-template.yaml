@@ -1,13 +1,13 @@
 # Шаблон листа прогона. Заполняется оркестратором по факту; строка журнала
 # append-only — исправление добавляется новой записью, а не правкой прежней
-# (EP-R9). Проверяется схемой contracts/c-rk.schema.json.
+# (EP-R9). Проверяется контрактом contracts/c-rk.md.
 run_id: RUN-0000
 route_id: RG-BCREQ-v1
 task_id: TASK-0000
 started_at: "<ISO-8601>"
 finished_at: ""
 outcome: in-progress          # completed | refused | escalated | in-progress
-output_path: "runs/RUN-0000/A-BCREQ.md"
+output_path: "RUN-0000/A-BCREQ.md"  # место хранения определяет среда исполнения
 source_attempts: []           # tier, locator, status, reason, retrieved_at
 events:
   - seq: 1

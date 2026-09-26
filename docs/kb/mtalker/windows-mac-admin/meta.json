@@ -1,0 +1,315 @@
+{
+  "body_font_size": 12.0,
+  "body_font_sizes": [
+    12.0
+  ],
+  "doc_code": "MTALKER-ADM",
+  "doc_title": "Mango Talker для Windows/Mac - Информация для администратора ВАТС",
+  "doc_version": "23.08.2024",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 10,
+  "image_extractor": "pymupdf 1.27.2.3",
+  "image_extractors": [
+    "pymupdf 1.27.2.3"
+  ],
+  "note": "Руководство для администраторов ВАТС по настройке и управлению Mango Talker. Настройка учетных записей, политик безопасности, массовое развертывание.",
+  "page_count": 9,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 15,
+  "section_source": "pdf-outline (pymupdf 1.27.2.3)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.27.2.3)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-3",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-3",
+          "pages": "1-3",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 482
+    },
+    {
+      "file": "sections/01-obschie-svedeniya.md",
+      "number": "—",
+      "order": "01",
+      "pages": "3",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "3",
+          "pages": "3",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 164
+    },
+    {
+      "file": "sections/02-kak-zaregistrirovat-novogo-sotrudnika-i.md",
+      "number": "—",
+      "order": "02",
+      "pages": "3-4",
+      "pdf_heading": "Как зарегистрировать нового сотрудника и выдать ему логин и пароль для входа в MTalker",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "3-4",
+          "pages": "3-4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Как зарегистрировать нового сотрудника и выдать ему логин и пароль для входа в MTalker",
+      "tokens": 717
+    },
+    {
+      "file": "sections/03-shema-priema-zvonkov.md",
+      "number": "—",
+      "order": "03",
+      "pages": "4",
+      "pdf_heading": "Схема приема звонков",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Схема приема звонков",
+      "tokens": 60
+    },
+    {
+      "file": "sections/04-obschie-svedeniya.md",
+      "number": "—",
+      "order": "04",
+      "pages": "4",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 343
+    },
+    {
+      "file": "sections/05-kak-dobavit-nomer-v-shemu.md",
+      "number": "—",
+      "order": "05",
+      "pages": "4",
+      "pdf_heading": "Как добавить номер в схему",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Как добавить номер в схему",
+      "tokens": 157
+    },
+    {
+      "file": "sections/06-kak-isklyuchit-nomer-iz-shemy.md",
+      "number": "—",
+      "order": "06",
+      "pages": "4-5",
+      "pdf_heading": "Как исключить номер из схемы",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4-5",
+          "pages": "4-5",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Как исключить номер из схемы",
+      "tokens": 223
+    },
+    {
+      "file": "sections/07-shema-tolko-na-osnovnoy-nomer.md",
+      "number": "—",
+      "order": "07",
+      "pages": "5",
+      "pdf_heading": "Схема “Только на основной номер”",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Схема “Только на основной номер”",
+      "tokens": 717
+    },
+    {
+      "file": "sections/08-shema-na-vse-nomera-odnovremenno.md",
+      "number": "—",
+      "order": "08",
+      "pages": "5-6",
+      "pdf_heading": "Схема “На все номера одновременно”",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Схема “На все номера одновременно”",
+      "tokens": 638
+    },
+    {
+      "file": "sections/09-shema-na-vse-nomera-po-ocheredi.md",
+      "number": "—",
+      "order": "09",
+      "pages": "6-7",
+      "pdf_heading": "Схема “На все номера по очереди”",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "6-7",
+          "pages": "6-7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Схема “На все номера по очереди”",
+      "tokens": 688
+    },
+    {
+      "file": "sections/10-raspisanie-priema-zvonkov.md",
+      "number": "—",
+      "order": "10",
+      "pages": "7-8",
+      "pdf_heading": "Расписание приема звонков",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "7-8",
+          "pages": "7-8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Расписание приема звонков",
+      "tokens": 994
+    },
+    {
+      "file": "sections/11-vybor-ishodyaschego-nomera.md",
+      "number": "—",
+      "order": "11",
+      "pages": "8",
+      "pdf_heading": "Выбор исходящего номера",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Выбор исходящего номера",
+      "tokens": 287
+    },
+    {
+      "file": "sections/12-perehod-k-registracii-novogo-sotrudnika.md",
+      "number": "—",
+      "order": "12",
+      "pages": "8",
+      "pdf_heading": "Переход к регистрации нового сотрудника в ВАТС",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Переход к регистрации нового сотрудника в ВАТС",
+      "tokens": 359
+    },
+    {
+      "file": "sections/13-pokupka-mnogokanalnyh-nomerov.md",
+      "number": "—",
+      "order": "13",
+      "pages": "8-9",
+      "pdf_heading": "Покупка многоканальных номеров",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "8-9",
+          "pages": "8-9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Покупка многоканальных номеров",
+      "tokens": 397
+    },
+    {
+      "file": "sections/14-iniciaciya-ishodyaschego-vyzova-iz-koman.md",
+      "number": "—",
+      "order": "14",
+      "pages": "9",
+      "pdf_heading": "Инициация исходящего вызова из командной строки",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+        }
+      ],
+      "title": "Инициация исходящего вызова из командной строки",
+      "tokens": 214
+    }
+  ],
+  "source_document": "windows-mac-admin",
+  "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf",
+  "source_pdfs": [
+    "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf"
+  ],
+  "source_set": "mtalker",
+  "source_sha256": "6a178ef24b827d870085b81f9d9d5f57157a34c12588b5879bf75690586c951d",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 9,
+      "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch3_Admin_Guide.pdf",
+      "source_sha256": "6a178ef24b827d870085b81f9d9d5f57157a34c12588b5879bf75690586c951d"
+    }
+  ],
+  "table_count": 0,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 1803,
+  "tokens_total": 6440
+}

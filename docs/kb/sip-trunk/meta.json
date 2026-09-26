@@ -1,0 +1,1075 @@
+{
+  "body_font_size": 11.0,
+  "body_font_sizes": [
+    11.0
+  ],
+  "doc_code": "SIPT",
+  "doc_title": "SIP TRUNK. Руководство пользователя",
+  "doc_version": "1.23.43",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 91,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство пользователя по настройке и использованию SIP-транков в Mango Office. Описывает подключение внешних операторов, управление каналами, маршрутизацию и мониторинг.",
+  "page_count": 42,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 39,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-3",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-3",
+          "pages": "1-3",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 675
+    },
+    {
+      "file": "sections/01-terminy-i-opredeleniya.md",
+      "number": "1",
+      "order": "01",
+      "pages": "3",
+      "pdf_heading": "1. Термины и определения",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "3",
+          "pages": "3",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Термины и определения",
+      "tokens": 138
+    },
+    {
+      "file": "sections/02-chto-takoe-sip-trunk.md",
+      "number": "2",
+      "order": "02",
+      "pages": "3-4",
+      "pdf_heading": "2. Что такое SIP Trunk",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "3-4",
+          "pages": "3-4",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Что такое SIP Trunk",
+      "tokens": 262
+    },
+    {
+      "file": "sections/03-sozdanie-i-redaktirovanie-sip-trunk.md",
+      "number": "3",
+      "order": "03",
+      "pages": "4",
+      "pdf_heading": "3. Создание и редактирование SIP Trunk",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Создание и редактирование SIP Trunk",
+      "tokens": 270
+    },
+    {
+      "file": "sections/04-1.md",
+      "number": "3",
+      "order": "04",
+      "pages": "5",
+      "pdf_heading": "1.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "1.",
+      "tokens": 52
+    },
+    {
+      "file": "sections/05-2.md",
+      "number": "3",
+      "order": "05",
+      "pages": "5",
+      "pdf_heading": "2.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "2.",
+      "tokens": 52
+    },
+    {
+      "file": "sections/06-3.md",
+      "number": "3",
+      "order": "06",
+      "pages": "5",
+      "pdf_heading": "3.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "3.",
+      "tokens": 73
+    },
+    {
+      "file": "sections/07-vneshniy-sip-trunk.md",
+      "number": "3.1",
+      "order": "07",
+      "pages": "5",
+      "pdf_heading": "3.1. Внешний SIP Trunk",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Внешний SIP Trunk",
+      "tokens": 65
+    },
+    {
+      "file": "sections/08-nastroyka.md",
+      "number": "3.1.1",
+      "order": "08",
+      "pages": "5-8",
+      "pdf_heading": "3.1.1. Настройка",
+      "pdf_section": "3.1.1",
+      "source_refs": [
+        {
+          "global_pages": "5-8",
+          "pages": "5-8",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Настройка",
+      "tokens": 1779
+    },
+    {
+      "file": "sections/09-nomera.md",
+      "number": "3.1.2",
+      "order": "09",
+      "pages": "8-9",
+      "pdf_heading": "3.1.2. Номера",
+      "pdf_section": "3.1.2",
+      "source_refs": [
+        {
+          "global_pages": "8-9",
+          "pages": "8-9",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Номера",
+      "tokens": 639
+    },
+    {
+      "file": "sections/10-marshrutizaciya.md",
+      "number": "3.1.3",
+      "order": "10",
+      "pages": "9-11",
+      "pdf_heading": "3.1.3. Маршрутизация",
+      "pdf_section": "3.1.3",
+      "source_refs": [
+        {
+          "global_pages": "9-11",
+          "pages": "9-11",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Маршрутизация",
+      "tokens": 1636
+    },
+    {
+      "file": "sections/11-pravila-ispolzovanie-masok.md",
+      "number": "3.1.3.1",
+      "order": "11",
+      "pages": "11-12",
+      "pdf_heading": "3.1.3.1. Правила использование масок:",
+      "pdf_section": "3.1.3.1",
+      "source_refs": [
+        {
+          "global_pages": "11-12",
+          "pages": "11-12",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Правила использование масок:",
+      "tokens": 493
+    },
+    {
+      "file": "sections/12-pravila-preobrazovaniya-nomera.md",
+      "number": "3.1.3.2",
+      "order": "12",
+      "pages": "12",
+      "pdf_heading": "3.1.3.2. Правила преобразования номера:",
+      "pdf_section": "3.1.3.2",
+      "source_refs": [
+        {
+          "global_pages": "12",
+          "pages": "12",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Правила преобразования номера:",
+      "tokens": 313
+    },
+    {
+      "file": "sections/13-rezervirovanie.md",
+      "number": "3.1.4",
+      "order": "13",
+      "pages": "12-13",
+      "pdf_heading": "3.1.4. Резервирование",
+      "pdf_section": "3.1.4",
+      "source_refs": [
+        {
+          "global_pages": "12-13",
+          "pages": "12-13",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Резервирование",
+      "tokens": 226
+    },
+    {
+      "file": "sections/14-vnutrenniy-sip-trunk.md",
+      "number": "3.2",
+      "order": "14",
+      "pages": "13",
+      "pdf_heading": "3.2. Внутренний SIP Trunk",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "13",
+          "pages": "13",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Внутренний SIP Trunk",
+      "tokens": 67
+    },
+    {
+      "file": "sections/15-nastroyka.md",
+      "number": "3.2.1",
+      "order": "15",
+      "pages": "13-14",
+      "pdf_heading": "3.2.1. Настройка",
+      "pdf_section": "3.2.1",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Настройка",
+      "tokens": 287
+    },
+    {
+      "file": "sections/16-nomera.md",
+      "number": "3.2.2",
+      "order": "16",
+      "pages": "14-15",
+      "pdf_heading": "3.2.2. Номера",
+      "pdf_section": "3.2.2",
+      "source_refs": [
+        {
+          "global_pages": "14-15",
+          "pages": "14-15",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Номера",
+      "tokens": 223
+    },
+    {
+      "file": "sections/17-marshrutizaciya.md",
+      "number": "3.2.3",
+      "order": "17",
+      "pages": "15-16",
+      "pdf_heading": "3.2.3. Маршрутизация",
+      "pdf_section": "3.2.3",
+      "source_refs": [
+        {
+          "global_pages": "15-16",
+          "pages": "15-16",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Маршрутизация",
+      "tokens": 172
+    },
+    {
+      "file": "sections/18-aktivaciya-sip-trunk-v-kartochke-sotrudn.md",
+      "number": "3.3",
+      "order": "18",
+      "pages": "16",
+      "pdf_heading": "3.3. Активация SIP Trunk в карточке сотрудника",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "16",
+          "pages": "16",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Активация SIP Trunk в карточке сотрудника",
+      "tokens": 361
+    },
+    {
+      "file": "sections/19-1.md",
+      "number": "3",
+      "order": "19",
+      "pages": "17",
+      "pdf_heading": "1.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "1.",
+      "tokens": 52
+    },
+    {
+      "file": "sections/20-2.md",
+      "number": "3",
+      "order": "20",
+      "pages": "17",
+      "pdf_heading": "2.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "2.",
+      "tokens": 52
+    },
+    {
+      "file": "sections/21-3.md",
+      "number": "3",
+      "order": "21",
+      "pages": "17",
+      "pdf_heading": "3.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "3.",
+      "tokens": 52
+    },
+    {
+      "file": "sections/22-3-1.md",
+      "number": "3",
+      "order": "22",
+      "pages": "17",
+      "pdf_heading": "3.1.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "3.1.",
+      "tokens": 54
+    },
+    {
+      "file": "sections/23-3-2.md",
+      "number": "3",
+      "order": "23",
+      "pages": "17",
+      "pdf_heading": "3.2.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "3.2.",
+      "tokens": 54
+    },
+    {
+      "file": "sections/24-3-3.md",
+      "number": "3",
+      "order": "24",
+      "pages": "17",
+      "pdf_heading": "3.3.",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "3.3.",
+      "tokens": 357
+    },
+    {
+      "file": "sections/25-redaktirovanie-sip-trunk.md",
+      "number": "3.4",
+      "order": "25",
+      "pages": "17",
+      "pdf_heading": "3.4. Редактирование SIP Trunk",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Редактирование SIP Trunk",
+      "tokens": 137
+    },
+    {
+      "file": "sections/26-udalenie-sip-trunk.md",
+      "number": "3.5",
+      "order": "26",
+      "pages": "17",
+      "pdf_heading": "3.5. Удаление SIP Trunk",
+      "pdf_section": "3.5",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Удаление SIP Trunk",
+      "tokens": 286
+    },
+    {
+      "file": "sections/27-rabochaya-panel-sip-trunk.md",
+      "number": "4",
+      "order": "27",
+      "pages": "17-18",
+      "pdf_heading": "4. Рабочая панель SIP Trunk",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "17-18",
+          "pages": "17-18",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Рабочая панель SIP Trunk",
+      "tokens": 165
+    },
+    {
+      "file": "sections/28-spisok-trankov.md",
+      "number": "4.1",
+      "order": "28",
+      "pages": "18",
+      "pdf_heading": "4.1 Список транков",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "18",
+          "pages": "18",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Список транков",
+      "tokens": 591
+    },
+    {
+      "file": "sections/29-spisok-pravil-marshrutizacii.md",
+      "number": "4.2",
+      "order": "29",
+      "pages": "18-19",
+      "pdf_heading": "4.2. Список правил маршрутизации",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "18-19",
+          "pages": "18-19",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Список правил маршрутизации",
+      "tokens": 241
+    },
+    {
+      "file": "sections/30-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+      "number": "5",
+      "order": "30",
+      "pages": "19-22",
+      "pdf_heading": "5. Настройка схемы распределения звонков в Личном кабинете",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "19-22",
+          "pages": "19-22",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "tokens": 837
+    },
+    {
+      "file": "sections/31-primery-nastroyki-zvonkov-cherez-sip-tru.md",
+      "number": "6",
+      "order": "31",
+      "pages": "22-30",
+      "pdf_heading": "6. Примеры настройки звонков через SIP Trunk",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "22-30",
+          "pages": "22-30",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Примеры настройки звонков через SIP Trunk",
+      "tokens": 3627
+    },
+    {
+      "file": "sections/32-konfiguraciya-populyarnyh-pbx.md",
+      "number": "7",
+      "order": "32",
+      "pages": "30",
+      "pdf_heading": "7. Конфигурация популярных PBX",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "30",
+          "pages": "30",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Конфигурация популярных PBX",
+      "tokens": 76
+    },
+    {
+      "file": "sections/33-sozdanie-sip-trunk-dlya-freepbx-asterisk.md",
+      "number": "7.1",
+      "order": "33",
+      "pages": "30-35",
+      "pdf_heading": "7.1. Создание SIP trunk для FreePBX (Asterisk)",
+      "pdf_section": "7.1",
+      "source_refs": [
+        {
+          "global_pages": "30-35",
+          "pages": "30-35",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Создание SIP trunk для FreePBX (Asterisk)",
+      "tokens": 2430
+    },
+    {
+      "file": "sections/34-kak-proverit-sostoyanie-tranka.md",
+      "number": "7.1.1",
+      "order": "34",
+      "pages": "35",
+      "pdf_heading": "7.1.1. Как проверить состояние транка",
+      "pdf_section": "7.1.1",
+      "source_refs": [
+        {
+          "global_pages": "35",
+          "pages": "35",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Как проверить состояние транка",
+      "tokens": 123
+    },
+    {
+      "file": "sections/35-ishodyaschaya-marshrutizaciya.md",
+      "number": "7.1.2",
+      "order": "35",
+      "pages": "35-38",
+      "pdf_heading": "7.1.2. Исходящая маршрутизация",
+      "pdf_section": "7.1.2",
+      "source_refs": [
+        {
+          "global_pages": "35-38",
+          "pages": "35-38",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Исходящая маршрутизация",
+      "tokens": 995
+    },
+    {
+      "file": "sections/36-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md",
+      "number": "7.2",
+      "order": "36",
+      "pages": "38-40",
+      "pdf_heading": "7.2. Создание SIP trunk для FusionPBX (Freeswitch)",
+      "pdf_section": "7.2",
+      "source_refs": [
+        {
+          "global_pages": "38-40",
+          "pages": "38-40",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Создание SIP trunk для FusionPBX (Freeswitch)",
+      "tokens": 439
+    },
+    {
+      "file": "sections/37-7-2-1-ishodyaschaya-marshrutizaciya.md",
+      "number": "7.2",
+      "order": "37",
+      "pages": "40-42",
+      "pdf_heading": "7.2.1.Исходящая маршрутизация",
+      "pdf_section": "7.2",
+      "source_refs": [
+        {
+          "global_pages": "40-42",
+          "pages": "40-42",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "7.2.1.Исходящая маршрутизация",
+      "tokens": 338
+    },
+    {
+      "file": "sections/38-roli-i-prava-dostupa.md",
+      "number": "8",
+      "order": "38",
+      "pages": "42",
+      "pdf_heading": "8. Роли и права доступа.",
+      "pdf_section": "8",
+      "source_refs": [
+        {
+          "global_pages": "42",
+          "pages": "42",
+          "part": 1,
+          "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+        }
+      ],
+      "title": "Роли и права доступа.",
+      "tokens": 372
+    }
+  ],
+  "source_document": "sip-trunk",
+  "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf",
+  "source_pdfs": [
+    "kb/sources/sip-trunk/MO_SIP_Trunk.pdf"
+  ],
+  "source_set": "sip-trunk",
+  "source_sha256": "9eb95a0259415f8eae80082d1af890f96c75d412a8625f3dab5f184e83d2d11b",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 42,
+      "source_pdf": "kb/sources/sip-trunk/MO_SIP_Trunk.pdf",
+      "source_sha256": "9eb95a0259415f8eae80082d1af890f96c75d412a8625f3dab5f184e83d2d11b"
+    }
+  ],
+  "table_count": 16,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 3428,
+  "tokens_total": 19061,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 0.993,
+    "critical_tokens_checked": 286,
+    "critical_tokens_unconfirmed": 2,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 32,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-3",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/01-terminy-i-opredeleniya.md",
+        "gap_pages": [],
+        "pages": "3",
+        "title": "Термины и определения",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/02-chto-takoe-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "3-4",
+        "title": "Что такое SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/03-sozdanie-i-redaktirovanie-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "4",
+        "title": "Создание и редактирование SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/04-1.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "1.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/05-2.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "2.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/06-3.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "3.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/07-vneshniy-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "5",
+        "title": "Внешний SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 17,
+        "file": "sections/08-nastroyka.md",
+        "gap_pages": [],
+        "pages": "5-8",
+        "title": "Настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/09-nomera.md",
+        "gap_pages": [],
+        "pages": "8-9",
+        "title": "Номера",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 15,
+        "file": "sections/10-marshrutizaciya.md",
+        "gap_pages": [],
+        "pages": "9-11",
+        "title": "Маршрутизация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/11-pravila-ispolzovanie-masok.md",
+        "gap_pages": [],
+        "pages": "11-12",
+        "title": "Правила использование масок:",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/12-pravila-preobrazovaniya-nomera.md",
+        "gap_pages": [],
+        "pages": "12",
+        "title": "Правила преобразования номера:",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/13-rezervirovanie.md",
+        "gap_pages": [],
+        "pages": "12-13",
+        "title": "Резервирование",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/14-vnutrenniy-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "13",
+        "title": "Внутренний SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/15-nastroyka.md",
+        "gap_pages": [],
+        "pages": "13-14",
+        "title": "Настройка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/16-nomera.md",
+        "gap_pages": [],
+        "pages": "14-15",
+        "title": "Номера",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/17-marshrutizaciya.md",
+        "gap_pages": [],
+        "pages": "15-16",
+        "title": "Маршрутизация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/18-aktivaciya-sip-trunk-v-kartochke-sotrudn.md",
+        "gap_pages": [],
+        "pages": "16",
+        "title": "Активация SIP Trunk в карточке сотрудника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/19-1.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "1.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/20-2.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "2.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/21-3.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "3.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/22-3-1.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "3.1.",
+        "unconfirmed": [
+          "3.1"
+        ]
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/23-3-2.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "3.2.",
+        "unconfirmed": [
+          "3.2"
+        ]
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/24-3-3.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "3.3.",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/25-redaktirovanie-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "Редактирование SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/26-udalenie-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "Удаление SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/27-rabochaya-panel-sip-trunk.md",
+        "gap_pages": [],
+        "pages": "17-18",
+        "title": "Рабочая панель SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/28-spisok-trankov.md",
+        "gap_pages": [],
+        "pages": "18",
+        "title": "Список транков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/29-spisok-pravil-marshrutizacii.md",
+        "gap_pages": [],
+        "pages": "18-19",
+        "title": "Список правил маршрутизации",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/30-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+        "gap_pages": [],
+        "pages": "19-22",
+        "title": "Настройка схемы распределения звонков в Личном кабинете",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 25,
+        "file": "sections/31-primery-nastroyki-zvonkov-cherez-sip-tru.md",
+        "gap_pages": [],
+        "pages": "22-30",
+        "title": "Примеры настройки звонков через SIP Trunk",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/32-konfiguraciya-populyarnyh-pbx.md",
+        "gap_pages": [],
+        "pages": "30",
+        "title": "Конфигурация популярных PBX",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 63,
+        "file": "sections/33-sozdanie-sip-trunk-dlya-freepbx-asterisk.md",
+        "gap_pages": [],
+        "pages": "30-35",
+        "title": "Создание SIP trunk для FreePBX (Asterisk)",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/34-kak-proverit-sostoyanie-tranka.md",
+        "gap_pages": [],
+        "pages": "35",
+        "title": "Как проверить состояние транка",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 27,
+        "file": "sections/35-ishodyaschaya-marshrutizaciya.md",
+        "gap_pages": [],
+        "pages": "35-38",
+        "title": "Исходящая маршрутизация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 21,
+        "file": "sections/36-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md",
+        "gap_pages": [],
+        "pages": "38-40",
+        "title": "Создание SIP trunk для FusionPBX (Freeswitch)",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/37-7-2-1-ishodyaschaya-marshrutizaciya.md",
+        "gap_pages": [],
+        "pages": "40-42",
+        "title": "7.2.1.Исходящая маршрутизация",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/38-roli-i-prava-dostupa.md",
+        "gap_pages": [],
+        "pages": "42",
+        "title": "Роли и права доступа.",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

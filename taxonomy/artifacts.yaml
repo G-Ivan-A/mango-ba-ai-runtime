@@ -18,7 +18,7 @@ items:
       изменение. Документом требований не является и проверке качества
       требований не подлежит.
     role: вход маршрута
-    schema: contracts/c-in.schema.json
+    schema: contracts/c-in.md
     in_slice: true
   - id: A-CORE
     name: Ядро требований
@@ -27,7 +27,7 @@ items:
       утверждения, ограничения и ссылки на источник. Читаемой формы как цели не
       имеет; из него собираются проекции.
     role: ядро маршрута
-    schema: contracts/c-core.schema.json
+    schema: contracts/c-core.md
     in_slice: true
   - id: A-QUEST
     name: Вопросы Заказчику
@@ -36,7 +36,7 @@ items:
       одной неоднозначности A-CORE. Отправка вовне необратима и удерживается
       человеческим гейтом.
     role: выход процесса уточнения
-    schema: contracts/c-quest.schema.json
+    schema: contracts/c-quest.md
     in_slice: true
   - id: A-BCREQ
     name: Бизнес-требование к изменению
@@ -44,7 +44,7 @@ items:
       ценность, проблема и решение верхнего уровня для оценки целесообразности:
       отвечает на «зачем» и «что», но не на «как».
     role: целевой артефакт среза
-    schema: contracts/c-out-bcreq.schema.json
+    schema: contracts/c-out-bcreq.md
     in_slice: true
   - id: A-TRACE
     name: След прослеживаемости
@@ -54,7 +54,7 @@ items:
       Содержит ссылку на неизменяемый лист прогона. Не является техническим
       журналом и не является памятью чата.
     role: служебный артефакт каждого прогона
-    schema: contracts/c-rk.schema.json
+    schema: contracts/c-rk.md
     in_slice: true
   - id: A-FR
     name: Функциональные требования

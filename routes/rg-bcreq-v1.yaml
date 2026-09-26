@@ -8,9 +8,9 @@ processes: [P-01, P-02, P-03]     # значения закрытого слов
 product_class: contact-center     # объявлен до начала (PT-1/MM-4)
 interaction: single-pass
 input_artifact: A-IN
-input_contract: contracts/c-in.schema.json
+input_contract: contracts/c-in.md
 output_artifact: A-BCREQ
-output_contract: contracts/c-out-bcreq.schema.json
+output_contract: contracts/c-out-bcreq.md
 # Узел без скомпилированного навыка обязан нести actor: human и агенту не
 # выдаётся (EP-R2). В этом графе такой узел один: n5 — отправка вопросов
 # Заказчику, действие необратимое и потому не ниже яруса G5.

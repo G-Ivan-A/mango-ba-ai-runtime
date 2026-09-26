@@ -1,0 +1,1409 @@
+{
+  "body_font_size": 11.0,
+  "body_font_sizes": [
+    11.0
+  ],
+  "doc_code": "QM",
+  "doc_title": "Руководство по контролю качества",
+  "doc_version": "1.26.18",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 217,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство пользователя по модулю контроля качества в Mango Office. Описывает процессы оценки качества звонков, мониторинга операторов, аудита и управления качеством обслуживания.",
+  "page_count": 97,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 52,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.28.2)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-4",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-4",
+          "pages": "1-4",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 1153
+    },
+    {
+      "file": "sections/01-bystryy-start.md",
+      "number": "1",
+      "order": "01",
+      "pages": "4",
+      "pdf_heading": "1. Быстрый старт",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Быстрый старт",
+      "tokens": 120
+    },
+    {
+      "file": "sections/02-kak-podklyuchit-modul-kontrol-kachestva.md",
+      "number": "1.1",
+      "order": "02",
+      "pages": "4-5",
+      "pdf_heading": "1.1. Как подключить модуль Контроль качества в Личном кабинете",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "4-5",
+          "pages": "4-5",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Как подключить модуль Контроль качества в Личном кабинете",
+      "tokens": 776
+    },
+    {
+      "file": "sections/03-kak-dobavit-kontrolera.md",
+      "number": "1.2",
+      "order": "03",
+      "pages": "5-6",
+      "pdf_heading": "1.2 Как добавить контролера",
+      "pdf_section": "1.2",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Как добавить контролера",
+      "tokens": 341
+    },
+    {
+      "file": "sections/04-roli-i-funkcii.md",
+      "number": "1.3",
+      "order": "04",
+      "pages": "6-9",
+      "pdf_heading": "1.3 Роли и функции",
+      "pdf_section": "1.3",
+      "source_refs": [
+        {
+          "global_pages": "6-9",
+          "pages": "6-9",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Роли и функции",
+      "tokens": 2458
+    },
+    {
+      "file": "sections/05-nastroyka-blankov-ocenki.md",
+      "number": "2",
+      "order": "05",
+      "pages": "9",
+      "pdf_heading": "2. Настройка бланков оценки",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка бланков оценки",
+      "tokens": 725
+    },
+    {
+      "file": "sections/06-sozdanie-blanka-ocenki.md",
+      "number": "2.1",
+      "order": "06",
+      "pages": "9-11",
+      "pdf_heading": "2.1.  Создание бланка оценки",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "9-11",
+          "pages": "9-11",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Создание бланка оценки",
+      "tokens": 1411
+    },
+    {
+      "file": "sections/07-prosmotr-i-redaktirovanie-blanka-ocenki.md",
+      "number": "2.2",
+      "order": "07",
+      "pages": "11-12",
+      "pdf_heading": "2.2.  Просмотр и редактирование бланка оценки",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "11-12",
+          "pages": "11-12",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Просмотр и редактирование бланка оценки",
+      "tokens": 493
+    },
+    {
+      "file": "sections/08-nastroyka-shkaly-ocenok-i-vesa-kriteriev.md",
+      "number": "2.3",
+      "order": "08",
+      "pages": "12-13",
+      "pdf_heading": "2.3.  Настройка шкалы оценок и веса критериев",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "12-13",
+          "pages": "12-13",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка шкалы оценок и веса критериев",
+      "tokens": 548
+    },
+    {
+      "file": "sections/09-nastroyka-apellyacii.md",
+      "number": "2.4",
+      "order": "09",
+      "pages": "13-15",
+      "pdf_heading": "2.4.  Настройка апелляции",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "13-15",
+          "pages": "13-15",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка апелляции",
+      "tokens": 802
+    },
+    {
+      "file": "sections/10-udalenie-blanka-ocenki.md",
+      "number": "2.5",
+      "order": "10",
+      "pages": "15",
+      "pdf_heading": "2.5. Удаление бланка оценки",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "15",
+          "pages": "15",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Удаление бланка оценки",
+      "tokens": 189
+    },
+    {
+      "file": "sections/11-blank-ocenki-bazovaya-ocenka-sotrudnika.md",
+      "number": "2.6",
+      "order": "11",
+      "pages": "15-17",
+      "pdf_heading": "2.6.  Бланк оценки \"Базовая оценка сотрудника\"",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "15-17",
+          "pages": "15-17",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Бланк оценки \"Базовая оценка сотрудника\"",
+      "tokens": 493
+    },
+    {
+      "file": "sections/12-ocenka-obrascheniy.md",
+      "number": "3",
+      "order": "12",
+      "pages": "17",
+      "pdf_heading": "3. Оценка обращений",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Оценка обращений",
+      "tokens": 137
+    },
+    {
+      "file": "sections/13-ocenka-zvonkov.md",
+      "number": "3.1",
+      "order": "13",
+      "pages": "17-27",
+      "pdf_heading": "3.1. Оценка звонков",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "17-27",
+          "pages": "17-27",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Оценка звонков",
+      "tokens": 7839
+    },
+    {
+      "file": "sections/14-ocenka-chatov.md",
+      "number": "3.2",
+      "order": "14",
+      "pages": "27-32",
+      "pdf_heading": "3.2. Оценка чатов",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "27-32",
+          "pages": "27-32",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Оценка чатов",
+      "tokens": 3280
+    },
+    {
+      "file": "sections/15-randomayzer.md",
+      "number": "3.3",
+      "order": "15",
+      "pages": "32-34",
+      "pdf_heading": "3.3. Рандомайзер",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "32-34",
+          "pages": "32-34",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Рандомайзер",
+      "tokens": 1003
+    },
+    {
+      "file": "sections/16-nastroyka-postzvonkovoy-ocenki.md",
+      "number": "4",
+      "order": "16",
+      "pages": "34",
+      "pdf_heading": "4. Настройка постзвонковой оценки",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "34",
+          "pages": "34",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка постзвонковой оценки",
+      "tokens": 181
+    },
+    {
+      "file": "sections/17-nastroyka-pravil-postzvonkovoy-ocenki.md",
+      "number": "4.1",
+      "order": "17",
+      "pages": "34-38",
+      "pdf_heading": "4.1.  Настройка правил постзвонковой оценки",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "34-38",
+          "pages": "34-38",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка правил постзвонковой оценки",
+      "tokens": 2354
+    },
+    {
+      "file": "sections/18-nastroyka-uvedomleniy-o-postzvonkovyh-oc.md",
+      "number": "4.2",
+      "order": "18",
+      "pages": "38-41",
+      "pdf_heading": "4.2.  Настройка уведомлений о постзвонковых оценках",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "38-41",
+          "pages": "38-41",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка уведомлений о постзвонковых оценках",
+      "tokens": 921
+    },
+    {
+      "file": "sections/19-zapis-ekrana.md",
+      "number": "5",
+      "order": "19",
+      "pages": "41",
+      "pdf_heading": "5. Запись экрана",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "41",
+          "pages": "41",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Запись экрана",
+      "tokens": 64
+    },
+    {
+      "file": "sections/20-prosmotr-i-skachivanie-zapisey.md",
+      "number": "5.1",
+      "order": "20",
+      "pages": "41-43",
+      "pdf_heading": "5.1. Просмотр и скачивание записей",
+      "pdf_section": "5.1",
+      "source_refs": [
+        {
+          "global_pages": "41-43",
+          "pages": "41-43",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Просмотр и скачивание записей",
+      "tokens": 2128
+    },
+    {
+      "file": "sections/21-prosmotr-nastroek-zapisi.md",
+      "number": "5.2",
+      "order": "21",
+      "pages": "43-45",
+      "pdf_heading": "5.2.  Просмотр настроек записи",
+      "pdf_section": "5.2",
+      "source_refs": [
+        {
+          "global_pages": "43-45",
+          "pages": "43-45",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Просмотр настроек записи",
+      "tokens": 956
+    },
+    {
+      "file": "sections/22-naznachenie-pravil-zapisi.md",
+      "number": "5.3",
+      "order": "22",
+      "pages": "45-48",
+      "pdf_heading": "5.3. Назначение правил записи",
+      "pdf_section": "5.3",
+      "source_refs": [
+        {
+          "global_pages": "45-48",
+          "pages": "45-48",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Назначение правил записи",
+      "tokens": 1601
+    },
+    {
+      "file": "sections/23-ocenka-kachestva-v-chatah.md",
+      "number": "6",
+      "order": "23",
+      "pages": "48",
+      "pdf_heading": "6. Оценка качества в чатах",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "48",
+          "pages": "48",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Оценка качества в чатах",
+      "tokens": 458
+    },
+    {
+      "file": "sections/24-sozdanie-redaktirovanie-i-udalenie-pravi.md",
+      "number": "6.1",
+      "order": "24",
+      "pages": "48-51",
+      "pdf_heading": "6.1. Создание, редактирование и удаление правила",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "48-51",
+          "pages": "48-51",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Создание, редактирование и удаление правила",
+      "tokens": 1145
+    },
+    {
+      "file": "sections/25-statistika.md",
+      "number": "7",
+      "order": "25",
+      "pages": "51",
+      "pdf_heading": "7. Статистика",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Статистика",
+      "tokens": 87
+    },
+    {
+      "file": "sections/26-dinamika-ocenok.md",
+      "number": "7.1",
+      "order": "26",
+      "pages": "51-56",
+      "pdf_heading": "7.1.  Динамика оценок",
+      "pdf_section": "7.1",
+      "source_refs": [
+        {
+          "global_pages": "51-56",
+          "pages": "51-56",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Динамика оценок",
+      "tokens": 2435
+    },
+    {
+      "file": "sections/27-svodnaya-statistika.md",
+      "number": "7.2",
+      "order": "27",
+      "pages": "56-59",
+      "pdf_heading": "7.2.  Сводная статистика",
+      "pdf_section": "7.2",
+      "source_refs": [
+        {
+          "global_pages": "56-59",
+          "pages": "56-59",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Сводная статистика",
+      "tokens": 1032
+    },
+    {
+      "file": "sections/28-rabota-kontrolerov.md",
+      "number": "7.3",
+      "order": "28",
+      "pages": "59-64",
+      "pdf_heading": "7.3.  Работа контролеров",
+      "pdf_section": "7.3",
+      "source_refs": [
+        {
+          "global_pages": "59-64",
+          "pages": "59-64",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Работа контролеров",
+      "tokens": 1980
+    },
+    {
+      "file": "sections/29-apellyacii.md",
+      "number": "8",
+      "order": "29",
+      "pages": "64",
+      "pdf_heading": "8. Апелляции",
+      "pdf_section": "8",
+      "source_refs": [
+        {
+          "global_pages": "64",
+          "pages": "64",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Апелляции",
+      "tokens": 428
+    },
+    {
+      "file": "sections/30-kak-sotrudniku-podat-apellyaciyu.md",
+      "number": "8.1",
+      "order": "30",
+      "pages": "64-65",
+      "pdf_heading": "8.1.  Как сотруднику подать апелляцию",
+      "pdf_section": "8.1",
+      "source_refs": [
+        {
+          "global_pages": "64-65",
+          "pages": "64-65",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Как сотруднику подать апелляцию",
+      "tokens": 465
+    },
+    {
+      "file": "sections/31-kak-kontroleru-obrabatyvat-apellyacii.md",
+      "number": "8.2",
+      "order": "31",
+      "pages": "65-67",
+      "pdf_heading": "8.2.  Как контролеру обрабатывать апелляции",
+      "pdf_section": "8.2",
+      "source_refs": [
+        {
+          "global_pages": "65-67",
+          "pages": "65-67",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Как контролеру обрабатывать апелляции",
+      "tokens": 725
+    },
+    {
+      "file": "sections/32-rechevaya-analitika.md",
+      "number": "9",
+      "order": "32",
+      "pages": "67",
+      "pdf_heading": "9. Речевая аналитика",
+      "pdf_section": "9",
+      "source_refs": [
+        {
+          "global_pages": "67",
+          "pages": "67",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Речевая аналитика",
+      "tokens": 257
+    },
+    {
+      "file": "sections/33-podklyuchenie-uslugi-rechevaya-analitika.md",
+      "number": "9.1",
+      "order": "33",
+      "pages": "67-69",
+      "pdf_heading": "9.1.  Подключение услуги Речевая аналитика",
+      "pdf_section": "9.1",
+      "source_refs": [
+        {
+          "global_pages": "67-69",
+          "pages": "67-69",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Подключение услуги Речевая аналитика",
+      "tokens": 912
+    },
+    {
+      "file": "sections/34-vkladka-otchety.md",
+      "number": "9.2",
+      "order": "34",
+      "pages": "69",
+      "pdf_heading": "9.2.  Вкладка ОТЧЕТЫ",
+      "pdf_section": "9.2",
+      "source_refs": [
+        {
+          "global_pages": "69",
+          "pages": "69",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка ОТЧЕТЫ",
+      "tokens": 395
+    },
+    {
+      "file": "sections/35-vkladka-tegirovanie-razgovorov.md",
+      "number": "9.3",
+      "order": "35",
+      "pages": "69-72",
+      "pdf_heading": "9.3.  Вкладка ТЕГИРОВАНИЕ РАЗГОВОРОВ",
+      "pdf_section": "9.3",
+      "source_refs": [
+        {
+          "global_pages": "69-72",
+          "pages": "69-72",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка ТЕГИРОВАНИЕ РАЗГОВОРОВ",
+      "tokens": 1264
+    },
+    {
+      "file": "sections/36-vkladka-nastroyki.md",
+      "number": "9.4",
+      "order": "36",
+      "pages": "72-73",
+      "pdf_heading": "9.4.  Вкладка НАСТРОЙКИ",
+      "pdf_section": "9.4",
+      "source_refs": [
+        {
+          "global_pages": "72-73",
+          "pages": "72-73",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка НАСТРОЙКИ",
+      "tokens": 1106
+    },
+    {
+      "file": "sections/37-shagi-onbordinga.md",
+      "number": "9.4.1",
+      "order": "37",
+      "pages": "73-75",
+      "pdf_heading": "9.4.1 Шаги онбординга",
+      "pdf_section": "9.4.1",
+      "source_refs": [
+        {
+          "global_pages": "73-75",
+          "pages": "73-75",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Шаги онбординга",
+      "tokens": 1034
+    },
+    {
+      "file": "sections/38-nastroyki-raspoznavaniya-zapisey.md",
+      "number": "9.4.2",
+      "order": "38",
+      "pages": "75-77",
+      "pdf_heading": "9.4.2 Настройки распознавания записей",
+      "pdf_section": "9.4.2",
+      "source_refs": [
+        {
+          "global_pages": "75-77",
+          "pages": "75-77",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройки распознавания записей",
+      "tokens": 1409
+    },
+    {
+      "file": "sections/39-analitika-tekstovyh-kommunikaciy.md",
+      "number": "9.4.3",
+      "order": "39",
+      "pages": "77-78",
+      "pdf_heading": "9.4.3 Аналитика текстовых коммуникаций",
+      "pdf_section": "9.4.3",
+      "source_refs": [
+        {
+          "global_pages": "77-78",
+          "pages": "77-78",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Аналитика текстовых коммуникаций",
+      "tokens": 708
+    },
+    {
+      "file": "sections/40-ii-instrumenty.md",
+      "number": "9.4.4",
+      "order": "40",
+      "pages": "78",
+      "pdf_heading": "9.4.4 ИИ Инструменты",
+      "pdf_section": "9.4.4",
+      "source_refs": [
+        {
+          "global_pages": "78",
+          "pages": "78",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Инструменты",
+      "tokens": 73
+    },
+    {
+      "file": "sections/41-ii-konspekty.md",
+      "number": "9.4.4.1",
+      "order": "41",
+      "pages": "78-81",
+      "pdf_heading": "9.4.4.1 ИИ Конспекты",
+      "pdf_section": "9.4.4.1",
+      "source_refs": [
+        {
+          "global_pages": "78-81",
+          "pages": "78-81",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Конспекты",
+      "tokens": 1453
+    },
+    {
+      "file": "sections/42-ii-tegirovanie.md",
+      "number": "9.4.4.2",
+      "order": "42",
+      "pages": "81-83",
+      "pdf_heading": "9.4.4.2 ИИ Тегирование",
+      "pdf_section": "9.4.4.2",
+      "source_refs": [
+        {
+          "global_pages": "81-83",
+          "pages": "81-83",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Тегирование",
+      "tokens": 693
+    },
+    {
+      "file": "sections/43-ii-pomoschniki.md",
+      "number": "9.4.4.3",
+      "order": "43",
+      "pages": "83",
+      "pdf_heading": "9.4.4.3 ИИ Помощники",
+      "pdf_section": "9.4.4.3",
+      "source_refs": [
+        {
+          "global_pages": "83",
+          "pages": "83",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "ИИ Помощники",
+      "tokens": 76
+    },
+    {
+      "file": "sections/44-chto-eto-takoe-i-zachem-nuzhno.md",
+      "number": "9.4.4.3.1",
+      "order": "44",
+      "pages": "83",
+      "pdf_heading": "9.4.4.3.1 Что это такое и зачем нужно",
+      "pdf_section": "9.4.4.3.1",
+      "source_refs": [
+        {
+          "global_pages": "83",
+          "pages": "83",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Что это такое и зачем нужно",
+      "tokens": 406
+    },
+    {
+      "file": "sections/45-kak-sozdat-ii-pomoschnika.md",
+      "number": "9.4.4.3.2",
+      "order": "45",
+      "pages": "83-84",
+      "pdf_heading": "9.4.4.3.2 Как создать ИИ Помощника",
+      "pdf_section": "9.4.4.3.2",
+      "source_refs": [
+        {
+          "global_pages": "83-84",
+          "pages": "83-84",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Как создать ИИ Помощника",
+      "tokens": 230
+    },
+    {
+      "file": "sections/46-nastroyka-ii-pomoschnika.md",
+      "number": "9.4.4.3.3",
+      "order": "46",
+      "pages": "84-87",
+      "pdf_heading": "9.4.4.3.3 Настройка ИИ Помощника",
+      "pdf_section": "9.4.4.3.3",
+      "source_refs": [
+        {
+          "global_pages": "84-87",
+          "pages": "84-87",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Настройка ИИ Помощника",
+      "tokens": 1648
+    },
+    {
+      "file": "sections/47-gde-smotret-rezultaty.md",
+      "number": "9.4.4.3.4",
+      "order": "47",
+      "pages": "87-90",
+      "pdf_heading": "9.4.4.3.4 Где смотреть результаты",
+      "pdf_section": "9.4.4.3.4",
+      "source_refs": [
+        {
+          "global_pages": "87-90",
+          "pages": "87-90",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Где смотреть результаты",
+      "tokens": 1631
+    },
+    {
+      "file": "sections/48-dopolnitelnye-nastroyki.md",
+      "number": "9.4.5",
+      "order": "48",
+      "pages": "90-91",
+      "pdf_heading": "9.4.5 Дополнительные настройки",
+      "pdf_section": "9.4.5",
+      "source_refs": [
+        {
+          "global_pages": "90-91",
+          "pages": "90-91",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Дополнительные настройки",
+      "tokens": 531
+    },
+    {
+      "file": "sections/49-otklyuchenie-uslugi.md",
+      "number": "9.4.6",
+      "order": "49",
+      "pages": "91-93",
+      "pdf_heading": "9.4.6 Отключение услуги",
+      "pdf_section": "9.4.6",
+      "source_refs": [
+        {
+          "global_pages": "91-93",
+          "pages": "91-93",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Отключение услуги",
+      "tokens": 347
+    },
+    {
+      "file": "sections/50-vkladka-zayavki.md",
+      "number": "9.5",
+      "order": "50",
+      "pages": "93-97",
+      "pdf_heading": "9.5.  Вкладка ЗАЯВКИ",
+      "pdf_section": "9.5",
+      "source_refs": [
+        {
+          "global_pages": "93-97",
+          "pages": "93-97",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Вкладка ЗАЯВКИ",
+      "tokens": 1105
+    },
+    {
+      "file": "sections/51-dopolnitelnye-vozmozhnosti.md",
+      "number": "10",
+      "order": "51",
+      "pages": "97",
+      "pdf_heading": "10. Дополнительные возможности",
+      "pdf_section": "10",
+      "source_refs": [
+        {
+          "global_pages": "97",
+          "pages": "97",
+          "part": 1,
+          "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+        }
+      ],
+      "title": "Дополнительные возможности",
+      "tokens": 424
+    }
+  ],
+  "source_document": "quality-management",
+  "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf",
+  "source_pdfs": [
+    "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf"
+  ],
+  "source_set": "quality-management",
+  "source_sha256": "3f776da3fee090d35b6cfa21dc130acb4f2a23d5077b4675f39ee7e1d045d412",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 97,
+      "source_pdf": "kb/sources/quality-managment/QM_manual_v-1.26.18.pdf",
+      "source_sha256": "3f776da3fee090d35b6cfa21dc130acb4f2a23d5077b4675f39ee7e1d045d412"
+    }
+  ],
+  "table_count": 41,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 5453,
+  "tokens_total": 54430,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 167,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 36,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-4",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/01-bystryy-start.md",
+        "gap_pages": [],
+        "pages": "4",
+        "title": "Быстрый старт",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/02-kak-podklyuchit-modul-kontrol-kachestva.md",
+        "gap_pages": [],
+        "pages": "4-5",
+        "title": "Как подключить модуль Контроль качества в Личном кабинете",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/03-kak-dobavit-kontrolera.md",
+        "gap_pages": [],
+        "pages": "5-6",
+        "title": "Как добавить контролера",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/04-roli-i-funkcii.md",
+        "gap_pages": [],
+        "pages": "6-9",
+        "title": "Роли и функции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/05-nastroyka-blankov-ocenki.md",
+        "gap_pages": [],
+        "pages": "9",
+        "title": "Настройка бланков оценки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/06-sozdanie-blanka-ocenki.md",
+        "gap_pages": [],
+        "pages": "9-11",
+        "title": "Создание бланка оценки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/07-prosmotr-i-redaktirovanie-blanka-ocenki.md",
+        "gap_pages": [],
+        "pages": "11-12",
+        "title": "Просмотр и редактирование бланка оценки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/08-nastroyka-shkaly-ocenok-i-vesa-kriteriev.md",
+        "gap_pages": [],
+        "pages": "12-13",
+        "title": "Настройка шкалы оценок и веса критериев",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/09-nastroyka-apellyacii.md",
+        "gap_pages": [],
+        "pages": "13-15",
+        "title": "Настройка апелляции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/10-udalenie-blanka-ocenki.md",
+        "gap_pages": [],
+        "pages": "15",
+        "title": "Удаление бланка оценки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/11-blank-ocenki-bazovaya-ocenka-sotrudnika.md",
+        "gap_pages": [],
+        "pages": "15-17",
+        "title": "Бланк оценки \"Базовая оценка сотрудника\"",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/12-ocenka-obrascheniy.md",
+        "gap_pages": [],
+        "pages": "17",
+        "title": "Оценка обращений",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 14,
+        "file": "sections/13-ocenka-zvonkov.md",
+        "gap_pages": [],
+        "pages": "17-27",
+        "title": "Оценка звонков",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/14-ocenka-chatov.md",
+        "gap_pages": [],
+        "pages": "27-32",
+        "title": "Оценка чатов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/15-randomayzer.md",
+        "gap_pages": [],
+        "pages": "32-34",
+        "title": "Рандомайзер",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/16-nastroyka-postzvonkovoy-ocenki.md",
+        "gap_pages": [],
+        "pages": "34",
+        "title": "Настройка постзвонковой оценки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/17-nastroyka-pravil-postzvonkovoy-ocenki.md",
+        "gap_pages": [],
+        "pages": "34-38",
+        "title": "Настройка правил постзвонковой оценки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/18-nastroyka-uvedomleniy-o-postzvonkovyh-oc.md",
+        "gap_pages": [],
+        "pages": "38-41",
+        "title": "Настройка уведомлений о постзвонковых оценках",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/19-zapis-ekrana.md",
+        "gap_pages": [],
+        "pages": "41",
+        "title": "Запись экрана",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 11,
+        "file": "sections/20-prosmotr-i-skachivanie-zapisey.md",
+        "gap_pages": [],
+        "pages": "41-43",
+        "title": "Просмотр и скачивание записей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/21-prosmotr-nastroek-zapisi.md",
+        "gap_pages": [],
+        "pages": "43-45",
+        "title": "Просмотр настроек записи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 24,
+        "file": "sections/22-naznachenie-pravil-zapisi.md",
+        "gap_pages": [],
+        "pages": "45-48",
+        "title": "Назначение правил записи",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/23-ocenka-kachestva-v-chatah.md",
+        "gap_pages": [],
+        "pages": "48",
+        "title": "Оценка качества в чатах",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/24-sozdanie-redaktirovanie-i-udalenie-pravi.md",
+        "gap_pages": [],
+        "pages": "48-51",
+        "title": "Создание, редактирование и удаление правила",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/25-statistika.md",
+        "gap_pages": [],
+        "pages": "51",
+        "title": "Статистика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/26-dinamika-ocenok.md",
+        "gap_pages": [],
+        "pages": "51-56",
+        "title": "Динамика оценок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/27-svodnaya-statistika.md",
+        "gap_pages": [],
+        "pages": "56-59",
+        "title": "Сводная статистика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/28-rabota-kontrolerov.md",
+        "gap_pages": [],
+        "pages": "59-64",
+        "title": "Работа контролеров",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/29-apellyacii.md",
+        "gap_pages": [],
+        "pages": "64",
+        "title": "Апелляции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/30-kak-sotrudniku-podat-apellyaciyu.md",
+        "gap_pages": [],
+        "pages": "64-65",
+        "title": "Как сотруднику подать апелляцию",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/31-kak-kontroleru-obrabatyvat-apellyacii.md",
+        "gap_pages": [],
+        "pages": "65-67",
+        "title": "Как контролеру обрабатывать апелляции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/32-rechevaya-analitika.md",
+        "gap_pages": [],
+        "pages": "67",
+        "title": "Речевая аналитика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/33-podklyuchenie-uslugi-rechevaya-analitika.md",
+        "gap_pages": [],
+        "pages": "67-69",
+        "title": "Подключение услуги Речевая аналитика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/34-vkladka-otchety.md",
+        "gap_pages": [],
+        "pages": "69",
+        "title": "Вкладка ОТЧЕТЫ",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/35-vkladka-tegirovanie-razgovorov.md",
+        "gap_pages": [],
+        "pages": "69-72",
+        "title": "Вкладка ТЕГИРОВАНИЕ РАЗГОВОРОВ",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/36-vkladka-nastroyki.md",
+        "gap_pages": [],
+        "pages": "72-73",
+        "title": "Вкладка НАСТРОЙКИ",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/37-shagi-onbordinga.md",
+        "gap_pages": [],
+        "pages": "73-75",
+        "title": "Шаги онбординга",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/38-nastroyki-raspoznavaniya-zapisey.md",
+        "gap_pages": [],
+        "pages": "75-77",
+        "title": "Настройки распознавания записей",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/39-analitika-tekstovyh-kommunikaciy.md",
+        "gap_pages": [],
+        "pages": "77-78",
+        "title": "Аналитика текстовых коммуникаций",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/40-ii-instrumenty.md",
+        "gap_pages": [],
+        "pages": "78",
+        "title": "ИИ Инструменты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/41-ii-konspekty.md",
+        "gap_pages": [],
+        "pages": "78-81",
+        "title": "ИИ Конспекты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/42-ii-tegirovanie.md",
+        "gap_pages": [],
+        "pages": "81-83",
+        "title": "ИИ Тегирование",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/43-ii-pomoschniki.md",
+        "gap_pages": [],
+        "pages": "83",
+        "title": "ИИ Помощники",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/44-chto-eto-takoe-i-zachem-nuzhno.md",
+        "gap_pages": [],
+        "pages": "83",
+        "title": "Что это такое и зачем нужно",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/45-kak-sozdat-ii-pomoschnika.md",
+        "gap_pages": [],
+        "pages": "83-84",
+        "title": "Как создать ИИ Помощника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/46-nastroyka-ii-pomoschnika.md",
+        "gap_pages": [],
+        "pages": "84-87",
+        "title": "Настройка ИИ Помощника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/47-gde-smotret-rezultaty.md",
+        "gap_pages": [],
+        "pages": "87-90",
+        "title": "Где смотреть результаты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/48-dopolnitelnye-nastroyki.md",
+        "gap_pages": [],
+        "pages": "90-91",
+        "title": "Дополнительные настройки",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/49-otklyuchenie-uslugi.md",
+        "gap_pages": [],
+        "pages": "91-93",
+        "title": "Отключение услуги",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/50-vkladka-zayavki.md",
+        "gap_pages": [],
+        "pages": "93-97",
+        "title": "Вкладка ЗАЯВКИ",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/51-dopolnitelnye-vozmozhnosti.md",
+        "gap_pages": [],
+        "pages": "97",
+        "title": "Дополнительные возможности",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

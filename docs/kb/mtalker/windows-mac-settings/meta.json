@@ -1,0 +1,1035 @@
+{
+  "body_font_size": 12.0,
+  "body_font_sizes": [
+    12.0
+  ],
+  "doc_code": "MTALKER-SET",
+  "doc_title": "Mango Talker для Windows/Mac - Установка настроек",
+  "doc_version": "23.08.2024",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 42,
+  "image_extractor": "pymupdf 1.27.2.3",
+  "image_extractors": [
+    "pymupdf 1.27.2.3"
+  ],
+  "note": "Руководство по настройке Mango Talker. Описание параметров конфигурации, настройки аудио/видео устройств, интеграция с ВАТС.",
+  "page_count": 19,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 55,
+  "section_source": "pdf-outline (pymupdf 1.27.2.3)",
+  "section_sources": [
+    "pdf-outline (pymupdf 1.27.2.3)"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-4",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-4",
+          "pages": "1-4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 1162
+    },
+    {
+      "file": "sections/01-kak-otkryt-nastroyki-obobschenno.md",
+      "number": "1",
+      "order": "01",
+      "pages": "4",
+      "pdf_heading": "1 Как открыть настройки. Обобщенно",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как открыть настройки. Обобщенно",
+      "tokens": 236
+    },
+    {
+      "file": "sections/02-upravlenie-mtalker.md",
+      "number": "2",
+      "order": "02",
+      "pages": "4",
+      "pdf_heading": "2 Управление MTalker",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Управление MTalker",
+      "tokens": 55
+    },
+    {
+      "file": "sections/03-avtomaticheskiy-zapusk-raboty.md",
+      "number": "2.1",
+      "order": "03",
+      "pages": "4",
+      "pdf_heading": "2.1 Автоматический запуск работы",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Автоматический запуск работы",
+      "tokens": 312
+    },
+    {
+      "file": "sections/04-avtomaticheskiy-vhod-polzovatelya.md",
+      "number": "2.2",
+      "order": "04",
+      "pages": "4",
+      "pdf_heading": "2.2 Автоматический вход пользователя",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Автоматический вход пользователя",
+      "tokens": 64
+    },
+    {
+      "file": "sections/05-obschie-svedeniya.md",
+      "number": "2.2",
+      "order": "05",
+      "pages": "4",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 134
+    },
+    {
+      "file": "sections/06-kak-vklyuchit-avtomaticheskiy-vhod.md",
+      "number": "2.2",
+      "order": "06",
+      "pages": "4-5",
+      "pdf_heading": "Как включить автоматический вход",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "4-5",
+          "pages": "4-5",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как включить автоматический вход",
+      "tokens": 526
+    },
+    {
+      "file": "sections/07-kak-otklyuchit-avtomaticheskiy-vhod.md",
+      "number": "2.2",
+      "order": "07",
+      "pages": "5-6",
+      "pdf_heading": "Как отключить автоматический вход",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как отключить автоматический вход",
+      "tokens": 533
+    },
+    {
+      "file": "sections/08-kak-vklyuchit-avtomaticheskiy-perehod-v.md",
+      "number": "3",
+      "order": "08",
+      "pages": "6",
+      "pdf_heading": "3 Как включить автоматический переход в фоновый режим при автозапуске",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как включить автоматический переход в фоновый режим при автозапуске",
+      "tokens": 298
+    },
+    {
+      "file": "sections/09-fayly-i-zagruzki.md",
+      "number": "4",
+      "order": "09",
+      "pages": "6",
+      "pdf_heading": "4 Файлы и загрузки",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Файлы и загрузки",
+      "tokens": 58
+    },
+    {
+      "file": "sections/10-obschie-svedeniya.md",
+      "number": "4.1",
+      "order": "10",
+      "pages": "6",
+      "pdf_heading": "4.1 Общие сведения",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 160
+    },
+    {
+      "file": "sections/11-kak-nayti-i-otkryt-zagruzhennyy-fayl.md",
+      "number": "4.2",
+      "order": "11",
+      "pages": "6",
+      "pdf_heading": "4.2 Как найти и открыть загруженный файл",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как найти и открыть загруженный файл",
+      "tokens": 290
+    },
+    {
+      "file": "sections/12-kak-izmenit-papku-sohraneniya-faylov.md",
+      "number": "4.3",
+      "order": "12",
+      "pages": "6-7",
+      "pdf_heading": "4.3 Как изменить папку сохранения файлов",
+      "pdf_section": "4.3",
+      "source_refs": [
+        {
+          "global_pages": "6-7",
+          "pages": "6-7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как изменить папку сохранения файлов",
+      "tokens": 317
+    },
+    {
+      "file": "sections/13-kak-vklyuchit-zapros-mesta-sohraneniya-f.md",
+      "number": "4.4",
+      "order": "13",
+      "pages": "7",
+      "pdf_heading": "4.4 Как включить запрос места сохранения файлов",
+      "pdf_section": "4.4",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как включить запрос места сохранения файлов",
+      "tokens": 270
+    },
+    {
+      "file": "sections/14-avtozagruzka-izobrazheniy.md",
+      "number": "4.5",
+      "order": "14",
+      "pages": "7",
+      "pdf_heading": "4.5 Автозагрузка изображений",
+      "pdf_section": "4.5",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Автозагрузка изображений",
+      "tokens": 277
+    },
+    {
+      "file": "sections/15-kak-obnovit-mtalker.md",
+      "number": "5",
+      "order": "15",
+      "pages": "7-8",
+      "pdf_heading": "5 Как обновить MTalker",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "7-8",
+          "pages": "7-8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как обновить MTalker",
+      "tokens": 377
+    },
+    {
+      "file": "sections/16-personalizaciya.md",
+      "number": "6",
+      "order": "16",
+      "pages": "8",
+      "pdf_heading": "6 Персонализация",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Персонализация",
+      "tokens": 57
+    },
+    {
+      "file": "sections/17-vneshniy-vid.md",
+      "number": "6.1",
+      "order": "17",
+      "pages": "8",
+      "pdf_heading": "6.1 Внешний вид",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Внешний вид",
+      "tokens": 60
+    },
+    {
+      "file": "sections/18-kak-vklyuchit-ili-vyklyuchit-podtverzhde.md",
+      "number": "6.1",
+      "order": "18",
+      "pages": "8",
+      "pdf_heading": "Как включить или выключить подтверждение действия пользователя",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как включить или выключить подтверждение действия пользователя",
+      "tokens": 441
+    },
+    {
+      "file": "sections/19-vklyuchenie-i-vyklyuchenie-uvedomleniy-o.md",
+      "number": "6.1",
+      "order": "19",
+      "pages": "8-9",
+      "pdf_heading": "Включение и выключение уведомлений о новых сообщениях",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "8-9",
+          "pages": "8-9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Включение и выключение уведомлений о новых сообщениях",
+      "tokens": 433
+    },
+    {
+      "file": "sections/20-obrabotka-klikov-po-ssylkam.md",
+      "number": "6.2",
+      "order": "20",
+      "pages": "9",
+      "pdf_heading": "6.2 Обработка кликов по ссылкам",
+      "pdf_section": "6.2",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Обработка кликов по ссылкам",
+      "tokens": 600
+    },
+    {
+      "file": "sections/21-pereklyuchenie-fokusa-pri-vhodyaschem-zv.md",
+      "number": "6.3",
+      "order": "21",
+      "pages": "9-10",
+      "pdf_heading": "6.3 Переключение фокуса при входящем звонке",
+      "pdf_section": "6.3",
+      "source_refs": [
+        {
+          "global_pages": "9-10",
+          "pages": "9-10",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Переключение фокуса при входящем звонке",
+      "tokens": 667
+    },
+    {
+      "file": "sections/22-udalenie-lishnih-simvolov-pri-vvode-nome.md",
+      "number": "6.4",
+      "order": "22",
+      "pages": "10",
+      "pdf_heading": "6.4 Удаление лишних символов при вводе номера",
+      "pdf_section": "6.4",
+      "source_refs": [
+        {
+          "global_pages": "10",
+          "pages": "10",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Удаление лишних символов при вводе номера",
+      "tokens": 69
+    },
+    {
+      "file": "sections/23-obschie-svedeniya.md",
+      "number": "6.4",
+      "order": "23",
+      "pages": "10",
+      "pdf_heading": "Общие сведения",
+      "pdf_section": "6.4",
+      "source_refs": [
+        {
+          "global_pages": "10",
+          "pages": "10",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 260
+    },
+    {
+      "file": "sections/24-vklyuchenie-proverki.md",
+      "number": "6.4",
+      "order": "24",
+      "pages": "10-11",
+      "pdf_heading": "Включение проверки",
+      "pdf_section": "6.4",
+      "source_refs": [
+        {
+          "global_pages": "10-11",
+          "pages": "10-11",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Включение проверки",
+      "tokens": 249
+    },
+    {
+      "file": "sections/25-uvedomleniya.md",
+      "number": "6.5",
+      "order": "25",
+      "pages": "11",
+      "pdf_heading": "6.5 Уведомления",
+      "pdf_section": "6.5",
+      "source_refs": [
+        {
+          "global_pages": "11",
+          "pages": "11",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Уведомления",
+      "tokens": 58
+    },
+    {
+      "file": "sections/26-nastroyka-otpravki-na-e-mail.md",
+      "number": "6.5",
+      "order": "26",
+      "pages": "11",
+      "pdf_heading": "Настройка отправки на e-mail",
+      "pdf_section": "6.5",
+      "source_refs": [
+        {
+          "global_pages": "11",
+          "pages": "11",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Настройка отправки на e-mail",
+      "tokens": 428
+    },
+    {
+      "file": "sections/27-zvukovye-uvedomleniya-kak-vybrat-rington.md",
+      "number": "6.5",
+      "order": "27",
+      "pages": "11-12",
+      "pdf_heading": "Звуковые уведомления. Как выбрать рингтон",
+      "pdf_section": "6.5",
+      "source_refs": [
+        {
+          "global_pages": "11-12",
+          "pages": "11-12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Звуковые уведомления. Как выбрать рингтон",
+      "tokens": 407
+    },
+    {
+      "file": "sections/28-klavishi-otpravki-soobscheniy-v-chat.md",
+      "number": "6.6",
+      "order": "28",
+      "pages": "12",
+      "pdf_heading": "6.6 Клавиши отправки сообщений в чат",
+      "pdf_section": "6.6",
+      "source_refs": [
+        {
+          "global_pages": "12",
+          "pages": "12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Клавиши отправки сообщений в чат",
+      "tokens": 287
+    },
+    {
+      "file": "sections/29-globalnye-goryachie-klavishi.md",
+      "number": "6.7",
+      "order": "29",
+      "pages": "12",
+      "pdf_heading": "6.7 Глобальные горячие клавиши",
+      "pdf_section": "6.7",
+      "source_refs": [
+        {
+          "global_pages": "12",
+          "pages": "12",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Глобальные горячие клавиши",
+      "tokens": 425
+    },
+    {
+      "file": "sections/30-yazyk.md",
+      "number": "6.8",
+      "order": "30",
+      "pages": "12-13",
+      "pdf_heading": "6.8 Язык",
+      "pdf_section": "6.8",
+      "source_refs": [
+        {
+          "global_pages": "12-13",
+          "pages": "12-13",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Язык",
+      "tokens": 323
+    },
+    {
+      "file": "sections/31-konfidencialnost-kak-udalit-lichnye-dann.md",
+      "number": "6.9",
+      "order": "31",
+      "pages": "13",
+      "pdf_heading": "6.9 Конфиденциальность. Как удалить личные данные",
+      "pdf_section": "6.9",
+      "source_refs": [
+        {
+          "global_pages": "13",
+          "pages": "13",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Конфиденциальность. Как удалить личные данные",
+      "tokens": 404
+    },
+    {
+      "file": "sections/32-video.md",
+      "number": "7",
+      "order": "32",
+      "pages": "13",
+      "pdf_heading": "7 Видео",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "13",
+          "pages": "13",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Видео",
+      "tokens": 54
+    },
+    {
+      "file": "sections/33-otkryvat-video-zvonki-vo-vneshnem-brauze.md",
+      "number": "7.1",
+      "order": "33",
+      "pages": "13-14",
+      "pdf_heading": "7.1 Открывать видео звонки во внешнем браузере",
+      "pdf_section": "7.1",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Открывать видео звонки во внешнем браузере",
+      "tokens": 470
+    },
+    {
+      "file": "sections/34-zvuk.md",
+      "number": "8",
+      "order": "34",
+      "pages": "14",
+      "pdf_heading": "8 Звук",
+      "pdf_section": "8",
+      "source_refs": [
+        {
+          "global_pages": "14",
+          "pages": "14",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Звук",
+      "tokens": 53
+    },
+    {
+      "file": "sections/35-izmenenie-parametrov-zvukovyh-ustroystva.md",
+      "number": "8.1",
+      "order": "35",
+      "pages": "14",
+      "pdf_heading": "8.1 Изменение параметров звуковых устройства",
+      "pdf_section": "8.1",
+      "source_refs": [
+        {
+          "global_pages": "14",
+          "pages": "14",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Изменение параметров звуковых устройства",
+      "tokens": 449
+    },
+    {
+      "file": "sections/36-kak-bystro-pereklyuchit-vyvod-zvuka-na-s.md",
+      "number": "8.2",
+      "order": "36",
+      "pages": "14-15",
+      "pdf_heading": "8.2 Как быстро переключить вывод звука на стороннюю гарнитуру",
+      "pdf_section": "8.2",
+      "source_refs": [
+        {
+          "global_pages": "14-15",
+          "pages": "14-15",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как быстро переключить вывод звука на стороннюю гарнитуру",
+      "tokens": 372
+    },
+    {
+      "file": "sections/37-sbros-nastroek-zvuka.md",
+      "number": "8.3",
+      "order": "37",
+      "pages": "15",
+      "pdf_heading": "8.3 Сброс настроек звука",
+      "pdf_section": "8.3",
+      "source_refs": [
+        {
+          "global_pages": "15",
+          "pages": "15",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Сброс настроек звука",
+      "tokens": 364
+    },
+    {
+      "file": "sections/38-avtopodnyatie-trubki-dlya-ishodyaschih-z.md",
+      "number": "8.4",
+      "order": "38",
+      "pages": "15-16",
+      "pdf_heading": "8.4 Автоподнятие трубки для исходящих звонков",
+      "pdf_section": "8.4",
+      "source_refs": [
+        {
+          "global_pages": "15-16",
+          "pages": "15-16",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Автоподнятие трубки для исходящих звонков",
+      "tokens": 623
+    },
+    {
+      "file": "sections/39-ispolzovat-vneshniy-telefon.md",
+      "number": "9",
+      "order": "39",
+      "pages": "16",
+      "pdf_heading": "9 Использовать внешний телефон",
+      "pdf_section": "9",
+      "source_refs": [
+        {
+          "global_pages": "16",
+          "pages": "16",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Использовать внешний телефон",
+      "tokens": 62
+    },
+    {
+      "file": "sections/40-obschie-svedeniya.md",
+      "number": "9.1",
+      "order": "40",
+      "pages": "16",
+      "pdf_heading": "9.1 Общие сведения",
+      "pdf_section": "9.1",
+      "source_refs": [
+        {
+          "global_pages": "16",
+          "pages": "16",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Общие сведения",
+      "tokens": 328
+    },
+    {
+      "file": "sections/41-vklyuchenie-funkcii-i-vvod-vneshnego-nom.md",
+      "number": "9.2",
+      "order": "41",
+      "pages": "16-17",
+      "pdf_heading": "9.2 Включение функции и ввод внешнего номера",
+      "pdf_section": "9.2",
+      "source_refs": [
+        {
+          "global_pages": "16-17",
+          "pages": "16-17",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Включение функции и ввод внешнего номера",
+      "tokens": 322
+    },
+    {
+      "file": "sections/42-tehnicheskie-nastroyki.md",
+      "number": "10",
+      "order": "42",
+      "pages": "17",
+      "pdf_heading": "10 Технические настройки",
+      "pdf_section": "10",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Технические настройки",
+      "tokens": 60
+    },
+    {
+      "file": "sections/43-podklyuchenie-k-seti.md",
+      "number": "10.1",
+      "order": "43",
+      "pages": "17",
+      "pdf_heading": "10.1 Подключение к сети",
+      "pdf_section": "10.1",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Подключение к сети",
+      "tokens": 62
+    },
+    {
+      "file": "sections/44-proksi-server.md",
+      "number": "10.1",
+      "order": "44",
+      "pages": "17",
+      "pdf_heading": "Прокси-сервер",
+      "pdf_section": "10.1",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Прокси-сервер",
+      "tokens": 366
+    },
+    {
+      "file": "sections/45-nastroyki-sip.md",
+      "number": "10.1",
+      "order": "45",
+      "pages": "17",
+      "pdf_heading": "Настройки SIP",
+      "pdf_section": "10.1",
+      "source_refs": [
+        {
+          "global_pages": "17",
+          "pages": "17",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Настройки SIP",
+      "tokens": 291
+    },
+    {
+      "file": "sections/46-vklyuchenie-vyklyuchenie-funkciy-cng-vad.md",
+      "number": "10.1",
+      "order": "46",
+      "pages": "17-18",
+      "pdf_heading": "Включение/выключение функций CNG, VAD, анти-эхо",
+      "pdf_section": "10.1",
+      "source_refs": [
+        {
+          "global_pages": "17-18",
+          "pages": "17-18",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Включение/выключение функций CNG, VAD, анти-эхо",
+      "tokens": 525
+    },
+    {
+      "file": "sections/47-kodeki.md",
+      "number": "10.2",
+      "order": "47",
+      "pages": "18",
+      "pdf_heading": "10.2 Кодеки",
+      "pdf_section": "10.2",
+      "source_refs": [
+        {
+          "global_pages": "18",
+          "pages": "18",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Кодеки",
+      "tokens": 58
+    },
+    {
+      "file": "sections/48-perechen-podderzhivaemyh-kodekov.md",
+      "number": "10.2",
+      "order": "48",
+      "pages": "18",
+      "pdf_heading": "Перечень поддерживаемых кодеков",
+      "pdf_section": "10.2",
+      "source_refs": [
+        {
+          "global_pages": "18",
+          "pages": "18",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Перечень поддерживаемых кодеков",
+      "tokens": 314
+    },
+    {
+      "file": "sections/49-vklyuchenie-i-vyklyuchenie-kodekov.md",
+      "number": "10.2",
+      "order": "49",
+      "pages": "18",
+      "pdf_heading": "Включение и выключение кодеков",
+      "pdf_section": "10.2",
+      "source_refs": [
+        {
+          "global_pages": "18",
+          "pages": "18",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Включение и выключение кодеков",
+      "tokens": 257
+    },
+    {
+      "file": "sections/50-nastroyka-prioriteta-ispolzovaniya-kodek.md",
+      "number": "10.2",
+      "order": "50",
+      "pages": "18-19",
+      "pdf_heading": "Настройка приоритета использования кодека",
+      "pdf_section": "10.2",
+      "source_refs": [
+        {
+          "global_pages": "18-19",
+          "pages": "18-19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Настройка приоритета использования кодека",
+      "tokens": 386
+    },
+    {
+      "file": "sections/51-zagruzka-nastroek-kodekov-s-servera.md",
+      "number": "10.2",
+      "order": "51",
+      "pages": "19",
+      "pdf_heading": "Загрузка настроек кодеков с сервера",
+      "pdf_section": "10.2",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Загрузка настроек кодеков с сервера",
+      "tokens": 225
+    },
+    {
+      "file": "sections/52-sessii-polzovatelya.md",
+      "number": "10.3",
+      "order": "52",
+      "pages": "19",
+      "pdf_heading": "10.3 Сессии пользователя",
+      "pdf_section": "10.3",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Сессии пользователя",
+      "tokens": 58
+    },
+    {
+      "file": "sections/53-kak-uznat-na-kakih-ustroystvah-otkryty-s.md",
+      "number": "10.3",
+      "order": "53",
+      "pages": "19",
+      "pdf_heading": "Как узнать, на каких устройствах открыты сессии пользователей",
+      "pdf_section": "10.3",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Как узнать, на каких устройствах открыты сессии пользователей",
+      "tokens": 268
+    },
+    {
+      "file": "sections/54-udalennyy-vyhod-iz-mtalker.md",
+      "number": "10.3",
+      "order": "54",
+      "pages": "19",
+      "pdf_heading": "Удаленный выход из MTalker",
+      "pdf_section": "10.3",
+      "source_refs": [
+        {
+          "global_pages": "19",
+          "pages": "19",
+          "part": 1,
+          "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+        }
+      ],
+      "title": "Удаленный выход из MTalker",
+      "tokens": 232
+    }
+  ],
+  "source_document": "windows-mac-settings",
+  "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf",
+  "source_pdfs": [
+    "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf"
+  ],
+  "source_set": "mtalker",
+  "source_sha256": "f19531f9c53c31c69cde21985d47c0c69fe6ed4e08125ce4fa7312ede7f499f0",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 19,
+      "source_pdf": "kb/sources/mtalker/mTalker_User_Guide_ch2_Settings.pdf",
+      "source_sha256": "f19531f9c53c31c69cde21985d47c0c69fe6ed4e08125ce4fa7312ede7f499f0"
+    }
+  ],
+  "table_count": 2,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 5241,
+  "tokens_total": 16436
+}

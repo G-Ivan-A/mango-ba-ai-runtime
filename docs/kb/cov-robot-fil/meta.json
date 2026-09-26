@@ -1,0 +1,2007 @@
+{
+  "body_font_size": 12.0,
+  "body_font_sizes": [
+    12.0
+  ],
+  "doc_code": "ROBOTFIL",
+  "doc_title": "Модуль ЦОВ «Робот Фил 2,0». Руководство пользователя",
+  "doc_version": "1.26.28",
+  "extracted_by": "pdfplumber 0.11.10",
+  "image_count": 455,
+  "image_extractor": "pymupdf 1.28.2",
+  "image_extractors": [
+    "pymupdf 1.28.2"
+  ],
+  "note": "Руководство пользователя модуля ЦОВ «Робот Фил 2,0» (v 1.26.28 по титульному листу; имя файла — manual_v7.26.28). Описывает голосового робота: сценарии обзвона, распознавание речи, настройку диалогов и отчётность.",
+  "page_count": 195,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 75,
+  "section_source": "typography-heuristic",
+  "section_sources": [
+    "typography-heuristic"
+  ],
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "number": "—",
+      "order": "00",
+      "pages": "1-5",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-5",
+          "pages": "1-5",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 2024
+    },
+    {
+      "file": "sections/01-stranica-avtorizacii.md",
+      "number": "1",
+      "order": "01",
+      "pages": "5-6",
+      "pdf_heading": "1. Страница авторизации",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Страница авторизации",
+      "tokens": 671
+    },
+    {
+      "file": "sections/02-robot-administrator.md",
+      "number": "2",
+      "order": "02",
+      "pages": "6-7",
+      "pdf_heading": "2. Робот-администратор",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "6-7",
+          "pages": "6-7",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Робот-администратор",
+      "tokens": 586
+    },
+    {
+      "file": "sections/03-kartochka-robota-administratora.md",
+      "number": "2.1",
+      "order": "03",
+      "pages": "7-12",
+      "pdf_heading": "2.1. Карточка робота-администратора",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "7-12",
+          "pages": "7-12",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Карточка робота-администратора",
+      "tokens": 1909
+    },
+    {
+      "file": "sections/04-skripty-robota-administratora.md",
+      "number": "2.2",
+      "order": "04",
+      "pages": "12-13",
+      "pdf_heading": "2.2. Скрипты робота-администратора",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "12-13",
+          "pages": "12-13",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Скрипты робота-администратора",
+      "tokens": 817
+    },
+    {
+      "file": "sections/05-nastroyki-vebhuka-robota-administratora.md",
+      "number": "2.3",
+      "order": "05",
+      "pages": "13-15",
+      "pdf_heading": "2.3. Настройки вебхука робота-администратора",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "13-15",
+          "pages": "13-15",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Настройки вебхука робота-администратора",
+      "tokens": 529
+    },
+    {
+      "file": "sections/06-roboty.md",
+      "number": "3",
+      "order": "06",
+      "pages": "15",
+      "pdf_heading": "3. Роботы",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "15",
+          "pages": "15",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Роботы",
+      "tokens": 212
+    },
+    {
+      "file": "sections/07-forma-pokupki-robotov.md",
+      "number": "3.1",
+      "order": "07",
+      "pages": "15-16",
+      "pdf_heading": "3.1. Форма покупки роботов",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "15-16",
+          "pages": "15-16",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Форма покупки роботов",
+      "tokens": 640
+    },
+    {
+      "file": "sections/08-stranica-roboty-mango-office.md",
+      "number": "3.2",
+      "order": "08",
+      "pages": "16-17",
+      "pdf_heading": "3.2. Страница «Роботы MANGO OFFICE»",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "16-17",
+          "pages": "16-17",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Страница «Роботы MANGO OFFICE»",
+      "tokens": 581
+    },
+    {
+      "file": "sections/09-kartochka-robota.md",
+      "number": "3.3",
+      "order": "09",
+      "pages": "17-20",
+      "pdf_heading": "3.3. Карточка робота",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "17-20",
+          "pages": "17-20",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Карточка робота",
+      "tokens": 1556
+    },
+    {
+      "file": "sections/10-skripty-dlya-robotov.md",
+      "number": "3.4",
+      "order": "10",
+      "pages": "20-28",
+      "pdf_heading": "3.4. Скрипты для роботов",
+      "pdf_section": "3.4",
+      "source_refs": [
+        {
+          "global_pages": "20-28",
+          "pages": "20-28",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Скрипты для роботов",
+      "tokens": 4808
+    },
+    {
+      "file": "sections/11-nastroyki-robota.md",
+      "number": "3.5",
+      "order": "11",
+      "pages": "28-32",
+      "pdf_heading": "3.5. Настройки Робота",
+      "pdf_section": "3.5",
+      "source_refs": [
+        {
+          "global_pages": "28-32",
+          "pages": "28-32",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Настройки Робота",
+      "tokens": 2155
+    },
+    {
+      "file": "sections/12-statistika-po-skriptu-robota.md",
+      "number": "3.6",
+      "order": "12",
+      "pages": "32-36",
+      "pdf_heading": "3.6. Статистика по скрипту робота",
+      "pdf_section": "3.6",
+      "source_refs": [
+        {
+          "global_pages": "32-36",
+          "pages": "32-36",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Статистика по скрипту робота",
+      "tokens": 2535
+    },
+    {
+      "file": "sections/13-analitika-po-golosovym-robotam.md",
+      "number": "3.7",
+      "order": "13",
+      "pages": "36-39",
+      "pdf_heading": "3.7. Аналитика по голосовым роботам",
+      "pdf_section": "3.7",
+      "source_refs": [
+        {
+          "global_pages": "36-39",
+          "pages": "36-39",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Аналитика по голосовым роботам",
+      "tokens": 1733
+    },
+    {
+      "file": "sections/14-chat-boty.md",
+      "number": "4",
+      "order": "14",
+      "pages": "39-41",
+      "pdf_heading": "4. Чат-боты",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "39-41",
+          "pages": "39-41",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Чат-боты",
+      "tokens": 817
+    },
+    {
+      "file": "sections/15-skripty-dlya-chat-botov.md",
+      "number": "4.1",
+      "order": "15",
+      "pages": "41-42",
+      "pdf_heading": "4.1. Скрипты для чат-ботов",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "41-42",
+          "pages": "41-42",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Скрипты для чат-ботов",
+      "tokens": 859
+    },
+    {
+      "file": "sections/16-nastroyki-chat-bota.md",
+      "number": "4.2",
+      "order": "16",
+      "pages": "42-44",
+      "pdf_heading": "4.2. Настройки Чат-бота",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "42-44",
+          "pages": "42-44",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Настройки Чат-бота",
+      "tokens": 663
+    },
+    {
+      "file": "sections/17-statistika-po-skriptu-chat-bota.md",
+      "number": "4.3",
+      "order": "17",
+      "pages": "44-46",
+      "pdf_heading": "4.3. Статистика по скрипту чат-бота",
+      "pdf_section": "4.3",
+      "source_refs": [
+        {
+          "global_pages": "44-46",
+          "pages": "44-46",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Статистика по скрипту чат-бота",
+      "tokens": 1324
+    },
+    {
+      "file": "sections/18-konstruktor-skriptov.md",
+      "number": "5",
+      "order": "18",
+      "pages": "46-49",
+      "pdf_heading": "5. Конструктор скриптов",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "46-49",
+          "pages": "46-49",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Конструктор скриптов",
+      "tokens": 2730
+    },
+    {
+      "file": "sections/19-blok-fraza-robota.md",
+      "number": "5.1",
+      "order": "19",
+      "pages": "49-59",
+      "pdf_heading": "5.1. Блок Фраза робота",
+      "pdf_section": "5.1",
+      "source_refs": [
+        {
+          "global_pages": "49-59",
+          "pages": "49-59",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Фраза робота",
+      "tokens": 5305
+    },
+    {
+      "file": "sections/20-blok-fraza-chat-bota.md",
+      "number": "5.2",
+      "order": "20",
+      "pages": "59-67",
+      "pdf_heading": "5.2. Блок Фраза чат-бота",
+      "pdf_section": "5.2",
+      "source_refs": [
+        {
+          "global_pages": "59-67",
+          "pages": "59-67",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Фраза чат-бота",
+      "tokens": 2743
+    },
+    {
+      "file": "sections/21-blok-golos-v-tekst.md",
+      "number": "5.3",
+      "order": "21",
+      "pages": "67-68",
+      "pdf_heading": "5.3. Блок Голос в текст",
+      "pdf_section": "5.3",
+      "source_refs": [
+        {
+          "global_pages": "67-68",
+          "pages": "67-68",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Голос в текст",
+      "tokens": 466
+    },
+    {
+      "file": "sections/22-blok-otpravit-sms.md",
+      "number": "5.4",
+      "order": "22",
+      "pages": "68-70",
+      "pdf_heading": "5.4. Блок Отправить СМС",
+      "pdf_section": "5.4",
+      "source_refs": [
+        {
+          "global_pages": "68-70",
+          "pages": "68-70",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Отправить СМС",
+      "tokens": 798
+    },
+    {
+      "file": "sections/23-blok-otpravit-e-mail.md",
+      "number": "5.5",
+      "order": "23",
+      "pages": "70-71",
+      "pdf_heading": "5.5. Блок Отправить E-mail",
+      "pdf_section": "5.5",
+      "source_refs": [
+        {
+          "global_pages": "70-71",
+          "pages": "70-71",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Отправить E-mail",
+      "tokens": 721
+    },
+    {
+      "file": "sections/24-blok-otpravit-http-zapros.md",
+      "number": "5.6",
+      "order": "24",
+      "pages": "71-77",
+      "pdf_heading": "5.6. Блок Отправить http-запрос",
+      "pdf_section": "5.6",
+      "source_refs": [
+        {
+          "global_pages": "71-77",
+          "pages": "71-77",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Отправить http-запрос",
+      "tokens": 3171
+    },
+    {
+      "file": "sections/25-1-posledovatelno-pereyti-v-razdel-razrab.md",
+      "number": "5.6",
+      "order": "25",
+      "pages": "77",
+      "pdf_heading": "1) Последовательно перейти в раздел Разработчикам → Интеграции",
+      "pdf_section": "5.6",
+      "source_refs": [
+        {
+          "global_pages": "77",
+          "pages": "77",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "1) Последовательно перейти в раздел Разработчикам → Интеграции",
+      "tokens": 209
+    },
+    {
+      "file": "sections/26-blok-dobavit-tematiku.md",
+      "number": "5.7",
+      "order": "26",
+      "pages": "77-79",
+      "pdf_heading": "5.7. Блок Добавить тематику",
+      "pdf_section": "5.7",
+      "source_refs": [
+        {
+          "global_pages": "77-79",
+          "pages": "77-79",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Добавить тематику",
+      "tokens": 961
+    },
+    {
+      "file": "sections/27-blok-perevesti-zvonok.md",
+      "number": "5.8",
+      "order": "27",
+      "pages": "79-81",
+      "pdf_heading": "5.8. Блок Перевести звонок",
+      "pdf_section": "5.8",
+      "source_refs": [
+        {
+          "global_pages": "79-81",
+          "pages": "79-81",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Перевести звонок",
+      "tokens": 964
+    },
+    {
+      "file": "sections/28-blok-sravnit-znachenie.md",
+      "number": "5.9",
+      "order": "28",
+      "pages": "81-84",
+      "pdf_heading": "5.9. Блок Сравнить значение",
+      "pdf_section": "5.9",
+      "source_refs": [
+        {
+          "global_pages": "81-84",
+          "pages": "81-84",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Сравнить значение",
+      "tokens": 1039
+    },
+    {
+      "file": "sections/29-blok-vychislit.md",
+      "number": "5.10",
+      "order": "29",
+      "pages": "84-86",
+      "pdf_heading": "5.10. Блок Вычислить",
+      "pdf_section": "5.10",
+      "source_refs": [
+        {
+          "global_pages": "84-86",
+          "pages": "84-86",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Вычислить",
+      "tokens": 1419
+    },
+    {
+      "file": "sections/30-blok-perezvonit-abonentu.md",
+      "number": "5.11",
+      "order": "30",
+      "pages": "86-88",
+      "pdf_heading": "5.11. Блок Перезвонить абоненту",
+      "pdf_section": "5.11",
+      "source_refs": [
+        {
+          "global_pages": "86-88",
+          "pages": "86-88",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Перезвонить абоненту",
+      "tokens": 929
+    },
+    {
+      "file": "sections/31-blok-integraciya.md",
+      "number": "5.12",
+      "order": "31",
+      "pages": "88-116",
+      "pdf_heading": "5.12. Блок Интеграция",
+      "pdf_section": "5.12",
+      "source_refs": [
+        {
+          "global_pages": "88-116",
+          "pages": "88-116",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Интеграция",
+      "tokens": 11706
+    },
+    {
+      "file": "sections/32-blok-raspisanie.md",
+      "number": "5.13",
+      "order": "32",
+      "pages": "116-117",
+      "pdf_heading": "5.13. Блок Расписание",
+      "pdf_section": "5.13",
+      "source_refs": [
+        {
+          "global_pages": "116-117",
+          "pages": "116-117",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Расписание",
+      "tokens": 501
+    },
+    {
+      "file": "sections/33-blok-zavershit.md",
+      "number": "5.14",
+      "order": "33",
+      "pages": "117",
+      "pdf_heading": "5.14. Блок Завершить",
+      "pdf_section": "5.14",
+      "source_refs": [
+        {
+          "global_pages": "117",
+          "pages": "117",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Завершить",
+      "tokens": 352
+    },
+    {
+      "file": "sections/34-blok-cikl.md",
+      "number": "5.15",
+      "order": "34",
+      "pages": "117-121",
+      "pdf_heading": "5.15. Блок Цикл",
+      "pdf_section": "5.15",
+      "source_refs": [
+        {
+          "global_pages": "117-121",
+          "pages": "117-121",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Цикл",
+      "tokens": 1636
+    },
+    {
+      "file": "sections/35-blok-vhod-v-proceduru.md",
+      "number": "5.16",
+      "order": "35",
+      "pages": "121-122",
+      "pdf_heading": "5.16. Блок Вход в процедуру",
+      "pdf_section": "5.16",
+      "source_refs": [
+        {
+          "global_pages": "121-122",
+          "pages": "121-122",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Вход в процедуру",
+      "tokens": 528
+    },
+    {
+      "file": "sections/36-blok-fonovye-sobytiya.md",
+      "number": "5.17",
+      "order": "36",
+      "pages": "122-125",
+      "pdf_heading": "5.17. Блок Фоновые события",
+      "pdf_section": "5.17",
+      "source_refs": [
+        {
+          "global_pages": "122-125",
+          "pages": "122-125",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Фоновые события",
+      "tokens": 1307
+    },
+    {
+      "file": "sections/37-blok-fonovye-deystviya.md",
+      "number": "5.18",
+      "order": "37",
+      "pages": "125-128",
+      "pdf_heading": "5.18. Блок Фоновые действия",
+      "pdf_section": "5.18",
+      "source_refs": [
+        {
+          "global_pages": "125-128",
+          "pages": "125-128",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Фоновые действия",
+      "tokens": 1121
+    },
+    {
+      "file": "sections/38-blok-rezhim-ozhidaniya.md",
+      "number": "5.19",
+      "order": "38",
+      "pages": "128-130",
+      "pdf_heading": "5.19. Блок Режим ожидания",
+      "pdf_section": "5.19",
+      "source_refs": [
+        {
+          "global_pages": "128-130",
+          "pages": "128-130",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Режим ожидания",
+      "tokens": 947
+    },
+    {
+      "file": "sections/39-blok-rabota-s-pamyatyu.md",
+      "number": "5.20",
+      "order": "39",
+      "pages": "130-132",
+      "pdf_heading": "5.20. Блок Работа с памятью",
+      "pdf_section": "5.20",
+      "source_refs": [
+        {
+          "global_pages": "130-132",
+          "pages": "130-132",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Работа с памятью",
+      "tokens": 1245
+    },
+    {
+      "file": "sections/40-blok-perevesti-chat.md",
+      "number": "5.21",
+      "order": "40",
+      "pages": "132-133",
+      "pdf_heading": "5.21. Блок Перевести чат",
+      "pdf_section": "5.21",
+      "source_refs": [
+        {
+          "global_pages": "132-133",
+          "pages": "132-133",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Перевести чат",
+      "tokens": 530
+    },
+    {
+      "file": "sections/41-blok-vernutsya.md",
+      "number": "5.22",
+      "order": "41",
+      "pages": "133-134",
+      "pdf_heading": "5.22. Блок Вернуться",
+      "pdf_section": "5.22",
+      "source_refs": [
+        {
+          "global_pages": "133-134",
+          "pages": "133-134",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Вернуться",
+      "tokens": 497
+    },
+    {
+      "file": "sections/42-blok-perehod-v-skript.md",
+      "number": "5.23",
+      "order": "42",
+      "pages": "134-135",
+      "pdf_heading": "5.23. Блок Переход в скрипт",
+      "pdf_section": "5.23",
+      "source_refs": [
+        {
+          "global_pages": "134-135",
+          "pages": "134-135",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок Переход в скрипт",
+      "tokens": 1075
+    },
+    {
+      "file": "sections/43-blok-ai-assistent-dlya-chat-botov.md",
+      "number": "5.24",
+      "order": "43",
+      "pages": "135-140",
+      "pdf_heading": "5.24. Блок AI-ассистент для чат-ботов",
+      "pdf_section": "5.24",
+      "source_refs": [
+        {
+          "global_pages": "135-140",
+          "pages": "135-140",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок AI-ассистент для чат-ботов",
+      "tokens": 2201
+    },
+    {
+      "file": "sections/44-blok-ai-assistent-dlya-golosovyh-robotov.md",
+      "number": "5.25",
+      "order": "44",
+      "pages": "140-142",
+      "pdf_heading": "5.25. Блок AI-ассистент для голосовых роботов",
+      "pdf_section": "5.25",
+      "source_refs": [
+        {
+          "global_pages": "140-142",
+          "pages": "140-142",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Блок AI-ассистент для голосовых роботов",
+      "tokens": 1710
+    },
+    {
+      "file": "sections/45-nastroyki-integraciy.md",
+      "number": "6",
+      "order": "45",
+      "pages": "142",
+      "pdf_heading": "6. Настройки интеграций",
+      "pdf_section": "6",
+      "source_refs": [
+        {
+          "global_pages": "142",
+          "pages": "142",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Настройки интеграций",
+      "tokens": 84
+    },
+    {
+      "file": "sections/46-integraciya-s-amocrm.md",
+      "number": "6.1",
+      "order": "46",
+      "pages": "142-146",
+      "pdf_heading": "6.1. Интеграция с AmoCRM",
+      "pdf_section": "6.1",
+      "source_refs": [
+        {
+          "global_pages": "142-146",
+          "pages": "142-146",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с AmoCRM",
+      "tokens": 995
+    },
+    {
+      "file": "sections/47-integraciya-s-mis-infoklinika.md",
+      "number": "6.2",
+      "order": "47",
+      "pages": "146-148",
+      "pdf_heading": "6.2. Интеграция с МИС Инфоклиника",
+      "pdf_section": "6.2",
+      "source_refs": [
+        {
+          "global_pages": "146-148",
+          "pages": "146-148",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с МИС Инфоклиника",
+      "tokens": 779
+    },
+    {
+      "file": "sections/48-integraciya-s-mango-dialogi.md",
+      "number": "6.3",
+      "order": "48",
+      "pages": "148-149",
+      "pdf_heading": "6.3. Интеграция с MANGO Диалоги",
+      "pdf_section": "6.3",
+      "source_refs": [
+        {
+          "global_pages": "148-149",
+          "pages": "148-149",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с MANGO Диалоги",
+      "tokens": 440
+    },
+    {
+      "file": "sections/49-integraciya-s-bitriks24.md",
+      "number": "6.4",
+      "order": "49",
+      "pages": "149",
+      "pdf_heading": "6.4. Интеграция с Битрикс24",
+      "pdf_section": "6.4",
+      "source_refs": [
+        {
+          "global_pages": "149",
+          "pages": "149",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с Битрикс24",
+      "tokens": 486
+    },
+    {
+      "file": "sections/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk.md",
+      "number": "6.4",
+      "order": "50",
+      "pages": "149-151",
+      "pdf_heading": "Разработчикам → Другое → Входящий вебхук: https://ваше_имя _CRM/devops/section/standard/",
+      "pdf_section": "6.4",
+      "source_refs": [
+        {
+          "global_pages": "149-151",
+          "pages": "149-151",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Разработчикам → Другое → Входящий вебхук: https://ваше_имя _CRM/devops/section/standard/",
+      "tokens": 500
+    },
+    {
+      "file": "sections/51-integraciya-s-iiko.md",
+      "number": "6.5",
+      "order": "51",
+      "pages": "151-153",
+      "pdf_heading": "6.5. Интеграция с IIKO",
+      "pdf_section": "6.5",
+      "source_refs": [
+        {
+          "global_pages": "151-153",
+          "pages": "151-153",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с IIKO",
+      "tokens": 643
+    },
+    {
+      "file": "sections/52-integraciya-s-yclients.md",
+      "number": "6.6",
+      "order": "52",
+      "pages": "153-155",
+      "pdf_heading": "6.6. Интеграция с YCLIENTS",
+      "pdf_section": "6.6",
+      "source_refs": [
+        {
+          "global_pages": "153-155",
+          "pages": "153-155",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с YCLIENTS",
+      "tokens": 701
+    },
+    {
+      "file": "sections/53-integraciya-s-dadata.md",
+      "number": "6.7",
+      "order": "53",
+      "pages": "155-157",
+      "pdf_heading": "6.7. Интеграция с DaData",
+      "pdf_section": "6.7",
+      "source_refs": [
+        {
+          "global_pages": "155-157",
+          "pages": "155-157",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с DaData",
+      "tokens": 821
+    },
+    {
+      "file": "sections/54-integraciya-s-api-konnektor-mango-office.md",
+      "number": "6.8",
+      "order": "54",
+      "pages": "157-158",
+      "pdf_heading": "6.8. Интеграция с API Коннектор MANGO OFFICE",
+      "pdf_section": "6.8",
+      "source_refs": [
+        {
+          "global_pages": "157-158",
+          "pages": "157-158",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с API Коннектор MANGO OFFICE",
+      "tokens": 498
+    },
+    {
+      "file": "sections/55-integraciya-s-e-staff.md",
+      "number": "6.9",
+      "order": "55",
+      "pages": "158-160",
+      "pdf_heading": "6.9. Интеграция с E-Staff",
+      "pdf_section": "6.9",
+      "source_refs": [
+        {
+          "global_pages": "158-160",
+          "pages": "158-160",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с E-Staff",
+      "tokens": 537
+    },
+    {
+      "file": "sections/56-integraciya-s-retailcrm.md",
+      "number": "6.10",
+      "order": "56",
+      "pages": "160-161",
+      "pdf_heading": "6.10. Интеграция с RetailCRM",
+      "pdf_section": "6.10",
+      "source_refs": [
+        {
+          "global_pages": "160-161",
+          "pages": "160-161",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Интеграция с RetailCRM",
+      "tokens": 581
+    },
+    {
+      "file": "sections/57-peremennye.md",
+      "number": "7",
+      "order": "57",
+      "pages": "161-166",
+      "pdf_heading": "7. Переменные",
+      "pdf_section": "7",
+      "source_refs": [
+        {
+          "global_pages": "161-166",
+          "pages": "161-166",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Переменные",
+      "tokens": 1940
+    },
+    {
+      "file": "sections/58-spravochnik-otvetov.md",
+      "number": "8",
+      "order": "58",
+      "pages": "166-172",
+      "pdf_heading": "8. Справочник ответов",
+      "pdf_section": "8",
+      "source_refs": [
+        {
+          "global_pages": "166-172",
+          "pages": "166-172",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Справочник ответов",
+      "tokens": 2744
+    },
+    {
+      "file": "sections/59-procedury.md",
+      "number": "9",
+      "order": "59",
+      "pages": "172",
+      "pdf_heading": "9. Процедуры",
+      "pdf_section": "9",
+      "source_refs": [
+        {
+          "global_pages": "172",
+          "pages": "172",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Процедуры",
+      "tokens": 307
+    },
+    {
+      "file": "sections/60-sozdanie-procedury.md",
+      "number": "9.1",
+      "order": "60",
+      "pages": "172-174",
+      "pdf_heading": "9.1. Создание процедуры",
+      "pdf_section": "9.1",
+      "source_refs": [
+        {
+          "global_pages": "172-174",
+          "pages": "172-174",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Создание процедуры",
+      "tokens": 689
+    },
+    {
+      "file": "sections/61-kopirovanie-peremeschenie-i-redaktirovan.md",
+      "number": "9.2",
+      "order": "61",
+      "pages": "174-175",
+      "pdf_heading": "9.2. Копирование, перемещение и редактирование процедуры",
+      "pdf_section": "9.2",
+      "source_refs": [
+        {
+          "global_pages": "174-175",
+          "pages": "174-175",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Копирование, перемещение и редактирование процедуры",
+      "tokens": 435
+    },
+    {
+      "file": "sections/62-udalenie-procedury.md",
+      "number": "9.3",
+      "order": "62",
+      "pages": "175",
+      "pdf_heading": "9.3. Удаление процедуры",
+      "pdf_section": "9.3",
+      "source_refs": [
+        {
+          "global_pages": "175",
+          "pages": "175",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Удаление процедуры",
+      "tokens": 135
+    },
+    {
+      "file": "sections/63-uslugi.md",
+      "number": "10",
+      "order": "63",
+      "pages": "175",
+      "pdf_heading": "10. Услуги",
+      "pdf_section": "10",
+      "source_refs": [
+        {
+          "global_pages": "175",
+          "pages": "175",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Услуги",
+      "tokens": 78
+    },
+    {
+      "file": "sections/64-yandexgpt.md",
+      "number": "10.1",
+      "order": "64",
+      "pages": "175-176",
+      "pdf_heading": "10.1. YandexGPT",
+      "pdf_section": "10.1",
+      "source_refs": [
+        {
+          "global_pages": "175-176",
+          "pages": "175-176",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "YandexGPT",
+      "tokens": 534
+    },
+    {
+      "file": "sections/65-mnogokanalnyy-robot.md",
+      "number": "10.2",
+      "order": "65",
+      "pages": "176-177",
+      "pdf_heading": "10.2. Многоканальный робот",
+      "pdf_section": "10.2",
+      "source_refs": [
+        {
+          "global_pages": "176-177",
+          "pages": "176-177",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Многоканальный робот",
+      "tokens": 314
+    },
+    {
+      "file": "sections/66-spravochnik-nlu.md",
+      "number": "11",
+      "order": "66",
+      "pages": "177-178",
+      "pdf_heading": "11. Справочник NLU",
+      "pdf_section": "11",
+      "source_refs": [
+        {
+          "global_pages": "177-178",
+          "pages": "177-178",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Справочник NLU",
+      "tokens": 366
+    },
+    {
+      "file": "sections/67-sozdanie-spravochnika-nlu.md",
+      "number": "11.1",
+      "order": "67",
+      "pages": "178-180",
+      "pdf_heading": "11.1. Создание Справочника NLU",
+      "pdf_section": "11.1",
+      "source_refs": [
+        {
+          "global_pages": "178-180",
+          "pages": "178-180",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Создание Справочника NLU",
+      "tokens": 1023
+    },
+    {
+      "file": "sections/68-primer-sozdaniya-i-nastroyki-spravochnik.md",
+      "number": "11.2",
+      "order": "68",
+      "pages": "180-182",
+      "pdf_heading": "11.2. Пример создания и настройки Справочника NLU",
+      "pdf_section": "11.2",
+      "source_refs": [
+        {
+          "global_pages": "180-182",
+          "pages": "180-182",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Пример создания и настройки Справочника NLU",
+      "tokens": 1049
+    },
+    {
+      "file": "sections/69-import-i-eksport-spravochnika-nlu.md",
+      "number": "11.3",
+      "order": "69",
+      "pages": "182-183",
+      "pdf_heading": "11.3. Импорт и экспорт Справочника NLU",
+      "pdf_section": "11.3",
+      "source_refs": [
+        {
+          "global_pages": "182-183",
+          "pages": "182-183",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Импорт и экспорт Справочника NLU",
+      "tokens": 984
+    },
+    {
+      "file": "sections/70-rabota-s-hranilischem-dokumentov-rag.md",
+      "number": "11.4",
+      "order": "70",
+      "pages": "183-185",
+      "pdf_heading": "11.4. Работа с хранилищем документов (RAG)",
+      "pdf_section": "11.4",
+      "source_refs": [
+        {
+          "global_pages": "183-185",
+          "pages": "183-185",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Работа с хранилищем документов (RAG)",
+      "tokens": 1327
+    },
+    {
+      "file": "sections/71-dopolnitelnye-vozmozhnosti.md",
+      "number": "12",
+      "order": "71",
+      "pages": "185",
+      "pdf_heading": "12. Дополнительные возможности",
+      "pdf_section": "12",
+      "source_refs": [
+        {
+          "global_pages": "185",
+          "pages": "185",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Дополнительные возможности",
+      "tokens": 82
+    },
+    {
+      "file": "sections/72-google-analytics-i-yandeks-metrika.md",
+      "number": "12.1",
+      "order": "72",
+      "pages": "185-194",
+      "pdf_heading": "12.1. Google Analytics и Яндекс Метрика",
+      "pdf_section": "12.1",
+      "source_refs": [
+        {
+          "global_pages": "185-194",
+          "pages": "185-194",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Google Analytics и Яндекс Метрика",
+      "tokens": 5557
+    },
+    {
+      "file": "sections/73-podderzhka-kombinaciy-klavish-dlya-macos.md",
+      "number": "12.2",
+      "order": "73",
+      "pages": "194",
+      "pdf_heading": "12.2. Поддержка комбинаций клавиш для MacOS",
+      "pdf_section": "12.2",
+      "source_refs": [
+        {
+          "global_pages": "194",
+          "pages": "194",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Поддержка комбинаций клавиш для MacOS",
+      "tokens": 179
+    },
+    {
+      "file": "sections/74-forma-obratnoy-svyazi.md",
+      "number": "13",
+      "order": "74",
+      "pages": "194-195",
+      "pdf_heading": "13. Форма обратной связи",
+      "pdf_section": "13",
+      "source_refs": [
+        {
+          "global_pages": "194-195",
+          "pages": "194-195",
+          "part": 1,
+          "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+        }
+      ],
+      "title": "Форма обратной связи",
+      "tokens": 338
+    }
+  ],
+  "source_document": "cov-robot-fil",
+  "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf",
+  "source_pdfs": [
+    "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf"
+  ],
+  "source_set": "cov-robot-fil",
+  "source_sha256": "f2bc9fd84a9c24c56064d4631f2220ae4da9fa669e471d4fc3a43dac536243fc",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 195,
+      "source_pdf": "kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf",
+      "source_sha256": "f2bc9fd84a9c24c56064d4631f2220ae4da9fa669e471d4fc3a43dac536243fc"
+    }
+  ],
+  "table_count": 41,
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 7775,
+  "tokens_total": 96376,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 515,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-08-25",
+    "method": "cross-engine (pdfplumber -> PyMuPDF re-read of the same pages)",
+    "pages_without_text_layer": 0,
+    "sections": [
+      {
+        "critical_tokens": 115,
+        "file": "sections/00-titulnaya-chast.md",
+        "gap_pages": [],
+        "pages": "1-5",
+        "title": "Титульная часть",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/01-stranica-avtorizacii.md",
+        "gap_pages": [],
+        "pages": "5-6",
+        "title": "Страница авторизации",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/02-robot-administrator.md",
+        "gap_pages": [],
+        "pages": "6-7",
+        "title": "Робот-администратор",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/03-kartochka-robota-administratora.md",
+        "gap_pages": [],
+        "pages": "7-12",
+        "title": "Карточка робота-администратора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/04-skripty-robota-administratora.md",
+        "gap_pages": [],
+        "pages": "12-13",
+        "title": "Скрипты робота-администратора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/05-nastroyki-vebhuka-robota-administratora.md",
+        "gap_pages": [],
+        "pages": "13-15",
+        "title": "Настройки вебхука робота-администратора",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/06-roboty.md",
+        "gap_pages": [],
+        "pages": "15",
+        "title": "Роботы",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/07-forma-pokupki-robotov.md",
+        "gap_pages": [],
+        "pages": "15-16",
+        "title": "Форма покупки роботов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/08-stranica-roboty-mango-office.md",
+        "gap_pages": [],
+        "pages": "16-17",
+        "title": "Страница «Роботы MANGO OFFICE»",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/09-kartochka-robota.md",
+        "gap_pages": [],
+        "pages": "17-20",
+        "title": "Карточка робота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/10-skripty-dlya-robotov.md",
+        "gap_pages": [],
+        "pages": "20-28",
+        "title": "Скрипты для роботов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/11-nastroyki-robota.md",
+        "gap_pages": [],
+        "pages": "28-32",
+        "title": "Настройки Робота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/12-statistika-po-skriptu-robota.md",
+        "gap_pages": [],
+        "pages": "32-36",
+        "title": "Статистика по скрипту робота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/13-analitika-po-golosovym-robotam.md",
+        "gap_pages": [],
+        "pages": "36-39",
+        "title": "Аналитика по голосовым роботам",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/14-chat-boty.md",
+        "gap_pages": [],
+        "pages": "39-41",
+        "title": "Чат-боты",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/15-skripty-dlya-chat-botov.md",
+        "gap_pages": [],
+        "pages": "41-42",
+        "title": "Скрипты для чат-ботов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/16-nastroyki-chat-bota.md",
+        "gap_pages": [],
+        "pages": "42-44",
+        "title": "Настройки Чат-бота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/17-statistika-po-skriptu-chat-bota.md",
+        "gap_pages": [],
+        "pages": "44-46",
+        "title": "Статистика по скрипту чат-бота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/18-konstruktor-skriptov.md",
+        "gap_pages": [],
+        "pages": "46-49",
+        "title": "Конструктор скриптов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 20,
+        "file": "sections/19-blok-fraza-robota.md",
+        "gap_pages": [],
+        "pages": "49-59",
+        "title": "Блок Фраза робота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 13,
+        "file": "sections/20-blok-fraza-chat-bota.md",
+        "gap_pages": [],
+        "pages": "59-67",
+        "title": "Блок Фраза чат-бота",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/21-blok-golos-v-tekst.md",
+        "gap_pages": [],
+        "pages": "67-68",
+        "title": "Блок Голос в текст",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/22-blok-otpravit-sms.md",
+        "gap_pages": [],
+        "pages": "68-70",
+        "title": "Блок Отправить СМС",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/23-blok-otpravit-e-mail.md",
+        "gap_pages": [],
+        "pages": "70-71",
+        "title": "Блок Отправить E-mail",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 64,
+        "file": "sections/24-blok-otpravit-http-zapros.md",
+        "gap_pages": [],
+        "pages": "71-77",
+        "title": "Блок Отправить http-запрос",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/25-1-posledovatelno-pereyti-v-razdel-razrab.md",
+        "gap_pages": [],
+        "pages": "77",
+        "title": "1) Последовательно перейти в раздел Разработчикам → Интеграции",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/26-blok-dobavit-tematiku.md",
+        "gap_pages": [],
+        "pages": "77-79",
+        "title": "Блок Добавить тематику",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/27-blok-perevesti-zvonok.md",
+        "gap_pages": [],
+        "pages": "79-81",
+        "title": "Блок Перевести звонок",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/28-blok-sravnit-znachenie.md",
+        "gap_pages": [],
+        "pages": "81-84",
+        "title": "Блок Сравнить значение",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 15,
+        "file": "sections/29-blok-vychislit.md",
+        "gap_pages": [],
+        "pages": "84-86",
+        "title": "Блок Вычислить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/30-blok-perezvonit-abonentu.md",
+        "gap_pages": [],
+        "pages": "86-88",
+        "title": "Блок Перезвонить абоненту",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 36,
+        "file": "sections/31-blok-integraciya.md",
+        "gap_pages": [],
+        "pages": "88-116",
+        "title": "Блок Интеграция",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/32-blok-raspisanie.md",
+        "gap_pages": [],
+        "pages": "116-117",
+        "title": "Блок Расписание",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/33-blok-zavershit.md",
+        "gap_pages": [],
+        "pages": "117",
+        "title": "Блок Завершить",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/34-blok-cikl.md",
+        "gap_pages": [],
+        "pages": "117-121",
+        "title": "Блок Цикл",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/35-blok-vhod-v-proceduru.md",
+        "gap_pages": [],
+        "pages": "121-122",
+        "title": "Блок Вход в процедуру",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/36-blok-fonovye-sobytiya.md",
+        "gap_pages": [],
+        "pages": "122-125",
+        "title": "Блок Фоновые события",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 10,
+        "file": "sections/37-blok-fonovye-deystviya.md",
+        "gap_pages": [],
+        "pages": "125-128",
+        "title": "Блок Фоновые действия",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/38-blok-rezhim-ozhidaniya.md",
+        "gap_pages": [],
+        "pages": "128-130",
+        "title": "Блок Режим ожидания",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/39-blok-rabota-s-pamyatyu.md",
+        "gap_pages": [],
+        "pages": "130-132",
+        "title": "Блок Работа с памятью",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/40-blok-perevesti-chat.md",
+        "gap_pages": [],
+        "pages": "132-133",
+        "title": "Блок Перевести чат",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/41-blok-vernutsya.md",
+        "gap_pages": [],
+        "pages": "133-134",
+        "title": "Блок Вернуться",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/42-blok-perehod-v-skript.md",
+        "gap_pages": [],
+        "pages": "134-135",
+        "title": "Блок Переход в скрипт",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 7,
+        "file": "sections/43-blok-ai-assistent-dlya-chat-botov.md",
+        "gap_pages": [],
+        "pages": "135-140",
+        "title": "Блок AI-ассистент для чат-ботов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/44-blok-ai-assistent-dlya-golosovyh-robotov.md",
+        "gap_pages": [],
+        "pages": "140-142",
+        "title": "Блок AI-ассистент для голосовых роботов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/45-nastroyki-integraciy.md",
+        "gap_pages": [],
+        "pages": "142",
+        "title": "Настройки интеграций",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 9,
+        "file": "sections/46-integraciya-s-amocrm.md",
+        "gap_pages": [],
+        "pages": "142-146",
+        "title": "Интеграция с AmoCRM",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/47-integraciya-s-mis-infoklinika.md",
+        "gap_pages": [],
+        "pages": "146-148",
+        "title": "Интеграция с МИС Инфоклиника",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/48-integraciya-s-mango-dialogi.md",
+        "gap_pages": [],
+        "pages": "148-149",
+        "title": "Интеграция с MANGO Диалоги",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/49-integraciya-s-bitriks24.md",
+        "gap_pages": [],
+        "pages": "149",
+        "title": "Интеграция с Битрикс24",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 8,
+        "file": "sections/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk.md",
+        "gap_pages": [],
+        "pages": "149-151",
+        "title": "Разработчикам → Другое → Входящий вебхук: https://ваше_имя _CRM/devops/section/standard/",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/51-integraciya-s-iiko.md",
+        "gap_pages": [],
+        "pages": "151-153",
+        "title": "Интеграция с IIKO",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/52-integraciya-s-yclients.md",
+        "gap_pages": [],
+        "pages": "153-155",
+        "title": "Интеграция с YCLIENTS",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 6,
+        "file": "sections/53-integraciya-s-dadata.md",
+        "gap_pages": [],
+        "pages": "155-157",
+        "title": "Интеграция с DaData",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/54-integraciya-s-api-konnektor-mango-office.md",
+        "gap_pages": [],
+        "pages": "157-158",
+        "title": "Интеграция с API Коннектор MANGO OFFICE",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/55-integraciya-s-e-staff.md",
+        "gap_pages": [],
+        "pages": "158-160",
+        "title": "Интеграция с E-Staff",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/56-integraciya-s-retailcrm.md",
+        "gap_pages": [],
+        "pages": "160-161",
+        "title": "Интеграция с RetailCRM",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 20,
+        "file": "sections/57-peremennye.md",
+        "gap_pages": [],
+        "pages": "161-166",
+        "title": "Переменные",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/58-spravochnik-otvetov.md",
+        "gap_pages": [],
+        "pages": "166-172",
+        "title": "Справочник ответов",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/59-procedury.md",
+        "gap_pages": [],
+        "pages": "172",
+        "title": "Процедуры",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/60-sozdanie-procedury.md",
+        "gap_pages": [],
+        "pages": "172-174",
+        "title": "Создание процедуры",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/61-kopirovanie-peremeschenie-i-redaktirovan.md",
+        "gap_pages": [],
+        "pages": "174-175",
+        "title": "Копирование, перемещение и редактирование процедуры",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/62-udalenie-procedury.md",
+        "gap_pages": [],
+        "pages": "175",
+        "title": "Удаление процедуры",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/63-uslugi.md",
+        "gap_pages": [],
+        "pages": "175",
+        "title": "Услуги",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/64-yandexgpt.md",
+        "gap_pages": [],
+        "pages": "175-176",
+        "title": "YandexGPT",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/65-mnogokanalnyy-robot.md",
+        "gap_pages": [],
+        "pages": "176-177",
+        "title": "Многоканальный робот",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 1,
+        "file": "sections/66-spravochnik-nlu.md",
+        "gap_pages": [],
+        "pages": "177-178",
+        "title": "Справочник NLU",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/67-sozdanie-spravochnika-nlu.md",
+        "gap_pages": [],
+        "pages": "178-180",
+        "title": "Создание Справочника NLU",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 2,
+        "file": "sections/68-primer-sozdaniya-i-nastroyki-spravochnik.md",
+        "gap_pages": [],
+        "pages": "180-182",
+        "title": "Пример создания и настройки Справочника NLU",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 3,
+        "file": "sections/69-import-i-eksport-spravochnika-nlu.md",
+        "gap_pages": [],
+        "pages": "182-183",
+        "title": "Импорт и экспорт Справочника NLU",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 5,
+        "file": "sections/70-rabota-s-hranilischem-dokumentov-rag.md",
+        "gap_pages": [],
+        "pages": "183-185",
+        "title": "Работа с хранилищем документов (RAG)",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/71-dopolnitelnye-vozmozhnosti.md",
+        "gap_pages": [],
+        "pages": "185",
+        "title": "Дополнительные возможности",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 15,
+        "file": "sections/72-google-analytics-i-yandeks-metrika.md",
+        "gap_pages": [],
+        "pages": "185-194",
+        "title": "Google Analytics и Яндекс Метрика",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 4,
+        "file": "sections/73-podderzhka-kombinaciy-klavish-dlya-macos.md",
+        "gap_pages": [],
+        "pages": "194",
+        "title": "Поддержка комбинаций клавиш для MacOS",
+        "unconfirmed": []
+      },
+      {
+        "critical_tokens": 0,
+        "file": "sections/74-forma-obratnoy-svyazi.md",
+        "gap_pages": [],
+        "pages": "194-195",
+        "title": "Форма обратной связи",
+        "unconfirmed": []
+      }
+    ],
+    "verifier_engine": "PyMuPDF 1.28.2"
+  }
+}

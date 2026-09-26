@@ -3,19 +3,19 @@
 # Манифест — единственное место пакета, где Хаб упоминается как источник.
 # Ни один артефакт времени выполнения на Хаб не ссылается (контракт 2).
 manifest: execution-package-mvp-bcreq
-version: "0.4"
+version: "0.5"
 meta_model_version: "0.4"
-compiled_at: 2026-09-19
+compiled_at: 2026-09-26
 hub_ssot: https://github.com/G-Ivan-A/hybrid-Intelligence-lab
 hub_commit: dbf3baa96d3585150974212254af81bcf7b03150
 target_spoke: mango-ba-ai-runtime
 slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-center, процессы P-01, P-02, P-03"
 
-# Спутник может быть развёрнут там, где доступа к Хабу нет (например, GitVerse).
-# Поэтому пакет содержит физические копии всего необходимого, а не ссылки.
+# Репозиторий не знает о средах и вариантах развёртывания: БА ссылается на
+# него в чате модели. Пакет содержит физические копии всего необходимого.
 deployment:
-  mechanism: копирование каталога пакета в корень репозитория-спутника
-  result: ".agents/skills/*, taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, tools/, docs/kb/, docs/guides/, runs/, AGENTS.md, .hub-profile.json"
+  mechanism: ссылка на репозиторий (или вставка его файлов) в чате модели
+  result: "AGENTS.md, skills/, taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/"
   hub_access_required_at_runtime: false
 
 # 1. Скопировано физически: содержание перенесено в пакет дословно или с
@@ -27,7 +27,7 @@ copied:
     note: перенесены все значения словарей; принадлежность срезу отмечена флагом in_slice, а не усечением словаря
   - what: перечень слотов, классов формата, проекций и продуктовых профилей
     from: исследование микроструктуры артефактов требований
-    to: [contracts/c-out-bcreq.schema.json, templates/bcreq-skeleton.md]
+    to: [contracts/c-out-bcreq.md, templates/bcreq-skeleton.md]
   - what: смежные термины домена контакт-центра с основанием смешения
     from: словарь домена и материалы кросс-валидации
     to: taxonomy/domain-glossary.yaml
@@ -36,8 +36,8 @@ copied:
     to: taxonomy/source-tiers.yaml
     note: >-
       runtime объявляет пять обязательных уровней задачи: корпоративная БЗ,
-      Confluence, веб Манго, внешние системы и локальный fallback; каждый
-      ненастроенный уровень явно имеет out_of_slice с причиной
+      Confluence, веб Манго, внешние системы и локальный fallback; уровень,
+      недоступный модели, пропускается с записью причины и работу не блокирует
   - what: состав и формулировочные правила проекций документа
     from: практический раздел мета-модели (проекции как три чтения одного артефакта)
     to: taxonomy/projections.yaml
@@ -47,22 +47,27 @@ copied:
   - what: определения метрик M-1…M-5 и MP-1…MP-6
     from: практические разделы мета-модели и таксономии процессов
     to: evaluation/metrics.yaml
+  - what: база знаний продуктов Манго
+    from: https://github.com/G-Ivan-A/mango_ba_prompts/tree/main/kb/processed
+    source_commit: 8cbf82aa73129ec5747af07f790aaf438b0fb6e9
+    to: docs/kb
+    note: копия каталога без изменений; уровень ST-5-LOCAL
 
 # 2. Преобразовано: нормативный текст стал структурой, которую исполняет
 #    скрипт, а не читает человек.
 transformed:
   - what: контракты C-IN, C-CORE, C-OUT, C-CL, C-RK как текстовые описания
-    to: contracts/*.schema.json
-    form: JSON Schema, проверяемая валидатором
+    to: contracts/*.md
+    form: системный промпт-контракт; имя до точки и структура полей сохранены из JSON Schema версии 0.4
   - what: описание маршрута P-01 → P-02 → P-03 прозой
     to: routes/rg-bcreq-v1.yaml
     form: граф узлов и рёбер с предикатами перехода
   - what: правила SK-0…SK-10 (структура навыка)
-    to: .agents/skills/*/SKILL.md
-    form: шесть обязательных разделов и frontmatter с полями GigaCode name и description
+    to: skills/*.md
+    form: шесть обязательных разделов и frontmatter с полями name и description
   - what: правила гейтов GT-1…GT-6 и порядок G-self → G-mach → G-human
-    to: [evaluation/g-mach-checklist.md, evaluation/g-human-checklist.md, tools/validate-package.py]
-    form: исполняемые проверки для машины, отмечаемый список для человека
+    to: [evaluation/g-mach-checklist.md, evaluation/g-human-checklist.md, evaluation/validate-package.md]
+    form: системный промпт G-mach (из validate-package.py версии 0.4, порядок проверок сохранён) и отмечаемый список для человека
   - what: правила Golden Set EP-G1…EP-G7
     to: golden/cases.yaml
     form: индекс случаев с ожиданиями, отбираемый машинным гейтом без чтения markdown
@@ -70,7 +75,7 @@ transformed:
       EP-G7 переведено в исполняемый вид: каждая пара confusable_with словаря
       домена обязана иметь отрицательный случай, что проверяется валидатором
   - what: правила следа EP-R4, EP-R8 и лист прогона
-    to: [routes/run-sheet-template.yaml, contracts/c-rk.schema.json]
+    to: [routes/run-sheet-template.yaml, contracts/c-rk.md]
     form: append-only перечень событий и проекция передачи работы
 
 # 3. Отброшено: во время выполнения не используется. Отбрасывание —
@@ -86,6 +91,8 @@ discarded:
     why: за границей вертикального среза MVP; внесены в бэклог масштабирования
   - what: организационные материалы Хаба (карта артефактов, бэклог, история решений)
     why: управляют развитием модели, а не исполнением маршрута
+  - what: срез под конкретную среду исполнения (.hub-profile.json, .agents/skills/, tools/, runs/, experiments/)
+    why: репозиторий не привязан к среде и варианту развёртывания; навыки перенесены в skills/, валидатор — в промпт evaluation/validate-package.md
 
 # Обратная связь: Хаб остаётся SSOT развивающейся модели. Расхождение,
 # обнаруженное в спутнике, исправляется задачей Хаба и новой компиляцией,
