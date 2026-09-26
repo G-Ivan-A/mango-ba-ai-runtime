@@ -1,4 +1,6 @@
 #!/bin/sh
+# Проверка чистоты репозитория: структура, контракты в Markdown, база знаний,
+# отсутствие привязки к среде и явных запретов на внешние базы знаний.
 set -eu
 
 ROOT=$(CDPATH= cd -- "$(dirname -- "$0")/.." && pwd)
@@ -11,70 +13,74 @@ require_file() {
   if [ -f "$ROOT/$1" ]; then pass "$1 exists"; else fail "$1 exists"; fi
 }
 
-require_text() {
-  file=$1
-  pattern=$2
-  label=$3
-  if grep -Eq "$pattern" "$ROOT/$file"; then pass "$label"; else fail "$label"; fi
+require_absent() {
+  if [ -e "$ROOT/$1" ]; then fail "$1 is absent"; else pass "$1 is absent"; fi
 }
 
-for file in \
-  .hub-profile.json \
-  AGENTS.md \
-  README.md \
-  compilation-manifest.yaml \
-  tools/validate-package.sh \
-  docs/guides/README.md \
-  docs/guides/00-quick-start.md \
-  docs/guides/01-repository-setup.md \
-  docs/guides/02-processes.md \
-  docs/guides/03-task-types.md \
-  docs/guides/04-running-tasks.md \
-  docs/guides/05-human-review.md \
-  docs/guides/06-dialog-rules.md
+require_text() {
+  if grep -Eq "$2" "$ROOT/$1"; then pass "$3"; else fail "$3"; fi
+}
+
+# Runtime files outside the bundled knowledge base.
+runtime_files() {
+  find "$ROOT" -path "$ROOT/.git" -prune -o -path "$ROOT/docs/kb" -prune \
+    -o -path "$ROOT/tests" -prune -o -path "$ROOT/.github" -prune \
+    -o -type f -print
+}
+
+for file in AGENTS.md README.md compilation-manifest.yaml \
+  docs/guides/README.md docs/guides/00-quick-start.md \
+  routes/rg-bcreq-v1.yaml routes/run-sheet-template.yaml \
+  evaluation/validate-package.md evaluation/g-mach-checklist.md \
+  evaluation/g-human-checklist.md docs/kb/README.md
 do
   require_file "$file"
 done
 
-require_text README.md 'version: 0\.4' 'README declares package 0.4'
-require_text compilation-manifest.yaml '^version: "0\.4"$' 'manifest declares package 0.4'
-require_text compilation-manifest.yaml '^meta_model_version: "0\.4"$' 'manifest pins meta-model 0.4'
-require_text .hub-profile.json '"fallback_path"[[:space:]]*:[[:space:]]*"docs/kb"' 'profile declares docs/kb fallback'
-require_text .hub-profile.json '"task_isolation"[[:space:]]*:[[:space:]]*"chat"' 'profile isolates tasks by chat'
-require_text .hub-profile.json '"output_directory"[[:space:]]*:[[:space:]]*"runs"' 'profile writes outputs to runs'
-
-for tier in corporate_repository confluence mango_web external_systems local_repository_fallback; do
-  require_text .hub-profile.json "\"$tier\"" "profile declares $tier"
+for contract in c-in c-core c-quest c-out-bcreq c-rk; do
+  require_file "contracts/$contract.md"
+  require_text "contracts/$contract.md" '^type: system-prompt$' "$contract is a system prompt"
 done
 
-require_text taxonomy/source-tiers.yaml 'id: ST-1-CORPORATE' 'tier 1 corporate repository exists'
-require_text taxonomy/source-tiers.yaml 'id: ST-2-CONFLUENCE' 'tier 2 Confluence exists'
-require_text taxonomy/source-tiers.yaml 'id: ST-3-MANGO-WEB' 'tier 3 Mango web exists'
-require_text taxonomy/source-tiers.yaml 'id: ST-4-EXTERNAL' 'tier 4 external systems exists'
-require_text taxonomy/source-tiers.yaml 'id: ST-5-LOCAL' 'tier 5 local fallback exists'
-require_text taxonomy/source-tiers.yaml 'status: out_of_slice' 'unconfigured tiers are explicit out_of_slice'
-require_file docs/kb/.gitkeep
-require_text contracts/c-in.schema.json 'ST-5-LOCAL' 'C-IN accepts local fallback tier'
-require_text routes/run-sheet-template.yaml 'output_path: "runs/' 'run sheet declares MD output path'
+for path in .agents .hub-profile.json tools runs experiments; do
+  require_absent "$path"
+done
 
-if grep -R -E 'ST-[1234]-(ATTACHED|CORPUS|PRODUCT-DOC|HUMAN)' \
-  "$ROOT/AGENTS.md" "$ROOT/contracts" "$ROOT/evaluation" "$ROOT/golden" \
-  "$ROOT/routes" "$ROOT/taxonomy" >/dev/null 2>&1
-then
-  fail 'obsolete source tiers are absent'
+if [ -n "$(runtime_files | grep -E '\.(py|json)$' || true)" ]; then
+  fail 'no .py or .json runtime files'
 else
-  pass 'obsolete source tiers are absent'
+  pass 'no .py or .json runtime files'
 fi
 
-if [ -x "$ROOT/tools/validate-package.sh" ]; then pass 'shell validator is executable'; else fail 'shell validator is executable'; fi
-if command -v python3 >/dev/null 2>&1; then
-  NO_PYTHON_PATH=$(mktemp -d)
-  printf '#!/bin/sh\nexit 127\n' > "$NO_PYTHON_PATH/python3"
-  chmod +x "$NO_PYTHON_PATH/python3"
-  PATH="$NO_PYTHON_PATH:$PATH" "$ROOT/tools/validate-package.sh" "$ROOT" >/dev/null 2>&1 \
-    && pass 'shell validator runs without Python on PATH' \
-    || fail 'shell validator runs without Python on PATH'
+# The manifest records provenance, so it may name removed paths.
+if runtime_files | grep -v '/compilation-manifest.yaml$' | xargs grep -EIl 'GigaCode|GitVerse|Qwen|\.schema\.json|\.agents/|tools/validate|hub-profile' >/dev/null 2>&1; then
+  fail 'no environment-specific references'
+  runtime_files | grep -v '/compilation-manifest.yaml$' | xargs grep -EIn 'GigaCode|GitVerse|Qwen|\.schema\.json|\.agents/|tools/validate|hub-profile' >&2 || true
+else
+  pass 'no environment-specific references'
 fi
+
+if runtime_files | xargs grep -EIil 'не подключать|out_of_slice' >/dev/null 2>&1; then
+  fail 'no explicit bans on external knowledge bases'
+else
+  pass 'no explicit bans on external knowledge bases'
+fi
+
+# Every relative path that the runtime mentions must exist.
+for ref in $(runtime_files | xargs grep -EhoI '(^|[][ `(,])(contracts|skills|taxonomy|routes|templates|golden|evaluation)/[A-Za-z0-9._-]+\.(md|yaml)' | sed 's/^[][ `(,]//' | sort -u); do
+  require_file "$ref"
+done
+
+skills=$(find "$ROOT/skills" -name '*.md' | wc -l | tr -d ' ')
+if [ "$skills" -eq 11 ]; then pass '11 skills'; else fail "11 skills (found $skills)"; fi
+for skill in "$ROOT"/skills/*.md; do
+  name=$(basename "$skill" .md)
+  require_text "skills/$name.md" "^name: $name\$" "skill $name declares its name"
+done
+
+docs=$(find "$ROOT/docs/kb" -mindepth 2 -maxdepth 2 -name index.md | wc -l | tr -d ' ')
+if [ "$docs" -gt 0 ]; then pass "knowledge base has $docs documents"; else fail 'knowledge base is populated'; fi
+require_text taxonomy/source-tiers.yaml 'path: docs/kb' 'ST-5-LOCAL points to docs/kb'
 
 if [ "$FAILURES" -ne 0 ]; then
   printf 'runtime smoke test failed: %s check(s)\n' "$FAILURES" >&2

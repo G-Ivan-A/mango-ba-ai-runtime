@@ -30,4 +30,4 @@ TASK-0003. Сырое требование: в отчёте очереди ну�
 | `source tiers` | `ST-1-CORPORATE`, `ST-5-LOCAL` | разрешённые источники |
 | `language` | `ru` | язык контракта C-IN |
 
-[← Процессы](02-processes.md) · [Далее: запуск →](04-running-tasks.md)
+[← Процессы](02-processes.md) · [Далее: G-human →](05-human-review.md)

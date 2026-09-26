@@ -11,7 +11,7 @@ outputs: [A-CORE]
 contracts: [C-CORE]
 gates: [G-self, G-mach]
 compiled_from: { hub_commit: 1c81a8682d71df7b6735ac5c7f92af575d6c1356, layers: { meta_model: 0.3, process_taxonomy: 0.2, operation_taxonomy: 0.2 } }
-derived_from: [ba-meta-model/20-taxonomy.md, ba-process-taxonomy/20-taxonomy.md, ba-operation-taxonomy/20-taxonomy.md, contracts/c-core.schema.json]
+derived_from: [ba-meta-model/20-taxonomy.md, ba-process-taxonomy/20-taxonomy.md, ba-operation-taxonomy/20-taxonomy.md, contracts/c-core.md]
 compiled_at: 2026-09-15
 status: draft
 version: 1.0
@@ -24,7 +24,7 @@ temperature: 0.1
 ## Когда применять
 
 Вход — размеченные элементы и неоднозначности; выход — `A-CORE` по схеме
-`contracts/c-core.schema.json` в состоянии `draft`, `validated` или
+`contracts/c-core.md` в состоянии `draft`, `validated` или
 `needs-clarification`.
 
 ## Предусловия
@@ -42,7 +42,7 @@ temperature: 0.1
 2. `map-to-slot` — каждому утверждению назначь слот целевого документа из
    закрытого перечня схемы.
 3. `link-elements` — построй рёбра следа: источник → элемент ядра → утверждение.
-4. `check-schema` — проверь ядро против `contracts/c-core.schema.json`.
+4. `check-schema` — проверь ядро против `contracts/c-core.md`.
 5. Назначь состояние: `needs-clarification`, если есть хоть одна неразрешённая
    неоднозначность значимости `blocker`; иначе `validated`.
 
@@ -63,7 +63,7 @@ temperature: 0.1
 - Каждому утверждению назначен слот из закрытого перечня — да/нет.
 - Каждое ребро следа соединяет существующие концы — да/нет.
 - Состояние вычислено по правилу значимости, а не назначено — да/нет.
-- Ядро проходит `contracts/c-core.schema.json` — да/нет.
+- Ядро проходит `contracts/c-core.md` — да/нет.
 - Ни одно утверждение не появилось на этом шаге впервые — да/нет.
 
 ## Отказ

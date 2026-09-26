@@ -12,7 +12,7 @@ outputs: [A-QUEST]
 contracts: [C-CORE, C-QUEST]
 gates: [G-self, G-mach]
 compiled_from: { hub_commit: 1c81a8682d71df7b6735ac5c7f92af575d6c1356, layers: { meta_model: 0.3, process_taxonomy: 0.2, operation_taxonomy: 0.2 } }
-derived_from: [ba-meta-model/20-taxonomy.md, ba-process-taxonomy/20-taxonomy.md, ba-operation-taxonomy/20-taxonomy.md, contracts/c-quest.schema.json]
+derived_from: [ba-meta-model/20-taxonomy.md, ba-process-taxonomy/20-taxonomy.md, ba-operation-taxonomy/20-taxonomy.md, contracts/c-quest.md]
 compiled_at: 2026-09-15
 status: draft
 version: 1.0
@@ -41,7 +41,7 @@ temperature: 0.1
    возвращает новую сессию выявления вместо ответа.
 2. `deduplicate-items` — слей вопросы, отличающиеся только формулировкой;
    сохрани связь слитого вопроса со всеми исходными неоднозначностями.
-3. `check-schema` — проверь перечень против `contracts/c-quest.schema.json`.
+3. `check-schema` — проверь перечень против `contracts/c-quest.md`.
 
 ## Обязательные слоты выхода
 
@@ -58,7 +58,7 @@ temperature: 0.1
 - Каждый вопрос отвечается одним фактом — да/нет.
 - Ни один вопрос не содержит собственного предположения о правильном ответе — да/нет.
 - У каждого вопроса объявлен адресат — да/нет.
-- Перечень проходит `contracts/c-quest.schema.json` — да/нет.
+- Перечень проходит `contracts/c-quest.md` — да/нет.
 
 ## Отказ
 
