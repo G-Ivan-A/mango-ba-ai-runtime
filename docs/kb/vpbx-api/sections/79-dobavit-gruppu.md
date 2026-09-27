@@ -47,14 +47,10 @@ POST /vpbx/group/create Параметры запроса:
 
 Важно! 1) Параметр order - порядок в алгоритмах распределения звонков в группе. Присваивается автоматически, зависит от очерёдности добавляемых в группу сотрудников. 2) Все остальные настройки группы – по умолчанию. Пример запроса:
 
-![Изображение, стр. 117](../images/79-dobavit-gruppu-1.png)
-
 | POST https://app.mango-office.ru/vpbx/group/create<br>vpbx_api_key = 1234567890qwerty,<br>sign = 1234567890qwerty,<br>json = {<br>"name":"Group Name", |
 | --- |
 | "auto_dial":"1",<br>"line_id":"300049196",<br>"melody_id":"24", |
 | "operators":<br>[<br>{<br>"id":"300049189",<br>"priority":"1",<br>"order":"2" } ] } |
-
-![Изображение, стр. 117](../images/79-dobavit-gruppu-2.png)
 
 <!-- изображение на стр. 117: байты не извлечены (PyMuPDF недоступен) -->
 

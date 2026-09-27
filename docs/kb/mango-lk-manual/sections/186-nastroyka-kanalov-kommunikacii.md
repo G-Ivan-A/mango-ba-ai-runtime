@@ -24,14 +24,8 @@ ai-generated: true
 
 Настройте каналы коммуникации с клиентами. Виджеты для сайта: • Заказ обратного звонка • Лидогенерация • Чат на сайте
 
-![Изображение, стр. 288](../images/186-nastroyka-kanalov-kommunikacii-1.png)
-
 ![Изображение, стр. 288](../images/186-nastroyka-kanalov-kommunikacii-2.jpeg)
 
 Каналы: • MAX • Вконтакте • WhatsApp • Telegram • Клиентское приложение (по API) • E-mail • Авито • Авито Работа
 
-![Изображение, стр. 288](../images/186-nastroyka-kanalov-kommunikacii-3.png)
-
 ![Изображение, стр. 288](../images/186-nastroyka-kanalov-kommunikacii-4.jpeg)
-
-![Изображение, стр. 289](../images/186-nastroyka-kanalov-kommunikacii-5.jpeg)

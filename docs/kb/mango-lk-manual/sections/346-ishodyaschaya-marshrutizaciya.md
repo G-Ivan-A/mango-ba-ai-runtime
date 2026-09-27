@@ -24,17 +24,11 @@ ai-generated: true
 
 Outbound Routes - исходящая маршрутизация FreePBX. На основании набранного номера выбирается направление (транк) для исходящего вызова. Набираемый номер делится на префикс и паттерн и может модифицироваться после набора. Connectivity > Outbound Routes (Подключения > Исходящая Маршрутизация)
 
-![Изображение, стр. 557](../images/346-ishodyaschaya-marshrutizaciya-1.jpeg)
-
 ![Изображение, стр. 557](../images/346-ishodyaschaya-marshrutizaciya-2.jpeg)
 
 ![Изображение, стр. 557](../images/346-ishodyaschaya-marshrutizaciya-3.jpeg)
 
-![Изображение, стр. 557](../images/346-ishodyaschaya-marshrutizaciya-4.jpeg)
-
 ![Изображение, стр. 558](../images/346-ishodyaschaya-marshrutizaciya-5.png)
-
-![Изображение, стр. 558](../images/346-ishodyaschaya-marshrutizaciya-6.jpeg)
 
 Route name – имя маршрута Trunk Sequence for Matched Routes – выбор транка для данного маршрута Вкладка Dial Pattern Шаблон набора номера (Dial Pattern) – это уникальный набор цифр, который позволяет отправить вызов в нужный SIP–транк. Если шаблон совпадает, то вызов отправляется через SIP–транк в сторону провайдера. Шаблон набора номера имеет 4 поля настройки: Prepend, Prefix, Match Pattern и CallerID. Формат шаблона: (prepend) prefix | [ match pattern / caller ID ], где
 

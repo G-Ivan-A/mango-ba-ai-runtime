@@ -1,0 +1,144 @@
+{
+  "document_id": "mtalker--windows-mac-admin",
+  "index": "docs/kb/mtalker/windows-mac-admin/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "windows-mac-admin-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Mango Talker для сред ОС",
+      "pages": "1-3",
+      "tokens": 482,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "windows-mac-admin-01-obschie-svedeniya",
+      "section": "—",
+      "title": "Общие сведения",
+      "hint": "В данном разделе описаны настройки MTalker, доступные только",
+      "pages": "3",
+      "tokens": 164,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/01-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-admin-02-kak-zaregistrirovat-novogo-sotrudnika-i",
+      "section": "—",
+      "title": "Как зарегистрировать нового сотрудника и выдать ему логин и пароль для входа в MTalker",
+      "hint": "логин и пароль для входа в MTalker",
+      "pages": "3-4",
+      "tokens": 717,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/02-kak-zaregistrirovat-novogo-sotrudnika-i.md"
+    },
+    {
+      "id": "windows-mac-admin-03-shema-priema-zvonkov",
+      "section": "—",
+      "title": "Схема приема звонков",
+      "hint": "",
+      "pages": "4",
+      "tokens": 60,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/03-shema-priema-zvonkov.md"
+    },
+    {
+      "id": "windows-mac-admin-04-obschie-svedeniya",
+      "section": "—",
+      "title": "Общие сведения",
+      "hint": "Если вы зарегистрируете свой мобильный телефон в вашей ВАТС (и",
+      "pages": "4",
+      "tokens": 343,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/04-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-admin-05-kak-dobavit-nomer-v-shemu",
+      "section": "—",
+      "title": "Как добавить номер в схему",
+      "hint": "Вы можете в настройках ВАТС добавить / зарегистрировать ваш номер",
+      "pages": "4",
+      "tokens": 157,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/05-kak-dobavit-nomer-v-shemu.md"
+    },
+    {
+      "id": "windows-mac-admin-06-kak-isklyuchit-nomer-iz-shemy",
+      "section": "—",
+      "title": "Как исключить номер из схемы",
+      "hint": "Для того чтобы исключить номер из той или иной схемы приема звонков,",
+      "pages": "4-5",
+      "tokens": 223,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/06-kak-isklyuchit-nomer-iz-shemy.md"
+    },
+    {
+      "id": "windows-mac-admin-07-shema-tolko-na-osnovnoy-nomer",
+      "section": "—",
+      "title": "Схема “Только на основной номер”",
+      "hint": "Если вы хотите, чтобы все звонки поступали только на один номер телефона,",
+      "pages": "5",
+      "tokens": 717,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/07-shema-tolko-na-osnovnoy-nomer.md"
+    },
+    {
+      "id": "windows-mac-admin-08-shema-na-vse-nomera-odnovremenno",
+      "section": "—",
+      "title": "Схема “На все номера одновременно”",
+      "hint": "Если вы хотите, чтобы входящий звонок поступал на первый свободный номер,",
+      "pages": "5-6",
+      "tokens": 638,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/08-shema-na-vse-nomera-odnovremenno.md"
+    },
+    {
+      "id": "windows-mac-admin-09-shema-na-vse-nomera-po-ocheredi",
+      "section": "—",
+      "title": "Схема “На все номера по очереди”",
+      "hint": "Если вы хотите, чтобы входящий звонок последовательно поступал на",
+      "pages": "6-7",
+      "tokens": 688,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/09-shema-na-vse-nomera-po-ocheredi.md"
+    },
+    {
+      "id": "windows-mac-admin-10-raspisanie-priema-zvonkov",
+      "section": "—",
+      "title": "Расписание приема звонков",
+      "hint": "Вы можете указать дату и время, когда входящий звонок может поступать на",
+      "pages": "7-8",
+      "tokens": 994,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/10-raspisanie-priema-zvonkov.md"
+    },
+    {
+      "id": "windows-mac-admin-11-vybor-ishodyaschego-nomera",
+      "section": "—",
+      "title": "Выбор исходящего номера",
+      "hint": "Если к вашей ВАТС подключено несколько телефонных номеров MANGO",
+      "pages": "8",
+      "tokens": 287,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/11-vybor-ishodyaschego-nomera.md"
+    },
+    {
+      "id": "windows-mac-admin-12-perehod-k-registracii-novogo-sotrudnika",
+      "section": "—",
+      "title": "Переход к регистрации нового сотрудника в ВАТС",
+      "hint": "Если вам необходимо создать новую учетную запись пользователя ВАТС",
+      "pages": "8",
+      "tokens": 359,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/12-perehod-k-registracii-novogo-sotrudnika.md"
+    },
+    {
+      "id": "windows-mac-admin-13-pokupka-mnogokanalnyh-nomerov",
+      "section": "—",
+      "title": "Покупка многоканальных номеров",
+      "hint": "Если вам необходимо к вашей ВАТС подключить дополнительные номера",
+      "pages": "8-9",
+      "tokens": 397,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/13-pokupka-mnogokanalnyh-nomerov.md"
+    },
+    {
+      "id": "windows-mac-admin-14-iniciaciya-ishodyaschego-vyzova-iz-koman",
+      "section": "—",
+      "title": "Инициация исходящего вызова из командной строки",
+      "hint": "Для инициации исходящего вызова в MTalker из командной строки",
+      "pages": "9",
+      "tokens": 214,
+      "path": "docs/kb/mtalker/windows-mac-admin/sections/14-iniciaciya-ishodyaschego-vyzova-iz-koman.md"
+    }
+  ]
+}

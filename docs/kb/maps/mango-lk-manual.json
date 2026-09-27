@@ -1,0 +1,3168 @@
+{
+  "document_id": "mango-lk-manual",
+  "index": "docs/kb/mango-lk-manual/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "mango-lk-manual-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Оглавление v 26.32 | 24.08.2026",
+      "pages": "1-6",
+      "tokens": 2498,
+      "path": "docs/kb/mango-lk-manual/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "mango-lk-manual-01-dobro-pozhalovat-v-lichnyy-kabinet",
+      "section": "1",
+      "title": "Добро пожаловать в Личный кабинет!",
+      "hint": "",
+      "pages": "6",
+      "tokens": 73,
+      "path": "docs/kb/mango-lk-manual/sections/01-dobro-pozhalovat-v-lichnyy-kabinet.md"
+    },
+    {
+      "id": "mango-lk-manual-02-vhod-v-lichnyy-kabinet",
+      "section": "1.1",
+      "title": "Вход в Личный кабинет",
+      "hint": "1.1 ВХОД В ЛИЧНЫЙ КАБИНЕТ",
+      "pages": "6-8",
+      "tokens": 710,
+      "path": "docs/kb/mango-lk-manual/sections/02-vhod-v-lichnyy-kabinet.md"
+    },
+    {
+      "id": "mango-lk-manual-03-vosstanovlenie-parolya",
+      "section": "1.2",
+      "title": "Восстановление пароля",
+      "hint": "ВАЖНО",
+      "pages": "8-10",
+      "tokens": 1110,
+      "path": "docs/kb/mango-lk-manual/sections/03-vosstanovlenie-parolya.md"
+    },
+    {
+      "id": "mango-lk-manual-04-dogovor-oferty",
+      "section": "1.3",
+      "title": "Договор оферты",
+      "hint": "После ввода корректного пароля и нажатия кнопки Сохранить и войти пользователь",
+      "pages": "10-11",
+      "tokens": 745,
+      "path": "docs/kb/mango-lk-manual/sections/04-dogovor-oferty.md"
+    },
+    {
+      "id": "mango-lk-manual-05-obschie-svedeniya",
+      "section": "1.4",
+      "title": "Общие сведения",
+      "hint": "",
+      "pages": "11",
+      "tokens": 65,
+      "path": "docs/kb/mango-lk-manual/sections/05-obschie-svedeniya.md"
+    },
+    {
+      "id": "mango-lk-manual-06-panel-licevogo-scheta",
+      "section": "1.5",
+      "title": "Панель Лицевого счета",
+      "hint": "При нажатии кнопки Не сейчас некоторые возможности Личного кабинета будут",
+      "pages": "11-12",
+      "tokens": 863,
+      "path": "docs/kb/mango-lk-manual/sections/06-panel-licevogo-scheta.md"
+    },
+    {
+      "id": "mango-lk-manual-07-panel-navigacii",
+      "section": "1.6",
+      "title": "Панель навигации",
+      "hint": "",
+      "pages": "12",
+      "tokens": 66,
+      "path": "docs/kb/mango-lk-manual/sections/07-panel-navigacii.md"
+    },
+    {
+      "id": "mango-lk-manual-08-panel-produktov",
+      "section": "1.7",
+      "title": "Панель продуктов",
+      "hint": "внимание",
+      "pages": "12-13",
+      "tokens": 688,
+      "path": "docs/kb/mango-lk-manual/sections/08-panel-produktov.md"
+    },
+    {
+      "id": "mango-lk-manual-09-obuchenie-rabote-s-vats",
+      "section": "1.8",
+      "title": "Обучение работе с ВАТС",
+      "hint": "• Виртуальная АТС – переход на страницу, содержащую полный функционал",
+      "pages": "13-14",
+      "tokens": 646,
+      "path": "docs/kb/mango-lk-manual/sections/09-obuchenie-rabote-s-vats.md"
+    },
+    {
+      "id": "mango-lk-manual-10-scenariy-mikro",
+      "section": "1.8.1",
+      "title": "Сценарий МИКРО",
+      "hint": "Сценарий МИКРО по умолчанию предназначен для пользователей тарифного плана",
+      "pages": "14-15",
+      "tokens": 272,
+      "path": "docs/kb/mango-lk-manual/sections/10-scenariy-mikro.md"
+    },
+    {
+      "id": "mango-lk-manual-11-nachalo-obucheniya",
+      "section": "1.8.1.1",
+      "title": "Начало обучения",
+      "hint": "Если вы впервые пользуетесь MANGO OFFICE, нажмите кнопку Добавить.",
+      "pages": "15",
+      "tokens": 204,
+      "path": "docs/kb/mango-lk-manual/sections/11-nachalo-obucheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-12-dobavlenie-sotrudnikov",
+      "section": "1.8.1.2",
+      "title": "Добавление сотрудников.",
+      "hint": "Шаг 1.",
+      "pages": "15-17",
+      "tokens": 575,
+      "path": "docs/kb/mango-lk-manual/sections/12-dobavlenie-sotrudnikov.md"
+    },
+    {
+      "id": "mango-lk-manual-13-glavnaya-stranica-scenariy-mikro",
+      "section": "1.8.1.3",
+      "title": "Главная страница (сценарий МИКРО)",
+      "hint": "Настройте интерфейс главной страницы, следуя информационным подсказкам.",
+      "pages": "17-18",
+      "tokens": 303,
+      "path": "docs/kb/mango-lk-manual/sections/13-glavnaya-stranica-scenariy-mikro.md"
+    },
+    {
+      "id": "mango-lk-manual-14-blok-1-raspisanie-i-shema-raspredelenie",
+      "section": "1.8.1.3.1",
+      "title": "Блок 1. Расписание и схема распределение звонков",
+      "hint": "Рис.1 Схема распределения звонков \"Простая настройка\".",
+      "pages": "18-19",
+      "tokens": 864,
+      "path": "docs/kb/mango-lk-manual/sections/14-blok-1-raspisanie-i-shema-raspredelenie.md"
+    },
+    {
+      "id": "mango-lk-manual-15-blok-2-sotrudniki",
+      "section": "1.8.1.3.2",
+      "title": "Блок 2. Сотрудники",
+      "hint": "Блок «Сотрудники» содержит список пользователей ВАТС, принимающих звонки.",
+      "pages": "19-20",
+      "tokens": 475,
+      "path": "docs/kb/mango-lk-manual/sections/15-blok-2-sotrudniki.md"
+    },
+    {
+      "id": "mango-lk-manual-16-blok-3-zvonki",
+      "section": "1.8.1.3.3",
+      "title": "Блок 3. Звонки",
+      "hint": "Блок «Звонки» содержит следующие элементы:",
+      "pages": "20-21",
+      "tokens": 706,
+      "path": "docs/kb/mango-lk-manual/sections/16-blok-3-zvonki.md"
+    },
+    {
+      "id": "mango-lk-manual-17-scenariy-malyy-sredniy",
+      "section": "1.8.2",
+      "title": "Сценарий МАЛЫЙ + СРЕДНИЙ",
+      "hint": "Сценарий Малый + Средний по умолчанию предназначен для пользователей",
+      "pages": "21-22",
+      "tokens": 237,
+      "path": "docs/kb/mango-lk-manual/sections/17-scenariy-malyy-sredniy.md"
+    },
+    {
+      "id": "mango-lk-manual-18-blok-1-nachalo-obucheniya-shkala-progres",
+      "section": "1.8.2.1",
+      "title": "Блок 1. Начало обучения. Шкала прогресса Онбординга.",
+      "hint": "Обучающая система поможет настроить Главную страницу Личного кабинета",
+      "pages": "22",
+      "tokens": 294,
+      "path": "docs/kb/mango-lk-manual/sections/18-blok-1-nachalo-obucheniya-shkala-progres.md"
+    },
+    {
+      "id": "mango-lk-manual-19-blok-2-dobavlenie-sotrudnikov",
+      "section": "1.8.2.2",
+      "title": "Блок 2. Добавление сотрудников",
+      "hint": "Кликните по кнопке Создать и добавьте в Личный кабинет нового сотрудника.",
+      "pages": "22-23",
+      "tokens": 381,
+      "path": "docs/kb/mango-lk-manual/sections/19-blok-2-dobavlenie-sotrudnikov.md"
+    },
+    {
+      "id": "mango-lk-manual-20-blok-3-dobavlenie-grupp",
+      "section": "1.8.2.3",
+      "title": "Блок 3. Добавление групп",
+      "hint": "Кликните по кнопке Создать и добавьте в Личный кабинет группы сотрудников.",
+      "pages": "23-24",
+      "tokens": 347,
+      "path": "docs/kb/mango-lk-manual/sections/20-blok-3-dobavlenie-grupp.md"
+    },
+    {
+      "id": "mango-lk-manual-21-blok-4-nastroyka-shem-raspredeleniya-zvo",
+      "section": "1.8.2.4",
+      "title": "Блок 4. Настройка схем распределения звонков",
+      "hint": "Кликните по кнопке Настроить и добавьте в раздел «Голосовое меню и",
+      "pages": "24-25",
+      "tokens": 507,
+      "path": "docs/kb/mango-lk-manual/sections/21-blok-4-nastroyka-shem-raspredeleniya-zvo.md"
+    },
+    {
+      "id": "mango-lk-manual-22-blok-5-nastroyka-ishodyaschih-vyzovov",
+      "section": "1.8.2.5",
+      "title": "Блок 5. Настройка исходящих вызовов",
+      "hint": "Кликните по кнопке Инструкция и настройте исходящую связь посредством IP-",
+      "pages": "25",
+      "tokens": 255,
+      "path": "docs/kb/mango-lk-manual/sections/22-blok-5-nastroyka-ishodyaschih-vyzovov.md"
+    },
+    {
+      "id": "mango-lk-manual-23-blok-6-uvelichenie-prodazh",
+      "section": "1.8.2.6",
+      "title": "Блок 6. Увеличение продаж",
+      "hint": "Блок «Увеличение продаж» содержит следующие подвкладки:",
+      "pages": "25",
+      "tokens": 234,
+      "path": "docs/kb/mango-lk-manual/sections/23-blok-6-uvelichenie-prodazh.md"
+    },
+    {
+      "id": "mango-lk-manual-24-blok-7-rabota-sotrudnikov",
+      "section": "1.8.2.7",
+      "title": "Блок 7. Работа сотрудников",
+      "hint": "Блок «Работа сотрудников» содержит следующие подвкладки:",
+      "pages": "25-26",
+      "tokens": 346,
+      "path": "docs/kb/mango-lk-manual/sections/24-blok-7-rabota-sotrudnikov.md"
+    },
+    {
+      "id": "mango-lk-manual-25-blok-8-poluchennye-vozmozhnosti",
+      "section": "1.8.2.8",
+      "title": "Блок 8. Полученные возможности",
+      "hint": "Блок содержит информацию о возможностях пользователей:",
+      "pages": "26",
+      "tokens": 259,
+      "path": "docs/kb/mango-lk-manual/sections/25-blok-8-poluchennye-vozmozhnosti.md"
+    },
+    {
+      "id": "mango-lk-manual-26-zavershenie-obucheniya",
+      "section": "1.8.2.9",
+      "title": "Завершение обучения",
+      "hint": "Онбординг считается завершенным в одном из следующих двух случаев:",
+      "pages": "26-27",
+      "tokens": 319,
+      "path": "docs/kb/mango-lk-manual/sections/26-zavershenie-obucheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-27-finansy",
+      "section": "2",
+      "title": "Финансы",
+      "hint": "",
+      "pages": "27",
+      "tokens": 59,
+      "path": "docs/kb/mango-lk-manual/sections/27-finansy.md"
+    },
+    {
+      "id": "mango-lk-manual-28-dokumenty",
+      "section": "2.1",
+      "title": "Документы",
+      "hint": "Раздел позволяет узнать о функциях и инструментах для работы с текущим Лицевым",
+      "pages": "27",
+      "tokens": 562,
+      "path": "docs/kb/mango-lk-manual/sections/28-dokumenty.md"
+    },
+    {
+      "id": "mango-lk-manual-29-prosmotret-zagruzit-buhgalterskie-dokume",
+      "section": "2.1.1",
+      "title": "Просмотреть/загрузить бухгалтерские документы",
+      "hint": "Список «Период» позволяет установить вариант выбора дат (по умолчанию",
+      "pages": "27-28",
+      "tokens": 476,
+      "path": "docs/kb/mango-lk-manual/sections/29-prosmotret-zagruzit-buhgalterskie-dokume.md"
+    },
+    {
+      "id": "mango-lk-manual-30-sformirovat-schet-na-predoplatu-telekomm",
+      "section": "2.1.2",
+      "title": "Сформировать счет на предоплату телекоммуникационных услуг",
+      "hint": "В блоке «Выставить счет» введите цифрами сумму платежа.",
+      "pages": "28",
+      "tokens": 494,
+      "path": "docs/kb/mango-lk-manual/sections/30-sformirovat-schet-na-predoplatu-telekomm.md"
+    },
+    {
+      "id": "mango-lk-manual-31-sozdat-akt-sverki-vzaimnyh-raschetov",
+      "section": "2.1.3",
+      "title": "Создать акт сверки взаимных расчетов",
+      "hint": "Укажите даты в соответствующих полях блока «Акт сверки».",
+      "pages": "28-29",
+      "tokens": 191,
+      "path": "docs/kb/mango-lk-manual/sections/31-sozdat-akt-sverki-vzaimnyh-raschetov.md"
+    },
+    {
+      "id": "mango-lk-manual-32-poluchit-detalizaciyu-sovershennyh-zvonk",
+      "section": "2.1.4",
+      "title": "Получить детализацию совершенных звонков",
+      "hint": "",
+      "pages": "29",
+      "tokens": 80,
+      "path": "docs/kb/mango-lk-manual/sections/32-poluchit-detalizaciyu-sovershennyh-zvonk.md"
+    },
+    {
+      "id": "mango-lk-manual-33-dogovory",
+      "section": "2.2",
+      "title": "Договоры",
+      "hint": "Список «Период» позволяет установить вариант выбора дат (по умолчанию",
+      "pages": "29-30",
+      "tokens": 495,
+      "path": "docs/kb/mango-lk-manual/sections/33-dogovory.md"
+    },
+    {
+      "id": "mango-lk-manual-34-rashody-na-svyaz",
+      "section": "2.3",
+      "title": "Расходы на связь",
+      "hint": "Таблица договоров содержит следующие поля:",
+      "pages": "30-32",
+      "tokens": 1317,
+      "path": "docs/kb/mango-lk-manual/sections/34-rashody-na-svyaz.md"
+    },
+    {
+      "id": "mango-lk-manual-35-istoriya-platezhey",
+      "section": "2.4",
+      "title": "История Платежей",
+      "hint": "Выберите вкладку «Расходы на связь», а в списке «Период» — вариант «01.03.2018 –",
+      "pages": "32-34",
+      "tokens": 815,
+      "path": "docs/kb/mango-lk-manual/sections/35-istoriya-platezhey.md"
+    },
+    {
+      "id": "mango-lk-manual-36-popolnit-schet",
+      "section": "2.5",
+      "title": "Пополнить счет",
+      "hint": "2.5 ПОПОЛНИТЬ СЧЕТ",
+      "pages": "34",
+      "tokens": 468,
+      "path": "docs/kb/mango-lk-manual/sections/36-popolnit-schet.md"
+    },
+    {
+      "id": "mango-lk-manual-37-bankovskiy-perevod",
+      "section": "2.5.1",
+      "title": "Банковский перевод",
+      "hint": "",
+      "pages": "34-35",
+      "tokens": 102,
+      "path": "docs/kb/mango-lk-manual/sections/37-bankovskiy-perevod.md"
+    },
+    {
+      "id": "mango-lk-manual-38-dlya-yuridicheskih-lic",
+      "section": "2.5.1.1",
+      "title": "Для юридических лиц",
+      "hint": "Для оплаты услуг «Манго Телеком» юридическими лицами с использованием",
+      "pages": "35",
+      "tokens": 283,
+      "path": "docs/kb/mango-lk-manual/sections/38-dlya-yuridicheskih-lic.md"
+    },
+    {
+      "id": "mango-lk-manual-39-fizicheskim-licam",
+      "section": "2.5.1.2",
+      "title": "Физическим лицам",
+      "hint": "Перейдите на вкладку «Квитанция для физических лиц».",
+      "pages": "35-36",
+      "tokens": 361,
+      "path": "docs/kb/mango-lk-manual/sections/39-fizicheskim-licam.md"
+    },
+    {
+      "id": "mango-lk-manual-40-bankovskie-karty",
+      "section": "2.5.2",
+      "title": "Банковские карты",
+      "hint": "Пополнение счета с помощью банковских карт возможно через системы:",
+      "pages": "36-37",
+      "tokens": 257,
+      "path": "docs/kb/mango-lk-manual/sections/40-bankovskie-karty.md"
+    },
+    {
+      "id": "mango-lk-manual-41-elektronnye-platezhi",
+      "section": "2.5.3",
+      "title": "Электронные платежи",
+      "hint": "Пополнение счета с помощью электронных платежей возможно благодаря сервисам",
+      "pages": "37-38",
+      "tokens": 355,
+      "path": "docs/kb/mango-lk-manual/sections/41-elektronnye-platezhi.md"
+    },
+    {
+      "id": "mango-lk-manual-42-oplata-nalichnymi",
+      "section": "2.5.4",
+      "title": "Оплата наличными",
+      "hint": "Пополнение счета возможно при помощи наличных денежных средств через платежные",
+      "pages": "38-40",
+      "tokens": 307,
+      "path": "docs/kb/mango-lk-manual/sections/42-oplata-nalichnymi.md"
+    },
+    {
+      "id": "mango-lk-manual-43-oplata-cherez-qr-kod",
+      "section": "2.5.5",
+      "title": "Оплата через QR-код",
+      "hint": "",
+      "pages": "40",
+      "tokens": 73,
+      "path": "docs/kb/mango-lk-manual/sections/43-oplata-cherez-qr-kod.md"
+    },
+    {
+      "id": "mango-lk-manual-44-avtomaticheskiy-platezh",
+      "section": "2.6",
+      "title": "Автоматический платеж",
+      "hint": "Пополнение счета через QR-код производится с помощью сервиса PayMaster, без",
+      "pages": "40-42",
+      "tokens": 923,
+      "path": "docs/kb/mango-lk-manual/sections/44-avtomaticheskiy-platezh.md"
+    },
+    {
+      "id": "mango-lk-manual-45-rekvizity",
+      "section": "2.7",
+      "title": "Реквизиты",
+      "hint": "Для включения функции установите переключатель в положение «Сервис включен».",
+      "pages": "42-43",
+      "tokens": 906,
+      "path": "docs/kb/mango-lk-manual/sections/45-rekvizity.md"
+    },
+    {
+      "id": "mango-lk-manual-46-nastroyka-uvedomleniy",
+      "section": "2.8",
+      "title": "Настройка уведомлений",
+      "hint": "Когда все будет готово, нажмите Отправить.",
+      "pages": "43-45",
+      "tokens": 1361,
+      "path": "docs/kb/mango-lk-manual/sections/46-nastroyka-uvedomleniy.md"
+    },
+    {
+      "id": "mango-lk-manual-47-rashody-na-produkt",
+      "section": "2.9",
+      "title": "Расходы на продукт",
+      "hint": "2.9 РАСХОДЫ НА ПРОДУКТ",
+      "pages": "45-49",
+      "tokens": 1783,
+      "path": "docs/kb/mango-lk-manual/sections/47-rashody-na-produkt.md"
+    },
+    {
+      "id": "mango-lk-manual-48-podderzhka",
+      "section": "3",
+      "title": "Поддержка",
+      "hint": "",
+      "pages": "49",
+      "tokens": 60,
+      "path": "docs/kb/mango-lk-manual/sections/48-podderzhka.md"
+    },
+    {
+      "id": "mango-lk-manual-49-vkladka-podderzhka",
+      "section": "3.1",
+      "title": "Вкладка «Поддержка»",
+      "hint": "На странице «Поддержка» представлены все возможности для связи со специалистами",
+      "pages": "49",
+      "tokens": 516,
+      "path": "docs/kb/mango-lk-manual/sections/49-vkladka-podderzhka.md"
+    },
+    {
+      "id": "mango-lk-manual-50-kontakty-personalnogo-menedzhera",
+      "section": "3.1.1",
+      "title": "Контакты персонального менеджера",
+      "hint": "В данном блоке содержится имя и контактная информация вашего персонального",
+      "pages": "49-50",
+      "tokens": 214,
+      "path": "docs/kb/mango-lk-manual/sections/50-kontakty-personalnogo-menedzhera.md"
+    },
+    {
+      "id": "mango-lk-manual-51-bystrye-kanaly-svyazi",
+      "section": "3.1.2",
+      "title": "Быстрые каналы связи",
+      "hint": "Чаты 24/7 — набор кнопок для связи через популярные каналы:",
+      "pages": "50",
+      "tokens": 196,
+      "path": "docs/kb/mango-lk-manual/sections/51-bystrye-kanaly-svyazi.md"
+    },
+    {
+      "id": "mango-lk-manual-52-napisat-v-tehpodderzhku",
+      "section": "3.1.3",
+      "title": "Написать в техподдержку",
+      "hint": "Кнопка Создать обращение открывает форму, в которой пользователь может указать:",
+      "pages": "50-52",
+      "tokens": 810,
+      "path": "docs/kb/mango-lk-manual/sections/52-napisat-v-tehpodderzhku.md"
+    },
+    {
+      "id": "mango-lk-manual-53-instrukcii-i-vspomogatelnye-materialy",
+      "section": "3.1.4",
+      "title": "Инструкции и вспомогательные материалы",
+      "hint": "",
+      "pages": "52",
+      "tokens": 79,
+      "path": "docs/kb/mango-lk-manual/sections/53-instrukcii-i-vspomogatelnye-materialy.md"
+    },
+    {
+      "id": "mango-lk-manual-54-vkladka-obrascheniya",
+      "section": "3.2",
+      "title": "Вкладка «Обращения»",
+      "hint": "• Ссылка Вся документация — открывает раздел «Поддержки» на сайте MANGO",
+      "pages": "52",
+      "tokens": 216,
+      "path": "docs/kb/mango-lk-manual/sections/54-vkladka-obrascheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-55-obschiy-obzor",
+      "section": "3.2.1",
+      "title": "Общий обзор",
+      "hint": "Здесь вы видите список всех обращений, созданных вами или вашими коллегами.",
+      "pages": "52-53",
+      "tokens": 406,
+      "path": "docs/kb/mango-lk-manual/sections/55-obschiy-obzor.md"
+    },
+    {
+      "id": "mango-lk-manual-56-rabota-so-statusami",
+      "section": "3.2.2",
+      "title": "Работа со статусами",
+      "hint": "• Ответ пользователю доступен при статусах: Новое, В работе, Исследование,",
+      "pages": "53",
+      "tokens": 196,
+      "path": "docs/kb/mango-lk-manual/sections/56-rabota-so-statusami.md"
+    },
+    {
+      "id": "mango-lk-manual-57-kartochka-obrascheniya",
+      "section": "3.2.3",
+      "title": "Карточка обращения",
+      "hint": "Содержит:",
+      "pages": "53-54",
+      "tokens": 223,
+      "path": "docs/kb/mango-lk-manual/sections/57-kartochka-obrascheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-58-vkladka-nashi-ofisy",
+      "section": "3.3",
+      "title": "Вкладка «Наши офисы»",
+      "hint": "3.3 ВКЛАДКА «НАШИ ОФИСЫ»",
+      "pages": "54-55",
+      "tokens": 300,
+      "path": "docs/kb/mango-lk-manual/sections/58-vkladka-nashi-ofisy.md"
+    },
+    {
+      "id": "mango-lk-manual-59-produkt-virtualnaya-ats",
+      "section": "4",
+      "title": "Продукт «Виртуальная АТС»",
+      "hint": "Пример внешнего вида страницы продукта Виртуальной АТС представлен на рисунке",
+      "pages": "55-57",
+      "tokens": 746,
+      "path": "docs/kb/mango-lk-manual/sections/59-produkt-virtualnaya-ats.md"
+    },
+    {
+      "id": "mango-lk-manual-60-demo-versiya-vats",
+      "section": "4",
+      "title": "Демо-версия ВАТС",
+      "hint": "ДЕМО-ВЕРСИЯ ВАТС",
+      "pages": "57-58",
+      "tokens": 792,
+      "path": "docs/kb/mango-lk-manual/sections/60-demo-versiya-vats.md"
+    },
+    {
+      "id": "mango-lk-manual-61-glavnaya-stranica-polzovatelya",
+      "section": "4",
+      "title": "Главная страница пользователя",
+      "hint": "Внимание",
+      "pages": "58-59",
+      "tokens": 504,
+      "path": "docs/kb/mango-lk-manual/sections/61-glavnaya-stranica-polzovatelya.md"
+    },
+    {
+      "id": "mango-lk-manual-62-personalnaya-kartochka-sotrudnika",
+      "section": "4",
+      "title": "Персональная карточка сотрудника",
+      "hint": "Упрощенная персональная карточка сотрудника отображается при нажатии на область",
+      "pages": "59-60",
+      "tokens": 329,
+      "path": "docs/kb/mango-lk-manual/sections/62-personalnaya-kartochka-sotrudnika.md"
+    },
+    {
+      "id": "mango-lk-manual-63-vidzhet-lenta-zvonkov",
+      "section": "4",
+      "title": "Виджет «Лента звонков»",
+      "hint": "Виджет «Лента звонков» включает две вкладки:",
+      "pages": "60-61",
+      "tokens": 875,
+      "path": "docs/kb/mango-lk-manual/sections/63-vidzhet-lenta-zvonkov.md"
+    },
+    {
+      "id": "mango-lk-manual-64-vidzhet-sotrudniki",
+      "section": "4",
+      "title": "Виджет «Сотрудники»",
+      "hint": "Виджет представляет список всех сотрудников, созданных в текущей ВАТС на момент",
+      "pages": "61-62",
+      "tokens": 860,
+      "path": "docs/kb/mango-lk-manual/sections/64-vidzhet-sotrudniki.md"
+    },
+    {
+      "id": "mango-lk-manual-65-vidzhet-blok-knopok-bystryh-kommunikaciy",
+      "section": "4",
+      "title": "Виджет «Блок кнопок быстрых коммуникаций»",
+      "hint": "Виджет содержит две кнопки:",
+      "pages": "62-63",
+      "tokens": 261,
+      "path": "docs/kb/mango-lk-manual/sections/65-vidzhet-blok-knopok-bystryh-kommunikaciy.md"
+    },
+    {
+      "id": "mango-lk-manual-66-vidzhet-nastroyki-lichnoy-zaschity",
+      "section": "4",
+      "title": "Виджет «Настройки личной защиты»",
+      "hint": "Виджет доступен только для пользователей с ролью «Руководитель компании», а также",
+      "pages": "63-64",
+      "tokens": 902,
+      "path": "docs/kb/mango-lk-manual/sections/66-vidzhet-nastroyki-lichnoy-zaschity.md"
+    },
+    {
+      "id": "mango-lk-manual-67-vidzhet-analitika",
+      "section": "4",
+      "title": "Виджет «Аналитика»",
+      "hint": "Виджет «Аналитика» представляет собой отчет, содержащий краткую аналитическую",
+      "pages": "64-67",
+      "tokens": 1506,
+      "path": "docs/kb/mango-lk-manual/sections/67-vidzhet-analitika.md"
+    },
+    {
+      "id": "mango-lk-manual-68-vidzhet-kolltreking",
+      "section": "4",
+      "title": "Виджет «Коллтрекинг»",
+      "hint": "Виджет коллтрекинга отображает общую статистику по рекламе и детализацию по трем",
+      "pages": "67-69",
+      "tokens": 1114,
+      "path": "docs/kb/mango-lk-manual/sections/68-vidzhet-kolltreking.md"
+    },
+    {
+      "id": "mango-lk-manual-69-vidzhety-buhgaltera",
+      "section": "4",
+      "title": "Виджеты Бухгалтера",
+      "hint": "Пользователям с ролью Бухгалтер (и производными от этой роли) доступны",
+      "pages": "69",
+      "tokens": 370,
+      "path": "docs/kb/mango-lk-manual/sections/69-vidzhety-buhgaltera.md"
+    },
+    {
+      "id": "mango-lk-manual-70-prilozhenie-lichnyy-kabinet",
+      "section": "4",
+      "title": "Приложение «Личный кабинет»",
+      "hint": "Блок содержит ссылки на мобильное приложение MANGO OFFICE Личный кабинет в",
+      "pages": "69-70",
+      "tokens": 163,
+      "path": "docs/kb/mango-lk-manual/sections/70-prilozhenie-lichnyy-kabinet.md"
+    },
+    {
+      "id": "mango-lk-manual-71-nachalo-raboty",
+      "section": "4",
+      "title": "Начало работы",
+      "hint": "НАЧАЛО РАБОТЫ",
+      "pages": "70",
+      "tokens": 243,
+      "path": "docs/kb/mango-lk-manual/sections/71-nachalo-raboty.md"
+    },
+    {
+      "id": "mango-lk-manual-72-blokirovka-vats",
+      "section": "4",
+      "title": "Блокировка ВАТС",
+      "hint": "",
+      "pages": "70",
+      "tokens": 61,
+      "path": "docs/kb/mango-lk-manual/sections/72-blokirovka-vats.md"
+    },
+    {
+      "id": "mango-lk-manual-73-navigacionnaya-panel",
+      "section": "4.1",
+      "title": "Навигационная панель",
+      "hint": "Наша система безопасности и мониторинга трафика постоянно выявляет продукты,",
+      "pages": "70-71",
+      "tokens": 426,
+      "path": "docs/kb/mango-lk-manual/sections/73-navigacionnaya-panel.md"
+    },
+    {
+      "id": "mango-lk-manual-74-smena-versii-i-tarifa-produkta",
+      "section": "4.1.1",
+      "title": "Смена версии и тарифа продукта",
+      "hint": "Вы можете изменить версию и тариф продукта на другие, согласно вашим потребностям",
+      "pages": "71-75",
+      "tokens": 1305,
+      "path": "docs/kb/mango-lk-manual/sections/74-smena-versii-i-tarifa-produkta.md"
+    },
+    {
+      "id": "mango-lk-manual-75-blok-vashi-nomera",
+      "section": "4.2",
+      "title": "Блок «Ваши номера»",
+      "hint": "Ознакомьтесь с условиями изменения тарифа.",
+      "pages": "75",
+      "tokens": 515,
+      "path": "docs/kb/mango-lk-manual/sections/75-blok-vashi-nomera.md"
+    },
+    {
+      "id": "mango-lk-manual-76-nomera-mango-office",
+      "section": "4.2.1",
+      "title": "Номера MANGO OFFICE",
+      "hint": "Группа содержит информацию о многоканальных номерах (телефонных линиях)",
+      "pages": "75-76",
+      "tokens": 503,
+      "path": "docs/kb/mango-lk-manual/sections/76-nomera-mango-office.md"
+    },
+    {
+      "id": "mango-lk-manual-77-nomera-drugih-operatorov",
+      "section": "4.2.2",
+      "title": "Номера других операторов",
+      "hint": "Эта группа отображает информацию о номерах других операторов, используемых с",
+      "pages": "76",
+      "tokens": 388,
+      "path": "docs/kb/mango-lk-manual/sections/77-nomera-drugih-operatorov.md"
+    },
+    {
+      "id": "mango-lk-manual-78-passivnyy-sip",
+      "section": "4.2.2.1",
+      "title": "Пассивный SIP",
+      "hint": "При выборе пассивного режима переадресация звонков на линию осуществляется",
+      "pages": "76-78",
+      "tokens": 622,
+      "path": "docs/kb/mango-lk-manual/sections/78-passivnyy-sip.md"
+    },
+    {
+      "id": "mango-lk-manual-79-aktivnyy-sip",
+      "section": "4.2.2.2",
+      "title": "Активный SIP",
+      "hint": "При выборе активного режима звонки принимаются через активную SIP-учетку",
+      "pages": "78-79",
+      "tokens": 647,
+      "path": "docs/kb/mango-lk-manual/sections/79-aktivnyy-sip.md"
+    },
+    {
+      "id": "mango-lk-manual-80-vidzhety-dlya-sayta",
+      "section": "4.2.3",
+      "title": "Виджеты для сайта",
+      "hint": "В этой группе приведена информация о настроенных для текущей Виртуальной АТС",
+      "pages": "79",
+      "tokens": 275,
+      "path": "docs/kb/mango-lk-manual/sections/80-vidzhety-dlya-sayta.md"
+    },
+    {
+      "id": "mango-lk-manual-81-dobavlenie-vidzheta",
+      "section": "4.2.3.1",
+      "title": "Добавление виджета",
+      "hint": "Нажмите Добавить, чтобы добавить новый виджет.",
+      "pages": "79-80",
+      "tokens": 480,
+      "path": "docs/kb/mango-lk-manual/sections/81-dobavlenie-vidzheta.md"
+    },
+    {
+      "id": "mango-lk-manual-82-nastroyka-vidzheta-zvonok-s-sayta",
+      "section": "4.2.3.2",
+      "title": "Настройка виджета «Звонок с сайта»",
+      "hint": "Если для этого продукта ранее не создавались учетные записи SIP, то открытии формы",
+      "pages": "80-81",
+      "tokens": 471,
+      "path": "docs/kb/mango-lk-manual/sections/82-nastroyka-vidzheta-zvonok-s-sayta.md"
+    },
+    {
+      "id": "mango-lk-manual-83-vkladka-osnovnye",
+      "section": "4.2.3.2.1",
+      "title": "Вкладка «Основные»",
+      "hint": "Вид вкладки представлен на рисунке ниже.",
+      "pages": "81",
+      "tokens": 273,
+      "path": "docs/kb/mango-lk-manual/sections/83-vkladka-osnovnye.md"
+    },
+    {
+      "id": "mango-lk-manual-84-vkladka-raspisanie",
+      "section": "4.2.3.2.2",
+      "title": "Вкладка «Расписание»",
+      "hint": "Вид вкладки представлен на рисунке на следующей странице.",
+      "pages": "81-83",
+      "tokens": 760,
+      "path": "docs/kb/mango-lk-manual/sections/84-vkladka-raspisanie.md"
+    },
+    {
+      "id": "mango-lk-manual-85-vkladka-vneshniy-vid",
+      "section": "4.2.3.2.3",
+      "title": "Вкладка «Внешний вид»",
+      "hint": "На данной вкладке указаны основные элементы настройки внешнего вида для виджетов",
+      "pages": "83-86",
+      "tokens": 1388,
+      "path": "docs/kb/mango-lk-manual/sections/85-vkladka-vneshniy-vid.md"
+    },
+    {
+      "id": "mango-lk-manual-86-vkladka-kod-dlya-vstavki",
+      "section": "4.2.3.2.4",
+      "title": "Вкладка «Код для вставки»",
+      "hint": "Поля вкладки содержат код, формируемый системой для совокупности настроек работы",
+      "pages": "86",
+      "tokens": 360,
+      "path": "docs/kb/mango-lk-manual/sections/86-vkladka-kod-dlya-vstavki.md"
+    },
+    {
+      "id": "mango-lk-manual-87-test-vidzheta",
+      "section": "4.2.3.2.5",
+      "title": "Тест виджета",
+      "hint": "На каждой вкладке расположена ссылка «Тест виджета».",
+      "pages": "86-87",
+      "tokens": 243,
+      "path": "docs/kb/mango-lk-manual/sections/87-test-vidzheta.md"
+    },
+    {
+      "id": "mango-lk-manual-88-udalenie-vidzheta",
+      "section": "4.2.3.2.6",
+      "title": "Удаление виджета",
+      "hint": "Для удаления виджета нажмите на ссылку «Удалить виджет».",
+      "pages": "87",
+      "tokens": 125,
+      "path": "docs/kb/mango-lk-manual/sections/88-udalenie-vidzheta.md"
+    },
+    {
+      "id": "mango-lk-manual-89-nastroyka-vidzheta-obratnyy-zvonok",
+      "section": "4.2.3.3",
+      "title": "Настройка виджета «Обратный звонок»",
+      "hint": "Настройка виджета осуществляется при помощи дополнительной формы с вкладками:",
+      "pages": "87",
+      "tokens": 148,
+      "path": "docs/kb/mango-lk-manual/sections/89-nastroyka-vidzheta-obratnyy-zvonok.md"
+    },
+    {
+      "id": "mango-lk-manual-90-vkladka-osnovnye",
+      "section": "4.2.3.3.1",
+      "title": "Вкладка «Основные»",
+      "hint": "Вид вкладки представлен на рисунке на следующей странице.",
+      "pages": "87-89",
+      "tokens": 609,
+      "path": "docs/kb/mango-lk-manual/sections/90-vkladka-osnovnye.md"
+    },
+    {
+      "id": "mango-lk-manual-91-vkladka-raspisanie",
+      "section": "4.2.3.3.2",
+      "title": "Вкладка «Расписание»",
+      "hint": "В зависимости от того, в какое время – рабочее или нерабочее – звонит посетитель",
+      "pages": "89-90",
+      "tokens": 712,
+      "path": "docs/kb/mango-lk-manual/sections/91-vkladka-raspisanie.md"
+    },
+    {
+      "id": "mango-lk-manual-92-vkladka-generator-lidov",
+      "section": "4.2.3.3.3",
+      "title": "Вкладка «Генератор лидов»",
+      "hint": "Внимание",
+      "pages": "90-91",
+      "tokens": 328,
+      "path": "docs/kb/mango-lk-manual/sections/92-vkladka-generator-lidov.md"
+    },
+    {
+      "id": "mango-lk-manual-93-vkladka-vneshniy-vid",
+      "section": "4.2.3.3.4",
+      "title": "Вкладка «Внешний вид»",
+      "hint": "На данной вкладке указаны основные элементы настройки внешнего вида для виджетов",
+      "pages": "91-96",
+      "tokens": 2146,
+      "path": "docs/kb/mango-lk-manual/sections/93-vkladka-vneshniy-vid.md"
+    },
+    {
+      "id": "mango-lk-manual-94-vkladka-kod-dlya-vstavki",
+      "section": "4.2.3.3.5",
+      "title": "Вкладка «Код для вставки»",
+      "hint": "Поля вкладки содержат код, формируемый системой для совокупности настроек работы",
+      "pages": "96-97",
+      "tokens": 395,
+      "path": "docs/kb/mango-lk-manual/sections/94-vkladka-kod-dlya-vstavki.md"
+    },
+    {
+      "id": "mango-lk-manual-95-test-vidzheta",
+      "section": "4.2.3.3.6",
+      "title": "Тест виджета",
+      "hint": "На каждой вкладке расположена ссылка «Тест виджета».",
+      "pages": "97",
+      "tokens": 215,
+      "path": "docs/kb/mango-lk-manual/sections/95-test-vidzheta.md"
+    },
+    {
+      "id": "mango-lk-manual-96-udalenie-vidzheta",
+      "section": "4.2.3.3.7",
+      "title": "Удаление виджета",
+      "hint": "Для удаления виджета нажмите на ссылку «Удалить виджет».",
+      "pages": "97",
+      "tokens": 166,
+      "path": "docs/kb/mango-lk-manual/sections/96-udalenie-vidzheta.md"
+    },
+    {
+      "id": "mango-lk-manual-97-nastroyka-vidzheta-tekstovye-kommunikaci",
+      "section": "4.2.3.4",
+      "title": "Настройка виджета «Текстовые коммуникации»",
+      "hint": "",
+      "pages": "97",
+      "tokens": 86,
+      "path": "docs/kb/mango-lk-manual/sections/97-nastroyka-vidzheta-tekstovye-kommunikaci.md"
+    },
+    {
+      "id": "mango-lk-manual-98-blok-personal",
+      "section": "4.3",
+      "title": "Блок «Персонал»",
+      "hint": "Подробно о настройке виджета «Текстовые коммуникации» узнайте здесь.",
+      "pages": "97-98",
+      "tokens": 271,
+      "path": "docs/kb/mango-lk-manual/sections/98-blok-personal.md"
+    },
+    {
+      "id": "mango-lk-manual-99-obrabotka-zvonkov",
+      "section": "4.4",
+      "title": "Обработка звонков",
+      "hint": "Если все специалисты заняты, клиенту сообщается информация о предполагаемом",
+      "pages": "98",
+      "tokens": 702,
+      "path": "docs/kb/mango-lk-manual/sections/99-obrabotka-zvonkov.md"
+    },
+    {
+      "id": "mango-lk-manual-100-nomera-podklyuchennye-k-ats",
+      "section": "4.4.1",
+      "title": "Номера, подключенные к АТС",
+      "hint": "Раздел «Номера, подключенные к АТС» состоит из трех закладок:",
+      "pages": "98-99",
+      "tokens": 284,
+      "path": "docs/kb/mango-lk-manual/sections/100-nomera-podklyuchennye-k-ats.md"
+    },
+    {
+      "id": "mango-lk-manual-101-zakladka-nomera",
+      "section": "4.4.1.1",
+      "title": "Закладка «Номера»",
+      "hint": "Номера MANGO OFFICE",
+      "pages": "99-101",
+      "tokens": 1400,
+      "path": "docs/kb/mango-lk-manual/sections/101-zakladka-nomera.md"
+    },
+    {
+      "id": "mango-lk-manual-102-zakladka-nastroyki-priema-zvonkov",
+      "section": "4.4.1.2",
+      "title": "Закладка «Настройки приема звонков»",
+      "hint": "Здесь можно настроить дополнительные опции обработки вызовов.",
+      "pages": "101-102",
+      "tokens": 947,
+      "path": "docs/kb/mango-lk-manual/sections/102-zakladka-nastroyki-priema-zvonkov.md"
+    },
+    {
+      "id": "mango-lk-manual-103-zakladka-perenos-nomerov",
+      "section": "4.4.1.3",
+      "title": "Закладка «Перенос номеров»",
+      "hint": "Здесь вы можете осуществить перенос номеров из одной ВАТС в другую.",
+      "pages": "102-105",
+      "tokens": 1425,
+      "path": "docs/kb/mango-lk-manual/sections/103-zakladka-perenos-nomerov.md"
+    },
+    {
+      "id": "mango-lk-manual-104-golosovoe-menyu-i-raspredelenie-zvonkov",
+      "section": "4.4.2",
+      "title": "Голосовое меню и распределение звонков",
+      "hint": "Раздел содержит вкладки:",
+      "pages": "105",
+      "tokens": 317,
+      "path": "docs/kb/mango-lk-manual/sections/104-golosovoe-menyu-i-raspredelenie-zvonkov.md"
+    },
+    {
+      "id": "mango-lk-manual-105-nastroyki-dlya-vhodyaschih-liniy",
+      "section": "4.4.2.1",
+      "title": "Настройки для входящих линий",
+      "hint": "Для управления логикой работы номера с помощью Виртуальной АТС можно настроить",
+      "pages": "105-121",
+      "tokens": 8536,
+      "path": "docs/kb/mango-lk-manual/sections/105-nastroyki-dlya-vhodyaschih-liniy.md"
+    },
+    {
+      "id": "mango-lk-manual-106-dopolnitelnye-nastroyki",
+      "section": "4.4.2.2",
+      "title": "Дополнительные настройки",
+      "hint": "Во вкладке «Дополнительные настройки» можно настроить специальные параметры,",
+      "pages": "121-124",
+      "tokens": 2240,
+      "path": "docs/kb/mango-lk-manual/sections/106-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "mango-lk-manual-107-sms-otvety",
+      "section": "4.4.2.3",
+      "title": "SMS Ответы",
+      "hint": "На этой странице вы можете настроить параметры для отправки SMS ответов своим",
+      "pages": "124-125",
+      "tokens": 708,
+      "path": "docs/kb/mango-lk-manual/sections/107-sms-otvety.md"
+    },
+    {
+      "id": "mango-lk-manual-108-nastroyki-dozvona-i-soobscheniy-po-umolc",
+      "section": "4.4.3",
+      "title": "Настройки дозвона и сообщений по умолчанию",
+      "hint": "Данный раздел предназначен для настройки параметров обработки звонка по",
+      "pages": "125-131",
+      "tokens": 3855,
+      "path": "docs/kb/mango-lk-manual/sections/108-nastroyki-dozvona-i-soobscheniy-po-umolc.md"
+    },
+    {
+      "id": "mango-lk-manual-109-pereadresaciya-po-nomeru-klienta",
+      "section": "4.4.4",
+      "title": "Переадресация по номеру клиента",
+      "hint": "внимание",
+      "pages": "131-134",
+      "tokens": 1973,
+      "path": "docs/kb/mango-lk-manual/sections/109-pereadresaciya-po-nomeru-klienta.md"
+    },
+    {
+      "id": "mango-lk-manual-110-chernyy-belyy-spisok",
+      "section": "4.4.5",
+      "title": "Черный/белый список",
+      "hint": "внимание",
+      "pages": "134-135",
+      "tokens": 1319,
+      "path": "docs/kb/mango-lk-manual/sections/110-chernyy-belyy-spisok.md"
+    },
+    {
+      "id": "mango-lk-manual-111-sotrudniki-i-gruppy",
+      "section": "4.4.6",
+      "title": "Сотрудники и группы",
+      "hint": "Вкладка «Сотрудники»",
+      "pages": "135-141",
+      "tokens": 3157,
+      "path": "docs/kb/mango-lk-manual/sections/111-sotrudniki-i-gruppy.md"
+    },
+    {
+      "id": "mango-lk-manual-112-rabota-s-sotrudnikami",
+      "section": "4.4.6.1",
+      "title": "Работа с сотрудниками",
+      "hint": "Для добавления профиля нового пользователя нажмите соответствующую кнопку, и",
+      "pages": "141-146",
+      "tokens": 2952,
+      "path": "docs/kb/mango-lk-manual/sections/112-rabota-s-sotrudnikami.md"
+    },
+    {
+      "id": "mango-lk-manual-113-vkladka-kartochka",
+      "section": "4.4.6.1.1",
+      "title": "Вкладка «Карточка»",
+      "hint": "Вид карточки представлен на рисунке ниже.",
+      "pages": "146-151",
+      "tokens": 2797,
+      "path": "docs/kb/mango-lk-manual/sections/113-vkladka-kartochka.md"
+    },
+    {
+      "id": "mango-lk-manual-114-vkladka-telefoniya",
+      "section": "4.4.6.1.2",
+      "title": "Вкладка «Телефония»",
+      "hint": "Вид вкладки представлен на рисунке ниже.",
+      "pages": "151-156",
+      "tokens": 3219,
+      "path": "docs/kb/mango-lk-manual/sections/114-vkladka-telefoniya.md"
+    },
+    {
+      "id": "mango-lk-manual-115-vkladka-gruppy",
+      "section": "4.4.6.1.3",
+      "title": "Вкладка «Группы»",
+      "hint": "Вид вкладки представлен на рисунке ниже.",
+      "pages": "156-157",
+      "tokens": 439,
+      "path": "docs/kb/mango-lk-manual/sections/115-vkladka-gruppy.md"
+    },
+    {
+      "id": "mango-lk-manual-116-vkladka-kpk",
+      "section": "4.4.6.1.4",
+      "title": "Вкладка «КПК»",
+      "hint": "Перед выбором способа авторизации рекомендуем ознакомиться с инструкцией.",
+      "pages": "157",
+      "tokens": 199,
+      "path": "docs/kb/mango-lk-manual/sections/116-vkladka-kpk.md"
+    },
+    {
+      "id": "mango-lk-manual-117-vkladka-avtosekretar",
+      "section": "4.4.6.1.5",
+      "title": "Вкладка «Автосекретарь»",
+      "hint": "Для работы модуля на продукте должна быть подключена услуга \"Личный",
+      "pages": "157-162",
+      "tokens": 2781,
+      "path": "docs/kb/mango-lk-manual/sections/117-vkladka-avtosekretar.md"
+    },
+    {
+      "id": "mango-lk-manual-118-rabota-s-gruppami",
+      "section": "4.4.6.2",
+      "title": "Работа с группами",
+      "hint": "Для добавления группы воспользуйтесь одноименной ссылкой.",
+      "pages": "162-164",
+      "tokens": 838,
+      "path": "docs/kb/mango-lk-manual/sections/118-rabota-s-gruppami.md"
+    },
+    {
+      "id": "mango-lk-manual-119-vkladka-parametry-gruppy",
+      "section": "4.4.6.2.1",
+      "title": "Вкладка «Параметры группы»",
+      "hint": "Вид вкладки представлен на рисунке ниже.",
+      "pages": "164-170",
+      "tokens": 3897,
+      "path": "docs/kb/mango-lk-manual/sections/119-vkladka-parametry-gruppy.md"
+    },
+    {
+      "id": "mango-lk-manual-120-vkladka-sotrudniki-i-priem-vyzovov",
+      "section": "4.4.6.2.2",
+      "title": "Вкладка «Сотрудники и прием вызовов»",
+      "hint": "Вид вкладки представлен на рисунке ниже.",
+      "pages": "170-172",
+      "tokens": 1486,
+      "path": "docs/kb/mango-lk-manual/sections/120-vkladka-sotrudniki-i-priem-vyzovov.md"
+    },
+    {
+      "id": "mango-lk-manual-121-vkladka-ochered-vyzovov",
+      "section": "4.4.6.2.3",
+      "title": "Вкладка «Очередь вызовов»",
+      "hint": "Вид вкладки представлен на рисунке ниже.",
+      "pages": "172-174",
+      "tokens": 1290,
+      "path": "docs/kb/mango-lk-manual/sections/121-vkladka-ochered-vyzovov.md"
+    },
+    {
+      "id": "mango-lk-manual-122-roboty",
+      "section": "4.4.6.3",
+      "title": "Роботы",
+      "hint": "Модуль Роботы - инструмент для автоматизации приема входящих звонков и",
+      "pages": "174-175",
+      "tokens": 430,
+      "path": "docs/kb/mango-lk-manual/sections/122-roboty.md"
+    },
+    {
+      "id": "mango-lk-manual-123-instrumenty",
+      "section": "4.5",
+      "title": "Инструменты",
+      "hint": "Карточка робота содержит следующую информацию:",
+      "pages": "175-176",
+      "tokens": 413,
+      "path": "docs/kb/mango-lk-manual/sections/123-instrumenty.md"
+    },
+    {
+      "id": "mango-lk-manual-124-statistika-i-monitoring",
+      "section": "4.5.1",
+      "title": "Статистика и мониторинг",
+      "hint": "C помощью этого инструмента можно следить за использованием Виртуальной АТС.",
+      "pages": "176-177",
+      "tokens": 573,
+      "path": "docs/kb/mango-lk-manual/sections/124-statistika-i-monitoring.md"
+    },
+    {
+      "id": "mango-lk-manual-125-ocenka-effektivnosti-raboty",
+      "section": "4.5.1.1",
+      "title": "Оценка эффективности работы",
+      "hint": "Для построения отчета воспользуйтесь следующими фильтрами:",
+      "pages": "177-179",
+      "tokens": 1278,
+      "path": "docs/kb/mango-lk-manual/sections/125-ocenka-effektivnosti-raboty.md"
+    },
+    {
+      "id": "mango-lk-manual-126-nagruzka-po-chasam",
+      "section": "4.5.1.2",
+      "title": "Нагрузка по часам",
+      "hint": "Для построения отчета воспользуйтесь следующими фильтрами:",
+      "pages": "179-181",
+      "tokens": 993,
+      "path": "docs/kb/mango-lk-manual/sections/126-nagruzka-po-chasam.md"
+    },
+    {
+      "id": "mango-lk-manual-127-pokazateli-obsluzhivaniya",
+      "section": "4.5.1.3",
+      "title": "Показатели обслуживания",
+      "hint": "Выберите тип группировки, используя одноименный переключатель.",
+      "pages": "181-182",
+      "tokens": 1089,
+      "path": "docs/kb/mango-lk-manual/sections/127-pokazateli-obsluzhivaniya.md"
+    },
+    {
+      "id": "mango-lk-manual-128-ocenka-effektivnosti-reklamy",
+      "section": "4.5.1.4",
+      "title": "Оценка эффективности рекламы",
+      "hint": "Выберите тип группировки, используя одноименный переключатель.",
+      "pages": "182-184",
+      "tokens": 761,
+      "path": "docs/kb/mango-lk-manual/sections/128-ocenka-effektivnosti-reklamy.md"
+    },
+    {
+      "id": "mango-lk-manual-129-istoriya-vyzovov",
+      "section": "4.5.2",
+      "title": "История вызовов",
+      "hint": "Инструмент «История вызовов» позволяет просматривать информацию о звонках,",
+      "pages": "184",
+      "tokens": 362,
+      "path": "docs/kb/mango-lk-manual/sections/129-istoriya-vyzovov.md"
+    },
+    {
+      "id": "mango-lk-manual-130-vse-vyzovy",
+      "section": "4.5.2.1",
+      "title": "Все вызовы",
+      "hint": "Данный отчет объединяет информацию обо всех вызовах любого типа: принятых и",
+      "pages": "184-188",
+      "tokens": 2605,
+      "path": "docs/kb/mango-lk-manual/sections/130-vse-vyzovy.md"
+    },
+    {
+      "id": "mango-lk-manual-131-propuschennye-vyzovy",
+      "section": "4.5.2.2",
+      "title": "Пропущенные вызовы",
+      "hint": "Данный отчет содержит информацию обо всех пропущенных входящих вызовах.",
+      "pages": "188-190",
+      "tokens": 1576,
+      "path": "docs/kb/mango-lk-manual/sections/131-propuschennye-vyzovy.md"
+    },
+    {
+      "id": "mango-lk-manual-132-nesostoyavshiesya-vyzovy",
+      "section": "4.5.2.3",
+      "title": "Несостоявшиеся вызовы",
+      "hint": "Данный отчет содержит информацию обо всех несостоявшихся исходящих вызовах,",
+      "pages": "190-191",
+      "tokens": 698,
+      "path": "docs/kb/mango-lk-manual/sections/132-nesostoyavshiesya-vyzovy.md"
+    },
+    {
+      "id": "mango-lk-manual-133-videozvonki",
+      "section": "4.5.2.4",
+      "title": "Видеозвонки",
+      "hint": "Данный отчет содержит информацию обо всех видеозвонках.",
+      "pages": "191-193",
+      "tokens": 584,
+      "path": "docs/kb/mango-lk-manual/sections/133-videozvonki.md"
+    },
+    {
+      "id": "mango-lk-manual-134-zapis-razgovorov",
+      "section": "4.5.3",
+      "title": "Запись разговоров",
+      "hint": "Виртуальная АТС может записывать — вручную или автоматически — нужный разговор",
+      "pages": "193-194",
+      "tokens": 608,
+      "path": "docs/kb/mango-lk-manual/sections/134-zapis-razgovorov.md"
+    },
+    {
+      "id": "mango-lk-manual-135-zapisannye-razgovory",
+      "section": "4.5.3.1",
+      "title": "Записанные разговоры",
+      "hint": "В этой вкладке можно просмотреть и отсортировать информацию, а также прослушать",
+      "pages": "194-203",
+      "tokens": 6695,
+      "path": "docs/kb/mango-lk-manual/sections/135-zapisannye-razgovory.md"
+    },
+    {
+      "id": "mango-lk-manual-136-izbrannoe",
+      "section": "4.5.3.2",
+      "title": "Избранное",
+      "hint": "Вкладка “Избранное” содержит список записей разговоров, отмеченных метками.",
+      "pages": "203",
+      "tokens": 460,
+      "path": "docs/kb/mango-lk-manual/sections/136-izbrannoe.md"
+    },
+    {
+      "id": "mango-lk-manual-137-rezhimy-zapisi",
+      "section": "4.5.3.3",
+      "title": "Режимы записи",
+      "hint": "Данная вкладка предназначена для создания и настройки правил записи разговоров.",
+      "pages": "203-209",
+      "tokens": 2168,
+      "path": "docs/kb/mango-lk-manual/sections/137-rezhimy-zapisi.md"
+    },
+    {
+      "id": "mango-lk-manual-138-nastroyki",
+      "section": "4.5.3.4",
+      "title": "Настройки",
+      "hint": "В этой вкладке можно управлять параметрами осуществления, хранения и пересылки,",
+      "pages": "209-213",
+      "tokens": 2822,
+      "path": "docs/kb/mango-lk-manual/sections/138-nastroyki.md"
+    },
+    {
+      "id": "mango-lk-manual-139-eksport",
+      "section": "4.5.3.5",
+      "title": "Экспорт",
+      "hint": "Вкладка \"Экспорт\" в Личном Кабинете Виртуальной АТС предоставляет возможность",
+      "pages": "213-215",
+      "tokens": 1613,
+      "path": "docs/kb/mango-lk-manual/sections/139-eksport.md"
+    },
+    {
+      "id": "mango-lk-manual-140-kontakt-centr",
+      "section": "4.5.4",
+      "title": "Контакт-центр",
+      "hint": "Контакт-центр предназначен для управления потоком обращений в реальном времени.",
+      "pages": "215-217",
+      "tokens": 1121,
+      "path": "docs/kb/mango-lk-manual/sections/140-kontakt-centr.md"
+    },
+    {
+      "id": "mango-lk-manual-141-yukassa",
+      "section": "4.5.4.1",
+      "title": "Юkassa",
+      "hint": "Подключите сервис Юkassa в Личном кабинете ВАТС и отправляйте клиентам ссылки",
+      "pages": "217-219",
+      "tokens": 494,
+      "path": "docs/kb/mango-lk-manual/sections/141-yukassa.md"
+    },
+    {
+      "id": "mango-lk-manual-142-unisender",
+      "section": "4.5.4.2",
+      "title": "Unisender",
+      "hint": "Интеграция Контакт-центра Mango OFFICE с сервисом рассылок Unisender позволяет",
+      "pages": "219-221",
+      "tokens": 961,
+      "path": "docs/kb/mango-lk-manual/sections/142-unisender.md"
+    },
+    {
+      "id": "mango-lk-manual-143-bitriks-24",
+      "section": "4.5.4.3",
+      "title": "Битрикс 24",
+      "hint": "Для отправки данных из Контакт-центра в CRM Битрикс 24 необходимо подключить",
+      "pages": "221-222",
+      "tokens": 424,
+      "path": "docs/kb/mango-lk-manual/sections/143-bitriks-24.md"
+    },
+    {
+      "id": "mango-lk-manual-144-golosovye-soobscheniya",
+      "section": "4.5.6",
+      "title": "Голосовые сообщения",
+      "hint": "Инструмент предоставляет доступ к управлению содержимым облачного хранилища.",
+      "pages": "222-223",
+      "tokens": 780,
+      "path": "docs/kb/mango-lk-manual/sections/144-golosovye-soobscheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-145-zakaz-zvonka",
+      "section": "4.5.7",
+      "title": "Заказ звонка",
+      "hint": "Инструмент «Заказ звонка» позволяет организовать вызов через Личный кабинет.",
+      "pages": "223-224",
+      "tokens": 565,
+      "path": "docs/kb/mango-lk-manual/sections/145-zakaz-zvonka.md"
+    },
+    {
+      "id": "mango-lk-manual-146-staticheskiy-kolltreking",
+      "section": "4.5.8",
+      "title": "Статический коллтрекинг",
+      "hint": "В настоящее время инструмент недоступен для подключения.",
+      "pages": "224",
+      "tokens": 256,
+      "path": "docs/kb/mango-lk-manual/sections/146-staticheskiy-kolltreking.md"
+    },
+    {
+      "id": "mango-lk-manual-147-otchety-staticheskogo-kolltrekinga",
+      "section": "4.5.8.1",
+      "title": "Отчеты статического коллтрекинга",
+      "hint": "Отчет статического коллтрекинга отображает статистику по определенным каналам",
+      "pages": "224-229",
+      "tokens": 2939,
+      "path": "docs/kb/mango-lk-manual/sections/147-otchety-staticheskogo-kolltrekinga.md"
+    },
+    {
+      "id": "mango-lk-manual-148-analitika",
+      "section": "4.5.9",
+      "title": "Аналитика",
+      "hint": "Инструмент «Аналитика» позволяет формировать статистические отчеты,",
+      "pages": "229-233",
+      "tokens": 1114,
+      "path": "docs/kb/mango-lk-manual/sections/148-analitika.md"
+    },
+    {
+      "id": "mango-lk-manual-149-prodazhi",
+      "section": "4.5.9.1",
+      "title": "Продажи",
+      "hint": "",
+      "pages": "233",
+      "tokens": 71,
+      "path": "docs/kb/mango-lk-manual/sections/149-prodazhi.md"
+    },
+    {
+      "id": "mango-lk-manual-150-vhodyaschie",
+      "section": "4.5.9.1.1",
+      "title": "Входящие",
+      "hint": "",
+      "pages": "233",
+      "tokens": 76,
+      "path": "docs/kb/mango-lk-manual/sections/150-vhodyaschie.md"
+    },
+    {
+      "id": "mango-lk-manual-151-otchet-propuschennye-zvonki",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Пропущенные звонки»",
+      "hint": "Отчет «Пропущенные звонки» в графическом виде отображает информацию о входящих",
+      "pages": "233-234",
+      "tokens": 827,
+      "path": "docs/kb/mango-lk-manual/sections/151-otchet-propuschennye-zvonki.md"
+    },
+    {
+      "id": "mango-lk-manual-152-otchet-prichiny-propuschennyh-zvonkov",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Причины пропущенных звонков»",
+      "hint": "Отчет «Причины пропущенных звонков» отображает информацию о количестве и",
+      "pages": "234-236",
+      "tokens": 1152,
+      "path": "docs/kb/mango-lk-manual/sections/152-otchet-prichiny-propuschennyh-zvonkov.md"
+    },
+    {
+      "id": "mango-lk-manual-153-otchet-vremya-ozhidaniya",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Время ожидания»",
+      "hint": "Отчет «Время ожидания» отображает информацию о времени ожидания пропущенного",
+      "pages": "236-238",
+      "tokens": 901,
+      "path": "docs/kb/mango-lk-manual/sections/153-otchet-vremya-ozhidaniya.md"
+    },
+    {
+      "id": "mango-lk-manual-154-otchet-dlitelnost-razgovora",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Длительность разговора»",
+      "hint": "Отчет «Длительность разговора» отображает информацию о количестве входящих",
+      "pages": "238-240",
+      "tokens": 1009,
+      "path": "docs/kb/mango-lk-manual/sections/154-otchet-dlitelnost-razgovora.md"
+    },
+    {
+      "id": "mango-lk-manual-155-otchet-kolichestvo-perezvonov-po-propusc",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Количество перезвонов по пропущенным звонкам»",
+      "hint": "Отчет «Количество перезвонов по пропущенным звонкам» в графическом виде",
+      "pages": "240-242",
+      "tokens": 1349,
+      "path": "docs/kb/mango-lk-manual/sections/155-otchet-kolichestvo-perezvonov-po-propusc.md"
+    },
+    {
+      "id": "mango-lk-manual-156-otchet-naskolko-bystro-sotrudniki-pytayu",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Насколько быстро сотрудники пытаются перезвонить»",
+      "hint": "Отчет «Насколько быстро сотрудники пытаются перезвонить» отображает информацию",
+      "pages": "242-244",
+      "tokens": 915,
+      "path": "docs/kb/mango-lk-manual/sections/156-otchet-naskolko-bystro-sotrudniki-pytayu.md"
+    },
+    {
+      "id": "mango-lk-manual-157-otchet-raspredelenie-zvonkov-po-regionam",
+      "section": "4.5.9.1.1",
+      "title": "Отчет «Распределение звонков по регионам»",
+      "hint": "Отчет предоставляет (на карте и в таблице) информацию о регионе звонящего на",
+      "pages": "244-246",
+      "tokens": 903,
+      "path": "docs/kb/mango-lk-manual/sections/157-otchet-raspredelenie-zvonkov-po-regionam.md"
+    },
+    {
+      "id": "mango-lk-manual-158-ishodyaschie",
+      "section": "4.5.9.1.2",
+      "title": "Исходящие",
+      "hint": "",
+      "pages": "246",
+      "tokens": 77,
+      "path": "docs/kb/mango-lk-manual/sections/158-ishodyaschie.md"
+    },
+    {
+      "id": "mango-lk-manual-159-otchet-kachestvennye-zvonki",
+      "section": "4.5.9.1.2",
+      "title": "Отчет «Качественные звонки»",
+      "hint": "Отчет «Качественные звонки» отображает информацию о количестве качественных",
+      "pages": "246-248",
+      "tokens": 1634,
+      "path": "docs/kb/mango-lk-manual/sections/159-otchet-kachestvennye-zvonki.md"
+    },
+    {
+      "id": "mango-lk-manual-160-otchet-v-kakoe-vremya-luchshe-sovershat",
+      "section": "4.5.9.1.2",
+      "title": "Отчет «В какое время лучше совершать звонки»",
+      "hint": "Отчет «В какое время лучше совершать звонки» отображает информацию о количестве",
+      "pages": "248-250",
+      "tokens": 1041,
+      "path": "docs/kb/mango-lk-manual/sections/160-otchet-v-kakoe-vremya-luchshe-sovershat.md"
+    },
+    {
+      "id": "mango-lk-manual-161-otchet-ishodyaschiy-obzvon",
+      "section": "4.5.9.1.2",
+      "title": "Отчет «Исходящий обзвон»",
+      "hint": "Отчет «Исходящий обзвон» отображает информацию о количестве попыток дозвонов до",
+      "pages": "250-253",
+      "tokens": 1738,
+      "path": "docs/kb/mango-lk-manual/sections/161-otchet-ishodyaschiy-obzvon.md"
+    },
+    {
+      "id": "mango-lk-manual-162-otchet-dlitelnost-razgovora",
+      "section": "4.5.9.1.2",
+      "title": "Отчет «Длительность разговора»",
+      "hint": "Отчет «Длительность разговора» отображает информацию о количестве исходящих",
+      "pages": "253-255",
+      "tokens": 1130,
+      "path": "docs/kb/mango-lk-manual/sections/162-otchet-dlitelnost-razgovora.md"
+    },
+    {
+      "id": "mango-lk-manual-163-obsluzhivanie",
+      "section": "4.5.9.2",
+      "title": "Обслуживание",
+      "hint": "",
+      "pages": "255",
+      "tokens": 72,
+      "path": "docs/kb/mango-lk-manual/sections/163-obsluzhivanie.md"
+    },
+    {
+      "id": "mango-lk-manual-164-propuschennye",
+      "section": "4.5.9.2.1",
+      "title": "Пропущенные",
+      "hint": "",
+      "pages": "255",
+      "tokens": 76,
+      "path": "docs/kb/mango-lk-manual/sections/164-propuschennye.md"
+    },
+    {
+      "id": "mango-lk-manual-165-otchet-kolichestvo-propuschennyh-vyzovov",
+      "section": "4.5.9.2.1",
+      "title": "Отчет «Количество пропущенных вызовов»",
+      "hint": "Отчет «Количество пропущенных вызовов» отображает информацию о количестве и",
+      "pages": "255-257",
+      "tokens": 1000,
+      "path": "docs/kb/mango-lk-manual/sections/165-otchet-kolichestvo-propuschennyh-vyzovov.md"
+    },
+    {
+      "id": "mango-lk-manual-166-otchet-prichiny-propuschennyh-zvonkov",
+      "section": "4.5.9.2.1",
+      "title": "Отчет «Причины пропущенных звонков»",
+      "hint": "Отчет «Причины пропущенных звонков» отображает информацию о количестве и",
+      "pages": "257-259",
+      "tokens": 1091,
+      "path": "docs/kb/mango-lk-manual/sections/166-otchet-prichiny-propuschennyh-zvonkov.md"
+    },
+    {
+      "id": "mango-lk-manual-167-otchet-v-kakoe-vremya-teryayutsya-zvonki",
+      "section": "4.5.9.2.1",
+      "title": "Отчет «В какое время теряются звонки»",
+      "hint": "Отчет «В какое время теряются звонки» в графическом виде отображает информацию",
+      "pages": "259-261",
+      "tokens": 837,
+      "path": "docs/kb/mango-lk-manual/sections/167-otchet-v-kakoe-vremya-teryayutsya-zvonki.md"
+    },
+    {
+      "id": "mango-lk-manual-168-otchet-skolko-klienty-gotovy-zhdat-na-li",
+      "section": "4.5.9.2.1",
+      "title": "Отчет «Сколько клиенты готовы ждать на линии»",
+      "hint": "Отчет «Сколько клиенты готовы ждать на линии» отображает информацию о количестве",
+      "pages": "261-262",
+      "tokens": 518,
+      "path": "docs/kb/mango-lk-manual/sections/168-otchet-skolko-klienty-gotovy-zhdat-na-li.md"
+    },
+    {
+      "id": "mango-lk-manual-169-prinyatye",
+      "section": "4.5.9.2.2",
+      "title": "Принятые",
+      "hint": "",
+      "pages": "262",
+      "tokens": 75,
+      "path": "docs/kb/mango-lk-manual/sections/169-prinyatye.md"
+    },
+    {
+      "id": "mango-lk-manual-170-otchet-skolko-zvonkov-prinyato-bystro",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Сколько звонков принято быстро»",
+      "hint": "Отчет «Сколько звонков принято быстро» содержит информацию о количестве",
+      "pages": "262-264",
+      "tokens": 816,
+      "path": "docs/kb/mango-lk-manual/sections/170-otchet-skolko-zvonkov-prinyato-bystro.md"
+    },
+    {
+      "id": "mango-lk-manual-171-otchet-srednyaya-prodolzhitelnost",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Средняя продолжительность»",
+      "hint": "Отчет «Средняя продолжительность звонка» в графическом виде отображает",
+      "pages": "264-265",
+      "tokens": 567,
+      "path": "docs/kb/mango-lk-manual/sections/171-otchet-srednyaya-prodolzhitelnost.md"
+    },
+    {
+      "id": "mango-lk-manual-172-otchet-vremya-ozhidaniya-otveta",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Время ожидания ответа»",
+      "hint": "Отчет «Время ожидания ответа» отображает информацию о времени ожидания",
+      "pages": "265-267",
+      "tokens": 714,
+      "path": "docs/kb/mango-lk-manual/sections/172-otchet-vremya-ozhidaniya-otveta.md"
+    },
+    {
+      "id": "mango-lk-manual-173-otchet-vremya-obsluzhivaniya-vyzova",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Время обслуживания вызова»",
+      "hint": "Отчет «Время обслуживания вызова» содержит информацию о количестве входящих",
+      "pages": "267-269",
+      "tokens": 860,
+      "path": "docs/kb/mango-lk-manual/sections/173-otchet-vremya-obsluzhivaniya-vyzova.md"
+    },
+    {
+      "id": "mango-lk-manual-174-otchet-skolko-sotrudnikov-reshayut-probl",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Сколько сотрудников решают проблему клиента»",
+      "hint": "Отчет «Сколько сотрудников решают проблему клиента» отображает информацию о",
+      "pages": "269-270",
+      "tokens": 542,
+      "path": "docs/kb/mango-lk-manual/sections/174-otchet-skolko-sotrudnikov-reshayut-probl.md"
+    },
+    {
+      "id": "mango-lk-manual-175-otchet-skolko-zvonkov-trebuetsya-klientu",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Сколько звонков требуется клиенту для решения проблемы»",
+      "hint": "Отчет «Сколько звонков требуется клиенту для решения проблемы» количество",
+      "pages": "270-272",
+      "tokens": 627,
+      "path": "docs/kb/mango-lk-manual/sections/175-otchet-skolko-zvonkov-trebuetsya-klientu.md"
+    },
+    {
+      "id": "mango-lk-manual-176-otchet-raspredelenie-zvonkov-po-punktam",
+      "section": "4.5.9.2.2",
+      "title": "Отчет «Распределение звонков по пунктам голосового меню»",
+      "hint": "Отчет показывает информацию о пути внешнего входящего вызова на номера АТС,",
+      "pages": "272-275",
+      "tokens": 2342,
+      "path": "docs/kb/mango-lk-manual/sections/176-otchet-raspredelenie-zvonkov-po-punktam.md"
+    },
+    {
+      "id": "mango-lk-manual-177-adresnaya-kniga-kontragentov",
+      "section": "4.5.10",
+      "title": "Адресная книга контрагентов",
+      "hint": "Инструмент «Адресная книга» предназначен для хранения основной информации о",
+      "pages": "275-276",
+      "tokens": 767,
+      "path": "docs/kb/mango-lk-manual/sections/177-adresnaya-kniga-kontragentov.md"
+    },
+    {
+      "id": "mango-lk-manual-178-dobavlenie-kontakta",
+      "section": "4.5.10.1",
+      "title": "Добавление контакта",
+      "hint": "Для того, чтобы добавить нового контрагента, следует щелкнуть по кнопке Добавить",
+      "pages": "276-277",
+      "tokens": 488,
+      "path": "docs/kb/mango-lk-manual/sections/178-dobavlenie-kontakta.md"
+    },
+    {
+      "id": "mango-lk-manual-179-tekstovye-kommunikacii",
+      "section": "4.5.11",
+      "title": "Текстовые коммуникации",
+      "hint": "Текстовые коммуникации – это модуль для коммуникаций с клиентами.",
+      "pages": "277-278",
+      "tokens": 421,
+      "path": "docs/kb/mango-lk-manual/sections/179-tekstovye-kommunikacii.md"
+    },
+    {
+      "id": "mango-lk-manual-180-podklyuchenie-tekstovye-kommunikacii-v-l",
+      "section": "4.5.11.1",
+      "title": "Подключение «Текстовые коммуникации» в Личном кабинете",
+      "hint": "Для подключения «Текстовые коммуникации» зайдите в Личный кабинет пользователя",
+      "pages": "278-279",
+      "tokens": 851,
+      "path": "docs/kb/mango-lk-manual/sections/180-podklyuchenie-tekstovye-kommunikacii-v-l.md"
+    },
+    {
+      "id": "mango-lk-manual-181-moi-gruppy-kanalov",
+      "section": "4.5.11.2",
+      "title": "Мои группы каналов",
+      "hint": "При отсутствии ранее созданных групп каналов на экране отобразится описание",
+      "pages": "279-280",
+      "tokens": 795,
+      "path": "docs/kb/mango-lk-manual/sections/181-moi-gruppy-kanalov.md"
+    },
+    {
+      "id": "mango-lk-manual-182-nastroyki-gruppy-kanalov",
+      "section": "4.5.11.2.1",
+      "title": "Настройки группы каналов",
+      "hint": "Главное окно группы каналов содержит следующие каналы коммуникации с клиентами:",
+      "pages": "280-281",
+      "tokens": 332,
+      "path": "docs/kb/mango-lk-manual/sections/182-nastroyki-gruppy-kanalov.md"
+    },
+    {
+      "id": "mango-lk-manual-183-osnovnye-nastroyki",
+      "section": "4.5.11.2.1.1",
+      "title": "Основные настройки",
+      "hint": "В настройках группы каналов следует указать:",
+      "pages": "281-284",
+      "tokens": 1435,
+      "path": "docs/kb/mango-lk-manual/sections/183-osnovnye-nastroyki.md"
+    },
+    {
+      "id": "mango-lk-manual-184-raspisanie-raboty",
+      "section": "4.5.11.2.2.2",
+      "title": "Расписание работы",
+      "hint": "В настройках расписания укажите:",
+      "pages": "284-287",
+      "tokens": 665,
+      "path": "docs/kb/mango-lk-manual/sections/184-raspisanie-raboty.md"
+    },
+    {
+      "id": "mango-lk-manual-185-kod-dlya-sayta",
+      "section": "4.5.11.2.2.3",
+      "title": "Код для сайта",
+      "hint": "В поле «Код для вставки на сайт» указан код группы каналов, который следует",
+      "pages": "287-288",
+      "tokens": 392,
+      "path": "docs/kb/mango-lk-manual/sections/185-kod-dlya-sayta.md"
+    },
+    {
+      "id": "mango-lk-manual-186-nastroyka-kanalov-kommunikacii",
+      "section": "4.5.11.2.2",
+      "title": "Настройка каналов коммуникации",
+      "hint": "Настройте каналы коммуникации с клиентами.",
+      "pages": "288-289",
+      "tokens": 350,
+      "path": "docs/kb/mango-lk-manual/sections/186-nastroyka-kanalov-kommunikacii.md"
+    },
+    {
+      "id": "mango-lk-manual-187-obratnyy-zvonok",
+      "section": "4.5.11.2.2",
+      "title": "Обратный звонок",
+      "hint": "Вкладка «Настройка канала»",
+      "pages": "289-293",
+      "tokens": 2199,
+      "path": "docs/kb/mango-lk-manual/sections/187-obratnyy-zvonok.md"
+    },
+    {
+      "id": "mango-lk-manual-188-lidogeneraciya",
+      "section": "4.5.11.2.2",
+      "title": "Лидогенерация",
+      "hint": "Настройте канал коммуникации с клиентами.",
+      "pages": "293-297",
+      "tokens": 1897,
+      "path": "docs/kb/mango-lk-manual/sections/188-lidogeneraciya.md"
+    },
+    {
+      "id": "mango-lk-manual-189-chat-na-sayte",
+      "section": "4.5.11.2.2",
+      "title": "Чат на сайте",
+      "hint": "Вкладка «Настройка канала»",
+      "pages": "297-309",
+      "tokens": 5006,
+      "path": "docs/kb/mango-lk-manual/sections/189-chat-na-sayte.md"
+    },
+    {
+      "id": "mango-lk-manual-190-vkontakte",
+      "section": "4.5.11.2.2",
+      "title": "ВКонтакте",
+      "hint": "Вы можете настроить прием сообщений, которые клиенты отправляют вашей группе",
+      "pages": "309-315",
+      "tokens": 2054,
+      "path": "docs/kb/mango-lk-manual/sections/190-vkontakte.md"
+    },
+    {
+      "id": "mango-lk-manual-191-whatsapp",
+      "section": "4.5.11.2.2",
+      "title": "WhatsApp",
+      "hint": "Вы можете настроить прием и отправку сообщений в мессенджере WhatsApp,",
+      "pages": "315-319",
+      "tokens": 2414,
+      "path": "docs/kb/mango-lk-manual/sections/191-whatsapp.md"
+    },
+    {
+      "id": "mango-lk-manual-192-telegram",
+      "section": "4.5.11.2.2",
+      "title": "Telegram",
+      "hint": "В данном блоке осуществляется настройка приема сообщений, которые клиенты",
+      "pages": "319-324",
+      "tokens": 2366,
+      "path": "docs/kb/mango-lk-manual/sections/192-telegram.md"
+    },
+    {
+      "id": "mango-lk-manual-193-max",
+      "section": "4.5.11.2.2",
+      "title": "MAX",
+      "hint": "Канал Max позволяет конечным пользователям компании инициировать чат с",
+      "pages": "324",
+      "tokens": 175,
+      "path": "docs/kb/mango-lk-manual/sections/193-max.md"
+    },
+    {
+      "id": "mango-lk-manual-194-nazanachenie-kanala-max",
+      "section": "4.5.11.2.2",
+      "title": "НАЗАНАЧЕНИЕ КАНАЛА MAX",
+      "hint": "",
+      "pages": "324",
+      "tokens": 78,
+      "path": "docs/kb/mango-lk-manual/sections/194-nazanachenie-kanala-max.md"
+    },
+    {
+      "id": "mango-lk-manual-195-posle-podklyucheniya-kanala-vy-smozhete",
+      "section": "4.5.11.2.2",
+      "title": "После подключения канала вы сможете получать обращения клиентов из виджета Max на вашем сайте, а также передавать диалоги в Контакт-центр, Mango Talker и внешние системы, включая Bitrix24, через открытый API.",
+      "hint": "на вашем сайте, а также передавать диалоги в Контакт-центр, Mango Talker и внешние",
+      "pages": "324",
+      "tokens": 196,
+      "path": "docs/kb/mango-lk-manual/sections/195-posle-podklyucheniya-kanala-vy-smozhete.md"
+    },
+    {
+      "id": "mango-lk-manual-196-kak-podklyuchit-kanal-max",
+      "section": "4.5.11.2.2",
+      "title": "КАК ПОДКЛЮЧИТЬ КАНАЛ MAX",
+      "hint": "",
+      "pages": "324",
+      "tokens": 81,
+      "path": "docs/kb/mango-lk-manual/sections/196-kak-podklyuchit-kanal-max.md"
+    },
+    {
+      "id": "mango-lk-manual-197-poluchenie-api-tokena-max",
+      "section": "1",
+      "title": "Получение API-токена Max",
+      "hint": "Для подключения канала Max в Личном кабинете Mango Office необходимо",
+      "pages": "324-325",
+      "tokens": 457,
+      "path": "docs/kb/mango-lk-manual/sections/197-poluchenie-api-tokena-max.md"
+    },
+    {
+      "id": "mango-lk-manual-198-otkrytie-stranicy-kanalov",
+      "section": "2",
+      "title": "Открытие страницы каналов",
+      "hint": "1.",
+      "pages": "325",
+      "tokens": 337,
+      "path": "docs/kb/mango-lk-manual/sections/198-otkrytie-stranicy-kanalov.md"
+    },
+    {
+      "id": "mango-lk-manual-199-perehod-k-nastroykam",
+      "section": "3",
+      "title": "Переход к настройкам",
+      "hint": "Нажмите «Настроить и подключить».",
+      "pages": "325",
+      "tokens": 152,
+      "path": "docs/kb/mango-lk-manual/sections/199-perehod-k-nastroykam.md"
+    },
+    {
+      "id": "mango-lk-manual-200-podklyuchenie-tokena-max",
+      "section": "4",
+      "title": "Подключение токена Max",
+      "hint": "1.",
+      "pages": "325-326",
+      "tokens": 227,
+      "path": "docs/kb/mango-lk-manual/sections/200-podklyuchenie-tokena-max.md"
+    },
+    {
+      "id": "mango-lk-manual-201-priem-i-obrabotka-obrascheniy",
+      "section": "5",
+      "title": "Прием и обработка обращений",
+      "hint": "В блоке «Кто будет принимать обращения» выберите один из вариантов:",
+      "pages": "326",
+      "tokens": 273,
+      "path": "docs/kb/mango-lk-manual/sections/201-priem-i-obrabotka-obrascheniy.md"
+    },
+    {
+      "id": "mango-lk-manual-202-avtomaticheskie-otvety",
+      "section": "6",
+      "title": "Автоматические ответы",
+      "hint": "Для повышения лояльности клиентов и удобства работы операторов следует указать",
+      "pages": "326-327",
+      "tokens": 414,
+      "path": "docs/kb/mango-lk-manual/sections/202-avtomaticheskie-otvety.md"
+    },
+    {
+      "id": "mango-lk-manual-203-pokazyvat-soobschenie-pri-zakrytii-obras",
+      "section": "7",
+      "title": "Показывать сообщение при закрытии обращения",
+      "hint": "При активации опции «Показывать сообщение при закрытии обращения» клиенту",
+      "pages": "327",
+      "tokens": 298,
+      "path": "docs/kb/mango-lk-manual/sections/203-pokazyvat-soobschenie-pri-zakrytii-obras.md"
+    },
+    {
+      "id": "mango-lk-manual-204-nerabochee-vremya",
+      "section": "8",
+      "title": "Нерабочее время",
+      "hint": "Если на ВАТС подключена услуга «Чат-боты», в блоке \"Нерабочее время\" отображается",
+      "pages": "327-328",
+      "tokens": 317,
+      "path": "docs/kb/mango-lk-manual/sections/204-nerabochee-vremya.md"
+    },
+    {
+      "id": "mango-lk-manual-205-avtomaticheskoe-zavershenie-dialogov",
+      "section": "9",
+      "title": "Автоматическое завершение диалогов",
+      "hint": "Проставьте период для автоматического завершения диалогов:",
+      "pages": "328",
+      "tokens": 160,
+      "path": "docs/kb/mango-lk-manual/sections/205-avtomaticheskoe-zavershenie-dialogov.md"
+    },
+    {
+      "id": "mango-lk-manual-206-zavershenie-podklyucheniya",
+      "section": "10",
+      "title": "Завершение подключения",
+      "hint": "Проверьте настройки и нажмите «Сохранить».",
+      "pages": "328-329",
+      "tokens": 191,
+      "path": "docs/kb/mango-lk-manual/sections/206-zavershenie-podklyucheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-207-klientskoe-prilozhenie",
+      "section": "4.5.11.2.2",
+      "title": "Клиентское приложение",
+      "hint": "Перед началом настройки ознакомьтесь с особенностями канала.",
+      "pages": "329-332",
+      "tokens": 1502,
+      "path": "docs/kb/mango-lk-manual/sections/207-klientskoe-prilozhenie.md"
+    },
+    {
+      "id": "mango-lk-manual-208-e-mail",
+      "section": "4.5.11.2.2",
+      "title": "Е-mail",
+      "hint": "В данном блоке осуществляется настройка приема сообщений, которые клиенты",
+      "pages": "332-335",
+      "tokens": 1355,
+      "path": "docs/kb/mango-lk-manual/sections/208-e-mail.md"
+    },
+    {
+      "id": "mango-lk-manual-209-avito",
+      "section": "4.5.11.2.2",
+      "title": "Aвито",
+      "hint": "Вы можете настроить прием сообщений, которые клиенты отправляют на ваш аккаунт",
+      "pages": "335-339",
+      "tokens": 1840,
+      "path": "docs/kb/mango-lk-manual/sections/209-avito.md"
+    },
+    {
+      "id": "mango-lk-manual-210-avito-rabota",
+      "section": "4.5.11.2.2",
+      "title": "Авито Работа",
+      "hint": "Интеграция с Авито Работа упрощает работу HR-специалистов и операторов: теперь",
+      "pages": "339-345",
+      "tokens": 1885,
+      "path": "docs/kb/mango-lk-manual/sections/210-avito-rabota.md"
+    },
+    {
+      "id": "mango-lk-manual-211-udalenie-gruppy-kanalov",
+      "section": "4.5.11.2.3",
+      "title": "Удаление группы каналов",
+      "hint": "Для удаления группы каналов следует открыть настройки группы и щелкнуть по кнопке",
+      "pages": "345",
+      "tokens": 223,
+      "path": "docs/kb/mango-lk-manual/sections/211-udalenie-gruppy-kanalov.md"
+    },
+    {
+      "id": "mango-lk-manual-212-chat-bot-dlya-grupp-kanalov-tekstovye-ko",
+      "section": "4.5.11.2.4",
+      "title": "Чат-бот для групп каналов «Текстовые коммуникации»",
+      "hint": "Чат-бот «Текстовые коммуникации» – это текстовый бот для общения с клиентом в",
+      "pages": "345-346",
+      "tokens": 740,
+      "path": "docs/kb/mango-lk-manual/sections/212-chat-bot-dlya-grupp-kanalov-tekstovye-ko.md"
+    },
+    {
+      "id": "mango-lk-manual-213-shablony-whatsapp",
+      "section": "4.5.11.2.5",
+      "title": "Шаблоны WhatsApp",
+      "hint": "Мессенджер WhatsApp ограничивает возможность инициировать обращение к клиенту.",
+      "pages": "346-349",
+      "tokens": 1770,
+      "path": "docs/kb/mango-lk-manual/sections/213-shablony-whatsapp.md"
+    },
+    {
+      "id": "mango-lk-manual-214-sozdanie-shablona-whatsapp",
+      "section": "4.5.11.2.5.1",
+      "title": "Создание шаблона WhatsApp",
+      "hint": "Чтобы создать новый HSM-шаблон нажмите на кнопку (8) «Добавить шаблон»",
+      "pages": "349-355",
+      "tokens": 3435,
+      "path": "docs/kb/mango-lk-manual/sections/214-sozdanie-shablona-whatsapp.md"
+    },
+    {
+      "id": "mango-lk-manual-215-otchety",
+      "section": "4.5.11.3",
+      "title": "Отчеты",
+      "hint": "Раздел Отчеты содержит детальную аналитическую информацию об обработке",
+      "pages": "355",
+      "tokens": 133,
+      "path": "docs/kb/mango-lk-manual/sections/215-otchety.md"
+    },
+    {
+      "id": "mango-lk-manual-216-panel-otchety",
+      "section": "4.5.11.3.1",
+      "title": "Панель «Отчеты»",
+      "hint": "При переходе на вкладку Отчеты открывается панель отчетов, которая состоит из",
+      "pages": "355",
+      "tokens": 197,
+      "path": "docs/kb/mango-lk-manual/sections/216-panel-otchety.md"
+    },
+    {
+      "id": "mango-lk-manual-217-blok-filtrov",
+      "section": "4.5.11.3.1.1",
+      "title": "Блок фильтров",
+      "hint": "Блок фильтров включает в себя:",
+      "pages": "355-356",
+      "tokens": 392,
+      "path": "docs/kb/mango-lk-manual/sections/217-blok-filtrov.md"
+    },
+    {
+      "id": "mango-lk-manual-218-blok-grafikov",
+      "section": "4.5.11.3.1.2",
+      "title": "Блок графиков",
+      "hint": "Доступны три графика:",
+      "pages": "356",
+      "tokens": 282,
+      "path": "docs/kb/mango-lk-manual/sections/218-blok-grafikov.md"
+    },
+    {
+      "id": "mango-lk-manual-219-otchet-vremya-reakcii",
+      "section": "4.5.11.3.2",
+      "title": "Отчет «Время реакции»",
+      "hint": "Отражает статистику по интервалам времени между созданием обращений и первым",
+      "pages": "356",
+      "tokens": 118,
+      "path": "docs/kb/mango-lk-manual/sections/219-otchet-vremya-reakcii.md"
+    },
+    {
+      "id": "mango-lk-manual-220-blok-vizualizacii",
+      "section": "4.5.11.3.2",
+      "title": "БЛОК ВИЗУАЛИЗАЦИИ",
+      "hint": "Данные в блоке отображаются в виде графика (по умолчанию) или круговой диаграммы.",
+      "pages": "356-358",
+      "tokens": 647,
+      "path": "docs/kb/mango-lk-manual/sections/220-blok-vizualizacii.md"
+    },
+    {
+      "id": "mango-lk-manual-221-blok-tablicy",
+      "section": "4.5.11.3.2",
+      "title": "БЛОК ТАБЛИЦЫ",
+      "hint": "Таблица формируется по срезам:",
+      "pages": "358-359",
+      "tokens": 255,
+      "path": "docs/kb/mango-lk-manual/sections/221-blok-tablicy.md"
+    },
+    {
+      "id": "mango-lk-manual-222-otchet-bystryy-otvet",
+      "section": "4.5.11.3.3",
+      "title": "Отчет «Быстрый ответ»",
+      "hint": "Отражает статистику по интервалам времени между созданием обращений и первым",
+      "pages": "359",
+      "tokens": 116,
+      "path": "docs/kb/mango-lk-manual/sections/222-otchet-bystryy-otvet.md"
+    },
+    {
+      "id": "mango-lk-manual-223-blok-vizualizacii",
+      "section": "4.5.11.3.3",
+      "title": "БЛОК ВИЗУАЛИЗАЦИИ",
+      "hint": "Данные в блоке отображаются в виде графика (по умолчанию) или круговой диаграммы.",
+      "pages": "359-360",
+      "tokens": 585,
+      "path": "docs/kb/mango-lk-manual/sections/223-blok-vizualizacii.md"
+    },
+    {
+      "id": "mango-lk-manual-224-blok-tablicy",
+      "section": "4.5.11.3.3",
+      "title": "БЛОК ТАБЛИЦЫ",
+      "hint": "Таблица формируется по срезам:",
+      "pages": "360-361",
+      "tokens": 255,
+      "path": "docs/kb/mango-lk-manual/sections/224-blok-tablicy.md"
+    },
+    {
+      "id": "mango-lk-manual-225-otchet-vremya-obrabotki-obscheniya",
+      "section": "4.5.11.3.4",
+      "title": "Отчет «Время обработки (общения)»",
+      "hint": "Отражает статистику по интервалу времени между первым сообщением в обращении и",
+      "pages": "361",
+      "tokens": 120,
+      "path": "docs/kb/mango-lk-manual/sections/225-otchet-vremya-obrabotki-obscheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-226-blok-vizualizacii",
+      "section": "4.5.11.3.4",
+      "title": "БЛОК ВИЗУАЛИЗАЦИИ",
+      "hint": "Данные в блоке отображаются в виде графика (по умолчанию) или круговой диаграммы.",
+      "pages": "361-362",
+      "tokens": 654,
+      "path": "docs/kb/mango-lk-manual/sections/226-blok-vizualizacii.md"
+    },
+    {
+      "id": "mango-lk-manual-227-blok-tablicy",
+      "section": "4.5.11.3.4",
+      "title": "БЛОК ТАБЛИЦЫ",
+      "hint": "Таблица формируется по срезам:",
+      "pages": "362-363",
+      "tokens": 253,
+      "path": "docs/kb/mango-lk-manual/sections/227-blok-tablicy.md"
+    },
+    {
+      "id": "mango-lk-manual-228-eksport-otchetov",
+      "section": "4.5.11.3.5",
+      "title": "Экспорт отчетов",
+      "hint": "Предусмотрен экспорт файла отчетов в формате CSV.",
+      "pages": "363",
+      "tokens": 166,
+      "path": "docs/kb/mango-lk-manual/sections/228-eksport-otchetov.md"
+    },
+    {
+      "id": "mango-lk-manual-229-otpiska-ot-rassylok-whatsapp",
+      "section": "4.5.11.4",
+      "title": "Отписка от рассылок WhatsApp",
+      "hint": "Опция «Отписаться» в шаблоне сообщения WhatsApp Business API (WABA)",
+      "pages": "363-366",
+      "tokens": 1128,
+      "path": "docs/kb/mango-lk-manual/sections/229-otpiska-ot-rassylok-whatsapp.md"
+    },
+    {
+      "id": "mango-lk-manual-230-google-analitika-i-yandeks-metrika-dlya",
+      "section": "4.5.11.5",
+      "title": "Google Аналитика и Яндекс Метрика для «Текстовые коммуникации»",
+      "hint": "коммуникации»",
+      "pages": "366",
+      "tokens": 103,
+      "path": "docs/kb/mango-lk-manual/sections/230-google-analitika-i-yandeks-metrika-dlya.md"
+    },
+    {
+      "id": "mango-lk-manual-231-otslezhivanie-sobytiy-v-google-analitike",
+      "section": "4.5.11.5.1",
+      "title": "Отслеживание событий в Google Аналитике",
+      "hint": "Внимание",
+      "pages": "366-367",
+      "tokens": 819,
+      "path": "docs/kb/mango-lk-manual/sections/231-otslezhivanie-sobytiy-v-google-analitike.md"
+    },
+    {
+      "id": "mango-lk-manual-232-postanovka-celey-po-sobytiyam-tekstovye",
+      "section": "4.5.11.5.2",
+      "title": "Постановка целей по событиям «Текстовые коммуникации» в Яндекс.Метрике",
+      "hint": "в Яндекс.Метрике",
+      "pages": "367-368",
+      "tokens": 1149,
+      "path": "docs/kb/mango-lk-manual/sections/232-postanovka-celey-po-sobytiyam-tekstovye.md"
+    },
+    {
+      "id": "mango-lk-manual-233-rechevaya-analitika",
+      "section": "4.5.12",
+      "title": "Речевая аналитика",
+      "hint": "Подробнее о разделе Речевая аналитика читайте в документации Речевая аналитика",
+      "pages": "368-369",
+      "tokens": 145,
+      "path": "docs/kb/mango-lk-manual/sections/233-rechevaya-analitika.md"
+    },
+    {
+      "id": "mango-lk-manual-234-wallboard",
+      "section": "4.5.13",
+      "title": "Wallboard",
+      "hint": "Доступ к разделу Wallboard есть у пользователей ВАТС с ролью",
+      "pages": "369-372",
+      "tokens": 1097,
+      "path": "docs/kb/mango-lk-manual/sections/234-wallboard.md"
+    },
+    {
+      "id": "mango-lk-manual-235-nastroyka-vidzhetov-gruppovyh-pokazatele",
+      "section": "4.5.13.1",
+      "title": "Настройка виджетов групповых показателей",
+      "hint": "Для настройки нажмите пиктограмму в правом верхнем углу окна группового",
+      "pages": "372-373",
+      "tokens": 861,
+      "path": "docs/kb/mango-lk-manual/sections/235-nastroyka-vidzhetov-gruppovyh-pokazatele.md"
+    },
+    {
+      "id": "mango-lk-manual-236-pokazateli-proizvoditelnosti-wallboard",
+      "section": "4.5.13.2",
+      "title": "Показатели производительности Wallboard",
+      "hint": "Показатели производительности, используемые в модуле Wallboard:",
+      "pages": "373-382",
+      "tokens": 8939,
+      "path": "docs/kb/mango-lk-manual/sections/236-pokazateli-proizvoditelnosti-wallboard.md"
+    },
+    {
+      "id": "mango-lk-manual-237-sdelki",
+      "section": "4.5.14",
+      "title": "Сделки",
+      "hint": "Модуль Сделки предназначен для учета и автоматизации продаж, и доступен в двух",
+      "pages": "382-384",
+      "tokens": 674,
+      "path": "docs/kb/mango-lk-manual/sections/237-sdelki.md"
+    },
+    {
+      "id": "mango-lk-manual-238-kontrol-kachestva",
+      "section": "4.5.15",
+      "title": "Контроль качества",
+      "hint": "Для подключения модуля Контроль качества воспользуйтесь одним из вариантов:",
+      "pages": "384-385",
+      "tokens": 657,
+      "path": "docs/kb/mango-lk-manual/sections/238-kontrol-kachestva.md"
+    },
+    {
+      "id": "mango-lk-manual-239-analitika-calltouch",
+      "section": "4.5.16",
+      "title": "Аналитика «Calltouch»",
+      "hint": "Иконка меню \"Аналитика Calltouch\" отображается у пользователей с соответствующими",
+      "pages": "385-386",
+      "tokens": 255,
+      "path": "docs/kb/mango-lk-manual/sections/239-analitika-calltouch.md"
+    },
+    {
+      "id": "mango-lk-manual-240-analiz-konkurentov",
+      "section": "4.5.17",
+      "title": "Анализ конкурентов",
+      "hint": "Анализ конкурентов – инструмент, предоставляющий данные о контекстной рекламе и",
+      "pages": "386-387",
+      "tokens": 1278,
+      "path": "docs/kb/mango-lk-manual/sections/240-analiz-konkurentov.md"
+    },
+    {
+      "id": "mango-lk-manual-241-analiz-po-domenu",
+      "section": "4.5.17.1",
+      "title": "Анализ по домену",
+      "hint": "«Анализ по домену» представляет собой инструмент для детального анализа веб-",
+      "pages": "387-388",
+      "tokens": 467,
+      "path": "docs/kb/mango-lk-manual/sections/241-analiz-po-domenu.md"
+    },
+    {
+      "id": "mango-lk-manual-242-blok-kontekstnaya-reklama",
+      "section": "4.5.17.1",
+      "title": "Блок «Контекстная реклама»",
+      "hint": "Функционал блока «Контекстная реклама» фокусируется на анализе контекстной",
+      "pages": "388-394",
+      "tokens": 3660,
+      "path": "docs/kb/mango-lk-manual/sections/242-blok-kontekstnaya-reklama.md"
+    },
+    {
+      "id": "mango-lk-manual-243-blok-organicheskiy-trafik",
+      "section": "4.5.17.1",
+      "title": "Блок «Органический трафик»",
+      "hint": "Этот отчет предоставляет возможность сравнить объем органического трафика",
+      "pages": "394-397",
+      "tokens": 1388,
+      "path": "docs/kb/mango-lk-manual/sections/243-blok-organicheskiy-trafik.md"
+    },
+    {
+      "id": "mango-lk-manual-244-analiz-po-klyuchevomu-slovu",
+      "section": "4.5.17.2",
+      "title": "Анализ по ключевому слову",
+      "hint": "«Анализ по ключевому слову» предоставляет возможность подробного анализа",
+      "pages": "397-399",
+      "tokens": 1231,
+      "path": "docs/kb/mango-lk-manual/sections/244-analiz-po-klyuchevomu-slovu.md"
+    },
+    {
+      "id": "mango-lk-manual-245-telegram",
+      "section": "4.5.17.3",
+      "title": "Telegram",
+      "hint": "Отчет предоставляет возможность отслеживать упоминания интересующего вас слова",
+      "pages": "399-401",
+      "tokens": 1841,
+      "path": "docs/kb/mango-lk-manual/sections/245-telegram.md"
+    },
+    {
+      "id": "mango-lk-manual-246-upravlenie-dozvonom-i-markirovka",
+      "section": "4.5.18",
+      "title": "Управление дозвоном и маркировка",
+      "hint": "Раздел отображается в меню, если для текущего продукта доступна хотя бы одна из его",
+      "pages": "401-402",
+      "tokens": 239,
+      "path": "docs/kb/mango-lk-manual/sections/246-upravlenie-dozvonom-i-markirovka.md"
+    },
+    {
+      "id": "mango-lk-manual-247-statistika",
+      "section": "4.5.18.1",
+      "title": "Статистика",
+      "hint": "Вкладка Статистика дозвона позволяет оперативно отслеживать показатель успешных",
+      "pages": "402-406",
+      "tokens": 1875,
+      "path": "docs/kb/mango-lk-manual/sections/247-statistika.md"
+    },
+    {
+      "id": "mango-lk-manual-248-pravila-avtopodstanovki",
+      "section": "4.5.18.2",
+      "title": "Правила автоподстановки",
+      "hint": "Функция автоподстановки позволяет автоматически выбирать номер для исходящего",
+      "pages": "406-407",
+      "tokens": 519,
+      "path": "docs/kb/mango-lk-manual/sections/248-pravila-avtopodstanovki.md"
+    },
+    {
+      "id": "mango-lk-manual-249-etiketka-i-mav",
+      "section": "4.5.18.3",
+      "title": "Этикетка и МАВ",
+      "hint": "Услуги «Этикетка» и «МАВ» (массовые автоматические вызовы) предназначены для",
+      "pages": "407-408",
+      "tokens": 798,
+      "path": "docs/kb/mango-lk-manual/sections/249-etiketka-i-mav.md"
+    },
+    {
+      "id": "mango-lk-manual-250-etiketka",
+      "section": "4.5.18.3.1",
+      "title": "Этикетка",
+      "hint": "Этикетка — это функция, которая позволяет при исходящем звонке показать клиенту не",
+      "pages": "408-412",
+      "tokens": 2047,
+      "path": "docs/kb/mango-lk-manual/sections/250-etiketka.md"
+    },
+    {
+      "id": "mango-lk-manual-251-mav",
+      "section": "4.5.18.3.2",
+      "title": "МАВ",
+      "hint": "МАВ — это услуга, которая позволяет компании выполнять массовые или",
+      "pages": "412-414",
+      "tokens": 848,
+      "path": "docs/kb/mango-lk-manual/sections/251-mav.md"
+    },
+    {
+      "id": "mango-lk-manual-252-karusel-nomerov",
+      "section": "4.5.19",
+      "title": "Карусель номеров",
+      "hint": "Карусель номеров — это инструмент Виртуальной АТС, который автоматически",
+      "pages": "414-416",
+      "tokens": 1238,
+      "path": "docs/kb/mango-lk-manual/sections/252-karusel-nomerov.md"
+    },
+    {
+      "id": "mango-lk-manual-253-otklyuchenie-i-povtornoe-podklyuchenie-u",
+      "section": "4.5.19.1",
+      "title": "Отключение и повторное подключение услуги",
+      "hint": "Услуга «Карусель номеров» управляется через раздел Управление услугами.",
+      "pages": "416",
+      "tokens": 257,
+      "path": "docs/kb/mango-lk-manual/sections/253-otklyuchenie-i-povtornoe-podklyuchenie-u.md"
+    },
+    {
+      "id": "mango-lk-manual-254-sozdanie-karuseli",
+      "section": "4.5.19.2",
+      "title": "Создание карусели",
+      "hint": "После подключения услуги можно создать карусель:",
+      "pages": "416-417",
+      "tokens": 440,
+      "path": "docs/kb/mango-lk-manual/sections/254-sozdanie-karuseli.md"
+    },
+    {
+      "id": "mango-lk-manual-255-redaktirovanie-karuseli",
+      "section": "4.5.19.3",
+      "title": "Редактирование карусели",
+      "hint": "Редактирование позволяет изменить название, номера, сотрудников и правила",
+      "pages": "417",
+      "tokens": 291,
+      "path": "docs/kb/mango-lk-manual/sections/255-redaktirovanie-karuseli.md"
+    },
+    {
+      "id": "mango-lk-manual-256-dobavlenie-nomerov",
+      "section": "4.5.19.3",
+      "title": "Добавление номеров",
+      "hint": "Номера используются при исходящих звонках.",
+      "pages": "417-418",
+      "tokens": 307,
+      "path": "docs/kb/mango-lk-manual/sections/256-dobavlenie-nomerov.md"
+    },
+    {
+      "id": "mango-lk-manual-257-dobavlenie-sotrudnikov",
+      "section": "4.5.19.3",
+      "title": "Добавление сотрудников",
+      "hint": "Чтобы добавить определить, кто будет использовать карусель:",
+      "pages": "418",
+      "tokens": 351,
+      "path": "docs/kb/mango-lk-manual/sections/257-dobavlenie-sotrudnikov.md"
+    },
+    {
+      "id": "mango-lk-manual-258-udalenie-nomerov-i-sotrudnikov-vne-karus",
+      "section": "4.5.19.3",
+      "title": "Удаление номеров и сотрудников вне карусели",
+      "hint": "Удаление номеров или сотрудников из ЛК ВАТС влияет на работу карусели номеров,",
+      "pages": "418",
+      "tokens": 371,
+      "path": "docs/kb/mango-lk-manual/sections/258-udalenie-nomerov-i-sotrudnikov-vne-karus.md"
+    },
+    {
+      "id": "mango-lk-manual-259-kak-rabotaet-logika-marshrutizacii-zvonk",
+      "section": "4.5.19.4",
+      "title": "Как работает логика маршрутизации звонков",
+      "hint": "Когда совершается исходящий звонок, система подбирает карусель среди активных",
+      "pages": "418-422",
+      "tokens": 2749,
+      "path": "docs/kb/mango-lk-manual/sections/259-kak-rabotaet-logika-marshrutizacii-zvonk.md"
+    },
+    {
+      "id": "mango-lk-manual-260-kogda-luchshe-ispolzovat-pravilo-po-mask",
+      "section": "4.5.19.4",
+      "title": "Когда лучше использовать правило «По маске»",
+      "hint": "Правило «По маске» удобно, когда вы хотите, чтобы система автоматически",
+      "pages": "422-424",
+      "tokens": 1297,
+      "path": "docs/kb/mango-lk-manual/sections/260-kogda-luchshe-ispolzovat-pravilo-po-mask.md"
+    },
+    {
+      "id": "mango-lk-manual-261-kogda-luchshe-ispolzovat-pravilo-po-regi",
+      "section": "4.5.19.4",
+      "title": "Когда лучше использовать правило «По региону»",
+      "hint": "Правило «По региону» позволяет системе автоматически подбирать карусель номеров",
+      "pages": "424-425",
+      "tokens": 1259,
+      "path": "docs/kb/mango-lk-manual/sections/261-kogda-luchshe-ispolzovat-pravilo-po-regi.md"
+    },
+    {
+      "id": "mango-lk-manual-262-udalenie-karuseley-i-otklyuchenie-uslugi",
+      "section": "4.5.19.5",
+      "title": "Удаление каруселей и отключение услуги",
+      "hint": "Удалить одну или несколько каруселей можно во вкладке Карусель номеров:",
+      "pages": "425-426",
+      "tokens": 298,
+      "path": "docs/kb/mango-lk-manual/sections/262-udalenie-karuseley-i-otklyuchenie-uslugi.md"
+    },
+    {
+      "id": "mango-lk-manual-263-primery-ispolzovaniya",
+      "section": "4.5.19.6",
+      "title": "Примеры использования",
+      "hint": "Кейс 1.",
+      "pages": "426-427",
+      "tokens": 1429,
+      "path": "docs/kb/mango-lk-manual/sections/263-primery-ispolzovaniya.md"
+    },
+    {
+      "id": "mango-lk-manual-264-prava-dostupa-k-razdelu-karusel-nomerov",
+      "section": "4.5.19.7",
+      "title": "Права доступа к разделу «Карусель номеров»",
+      "hint": "Для полноценной работы с разделом Карусель номеров необходимо назначить права",
+      "pages": "427-428",
+      "tokens": 438,
+      "path": "docs/kb/mango-lk-manual/sections/264-prava-dostupa-k-razdelu-karusel-nomerov.md"
+    },
+    {
+      "id": "mango-lk-manual-265-avtodozvon-iz-form",
+      "section": "4.5.20",
+      "title": "Автодозвон из форм",
+      "hint": "Автодозвон из форм – услуга, которая автоматически обрабатывает заявки,",
+      "pages": "428-432",
+      "tokens": 1734,
+      "path": "docs/kb/mango-lk-manual/sections/265-avtodozvon-iz-form.md"
+    },
+    {
+      "id": "mango-lk-manual-266-scenarii-ispolzovaniya-avtodozvon-iz-for",
+      "section": "4.5.20.1",
+      "title": "Сценарии использования «Автодозвон из форм»",
+      "hint": "Сценарий 1.",
+      "pages": "432-434",
+      "tokens": 933,
+      "path": "docs/kb/mango-lk-manual/sections/266-scenarii-ispolzovaniya-avtodozvon-iz-for.md"
+    },
+    {
+      "id": "mango-lk-manual-267-roboty",
+      "section": "4.5.19",
+      "title": "Роботы",
+      "hint": "Для перехода в раздл «Роботы» выберите соответствующую строку меню.",
+      "pages": "434-435",
+      "tokens": 313,
+      "path": "docs/kb/mango-lk-manual/sections/267-roboty.md"
+    },
+    {
+      "id": "mango-lk-manual-268-nastroyka-ats",
+      "section": "4.6",
+      "title": "Настройка АТС",
+      "hint": "4.6 НАСТРОЙКА АТС",
+      "pages": "435",
+      "tokens": 150,
+      "path": "docs/kb/mango-lk-manual/sections/268-nastroyka-ats.md"
+    },
+    {
+      "id": "mango-lk-manual-269-nastroyka-sip",
+      "section": "4.6.1",
+      "title": "Настройка SIP",
+      "hint": "Страница «Настройка SIP» позволяет управлять доменами и учетными записями SIP, а",
+      "pages": "435",
+      "tokens": 169,
+      "path": "docs/kb/mango-lk-manual/sections/269-nastroyka-sip.md"
+    },
+    {
+      "id": "mango-lk-manual-270-uchetnye-zapisi-i-domeny-sip",
+      "section": "4.6.1.1",
+      "title": "Учетные записи и домены SIP",
+      "hint": "На этой вкладке отображаются домены и учетные записи SIP, связанные с текущей",
+      "pages": "435-436",
+      "tokens": 588,
+      "path": "docs/kb/mango-lk-manual/sections/270-uchetnye-zapisi-i-domeny-sip.md"
+    },
+    {
+      "id": "mango-lk-manual-271-domeny-sip",
+      "section": "4.6.1.1.1",
+      "title": "Домены SIP",
+      "hint": "Создание",
+      "pages": "436-439",
+      "tokens": 1153,
+      "path": "docs/kb/mango-lk-manual/sections/271-domeny-sip.md"
+    },
+    {
+      "id": "mango-lk-manual-272-uchetnye-zapisi-sip",
+      "section": "4.6.1.1.2",
+      "title": "Учетные записи SIP",
+      "hint": "Создание",
+      "pages": "439-442",
+      "tokens": 1387,
+      "path": "docs/kb/mango-lk-manual/sections/272-uchetnye-zapisi-sip.md"
+    },
+    {
+      "id": "mango-lk-manual-273-nastroyki-sip-telefonii",
+      "section": "4.6.1.2",
+      "title": "Настройки SIP телефонии",
+      "hint": "Вкладка «Настройки SIP телефонии» позволяет выбрать, какая информация о",
+      "pages": "442",
+      "tokens": 342,
+      "path": "docs/kb/mango-lk-manual/sections/273-nastroyki-sip-telefonii.md"
+    },
+    {
+      "id": "mango-lk-manual-274-bezopasnost",
+      "section": "4.6.1.3",
+      "title": "Безопасность",
+      "hint": "В целях повышения безопасности использования SIP-телефонии предусмотрено",
+      "pages": "442-443",
+      "tokens": 1024,
+      "path": "docs/kb/mango-lk-manual/sections/274-bezopasnost.md"
+    },
+    {
+      "id": "mango-lk-manual-275-sip-trunk",
+      "section": "4.6.1.4",
+      "title": "SIP Trunk",
+      "hint": "SIP Trunk – это виртуальный канал связи между вашей АТС (кАТС) и Виртуальной АТС",
+      "pages": "443-444",
+      "tokens": 278,
+      "path": "docs/kb/mango-lk-manual/sections/275-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-276-vneshniy-mediaproxy",
+      "section": "4.6.1.5",
+      "title": "Внешний MediaProxy",
+      "hint": "Вкладка предназначена для настройки передачи трафика через внешний сервер",
+      "pages": "444-446",
+      "tokens": 997,
+      "path": "docs/kb/mango-lk-manual/sections/276-vneshniy-mediaproxy.md"
+    },
+    {
+      "id": "mango-lk-manual-277-audiofayly",
+      "section": "4.6.2",
+      "title": "Аудиофайлы",
+      "hint": "В разделе «Аудиофайлы» можно загрузить готовый или записать новый звуковой",
+      "pages": "446-448",
+      "tokens": 1665,
+      "path": "docs/kb/mango-lk-manual/sections/277-audiofayly.md"
+    },
+    {
+      "id": "mango-lk-manual-278-bezopasnost-i-ogranicheniya",
+      "section": "4.6.3",
+      "title": "Безопасность и ограничения",
+      "hint": "Раздел «Безопасность и ограничения» содержит следующие вкладки:",
+      "pages": "448",
+      "tokens": 239,
+      "path": "docs/kb/mango-lk-manual/sections/278-bezopasnost-i-ogranicheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-279-nastroyka",
+      "section": "4.6.3.1",
+      "title": "Настройка",
+      "hint": "Вкладка предоставляет возможность смены пароля, настройки двухфакторной",
+      "pages": "448-452",
+      "tokens": 2411,
+      "path": "docs/kb/mango-lk-manual/sections/279-nastroyka.md"
+    },
+    {
+      "id": "mango-lk-manual-280-zhurnal-deystviy",
+      "section": "4.6.3.2",
+      "title": "Журнал действий",
+      "hint": "Данный отчет отображает информацию о действиях пользователей в Личном кабинете.",
+      "pages": "452-453",
+      "tokens": 525,
+      "path": "docs/kb/mango-lk-manual/sections/280-zhurnal-deystviy.md"
+    },
+    {
+      "id": "mango-lk-manual-281-nastroyka-dostupa",
+      "section": "4.6.3.3",
+      "title": "Настройка доступа",
+      "hint": "Данный раздел предназначен для создания, редактирования и персонализации ролей",
+      "pages": "453-454",
+      "tokens": 614,
+      "path": "docs/kb/mango-lk-manual/sections/281-nastroyka-dostupa.md"
+    },
+    {
+      "id": "mango-lk-manual-282-prosmotr-spiska-roley",
+      "section": "4.6.3.3.1",
+      "title": "Просмотр списка ролей",
+      "hint": "Список ролей отображается на странице управления ролями.",
+      "pages": "454-455",
+      "tokens": 261,
+      "path": "docs/kb/mango-lk-manual/sections/282-prosmotr-spiska-roley.md"
+    },
+    {
+      "id": "mango-lk-manual-283-sozdanie-roli",
+      "section": "4.6.3.3.2",
+      "title": "Создание роли",
+      "hint": "Создание роли позволяет определить новый набор прав доступа для пользователей",
+      "pages": "455-456",
+      "tokens": 422,
+      "path": "docs/kb/mango-lk-manual/sections/283-sozdanie-roli.md"
+    },
+    {
+      "id": "mango-lk-manual-284-sozdanie-roli-putem-kopirovaniya",
+      "section": "4.6.3.3.3",
+      "title": "Создание роли путем копирования",
+      "hint": "Новые роли можно создавать путем копирования существующих ролей.",
+      "pages": "456-459",
+      "tokens": 1336,
+      "path": "docs/kb/mango-lk-manual/sections/284-sozdanie-roli-putem-kopirovaniya.md"
+    },
+    {
+      "id": "mango-lk-manual-285-udalenie-roli",
+      "section": "4.6.3.3.4",
+      "title": "Удаление роли",
+      "hint": "Удалить можно только пользовательские роли.",
+      "pages": "459",
+      "tokens": 220,
+      "path": "docs/kb/mango-lk-manual/sections/285-udalenie-roli.md"
+    },
+    {
+      "id": "mango-lk-manual-286-sbrosit-nastroyki-roli",
+      "section": "4.6.3.3.5",
+      "title": "Сбросить настройки роли",
+      "hint": "Если права доступа роли были изменены, их можно вернуть к исходным значениям.",
+      "pages": "459-460",
+      "tokens": 351,
+      "path": "docs/kb/mango-lk-manual/sections/286-sbrosit-nastroyki-roli.md"
+    },
+    {
+      "id": "mango-lk-manual-287-nastroyka-prav-dostupa-roli",
+      "section": "4.6.3.3.6",
+      "title": "Настройка прав доступа роли",
+      "hint": "Права доступа роли определяют, какие действия доступны пользователям с этой ролью",
+      "pages": "460-465",
+      "tokens": 2592,
+      "path": "docs/kb/mango-lk-manual/sections/287-nastroyka-prav-dostupa-roli.md"
+    },
+    {
+      "id": "mango-lk-manual-288-dostup-k-ii-instrumentam-kontakt-centra",
+      "section": "4.6.3.3.6",
+      "title": "Доступ к ИИ-инструментам Контакт-центра",
+      "hint": "В настройках роли доступен раздел «ИИ-инструменты КЦ», который позволяет",
+      "pages": "465-466",
+      "tokens": 648,
+      "path": "docs/kb/mango-lk-manual/sections/288-dostup-k-ii-instrumentam-kontakt-centra.md"
+    },
+    {
+      "id": "mango-lk-manual-289-nastroyka-dostupa-k-personalnym-kontakta",
+      "section": "4.6.3.3.7",
+      "title": "Настройка доступа к персональным контактам",
+      "hint": "В разделе Общие настройки → Безопасность и ограничения → [выбрать роль] →",
+      "pages": "466-467",
+      "tokens": 441,
+      "path": "docs/kb/mango-lk-manual/sections/289-nastroyka-dostupa-k-personalnym-kontakta.md"
+    },
+    {
+      "id": "mango-lk-manual-290-ogranicheniya",
+      "section": "4.6.3.4",
+      "title": "Ограничения",
+      "hint": "На вкладке \"Ограничения\" пользователь может управлять временем жизни сессии в",
+      "pages": "467",
+      "tokens": 303,
+      "path": "docs/kb/mango-lk-manual/sections/290-ogranicheniya.md"
+    },
+    {
+      "id": "mango-lk-manual-291-bezopasnost-pro",
+      "section": "4.6.3.5",
+      "title": "Безопасность PRO",
+      "hint": "Безопасность PRO - это набор расширенных функций для защиты бизнеса.",
+      "pages": "467-470",
+      "tokens": 1585,
+      "path": "docs/kb/mango-lk-manual/sections/291-bezopasnost-pro.md"
+    },
+    {
+      "id": "mango-lk-manual-292-sso-single-sign-on",
+      "section": "4.6.3.5",
+      "title": "SSO (Single Sign-On)",
+      "hint": "Вкладка SSO предназначена для настройки единого входа (Single Sign-On) в Личный",
+      "pages": "470-471",
+      "tokens": 698,
+      "path": "docs/kb/mango-lk-manual/sections/292-sso-single-sign-on.md"
+    },
+    {
+      "id": "mango-lk-manual-293-konferenc-svyaz",
+      "section": "4.6.4",
+      "title": "Конференц-связь",
+      "hint": "внимание",
+      "pages": "471",
+      "tokens": 125,
+      "path": "docs/kb/mango-lk-manual/sections/293-konferenc-svyaz.md"
+    },
+    {
+      "id": "mango-lk-manual-294-konferenc-svyaz",
+      "section": "4.6.4.1",
+      "title": "Конференц-связь",
+      "hint": "Инструмент служит для управления количеством собеседников при конференциях.",
+      "pages": "471-472",
+      "tokens": 649,
+      "path": "docs/kb/mango-lk-manual/sections/294-konferenc-svyaz.md"
+    },
+    {
+      "id": "mango-lk-manual-295-komnaty-konferenciy",
+      "section": "4.6.4.2",
+      "title": "Комнаты конференций",
+      "hint": "Услуга «Виртуальные комнаты конференций» позволяет организовать одновременное",
+      "pages": "472-474",
+      "tokens": 1710,
+      "path": "docs/kb/mango-lk-manual/sections/295-komnaty-konferenciy.md"
+    },
+    {
+      "id": "mango-lk-manual-296-videosvyaz",
+      "section": "4.6.4.3",
+      "title": "Видеосвязь",
+      "hint": "Инструмент служит для управления услугами «Видеозвонки» и «Групповая",
+      "pages": "474-476",
+      "tokens": 563,
+      "path": "docs/kb/mango-lk-manual/sections/296-videosvyaz.md"
+    },
+    {
+      "id": "mango-lk-manual-297-transkribaciya-i-konspektirovanie-videov",
+      "section": "4.6.4.3.1",
+      "title": "Транскрибация и конспектирование видеовстреч",
+      "hint": "При подключении услуги Групповая видеоконференция дополнительно",
+      "pages": "476",
+      "tokens": 386,
+      "path": "docs/kb/mango-lk-manual/sections/297-transkribaciya-i-konspektirovanie-videov.md"
+    },
+    {
+      "id": "mango-lk-manual-298-dopolnitelnye-nastroyki",
+      "section": "4.6.5",
+      "title": "Дополнительные настройки",
+      "hint": "При выборе этого пункта меню осуществляется переход в раздел дополнительных",
+      "pages": "476",
+      "tokens": 304,
+      "path": "docs/kb/mango-lk-manual/sections/298-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "mango-lk-manual-299-golosovaya-pochta",
+      "section": "4.6.5.1",
+      "title": "Голосовая почта",
+      "hint": "Укажите максимальную длительность для сообщения голосовой почты, переместив",
+      "pages": "476-478",
+      "tokens": 1363,
+      "path": "docs/kb/mango-lk-manual/sections/299-golosovaya-pochta.md"
+    },
+    {
+      "id": "mango-lk-manual-300-oblachnoe-hranilische",
+      "section": "4.6.5.2",
+      "title": "Облачное хранилище",
+      "hint": "Виртуальная АТС хранит все данные (сообщения, записи разговоров, аудиофайлы) и",
+      "pages": "478-480",
+      "tokens": 944,
+      "path": "docs/kb/mango-lk-manual/sections/300-oblachnoe-hranilische.md"
+    },
+    {
+      "id": "mango-lk-manual-301-integraciya-s-mobilnoy-svyazyu",
+      "section": "4.6.5.3",
+      "title": "Интеграция с мобильной связью",
+      "hint": "Данная вкладка предназначена для подключения и настройки услуги «Интеграция с",
+      "pages": "480-481",
+      "tokens": 641,
+      "path": "docs/kb/mango-lk-manual/sections/301-integraciya-s-mobilnoy-svyazyu.md"
+    },
+    {
+      "id": "mango-lk-manual-302-otpravka-sms",
+      "section": "4.6.5.4",
+      "title": "Отправка SMS",
+      "hint": "Данная вкладка предназначена для редактирования имени отправителя SMS-",
+      "pages": "481-484",
+      "tokens": 1534,
+      "path": "docs/kb/mango-lk-manual/sections/302-otpravka-sms.md"
+    },
+    {
+      "id": "mango-lk-manual-303-avtopodstanovka-nomera",
+      "section": "4.6.5.5",
+      "title": "Автоподстановка номера",
+      "hint": "Данная вкладка позволяет настроить правила подстановки номеров и совершать",
+      "pages": "484-486",
+      "tokens": 1099,
+      "path": "docs/kb/mango-lk-manual/sections/303-avtopodstanovka-nomera.md"
+    },
+    {
+      "id": "mango-lk-manual-304-avtoperezvon",
+      "section": "4.6.5.6",
+      "title": "Автоперезвон",
+      "hint": "Инструмент служит для настройки автоматического перезвона по пропущенным",
+      "pages": "486-487",
+      "tokens": 892,
+      "path": "docs/kb/mango-lk-manual/sections/304-avtoperezvon.md"
+    },
+    {
+      "id": "mango-lk-manual-305-prochie",
+      "section": "4.6.5.7",
+      "title": "Прочие",
+      "hint": "Вкладка предназначена для настройки подстановочного ANI (Caller ID), который",
+      "pages": "487-488",
+      "tokens": 287,
+      "path": "docs/kb/mango-lk-manual/sections/305-prochie.md"
+    },
+    {
+      "id": "mango-lk-manual-306-obschie-nastroyki",
+      "section": "4.6.5.8",
+      "title": "Общие настройки",
+      "hint": "Вкладка предназначена для управления общими параметрами обработки звонков и",
+      "pages": "488",
+      "tokens": 448,
+      "path": "docs/kb/mango-lk-manual/sections/306-obschie-nastroyki.md"
+    },
+    {
+      "id": "mango-lk-manual-307-upravlenie-uslugami",
+      "section": "4.6.6",
+      "title": "Управление услугами",
+      "hint": "Инструмент служит для агрегации информации о всех отдельно подключенных услугах",
+      "pages": "488-490",
+      "tokens": 958,
+      "path": "docs/kb/mango-lk-manual/sections/307-upravlenie-uslugami.md"
+    },
+    {
+      "id": "mango-lk-manual-308-integracii",
+      "section": "4.6.7",
+      "title": "Интеграции",
+      "hint": "Данный инструмент предназначен для интеграции ВАТС со сторонними CRM-",
+      "pages": "490-491",
+      "tokens": 434,
+      "path": "docs/kb/mango-lk-manual/sections/308-integracii.md"
+    },
+    {
+      "id": "mango-lk-manual-309-podklyuchit-integraciyu",
+      "section": "4.6.7.1",
+      "title": "Подключить интеграцию",
+      "hint": "После перехода в подраздел Подключить интеграцию откроется список из 5-ти",
+      "pages": "491-499",
+      "tokens": 3817,
+      "path": "docs/kb/mango-lk-manual/sections/309-podklyuchit-integraciyu.md"
+    },
+    {
+      "id": "mango-lk-manual-310-resheniya-partnerov",
+      "section": "4.6.7.2",
+      "title": "Решения партнеров",
+      "hint": "Данный инструмент предназначен для интеграции MANGO OFFICE с программными",
+      "pages": "499",
+      "tokens": 358,
+      "path": "docs/kb/mango-lk-manual/sections/310-resheniya-partnerov.md"
+    },
+    {
+      "id": "mango-lk-manual-311-api-konnektor",
+      "section": "4.6.7.3",
+      "title": "API Коннектор",
+      "hint": "Используйте настройку «API Коннектор» для подключения к Виртуальной АТС",
+      "pages": "499-505",
+      "tokens": 3619,
+      "path": "docs/kb/mango-lk-manual/sections/311-api-konnektor.md"
+    },
+    {
+      "id": "mango-lk-manual-312-google-kontakty",
+      "section": "4.6.7.4",
+      "title": "Gооgle контакты",
+      "hint": "Данный инструмент предназначен для настройки подключения и интеграции вашей",
+      "pages": "505-507",
+      "tokens": 534,
+      "path": "docs/kb/mango-lk-manual/sections/312-google-kontakty.md"
+    },
+    {
+      "id": "mango-lk-manual-313-podklyuchenie-po-ldap",
+      "section": "4.6.7.5",
+      "title": "Подключение по LDAP",
+      "hint": "Данный инструмент предназначен для интеграции со сторонними сервисами по",
+      "pages": "507-508",
+      "tokens": 579,
+      "path": "docs/kb/mango-lk-manual/sections/313-podklyuchenie-po-ldap.md"
+    },
+    {
+      "id": "mango-lk-manual-314-shag-1-podklyuchenie-k-ldap-serveru",
+      "section": "4.6.7.5",
+      "title": "Шаг 1. Подключение к LDAP-серверу",
+      "hint": "На данной вкладке осуществляется настройка подключения.",
+      "pages": "508-510",
+      "tokens": 470,
+      "path": "docs/kb/mango-lk-manual/sections/314-shag-1-podklyuchenie-k-ldap-serveru.md"
+    },
+    {
+      "id": "mango-lk-manual-315-shag-2-sopostavlenie-atributov",
+      "section": "4.6.7.5",
+      "title": "Шаг 2. Сопоставление атрибутов",
+      "hint": "На данном шаге выполняется сопоставление полей карточки сотрудника в Личном",
+      "pages": "510-511",
+      "tokens": 458,
+      "path": "docs/kb/mango-lk-manual/sections/315-shag-2-sopostavlenie-atributov.md"
+    },
+    {
+      "id": "mango-lk-manual-316-shag-3-sopostavlenie-sotrudnikov",
+      "section": "4.6.7.5",
+      "title": "Шаг 3. Сопоставление сотрудников",
+      "hint": "Данный шаг не является обязательным.",
+      "pages": "511-514",
+      "tokens": 1389,
+      "path": "docs/kb/mango-lk-manual/sections/316-shag-3-sopostavlenie-sotrudnikov.md"
+    },
+    {
+      "id": "mango-lk-manual-317-shag-4-nastroyka-sinhronizacii",
+      "section": "4.6.7.5",
+      "title": "Шаг 4. Настройка синхронизации",
+      "hint": "Настройки данного шага разнесены на две вкладки:",
+      "pages": "514-518",
+      "tokens": 2613,
+      "path": "docs/kb/mango-lk-manual/sections/317-shag-4-nastroyka-sinhronizacii.md"
+    },
+    {
+      "id": "mango-lk-manual-318-vebhuki",
+      "section": "4.6.7.7",
+      "title": "Вебхуки",
+      "hint": "Вебхуки MANGO OFFICE — один из инструментов Интеграции, который позволяет",
+      "pages": "518",
+      "tokens": 216,
+      "path": "docs/kb/mango-lk-manual/sections/318-vebhuki.md"
+    },
+    {
+      "id": "mango-lk-manual-319-moi-integracii",
+      "section": "4.6.7.8",
+      "title": "Мои интеграции",
+      "hint": "В подразделе меню Мои интеграции отображаются блоки настроек для всех",
+      "pages": "518-520",
+      "tokens": 538,
+      "path": "docs/kb/mango-lk-manual/sections/319-moi-integracii.md"
+    },
+    {
+      "id": "mango-lk-manual-320-sip-trunk",
+      "section": "5",
+      "title": "SIP Trunk",
+      "hint": "",
+      "pages": "520",
+      "tokens": 58,
+      "path": "docs/kb/mango-lk-manual/sections/320-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-321-terminy-i-opredeleniya",
+      "section": "5.1",
+      "title": "Термины и определения",
+      "hint": "",
+      "pages": "520",
+      "tokens": 67,
+      "path": "docs/kb/mango-lk-manual/sections/321-terminy-i-opredeleniya.md"
+    },
+    {
+      "id": "mango-lk-manual-322-chto-takoe-sip-trunk",
+      "section": "5.2",
+      "title": "Что такое SIP Trunk",
+      "hint": "5.1 ТЕРМИНЫ И ОПРЕДЕЛЕНИЯ",
+      "pages": "520-521",
+      "tokens": 379,
+      "path": "docs/kb/mango-lk-manual/sections/322-chto-takoe-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-323-sozdanie-i-redaktirovanie-sip-trunk",
+      "section": "5.3",
+      "title": "Создание и редактирование SIP Trunk",
+      "hint": "5.3 СОЗДАНИЕ И РЕДАКТИРОВАНИЕ SIP TRUNK",
+      "pages": "521-522",
+      "tokens": 341,
+      "path": "docs/kb/mango-lk-manual/sections/323-sozdanie-i-redaktirovanie-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-324-vneshniy-sip-trunk",
+      "section": "5.3.1",
+      "title": "Внешний SIP Trunk",
+      "hint": "",
+      "pages": "522",
+      "tokens": 71,
+      "path": "docs/kb/mango-lk-manual/sections/324-vneshniy-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-325-nastroyka",
+      "section": "5.3.1.1",
+      "title": "Настройка",
+      "hint": "В открывшейся вкладке Настройка заполните поля:",
+      "pages": "522-525",
+      "tokens": 1918,
+      "path": "docs/kb/mango-lk-manual/sections/325-nastroyka.md"
+    },
+    {
+      "id": "mango-lk-manual-326-nomera",
+      "section": "5.3.1.2",
+      "title": "Номера",
+      "hint": "Заполните поля:",
+      "pages": "525-527",
+      "tokens": 667,
+      "path": "docs/kb/mango-lk-manual/sections/326-nomera.md"
+    },
+    {
+      "id": "mango-lk-manual-327-marshrutizaciya",
+      "section": "5.3.1.3",
+      "title": "Маршрутизация",
+      "hint": "Заполните поля:",
+      "pages": "527-529",
+      "tokens": 1671,
+      "path": "docs/kb/mango-lk-manual/sections/327-marshrutizaciya.md"
+    },
+    {
+      "id": "mango-lk-manual-328-pravila-ispolzovanie-masok",
+      "section": "5.3.1.3.1",
+      "title": "Правила использование масок:",
+      "hint": "● \\d - одна цифра;",
+      "pages": "529-530",
+      "tokens": 501,
+      "path": "docs/kb/mango-lk-manual/sections/328-pravila-ispolzovanie-masok.md"
+    },
+    {
+      "id": "mango-lk-manual-329-pravila-preobrazovaniya-nomera",
+      "section": "5.3.1.3.2",
+      "title": "Правила преобразования номера:",
+      "hint": "● $n - часть совпадения по шаблону, указанная в скобках;",
+      "pages": "530",
+      "tokens": 319,
+      "path": "docs/kb/mango-lk-manual/sections/329-pravila-preobrazovaniya-nomera.md"
+    },
+    {
+      "id": "mango-lk-manual-330-rezervirovanie",
+      "section": "5.3.1.4",
+      "title": "Резервирование",
+      "hint": "На вкладке Резервирование следует задать список резервных SIP Trunk",
+      "pages": "530-531",
+      "tokens": 232,
+      "path": "docs/kb/mango-lk-manual/sections/330-rezervirovanie.md"
+    },
+    {
+      "id": "mango-lk-manual-331-vnutrenniy-sip-trunk",
+      "section": "5.3.2",
+      "title": "Внутренний SIP Trunk",
+      "hint": "",
+      "pages": "531",
+      "tokens": 73,
+      "path": "docs/kb/mango-lk-manual/sections/331-vnutrenniy-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-332-nastroyka",
+      "section": "5.3.2.1",
+      "title": "Настройка",
+      "hint": "Для настройки внутреннего SIP Trunk необходимо установить связь между двумя ВАТС,",
+      "pages": "531-533",
+      "tokens": 317,
+      "path": "docs/kb/mango-lk-manual/sections/332-nastroyka.md"
+    },
+    {
+      "id": "mango-lk-manual-333-nomera",
+      "section": "5.3.2.2",
+      "title": "Номера",
+      "hint": "Заполните поля:",
+      "pages": "533-534",
+      "tokens": 229,
+      "path": "docs/kb/mango-lk-manual/sections/333-nomera.md"
+    },
+    {
+      "id": "mango-lk-manual-334-marshrutizaciya",
+      "section": "5.3.2.3",
+      "title": "Маршрутизация",
+      "hint": "При заполнении полей формы, руководствуйтесь инструкциями, предоставленными в",
+      "pages": "534-535",
+      "tokens": 178,
+      "path": "docs/kb/mango-lk-manual/sections/334-marshrutizaciya.md"
+    },
+    {
+      "id": "mango-lk-manual-335-aktivaciya-sip-trunk-v-kartochke-sotrudn",
+      "section": "5.3.3",
+      "title": "Активация SIP Trunk в карточке сотрудника",
+      "hint": "Чтобы установить SIP Trunk для исходящих вызовов конкретного сотрудника, откройте",
+      "pages": "535-536",
+      "tokens": 688,
+      "path": "docs/kb/mango-lk-manual/sections/335-aktivaciya-sip-trunk-v-kartochke-sotrudn.md"
+    },
+    {
+      "id": "mango-lk-manual-336-redaktirovanie-sip-trunk",
+      "section": "5.3.4",
+      "title": "Редактирование SIP Trunk",
+      "hint": "Чтобы отредактировать созданный SIP Trunk кликните на наименование транка в списке",
+      "pages": "536",
+      "tokens": 143,
+      "path": "docs/kb/mango-lk-manual/sections/336-redaktirovanie-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-337-udalenie-sip-trunk",
+      "section": "5.3.5",
+      "title": "Удаление SIP Trunk",
+      "hint": "",
+      "pages": "536",
+      "tokens": 69,
+      "path": "docs/kb/mango-lk-manual/sections/337-udalenie-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-338-rabochaya-panel-sip-trunk",
+      "section": "5.4",
+      "title": "Рабочая панель SIP Trunk",
+      "hint": "Чтобы удалить SIP Trunk, кликните по названию транка в списке транков на рабочей",
+      "pages": "536-537",
+      "tokens": 415,
+      "path": "docs/kb/mango-lk-manual/sections/338-rabochaya-panel-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-339-spisok-trankov",
+      "section": "5.4.1",
+      "title": "Список транков",
+      "hint": "Название транка - название транка, установленное пользователем;",
+      "pages": "537-538",
+      "tokens": 626,
+      "path": "docs/kb/mango-lk-manual/sections/339-spisok-trankov.md"
+    },
+    {
+      "id": "mango-lk-manual-340-spisok-pravil-marshrutizacii",
+      "section": "5.4.2",
+      "title": "Список правил маршрутизации",
+      "hint": "Маска набора номера - задается пользователем во вкладке «Маршрутизация»;",
+      "pages": "538",
+      "tokens": 213,
+      "path": "docs/kb/mango-lk-manual/sections/340-spisok-pravil-marshrutizacii.md"
+    },
+    {
+      "id": "mango-lk-manual-341-nastroyka-shemy-raspredeleniya-zvonkov-v",
+      "section": "5.5",
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "hint": "кабинете",
+      "pages": "538-541",
+      "tokens": 764,
+      "path": "docs/kb/mango-lk-manual/sections/341-nastroyka-shemy-raspredeleniya-zvonkov-v.md"
+    },
+    {
+      "id": "mango-lk-manual-342-primery-nastroyki-zvonkov-cherez-sip-tru",
+      "section": "5.6",
+      "title": "Примеры настройки звонков через SIP Trunk",
+      "hint": "5.6 ПРИМЕРЫ НАСТРОЙКИ ЗВОНКОВ ЧЕРЕЗ SIP TRUNK",
+      "pages": "541-549",
+      "tokens": 3659,
+      "path": "docs/kb/mango-lk-manual/sections/342-primery-nastroyki-zvonkov-cherez-sip-tru.md"
+    },
+    {
+      "id": "mango-lk-manual-343-konfiguraciya-populyarnyh-pbx",
+      "section": "5.7",
+      "title": "Конфигурация популярных PBX",
+      "hint": "● Asterisk",
+      "pages": "549",
+      "tokens": 82,
+      "path": "docs/kb/mango-lk-manual/sections/343-konfiguraciya-populyarnyh-pbx.md"
+    },
+    {
+      "id": "mango-lk-manual-344-sozdanie-sip-trunk-dlya-freepbx-asterisk",
+      "section": "5.7.1",
+      "title": "Создание SIP trunk для FreePBX (Asterisk)",
+      "hint": "Откройте меню администрирования транков во вкладке Trunks раздела",
+      "pages": "549-556",
+      "tokens": 2484,
+      "path": "docs/kb/mango-lk-manual/sections/344-sozdanie-sip-trunk-dlya-freepbx-asterisk.md"
+    },
+    {
+      "id": "mango-lk-manual-345-kak-proverit-sostoyanie-tranka",
+      "section": "5.7.1.1",
+      "title": "Как проверить состояние транка",
+      "hint": "Проверить состояние транка можно через меню Reports-Asterisk Info:",
+      "pages": "556",
+      "tokens": 129,
+      "path": "docs/kb/mango-lk-manual/sections/345-kak-proverit-sostoyanie-tranka.md"
+    },
+    {
+      "id": "mango-lk-manual-346-ishodyaschaya-marshrutizaciya",
+      "section": "5.7.1.2",
+      "title": "Исходящая маршрутизация",
+      "hint": "Outbound Routes - исходящая маршрутизация FreePBX.",
+      "pages": "556-559",
+      "tokens": 1002,
+      "path": "docs/kb/mango-lk-manual/sections/346-ishodyaschaya-marshrutizaciya.md"
+    },
+    {
+      "id": "mango-lk-manual-347-sozdanie-sip-trunk-dlya-fusionpbx-freesw",
+      "section": "5.7.2",
+      "title": "Создание SIP trunk для FusionPBX (Freeswitch)",
+      "hint": "Откройте меню администрирования транков во вкладке Gateways раздела",
+      "pages": "559-562",
+      "tokens": 481,
+      "path": "docs/kb/mango-lk-manual/sections/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md"
+    },
+    {
+      "id": "mango-lk-manual-348-ishodyaschaya-marshrutizaciya",
+      "section": "5.7.2.1",
+      "title": "Исходящая маршрутизация",
+      "hint": "Outbound Routes - Исходящая маршрутизация FusionPBX (Freeswitch).",
+      "pages": "562-564",
+      "tokens": 322,
+      "path": "docs/kb/mango-lk-manual/sections/348-ishodyaschaya-marshrutizaciya.md"
+    },
+    {
+      "id": "mango-lk-manual-349-roli-i-prava-dostupa-sip-trunk",
+      "section": "5.8",
+      "title": "Роли и права доступа SIP Trunk",
+      "hint": "5.8 РОЛИ И ПРАВА ДОСТУПА SIP TRUNK",
+      "pages": "564-565",
+      "tokens": 432,
+      "path": "docs/kb/mango-lk-manual/sections/349-roli-i-prava-dostupa-sip-trunk.md"
+    },
+    {
+      "id": "mango-lk-manual-350-roli-i-prava-dostupa-lk-vats",
+      "section": "6",
+      "title": "Роли и права доступа ЛК ВАТС",
+      "hint": "Пользователь ВАТС может настроить права доступа для сотрудников в",
+      "pages": "565",
+      "tokens": 442,
+      "path": "docs/kb/mango-lk-manual/sections/350-roli-i-prava-dostupa-lk-vats.md"
+    }
+  ]
+}

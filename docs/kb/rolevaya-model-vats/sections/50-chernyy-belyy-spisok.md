@@ -28,8 +28,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 49
 
-![Изображение, стр. 50](../images/50-chernyy-belyy-spisok-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

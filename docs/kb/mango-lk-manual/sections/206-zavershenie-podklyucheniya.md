@@ -24,8 +24,4 @@ ai-generated: true
 
 Проверьте настройки и нажмите «Сохранить». Отображается сообщение об успешной настройке канала.
 
-![Изображение, стр. 329](../images/206-zavershenie-podklyucheniya-1.jpeg)
-
-![Изображение, стр. 329](../images/206-zavershenie-podklyucheniya-2.png)
-
 ![Изображение, стр. 329](../images/206-zavershenie-podklyucheniya-3.png)

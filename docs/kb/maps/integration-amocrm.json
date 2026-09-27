@@ -1,0 +1,783 @@
+{
+  "document_id": "integration-amocrm",
+  "index": "docs/kb/integration-amocrm/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "integration-amocrm-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Интеграция Виртуальной АТС",
+      "pages": "1-5",
+      "tokens": 2203,
+      "path": "docs/kb/integration-amocrm/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "integration-amocrm-01-nachalo-raboty-s-integraciey",
+      "section": "1",
+      "title": "Начало работы с интеграцией",
+      "hint": "",
+      "pages": "5",
+      "tokens": 67,
+      "path": "docs/kb/integration-amocrm/sections/01-nachalo-raboty-s-integraciey.md"
+    },
+    {
+      "id": "integration-amocrm-02-obzor",
+      "section": "1",
+      "title": "Обзор",
+      "hint": "Как впервые настроить интеграцию с amoCRM.",
+      "pages": "5-6",
+      "tokens": 1254,
+      "path": "docs/kb/integration-amocrm/sections/02-obzor.md"
+    },
+    {
+      "id": "integration-amocrm-03-shag-1-podklyuchenie-virtualnoy-ats-mang",
+      "section": "1",
+      "title": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "hint": "Сначала подключите версию Виртуальной АТС MANGO OFFICE, если у вас ее еще нет.",
+      "pages": "6",
+      "tokens": 161,
+      "path": "docs/kb/integration-amocrm/sections/03-shag-1-podklyuchenie-virtualnoy-ats-mang.md"
+    },
+    {
+      "id": "integration-amocrm-04-shag-2-ustanovka-softfona-mango-talker",
+      "section": "1",
+      "title": "Шаг 2. Установка софтфона Mango Talker",
+      "hint": "Виртуальная АТС позволяет установить телефонную связь между абонентами.",
+      "pages": "6",
+      "tokens": 528,
+      "path": "docs/kb/integration-amocrm/sections/04-shag-2-ustanovka-softfona-mango-talker.md"
+    },
+    {
+      "id": "integration-amocrm-05-shag-3-ustanovka-vidzheta-integracii-v-a",
+      "section": "1",
+      "title": "Шаг 3. Установка виджета интеграции в amoCRM",
+      "hint": "Для этого необходимо:",
+      "pages": "6-8",
+      "tokens": 594,
+      "path": "docs/kb/integration-amocrm/sections/05-shag-3-ustanovka-vidzheta-integracii-v-a.md"
+    },
+    {
+      "id": "integration-amocrm-06-shag-4-nastroyka-virtualnoy-ats-vybor-pa",
+      "section": "1",
+      "title": "Шаг 4. Настройка Виртуальной АТС. Выбор пакета интеграции",
+      "hint": "Это нужно сделать, чтобы Виртуальная АТС MANGO OFFICE могла передавать в вашу amoCRM",
+      "pages": "8-13",
+      "tokens": 1632,
+      "path": "docs/kb/integration-amocrm/sections/06-shag-4-nastroyka-virtualnoy-ats-vybor-pa.md"
+    },
+    {
+      "id": "integration-amocrm-07-shag-5-sopostavlenie-sotrudnikov-virtual",
+      "section": "1",
+      "title": "Шаг 5. Сопоставление сотрудников Виртуальной АТС и amoCRM",
+      "hint": "Уважаемые абоненты!",
+      "pages": "13-18",
+      "tokens": 3243,
+      "path": "docs/kb/integration-amocrm/sections/07-shag-5-sopostavlenie-sotrudnikov-virtual.md"
+    },
+    {
+      "id": "integration-amocrm-08-ustanovka-dopolnitelnyh-nastroek-integra",
+      "section": "1",
+      "title": "Установка дополнительных настроек интеграции. Общее",
+      "hint": "Благодаря расширенному пакету интеграции с вашей amoCRM вы сможете:",
+      "pages": "18-19",
+      "tokens": 445,
+      "path": "docs/kb/integration-amocrm/sections/08-ustanovka-dopolnitelnyh-nastroek-integra.md"
+    },
+    {
+      "id": "integration-amocrm-09-kak-proverit-peredachu-zvonkov-v-amocrm",
+      "section": "1",
+      "title": "Как проверить передачу звонков в amoCRM",
+      "hint": "Для проверки потребуется:",
+      "pages": "19-20",
+      "tokens": 1094,
+      "path": "docs/kb/integration-amocrm/sections/09-kak-proverit-peredachu-zvonkov-v-amocrm.md"
+    },
+    {
+      "id": "integration-amocrm-10-kak-otobrazhayutsya-dannye-o-zvonke-v-am",
+      "section": "1",
+      "title": "Как отображаются данные о звонке в amoCRM. Обобщенно",
+      "hint": "В зависимости от настройки “Действие для нового Клиента” дополнительных настроек",
+      "pages": "20",
+      "tokens": 287,
+      "path": "docs/kb/integration-amocrm/sections/10-kak-otobrazhayutsya-dannye-o-zvonke-v-am.md"
+    },
+    {
+      "id": "integration-amocrm-11-kak-pozvonit-ili-prinyat-zvonok",
+      "section": "1",
+      "title": "Как позвонить или принять звонок",
+      "hint": "Чтобы позвонить Клиенту, продавец может кликнуть на номер телефона в amoCRM.",
+      "pages": "20-22",
+      "tokens": 734,
+      "path": "docs/kb/integration-amocrm/sections/11-kak-pozvonit-ili-prinyat-zvonok.md"
+    },
+    {
+      "id": "integration-amocrm-12-nastroyka-integracii",
+      "section": "2",
+      "title": "Настройка интеграции",
+      "hint": "Внимание!",
+      "pages": "22",
+      "tokens": 110,
+      "path": "docs/kb/integration-amocrm/sections/12-nastroyka-integracii.md"
+    },
+    {
+      "id": "integration-amocrm-13-vklyuchenie-uvedomleniy-v-brauzere",
+      "section": "2.1",
+      "title": "Включение уведомлений в браузере",
+      "hint": "Можно получать уведомления о пропущенных звонках и прочих событиях прямо на вашем",
+      "pages": "22-23",
+      "tokens": 607,
+      "path": "docs/kb/integration-amocrm/sections/13-vklyuchenie-uvedomleniy-v-brauzere.md"
+    },
+    {
+      "id": "integration-amocrm-14-dopolnitelnye-nastroyki-integracii-obzor",
+      "section": "2.2",
+      "title": "Дополнительные настройки интеграции. Обзор",
+      "hint": "В зависимости от ваших задач можно указать дополнительные настройки интеграции.",
+      "pages": "23-25",
+      "tokens": 793,
+      "path": "docs/kb/integration-amocrm/sections/14-dopolnitelnye-nastroyki-integracii-obzor.md"
+    },
+    {
+      "id": "integration-amocrm-15-nastroyka-sohranyat-vse-zvonki-ili-kak-s",
+      "section": "2.3",
+      "title": "Настройка “Сохранять все звонки” или как сохраняются",
+      "hint": "звонки сотрудников, не указанных в таблице сопоставления",
+      "pages": "25-28",
+      "tokens": 2087,
+      "path": "docs/kb/integration-amocrm/sections/15-nastroyka-sohranyat-vse-zvonki-ili-kak-s.md"
+    },
+    {
+      "id": "integration-amocrm-16-obrabotka-vhodyaschih-vyzovov-ot-novyh-k",
+      "section": "2.4",
+      "title": "Обработка входящих вызовов от новых Клиентов",
+      "hint": "Создавать контакт при звонках с новых номеров",
+      "pages": "28-31",
+      "tokens": 1509,
+      "path": "docs/kb/integration-amocrm/sections/16-obrabotka-vhodyaschih-vyzovov-ot-novyh-k.md"
+    },
+    {
+      "id": "integration-amocrm-17-obrabotka-povtornyh-vhodyaschih-vyzovov",
+      "section": "2.5",
+      "title": "Обработка повторных входящих вызовов",
+      "hint": "Автоматические действия для повторного входящего звонка",
+      "pages": "31-41",
+      "tokens": 5906,
+      "path": "docs/kb/integration-amocrm/sections/17-obrabotka-povtornyh-vhodyaschih-vyzovov.md"
+    },
+    {
+      "id": "integration-amocrm-18-obrabotka-ishodyaschih-vyzovov-novym-kli",
+      "section": "2.6",
+      "title": "Обработка исходящих вызовов новым Клиентам",
+      "hint": "Автоматический прием при исходящем звонке",
+      "pages": "41-45",
+      "tokens": 2268,
+      "path": "docs/kb/integration-amocrm/sections/18-obrabotka-ishodyaschih-vyzovov-novym-kli.md"
+    },
+    {
+      "id": "integration-amocrm-19-propuschennye-v-ivr",
+      "section": "2.7",
+      "title": "Пропущенные в IVR",
+      "hint": "Ответственный при пропущенных звонках в IVR",
+      "pages": "45-47",
+      "tokens": 952,
+      "path": "docs/kb/integration-amocrm/sections/19-propuschennye-v-ivr.md"
+    },
+    {
+      "id": "integration-amocrm-20-otvetstvennyy-pri-propuschennyh-zvonkah",
+      "section": "2.8",
+      "title": "Ответственный при пропущенных звонках в группу",
+      "hint": "Если этот флаг включен, а также в поле “Действие для нового” выбрано одно из значений",
+      "pages": "47-48",
+      "tokens": 431,
+      "path": "docs/kb/integration-amocrm/sections/20-otvetstvennyy-pri-propuschennyh-zvonkah.md"
+    },
+    {
+      "id": "integration-amocrm-21-sohranenie-dannyh-rechevoy-analitiki",
+      "section": "2.9",
+      "title": "Сохранение данных Речевой Аналитики",
+      "hint": "Перед началом работы",
+      "pages": "48-55",
+      "tokens": 4272,
+      "path": "docs/kb/integration-amocrm/sections/21-sohranenie-dannyh-rechevoy-analitiki.md"
+    },
+    {
+      "id": "integration-amocrm-22-ogranichenie-nomerov-vats",
+      "section": "2.10",
+      "title": "Ограничение номеров ВАТС",
+      "hint": "Можно выбрать номера Виртуальной АТС и подключенные SIP-линии, входящие звонки на",
+      "pages": "55-56",
+      "tokens": 520,
+      "path": "docs/kb/integration-amocrm/sections/22-ogranichenie-nomerov-vats.md"
+    },
+    {
+      "id": "integration-amocrm-23-nomera-drugih-operatorov-podklyuchennye",
+      "section": "2.11",
+      "title": "Номера других операторов, подключенные к Виртуальной АТС",
+      "hint": "АТС",
+      "pages": "56",
+      "tokens": 197,
+      "path": "docs/kb/integration-amocrm/sections/23-nomera-drugih-operatorov-podklyuchennye.md"
+    },
+    {
+      "id": "integration-amocrm-24-poisk-po-nomeru-telefona-sredi-zapisey-v",
+      "section": "2.12",
+      "title": "Поиск по номеру телефона среди записей в amoCRM",
+      "hint": "Виджет интеграции выполняет поиск по номеру телефона среди контактов и компаний, сначала",
+      "pages": "56",
+      "tokens": 135,
+      "path": "docs/kb/integration-amocrm/sections/24-poisk-po-nomeru-telefona-sredi-zapisey-v.md"
+    },
+    {
+      "id": "integration-amocrm-25-opredelyat-vnutrennie-nomera-sip-tranka",
+      "section": "2.13",
+      "title": "Определять внутренние номера SIP-транка",
+      "hint": "В данной настройке можно указать максимальную длину номера SIP-линии, звонки по которым",
+      "pages": "56-57",
+      "tokens": 501,
+      "path": "docs/kb/integration-amocrm/sections/25-opredelyat-vnutrennie-nomera-sip-tranka.md"
+    },
+    {
+      "id": "integration-amocrm-26-nalichie-dubley-kontaktov-v-amocrm",
+      "section": "2.14",
+      "title": "Наличие дублей контактов в amoCRM",
+      "hint": "Как сохраняется информация о звонке при дублировании контактов?",
+      "pages": "57-59",
+      "tokens": 862,
+      "path": "docs/kb/integration-amocrm/sections/26-nalichie-dubley-kontaktov-v-amocrm.md"
+    },
+    {
+      "id": "integration-amocrm-27-ispolzovanie-sposobov-dozvona-do-sotrudn",
+      "section": "2.15",
+      "title": "Использование способов дозвона до сотрудника и",
+      "hint": "алгоритмов дозвона",
+      "pages": "59",
+      "tokens": 161,
+      "path": "docs/kb/integration-amocrm/sections/27-ispolzovanie-sposobov-dozvona-do-sotrudn.md"
+    },
+    {
+      "id": "integration-amocrm-28-ispolzovanie-algoritmov-raspredeleniya-v",
+      "section": "2.16",
+      "title": "Использование алгоритмов распределения вызовов",
+      "hint": "Виджет интеграции учитывает возможность использования различных алгоритмов",
+      "pages": "59",
+      "tokens": 150,
+      "path": "docs/kb/integration-amocrm/sections/28-ispolzovanie-algoritmov-raspredeleniya-v.md"
+    },
+    {
+      "id": "integration-amocrm-29-stavit-zadachi-po-propuschennym-vyzovam",
+      "section": "2.17",
+      "title": "Ставить задачи по пропущенным вызовам",
+      "hint": "Общее",
+      "pages": "59-62",
+      "tokens": 1896,
+      "path": "docs/kb/integration-amocrm/sections/29-stavit-zadachi-po-propuschennym-vyzovam.md"
+    },
+    {
+      "id": "integration-amocrm-30-sms-vizitka",
+      "section": "2.18",
+      "title": "SMS-визитка",
+      "hint": "SMS-визитка - эффективный инструментом повышения лояльности ваших Клиентов.",
+      "pages": "62-64",
+      "tokens": 1629,
+      "path": "docs/kb/integration-amocrm/sections/30-sms-vizitka.md"
+    },
+    {
+      "id": "integration-amocrm-31-otpravka-sms-iz-kartochki-klienta",
+      "section": "2.19",
+      "title": "Отправка SMS из карточки Клиента",
+      "hint": "С помощью виджета интеграции MANGO OFFICE и amoCRM можно вручную отправлять SMS",
+      "pages": "64-65",
+      "tokens": 492,
+      "path": "docs/kb/integration-amocrm/sections/31-otpravka-sms-iz-kartochki-klienta.md"
+    },
+    {
+      "id": "integration-amocrm-32-otslezhivanie-zvonkov-s-neskolkih-domeno",
+      "section": "2.20",
+      "title": "Отслеживание звонков с нескольких доменов",
+      "hint": "Как отслеживается звонок, при использовании нескольких доменов amoCRM?",
+      "pages": "65-69",
+      "tokens": 2836,
+      "path": "docs/kb/integration-amocrm/sections/32-otslezhivanie-zvonkov-s-neskolkih-domeno.md"
+    },
+    {
+      "id": "integration-amocrm-33-integraciya-virtualnoy-ats-odnovremenno",
+      "section": "2.21",
+      "title": "Интеграция Виртуальной АТС одновременно с несколькими",
+      "hint": "доменами amoCRM",
+      "pages": "69-80",
+      "tokens": 7757,
+      "path": "docs/kb/integration-amocrm/sections/33-integraciya-virtualnoy-ats-odnovremenno.md"
+    },
+    {
+      "id": "integration-amocrm-34-zagruzhat-otsutstvuyuschie-v-amocrm-zvon",
+      "section": "2.22",
+      "title": "Загружать отсутствующие в amoCRM звонки",
+      "hint": "Если функция “Загружать отсутствующие в amoCRM звонки” включена, то для вашей",
+      "pages": "80-81",
+      "tokens": 490,
+      "path": "docs/kb/integration-amocrm/sections/34-zagruzhat-otsutstvuyuschie-v-amocrm-zvon.md"
+    },
+    {
+      "id": "integration-amocrm-35-sozdanie-sdelok-v-raznyh-voronkah-v-zavi",
+      "section": "2.23",
+      "title": "Создание сделок в разных воронках в зависимости от",
+      "hint": "группы, на которую поступил звонок",
+      "pages": "81-85",
+      "tokens": 1786,
+      "path": "docs/kb/integration-amocrm/sections/35-sozdanie-sdelok-v-raznyh-voronkah-v-zavi.md"
+    },
+    {
+      "id": "integration-amocrm-36-zamenyat-nomer-linii-na-kommentariy-v-in",
+      "section": "2.24",
+      "title": "Заменять номер линии на комментарий в интерфейсе CRM",
+      "hint": "Эта настройка отображается на вкладку “Дополнительно” в нижней части:",
+      "pages": "85-86",
+      "tokens": 682,
+      "path": "docs/kb/integration-amocrm/sections/36-zamenyat-nomer-linii-na-kommentariy-v-in.md"
+    },
+    {
+      "id": "integration-amocrm-37-prochie-nastroyki",
+      "section": "2.25",
+      "title": "Прочие настройки",
+      "hint": "Проставлять теги по созданным виджетом сделкам",
+      "pages": "86-89",
+      "tokens": 1320,
+      "path": "docs/kb/integration-amocrm/sections/37-prochie-nastroyki.md"
+    },
+    {
+      "id": "integration-amocrm-38-vhodyaschiy-zvonok",
+      "section": "3",
+      "title": "Входящий звонок",
+      "hint": "",
+      "pages": "89",
+      "tokens": 64,
+      "path": "docs/kb/integration-amocrm/sections/38-vhodyaschiy-zvonok.md"
+    },
+    {
+      "id": "integration-amocrm-39-obschee",
+      "section": "3.1",
+      "title": "Общее",
+      "hint": "При входящем звонке у сотрудника зазвонит телефон (указанный в карточке сотрудника в",
+      "pages": "89",
+      "tokens": 341,
+      "path": "docs/kb/integration-amocrm/sections/39-obschee.md"
+    },
+    {
+      "id": "integration-amocrm-40-informacionnoe-soobschenie-otvetstvennyy",
+      "section": "3.2",
+      "title": "Информационное сообщение “Ответственный: не определен”",
+      "hint": "Информационное сообщение “Ответственный: не определен” может отображаться в карточке",
+      "pages": "89-90",
+      "tokens": 320,
+      "path": "docs/kb/integration-amocrm/sections/40-informacionnoe-soobschenie-otvetstvennyy.md"
+    },
+    {
+      "id": "integration-amocrm-41-ishodyaschiy-zvonok",
+      "section": "4",
+      "title": "Исходящий звонок",
+      "hint": "Сотрудник может кликнуть на номер телефона в amoCRM или набрать его на своем рабочем",
+      "pages": "90-91",
+      "tokens": 272,
+      "path": "docs/kb/integration-amocrm/sections/41-ishodyaschiy-zvonok.md"
+    },
+    {
+      "id": "integration-amocrm-42-propuschennye-zvonki",
+      "section": "5",
+      "title": "Пропущенные звонки",
+      "hint": "Если сотрудник отсутствовал на рабочем месте и были пропущенные звонки, то вне зависимости,",
+      "pages": "91-92",
+      "tokens": 545,
+      "path": "docs/kb/integration-amocrm/sections/42-propuschennye-zvonki.md"
+    },
+    {
+      "id": "integration-amocrm-43-istoriya-vyzovov",
+      "section": "6",
+      "title": "История вызовов",
+      "hint": "Каждый звонок от контакта отображается в истории взаимоотношений с контактом.",
+      "pages": "92-93",
+      "tokens": 288,
+      "path": "docs/kb/integration-amocrm/sections/43-istoriya-vyzovov.md"
+    },
+    {
+      "id": "integration-amocrm-44-kartochka-zvonka",
+      "section": "7",
+      "title": "Карточка звонка",
+      "hint": "",
+      "pages": "93",
+      "tokens": 64,
+      "path": "docs/kb/integration-amocrm/sections/44-kartochka-zvonka.md"
+    },
+    {
+      "id": "integration-amocrm-45-obzor",
+      "section": "7.1",
+      "title": "Обзор",
+      "hint": "Карточка звонка предоставляет с инструменты для работы со звонками.",
+      "pages": "93",
+      "tokens": 366,
+      "path": "docs/kb/integration-amocrm/sections/45-obzor.md"
+    },
+    {
+      "id": "integration-amocrm-46-kak-upravlyat-otobrazheniem-kartochki-zv",
+      "section": "7.2",
+      "title": "Как управлять отображением карточки звонка",
+      "hint": "Варианты",
+      "pages": "93-95",
+      "tokens": 1233,
+      "path": "docs/kb/integration-amocrm/sections/46-kak-upravlyat-otobrazheniem-kartochki-zv.md"
+    },
+    {
+      "id": "integration-amocrm-47-ob-interfeyse-kartochki-zvonka",
+      "section": "7.3",
+      "title": "Об интерфейсе карточки звонка",
+      "hint": "При входящем / исходящем звонке",
+      "pages": "95-97",
+      "tokens": 979,
+      "path": "docs/kb/integration-amocrm/sections/47-ob-interfeyse-kartochki-zvonka.md"
+    },
+    {
+      "id": "integration-amocrm-48-kak-pozvonit-ili-prinyat-zvonok",
+      "section": "7.4",
+      "title": "Как позвонить или принять звонок",
+      "hint": "Общее",
+      "pages": "97-99",
+      "tokens": 1129,
+      "path": "docs/kb/integration-amocrm/sections/48-kak-pozvonit-ili-prinyat-zvonok.md"
+    },
+    {
+      "id": "integration-amocrm-49-kak-dobavit-kontakt",
+      "section": "7.5",
+      "title": "Как добавить контакт",
+      "hint": "Добавить новый номер в контакты amoCRM можно во время звонка или после завершения",
+      "pages": "99",
+      "tokens": 405,
+      "path": "docs/kb/integration-amocrm/sections/49-kak-dobavit-kontakt.md"
+    },
+    {
+      "id": "integration-amocrm-50-kak-perevesti-zvonok",
+      "section": "7.6",
+      "title": "Как перевести звонок",
+      "hint": "Общее",
+      "pages": "99-102",
+      "tokens": 1754,
+      "path": "docs/kb/integration-amocrm/sections/50-kak-perevesti-zvonok.md"
+    },
+    {
+      "id": "integration-amocrm-51-stavit-zadachu-po-zvonku-vruchnuyu",
+      "section": "7.7",
+      "title": "Ставить задачу по звонку вручную",
+      "hint": "Общее",
+      "pages": "102",
+      "tokens": 458,
+      "path": "docs/kb/integration-amocrm/sections/51-stavit-zadachu-po-zvonku-vruchnuyu.md"
+    },
+    {
+      "id": "integration-amocrm-52-istoriya-zvonkov",
+      "section": "7.8",
+      "title": "История звонков",
+      "hint": "Общее",
+      "pages": "102-104",
+      "tokens": 1118,
+      "path": "docs/kb/integration-amocrm/sections/52-istoriya-zvonkov.md"
+    },
+    {
+      "id": "integration-amocrm-53-nomeronabiratel",
+      "section": "7.9",
+      "title": "Номеронабиратель",
+      "hint": "Это функция, которая позволяет вам прямо из карточки звонка набрать номер и позвонить тому",
+      "pages": "104-105",
+      "tokens": 391,
+      "path": "docs/kb/integration-amocrm/sections/53-nomeronabiratel.md"
+    },
+    {
+      "id": "integration-amocrm-54-moy-ishodyaschiy-nomer",
+      "section": "7.10",
+      "title": "Мой исходящий номер",
+      "hint": "Важно.",
+      "pages": "105-106",
+      "tokens": 548,
+      "path": "docs/kb/integration-amocrm/sections/54-moy-ishodyaschiy-nomer.md"
+    },
+    {
+      "id": "integration-amocrm-55-informacionnoe-soobschenie-otvetstvennyy",
+      "section": "7.11",
+      "title": "Информационное сообщение “Ответственный: не определен”",
+      "hint": "Информационное сообщение “Ответственный: не определен” может отображаться в карточке",
+      "pages": "106",
+      "tokens": 288,
+      "path": "docs/kb/integration-amocrm/sections/55-informacionnoe-soobschenie-otvetstvennyy.md"
+    },
+    {
+      "id": "integration-amocrm-56-ogranicheniya-po-peredachi-zvonka-v-novy",
+      "section": "7.12",
+      "title": "Ограничения по передачи звонка в новый контакт",
+      "hint": "Если вы завершили разговор с новым абонентом и, спустя некоторое время, вручную добавили",
+      "pages": "106-107",
+      "tokens": 391,
+      "path": "docs/kb/integration-amocrm/sections/56-ogranicheniya-po-peredachi-zvonka-v-novy.md"
+    },
+    {
+      "id": "integration-amocrm-57-polzovatelskie-nastroyki-kartochki-zvonk",
+      "section": "7.13",
+      "title": "Пользовательские настройки карточки звонка",
+      "hint": "Открываются при нажатии на пиктограмму “Шестеренка” в правом верхнем углу карточки:",
+      "pages": "107-108",
+      "tokens": 449,
+      "path": "docs/kb/integration-amocrm/sections/57-polzovatelskie-nastroyki-kartochki-zvonk.md"
+    },
+    {
+      "id": "integration-amocrm-58-spisok-obzvona",
+      "section": "8",
+      "title": "Список обзвона",
+      "hint": "Для удобства совершения массовых исходящих звонков, сотрудник может воспользоваться",
+      "pages": "108-111",
+      "tokens": 1562,
+      "path": "docs/kb/integration-amocrm/sections/58-spisok-obzvona.md"
+    },
+    {
+      "id": "integration-amocrm-59-analitika",
+      "section": "9",
+      "title": "Аналитика",
+      "hint": "Каждый звонок учитывается в стандартных инструментах аналитики в amoCRM:",
+      "pages": "111-112",
+      "tokens": 154,
+      "path": "docs/kb/integration-amocrm/sections/59-analitika.md"
+    },
+    {
+      "id": "integration-amocrm-60-zapis-razgovorov",
+      "section": "10",
+      "title": "Запись разговоров",
+      "hint": "Если в Виртуальной АТС подключена услуга записи разговоров, то при наличии записи",
+      "pages": "112-113",
+      "tokens": 469,
+      "path": "docs/kb/integration-amocrm/sections/60-zapis-razgovorov.md"
+    },
+    {
+      "id": "integration-amocrm-61-integraciya-s-kolltrekingom-mango-office",
+      "section": "11",
+      "title": "Интеграция с Коллтрекингом MANGO OFFICE",
+      "hint": "",
+      "pages": "113",
+      "tokens": 75,
+      "path": "docs/kb/integration-amocrm/sections/61-integraciya-s-kolltrekingom-mango-office.md"
+    },
+    {
+      "id": "integration-amocrm-62-obzor",
+      "section": "11.1",
+      "title": "Обзор",
+      "hint": "Если вами используется Коллтрекинг MANGO OFFICE, то можно настроить интеграцию с",
+      "pages": "113",
+      "tokens": 523,
+      "path": "docs/kb/integration-amocrm/sections/62-obzor.md"
+    },
+    {
+      "id": "integration-amocrm-63-kak-nastroit",
+      "section": "11.2",
+      "title": "Как настроить",
+      "hint": "Чтобы настроить интеграцию amoCRM с коллтрекингом MANGO OFFICE, в форме настройки",
+      "pages": "113",
+      "tokens": 191,
+      "path": "docs/kb/integration-amocrm/sections/63-kak-nastroit.md"
+    },
+    {
+      "id": "integration-amocrm-64-vozmozhnosti",
+      "section": "11.3",
+      "title": "Возможности",
+      "hint": "Интеграция с коллтрекингом MANGO OFFICE также позволяет сохранять все типы заявок,",
+      "pages": "113-116",
+      "tokens": 1785,
+      "path": "docs/kb/integration-amocrm/sections/64-vozmozhnosti.md"
+    },
+    {
+      "id": "integration-amocrm-65-postzvonkovaya-ocenka-kachestva",
+      "section": "12",
+      "title": "Постзвонковая оценка качества",
+      "hint": "",
+      "pages": "116",
+      "tokens": 70,
+      "path": "docs/kb/integration-amocrm/sections/65-postzvonkovaya-ocenka-kachestva.md"
+    },
+    {
+      "id": "integration-amocrm-66-obschee",
+      "section": "12",
+      "title": "Общее",
+      "hint": "Примечание.",
+      "pages": "116-118",
+      "tokens": 1792,
+      "path": "docs/kb/integration-amocrm/sections/66-obschee.md"
+    },
+    {
+      "id": "integration-amocrm-67-kak-nastroit",
+      "section": "12",
+      "title": "Как настроить",
+      "hint": "Чтобы настроить передачу постзвонковой оценки качества в вашу amoCRM, в окне “Основные",
+      "pages": "118-119",
+      "tokens": 316,
+      "path": "docs/kb/integration-amocrm/sections/67-kak-nastroit.md"
+    },
+    {
+      "id": "integration-amocrm-68-kak-posmotret-zvonki-s-ocenkoy-nizhe-che",
+      "section": "12",
+      "title": "Как посмотреть звонки с оценкой ниже, чем максимальный порог",
+      "hint": "Вы можете отфильтровать данные о звонках с оценкой качества, ниже чем установленный вами",
+      "pages": "119-122",
+      "tokens": 888,
+      "path": "docs/kb/integration-amocrm/sections/68-kak-posmotret-zvonki-s-ocenkoy-nizhe-che.md"
+    },
+    {
+      "id": "integration-amocrm-69-integraciya-s-adresnoy-knigoy-virtualnoy",
+      "section": "13",
+      "title": "Интеграция с адресной книгой Виртуальной АТС",
+      "hint": "Если в Виртуальной АТС подключена услуга “Расширенные возможности интеграции”, то в",
+      "pages": "122-124",
+      "tokens": 769,
+      "path": "docs/kb/integration-amocrm/sections/69-integraciya-s-adresnoy-knigoy-virtualnoy.md"
+    },
+    {
+      "id": "integration-amocrm-70-integraciya-s-kontakt-centrom-mango-offi",
+      "section": "14",
+      "title": "Интеграция с Контакт Центром MANGO OFFICE",
+      "hint": "",
+      "pages": "124",
+      "tokens": 75,
+      "path": "docs/kb/integration-amocrm/sections/70-integraciya-s-kontakt-centrom-mango-offi.md"
+    },
+    {
+      "id": "integration-amocrm-71-uchet-kampaniy-ishodyaschego-obzvona-v-a",
+      "section": "14.1",
+      "title": "Учет кампаний исходящего обзвона в amoCRM",
+      "hint": "Если Вы подключили Контакт Центр MANGO OFFICE (далее по тексту – КЦ) к Виртуальной",
+      "pages": "124-125",
+      "tokens": 631,
+      "path": "docs/kb/integration-amocrm/sections/71-uchet-kampaniy-ishodyaschego-obzvona-v-a.md"
+    },
+    {
+      "id": "integration-amocrm-72-integraciya-s-digital-voronkoy",
+      "section": "14.2",
+      "title": "Интеграция с digital-воронкой",
+      "hint": "(beta) Добавление задания в кампанию исходящего обзвона при изменении",
+      "pages": "125-136",
+      "tokens": 6531,
+      "path": "docs/kb/integration-amocrm/sections/72-integraciya-s-digital-voronkoy.md"
+    },
+    {
+      "id": "integration-amocrm-73-sohranyat-v-sdelkah-tematiki-i-kommentar",
+      "section": "14.3",
+      "title": "Сохранять в сделках тематики и комментарии звонка из Контакт-центра",
+      "hint": "Контакт-центра",
+      "pages": "136-139",
+      "tokens": 1486,
+      "path": "docs/kb/integration-amocrm/sections/73-sohranyat-v-sdelkah-tematiki-i-kommentar.md"
+    },
+    {
+      "id": "integration-amocrm-74-softfon-mango-connect",
+      "section": "15",
+      "title": "Софтфон MANGO CONNECT",
+      "hint": "",
+      "pages": "139",
+      "tokens": 64,
+      "path": "docs/kb/integration-amocrm/sections/74-softfon-mango-connect.md"
+    },
+    {
+      "id": "integration-amocrm-75-obzor",
+      "section": "15.1",
+      "title": "Обзор",
+      "hint": "Софтфон “MANGO CONNECT” — расширение для Google Chrome, которое при интеграции",
+      "pages": "139-140",
+      "tokens": 790,
+      "path": "docs/kb/integration-amocrm/sections/75-obzor.md"
+    },
+    {
+      "id": "integration-amocrm-76-ustanovka-i-pervyy-zapusk-raboty",
+      "section": "15.2",
+      "title": "Установка и первый запуск работы",
+      "hint": "Установку расширения необходимо выполнить каждому сотруднику.",
+      "pages": "140-143",
+      "tokens": 581,
+      "path": "docs/kb/integration-amocrm/sections/76-ustanovka-i-pervyy-zapusk-raboty.md"
+    },
+    {
+      "id": "integration-amocrm-77-dopolnitelno",
+      "section": "15.3",
+      "title": "Дополнительно",
+      "hint": "Как включить и выключить режим “Не беспокоить” / DND",
+      "pages": "143-144",
+      "tokens": 384,
+      "path": "docs/kb/integration-amocrm/sections/77-dopolnitelno.md"
+    },
+    {
+      "id": "integration-amocrm-78-osobennosti",
+      "section": "16",
+      "title": "Особенности",
+      "hint": "1) при автоматическом создании сделок – они создаются на этапе воронки по умолчанию.",
+      "pages": "144-145",
+      "tokens": 238,
+      "path": "docs/kb/integration-amocrm/sections/78-osobennosti.md"
+    },
+    {
+      "id": "integration-amocrm-79-vsplyvayuschie-soobscheniya-ob-oshibkah",
+      "section": "17",
+      "title": "Всплывающие сообщения об ошибках в интерфейсе",
+      "hint": "amoCRM",
+      "pages": "145",
+      "tokens": 77,
+      "path": "docs/kb/integration-amocrm/sections/79-vsplyvayuschie-soobscheniya-ob-oshibkah.md"
+    },
+    {
+      "id": "integration-amocrm-80-obzor",
+      "section": "17.1",
+      "title": "Обзор",
+      "hint": "Можно самостоятельно устранить некоторые ошибки, связанные с интеграцией amoCRM и",
+      "pages": "145-146",
+      "tokens": 460,
+      "path": "docs/kb/integration-amocrm/sections/80-obzor.md"
+    },
+    {
+      "id": "integration-amocrm-81-perechen-kodov-oshibok",
+      "section": "17.2",
+      "title": "Перечень кодов ошибок",
+      "hint": "В таблице ниже перечислены возможные сообщения об ошибках и возможные способы их",
+      "pages": "146-148",
+      "tokens": 2338,
+      "path": "docs/kb/integration-amocrm/sections/81-perechen-kodov-oshibok.md"
+    },
+    {
+      "id": "integration-amocrm-82-uvedomleniya-po-elektronnoy-pochte-o-blo",
+      "section": "17.3",
+      "title": "Уведомления по электронной почте о блокировке виджета",
+      "hint": "Уведомления о блокировке вашего виджета интеграции отправляются по электронной почте на",
+      "pages": "148",
+      "tokens": 186,
+      "path": "docs/kb/integration-amocrm/sections/82-uvedomleniya-po-elektronnoy-pochte-o-blo.md"
+    },
+    {
+      "id": "integration-amocrm-83-primer-uvedomleniya-o-blokirovke-vidzhet",
+      "section": "17.4",
+      "title": "Пример уведомления о блокировке виджета",
+      "hint": "Если ваш виджет интеграции был заблокирован по той или иной причине, то сервис интеграции",
+      "pages": "148",
+      "tokens": 265,
+      "path": "docs/kb/integration-amocrm/sections/83-primer-uvedomleniya-o-blokirovke-vidzhet.md"
+    },
+    {
+      "id": "integration-amocrm-84-chto-delat-esli-ne-prihodit-uvedomlenie",
+      "section": "17.5",
+      "title": "Что делать, если не приходит уведомление о блокировке?",
+      "hint": "Если не получается найти письмо с уведомлением о блокировке, то необходимо:",
+      "pages": "148-149",
+      "tokens": 349,
+      "path": "docs/kb/integration-amocrm/sections/84-chto-delat-esli-ne-prihodit-uvedomlenie.md"
+    },
+    {
+      "id": "integration-amocrm-85-spisok-izmeneniy-v-dokumente",
+      "section": "17.5",
+      "title": "Список изменений в документе",
+      "hint": "25.08.2024",
+      "pages": "149-153",
+      "tokens": 3262,
+      "path": "docs/kb/integration-amocrm/sections/85-spisok-izmeneniy-v-dokumente.md"
+    }
+  ]
+}

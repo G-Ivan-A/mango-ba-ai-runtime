@@ -1,0 +1,99 @@
+{
+  "document_id": "lk-vats-sso",
+  "index": "docs/kb/lk-vats-sso/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "lk-vats-sso-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Аутентификация и",
+      "pages": "1-2",
+      "tokens": 188,
+      "path": "docs/kb/lk-vats-sso/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "lk-vats-sso-01-soderzhanie-v2-13-03-2026",
+      "section": "—",
+      "title": "Содержание                                                  v2 | 13.03.2026",
+      "hint": "Содержание",
+      "pages": "2-3",
+      "tokens": 409,
+      "path": "docs/kb/lk-vats-sso/sections/01-soderzhanie-v2-13-03-2026.md"
+    },
+    {
+      "id": "lk-vats-sso-02-terminy-i-opredeleniya",
+      "section": "1",
+      "title": "Термины и определения",
+      "hint": "Keycloak – средство управления доступом и идентификации с открытым исходным",
+      "pages": "3-4",
+      "tokens": 609,
+      "path": "docs/kb/lk-vats-sso/sections/02-terminy-i-opredeleniya.md"
+    },
+    {
+      "id": "lk-vats-sso-03-obschie-svedeniya",
+      "section": "2",
+      "title": "Общие сведения",
+      "hint": "Технология единого входа (Single sign-on SSO) — метод аутентификации, который",
+      "pages": "4-5",
+      "tokens": 742,
+      "path": "docs/kb/lk-vats-sso/sections/03-obschie-svedeniya.md"
+    },
+    {
+      "id": "lk-vats-sso-04-nastroyka-idp-v-lk-vats-mango-office",
+      "section": "3",
+      "title": "Настройка IdP в ЛК ВАТС MANGO OFFICE",
+      "hint": "Для использования возможности авторизации через SSO в Личном кабинете ВАТС",
+      "pages": "5-6",
+      "tokens": 383,
+      "path": "docs/kb/lk-vats-sso/sections/04-nastroyka-idp-v-lk-vats-mango-office.md"
+    },
+    {
+      "id": "lk-vats-sso-05-dobavlenie-provaydera",
+      "section": "4",
+      "title": "Добавление провайдера",
+      "hint": "",
+      "pages": "6",
+      "tokens": 67,
+      "path": "docs/kb/lk-vats-sso/sections/05-dobavlenie-provaydera.md"
+    },
+    {
+      "id": "lk-vats-sso-06-shag-1-nastroyka-identity-provaydera-idp",
+      "section": "4",
+      "title": "Шаг 1. Настройка Identity-провайдера (IdP).",
+      "hint": "ШАГ 1.",
+      "pages": "6-8",
+      "tokens": 1552,
+      "path": "docs/kb/lk-vats-sso/sections/06-shag-1-nastroyka-identity-provaydera-idp.md"
+    },
+    {
+      "id": "lk-vats-sso-07-shag-2-sopostavlenie-poley",
+      "section": "4",
+      "title": "Шаг 2. Сопоставление полей",
+      "hint": "ШАГ 2.",
+      "pages": "8-12",
+      "tokens": 2146,
+      "path": "docs/kb/lk-vats-sso/sections/07-shag-2-sopostavlenie-poley.md"
+    },
+    {
+      "id": "lk-vats-sso-08-vhod-sotrudnika-v-lichnyy-kabinet-vats",
+      "section": "5",
+      "title": "Вход сотрудника в Личный кабинет ВАТС",
+      "hint": "После перехода сотрудника по ссылке, полученной на вкладке Данные Service-",
+      "pages": "12-13",
+      "tokens": 610,
+      "path": "docs/kb/lk-vats-sso/sections/08-vhod-sotrudnika-v-lichnyy-kabinet-vats.md"
+    },
+    {
+      "id": "lk-vats-sso-09-nastroyka-autentifikacii-i-avtorizacii-n",
+      "section": "6",
+      "title": "Настройка аутентификации и авторизации на примере Keycloak",
+      "hint": "примере Keycloak",
+      "pages": "13-22",
+      "tokens": 3366,
+      "path": "docs/kb/lk-vats-sso/sections/09-nastroyka-autentifikacii-i-avtorizacii-n.md"
+    }
+  ]
+}

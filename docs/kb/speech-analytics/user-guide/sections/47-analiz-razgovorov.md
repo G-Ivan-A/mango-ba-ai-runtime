@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика | v.1.26.18 75
 
-![Изображение, стр. 76](../images/47-analiz-razgovorov-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

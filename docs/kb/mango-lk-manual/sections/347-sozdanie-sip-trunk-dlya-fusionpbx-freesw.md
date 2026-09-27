@@ -24,21 +24,15 @@ ai-generated: true
 
 Откройте меню администрирования транков во вкладке Gateways раздела Accounts.
 
-![Изображение, стр. 560](../images/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw-1.jpeg)
-
 ![Изображение, стр. 560](../images/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw-2.jpeg)
 
 Для добавления нового транка нажмите пиктограмму “+”.
 
 ![Изображение, стр. 560](../images/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw-3.png)
 
-![Изображение, стр. 561](../images/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw-4.jpeg)
-
 ![Изображение, стр. 561](../images/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw-5.png)
 
 В открывшейся форме необходимо заполнить поля: Gateway – имя транка. В примере используем имя mango. Username, Password- обязательные поля заполняются любыми значениями Proxy- SIP сервер провайдера Register – выставляем false Context - по умолчанию Public Profile - по умолчанию External Enabled - True
-
-![Изображение, стр. 562](../images/347-sozdanie-sip-trunk-dlya-fusionpbx-freesw-6.jpeg)
 
 Сохраните введенные данные кнопкой Save.
 

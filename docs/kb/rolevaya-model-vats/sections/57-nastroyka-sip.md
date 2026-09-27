@@ -35,8 +35,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 53
 
-![Изображение, стр. 54](../images/57-nastroyka-sip-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

@@ -27,5 +27,3 @@ ai-generated: true
 ![Изображение, стр. 49](../images/50-kontakty-personalnogo-menedzhera-1.png)
 
 пиктограмму на панели Лицевого счета.
-
-![Изображение, стр. 50](../images/50-kontakty-personalnogo-menedzhera-2.jpeg)

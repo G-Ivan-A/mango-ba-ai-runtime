@@ -29,12 +29,4 @@ ai-generated: true
 | "entry_id": "232wc3e3w3s222",<br>"call_id": "200:514",<br>"timestamp": 1398956995,<br>"seq": "4",<br>"locaton": "abonent"; |
 | "call_state": "Disconnected",<br>"from": {<br>"number": "74955404444" },<br>"to": {<br>"extension": "123",<br>"number": "12345678" }<br>"disconnect_reason": "1120"<br>} |
 
-![Изображение, стр. 341](../images/250-perevod-vyzova-s-konsultaciey-1.png)
-
-![Изображение, стр. 341](../images/250-perevod-vyzova-s-konsultaciey-2.png)
-
-![Изображение, стр. 341](../images/250-perevod-vyzova-s-konsultaciey-3.png)
-
-![Изображение, стр. 341](../images/250-perevod-vyzova-s-konsultaciey-4.png)
-
 Произошло соединение абонентов "74955404444" и "87654321", абонент "12345678" замещен абонентом "74955404444" POST https://external-system.com/events/call vpbx_api_key = qwerty123 sign = qwerty123 json = { "entry_id": "232wc3e3w3s222", "call_id": "202:515", "timestamp": 1398957005, "seq": "3", "locaton": "abonent"; "call_state": "Connected", "from": { "number": "74955404444", "taken_from_call_id": "200:514" }, "to": { "extension": "321", "number": "87654321" } } Вызов завершен, вызывающий абонент повесил трубку. POST https://external-system.com/events/call vpbx_api_key = qwerty123 sign = qwerty123 json = { "entry_id": "232wc3e3w3s222", "call_id": "202:515", "timestamp": "1398957015", "seq": "4", "locaton": "abonent"; "call_state": "Disconnected", "from": { "number": "74955404444", "taken_from_call_id": "200:514" }, "to": { "extension": "321", "number": "87654321" }, "disconnect_reason": "1110" }

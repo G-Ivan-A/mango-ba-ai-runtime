@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [analytics-reporting]
 type: kb-source-index
 doc_code: SA
 doc_title: "Руководство пользователя. Речевая аналитика"

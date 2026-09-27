@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [voice-ucaas]
 type: kb-source-index
 doc_code: LKSSO
 doc_title: "Аутентификация и авторизация в рамках SSO"

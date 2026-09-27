@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика & КАТС | v.1.26.18 94
 
-![Изображение, стр. 95](../images/50-popolnit-schet-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

@@ -28,8 +28,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 34
 
-![Изображение, стр. 35](../images/30-mangomobayl-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

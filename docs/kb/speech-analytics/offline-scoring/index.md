@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [analytics-reporting]
 type: kb-source-index
 doc_code: SA-SCORE
 doc_title: "Руководство пользователя. Речевая аналитика. Офлайн скоринг"

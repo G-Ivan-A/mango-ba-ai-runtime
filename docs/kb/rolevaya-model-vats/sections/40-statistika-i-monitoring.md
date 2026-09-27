@@ -28,8 +28,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 42
 
-![Изображение, стр. 43](../images/40-statistika-i-monitoring-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

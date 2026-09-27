@@ -1,0 +1,1260 @@
+{
+  "document_id": "mango-cc-manual",
+  "index": "docs/kb/mango-cc-manual/index.md",
+  "product_ids": [
+    "contact-center"
+  ],
+  "sections": [
+    {
+      "id": "mango-cc-manual-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Оглавление v 1.26.28.1",
+      "pages": "1-9",
+      "tokens": 4013,
+      "path": "docs/kb/mango-cc-manual/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "mango-cc-manual-01-nachalo-raboty",
+      "section": "1",
+      "title": "Начало работы",
+      "hint": "Контакт-центр MANGO OFFICE – «облачное» решение.",
+      "pages": "9",
+      "tokens": 636,
+      "path": "docs/kb/mango-cc-manual/sections/01-nachalo-raboty.md"
+    },
+    {
+      "id": "mango-cc-manual-02-registraciya-novogo-polzovatelya",
+      "section": "1.1",
+      "title": "Регистрация нового пользователя",
+      "hint": "",
+      "pages": "9",
+      "tokens": 71,
+      "path": "docs/kb/mango-cc-manual/sections/02-registraciya-novogo-polzovatelya.md"
+    },
+    {
+      "id": "mango-cc-manual-03-registraciya-novogo-polzovatelya",
+      "section": "1.1",
+      "title": "Регистрация нового пользователя",
+      "hint": "Для регистрации нового пользователя создайте для него учетную запись сотрудника в Личном",
+      "pages": "9-17",
+      "tokens": 6231,
+      "path": "docs/kb/mango-cc-manual/sections/03-registraciya-novogo-polzovatelya.md"
+    },
+    {
+      "id": "mango-cc-manual-04-vhod-v-sistemu",
+      "section": "1.2",
+      "title": "Вход в систему",
+      "hint": "При первом запуске Контакт-центра MANGO OFFICE на экране отображается окно входа в",
+      "pages": "17-21",
+      "tokens": 1813,
+      "path": "docs/kb/mango-cc-manual/sections/04-vhod-v-sistemu.md"
+    },
+    {
+      "id": "mango-cc-manual-05-glavnoe-okno-programmy",
+      "section": "2",
+      "title": "Главное окно программы",
+      "hint": "После входа пользователя в систему на экране отображается главное окно программы.",
+      "pages": "21-22",
+      "tokens": 1084,
+      "path": "docs/kb/mango-cc-manual/sections/05-glavnoe-okno-programmy.md"
+    },
+    {
+      "id": "mango-cc-manual-06-upravlenie-statusom",
+      "section": "2.1",
+      "title": "Управление статусом",
+      "hint": "Контакт-центр MANGO OFFICE позволяет в любой момент времени выбрать нужный статус",
+      "pages": "22-24",
+      "tokens": 1550,
+      "path": "docs/kb/mango-cc-manual/sections/06-upravlenie-statusom.md"
+    },
+    {
+      "id": "mango-cc-manual-07-propuschennye-vyzovy",
+      "section": "2.2",
+      "title": "Пропущенные вызовы",
+      "hint": "В приложении предусмотрен быстрый доступ к списку пропущенных персональных и",
+      "pages": "24-26",
+      "tokens": 1698,
+      "path": "docs/kb/mango-cc-manual/sections/07-propuschennye-vyzovy.md"
+    },
+    {
+      "id": "mango-cc-manual-08-ochered-obrascheniy",
+      "section": "2.3",
+      "title": "Очередь обращений",
+      "hint": "",
+      "pages": "26",
+      "tokens": 337,
+      "path": "docs/kb/mango-cc-manual/sections/08-ochered-obrascheniy.md"
+    },
+    {
+      "id": "mango-cc-manual-09-instrumenty-obrascheniya-ochered-obrasch",
+      "section": "2.3",
+      "title": "Инструменты → Обращения → Очередь обращений.",
+      "hint": "Панель \"Очередь обращений\" открывается по нажатию на иконку в верхней части окна",
+      "pages": "26-32",
+      "tokens": 3651,
+      "path": "docs/kb/mango-cc-manual/sections/09-instrumenty-obrascheniya-ochered-obrasch.md"
+    },
+    {
+      "id": "mango-cc-manual-10-panel-pokazateley",
+      "section": "2.4",
+      "title": "Панель показателей",
+      "hint": "Контакт-центр MANGO OFFICE позволяет отслеживать в реальном времени эффективность",
+      "pages": "32-46",
+      "tokens": 11320,
+      "path": "docs/kb/mango-cc-manual/sections/10-panel-pokazateley.md"
+    },
+    {
+      "id": "mango-cc-manual-11-panel-upravleniya-telefoniey",
+      "section": "2.5",
+      "title": "Панель управления телефонией",
+      "hint": "Помимо базовых возможностей телефонии (прием входящих вызовов, совершение исходящих",
+      "pages": "46-65",
+      "tokens": 13039,
+      "path": "docs/kb/mango-cc-manual/sections/11-panel-upravleniya-telefoniey.md"
+    },
+    {
+      "id": "mango-cc-manual-12-nastroyki-zvuka",
+      "section": "2.5",
+      "title": "Настройки звука",
+      "hint": "При включенной настройке Использовать внешний телефон / софтфон вы можете",
+      "pages": "65-66",
+      "tokens": 596,
+      "path": "docs/kb/mango-cc-manual/sections/12-nastroyki-zvuka.md"
+    },
+    {
+      "id": "mango-cc-manual-13-dopolnitelnye-nastroyki",
+      "section": "2.5",
+      "title": "Дополнительные настройки",
+      "hint": "При щелчке по кнопке Дополнительные настройки отображается список дополнительных",
+      "pages": "66-96",
+      "tokens": 17240,
+      "path": "docs/kb/mango-cc-manual/sections/13-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "mango-cc-manual-14-prohozhdenie-kvesta-eto-poshagovoe-vypol",
+      "section": "2.5",
+      "title": "Прохождение квеста – это пошаговое выполнение пользователем ключевых действий.",
+      "hint": "Прохождение квестов позволяет сотруднику получать Достижения.",
+      "pages": "96-116",
+      "tokens": 13806,
+      "path": "docs/kb/mango-cc-manual/sections/14-prohozhdenie-kvesta-eto-poshagovoe-vypol.md"
+    },
+    {
+      "id": "mango-cc-manual-15-panel-grafika-raboty",
+      "section": "2.6",
+      "title": "Панель графика работы",
+      "hint": "Панель графика работы предоставляет информацию о текущем статусе и активности",
+      "pages": "116-117",
+      "tokens": 1137,
+      "path": "docs/kb/mango-cc-manual/sections/15-panel-grafika-raboty.md"
+    },
+    {
+      "id": "mango-cc-manual-16-dashboard",
+      "section": "3",
+      "title": "Dashboard",
+      "hint": "Вкладка Dashboard - элемент пользовательского интерфейса, отображается в главном окне",
+      "pages": "117-119",
+      "tokens": 1468,
+      "path": "docs/kb/mango-cc-manual/sections/16-dashboard.md"
+    },
+    {
+      "id": "mango-cc-manual-17-sozdanie-i-nastroyka-vidzheta",
+      "section": "3.1",
+      "title": "Создание и настройка виджета",
+      "hint": "Для добавления на вкладку Dashboard нового виджета нажмите кнопку Добавить виджет.",
+      "pages": "119-126",
+      "tokens": 7752,
+      "path": "docs/kb/mango-cc-manual/sections/17-sozdanie-i-nastroyka-vidzheta.md"
+    },
+    {
+      "id": "mango-cc-manual-18-redaktirovanie-vidzheta",
+      "section": "3.2",
+      "title": "Редактирование виджета",
+      "hint": "Пользователь может отредактировать (изменить настройки) любого виджета ранее",
+      "pages": "126-127",
+      "tokens": 411,
+      "path": "docs/kb/mango-cc-manual/sections/18-redaktirovanie-vidzheta.md"
+    },
+    {
+      "id": "mango-cc-manual-19-udalenie-vidzheta",
+      "section": "3.3",
+      "title": "Удаление виджета",
+      "hint": "Пользователь может удалить любой ранее добавленный виджет на Dashboard.",
+      "pages": "127-128",
+      "tokens": 327,
+      "path": "docs/kb/mango-cc-manual/sections/19-udalenie-vidzheta.md"
+    },
+    {
+      "id": "mango-cc-manual-20-vidzhety-po-umolchaniyu",
+      "section": "3.4",
+      "title": "Виджеты по умолчанию",
+      "hint": "При первом входе на Dashboard для пользователя с любой ролью установлено 9 виджетов.",
+      "pages": "128",
+      "tokens": 390,
+      "path": "docs/kb/mango-cc-manual/sections/20-vidzhety-po-umolchaniyu.md"
+    },
+    {
+      "id": "mango-cc-manual-21-obrascheniya",
+      "section": "4",
+      "title": "Обращения",
+      "hint": "Модуль Обращения представляет набор связанных цифровых коммуникаций между",
+      "pages": "128-129",
+      "tokens": 872,
+      "path": "docs/kb/mango-cc-manual/sections/21-obrascheniya.md"
+    },
+    {
+      "id": "mango-cc-manual-22-kontrol-obrascheniy",
+      "section": "4.1",
+      "title": "Контроль обращений",
+      "hint": "Данный инструмент предназначен для мониторинга обращений в режиме реального времени",
+      "pages": "129-132",
+      "tokens": 2467,
+      "path": "docs/kb/mango-cc-manual/sections/22-kontrol-obrascheniy.md"
+    },
+    {
+      "id": "mango-cc-manual-23-avtomaticheskoe-raspredelenie-obrascheni",
+      "section": "4.2",
+      "title": "Автоматическое распределение обращений",
+      "hint": "Настройки автоматического распределения обращений позволяют оптимизировать поток",
+      "pages": "132-133",
+      "tokens": 1735,
+      "path": "docs/kb/mango-cc-manual/sections/23-avtomaticheskoe-raspredelenie-obrascheni.md"
+    },
+    {
+      "id": "mango-cc-manual-24-moi-obrascheniya",
+      "section": "4.3",
+      "title": "Мои обращения",
+      "hint": "Инструмент Мои обращения предназначен для обработки обращений, поступающих в",
+      "pages": "133-159",
+      "tokens": 18222,
+      "path": "docs/kb/mango-cc-manual/sections/24-moi-obrascheniya.md"
+    },
+    {
+      "id": "mango-cc-manual-25-nastroyka-avtomaticheskih-deystviy",
+      "section": "4.4",
+      "title": "Настройка автоматических действий",
+      "hint": "Вкладка отображается только для пользовательской роли Администратор.",
+      "pages": "159-161",
+      "tokens": 778,
+      "path": "docs/kb/mango-cc-manual/sections/25-nastroyka-avtomaticheskih-deystviy.md"
+    },
+    {
+      "id": "mango-cc-manual-26-istoriya-obrascheniy",
+      "section": "4.5",
+      "title": "История обращений",
+      "hint": "Для просмотра аналитической информации по обращениям клиентов следует отобрать",
+      "pages": "161-166",
+      "tokens": 3883,
+      "path": "docs/kb/mango-cc-manual/sections/26-istoriya-obrascheniy.md"
+    },
+    {
+      "id": "mango-cc-manual-27-sdelki",
+      "section": "5",
+      "title": "Сделки",
+      "hint": "",
+      "pages": "166",
+      "tokens": 268,
+      "path": "docs/kb/mango-cc-manual/sections/27-sdelki.md"
+    },
+    {
+      "id": "mango-cc-manual-28-bezopasnost-i-ogranicheniya-nastroyka-do",
+      "section": "5",
+      "title": "Безопасность и ограничения → Настройка доступа → (Выбрать роль) → Инструменты",
+      "hint": "Модуль Сделки в меню разделов содержит список всех сделок, доступных к просмотру",
+      "pages": "166-170",
+      "tokens": 3191,
+      "path": "docs/kb/mango-cc-manual/sections/28-bezopasnost-i-ogranicheniya-nastroyka-do.md"
+    },
+    {
+      "id": "mango-cc-manual-29-sdelki-v-rabote",
+      "section": "5.1",
+      "title": "Сделки в работе",
+      "hint": "Вкладка предназначена для мониторинга сделок со статусом В работе.",
+      "pages": "170-179",
+      "tokens": 5322,
+      "path": "docs/kb/mango-cc-manual/sections/29-sdelki-v-rabote.md"
+    },
+    {
+      "id": "mango-cc-manual-30-istoriya-sdelok",
+      "section": "5.2",
+      "title": "История сделок",
+      "hint": "Вкладка История сделок содержит сделки со статусом Состоялась, Не состоялась,",
+      "pages": "179-182",
+      "tokens": 1666,
+      "path": "docs/kb/mango-cc-manual/sections/30-istoriya-sdelok.md"
+    },
+    {
+      "id": "mango-cc-manual-31-voronka-prodazh",
+      "section": "5.3",
+      "title": "Воронка продаж",
+      "hint": "Вкладка Воронка продаж содержит визуально-графическую информацию о",
+      "pages": "182-185",
+      "tokens": 1869,
+      "path": "docs/kb/mango-cc-manual/sections/31-voronka-prodazh.md"
+    },
+    {
+      "id": "mango-cc-manual-32-nastroyka-voronki-prodazh",
+      "section": "5.4",
+      "title": "Настройка воронки продаж",
+      "hint": "Пользователь может настроить несколько воронок продаж, для каждого из своих проектов.",
+      "pages": "185-187",
+      "tokens": 1199,
+      "path": "docs/kb/mango-cc-manual/sections/32-nastroyka-voronki-prodazh.md"
+    },
+    {
+      "id": "mango-cc-manual-33-nastroyka-avtomaticheskih-deystviy",
+      "section": "5.5",
+      "title": "Настройка автоматических действий",
+      "hint": "Вкладка предназначена для настройки автоматических действий:",
+      "pages": "187-196",
+      "tokens": 5995,
+      "path": "docs/kb/mango-cc-manual/sections/33-nastroyka-avtomaticheskih-deystviy.md"
+    },
+    {
+      "id": "mango-cc-manual-34-nastroyka-polzovatelskih-poley",
+      "section": "5.6",
+      "title": "Настройка пользовательских полей",
+      "hint": "В модуле Сделки доступно добавление пользовательских полей.",
+      "pages": "196-197",
+      "tokens": 364,
+      "path": "docs/kb/mango-cc-manual/sections/34-nastroyka-polzovatelskih-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-35-dobavlenie-polzovatelskih-poley",
+      "section": "5.6",
+      "title": "Добавление пользовательских полей",
+      "hint": "Для добавления пользовательского поля следует кликнуть по кнопке Добавить поле.",
+      "pages": "197-198",
+      "tokens": 572,
+      "path": "docs/kb/mango-cc-manual/sections/35-dobavlenie-polzovatelskih-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-36-nastroyki-polzovatelskih-poley",
+      "section": "5.6",
+      "title": "Настройки пользовательских полей",
+      "hint": "После выбора типа поля следует установить его настройки.",
+      "pages": "198-200",
+      "tokens": 1461,
+      "path": "docs/kb/mango-cc-manual/sections/36-nastroyki-polzovatelskih-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-37-nastroit-poryadok-polzovatelskih-poley",
+      "section": "5.6",
+      "title": "Настроить порядок пользовательских полей",
+      "hint": "Клик по кнопке Настроить порядок полей открывает окно, в котором пользователь может",
+      "pages": "200",
+      "tokens": 255,
+      "path": "docs/kb/mango-cc-manual/sections/37-nastroit-poryadok-polzovatelskih-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-38-udalenie-polzovatelskih-poley",
+      "section": "5.6",
+      "title": "Удаление пользовательских полей",
+      "hint": "Для удаления поля кликните на наименование поля и в открывшемся окне нажмите кнопку",
+      "pages": "200",
+      "tokens": 190,
+      "path": "docs/kb/mango-cc-manual/sections/38-udalenie-polzovatelskih-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-39-nastroyka-prichin-otkaza",
+      "section": "5.7",
+      "title": "Настройка причин отказа",
+      "hint": "Вкладка доступна пользователю при наличии права \"Настраивать причины отказа в сделках\",",
+      "pages": "200-203",
+      "tokens": 993,
+      "path": "docs/kb/mango-cc-manual/sections/39-nastroyka-prichin-otkaza.md"
+    },
+    {
+      "id": "mango-cc-manual-40-zadachi",
+      "section": "6",
+      "title": "Задачи",
+      "hint": "Задачи предоставляют руководителям и сотрудникам возможность эффективно планировать",
+      "pages": "203",
+      "tokens": 724,
+      "path": "docs/kb/mango-cc-manual/sections/40-zadachi.md"
+    },
+    {
+      "id": "mango-cc-manual-41-kalendar-zadach",
+      "section": "6.1",
+      "title": "Календарь задач",
+      "hint": "Подраздел Календарь задач открывает окно календаря с кнопкой добавления задачи и выпадающим",
+      "pages": "203-205",
+      "tokens": 1056,
+      "path": "docs/kb/mango-cc-manual/sections/41-kalendar-zadach.md"
+    },
+    {
+      "id": "mango-cc-manual-42-otchet-po-zadacham",
+      "section": "6.2",
+      "title": "Отчет по задачам",
+      "hint": "Подраздел Отчет по задачам открывает окно отчета со строкой поиска и кнопкой Сформировать",
+      "pages": "205-206",
+      "tokens": 730,
+      "path": "docs/kb/mango-cc-manual/sections/42-otchet-po-zadacham.md"
+    },
+    {
+      "id": "mango-cc-manual-43-spisok-zadach-v-verhney-paneli",
+      "section": "6.3",
+      "title": "Список задач в верхней панели",
+      "hint": "Для просмотра списка задач из верхней панели нажмите .",
+      "pages": "206-208",
+      "tokens": 1649,
+      "path": "docs/kb/mango-cc-manual/sections/43-spisok-zadach-v-verhney-paneli.md"
+    },
+    {
+      "id": "mango-cc-manual-44-sozdanie-zadachi",
+      "section": "6.4",
+      "title": "Создание задачи",
+      "hint": "Создание задач доступно пользователям, обладающим правом \"Назначать задачи\".",
+      "pages": "208-210",
+      "tokens": 1896,
+      "path": "docs/kb/mango-cc-manual/sections/44-sozdanie-zadachi.md"
+    },
+    {
+      "id": "mango-cc-manual-45-vernut-ispolnitelyu-vernut-zadachu-na-do",
+      "section": "6.4",
+      "title": "Вернуть исполнителю – вернуть задачу на доработку исполнителю.",
+      "hint": "Сохраните внесенные изменения.",
+      "pages": "210",
+      "tokens": 210,
+      "path": "docs/kb/mango-cc-manual/sections/45-vernut-ispolnitelyu-vernut-zadachu-na-do.md"
+    },
+    {
+      "id": "mango-cc-manual-46-esche-postavit-zadachu",
+      "section": "6.4",
+      "title": "Еще → Поставить задачу.",
+      "hint": "Для контактов, у которых не проставлен Ответственный, массово задачи не создаются.",
+      "pages": "210-211",
+      "tokens": 481,
+      "path": "docs/kb/mango-cc-manual/sections/46-esche-postavit-zadachu.md"
+    },
+    {
+      "id": "mango-cc-manual-47-ostalnye-parametry-tip-zadachi-opisanie",
+      "section": "6.4",
+      "title": "Остальные параметры – тип задачи, описание, автоматический набор – прописываются",
+      "hint": "вручную в окне массовой постановки задачи.",
+      "pages": "211-212",
+      "tokens": 1838,
+      "path": "docs/kb/mango-cc-manual/sections/47-ostalnye-parametry-tip-zadachi-opisanie.md"
+    },
+    {
+      "id": "mango-cc-manual-48-prosmotr-zadach-iz-drugih-moduley",
+      "section": "6.5",
+      "title": "Просмотр задач из других модулей",
+      "hint": "Список задач, запланированных по клиенту, также доступен в карточке клиента на вкладке",
+      "pages": "212-214",
+      "tokens": 284,
+      "path": "docs/kb/mango-cc-manual/sections/48-prosmotr-zadach-iz-drugih-moduley.md"
+    },
+    {
+      "id": "mango-cc-manual-49-sotrudniki",
+      "section": "7",
+      "title": "Сотрудники",
+      "hint": "Модуль Сотрудники включает в себя несколько инструментов:",
+      "pages": "214",
+      "tokens": 624,
+      "path": "docs/kb/mango-cc-manual/sections/49-sotrudniki.md"
+    },
+    {
+      "id": "mango-cc-manual-50-kontrol-sotrudnikov",
+      "section": "7.1",
+      "title": "Контроль сотрудников",
+      "hint": "Этот отчет позволяет получить аналитические данные о работе сотрудников Контакт-центра",
+      "pages": "214-217",
+      "tokens": 2194,
+      "path": "docs/kb/mango-cc-manual/sections/50-kontrol-sotrudnikov.md"
+    },
+    {
+      "id": "mango-cc-manual-51-kartochka-rabochego-dnya",
+      "section": "7.2",
+      "title": "Карточка рабочего дня",
+      "hint": "Отчет \"Карточка рабочего дня\" позволяет получить детальную информацию о работе группы",
+      "pages": "217-220",
+      "tokens": 2205,
+      "path": "docs/kb/mango-cc-manual/sections/51-kartochka-rabochego-dnya.md"
+    },
+    {
+      "id": "mango-cc-manual-52-rabochee-vremya-sotrudnika",
+      "section": "7.3",
+      "title": "Рабочее время сотрудника",
+      "hint": "На вкладке можно получать аналитические данные о времени работы сотрудников Контакт-",
+      "pages": "220-223",
+      "tokens": 3613,
+      "path": "docs/kb/mango-cc-manual/sections/52-rabochee-vremya-sotrudnika.md"
+    },
+    {
+      "id": "mango-cc-manual-53-proizvoditelnost-sotrudnikov",
+      "section": "7.4",
+      "title": "Производительность сотрудников",
+      "hint": "Данные вкладки позволяют получать подробную статистическую информацию о показателях",
+      "pages": "223-235",
+      "tokens": 10539,
+      "path": "docs/kb/mango-cc-manual/sections/53-proizvoditelnost-sotrudnikov.md"
+    },
+    {
+      "id": "mango-cc-manual-54-proizvoditelnost-grupp",
+      "section": "7.5",
+      "title": "Производительность групп",
+      "hint": "Этот отчет позволяет получать подробную статистическую информацию о показателях",
+      "pages": "235-242",
+      "tokens": 8177,
+      "path": "docs/kb/mango-cc-manual/sections/54-proizvoditelnost-grupp.md"
+    },
+    {
+      "id": "mango-cc-manual-55-dostizheniya-sotrudnikov",
+      "section": "7.6",
+      "title": "Достижения сотрудников",
+      "hint": "Наглядным показателем работы сотрудника является иконка \"Достижений сотрудника\"",
+      "pages": "242-245",
+      "tokens": 1862,
+      "path": "docs/kb/mango-cc-manual/sections/55-dostizheniya-sotrudnikov.md"
+    },
+    {
+      "id": "mango-cc-manual-56-plan-raboty-wfm",
+      "section": "8",
+      "title": "План работы (WFM)",
+      "hint": "План работы (WFM) подключается в Личном кабинете пользователя ВАТС, в разделе",
+      "pages": "245-246",
+      "tokens": 841,
+      "path": "docs/kb/mango-cc-manual/sections/56-plan-raboty-wfm.md"
+    },
+    {
+      "id": "mango-cc-manual-57-grafik-raboty",
+      "section": "8.1",
+      "title": "График работы",
+      "hint": "Графики рабочего времени могут быть индивидуальны для сотрудников по количеству рабочих дней",
+      "pages": "246-251",
+      "tokens": 2695,
+      "path": "docs/kb/mango-cc-manual/sections/57-grafik-raboty.md"
+    },
+    {
+      "id": "mango-cc-manual-58-planirovanie-vhodyaschih",
+      "section": "8.2",
+      "title": "Планирование входящих",
+      "hint": "При помощи планирования входящих звонков руководитель может внести \"поправочные",
+      "pages": "251-258",
+      "tokens": 4657,
+      "path": "docs/kb/mango-cc-manual/sections/58-planirovanie-vhodyaschih.md"
+    },
+    {
+      "id": "mango-cc-manual-59-otchety",
+      "section": "8.3",
+      "title": "Отчеты",
+      "hint": "На вкладке отображается пунктуальность сотрудников, для удобства оперативного контроля за",
+      "pages": "258-262",
+      "tokens": 1989,
+      "path": "docs/kb/mango-cc-manual/sections/59-otchety.md"
+    },
+    {
+      "id": "mango-cc-manual-60-obmen-smenami",
+      "section": "8.4",
+      "title": "Обмен сменами",
+      "hint": "В случае жизненных обстоятельств для сотрудников важно иметь возможность оперативно",
+      "pages": "262-266",
+      "tokens": 2272,
+      "path": "docs/kb/mango-cc-manual/sections/60-obmen-smenami.md"
+    },
+    {
+      "id": "mango-cc-manual-61-nastroyki",
+      "section": "8.5",
+      "title": "Настройки",
+      "hint": "Вкладка Настройки содержит шесть информационных блоков.",
+      "pages": "266-277",
+      "tokens": 5632,
+      "path": "docs/kb/mango-cc-manual/sections/61-nastroyki.md"
+    },
+    {
+      "id": "mango-cc-manual-62-istoriya-vyzovov",
+      "section": "9",
+      "title": "История вызовов",
+      "hint": "Модуль История вызовов включает в себя несколько инструментов:",
+      "pages": "277",
+      "tokens": 514,
+      "path": "docs/kb/mango-cc-manual/sections/62-istoriya-vyzovov.md"
+    },
+    {
+      "id": "mango-cc-manual-63-istoriya-vyzovov",
+      "section": "9.1",
+      "title": "История вызовов",
+      "hint": "При первом запуске программы отображается журнал вызовов за последние 2 дня по",
+      "pages": "277-290",
+      "tokens": 10196,
+      "path": "docs/kb/mango-cc-manual/sections/63-istoriya-vyzovov.md"
+    },
+    {
+      "id": "mango-cc-manual-64-obsluzhivanie-vhodyaschih-vyzovov",
+      "section": "9.2",
+      "title": "Обслуживание входящих вызовов",
+      "hint": "Этот отчет позволяет получить аналитические данные обо всех входящих вызовах,",
+      "pages": "290-291",
+      "tokens": 880,
+      "path": "docs/kb/mango-cc-manual/sections/64-obsluzhivanie-vhodyaschih-vyzovov.md"
+    },
+    {
+      "id": "mango-cc-manual-65-propuschennye-vyzovy",
+      "section": "9.3",
+      "title": "Пропущенные вызовы",
+      "hint": "Отчет \"Пропущенные вызовы\" позволяет получить детальную информацию в рамках истории",
+      "pages": "291-296",
+      "tokens": 2805,
+      "path": "docs/kb/mango-cc-manual/sections/65-propuschennye-vyzovy.md"
+    },
+    {
+      "id": "mango-cc-manual-66-klienty",
+      "section": "10",
+      "title": "Клиенты",
+      "hint": "",
+      "pages": "296",
+      "tokens": 274,
+      "path": "docs/kb/mango-cc-manual/sections/66-klienty.md"
+    },
+    {
+      "id": "mango-cc-manual-67-bezopasnost-i-ogranicheniya-nastroyka-do",
+      "section": "10",
+      "title": "Безопасность и ограничения → Настройка доступа → (Выбрать роль)→ Инструменты",
+      "hint": "Используя модуль Клиенты, вы можете хранить основную информацию обо всех ваших",
+      "pages": "296",
+      "tokens": 494,
+      "path": "docs/kb/mango-cc-manual/sections/67-bezopasnost-i-ogranicheniya-nastroyka-do.md"
+    },
+    {
+      "id": "mango-cc-manual-68-kontakty-adresnaya-kniga",
+      "section": "10.1",
+      "title": "Контакты (адресная книга)",
+      "hint": "Контакты Адресной книги доступны пользователю в соответствии с его ролью в Контакт-",
+      "pages": "296-320",
+      "tokens": 18980,
+      "path": "docs/kb/mango-cc-manual/sections/68-kontakty-adresnaya-kniga.md"
+    },
+    {
+      "id": "mango-cc-manual-69-organizacii",
+      "section": "10.2",
+      "title": "Организации",
+      "hint": "Пользователь может открыть карточку организации из:",
+      "pages": "320-325",
+      "tokens": 2473,
+      "path": "docs/kb/mango-cc-manual/sections/69-organizacii.md"
+    },
+    {
+      "id": "mango-cc-manual-70-nastroyka-poley",
+      "section": "10.3",
+      "title": "Настройка полей",
+      "hint": "Кнопка Добавить поле предназначена для добавления пользовательских полей в Контакты.",
+      "pages": "325-326",
+      "tokens": 1133,
+      "path": "docs/kb/mango-cc-manual/sections/70-nastroyka-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-71-nastroyki-polzovatelskih-poley",
+      "section": "10.3",
+      "title": "Настройки пользовательских полей",
+      "hint": "После выбора типа поля следует установить его настройки.",
+      "pages": "326-331",
+      "tokens": 2135,
+      "path": "docs/kb/mango-cc-manual/sections/71-nastroyki-polzovatelskih-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-72-ishodyaschiy-obzvon",
+      "section": "11",
+      "title": "Исходящий обзвон",
+      "hint": "Исходящий обзвон предназначен для создания и настройки заданий исходящего обзвона и",
+      "pages": "331",
+      "tokens": 340,
+      "path": "docs/kb/mango-cc-manual/sections/72-ishodyaschiy-obzvon.md"
+    },
+    {
+      "id": "mango-cc-manual-73-bezopasnost-i-ogranicheniya-nastroyka-do",
+      "section": "11",
+      "title": "Безопасность и ограничения → Настройка доступа → (Выбрать роль) → Инструменты",
+      "hint": "Исходящий обзвон позволяет автоматизировать выполнение сотрудниками исходящих",
+      "pages": "331",
+      "tokens": 710,
+      "path": "docs/kb/mango-cc-manual/sections/73-bezopasnost-i-ogranicheniya-nastroyka-do.md"
+    },
+    {
+      "id": "mango-cc-manual-74-spisok-kampaniy",
+      "section": "11.1",
+      "title": "Список кампаний",
+      "hint": "При первом запуске окно Исходящего обзвона открывается на списке кампаний.",
+      "pages": "331-337",
+      "tokens": 4005,
+      "path": "docs/kb/mango-cc-manual/sections/74-spisok-kampaniy.md"
+    },
+    {
+      "id": "mango-cc-manual-75-nastroyka-poley",
+      "section": "11.2",
+      "title": "Настройка полей",
+      "hint": "На вкладке настраиваются пользовательские поля, информация которых используется во",
+      "pages": "337-339",
+      "tokens": 1383,
+      "path": "docs/kb/mango-cc-manual/sections/75-nastroyka-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-76-nastroyka-avtomaticheskih-deystviy",
+      "section": "11.3",
+      "title": "Настройка автоматических действий",
+      "hint": "Вкладка предназначена для настройки автоматических действий по результатам кампании",
+      "pages": "339-345",
+      "tokens": 2341,
+      "path": "docs/kb/mango-cc-manual/sections/76-nastroyka-avtomaticheskih-deystviy.md"
+    },
+    {
+      "id": "mango-cc-manual-77-dobavlenie-kampanii",
+      "section": "11.4",
+      "title": "Добавление кампании",
+      "hint": "Добавление новой кампании или кампании на базе существующей разбито на несколько",
+      "pages": "345-366",
+      "tokens": 13808,
+      "path": "docs/kb/mango-cc-manual/sections/77-dobavlenie-kampanii.md"
+    },
+    {
+      "id": "mango-cc-manual-78-kartochka-kampanii",
+      "section": "11.5",
+      "title": "Карточка кампании",
+      "hint": "Откройте Карточку кампании, кликнув по наименованию кампании в списке кампаний",
+      "pages": "366-374",
+      "tokens": 6295,
+      "path": "docs/kb/mango-cc-manual/sections/78-kartochka-kampanii.md"
+    },
+    {
+      "id": "mango-cc-manual-79-kartochka-vyzova",
+      "section": "11.6",
+      "title": "Карточка вызова",
+      "hint": "Вид карточки входящего вызова во время дозвона абоненту зависит от выбранного режима",
+      "pages": "374-377",
+      "tokens": 601,
+      "path": "docs/kb/mango-cc-manual/sections/79-kartochka-vyzova.md"
+    },
+    {
+      "id": "mango-cc-manual-80-skripty",
+      "section": "12",
+      "title": "Скрипты",
+      "hint": "Модуль Скрипты предназначен для создания и настройки так называемых скриптов.",
+      "pages": "377",
+      "tokens": 653,
+      "path": "docs/kb/mango-cc-manual/sections/80-skripty.md"
+    },
+    {
+      "id": "mango-cc-manual-81-spisok-skriptov",
+      "section": "12.1",
+      "title": "Список скриптов",
+      "hint": "При запуске модуль \"Скрипты\" открывается на списке скриптов.",
+      "pages": "377-379",
+      "tokens": 1167,
+      "path": "docs/kb/mango-cc-manual/sections/81-spisok-skriptov.md"
+    },
+    {
+      "id": "mango-cc-manual-82-sozdanie-import-eksport-skripta",
+      "section": "12.2",
+      "title": "Создание, импорт, экспорт скрипта",
+      "hint": "Для добавления нового скрипта откройте модуль \"Скрипты\" и нажмите кнопку Создать",
+      "pages": "379-387",
+      "tokens": 5138,
+      "path": "docs/kb/mango-cc-manual/sections/82-sozdanie-import-eksport-skripta.md"
+    },
+    {
+      "id": "mango-cc-manual-83-statistika",
+      "section": "12.3",
+      "title": "Статистика",
+      "hint": "Если по скрипту был выполнен хотя бы один проход, то есть выбор хотя бы одного варианта",
+      "pages": "387-393",
+      "tokens": 3939,
+      "path": "docs/kb/mango-cc-manual/sections/83-statistika.md"
+    },
+    {
+      "id": "mango-cc-manual-84-vnutrennee-obschenie",
+      "section": "13",
+      "title": "Внутреннее общение",
+      "hint": "Модуль Внутреннее общение – инструмент внутреннего, внутрикорпоративного общения",
+      "pages": "393",
+      "tokens": 350,
+      "path": "docs/kb/mango-cc-manual/sections/84-vnutrennee-obschenie.md"
+    },
+    {
+      "id": "mango-cc-manual-85-sotrudniki",
+      "section": "13.1",
+      "title": "Сотрудники",
+      "hint": "Внешний вид рабочей области при открытой вкладке \"Сотрудники\" приведен на рисунке",
+      "pages": "393-397",
+      "tokens": 2842,
+      "path": "docs/kb/mango-cc-manual/sections/85-sotrudniki.md"
+    },
+    {
+      "id": "mango-cc-manual-86-komnaty-konferenciy",
+      "section": "13.2",
+      "title": "Комнаты конференций",
+      "hint": "Вкладка \"Конференции\" служит для группировки операторов по виртуальным комнатам",
+      "pages": "397-398",
+      "tokens": 799,
+      "path": "docs/kb/mango-cc-manual/sections/86-komnaty-konferenciy.md"
+    },
+    {
+      "id": "mango-cc-manual-87-chaty",
+      "section": "13.3",
+      "title": "Чаты",
+      "hint": "Чаты предназначены для общения сотрудников при помощи приложения Контакт-центр",
+      "pages": "398-402",
+      "tokens": 3307,
+      "path": "docs/kb/mango-cc-manual/sections/87-chaty.md"
+    },
+    {
+      "id": "mango-cc-manual-88-videokonferencii",
+      "section": "13.4",
+      "title": "Видеоконференции",
+      "hint": "Видеозвонки позволяют двум и более участникам общаться друг с другом при помощи голоса",
+      "pages": "402-406",
+      "tokens": 1988,
+      "path": "docs/kb/mango-cc-manual/sections/88-videokonferencii.md"
+    },
+    {
+      "id": "mango-cc-manual-89-tekstovye-rassylki",
+      "section": "14",
+      "title": "Текстовые рассылки",
+      "hint": "Модуль Текстовые рассылки предназначен для создания рассылок в WhatsApp и СМС по",
+      "pages": "406",
+      "tokens": 300,
+      "path": "docs/kb/mango-cc-manual/sections/89-tekstovye-rassylki.md"
+    },
+    {
+      "id": "mango-cc-manual-90-tekstovye-rassylki",
+      "section": "14.1",
+      "title": "Текстовые рассылки",
+      "hint": "Вкладка \"Текстовые рассылки\" предназначена для создания и отслеживания статуса",
+      "pages": "406-415",
+      "tokens": 4585,
+      "path": "docs/kb/mango-cc-manual/sections/90-tekstovye-rassylki.md"
+    },
+    {
+      "id": "mango-cc-manual-91-kartochka-kampanii",
+      "section": "14.2",
+      "title": "Карточка кампании",
+      "hint": "Карточка кампании открывается по клику на наименование кампании в списке кампаний",
+      "pages": "415-418",
+      "tokens": 2244,
+      "path": "docs/kb/mango-cc-manual/sections/91-kartochka-kampanii.md"
+    },
+    {
+      "id": "mango-cc-manual-92-nastroyki-poley",
+      "section": "14.3",
+      "title": "Настройки полей",
+      "hint": "На вкладке настраиваются пользовательские поля, информация которых используется в",
+      "pages": "418-419",
+      "tokens": 491,
+      "path": "docs/kb/mango-cc-manual/sections/92-nastroyki-poley.md"
+    },
+    {
+      "id": "mango-cc-manual-93-biznes-analitika",
+      "section": "15",
+      "title": "Бизнес-аналитика",
+      "hint": "Модуль Бизнес-аналитика позволяет формировать статистические отчеты, отображающие",
+      "pages": "419-422",
+      "tokens": 1338,
+      "path": "docs/kb/mango-cc-manual/sections/93-biznes-analitika.md"
+    },
+    {
+      "id": "mango-cc-manual-94-gruppa-otchetov-prodazhi",
+      "section": "15.1",
+      "title": "Группа отчетов \"Продажи\"",
+      "hint": "• Входящие",
+      "pages": "422-438",
+      "tokens": 6832,
+      "path": "docs/kb/mango-cc-manual/sections/94-gruppa-otchetov-prodazhi.md"
+    },
+    {
+      "id": "mango-cc-manual-95-gruppa-otchetov-obsluzhivanie",
+      "section": "15.2",
+      "title": "Группа отчетов \"Обслуживание\"",
+      "hint": "• Принятые звонки",
+      "pages": "438-451",
+      "tokens": 4292,
+      "path": "docs/kb/mango-cc-manual/sections/95-gruppa-otchetov-obsluzhivanie.md"
+    },
+    {
+      "id": "mango-cc-manual-96-rechevaya-analitika",
+      "section": "16",
+      "title": "Речевая аналитика",
+      "hint": "Речевая аналитика распознает записанные разговоры и производит поиск (вручную или",
+      "pages": "451-452",
+      "tokens": 603,
+      "path": "docs/kb/mango-cc-manual/sections/96-rechevaya-analitika.md"
+    },
+    {
+      "id": "mango-cc-manual-97-otchety-rechevoy-analitiki",
+      "section": "16.1",
+      "title": "Отчеты речевой аналитики",
+      "hint": "Вкладка Отчеты содержит детальную аналитическую информацию о распознанных вызовах",
+      "pages": "452-457",
+      "tokens": 4059,
+      "path": "docs/kb/mango-cc-manual/sections/97-otchety-rechevoy-analitiki.md"
+    },
+    {
+      "id": "mango-cc-manual-98-razdel-razgovory-detalizaciya",
+      "section": "1",
+      "title": "Раздел «Разговоры, детализация»",
+      "hint": "Детализация разговоров предоставляется в срезах Сотрудники/Клиенты.",
+      "pages": "457-458",
+      "tokens": 753,
+      "path": "docs/kb/mango-cc-manual/sections/98-razdel-razgovory-detalizaciya.md"
+    },
+    {
+      "id": "mango-cc-manual-99-razdel-tematiki",
+      "section": "2",
+      "title": "Раздел «Тематики»",
+      "hint": "В развернутом виде раздел таблицы содержит следующие столбцы:",
+      "pages": "458-459",
+      "tokens": 559,
+      "path": "docs/kb/mango-cc-manual/sections/99-razdel-tematiki.md"
+    },
+    {
+      "id": "mango-cc-manual-100-razdel-pokazateli-razgovora",
+      "section": "3",
+      "title": "Раздел «Показатели разговора»",
+      "hint": "Раздел таблицы содержит следующие столбцы:",
+      "pages": "459-471",
+      "tokens": 8561,
+      "path": "docs/kb/mango-cc-manual/sections/100-razdel-pokazateli-razgovora.md"
+    },
+    {
+      "id": "mango-cc-manual-101-vkladka-tablica",
+      "section": "3",
+      "title": "Вкладка \"Таблица\"",
+      "hint": "Статистика по чек-листу отображается в процентах и числах и показывает результаты",
+      "pages": "471-473",
+      "tokens": 1285,
+      "path": "docs/kb/mango-cc-manual/sections/101-vkladka-tablica.md"
+    },
+    {
+      "id": "mango-cc-manual-102-vkladka-grafik",
+      "section": "3",
+      "title": "Вкладка \"График\"",
+      "hint": "Вкладка \"График\" содержит следующие элементы:",
+      "pages": "473-477",
+      "tokens": 3070,
+      "path": "docs/kb/mango-cc-manual/sections/102-vkladka-grafik.md"
+    },
+    {
+      "id": "mango-cc-manual-103-tegirovanie-razgovorov-v-rechevoy-analit",
+      "section": "16.2",
+      "title": "Тегирование разговоров в Речевoй аналитике",
+      "hint": "В Речевой аналитике тегирование разговоров выполняется автоматически на основе",
+      "pages": "477-483",
+      "tokens": 4154,
+      "path": "docs/kb/mango-cc-manual/sections/103-tegirovanie-razgovorov-v-rechevoy-analit.md"
+    },
+    {
+      "id": "mango-cc-manual-104-pravila-rassylki-uvedomleniy",
+      "section": "16.2",
+      "title": "Правила рассылки уведомлений:",
+      "hint": "1.",
+      "pages": "483-490",
+      "tokens": 4052,
+      "path": "docs/kb/mango-cc-manual/sections/104-pravila-rassylki-uvedomleniy.md"
+    },
+    {
+      "id": "mango-cc-manual-105-nastroyki-rechevoy-analitiki",
+      "section": "16.3",
+      "title": "Настройки речевoй аналитики",
+      "hint": "Вкладка Настройки модуля Речевая аналитика содержит обучающий блок (онбординг), а",
+      "pages": "490-498",
+      "tokens": 6240,
+      "path": "docs/kb/mango-cc-manual/sections/105-nastroyki-rechevoy-analitiki.md"
+    },
+    {
+      "id": "mango-cc-manual-106-podklyuchennye-kanaly",
+      "section": "16.4",
+      "title": "Подключенные каналы",
+      "hint": "Для клиентов, использующих оффлайновые источники аудиозаписей в \"Речевой аналитике\"",
+      "pages": "498-500",
+      "tokens": 1636,
+      "path": "docs/kb/mango-cc-manual/sections/106-podklyuchennye-kanaly.md"
+    },
+    {
+      "id": "mango-cc-manual-107-zayavki-na-uluchshenie-kachestva-raspozn",
+      "section": "16.5",
+      "title": "Заявки на улучшение качества распознавания",
+      "hint": "Пользователь, который выбрал для распознавания технологию 3iTech, может отправить заявку",
+      "pages": "500-504",
+      "tokens": 1237,
+      "path": "docs/kb/mango-cc-manual/sections/107-zayavki-na-uluchshenie-kachestva-raspozn.md"
+    },
+    {
+      "id": "mango-cc-manual-108-tekstovye-kommunikacii",
+      "section": "16.6",
+      "title": "Текстовые коммуникации",
+      "hint": "Раздел Текстовые коммуникации предоставляет инструменты для анализа текстового",
+      "pages": "504-508",
+      "tokens": 2578,
+      "path": "docs/kb/mango-cc-manual/sections/108-tekstovye-kommunikacii.md"
+    },
+    {
+      "id": "mango-cc-manual-109-ii-pomoschniki",
+      "section": "16.7",
+      "title": "ИИ Помощники",
+      "hint": "ИИ Помощники – это инструмент, который позволяет автоматически анализировать",
+      "pages": "508",
+      "tokens": 384,
+      "path": "docs/kb/mango-cc-manual/sections/109-ii-pomoschniki.md"
+    },
+    {
+      "id": "mango-cc-manual-110-kak-sozdat-ii-pomoschnika",
+      "section": "16.7",
+      "title": "Как создать ИИ Помощника",
+      "hint": "1.",
+      "pages": "508-509",
+      "tokens": 216,
+      "path": "docs/kb/mango-cc-manual/sections/110-kak-sozdat-ii-pomoschnika.md"
+    },
+    {
+      "id": "mango-cc-manual-111-nastroyka-ii-pomoschnika",
+      "section": "16.7",
+      "title": "Настройка ИИ Помощника",
+      "hint": "1.",
+      "pages": "509-511",
+      "tokens": 1167,
+      "path": "docs/kb/mango-cc-manual/sections/111-nastroyka-ii-pomoschnika.md"
+    },
+    {
+      "id": "mango-cc-manual-112-proverka-raboty-ii-pomoschnika",
+      "section": "16.7",
+      "title": "Проверка работы ИИ Помощника",
+      "hint": "Перед использованием рекомендуется проверить работу:",
+      "pages": "511-512",
+      "tokens": 531,
+      "path": "docs/kb/mango-cc-manual/sections/112-proverka-raboty-ii-pomoschnika.md"
+    },
+    {
+      "id": "mango-cc-manual-113-gde-smotret-rezultaty",
+      "section": "16.7",
+      "title": "Где смотреть результаты",
+      "hint": "Чтобы посмотреть результат анализа:",
+      "pages": "512-514",
+      "tokens": 585,
+      "path": "docs/kb/mango-cc-manual/sections/113-gde-smotret-rezultaty.md"
+    },
+    {
+      "id": "mango-cc-manual-114-konstruktor-otchetov",
+      "section": "17",
+      "title": "Конструктор отчетов",
+      "hint": "Инструмент Конструктор отчетов позволяет настраивать любые формы пользовательской",
+      "pages": "514-516",
+      "tokens": 1246,
+      "path": "docs/kb/mango-cc-manual/sections/114-konstruktor-otchetov.md"
+    },
+    {
+      "id": "mango-cc-manual-115-primer-otcheta",
+      "section": "17.1",
+      "title": "Пример отчета",
+      "hint": "Необходимо, чтобы оператор отвечал на входящие вызовы в течение трех секунд после того,",
+      "pages": "516-518",
+      "tokens": 485,
+      "path": "docs/kb/mango-cc-manual/sections/115-primer-otcheta.md"
+    },
+    {
+      "id": "mango-cc-manual-116-otchety",
+      "section": "17.2",
+      "title": "Отчеты",
+      "hint": "После успешной авторизации пользователь попадает в раздел \"Отчеты\".",
+      "pages": "518-523",
+      "tokens": 4694,
+      "path": "docs/kb/mango-cc-manual/sections/116-otchety.md"
+    },
+    {
+      "id": "mango-cc-manual-117-dannye",
+      "section": "17.3",
+      "title": "Данные",
+      "hint": "В Конструкторе отчетов используются следующие данные: параметры, сущности и",
+      "pages": "523-547",
+      "tokens": 19103,
+      "path": "docs/kb/mango-cc-manual/sections/117-dannye.md"
+    },
+    {
+      "id": "mango-cc-manual-118-prilozhenie-1-upravlenie-pravami-dostupa",
+      "section": "18",
+      "title": "Приложение 1. Управление правами доступа",
+      "hint": "В данном приложении приведено сводное описание параметров доступности, разрешений",
+      "pages": "547-548",
+      "tokens": 1017,
+      "path": "docs/kb/mango-cc-manual/sections/118-prilozhenie-1-upravlenie-pravami-dostupa.md"
+    },
+    {
+      "id": "mango-cc-manual-119-nastroyka-ats-bezopasnost-i-ogranicheniy",
+      "section": "18",
+      "title": "Настройка АТС → Безопасность и ограничения → Копировать роль без запретов на",
+      "hint": "изменение настроек.",
+      "pages": "548-552",
+      "tokens": 2733,
+      "path": "docs/kb/mango-cc-manual/sections/119-nastroyka-ats-bezopasnost-i-ogranicheniy.md"
+    },
+    {
+      "id": "mango-cc-manual-120-roli-i-prava-dostupa-lk-vats",
+      "section": "18.1",
+      "title": "Роли и права доступа ЛК ВАТС",
+      "hint": "В данном приложении приведено сводное описание параметров доступности, разрешений",
+      "pages": "552-566",
+      "tokens": 13065,
+      "path": "docs/kb/mango-cc-manual/sections/120-roli-i-prava-dostupa-lk-vats.md"
+    },
+    {
+      "id": "mango-cc-manual-121-vkladka-vats",
+      "section": "18.2",
+      "title": "Вкладка ВАТС",
+      "hint": "Настройки, вкладка \"ВАТС\"",
+      "pages": "566-567",
+      "tokens": 1032,
+      "path": "docs/kb/mango-cc-manual/sections/121-vkladka-vats.md"
+    },
+    {
+      "id": "mango-cc-manual-122-sotrudniki",
+      "section": "18.2",
+      "title": "Сотрудники",
+      "hint": "",
+      "pages": "567-570",
+      "tokens": 2383,
+      "path": "docs/kb/mango-cc-manual/sections/122-sotrudniki.md"
+    },
+    {
+      "id": "mango-cc-manual-123-gruppy",
+      "section": "18.2",
+      "title": "Группы",
+      "hint": "",
+      "pages": "570-571",
+      "tokens": 182,
+      "path": "docs/kb/mango-cc-manual/sections/123-gruppy.md"
+    },
+    {
+      "id": "mango-cc-manual-124-vkladka-obrabotka-zvonkov",
+      "section": "18.3",
+      "title": "Вкладка \"Обработка звонков\"",
+      "hint": "Настройки, вкладка \"Обработка звонков\"",
+      "pages": "571",
+      "tokens": 608,
+      "path": "docs/kb/mango-cc-manual/sections/124-vkladka-obrabotka-zvonkov.md"
+    },
+    {
+      "id": "mango-cc-manual-125-sotrudniki",
+      "section": "18.3",
+      "title": "Сотрудники",
+      "hint": "",
+      "pages": "571-574",
+      "tokens": 2381,
+      "path": "docs/kb/mango-cc-manual/sections/125-sotrudniki.md"
+    },
+    {
+      "id": "mango-cc-manual-126-gruppy",
+      "section": "18.3",
+      "title": "Группы",
+      "hint": "",
+      "pages": "574-575",
+      "tokens": 224,
+      "path": "docs/kb/mango-cc-manual/sections/126-gruppy.md"
+    },
+    {
+      "id": "mango-cc-manual-127-vkladka-nastroyka-ats",
+      "section": "18.4",
+      "title": "Вкладка \"Настройка АТС\"",
+      "hint": "Настройки, вкладка \"Настройка АТС\"",
+      "pages": "575-577",
+      "tokens": 1821,
+      "path": "docs/kb/mango-cc-manual/sections/127-vkladka-nastroyka-ats.md"
+    },
+    {
+      "id": "mango-cc-manual-128-konferenc-svyaz",
+      "section": "18.4",
+      "title": "Конференц-связь",
+      "hint": "",
+      "pages": "577",
+      "tokens": 70,
+      "path": "docs/kb/mango-cc-manual/sections/128-konferenc-svyaz.md"
+    },
+    {
+      "id": "mango-cc-manual-129-vkladka-finansy",
+      "section": "18.5",
+      "title": "Вкладка \"Финансы\"",
+      "hint": "Настройки, вкладка \"Финансы\"",
+      "pages": "577-579",
+      "tokens": 937,
+      "path": "docs/kb/mango-cc-manual/sections/129-vkladka-finansy.md"
+    },
+    {
+      "id": "mango-cc-manual-130-vkladka-smena-versii",
+      "section": "18.6",
+      "title": "Вкладка \"Смена версии\"",
+      "hint": "Настройки, вкладка \"Смена версии\"",
+      "pages": "579",
+      "tokens": 278,
+      "path": "docs/kb/mango-cc-manual/sections/130-vkladka-smena-versii.md"
+    },
+    {
+      "id": "mango-cc-manual-131-vkladka-vidzhety",
+      "section": "18.7",
+      "title": "Вкладка \"Виджеты\"",
+      "hint": "Настройки, вкладка \"Виджеты\"",
+      "pages": "579-580",
+      "tokens": 309,
+      "path": "docs/kb/mango-cc-manual/sections/131-vkladka-vidzhety.md"
+    },
+    {
+      "id": "mango-cc-manual-132-prilozhenie-2-roli-i-prava-dostupa-konta",
+      "section": "19",
+      "title": "Приложение 2: Роли и права доступа Контакт-центра",
+      "hint": "В данном приложении приведено сводное описание параметров доступности, разрешений",
+      "pages": "580-595",
+      "tokens": 13310,
+      "path": "docs/kb/mango-cc-manual/sections/132-prilozhenie-2-roli-i-prava-dostupa-konta.md"
+    },
+    {
+      "id": "mango-cc-manual-133-prilozhenie-3-otchety-ob-oshibkah",
+      "section": "20",
+      "title": "Приложение 3: Отчеты об ошибках",
+      "hint": "Вы можете отправлять отчеты о проблемах и ошибках, возникающих при использовании",
+      "pages": "595-597",
+      "tokens": 1419,
+      "path": "docs/kb/mango-cc-manual/sections/133-prilozhenie-3-otchety-ob-oshibkah.md"
+    },
+    {
+      "id": "mango-cc-manual-134-prilozhenie-4-associaciya-so-ssylkami-ca",
+      "section": "21",
+      "title": "Приложение 4: Ассоциация со ссылками «callto» и «tel»",
+      "hint": "Вы можете настроить Контакт-центр MANGO OFFICE для совершения исходящих вызовов",
+      "pages": "597-601",
+      "tokens": 2847,
+      "path": "docs/kb/mango-cc-manual/sections/134-prilozhenie-4-associaciya-so-ssylkami-ca.md"
+    },
+    {
+      "id": "mango-cc-manual-135-prilozhenie-5-blokirovka-kontakt-centra",
+      "section": "22",
+      "title": "Приложение 5: Блокировка Контакт-центра",
+      "hint": "Для того, чтобы основные и дочерние процессы Контакт-центра MANGO OFFICE не",
+      "pages": "601-602",
+      "tokens": 402,
+      "path": "docs/kb/mango-cc-manual/sections/135-prilozhenie-5-blokirovka-kontakt-centra.md"
+    },
+    {
+      "id": "mango-cc-manual-136-prilozhenie-6-dopolnitelnye-vozmozhnosti",
+      "section": "23",
+      "title": "Приложение 6: Дополнительные возможности Контакт-Центра",
+      "hint": "Запрет звонков на персональные контакты других сотрудников",
+      "pages": "602-608",
+      "tokens": 5022,
+      "path": "docs/kb/mango-cc-manual/sections/136-prilozhenie-6-dopolnitelnye-vozmozhnosti.md"
+    },
+    {
+      "id": "mango-cc-manual-137-prilozhenie-7-vzaimodeystvie-kc-so-storo",
+      "section": "24",
+      "title": "Приложение 7. Взаимодействие КЦ со сторонними",
+      "hint": "Punto Switcher",
+      "pages": "608-609",
+      "tokens": 750,
+      "path": "docs/kb/mango-cc-manual/sections/137-prilozhenie-7-vzaimodeystvie-kc-so-storo.md"
+    },
+    {
+      "id": "mango-cc-manual-138-prilozhenie-8-ustranenie-nepoladok",
+      "section": "25",
+      "title": "Приложение 8. Устранение неполадок",
+      "hint": "Помощь в устранении неполадок доступна в окне Меню справочной системы.",
+      "pages": "609-614",
+      "tokens": 1477,
+      "path": "docs/kb/mango-cc-manual/sections/138-prilozhenie-8-ustranenie-nepoladok.md"
+    }
+  ]
+}

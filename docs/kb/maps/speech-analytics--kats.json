@@ -1,0 +1,837 @@
+{
+  "document_id": "speech-analytics--kats",
+  "index": "docs/kb/speech-analytics/kats/index.md",
+  "product_ids": [
+    "analytics-reporting"
+  ],
+  "sections": [
+    {
+      "id": "kats-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "РУКОВОДСТВО",
+      "pages": "1-5",
+      "tokens": 2237,
+      "path": "docs/kb/speech-analytics/kats/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "kats-01-obschie-svedeniya",
+      "section": "1",
+      "title": "Общие сведения",
+      "hint": "Речевая аналитика Mango OFFICE может использоваться не только вместе с виртуальной АТС",
+      "pages": "5-6",
+      "tokens": 727,
+      "path": "docs/kb/speech-analytics/kats/sections/01-obschie-svedeniya.md"
+    },
+    {
+      "id": "kats-02-podklyuchenie-uslugi-rechevaya-analitika",
+      "section": "1.1",
+      "title": "Подключение услуги «Речевая аналитика»",
+      "hint": "аналитика»",
+      "pages": "6-7",
+      "tokens": 425,
+      "path": "docs/kb/speech-analytics/kats/sections/02-podklyuchenie-uslugi-rechevaya-analitika.md"
+    },
+    {
+      "id": "kats-03-menyu-rechevaya-analitika",
+      "section": "1.2",
+      "title": "Меню «Речевая аналитика»",
+      "hint": "Меню Речевой аналитики (тариф «КАТС») MANGO OFFICE размещается вертикально, в левой",
+      "pages": "7-9",
+      "tokens": 1108,
+      "path": "docs/kb/speech-analytics/kats/sections/03-menyu-rechevaya-analitika.md"
+    },
+    {
+      "id": "kats-04-moi-otchety",
+      "section": "2",
+      "title": "Мои отчеты",
+      "hint": "Вкладка Мои отчеты содержит детальную аналитическую информацию о распознанных вызовах",
+      "pages": "9",
+      "tokens": 378,
+      "path": "docs/kb/speech-analytics/kats/sections/04-moi-otchety.md"
+    },
+    {
+      "id": "kats-05-rashody-rechevoy-analitiki",
+      "section": "2.1",
+      "title": "Расходы Речевой аналитики",
+      "hint": "Страница расходов помогает быстро понять, сколько стоит использование сервиса за выбранный",
+      "pages": "9-11",
+      "tokens": 1130,
+      "path": "docs/kb/speech-analytics/kats/sections/05-rashody-rechevoy-analitiki.md"
+    },
+    {
+      "id": "kats-06-analiz-sotrudnikov",
+      "section": "2.2",
+      "title": "Анализ сотрудников",
+      "hint": "Отчет Анализ сотрудников состоит из трех блоков:",
+      "pages": "11",
+      "tokens": 153,
+      "path": "docs/kb/speech-analytics/kats/sections/06-analiz-sotrudnikov.md"
+    },
+    {
+      "id": "kats-07-blok-filtrov",
+      "section": "2.2.1",
+      "title": "Блок фильтров",
+      "hint": "Кнопка Сохранить – сохранение отчета на странице «Мои отчеты» с выбором вида графика на",
+      "pages": "11-13",
+      "tokens": 1322,
+      "path": "docs/kb/speech-analytics/kats/sections/07-blok-filtrov.md"
+    },
+    {
+      "id": "kats-08-blok-vizualizacii-srabatyvaniya-tematik",
+      "section": "2.2.2",
+      "title": "Блок визуализации срабатывания тематик",
+      "hint": "тематик",
+      "pages": "13-15",
+      "tokens": 1631,
+      "path": "docs/kb/speech-analytics/kats/sections/08-blok-vizualizacii-srabatyvaniya-tematik.md"
+    },
+    {
+      "id": "kats-09-blok-tablicy-razgovory-detalizaciya",
+      "section": "2.2.3",
+      "title": "Блок таблицы Разговоры, детализация",
+      "hint": "детализация",
+      "pages": "15-18",
+      "tokens": 2001,
+      "path": "docs/kb/speech-analytics/kats/sections/09-blok-tablicy-razgovory-detalizaciya.md"
+    },
+    {
+      "id": "kats-10-analiz-razgovorov",
+      "section": "2.3",
+      "title": "Анализ разговоров",
+      "hint": "Отчет «Анализ разговоров» состоит из блока фильтров и двух блоков отчетности: Блока таблицы",
+      "pages": "18-22",
+      "tokens": 2296,
+      "path": "docs/kb/speech-analytics/kats/sections/10-analiz-razgovorov.md"
+    },
+    {
+      "id": "kats-11-kak-nastraivaetsya-otchet-analiz-razgovo",
+      "section": "2.3.1",
+      "title": "Как настраивается отчет “Анализ разговоров”",
+      "hint": "разговоров”",
+      "pages": "22-23",
+      "tokens": 949,
+      "path": "docs/kb/speech-analytics/kats/sections/11-kak-nastraivaetsya-otchet-analiz-razgovo.md"
+    },
+    {
+      "id": "kats-12-analiz-po-chek-listam",
+      "section": "2.4",
+      "title": "Анализ по чек-листам",
+      "hint": "Отчет предназначен для автоматической оценки разговора сотрудника с клиентом на",
+      "pages": "23-24",
+      "tokens": 1206,
+      "path": "docs/kb/speech-analytics/kats/sections/12-analiz-po-chek-listam.md"
+    },
+    {
+      "id": "kats-13-konstruktor-chek-listov",
+      "section": "2.4.1",
+      "title": "Конструктор чек-листов",
+      "hint": "Возможно создание не более 20-ти чек-листов.",
+      "pages": "24-30",
+      "tokens": 4359,
+      "path": "docs/kb/speech-analytics/kats/sections/13-konstruktor-chek-listov.md"
+    },
+    {
+      "id": "kats-14-statistika",
+      "section": "2.4.2",
+      "title": "Статистика",
+      "hint": "Вкладка «Таблица»",
+      "pages": "30-33",
+      "tokens": 2244,
+      "path": "docs/kb/speech-analytics/kats/sections/14-statistika.md"
+    },
+    {
+      "id": "kats-15-pravila-podscheta-statistiki",
+      "section": "2.4.3",
+      "title": "Правила подсчета статистики",
+      "hint": "Рассмотрим правила подсчета статистики на примере скриншотов ниже (в числах и процентах):",
+      "pages": "33-38",
+      "tokens": 3771,
+      "path": "docs/kb/speech-analytics/kats/sections/15-pravila-podscheta-statistiki.md"
+    },
+    {
+      "id": "kats-16-lovec-insaytov",
+      "section": "2.5",
+      "title": "Ловец инсайтов",
+      "hint": "Данные отчета позволяют прослеживать – как фраза или тематика разговора повлияла на ход",
+      "pages": "38-39",
+      "tokens": 314,
+      "path": "docs/kb/speech-analytics/kats/sections/16-lovec-insaytov.md"
+    },
+    {
+      "id": "kats-17-blok-parametrov",
+      "section": "2.5.1",
+      "title": "Блок параметров",
+      "hint": "При формировании отчета пользователям доступна фильтрация:",
+      "pages": "39-40",
+      "tokens": 1262,
+      "path": "docs/kb/speech-analytics/kats/sections/17-blok-parametrov.md"
+    },
+    {
+      "id": "kats-18-blok-rezultatov",
+      "section": "2.5.2",
+      "title": "Блок результатов",
+      "hint": "Блок содержит подробную информацию о срабатывание триггера, с отображением причины и",
+      "pages": "40-41",
+      "tokens": 513,
+      "path": "docs/kb/speech-analytics/kats/sections/18-blok-rezultatov.md"
+    },
+    {
+      "id": "kats-19-pokazateli-otchetov",
+      "section": "2.6",
+      "title": "Показатели отчетов",
+      "hint": "Для построения отчетов устанавливаются показатели, по которым будет формироваться отчет.",
+      "pages": "41-43",
+      "tokens": 1507,
+      "path": "docs/kb/speech-analytics/kats/sections/19-pokazateli-otchetov.md"
+    },
+    {
+      "id": "kats-20-tegirovanie-razgovorov",
+      "section": "3",
+      "title": "Тегирование разговоров",
+      "hint": "Тематика – метка на разговор, которая устанавливается в зависимости от правил, заданных",
+      "pages": "43",
+      "tokens": 348,
+      "path": "docs/kb/speech-analytics/kats/sections/20-tegirovanie-razgovorov.md"
+    },
+    {
+      "id": "kats-21-tematiki",
+      "section": "3.1",
+      "title": "Тематики",
+      "hint": "Рабочая область вкладки «Тематики» содержит:",
+      "pages": "43-44",
+      "tokens": 928,
+      "path": "docs/kb/speech-analytics/kats/sections/21-tematiki.md"
+    },
+    {
+      "id": "kats-22-sozdanie-i-redaktirovanie-tematik",
+      "section": "3.2",
+      "title": "Создание и редактирование тематик",
+      "hint": "тематик",
+      "pages": "44-45",
+      "tokens": 616,
+      "path": "docs/kb/speech-analytics/kats/sections/22-sozdanie-i-redaktirovanie-tematik.md"
+    },
+    {
+      "id": "kats-23-klyuchevye-slova",
+      "section": "3.2.1",
+      "title": "Ключевые слова",
+      "hint": "Блок ключевых слов содержит следующие поля:",
+      "pages": "45-47",
+      "tokens": 1070,
+      "path": "docs/kb/speech-analytics/kats/sections/23-klyuchevye-slova.md"
+    },
+    {
+      "id": "kats-24-rasshirennye-nastroyki",
+      "section": "3.2.2",
+      "title": "Расширенные настройки",
+      "hint": "Блок добавления условий содержит следующие поля:",
+      "pages": "47-48",
+      "tokens": 1077,
+      "path": "docs/kb/speech-analytics/kats/sections/24-rasshirennye-nastroyki.md"
+    },
+    {
+      "id": "kats-25-nastroyka-uvedomleniy",
+      "section": "3.2.3",
+      "title": "Настройка уведомлений",
+      "hint": "При добавлении тематики пользователь задает ряд условий.",
+      "pages": "48-49",
+      "tokens": 897,
+      "path": "docs/kb/speech-analytics/kats/sections/25-nastroyka-uvedomleniy.md"
+    },
+    {
+      "id": "kats-26-sovety-po-nastroyke-tematik",
+      "section": "3.3",
+      "title": "Советы по настройке тематик",
+      "hint": "ПРИМЕР: В двух уведомлениях выбраны идентичные сотрудники, e-mail и номера телефона.",
+      "pages": "50-53",
+      "tokens": 1568,
+      "path": "docs/kb/speech-analytics/kats/sections/26-sovety-po-nastroyke-tematik.md"
+    },
+    {
+      "id": "kats-27-primery-ispolzovaniya-tematiki",
+      "section": "3.4",
+      "title": "Примеры использования тематики",
+      "hint": "тематики",
+      "pages": "53",
+      "tokens": 523,
+      "path": "docs/kb/speech-analytics/kats/sections/27-primery-ispolzovaniya-tematiki.md"
+    },
+    {
+      "id": "kats-28-predustanovlennye-tematiki",
+      "section": "3.5",
+      "title": "Предустановленные тематики",
+      "hint": "По умолчанию в Речевой аналитике включены 36 предустановленных тематик:",
+      "pages": "53-55",
+      "tokens": 1553,
+      "path": "docs/kb/speech-analytics/kats/sections/28-predustanovlennye-tematiki.md"
+    },
+    {
+      "id": "kats-29-zayavki-na-uluchshenie-kachestva-raspozn",
+      "section": "3.6",
+      "title": "Заявки на улучшение качества распознавания",
+      "hint": "распознавания",
+      "pages": "55-59",
+      "tokens": 1415,
+      "path": "docs/kb/speech-analytics/kats/sections/29-zayavki-na-uluchshenie-kachestva-raspozn.md"
+    },
+    {
+      "id": "kats-30-ii-tematiki",
+      "section": "3.7",
+      "title": "ИИ Тематики",
+      "hint": "Модуль Речевая аналитика поддерживает семантический анализ разговоров на основе запросов к",
+      "pages": "59-62",
+      "tokens": 1340,
+      "path": "docs/kb/speech-analytics/kats/sections/30-ii-tematiki.md"
+    },
+    {
+      "id": "kats-31-zapis-razgovorov",
+      "section": "4",
+      "title": "Запись разговоров",
+      "hint": "Виртуальная АТС может записывать — вручную или автоматически — нужный разговор",
+      "pages": "62",
+      "tokens": 313,
+      "path": "docs/kb/speech-analytics/kats/sections/31-zapis-razgovorov.md"
+    },
+    {
+      "id": "kats-32-zapisannye-razgovory",
+      "section": "4.1",
+      "title": "Записанные разговоры",
+      "hint": "В этой вкладке можно просмотреть и отсортировать информацию, а также прослушать и скачать",
+      "pages": "62-69",
+      "tokens": 7035,
+      "path": "docs/kb/speech-analytics/kats/sections/32-zapisannye-razgovory.md"
+    },
+    {
+      "id": "kats-33-izbrannoe",
+      "section": "4.2",
+      "title": "Избранное",
+      "hint": "Вкладка “Избранное” содержит список записей разговоров, отмеченных метками.",
+      "pages": "69-70",
+      "tokens": 547,
+      "path": "docs/kb/speech-analytics/kats/sections/33-izbrannoe.md"
+    },
+    {
+      "id": "kats-34-rezhimy-zapisi",
+      "section": "4.3",
+      "title": "Режимы записи",
+      "hint": "Данная вкладка предназначена для создания и настройки правил записи разговоров.",
+      "pages": "70-75",
+      "tokens": 2304,
+      "path": "docs/kb/speech-analytics/kats/sections/34-rezhimy-zapisi.md"
+    },
+    {
+      "id": "kats-35-nastroyki",
+      "section": "4.4",
+      "title": "Настройки",
+      "hint": "В этой вкладке можно управлять параметрами осуществления, хранения и пересылки, а также",
+      "pages": "75-78",
+      "tokens": 3018,
+      "path": "docs/kb/speech-analytics/kats/sections/35-nastroyki.md"
+    },
+    {
+      "id": "kats-36-eksport",
+      "section": "4.5",
+      "title": "Экспорт",
+      "hint": "Вкладка Экспорт предоставляет возможность выгрузки записей разговоров для последующего",
+      "pages": "78-81",
+      "tokens": 1734,
+      "path": "docs/kb/speech-analytics/kats/sections/36-eksport.md"
+    },
+    {
+      "id": "kats-37-kak-rabotaet-poisk-po-raspoznannym-zapis",
+      "section": "5",
+      "title": "Как работает поиск по распознанным записям разговоров",
+      "hint": "распознанным записям",
+      "pages": "81",
+      "tokens": 219,
+      "path": "docs/kb/speech-analytics/kats/sections/37-kak-rabotaet-poisk-po-raspoznannym-zapis.md"
+    },
+    {
+      "id": "kats-38-terminy-i-opredeleniya",
+      "section": "5.1",
+      "title": "Термины и определения",
+      "hint": "Канал - участник разговора, речь которого анализируется.",
+      "pages": "81-83",
+      "tokens": 1897,
+      "path": "docs/kb/speech-analytics/kats/sections/38-terminy-i-opredeleniya.md"
+    },
+    {
+      "id": "kats-39-pravila-obrabotki-poiskovyh-zaprosov",
+      "section": "5.2",
+      "title": "Правила обработки поисковых запросов",
+      "hint": "запросов",
+      "pages": "83-84",
+      "tokens": 860,
+      "path": "docs/kb/speech-analytics/kats/sections/39-pravila-obrabotki-poiskovyh-zaprosov.md"
+    },
+    {
+      "id": "kats-40-obschie-sovety-dlya-sostavleniya-poiskov",
+      "section": "5.3",
+      "title": "Общие советы для составления поисковых запросов",
+      "hint": "поисковых запросов",
+      "pages": "84-86",
+      "tokens": 1012,
+      "path": "docs/kb/speech-analytics/kats/sections/40-obschie-sovety-dlya-sostavleniya-poiskov.md"
+    },
+    {
+      "id": "kats-41-finansy",
+      "section": "6",
+      "title": "Финансы",
+      "hint": "Раздел позволяет узнать о функциях и инструментах для работы с текущим Лицевым счетом:",
+      "pages": "86",
+      "tokens": 404,
+      "path": "docs/kb/speech-analytics/kats/sections/41-finansy.md"
+    },
+    {
+      "id": "kats-42-dokumenty",
+      "section": "6.1",
+      "title": "Документы",
+      "hint": "В рабочей области вкладки «Документы» можно оперативно просматривать, формировать и",
+      "pages": "86",
+      "tokens": 234,
+      "path": "docs/kb/speech-analytics/kats/sections/42-dokumenty.md"
+    },
+    {
+      "id": "kats-43-prosmotret-zagruzit-buhgalterskie-dokume",
+      "section": "6.1.1",
+      "title": "Просмотреть/загрузить бухгалтерские документы",
+      "hint": "бухгалтерские документы",
+      "pages": "86-87",
+      "tokens": 558,
+      "path": "docs/kb/speech-analytics/kats/sections/43-prosmotret-zagruzit-buhgalterskie-dokume.md"
+    },
+    {
+      "id": "kats-44-sformirovat-schet-na-predoplatu-telekomm",
+      "section": "6.1.2",
+      "title": "Сформировать счет на предоплату телекоммуникационных услуг",
+      "hint": "телекоммуникационных услуг",
+      "pages": "87",
+      "tokens": 515,
+      "path": "docs/kb/speech-analytics/kats/sections/44-sformirovat-schet-na-predoplatu-telekomm.md"
+    },
+    {
+      "id": "kats-45-sozdat-akt-sverki-vzaimnyh-raschetov",
+      "section": "6.1.3",
+      "title": "Создать акт сверки взаимных расчетов",
+      "hint": "расчетов",
+      "pages": "87",
+      "tokens": 167,
+      "path": "docs/kb/speech-analytics/kats/sections/45-sozdat-akt-sverki-vzaimnyh-raschetov.md"
+    },
+    {
+      "id": "kats-46-poluchit-detalizaciyu-sovershennyh-razgo",
+      "section": "6.1.4",
+      "title": "Получить детализацию совершенных разговоров",
+      "hint": "разговоров",
+      "pages": "87-88",
+      "tokens": 480,
+      "path": "docs/kb/speech-analytics/kats/sections/46-poluchit-detalizaciyu-sovershennyh-razgo.md"
+    },
+    {
+      "id": "kats-47-dogovory",
+      "section": "6.2",
+      "title": "Договоры",
+      "hint": "В разделе отображается список договор пользователя, с возможностью скачивания документов.",
+      "pages": "88-89",
+      "tokens": 810,
+      "path": "docs/kb/speech-analytics/kats/sections/47-dogovory.md"
+    },
+    {
+      "id": "kats-48-rashody-na-produkt",
+      "section": "6.3",
+      "title": "Расходы на продукт",
+      "hint": "Отчет Расходы на продукт позволяет просмотреть детализацию расходов по выбранному",
+      "pages": "89-93",
+      "tokens": 2030,
+      "path": "docs/kb/speech-analytics/kats/sections/48-rashody-na-produkt.md"
+    },
+    {
+      "id": "kats-49-platezhi",
+      "section": "6.4",
+      "title": "Платежи",
+      "hint": "Список «Период» позволяет установить вариант выбора дат (по умолчанию предлагается период",
+      "pages": "93-94",
+      "tokens": 521,
+      "path": "docs/kb/speech-analytics/kats/sections/49-platezhi.md"
+    },
+    {
+      "id": "kats-50-popolnit-schet",
+      "section": "6.5",
+      "title": "Пополнить счет",
+      "hint": "На вкладке Пополнить счет пополнять счет можно разными способами.",
+      "pages": "94-95",
+      "tokens": 396,
+      "path": "docs/kb/speech-analytics/kats/sections/50-popolnit-schet.md"
+    },
+    {
+      "id": "kats-51-bankovskiy-perevod",
+      "section": "6.5.1",
+      "title": "Банковский перевод",
+      "hint": "",
+      "pages": "95",
+      "tokens": 84,
+      "path": "docs/kb/speech-analytics/kats/sections/51-bankovskiy-perevod.md"
+    },
+    {
+      "id": "kats-52-dlya-yuridicheskih-lic",
+      "section": "6.5.1.1",
+      "title": "Для юридических лиц",
+      "hint": "Для оплаты услуг «Манго Телеком» юридическими лицами с использованием банковских",
+      "pages": "95",
+      "tokens": 296,
+      "path": "docs/kb/speech-analytics/kats/sections/52-dlya-yuridicheskih-lic.md"
+    },
+    {
+      "id": "kats-53-dlya-fizicheskih-lic",
+      "section": "6.5.1.2",
+      "title": "Для физических лиц",
+      "hint": "Перейдите на вкладку «Квитанция для физических лиц».",
+      "pages": "95-96",
+      "tokens": 436,
+      "path": "docs/kb/speech-analytics/kats/sections/53-dlya-fizicheskih-lic.md"
+    },
+    {
+      "id": "kats-54-bankovskie-karty",
+      "section": "6.5.2",
+      "title": "Банковские карты",
+      "hint": "Пополнение счета с помощью банковских карт возможно через системы:",
+      "pages": "96-98",
+      "tokens": 407,
+      "path": "docs/kb/speech-analytics/kats/sections/54-bankovskie-karty.md"
+    },
+    {
+      "id": "kats-55-oplata-cherez-qr-kod",
+      "section": "6.5.3",
+      "title": "Оплата через QR-код",
+      "hint": "Пополнение счета через QR-код производится с помощью сервиса PayMaster, без взимания",
+      "pages": "98",
+      "tokens": 297,
+      "path": "docs/kb/speech-analytics/kats/sections/55-oplata-cherez-qr-kod.md"
+    },
+    {
+      "id": "kats-56-avtoplatezh",
+      "section": "6.6",
+      "title": "Автоплатеж",
+      "hint": "Внимание",
+      "pages": "98-100",
+      "tokens": 1175,
+      "path": "docs/kb/speech-analytics/kats/sections/56-avtoplatezh.md"
+    },
+    {
+      "id": "kats-57-rekvizity",
+      "section": "6.7",
+      "title": "Реквизиты",
+      "hint": "Во вкладке «Реквизиты» можно просматривать и изменять контактные данные, отслеживать",
+      "pages": "100",
+      "tokens": 728,
+      "path": "docs/kb/speech-analytics/kats/sections/57-rekvizity.md"
+    },
+    {
+      "id": "kats-58-uvedomleniya",
+      "section": "6.8",
+      "title": "Уведомления",
+      "hint": "Речевая аналитика & КАТС | v.1.26.18 100",
+      "pages": "100-103",
+      "tokens": 1278,
+      "path": "docs/kb/speech-analytics/kats/sections/58-uvedomleniya.md"
+    },
+    {
+      "id": "kats-59-obschie-nastroyki",
+      "section": "7",
+      "title": "Общие настройки",
+      "hint": "",
+      "pages": "103",
+      "tokens": 74,
+      "path": "docs/kb/speech-analytics/kats/sections/59-obschie-nastroyki.md"
+    },
+    {
+      "id": "kats-60-rechevaya-analitika",
+      "section": "7.1",
+      "title": "Речевая аналитика",
+      "hint": "Вкладка Речевая аналитика содержит следующие блоки:",
+      "pages": "103-104",
+      "tokens": 875,
+      "path": "docs/kb/speech-analytics/kats/sections/60-rechevaya-analitika.md"
+    },
+    {
+      "id": "kats-61-raspoznavanie-razgovorov",
+      "section": "7.1.1",
+      "title": "Распознавание разговоров",
+      "hint": "Блок Настройка распознавания позволяет настроить функции распознавания и пересылки",
+      "pages": "104-105",
+      "tokens": 1245,
+      "path": "docs/kb/speech-analytics/kats/sections/61-raspoznavanie-razgovorov.md"
+    },
+    {
+      "id": "kats-62-ii-konspekty",
+      "section": "7.1.2",
+      "title": "ИИ Конспекты",
+      "hint": "Блок ИИ Конспекты позволяет автоматически формировать краткое содержание телефонных",
+      "pages": "105-108",
+      "tokens": 1628,
+      "path": "docs/kb/speech-analytics/kats/sections/62-ii-konspekty.md"
+    },
+    {
+      "id": "kats-63-ii-tegirovanie",
+      "section": "7.1.3",
+      "title": "ИИ Тегирование",
+      "hint": "Блок ИИ Тегирование предназначен для анализа разговоров сотрудников с использованием",
+      "pages": "108-109",
+      "tokens": 725,
+      "path": "docs/kb/speech-analytics/kats/sections/63-ii-tegirovanie.md"
+    },
+    {
+      "id": "kats-64-ii-pomoschniki",
+      "section": "7.1.4",
+      "title": "ИИ Помощники",
+      "hint": "",
+      "pages": "109",
+      "tokens": 83,
+      "path": "docs/kb/speech-analytics/kats/sections/64-ii-pomoschniki.md"
+    },
+    {
+      "id": "kats-65-chto-eto-takoe-i-zachem-nuzhno",
+      "section": "7.1.4.1",
+      "title": "Что это такое и зачем нужно",
+      "hint": "ИИ Помощники - это инструмент, который позволяет автоматически анализировать разговоры по",
+      "pages": "109",
+      "tokens": 413,
+      "path": "docs/kb/speech-analytics/kats/sections/65-chto-eto-takoe-i-zachem-nuzhno.md"
+    },
+    {
+      "id": "kats-66-kak-sozdat-ii-pomoschnika",
+      "section": "7.1.4.2",
+      "title": "Как создать ИИ Помощника",
+      "hint": "1.",
+      "pages": "109-110",
+      "tokens": 294,
+      "path": "docs/kb/speech-analytics/kats/sections/66-kak-sozdat-ii-pomoschnika.md"
+    },
+    {
+      "id": "kats-67-nastroyka-ii-pomoschnika",
+      "section": "7.1.4.3",
+      "title": "Настройка ИИ Помощника",
+      "hint": "1.",
+      "pages": "110-113",
+      "tokens": 1829,
+      "path": "docs/kb/speech-analytics/kats/sections/67-nastroyka-ii-pomoschnika.md"
+    },
+    {
+      "id": "kats-68-gde-smotret-rezultaty",
+      "section": "7.1.4.4",
+      "title": "Где смотреть результаты",
+      "hint": "Чтобы посмотреть результат анализа:",
+      "pages": "113-116",
+      "tokens": 1809,
+      "path": "docs/kb/speech-analytics/kats/sections/68-gde-smotret-rezultaty.md"
+    },
+    {
+      "id": "kats-69-dopolnitelnye-nastroyki",
+      "section": "7.1.5",
+      "title": "Дополнительные настройки",
+      "hint": "Блок Дополнительные настройки позволяет пользователю управлять расширенными",
+      "pages": "116-117",
+      "tokens": 1064,
+      "path": "docs/kb/speech-analytics/kats/sections/69-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "kats-70-sotrudniki-i-gruppy",
+      "section": "7.2",
+      "title": "Сотрудники и группы",
+      "hint": "Сотрудники, заведенные в Личном кабинете нужны только для сопоставления номера телефона",
+      "pages": "117",
+      "tokens": 220,
+      "path": "docs/kb/speech-analytics/kats/sections/70-sotrudniki-i-gruppy.md"
+    },
+    {
+      "id": "kats-71-vkladka-sotrudniki",
+      "section": "7.2.1",
+      "title": "Вкладка «Сотрудники»",
+      "hint": "На вкладке содержится список сотрудников, добавленных в Личном кабинете РА.",
+      "pages": "117-120",
+      "tokens": 1108,
+      "path": "docs/kb/speech-analytics/kats/sections/71-vkladka-sotrudniki.md"
+    },
+    {
+      "id": "kats-72-vkladka-gruppy",
+      "section": "7.2.2",
+      "title": "Вкладка «Группы»",
+      "hint": "Для создания группы сотрудников, нажмите кнопку «Добавить группу».",
+      "pages": "120-121",
+      "tokens": 632,
+      "path": "docs/kb/speech-analytics/kats/sections/72-vkladka-gruppy.md"
+    },
+    {
+      "id": "kats-73-bezopasnost-i-ogranicheniya",
+      "section": "7.3",
+      "title": "Безопасность и ограничения",
+      "hint": "Раздел «Безопасность и ограничения» содержит следующие вкладки:",
+      "pages": "121-122",
+      "tokens": 416,
+      "path": "docs/kb/speech-analytics/kats/sections/73-bezopasnost-i-ogranicheniya.md"
+    },
+    {
+      "id": "kats-74-vkladka-nastroyki",
+      "section": "7.3.1",
+      "title": "Вкладка «Настройки»",
+      "hint": "Пароль администратора ЛС",
+      "pages": "122-124",
+      "tokens": 1677,
+      "path": "docs/kb/speech-analytics/kats/sections/74-vkladka-nastroyki.md"
+    },
+    {
+      "id": "kats-75-bezopasnost-pro",
+      "section": "7.3.2",
+      "title": "Безопасность PRO",
+      "hint": "Безопасность PRO — это набор расширенных функций для защиты бизнеса.",
+      "pages": "124-126",
+      "tokens": 1547,
+      "path": "docs/kb/speech-analytics/kats/sections/75-bezopasnost-pro.md"
+    },
+    {
+      "id": "kats-76-vkladka-zhurnal-deystviy",
+      "section": "7.3.3",
+      "title": "Вкладка «Журнал действий»",
+      "hint": "Данный отчет отображает информацию о действиях пользователей в Личном кабинете.",
+      "pages": "126-127",
+      "tokens": 544,
+      "path": "docs/kb/speech-analytics/kats/sections/76-vkladka-zhurnal-deystviy.md"
+    },
+    {
+      "id": "kats-77-vkladka-nastroyki-dostupa",
+      "section": "7.3.4",
+      "title": "Вкладка «Настройки доступа»",
+      "hint": "Данный раздел предназначен для создания и редактирования ролей пользователей.",
+      "pages": "127-129",
+      "tokens": 1503,
+      "path": "docs/kb/speech-analytics/kats/sections/77-vkladka-nastroyki-dostupa.md"
+    },
+    {
+      "id": "kats-78-vkladka-ogranicheniya",
+      "section": "7.3.5",
+      "title": "Вкладка «Ограничения»",
+      "hint": "Вкладка Ограничения предназначена для управления параметрами времени жизни",
+      "pages": "129",
+      "tokens": 295,
+      "path": "docs/kb/speech-analytics/kats/sections/78-vkladka-ogranicheniya.md"
+    },
+    {
+      "id": "kats-79-sso-single-sign-on",
+      "section": "7.3.6",
+      "title": "SSO (Single Sign-On)",
+      "hint": "Вкладка SSO предназначена для настройки единого входа (Single Sign-On) в Личный кабинет",
+      "pages": "129-130",
+      "tokens": 742,
+      "path": "docs/kb/speech-analytics/kats/sections/79-sso-single-sign-on.md"
+    },
+    {
+      "id": "kats-80-oblachnoe-hranilische",
+      "section": "7.4",
+      "title": "Облачное хранилище",
+      "hint": "Речевая аналитика & КАТС | v.1.26.18 130",
+      "pages": "130-131",
+      "tokens": 700,
+      "path": "docs/kb/speech-analytics/kats/sections/80-oblachnoe-hranilische.md"
+    },
+    {
+      "id": "kats-81-podklyuchenie-po-ldap",
+      "section": "7.5",
+      "title": "Подключение по LDAP",
+      "hint": "Данный инструмент предназначен для интеграции со сторонними сервисами по протоколу",
+      "pages": "131-132",
+      "tokens": 625,
+      "path": "docs/kb/speech-analytics/kats/sections/81-podklyuchenie-po-ldap.md"
+    },
+    {
+      "id": "kats-82-shag-1-podklyuchenie-k-ldap-serveru",
+      "section": "7.5",
+      "title": "Шаг 1. Подключение к LDAP-серверу",
+      "hint": "На данной вкладке осуществляется настройка подключения.",
+      "pages": "132-133",
+      "tokens": 503,
+      "path": "docs/kb/speech-analytics/kats/sections/82-shag-1-podklyuchenie-k-ldap-serveru.md"
+    },
+    {
+      "id": "kats-83-shag-2-sopostavlenie-atributov",
+      "section": "7.5",
+      "title": "Шаг 2. Сопоставление атрибутов",
+      "hint": "На данном шаге выполняется сопоставление полей карточки сотрудника в Личном кабинете",
+      "pages": "133-135",
+      "tokens": 616,
+      "path": "docs/kb/speech-analytics/kats/sections/83-shag-2-sopostavlenie-atributov.md"
+    },
+    {
+      "id": "kats-84-shag-3-sopostavlenie-sotrudnikov",
+      "section": "7.5",
+      "title": "Шаг 3. Сопоставление сотрудников",
+      "hint": "Данный шаг не является обязательным.",
+      "pages": "135-137",
+      "tokens": 1473,
+      "path": "docs/kb/speech-analytics/kats/sections/84-shag-3-sopostavlenie-sotrudnikov.md"
+    },
+    {
+      "id": "kats-85-shag-4-nastroyka-sinhronizacii",
+      "section": "7.5",
+      "title": "Шаг 4. Настройка синхронизации",
+      "hint": "Настройки данного шага разнесены на две вкладки:",
+      "pages": "137-140",
+      "tokens": 2707,
+      "path": "docs/kb/speech-analytics/kats/sections/85-shag-4-nastroyka-sinhronizacii.md"
+    },
+    {
+      "id": "kats-86-nastroyka-sip",
+      "section": "7.6",
+      "title": "Настройка SIP",
+      "hint": "На вкладке Настройка SIP нажмите на кнопку Добавить SIP Trunk",
+      "pages": "140-141",
+      "tokens": 237,
+      "path": "docs/kb/speech-analytics/kats/sections/86-nastroyka-sip.md"
+    },
+    {
+      "id": "kats-87-vkladka-nastroyka",
+      "section": "7.6.1",
+      "title": "Вкладка Настройка",
+      "hint": "В открывшейся вкладке Настройка заполните поля:",
+      "pages": "141-143",
+      "tokens": 1953,
+      "path": "docs/kb/speech-analytics/kats/sections/87-vkladka-nastroyka.md"
+    },
+    {
+      "id": "kats-88-vkladka-marshrutizaciya",
+      "section": "7.6.2",
+      "title": "Вкладка Маршрутизация",
+      "hint": "На вкладке пользователь настраивает маршрутизацию вызовов для SIP Trunk - то есть определяет, как",
+      "pages": "143-144",
+      "tokens": 653,
+      "path": "docs/kb/speech-analytics/kats/sections/88-vkladka-marshrutizaciya.md"
+    },
+    {
+      "id": "kats-89-aktivaciya-sip-trunk-v-kartochke-sotrudn",
+      "section": "7.6.3",
+      "title": "Активация SIP Trunk в карточке сотрудника",
+      "hint": "сотрудника",
+      "pages": "144",
+      "tokens": 234,
+      "path": "docs/kb/speech-analytics/kats/sections/89-aktivaciya-sip-trunk-v-kartochke-sotrudn.md"
+    },
+    {
+      "id": "kats-90-upravlenie-uslugami",
+      "section": "7.7",
+      "title": "Управление услугами",
+      "hint": "Вкладка Дополнительные услуги служит для агрегации информации обо всех отдельно",
+      "pages": "144-146",
+      "tokens": 541,
+      "path": "docs/kb/speech-analytics/kats/sections/90-upravlenie-uslugami.md"
+    },
+    {
+      "id": "kats-91-roli-i-prava-dostupa",
+      "section": "8",
+      "title": "Роли и права доступа",
+      "hint": "В данном разделе приведено сводное описание параметров доступности, разрешений (прав) и",
+      "pages": "146",
+      "tokens": 619,
+      "path": "docs/kb/speech-analytics/kats/sections/91-roli-i-prava-dostupa.md"
+    }
+  ]
+}

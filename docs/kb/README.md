@@ -4,31 +4,32 @@ version: 0.3
 updated: 2026-08-25
 ai-generated: true
 type: kb-processed-guide
-scope: kb/processed
+scope: docs/kb
 related_artifacts:
-  - "scripts/kb/extract.py"
-  - "kb/USAGE.md"
+  - "docs/kb/build_map.py"
+  - "docs/kb/USAGE.md"
 related_issues:
+  - "https://github.com/G-Ivan-A/mango-ba-ai-runtime/issues/5"
   - "https://github.com/G-Ivan-A/mango_ba_prompts/issues/111"
   - "https://github.com/G-Ivan-A/mango_ba_prompts/issues/117"
   - "https://github.com/G-Ivan-A/mango_ba_prompts/issues/119"
   - "https://github.com/G-Ivan-A/mango_ba_prompts/issues/320"
 ---
 
-# `kb/processed/` — результаты извлечения (для агентов)
+# Локальная база знаний (для агентов)
 
-Сгенерированный, **machine-readable** слой БЗ: вывод
-[`scripts/kb/extract.py`](../../scripts/kb/extract.py). Эти файлы **не правят
-руками** — правят источник в `kb/sources/` и перезапускают извлечение.
+Содержимое разделов извлечено из руководств. Для поиска используйте
+машиночитаемую [навигационную карту](MAP.json): она выбирает документ, затем
+точные разделы через `maps/*.json`. Карты собираются из индексов командой
+`python docs/kb/build_map.py`.
 
-> Как промпт читает этот слой (индекс → выбор раздела → загрузка одного раздела →
-> цитата → сравнение токенов) — c реальными сниппетами в
-> [`kb/USAGE.md`](../USAGE.md).
+> Порядок выбора раздела, цитирования и повторного поиска описан в
+> [`USAGE.md`](USAGE.md).
 
 ## Структура одного документа
 
 ```
-kb/processed/<doc-slug>/
+docs/kb/<doc-slug>/
 ├── index.md            ← карта разделов: раздел → файл → стр. → источник → токены
 ├── meta.json           ← метаданные: источники/части, sha256, счётчики, токены
 ├── sections/
@@ -65,9 +66,10 @@ PDF-раздела, сквозными страницами, PDF-частями 
 multi-part документов `pages` остаётся сквозной пагинацией всего руководства, а
 `source_refs` хранит точный путь к части и локальный диапазон страниц.
 
-Это соответствует pre-RAG-механике стандарта БЗ (ADR-007, правила R1–R4):
-каждый раздел = файл = чанк; `index.md` = retrieval-шаг; адреса `path#anchor`
-станут chunk-id без переписывания, когда появится векторный RAG.
+Каждый раздел = файл = чанк. `MAP.json` выбирает документ, `maps/*.json`
+выбирают раздел, а `index.md` остаётся человекочитаемым указателем и
+источником метаданных для сборки карты. `product_ids` в индексе связывает
+документ с классами из `taxonomy/products.yaml`.
 
 ## Каталоги
 
@@ -93,7 +95,7 @@ multi-part документов `pages` остаётся сквозной паг
 БЗ содержит только извлечения реальных документов. Стенд конвейера
 (`make kb-sample kb-extract`) пишет результат в некоммитируемый `.kb-sample/`.
 
-## Источники
+## Происхождение и ревизия
 
-- Конвейер и оценка качества: [`docs/kb-experiment-report.md`](../../docs/kb-experiment-report.md)
-- Пополнение БЗ: [`kb/sources/README.md`](../sources/README.md)
+- Источник и commit снимка: [`compilation-manifest.yaml`](../../compilation-manifest.yaml)
+- Решения по изображениям: [`IMAGE_AUDIT.md`](IMAGE_AUDIT.md)

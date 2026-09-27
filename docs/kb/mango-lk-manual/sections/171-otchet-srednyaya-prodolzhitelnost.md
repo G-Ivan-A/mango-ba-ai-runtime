@@ -26,8 +26,6 @@ ai-generated: true
 
 ![Изображение, стр. 264](../images/171-otchet-srednyaya-prodolzhitelnost-1.jpeg)
 
-![Изображение, стр. 265](../images/171-otchet-srednyaya-prodolzhitelnost-2.jpeg)
-
 В нижней части окна отображается детальная информация по заданному периоду.
 
 ![Изображение, стр. 265](../images/171-otchet-srednyaya-prodolzhitelnost-3.jpeg)

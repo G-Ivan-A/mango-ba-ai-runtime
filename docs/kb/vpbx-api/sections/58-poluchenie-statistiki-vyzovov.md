@@ -60,13 +60,9 @@ ai-generated: true
 
 Описание формата возвращаемых данных: - данные возвращаются в теле ответа в виде сплошной строки текста в формате CSV-файла; - в качестве разделителя полей — точка с запятой (;); - в качестве разделителя строк — символ перевода строки (\n); - значения полей не могут содержать зарезервированные символы (двойная кавычка, запятая, точка с запятой, новая строка), поэтому экранирование не предполагается. Примеры. Пример события о готовности данных: POST https://app.mango-office.ru/vpbx/result/stat vpbx_api_key = 1234567890qwerty, sign = 1234567890qwerty, json = { "key": "b3Z7pivetIDB+DvIt8hPJReV8v4MYspQQA==", "request_id": "request22230" } Пример запроса подготовленных данных:
 
-![Изображение, стр. 70](../images/58-poluchenie-statistiki-vyzovov-1.png)
-
 | POST https://app.mango-office.ru/vpbx/stats/result<br>vpbx_api_key = 1234567890qwerty,<br>sign = 1234567890qwerty, |
 | --- |
 | json = { "key": "b3ZvIt8hPJReV8v4MYspQQA==" } |
-
-![Изображение, стр. 70](../images/58-poluchenie-statistiki-vyzovov-2.png)
 
 Пример ответа:
 

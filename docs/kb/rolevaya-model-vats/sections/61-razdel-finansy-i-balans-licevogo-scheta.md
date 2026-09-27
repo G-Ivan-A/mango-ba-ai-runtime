@@ -35,8 +35,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 55
 
-![Изображение, стр. 56](../images/61-razdel-finansy-i-balans-licevogo-scheta-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика. Скоринг | v.1.26.15 89
 
-![Изображение, стр. 90](../images/52-vkladka-gruppy-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

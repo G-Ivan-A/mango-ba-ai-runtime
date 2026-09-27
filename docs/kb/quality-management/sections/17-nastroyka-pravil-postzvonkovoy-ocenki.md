@@ -26,8 +26,6 @@ ai-generated: true
 
 ![Изображение, стр. 34](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-1.png)
 
-![Изображение, стр. 35](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-2.png)
-
 Применяются следующие обозначения:
 
 ![Изображение, стр. 35](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-3.png)
@@ -51,8 +49,6 @@ ai-generated: true
 
 ![Изображение, стр. 35](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-6.png)
 
-![Изображение, стр. 36](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-7.png)
-
 Форма настройки правила содержит следующие поля: • Название правила – по умолчанию "Имя правила". Редактируется путем нажатия на
 
 ![Изображение, стр. 36](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-8.png)
@@ -71,8 +67,6 @@ ai-generated: true
 
 • Звуковой файл завершения вызова – звуковой файл, который услышит клиент после оценки работы сотрудника. Загружается пользователем. Допустимый формат файла – mp3. Максимальный размер 20 МБ. Загруженный звуковой файл можно прослушать во встроенном плеере, заменить или удалить.
 
-![Изображение, стр. 37](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-10.png)
-
 • Настройка назначения правил – сотрудник, группа сотрудников или компания Исходящего обзвона, для которых действует данное правило.
 
 ![Изображение, стр. 37](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-11.png)
@@ -90,8 +84,6 @@ ai-generated: true
 ![Изображение, стр. 37](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-13.jpeg)
 
 Аналогичным образом правила оценки назначаются на группы сотрудников и на кампании Исходящего обзвона.
-
-![Изображение, стр. 38](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-14.png)
 
 ![Изображение, стр. 38](../images/17-nastroyka-pravil-postzvonkovoy-ocenki-15.png)
 

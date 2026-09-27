@@ -24,8 +24,6 @@ ai-generated: true
 
 Данный инструмент предназначен для интеграции со сторонними сервисами по протоколу Lightweight Directory Access Protocol (LDAP) с целью синхронизации данных о сотрудниках. Речевая аналитика & КАТС | v.1.26.18 131
 
-![Изображение, стр. 132](../images/81-podklyuchenie-po-ldap-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

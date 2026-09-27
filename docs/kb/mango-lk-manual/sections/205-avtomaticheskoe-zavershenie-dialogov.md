@@ -24,6 +24,4 @@ ai-generated: true
 
 Проставьте период для автоматического завершения диалогов:
 
-![Изображение, стр. 328](../images/205-avtomaticheskoe-zavershenie-dialogov-1.png)
-
 ![Изображение, стр. 328](../images/205-avtomaticheskoe-zavershenie-dialogov-2.jpeg)

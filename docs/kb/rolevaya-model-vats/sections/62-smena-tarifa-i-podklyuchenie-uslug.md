@@ -30,8 +30,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 56
 
-![Изображение, стр. 57](../images/62-smena-tarifa-i-podklyuchenie-uslug-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

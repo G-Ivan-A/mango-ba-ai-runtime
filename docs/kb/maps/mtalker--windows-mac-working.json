@@ -1,0 +1,1296 @@
+{
+  "document_id": "mtalker--windows-mac-working",
+  "index": "docs/kb/mtalker/windows-mac-working/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "windows-mac-working-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Mango Talker для сред",
+      "pages": "1-10",
+      "tokens": 5518,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "windows-mac-working-01-o-mtalker",
+      "section": "1",
+      "title": "О MTalker",
+      "hint": "",
+      "pages": "10",
+      "tokens": 66,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/01-o-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-02-obzor",
+      "section": "1.1",
+      "title": "Обзор",
+      "hint": "Mango Talker (далее по тексту – MTalker), это кроссплатформенный продукт, позволяющий",
+      "pages": "10",
+      "tokens": 232,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/02-obzor.md"
+    },
+    {
+      "id": "windows-mac-working-03-kak-ispolzovat-mtalker",
+      "section": "1.2",
+      "title": "Как использовать MTalker",
+      "hint": "MTalker поддерживает следующие возможности:",
+      "pages": "10-11",
+      "tokens": 664,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/03-kak-ispolzovat-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-04-navigaciya",
+      "section": "1.3",
+      "title": "Навигация",
+      "hint": "Главное окно и доступ к разделам MTalker",
+      "pages": "11-20",
+      "tokens": 8887,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/04-navigaciya.md"
+    },
+    {
+      "id": "windows-mac-working-05-fonovyy-rezhim-raboty-mtalker",
+      "section": "1.4",
+      "title": "Фоновый режим работы MTalker",
+      "hint": "Обзор",
+      "pages": "20-21",
+      "tokens": 1042,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/05-fonovyy-rezhim-raboty-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-06-ne-udaetsya-voyti-v-mtalker-ili-kak-izme",
+      "section": "1.5",
+      "title": "Не удаётся войти в MTalker или как изменить или сбросить пароль",
+      "hint": "Если вы забыли логин или пароль, либо не удается войти в MTalker, то вы можете изменить или",
+      "pages": "21-22",
+      "tokens": 494,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/06-ne-udaetsya-voyti-v-mtalker-ili-kak-izme.md"
+    },
+    {
+      "id": "windows-mac-working-07-sozdat-novyy-parol",
+      "section": "1.6",
+      "title": "Создать новый пароль",
+      "hint": "Чтобы создать новый пароль для входа, в окне входа в Mango Talker необходимо:",
+      "pages": "22",
+      "tokens": 392,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/07-sozdat-novyy-parol.md"
+    },
+    {
+      "id": "windows-mac-working-08-prosmotr-versii-mtalker",
+      "section": "1.7",
+      "title": "Просмотр версии MTalker",
+      "hint": "Для того чтобы посмотреть версию MTalker, в основном окне MTalker следует:",
+      "pages": "22",
+      "tokens": 193,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/08-prosmotr-versii-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-09-vyzov-spravki-o-mtalker",
+      "section": "1.8",
+      "title": "Вызов справки о MTalker",
+      "hint": "Для того чтобы открыть справочную информацию, в основном окне MTalker следует:",
+      "pages": "22-23",
+      "tokens": 221,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/09-vyzov-spravki-o-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-10-nachalo-raboty",
+      "section": "2",
+      "title": "Начало работы",
+      "hint": "",
+      "pages": "23",
+      "tokens": 68,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/10-nachalo-raboty.md"
+    },
+    {
+      "id": "windows-mac-working-11-ustanovka-mtalker-na-pk",
+      "section": "2.1",
+      "title": "Установка MTalker на ПК",
+      "hint": "Установка MTalker на ПК выполняется при помощи программы-инсталлятора стандартным",
+      "pages": "23",
+      "tokens": 382,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/11-ustanovka-mtalker-na-pk.md"
+    },
+    {
+      "id": "windows-mac-working-12-kak-sozdat-akkaunt",
+      "section": "2.2",
+      "title": "Как создать аккаунт",
+      "hint": "Порядок действий",
+      "pages": "23-24",
+      "tokens": 1153,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/12-kak-sozdat-akkaunt.md"
+    },
+    {
+      "id": "windows-mac-working-13-pervyy-zapusk-raboty-mtalker-proverka-na",
+      "section": "2.3",
+      "title": "Первый запуск работы MTalker. Проверка настроек",
+      "hint": "При первом, после установки, запуске работы, а также, если вы давно не входили в MTalker, на",
+      "pages": "24-25",
+      "tokens": 633,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/13-pervyy-zapusk-raboty-mtalker-proverka-na.md"
+    },
+    {
+      "id": "windows-mac-working-14-udalenie-mtalker",
+      "section": "2.4",
+      "title": "Удаление MTalker",
+      "hint": "Удаление MTalker в среде ОС MacOS выполняется стандартным методом удаления программ с",
+      "pages": "25-26",
+      "tokens": 368,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/14-udalenie-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-15-vhod-i-vyhod",
+      "section": "3",
+      "title": "Вход и выход",
+      "hint": "",
+      "pages": "26",
+      "tokens": 68,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/15-vhod-i-vyhod.md"
+    },
+    {
+      "id": "windows-mac-working-16-vhod-po-loginu-i-parolyu",
+      "section": "3.1",
+      "title": "Вход по логину и паролю",
+      "hint": "В качестве логина вы можете указать Ваш e-mail или номер мобильного телефона,",
+      "pages": "26",
+      "tokens": 287,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/16-vhod-po-loginu-i-parolyu.md"
+    },
+    {
+      "id": "windows-mac-working-17-sozdat-novyy-parol",
+      "section": "3.2",
+      "title": "Создать новый пароль",
+      "hint": "Чтобы создать новый пароль для входа, в окне входа в MTalker необходимо:",
+      "pages": "26",
+      "tokens": 365,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/17-sozdat-novyy-parol.md"
+    },
+    {
+      "id": "windows-mac-working-18-vhod-pri-pomoschi-korotkogo-koda-bez-par",
+      "section": "3.3",
+      "title": "Вход при помощи короткого кода (без пароля)",
+      "hint": "Важно.",
+      "pages": "26",
+      "tokens": 371,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/18-vhod-pri-pomoschi-korotkogo-koda-bez-par.md"
+    },
+    {
+      "id": "windows-mac-working-19-vhod-po-dannym-kontakt-centra-mango-offi",
+      "section": "3.4",
+      "title": "Вход по данным Контакт-Центра MANGO OFFICE",
+      "hint": "Кроме логина и пароля, для входа в MTalker вы можете использовать учетную запись Контакт-",
+      "pages": "26-27",
+      "tokens": 232,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/19-vhod-po-dannym-kontakt-centra-mango-offi.md"
+    },
+    {
+      "id": "windows-mac-working-20-vhod-cherez-brauzer",
+      "section": "3.5",
+      "title": "Вход через браузер",
+      "hint": "Вы можете войти в MTalker через браузер с использованием альтернативного способа",
+      "pages": "27-29",
+      "tokens": 645,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/20-vhod-cherez-brauzer.md"
+    },
+    {
+      "id": "windows-mac-working-21-kak-vyyti-iz-akkaunta-iz-mtalker",
+      "section": "3.6",
+      "title": "Как выйти из аккаунта из MTalker",
+      "hint": "В MTalker можно выйти из аккаунта пользователя.",
+      "pages": "29-30",
+      "tokens": 326,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/21-kak-vyyti-iz-akkaunta-iz-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-22-kak-nachat-perepisku-s-odnim-ili-neskolk",
+      "section": "4",
+      "title": "Как начать переписку с одним или несколькими собеседниками",
+      "hint": "",
+      "pages": "30",
+      "tokens": 88,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/22-kak-nachat-perepisku-s-odnim-ili-neskolk.md"
+    },
+    {
+      "id": "windows-mac-working-23-o-chatah-v-mtalker",
+      "section": "4.1",
+      "title": "О чатах в MTalker",
+      "hint": "Под чатом понимается функция MTalker, обеспечивающая обмен текстовыми сообщениями,",
+      "pages": "30-31",
+      "tokens": 1038,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/23-o-chatah-v-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-24-kak-nachat-chat-odin-na-odin",
+      "section": "4.2",
+      "title": "Как начать чат “один-на-один”",
+      "hint": "Для того чтобы создать чат “один-на-один” с тем или иным собеседником, записанным в",
+      "pages": "31",
+      "tokens": 328,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/24-kak-nachat-chat-odin-na-odin.md"
+    },
+    {
+      "id": "windows-mac-working-25-ishodyaschie-soobscheniya",
+      "section": "4.3",
+      "title": "Исходящие сообщения",
+      "hint": "Как отправить сообщение",
+      "pages": "31-33",
+      "tokens": 1386,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/25-ishodyaschie-soobscheniya.md"
+    },
+    {
+      "id": "windows-mac-working-26-kak-otpravit-fayl-ili-sms-ili-faks",
+      "section": "4.4",
+      "title": "Как отправить файл или смс, или факс",
+      "hint": "Отправка файлов и изображений",
+      "pages": "33-34",
+      "tokens": 1501,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/26-kak-otpravit-fayl-ili-sms-ili-faks.md"
+    },
+    {
+      "id": "windows-mac-working-27-golosovoe-soobschenie",
+      "section": "4.5",
+      "title": "Голосовое сообщение",
+      "hint": "Отправка голосового сообщения",
+      "pages": "34-35",
+      "tokens": 972,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/27-golosovoe-soobschenie.md"
+    },
+    {
+      "id": "windows-mac-working-28-vhodyaschie-soobscheniya",
+      "section": "4.6",
+      "title": "Входящие сообщения",
+      "hint": "Оповещения о новых сообщениях",
+      "pages": "35-36",
+      "tokens": 1182,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/28-vhodyaschie-soobscheniya.md"
+    },
+    {
+      "id": "windows-mac-working-29-kak-otkryvat-vhodyaschie-fayly-i-skachiv",
+      "section": "4.7",
+      "title": "Как открывать входящие файлы и скачивать их",
+      "hint": "MTalker поддерживает предварительный просмотр полученных изображений и ссылок.",
+      "pages": "36-37",
+      "tokens": 702,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/29-kak-otkryvat-vhodyaschie-fayly-i-skachiv.md"
+    },
+    {
+      "id": "windows-mac-working-30-reakcii-emodzhi-na-soobschenie",
+      "section": "4.8",
+      "title": "Реакции (эмоджи) на сообщение",
+      "hint": "Вы можете поставить реакцию (смайлик, эмоджи) как на свое так и на чужое сообщение.",
+      "pages": "37",
+      "tokens": 219,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/30-reakcii-emodzhi-na-soobschenie.md"
+    },
+    {
+      "id": "windows-mac-working-31-kak-formatirovat-soobscheniya",
+      "section": "4.9",
+      "title": "Как форматировать сообщения",
+      "hint": "Поиск сообщений",
+      "pages": "37-40",
+      "tokens": 2983,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/31-kak-formatirovat-soobscheniya.md"
+    },
+    {
+      "id": "windows-mac-working-32-poisk-soobscheniy",
+      "section": "4.10",
+      "title": "Поиск сообщений",
+      "hint": "Параметры поиска",
+      "pages": "40-41",
+      "tokens": 1199,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/32-poisk-soobscheniy.md"
+    },
+    {
+      "id": "windows-mac-working-33-kopirovanie-peresylka-i-udalenie-soobsch",
+      "section": "4.11",
+      "title": "Копирование, пересылка и удаление сообщений",
+      "hint": "Текст сообщения можно скопировать в буфер обмена вашего ПК, затем сообщение можно",
+      "pages": "41-42",
+      "tokens": 500,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/33-kopirovanie-peresylka-i-udalenie-soobsch.md"
+    },
+    {
+      "id": "windows-mac-working-34-citirovanie-soobscheniy",
+      "section": "4.12",
+      "title": "Цитирование сообщений",
+      "hint": "В MTalker вы можете пересылать сообщения своему собеседнику в чате.",
+      "pages": "42",
+      "tokens": 286,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/34-citirovanie-soobscheniy.md"
+    },
+    {
+      "id": "windows-mac-working-35-posmotret-kontaktnye-dannye-sobesednika",
+      "section": "4.13",
+      "title": "Посмотреть контактные данные собеседника",
+      "hint": "Вы можете быстро перейти из чата в карточку вашего собеседника.",
+      "pages": "42",
+      "tokens": 284,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/35-posmotret-kontaktnye-dannye-sobesednika.md"
+    },
+    {
+      "id": "windows-mac-working-36-posmotret-istoriyu-soobscheniy",
+      "section": "4.14",
+      "title": "Посмотреть историю сообщений",
+      "hint": "MTalker по умолчанию сохраняет историю сообщений в чате/канале.",
+      "pages": "42-43",
+      "tokens": 444,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/36-posmotret-istoriyu-soobscheniy.md"
+    },
+    {
+      "id": "windows-mac-working-37-ochistit-vashu-istoriyu-soobscheniy",
+      "section": "4.15",
+      "title": "Очистить вашу историю сообщений",
+      "hint": "Чтобы удалить все сообщения из вашей истории сообщений в том или ином чате, в",
+      "pages": "43",
+      "tokens": 282,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/37-ochistit-vashu-istoriyu-soobscheniy.md"
+    },
+    {
+      "id": "windows-mac-working-38-zakreplenie-i-otkreplenie-chata",
+      "section": "4.16",
+      "title": "Закрепление и открепление чата",
+      "hint": "Вы можете закрепить тот или иной чат в верхней строчке списка ваших чатов.",
+      "pages": "43",
+      "tokens": 503,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/38-zakreplenie-i-otkreplenie-chata.md"
+    },
+    {
+      "id": "windows-mac-working-39-rabota-s-tehpodderzhkoy",
+      "section": "4.17",
+      "title": "Работа с техподдержкой",
+      "hint": "Вы можете создавать заявки в техническую поддержку и получать ответы на них в чате.",
+      "pages": "43-48",
+      "tokens": 1040,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/39-rabota-s-tehpodderzhkoy.md"
+    },
+    {
+      "id": "windows-mac-working-40-kak-sozdat-obschiy-chat-ili-kanal-i-upra",
+      "section": "5",
+      "title": "Как создать общий чат или канал и управлять им 4608",
+      "hint": "",
+      "pages": "48",
+      "tokens": 85,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/40-kak-sozdat-obschiy-chat-ili-kanal-i-upra.md"
+    },
+    {
+      "id": "windows-mac-working-41-ob-obschih-chatah-i-kanalah",
+      "section": "5.1",
+      "title": "Об общих чатах и каналах",
+      "hint": "Чат “один-на-один” отличается от общего чата / канала не только количеством участников, но и",
+      "pages": "48-49",
+      "tokens": 910,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/41-ob-obschih-chatah-i-kanalah.md"
+    },
+    {
+      "id": "windows-mac-working-42-kak-sozdat-obschiy-chat-ili-kanal",
+      "section": "5.2",
+      "title": "Как создать общий чат или канал",
+      "hint": "Общий чат",
+      "pages": "49-50",
+      "tokens": 769,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/42-kak-sozdat-obschiy-chat-ili-kanal.md"
+    },
+    {
+      "id": "windows-mac-working-43-publichnye-chaty-i-kanaly",
+      "section": "5.3",
+      "title": "Публичные чаты и каналы",
+      "hint": "В MTalker можно создавать публичные чаты и каналы, которые доступны для поиска",
+      "pages": "50-55",
+      "tokens": 1102,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/43-publichnye-chaty-i-kanaly.md"
+    },
+    {
+      "id": "windows-mac-working-44-dobavit-uchastnika",
+      "section": "5.4",
+      "title": "Добавить участника",
+      "hint": "Вы можете добавить участника в общий чат / канал, если вам предоставлены соответствующие",
+      "pages": "55-56",
+      "tokens": 411,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/44-dobavit-uchastnika.md"
+    },
+    {
+      "id": "windows-mac-working-45-priglasit-po-ssylke-novogo-uchastnika",
+      "section": "5.5",
+      "title": "Пригласить по ссылке нового участника",
+      "hint": "Вы можете создать ссылку на чат и передать ее тому или иному сотруднику.",
+      "pages": "56",
+      "tokens": 467,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/45-priglasit-po-ssylke-novogo-uchastnika.md"
+    },
+    {
+      "id": "windows-mac-working-46-kak-prisoedinitsya-po-ssylke",
+      "section": "5.6",
+      "title": "Как присоединиться по ссылке",
+      "hint": "Если в чате MTalker вы получили ссылку на общий чат или канал и хотите к нему",
+      "pages": "56",
+      "tokens": 168,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/46-kak-prisoedinitsya-po-ssylke.md"
+    },
+    {
+      "id": "windows-mac-working-47-otobrazhenie-spiska-uchastnikov",
+      "section": "5.7",
+      "title": "Отображение списка участников",
+      "hint": "Вы можете посмотреть имена и фамилии участников чата / канала, в котором вы состоите.",
+      "pages": "56-57",
+      "tokens": 365,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/47-otobrazhenie-spiska-uchastnikov.md"
+    },
+    {
+      "id": "windows-mac-working-48-vydacha-snyatie-prav-administratora",
+      "section": "5.8",
+      "title": "Выдача/снятие прав администратора",
+      "hint": "Если вам предоставлены права администратора в общем чате/канале, то вы можете менять права",
+      "pages": "57",
+      "tokens": 727,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/48-vydacha-snyatie-prav-administratora.md"
+    },
+    {
+      "id": "windows-mac-working-49-bystryy-perehod-k-kartochke-kontakta",
+      "section": "5.9",
+      "title": "Быстрый переход к карточке контакта",
+      "hint": "Общие сведения",
+      "pages": "57-58",
+      "tokens": 661,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/49-bystryy-perehod-k-kartochke-kontakta.md"
+    },
+    {
+      "id": "windows-mac-working-50-kak-pereimenovat-chat-kanal",
+      "section": "5.10",
+      "title": "Как переименовать чат / канал",
+      "hint": "Вы можете переименовать чат, который ранее был создан вами и/или тот чат, в котором вам",
+      "pages": "58",
+      "tokens": 399,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/50-kak-pereimenovat-chat-kanal.md"
+    },
+    {
+      "id": "windows-mac-working-51-nastroyka-vidimosti-istorii-chata-dlya-n",
+      "section": "5.11",
+      "title": "Настройка видимости истории чата для новых участников",
+      "hint": "Вы можете настроить видимость истории чата для новых участников.",
+      "pages": "58",
+      "tokens": 430,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/51-nastroyka-vidimosti-istorii-chata-dlya-n.md"
+    },
+    {
+      "id": "windows-mac-working-52-nastroyka-uvedomleniy-vidimosti-istorii",
+      "section": "5.12",
+      "title": "Настройка уведомлений видимости истории чата",
+      "hint": "Вы можете настроить видимость истории чата для новых участников.",
+      "pages": "58-59",
+      "tokens": 471,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/52-nastroyka-uvedomleniy-vidimosti-istorii.md"
+    },
+    {
+      "id": "windows-mac-working-53-udalit-uchastnika",
+      "section": "5.13",
+      "title": "Удалить участника",
+      "hint": "Если вам предоставлены права администратора в общем чате/канале, то вы можете удалить",
+      "pages": "59",
+      "tokens": 387,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/53-udalit-uchastnika.md"
+    },
+    {
+      "id": "windows-mac-working-54-vyhod-iz-obschego-chata",
+      "section": "5.14",
+      "title": "Выход из общего чата",
+      "hint": "Общие сведения",
+      "pages": "59-60",
+      "tokens": 548,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/54-vyhod-iz-obschego-chata.md"
+    },
+    {
+      "id": "windows-mac-working-55-vyhod-iz-kanala",
+      "section": "5.15",
+      "title": "Выход из канала",
+      "hint": "Общие сведения",
+      "pages": "60-61",
+      "tokens": 661,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/55-vyhod-iz-kanala.md"
+    },
+    {
+      "id": "windows-mac-working-56-kak-pozvonit-ili-prinyat-zvonok",
+      "section": "6",
+      "title": "Как позвонить или принять звонок",
+      "hint": "",
+      "pages": "61",
+      "tokens": 77,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/56-kak-pozvonit-ili-prinyat-zvonok.md"
+    },
+    {
+      "id": "windows-mac-working-57-kak-pozvonit",
+      "section": "6.1",
+      "title": "Как позвонить?",
+      "hint": "Номер, сохраненный в контактах",
+      "pages": "61-62",
+      "tokens": 1707,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/57-kak-pozvonit.md"
+    },
+    {
+      "id": "windows-mac-working-58-kak-prinyat-vhodyaschiy-audio-zvonok",
+      "section": "6.2",
+      "title": "Как принять входящий аудио звонок?",
+      "hint": "Если вам поступил звонок в MTalker, установленный на ваш ПК, на экране поверх всех окон",
+      "pages": "62",
+      "tokens": 272,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/58-kak-prinyat-vhodyaschiy-audio-zvonok.md"
+    },
+    {
+      "id": "windows-mac-working-59-zakaz-obratnogo-zvonka",
+      "section": "6.3",
+      "title": "Заказ обратного звонка",
+      "hint": "Вы можете заказать обратный звонков ВАТС.",
+      "pages": "62-63",
+      "tokens": 821,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/59-zakaz-obratnogo-zvonka.md"
+    },
+    {
+      "id": "windows-mac-working-60-kak-dobavit-tretego-uchastnika-v-zvonok",
+      "section": "6.4",
+      "title": "Как добавить третьего участника в звонок",
+      "hint": "Вы можете во время сеанса аудио связи добавить еще одного участника, тем самым начав аудио",
+      "pages": "63-64",
+      "tokens": 494,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/60-kak-dobavit-tretego-uchastnika-v-zvonok.md"
+    },
+    {
+      "id": "windows-mac-working-61-kak-pozvonit-po-vtoroy-linii",
+      "section": "6.5",
+      "title": "Как позвонить по второй линии",
+      "hint": "Вы можете совершить исходящий звонок по второй линии, при этом текущий вызов будет",
+      "pages": "64",
+      "tokens": 507,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/61-kak-pozvonit-po-vtoroy-linii.md"
+    },
+    {
+      "id": "windows-mac-working-62-uderzhanie-vyzova",
+      "section": "6.6",
+      "title": "Удержание вызова",
+      "hint": "Для того чтобы перевести вызов в режим удержания, в окне проведения сеанса связи нажмите",
+      "pages": "64",
+      "tokens": 191,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/62-uderzhanie-vyzova.md"
+    },
+    {
+      "id": "windows-mac-working-63-perevod-vyzova-na-drugogo-sotrudnika",
+      "section": "6.7",
+      "title": "Перевод вызова на другого сотрудника",
+      "hint": "Чтобы перевести звонок на того или иного вашего сотрудника, зарегистрированного в вашей",
+      "pages": "64",
+      "tokens": 306,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/63-perevod-vyzova-na-drugogo-sotrudnika.md"
+    },
+    {
+      "id": "windows-mac-working-64-kak-otpravit-soobschenie-v-chat-sms-ili",
+      "section": "6.8",
+      "title": "Как отправить сообщение в чат, смс или факс участнику звонка",
+      "hint": "Вы можете создать чат “Один-на-один” с вызываемым абонентом, ранее зарегистрированным в",
+      "pages": "64-65",
+      "tokens": 1096,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/64-kak-otpravit-soobschenie-v-chat-sms-ili.md"
+    },
+    {
+      "id": "windows-mac-working-65-regulirovka-gromkosti-dinamikov-i-mikrof",
+      "section": "6.9",
+      "title": "Регулировка громкости динамиков и микрофона во время звонка",
+      "hint": "Вы можете настроить громкость динамиков и микрофона прямо во время сеанса связи, в том",
+      "pages": "65-66",
+      "tokens": 445,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/65-regulirovka-gromkosti-dinamikov-i-mikrof.md"
+    },
+    {
+      "id": "windows-mac-working-66-kak-vyklyuchit-mikrofon",
+      "section": "6.10",
+      "title": "Как выключить микрофон",
+      "hint": "Для того чтобы отключить микрофон во время разговора, в окне проведения сеанса связи",
+      "pages": "66",
+      "tokens": 184,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/66-kak-vyklyuchit-mikrofon.md"
+    },
+    {
+      "id": "windows-mac-working-67-zapis-razgovora-obschie-svedeniya",
+      "section": "6.11",
+      "title": "Запись разговора. Общие сведения",
+      "hint": "По умолчанию, функция записи разговора включена.",
+      "pages": "66",
+      "tokens": 334,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/67-zapis-razgovora-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-working-68-soobschenie-vnimanie-zvonok-byl-otpravle",
+      "section": "6.12",
+      "title": "Сообщение “Внимание! Звонок был отправлен на номер…”",
+      "hint": "Сообщение “Внимание!",
+      "pages": "66",
+      "tokens": 153,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/68-soobschenie-vnimanie-zvonok-byl-otpravle.md"
+    },
+    {
+      "id": "windows-mac-working-69-zavershenie-vyzova",
+      "section": "6.13",
+      "title": "Завершение вызова",
+      "hint": "Для того чтобы завершить вызов, в окне проведения сеанса связи нажмите кнопку .",
+      "pages": "66-67",
+      "tokens": 284,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/69-zavershenie-vyzova.md"
+    },
+    {
+      "id": "windows-mac-working-70-vo-vremya-zvonka-obschee-opisanie-okna-p",
+      "section": "6.14",
+      "title": "Во время звонка. Общее описание окна проведения сеанса связи",
+      "hint": "Во время аудио звонка, в окне проведения сеанса связи отображаются следующие инструменты,",
+      "pages": "67-69",
+      "tokens": 1288,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/70-vo-vremya-zvonka-obschee-opisanie-okna-p.md"
+    },
+    {
+      "id": "windows-mac-working-71-kak-sdelat-videokonferenciyu",
+      "section": "7",
+      "title": "Как сделать видеоконференцию",
+      "hint": "",
+      "pages": "69",
+      "tokens": 77,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/71-kak-sdelat-videokonferenciyu.md"
+    },
+    {
+      "id": "windows-mac-working-72-o-videokonferenciya-v-mtalker",
+      "section": "7.1",
+      "title": "О видеоконференция в MTalker",
+      "hint": "Создать новую видеоконференцию в MTalker могут только сотрудники, авторизованные в своем",
+      "pages": "69-70",
+      "tokens": 839,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/72-o-videokonferenciya-v-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-73-onbording-videokonferenciy",
+      "section": "7.2",
+      "title": "Онбординг видеоконференций",
+      "hint": "Приветственный экран",
+      "pages": "70-71",
+      "tokens": 429,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/73-onbording-videokonferenciy.md"
+    },
+    {
+      "id": "windows-mac-working-74-rasshifrovka-i-konspektirovanie-zapisey",
+      "section": "7.3",
+      "title": "Расшифровка и конспектирование записей встреч",
+      "hint": "Общие сведения",
+      "pages": "71-74",
+      "tokens": 1281,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/74-rasshifrovka-i-konspektirovanie-zapisey.md"
+    },
+    {
+      "id": "windows-mac-working-75-o-roli-administratora-videokonferencii",
+      "section": "7.4",
+      "title": "О роли администратора видеоконференции",
+      "hint": "Сотрудник, создавший видеоконференцию в MTalker, автоматически становится ее",
+      "pages": "74-75",
+      "tokens": 227,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/75-o-roli-administratora-videokonferencii.md"
+    },
+    {
+      "id": "windows-mac-working-76-kak-posmotret-sostav-uchastnikov-videoko",
+      "section": "7.5",
+      "title": "Как посмотреть состав участников видеоконференции",
+      "hint": "Чтобы посмотреть состав участников видеоконференции, а также , кто является",
+      "pages": "75",
+      "tokens": 339,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/76-kak-posmotret-sostav-uchastnikov-videoko.md"
+    },
+    {
+      "id": "windows-mac-working-77-kak-pozvonit-s-video-abonentu-ili-v-grup",
+      "section": "7.6",
+      "title": "Как позвонить с видео абоненту или в групповой чат",
+      "hint": "Вы можете позвонить с видео сотруднику или в групповой чат из MTalker.",
+      "pages": "75-76",
+      "tokens": 922,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/77-kak-pozvonit-s-video-abonentu-ili-v-grup.md"
+    },
+    {
+      "id": "windows-mac-working-78-kak-prinyat-vhodyaschiy-video-zvonok",
+      "section": "7.7",
+      "title": "Как принять входящий видео звонок",
+      "hint": "Если вам позвонят по видеосвязи, то экране будет отображено всплывающее окно “Входящий",
+      "pages": "76-77",
+      "tokens": 476,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/78-kak-prinyat-vhodyaschiy-video-zvonok.md"
+    },
+    {
+      "id": "windows-mac-working-79-kak-dobavit-ili-udalit-sotrudnikov-i-gos",
+      "section": "7.8",
+      "title": "Как добавить или удалить сотрудников и гостей видеоконференции",
+      "hint": "Как добавить участников в видеоконференцию",
+      "pages": "77-79",
+      "tokens": 1370,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/79-kak-dobavit-ili-udalit-sotrudnikov-i-gos.md"
+    },
+    {
+      "id": "windows-mac-working-80-kak-prisoedinitsya-po-ssylke-k-videokonf",
+      "section": "7.9",
+      "title": "Как присоединиться по ссылке к видеоконференции",
+      "hint": "Важная информация",
+      "pages": "79-81",
+      "tokens": 759,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/80-kak-prisoedinitsya-po-ssylke-k-videokonf.md"
+    },
+    {
+      "id": "windows-mac-working-81-kak-sozdat-videokonferenciyu-i-priglasit",
+      "section": "7.10",
+      "title": "Как создать видеоконференцию и пригласить участников",
+      "hint": "Иногда видеоконференцию нужно создать заранее, а затем уже приглашать в нее нужных вам",
+      "pages": "81-82",
+      "tokens": 853,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/81-kak-sozdat-videokonferenciyu-i-priglasit.md"
+    },
+    {
+      "id": "windows-mac-working-82-kak-vyyti-iz-videokonferencii",
+      "section": "7.11",
+      "title": "Как выйти из видеоконференции",
+      "hint": "Для того, чтобы выйти из видеоконференции, в окне проведения видеозвонка нажмите кнопку",
+      "pages": "82",
+      "tokens": 251,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/82-kak-vyyti-iz-videokonferencii.md"
+    },
+    {
+      "id": "windows-mac-working-83-kak-nastroit-sobstvennye-kameru-i-mikrof",
+      "section": "7.12",
+      "title": "Как настроить собственные камеру и микрофон",
+      "hint": "Как включить или выключить",
+      "pages": "82-83",
+      "tokens": 1055,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/83-kak-nastroit-sobstvennye-kameru-i-mikrof.md"
+    },
+    {
+      "id": "windows-mac-working-84-vklyuchenie-demonstracii-ekrana",
+      "section": "7.13",
+      "title": "Включение демонстрации экрана",
+      "hint": "Как включить или выключить",
+      "pages": "83",
+      "tokens": 659,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/84-vklyuchenie-demonstracii-ekrana.md"
+    },
+    {
+      "id": "windows-mac-working-85-kak-izmenit-fonovye-effekty",
+      "section": "7.14",
+      "title": "Как изменить фоновые эффекты",
+      "hint": "Вы можете во время видеоконференции использовать фоновые эффекты, такие как размытие",
+      "pages": "83-84",
+      "tokens": 509,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/85-kak-izmenit-fonovye-effekty.md"
+    },
+    {
+      "id": "windows-mac-working-86-podnyat-ruku",
+      "section": "7.15",
+      "title": "Поднять руку",
+      "hint": "Во время видеоконференции вы можете подать сигнал участникам о том, что хотите выступить",
+      "pages": "84",
+      "tokens": 401,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/86-podnyat-ruku.md"
+    },
+    {
+      "id": "windows-mac-working-87-izmenit-raskladku-otobrazheniya-okon-uch",
+      "section": "7.16",
+      "title": "Изменить раскладку отображения окон участников",
+      "hint": "Вы можете выбрать сетку отображения видео всех участников.",
+      "pages": "84",
+      "tokens": 207,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/87-izmenit-raskladku-otobrazheniya-okon-uch.md"
+    },
+    {
+      "id": "windows-mac-working-88-ogranicheniya-videokonferencii",
+      "section": "7.17",
+      "title": "Ограничения видеоконференции",
+      "hint": "Если количество участников видеоконференции превышает лимит, установленный тарифом,",
+      "pages": "84-85",
+      "tokens": 274,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/88-ogranicheniya-videokonferencii.md"
+    },
+    {
+      "id": "windows-mac-working-89-chat-vo-vremya-videokonferencii",
+      "section": "7.18",
+      "title": "Чат во время видеоконференции",
+      "hint": "Во время проведения видеоконференции в MTalker доступен встроенный чат, который",
+      "pages": "85-87",
+      "tokens": 485,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/89-chat-vo-vremya-videokonferencii.md"
+    },
+    {
+      "id": "windows-mac-working-90-konferencii-komnaty",
+      "section": "8",
+      "title": "Конференции (комнаты)",
+      "hint": "",
+      "pages": "87",
+      "tokens": 75,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/90-konferencii-komnaty.md"
+    },
+    {
+      "id": "windows-mac-working-91-obschee",
+      "section": "8.1",
+      "title": "Общее",
+      "hint": "Контакты ваших сотрудников, объединенные в группы – это комнаты.",
+      "pages": "87",
+      "tokens": 405,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/91-obschee.md"
+    },
+    {
+      "id": "windows-mac-working-92-rabota-s-komnatami",
+      "section": "8.2",
+      "title": "Работа с комнатами",
+      "hint": "Как посмотреть информацию о комнате",
+      "pages": "87-88",
+      "tokens": 1375,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/92-rabota-s-komnatami.md"
+    },
+    {
+      "id": "windows-mac-working-93-kak-nachat-audio-konferenciyu",
+      "section": "8.3",
+      "title": "Как начать аудио конференцию",
+      "hint": "Для этого, в основном окне MTalker в разделе “Конференции” следует:",
+      "pages": "88-89",
+      "tokens": 323,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/93-kak-nachat-audio-konferenciyu.md"
+    },
+    {
+      "id": "windows-mac-working-94-rabota-s-videokonferenciey-vks",
+      "section": "8.4",
+      "title": "Работа с видеоконференцией (ВКС)",
+      "hint": "Общее",
+      "pages": "89-96",
+      "tokens": 4230,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/94-rabota-s-videokonferenciey-vks.md"
+    },
+    {
+      "id": "windows-mac-working-95-kontakty",
+      "section": "9",
+      "title": "Контакты",
+      "hint": "",
+      "pages": "96",
+      "tokens": 67,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/95-kontakty.md"
+    },
+    {
+      "id": "windows-mac-working-96-obschie-svedeniya",
+      "section": "9.1",
+      "title": "Общие сведения",
+      "hint": "Все контакты в телефонной книге поделены на несколько групп, см.",
+      "pages": "96",
+      "tokens": 564,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/96-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-working-97-poisk-kontaktov-po-proizvolnomu-parametr",
+      "section": "9.2",
+      "title": "Поиск контактов по произвольному параметру",
+      "hint": "Для того чтобы выполнить поиск контакта, в основном окне MTalker следует:",
+      "pages": "96",
+      "tokens": 431,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/97-poisk-kontaktov-po-proizvolnomu-parametr.md"
+    },
+    {
+      "id": "windows-mac-working-98-gruppy-kontaktov-filtry",
+      "section": "9.3",
+      "title": "Группы контактов. Фильтры",
+      "hint": "В MTalker в разделе “Контакты” отображаются контакты:",
+      "pages": "96-97",
+      "tokens": 677,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/98-gruppy-kontaktov-filtry.md"
+    },
+    {
+      "id": "windows-mac-working-99-kak-posmotret-dannye-kontakta-i-istoriyu",
+      "section": "9.4",
+      "title": "Как посмотреть данные контакта и историю вызовов",
+      "hint": "Для этого, в MTalker в разделе “Контакты” следует найдите строку с данными нужного вам",
+      "pages": "97",
+      "tokens": 478,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/99-kak-posmotret-dannye-kontakta-i-istoriyu.md"
+    },
+    {
+      "id": "windows-mac-working-100-lichnye-kontakty",
+      "section": "9.5",
+      "title": "Личные контакты",
+      "hint": "Добавление нового контакта",
+      "pages": "97-98",
+      "tokens": 1032,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/100-lichnye-kontakty.md"
+    },
+    {
+      "id": "windows-mac-working-101-spisok-izbrannoe",
+      "section": "9.6",
+      "title": "Список “Избранное”",
+      "hint": "Добавление в группу “Избранные”",
+      "pages": "98-100",
+      "tokens": 788,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/101-spisok-izbrannoe.md"
+    },
+    {
+      "id": "windows-mac-working-102-istoriya-vyzovov",
+      "section": "10",
+      "title": "История вызовов",
+      "hint": "",
+      "pages": "100",
+      "tokens": 70,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/102-istoriya-vyzovov.md"
+    },
+    {
+      "id": "windows-mac-working-103-obschie-svedeniya",
+      "section": "10.1",
+      "title": "Общие сведения",
+      "hint": "Функция MTalker “История вызовов” позволяет оперативно получать информацию о том, кто и",
+      "pages": "100",
+      "tokens": 584,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/103-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-working-104-poisk-zapisi-v-istorii-vyzovov",
+      "section": "10.2",
+      "title": "Поиск записи в истории вызовов",
+      "hint": "Общие сведения",
+      "pages": "100-101",
+      "tokens": 886,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/104-poisk-zapisi-v-istorii-vyzovov.md"
+    },
+    {
+      "id": "windows-mac-working-105-vyvod-na-ekran-zapisi-o-zvonke",
+      "section": "10.3",
+      "title": "Вывод на экран записи о звонке",
+      "hint": "Для того чтобы вывести на экран содержимое той или иной записи о звонке, в разделе ”История",
+      "pages": "101",
+      "tokens": 595,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/105-vyvod-na-ekran-zapisi-o-zvonke.md"
+    },
+    {
+      "id": "windows-mac-working-106-obratnaya-svyaz-kak-svyazatsya-s-abonent",
+      "section": "10.4",
+      "title": "Обратная связь. Как связаться с абонентом, указанным в истории вызовов",
+      "hint": "Общие сведения",
+      "pages": "101-103",
+      "tokens": 2065,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/106-obratnaya-svyaz-kak-svyazatsya-s-abonent.md"
+    },
+    {
+      "id": "windows-mac-working-107-sozdat-kontakt",
+      "section": "10.5",
+      "title": "Создать контакт",
+      "hint": "Вы можете сохранить в телефонной книге тот или иной номер, указанный в истории вызовов.",
+      "pages": "103-104",
+      "tokens": 434,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/107-sozdat-kontakt.md"
+    },
+    {
+      "id": "windows-mac-working-108-zapis-razgovora",
+      "section": "10.6",
+      "title": "Запись разговора",
+      "hint": "Общие сведения",
+      "pages": "104",
+      "tokens": 662,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/108-zapis-razgovora.md"
+    },
+    {
+      "id": "windows-mac-working-109-udalenie-zapisi-iz-istorii-vyzovov",
+      "section": "10.7",
+      "title": "Удаление записи из истории вызовов",
+      "hint": "Для того чтобы удалить ту или иную запись о вызове, в разделе”История вызовов” следует:",
+      "pages": "104-105",
+      "tokens": 262,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/109-udalenie-zapisi-iz-istorii-vyzovov.md"
+    },
+    {
+      "id": "windows-mac-working-110-avtosekretar",
+      "section": "11",
+      "title": "Автосекретарь",
+      "hint": "",
+      "pages": "105",
+      "tokens": 72,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/110-avtosekretar.md"
+    },
+    {
+      "id": "windows-mac-working-111-obschee",
+      "section": "11.1",
+      "title": "Общее",
+      "hint": "При помощи этой функции вы можете обрабатывать звонки от Клиентов даже, если не имеете",
+      "pages": "105",
+      "tokens": 136,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/111-obschee.md"
+    },
+    {
+      "id": "windows-mac-working-112-kak-nastroit-pravilo",
+      "section": "11.2",
+      "title": "Как настроить правило",
+      "hint": "В основном окне MTalker следует:",
+      "pages": "105-107",
+      "tokens": 979,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/112-kak-nastroit-pravilo.md"
+    },
+    {
+      "id": "windows-mac-working-113-sms-rassylka",
+      "section": "12",
+      "title": "СМС-рассылка",
+      "hint": "",
+      "pages": "107",
+      "tokens": 72,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/113-sms-rassylka.md"
+    },
+    {
+      "id": "windows-mac-working-114-kak-sozdat-rassylku",
+      "section": "12.1",
+      "title": "Как создать рассылку",
+      "hint": "В основном окне MTalker, следует:",
+      "pages": "107",
+      "tokens": 405,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/114-kak-sozdat-rassylku.md"
+    },
+    {
+      "id": "windows-mac-working-115-kak-redaktirovat-ili-udalit-rassylku",
+      "section": "12.2",
+      "title": "Как редактировать или удалить рассылку",
+      "hint": "В основном окне , следует:",
+      "pages": "107-108",
+      "tokens": 583,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/115-kak-redaktirovat-ili-udalit-rassylku.md"
+    },
+    {
+      "id": "windows-mac-working-116-razdel-obrascheniya-obschie-svedeniya",
+      "section": "13",
+      "title": "Раздел “Обращения”. Общие сведения",
+      "hint": "",
+      "pages": "108",
+      "tokens": 77,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/116-razdel-obrascheniya-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-working-117-obschie-svedeniya",
+      "section": "13.1",
+      "title": "Общие сведения",
+      "hint": "Данный раздел доступен, если в вашей ВАТС подключена услуга Манго Диалоги",
+      "pages": "108-109",
+      "tokens": 373,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/117-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-working-118-obrascheniya-v-mango-dialogi",
+      "section": "13.2",
+      "title": "Обращения в Манго Диалоги",
+      "hint": "Раздел предназначен для работы с обращениями в сервисе Манго Диалоги.",
+      "pages": "109",
+      "tokens": 225,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/118-obrascheniya-v-mango-dialogi.md"
+    },
+    {
+      "id": "windows-mac-working-119-obrascheniya-v-tehnicheskuyu-podderzhku",
+      "section": "13.3",
+      "title": "Обращения в техническую поддержку",
+      "hint": "13.3.1 Переход в раздел",
+      "pages": "109-110",
+      "tokens": 259,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/119-obrascheniya-v-tehnicheskuyu-podderzhku.md"
+    },
+    {
+      "id": "windows-mac-working-120-upravlenie-svoim-profilem-polzovatelya",
+      "section": "14",
+      "title": "Управление своим профилем пользователя",
+      "hint": "",
+      "pages": "110",
+      "tokens": 74,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/120-upravlenie-svoim-profilem-polzovatelya.md"
+    },
+    {
+      "id": "windows-mac-working-121-kak-izmenit-status-ili-otklyuchit-pokaz",
+      "section": "14.1",
+      "title": "Как изменить статус или отключить показ уведомлений из всех чатов и",
+      "hint": "каналов",
+      "pages": "110-111",
+      "tokens": 1306,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/121-kak-izmenit-status-ili-otklyuchit-pokaz.md"
+    },
+    {
+      "id": "windows-mac-working-122-kak-smenit-ili-udalit-avatar",
+      "section": "14.2",
+      "title": "Как сменить или удалить аватар",
+      "hint": "В вашем профиле аватар формируется автоматически в виде первых букв вашего имени и",
+      "pages": "111-112",
+      "tokens": 815,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/122-kak-smenit-ili-udalit-avatar.md"
+    },
+    {
+      "id": "windows-mac-working-123-kak-otklyuchit-funkciyu-zapomnit-menya",
+      "section": "14.3",
+      "title": "Как отключить функцию “Запомнить меня”?",
+      "hint": "Функция “Запомнить меня” обеспечивает автоматическую авторизацию пользователя при",
+      "pages": "112-113",
+      "tokens": 307,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/123-kak-otklyuchit-funkciyu-zapomnit-menya.md"
+    },
+    {
+      "id": "windows-mac-working-124-avtomaticheskiy-nabor-nomera-avtodozvon",
+      "section": "15",
+      "title": "Автоматический набор номера. Автодозвон",
+      "hint": "",
+      "pages": "113",
+      "tokens": 82,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/124-avtomaticheskiy-nabor-nomera-avtodozvon.md"
+    },
+    {
+      "id": "windows-mac-working-125-obschie-svedeniya",
+      "section": "15.1",
+      "title": "Общие сведения",
+      "hint": "В MTalker есть функция автоматического набора номера “Автодозвон”.",
+      "pages": "113",
+      "tokens": 184,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/125-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-working-126-vklyuchenie",
+      "section": "15.2",
+      "title": "Включение",
+      "hint": "Для того чтобы включить автодозвон, в основном окне MTalker следует:",
+      "pages": "113-114",
+      "tokens": 303,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/126-vklyuchenie.md"
+    },
+    {
+      "id": "windows-mac-working-127-nastroyki-mtalker",
+      "section": "16",
+      "title": "Настройки MTalker",
+      "hint": "",
+      "pages": "114",
+      "tokens": 69,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/127-nastroyki-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-128-kak-otkryt-obobschenno",
+      "section": "16.1",
+      "title": "Как открыть. Обобщенно",
+      "hint": "Вы можете установить те или иные настройки MTalker, для этого в основном окне программы",
+      "pages": "114",
+      "tokens": 246,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/128-kak-otkryt-obobschenno.md"
+    },
+    {
+      "id": "windows-mac-working-129-upravlenie-mtalker",
+      "section": "16.2",
+      "title": "Управление MTalker",
+      "hint": "Автоматический запуск работы",
+      "pages": "114-115",
+      "tokens": 1318,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/129-upravlenie-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-130-kak-vklyuchit-avtomaticheskiy-perehod-v",
+      "section": "16.3",
+      "title": "Как включить автоматический переход в фоновый режим при автозапуске",
+      "hint": "Для того чтобы включить переход MTalker в фоновый режим при автозапуске, следует:",
+      "pages": "115-116",
+      "tokens": 332,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/130-kak-vklyuchit-avtomaticheskiy-perehod-v.md"
+    },
+    {
+      "id": "windows-mac-working-131-fayly-i-zagruzki",
+      "section": "16.4",
+      "title": "Файлы и загрузки",
+      "hint": "Общие сведения",
+      "pages": "116-117",
+      "tokens": 1085,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/131-fayly-i-zagruzki.md"
+    },
+    {
+      "id": "windows-mac-working-132-kak-obnovit-mtalker",
+      "section": "16.5",
+      "title": "Как обновить MTalker",
+      "hint": "В MTalker регулярно автоматически выполняется проверка выхода обновления.",
+      "pages": "117",
+      "tokens": 354,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/132-kak-obnovit-mtalker.md"
+    },
+    {
+      "id": "windows-mac-working-133-personalizaciya",
+      "section": "16.6",
+      "title": "Персонализация",
+      "hint": "Внешний вид",
+      "pages": "117-122",
+      "tokens": 4262,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/133-personalizaciya.md"
+    },
+    {
+      "id": "windows-mac-working-134-video",
+      "section": "16.7",
+      "title": "Видео",
+      "hint": "Открывать видео звонки во внешнем браузере",
+      "pages": "122",
+      "tokens": 430,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/134-video.md"
+    },
+    {
+      "id": "windows-mac-working-135-zvuk",
+      "section": "16.8",
+      "title": "Звук",
+      "hint": "Изменение параметров звуковых устройства",
+      "pages": "122-124",
+      "tokens": 1589,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/135-zvuk.md"
+    },
+    {
+      "id": "windows-mac-working-136-ispolzovat-vneshniy-telefon",
+      "section": "16.9",
+      "title": "Использовать внешний телефон",
+      "hint": "Общие сведения",
+      "pages": "124",
+      "tokens": 573,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/136-ispolzovat-vneshniy-telefon.md"
+    },
+    {
+      "id": "windows-mac-working-137-tehnicheskie-nastroyki",
+      "section": "16.10",
+      "title": "Технические настройки",
+      "hint": "Подключение к сети",
+      "pages": "124-125",
+      "tokens": 1124,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/137-tehnicheskie-nastroyki.md"
+    },
+    {
+      "id": "windows-mac-working-138-kodeki",
+      "section": "16.11",
+      "title": "Кодеки",
+      "hint": "Перечень поддерживаемых кодеков",
+      "pages": "125-126",
+      "tokens": 1025,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/138-kodeki.md"
+    },
+    {
+      "id": "windows-mac-working-139-sessii-polzovatelya",
+      "section": "16.12",
+      "title": "Сессии пользователя",
+      "hint": "Как узнать, на каких устройствах открыты сессии пользователей",
+      "pages": "126-127",
+      "tokens": 508,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/139-sessii-polzovatelya.md"
+    },
+    {
+      "id": "windows-mac-working-140-kak-posmotret-svoy-nomer-sip-id-akkaunt",
+      "section": "16.13",
+      "title": "Как посмотреть свой номер SIP-ID аккаунт",
+      "hint": "Для того чтобы посмотреть свой номер, либо SIP-ID, в основном окне MTalker следует:",
+      "pages": "127",
+      "tokens": 295,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/140-kak-posmotret-svoy-nomer-sip-id-akkaunt.md"
+    },
+    {
+      "id": "windows-mac-working-141-kak-posmotret-svoy-ishodyaschiy-nomer",
+      "section": "16.14",
+      "title": "Как посмотреть свой исходящий номер",
+      "hint": "Вы можете узнать свой исходящий номер, то есть номер, с которого вы совершаете внешние",
+      "pages": "127-128",
+      "tokens": 316,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/141-kak-posmotret-svoy-ishodyaschiy-nomer.md"
+    },
+    {
+      "id": "windows-mac-working-142-kak-posmotret-nastroyku-raspredeleniya-z",
+      "section": "16.15",
+      "title": "Как посмотреть настройку распределения звонков на ваш аккаунт",
+      "hint": "Вы можете посмотреть на какие ваши номера телефонов могут поступать входящие звонки, а",
+      "pages": "128",
+      "tokens": 715,
+      "path": "docs/kb/mtalker/windows-mac-working/sections/142-kak-posmotret-nastroyku-raspredeleniya-z.md"
+    }
+  ]
+}

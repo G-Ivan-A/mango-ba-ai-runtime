@@ -24,8 +24,6 @@ ai-generated: true
 
 Вкладка SSO предназначена для настройки единого входа (Single Sign-On) в Личный кабинет ВАТС и продукты MANGO OFFICE с использованием внешнего identity-провайдера. Речевая аналитика & КАТС | v.1.26.18 129
 
-![Изображение, стр. 130](../images/79-sso-single-sign-on-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

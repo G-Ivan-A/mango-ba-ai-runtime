@@ -41,8 +41,4 @@ POST /vpbx/campaign/stop Параметры:
 | --- |
 | } |
 
-![Изображение, стр. 277](../images/196-ostanovka-kampanii-1.png)
-
-![Изображение, стр. 277](../images/196-ostanovka-kampanii-2.png)
-
 <!-- изображение на стр. 277: байты не извлечены (PyMuPDF недоступен) -->

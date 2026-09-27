@@ -28,8 +28,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 29
 
-![Изображение, стр. 30](../images/26-zapis-razgovorov-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -43,8 +41,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 30
 
-![Изображение, стр. 31](../images/26-zapis-razgovorov-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -57,8 +53,6 @@ ai-generated: true
 | Настройки | Редактирова<br>ть настройки<br>записей<br>разговоров | — | Недоступно | Недоступно | Доступно |  | Недоступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 31
-
-![Изображение, стр. 32](../images/26-zapis-razgovorov-3.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

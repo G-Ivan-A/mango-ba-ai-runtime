@@ -32,8 +32,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 19
 
-![Изображение, стр. 20](../images/16-sotrudniki-i-gruppy-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -52,8 +50,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 20
 
-![Изображение, стр. 21](../images/16-sotrudniki-i-gruppy-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -70,8 +66,6 @@ ai-generated: true
 | е настройки |
 
 Роли и права доступа | v. 1.26.08 21
-
-![Изображение, стр. 22](../images/16-sotrudniki-i-gruppy-3.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
@@ -92,8 +86,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 22
 
-![Изображение, стр. 23](../images/16-sotrudniki-i-gruppy-4.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -110,8 +102,6 @@ ai-generated: true
 | е настройки |
 
 Роли и права доступа | v. 1.26.08 23
-
-![Изображение, стр. 24](../images/16-sotrudniki-i-gruppy-5.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

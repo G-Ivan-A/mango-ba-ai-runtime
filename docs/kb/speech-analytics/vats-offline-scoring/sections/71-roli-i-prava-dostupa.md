@@ -37,8 +37,6 @@ ai-generated: true
 
 Речевая аналитика. ВАТС & Офлайн скоринг | v.1.26.18 117
 
-![Изображение, стр. 118](../images/71-roli-i-prava-dostupa-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -47,8 +45,6 @@ ai-generated: true
 | --- | --- | --- | --- | --- |
 
 Речевая аналитика. ВАТС & Офлайн скоринг | v.1.26.18 118
-
-![Изображение, стр. 119](../images/71-roli-i-prava-dostupa-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

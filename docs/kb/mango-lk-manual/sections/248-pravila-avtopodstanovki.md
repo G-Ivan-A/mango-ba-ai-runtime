@@ -22,15 +22,9 @@ ai-generated: true
 
 > Трассировка: PDF §4.5.18.2 · сквозные стр. 406-407 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-123.pdf` с.406-407.
 
-![Изображение, стр. 406](../images/248-pravila-avtopodstanovki-1.png)
-
 ![Изображение, стр. 406](../images/248-pravila-avtopodstanovki-2.jpeg)
 
 Функция автоподстановки позволяет автоматически выбирать номер для исходящего звонка в зависимости от заданных условий.
-
-![Изображение, стр. 407](../images/248-pravila-avtopodstanovki-3.jpeg)
-
-![Изображение, стр. 407](../images/248-pravila-avtopodstanovki-4.png)
 
 ![Изображение, стр. 407](../images/248-pravila-avtopodstanovki-5.jpeg)
 

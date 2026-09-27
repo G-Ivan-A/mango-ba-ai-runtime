@@ -21,5 +21,3 @@ ai-generated: true
 # 2.5.1. Банковский перевод
 
 > Трассировка: PDF §2.5.1 · сквозные стр. 34-35 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-123.pdf` с.34-35.
-
-![Изображение, стр. 35](../images/37-bankovskiy-perevod-1.jpeg)

@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика & КАТС | v.1.26.18 86
 
-![Изображение, стр. 87](../images/43-prosmotret-zagruzit-buhgalterskie-dokume-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

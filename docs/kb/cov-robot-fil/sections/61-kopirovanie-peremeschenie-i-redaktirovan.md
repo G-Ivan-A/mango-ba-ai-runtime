@@ -24,8 +24,6 @@ ai-generated: true
 
 Для копирования процедуры выберите ее в списке и нажмите пиктограмму «Копировать». В списке отобразится новая процедура с пометкой (копия). Клик по наименованию открывает процедуру для редактирования.
 
-![Изображение, стр. 175](../images/61-kopirovanie-peremeschenie-i-redaktirovan-1.png)
-
 ![Изображение, стр. 175](../images/61-kopirovanie-peremeschenie-i-redaktirovan-2.png)
 
 ![Изображение, стр. 175](../images/61-kopirovanie-peremeschenie-i-redaktirovan-3.png)

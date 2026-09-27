@@ -24,8 +24,6 @@ ai-generated: true
 
 Показатели производительности, используемые в модуле Wallboard: • Основные показатели производительности; • Показатели доступные при интеграции с внешними системами.
 
-![Изображение, стр. 374](../images/236-pokazateli-proizvoditelnosti-wallboard-1.jpeg)
-
 важно Показатели групп "Звонки" доступны для добавления в виджет, если у пользователя подключен Контакта-Центр MANGO OFFICE. Узнать больше здесь. Показатели группы "Сделки" доступны для добавления в виджет, если в Контак- центре подключена услуги "Сделки". Узнать больше здесь. Показатели группы "Битрих24" доступны для добавления в виджет, если в ЛК ВАТС подключена интеграция с Битрикс24.
 
 ![Изображение, стр. 374](../images/236-pokazateli-proizvoditelnosti-wallboard-2.png)
@@ -47,8 +45,6 @@ ai-generated: true
 |  |  | Для<br>сотрудника | Показатель указывает на количество<br>совершенных холодных вызовов<br>(контактам не из адресной книги)<br>выбранным сотрудником |  |
 | Количество<br>принятых<br>вызовов | Звонки | Для<br>группы/сотруд<br>ника | Показатель производительности<br>Количество принятых вызовов за<br>расчетный период | Последние<br>12 часов |
 
-![Изображение, стр. 374](../images/236-pokazateli-proizvoditelnosti-wallboard-4.jpeg)
-
 ![Изображение, стр. 374](../images/236-pokazateli-proizvoditelnosti-wallboard-5.png)
 
 ![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-6.png)
@@ -67,19 +63,13 @@ ai-generated: true
 | Количество<br>потерянных<br>вызовов | Звонки | Для<br>группы/сотруд<br>ника | Количество входящих вызовов за<br>расчетный период пришедших на<br>группу или сотрудника, по которым не<br>состоялся разговор | Последние<br>12 часов |
 | Процент<br>потерянных<br>вызовов | Звонки | Для<br>группы/сотруд<br>ника (%) | Процент потерянных вызовов за<br>расчетный период по отношению к | Последние<br>12 часов |
 
-![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-7.jpeg)
-
 ![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-8.png)
 
 ![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-9.png)
 
-![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-10.jpeg)
-
 ![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-11.png)
 
 ![Изображение, стр. 375](../images/236-pokazateli-proizvoditelnosti-wallboard-12.png)
-
-![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-13.jpeg)
 
 | Показатель | Группа | Тип | Расчет | Расчетный |
 | --- | --- | --- | --- | --- |
@@ -97,17 +87,11 @@ ai-generated: true
 
 ![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-14.png)
 
-![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-15.jpeg)
-
 ![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-16.png)
-
-![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-17.jpeg)
 
 ![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-18.png)
 
 ![Изображение, стр. 376](../images/236-pokazateli-proizvoditelnosti-wallboard-19.png)
-
-![Изображение, стр. 377](../images/236-pokazateli-proizvoditelnosti-wallboard-20.jpeg)
 
 | Показатель | Группа | Тип | Расчет | Расчетный |
 | --- | --- | --- | --- | --- |
@@ -126,8 +110,6 @@ ai-generated: true
 ![Изображение, стр. 377](../images/236-pokazateli-proizvoditelnosti-wallboard-21.png)
 
 ![Изображение, стр. 377](../images/236-pokazateli-proizvoditelnosti-wallboard-22.png)
-
-![Изображение, стр. 377](../images/236-pokazateli-proizvoditelnosti-wallboard-23.jpeg)
 
 ![Изображение, стр. 377](../images/236-pokazateli-proizvoditelnosti-wallboard-24.png)
 

@@ -36,8 +36,6 @@ ai-generated: true
 
 опция настроена Речевая аналитика. ВАТС & Офлайн скоринг | v.1.26.18 65
 
-![Изображение, стр. 66](../images/44-osnovnye-nastroyki-4.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

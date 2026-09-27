@@ -31,13 +31,9 @@ POST /vpbx/task Параметры запроса:
 
 Пример запроса:
 
-![Изображение, стр. 282](../images/199-poluchenie-informacii-o-zadache-kampanii-1.png)
-
 | POST https://app.mango-office.ru/vpbx/task<br>vpbx_api_key = 1234567890qwerty,<br>sign = 1234567890qwerty, |
 | --- |
 | json = {<br>"task_id": "2489649" } |
-
-![Изображение, стр. 282](../images/199-poluchenie-informacii-o-zadache-kampanii-2.png)
 
 В результате обработки запроса, формируются и передаются JSON-данные, содержащие следующие параметры:
 

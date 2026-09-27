@@ -24,6 +24,4 @@ ai-generated: true
 
 • Ссылка Вся документация — открывает раздел «Поддержки» на сайте MANGO OFFICE https://www.mango-office.ru/support/ • Интеграция с MangoHelper • Ссылки на программы удалённой поддержки (AnyDesk, TeamViewer) 3.2 ВКЛАДКА «ОБРАЩЕНИЯ»
 
-![Изображение, стр. 52](../images/54-vkladka-obrascheniya-1.png)
-
 ![Изображение, стр. 52](../images/54-vkladka-obrascheniya-2.jpeg)

@@ -1,0 +1,306 @@
+{
+  "document_id": "integration-1c",
+  "index": "docs/kb/integration-1c/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "integration-1c-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Прямая интеграция с",
+      "pages": "1-4",
+      "tokens": 1395,
+      "path": "docs/kb/integration-1c/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "integration-1c-01-obzor",
+      "section": "1",
+      "title": "Обзор",
+      "hint": "",
+      "pages": "4",
+      "tokens": 73,
+      "path": "docs/kb/integration-1c/sections/01-obzor.md"
+    },
+    {
+      "id": "integration-1c-02-naznachenie",
+      "section": "1.1",
+      "title": "Назначение",
+      "hint": "Настроив прямую интеграцию между Виртуальной АТС MANGO OFFICE и системой «1С:",
+      "pages": "4",
+      "tokens": 233,
+      "path": "docs/kb/integration-1c/sections/02-naznachenie.md"
+    },
+    {
+      "id": "integration-1c-03-vazhnye-ogranicheniya",
+      "section": "1.2",
+      "title": "Важные ограничения",
+      "hint": "Функционирование интеграции проверено на конфигурации «1С: Управление торговлей»,",
+      "pages": "4",
+      "tokens": 140,
+      "path": "docs/kb/integration-1c/sections/03-vazhnye-ogranicheniya.md"
+    },
+    {
+      "id": "integration-1c-04-kak-nastroit-integraciyu",
+      "section": "1.3",
+      "title": "Как настроить интеграцию",
+      "hint": "Подготовка",
+      "pages": "4-5",
+      "tokens": 659,
+      "path": "docs/kb/integration-1c/sections/04-kak-nastroit-integraciyu.md"
+    },
+    {
+      "id": "integration-1c-05-nachalo-raboty-s-integraciey",
+      "section": "2",
+      "title": "Начало работы с интеграцией",
+      "hint": "",
+      "pages": "5",
+      "tokens": 82,
+      "path": "docs/kb/integration-1c/sections/05-nachalo-raboty-s-integraciey.md"
+    },
+    {
+      "id": "integration-1c-06-shag-1-podklyuchenie-virtualnoy-ats-mang",
+      "section": "2",
+      "title": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "hint": "Сначала подключите ту или иную версию Виртуальной АТС MANGO OFFICE, если у вас ее еще",
+      "pages": "5",
+      "tokens": 182,
+      "path": "docs/kb/integration-1c/sections/06-shag-1-podklyuchenie-virtualnoy-ats-mang.md"
+    },
+    {
+      "id": "integration-1c-07-shag-2-ustanovka-softfona-mango-talker",
+      "section": "2",
+      "title": "Шаг 2. Установка софтфона Mango Talker",
+      "hint": "Виртуальная АТС позволяет установить телефонную связь между абонентами, а система 1С –",
+      "pages": "5",
+      "tokens": 405,
+      "path": "docs/kb/integration-1c/sections/07-shag-2-ustanovka-softfona-mango-talker.md"
+    },
+    {
+      "id": "integration-1c-08-shag-3-podklyuchenie-vidzheta-integracii",
+      "section": "2",
+      "title": "Шаг 3. Подключение виджета интеграции в Личном кабинете MANGO OFFICE",
+      "hint": "MANGO OFFICE",
+      "pages": "5-7",
+      "tokens": 669,
+      "path": "docs/kb/integration-1c/sections/08-shag-3-podklyuchenie-vidzheta-integracii.md"
+    },
+    {
+      "id": "integration-1c-09-shag-4-nastroyka-integracii-v-1s",
+      "section": "2",
+      "title": "Шаг 4. Настройка интеграции в 1С",
+      "hint": "Подключение расширения конфигурации",
+      "pages": "7-17",
+      "tokens": 4360,
+      "path": "docs/kb/integration-1c/sections/09-shag-4-nastroyka-integracii-v-1s.md"
+    },
+    {
+      "id": "integration-1c-10-dopolnitelnye-nastroyki-integracii",
+      "section": "3",
+      "title": "Дополнительные настройки интеграции",
+      "hint": "В зависимости от ваших задач, укажите дополнительные настройки интеграции на вкладке",
+      "pages": "17",
+      "tokens": 131,
+      "path": "docs/kb/integration-1c/sections/10-dopolnitelnye-nastroyki-integracii.md"
+    },
+    {
+      "id": "integration-1c-11-obrabotka-zvonkov",
+      "section": "3.1",
+      "title": "Обработка звонков",
+      "hint": "Распределение вызовов по ответственным сотрудникам",
+      "pages": "17-22",
+      "tokens": 2841,
+      "path": "docs/kb/integration-1c/sections/11-obrabotka-zvonkov.md"
+    },
+    {
+      "id": "integration-1c-12-avtomaticheskoe-sozdanie-klientov",
+      "section": "3.2",
+      "title": "Автоматическое создание Клиентов",
+      "hint": "С помощью этой настройки вы сможете разрешить или запретить автоматическое создание",
+      "pages": "22-23",
+      "tokens": 825,
+      "path": "docs/kb/integration-1c/sections/12-avtomaticheskoe-sozdanie-klientov.md"
+    },
+    {
+      "id": "integration-1c-13-obrabotka-zvonkov-pri-sohranenii",
+      "section": "3.3",
+      "title": "Обработка звонков при сохранении",
+      "hint": "На обработку звонков при сохранении их в 1С влияют параметры:",
+      "pages": "23-25",
+      "tokens": 764,
+      "path": "docs/kb/integration-1c/sections/13-obrabotka-zvonkov-pri-sohranenii.md"
+    },
+    {
+      "id": "integration-1c-14-upravlenie-polzovatelyami-integracii-1s",
+      "section": "3.4",
+      "title": "Управление пользователями интеграции 1С",
+      "hint": "Информация о пользователях",
+      "pages": "25-29",
+      "tokens": 1438,
+      "path": "docs/kb/integration-1c/sections/14-upravlenie-polzovatelyami-integracii-1s.md"
+    },
+    {
+      "id": "integration-1c-15-vhodyaschiy-zvonok",
+      "section": "4",
+      "title": "Входящий звонок",
+      "hint": "После настройки интеграции с 1С вы можете принимать звонки.",
+      "pages": "29",
+      "tokens": 569,
+      "path": "docs/kb/integration-1c/sections/15-vhodyaschiy-zvonok.md"
+    },
+    {
+      "id": "integration-1c-16-ishodyaschiy-zvonok",
+      "section": "5",
+      "title": "Исходящий звонок",
+      "hint": "После настройки интеграции с 1С вы можете совершать исходящие вызовы.",
+      "pages": "29-30",
+      "tokens": 322,
+      "path": "docs/kb/integration-1c/sections/16-ishodyaschiy-zvonok.md"
+    },
+    {
+      "id": "integration-1c-17-zvonok-po-kliku",
+      "section": "5.1",
+      "title": "Звонок по клику",
+      "hint": "Вы можете инициировать исходящий звонок из следующих элементов 1С:",
+      "pages": "30-31",
+      "tokens": 693,
+      "path": "docs/kb/integration-1c/sections/17-zvonok-po-kliku.md"
+    },
+    {
+      "id": "integration-1c-18-softfon",
+      "section": "5.2",
+      "title": "Софтфон",
+      "hint": "Это встроенная функция прямой интеграции с 1С, при помощи которой вы можете набрать номер",
+      "pages": "31-32",
+      "tokens": 533,
+      "path": "docs/kb/integration-1c/sections/18-softfon.md"
+    },
+    {
+      "id": "integration-1c-19-otchety",
+      "section": "6",
+      "title": "Отчеты",
+      "hint": "",
+      "pages": "32",
+      "tokens": 74,
+      "path": "docs/kb/integration-1c/sections/19-otchety.md"
+    },
+    {
+      "id": "integration-1c-20-otchet-po-telefonnym-zvonkam-vats",
+      "section": "6.1",
+      "title": "Отчет по телефонным звонкам ВАТС",
+      "hint": "Это отчет в 1С, который отражает количество звонков, совершенных через вашу Виртуальную",
+      "pages": "32-36",
+      "tokens": 2263,
+      "path": "docs/kb/integration-1c/sections/20-otchet-po-telefonnym-zvonkam-vats.md"
+    },
+    {
+      "id": "integration-1c-21-kartochka-zvonka",
+      "section": "6.2",
+      "title": "Карточка звонка",
+      "hint": "Общие сведения",
+      "pages": "36-38",
+      "tokens": 932,
+      "path": "docs/kb/integration-1c/sections/21-kartochka-zvonka.md"
+    },
+    {
+      "id": "integration-1c-22-otchet-telefonnye-zvonki",
+      "section": "6.3",
+      "title": "Отчет «Телефонные звонки»",
+      "hint": "Отчет «Телефонные звонки» позволяет получить информацию о звонках пользователей через",
+      "pages": "38-40",
+      "tokens": 681,
+      "path": "docs/kb/integration-1c/sections/22-otchet-telefonnye-zvonki.md"
+    },
+    {
+      "id": "integration-1c-23-spravochnik-abonentov",
+      "section": "7",
+      "title": "Справочник абонентов",
+      "hint": "С помощью этого справочника вы можете в 1С собирать и упорядочивать информацию о ваших",
+      "pages": "40",
+      "tokens": 133,
+      "path": "docs/kb/integration-1c/sections/23-spravochnik-abonentov.md"
+    },
+    {
+      "id": "integration-1c-24-kak-otkryt-spravochnik",
+      "section": "7.1",
+      "title": "Как открыть справочник",
+      "hint": "Чтобы перейти в справочник абонентов, выполните следующие действия:",
+      "pages": "40",
+      "tokens": 217,
+      "path": "docs/kb/integration-1c/sections/24-kak-otkryt-spravochnik.md"
+    },
+    {
+      "id": "integration-1c-25-poisk-po-nomeru-telefona",
+      "section": "7.2",
+      "title": "Поиск по номеру телефона",
+      "hint": "Чтобы выполнить поиск абонента по номеру телефона, выполните следующие действия:",
+      "pages": "40-41",
+      "tokens": 407,
+      "path": "docs/kb/integration-1c/sections/25-poisk-po-nomeru-telefona.md"
+    },
+    {
+      "id": "integration-1c-26-poisk-po-parametram-abonenta",
+      "section": "7.3",
+      "title": "Поиск по параметрам абонента",
+      "hint": "Поиск абонента в справочнике можно выполнять не только по номеру телефона, но и по",
+      "pages": "41",
+      "tokens": 338,
+      "path": "docs/kb/integration-1c/sections/26-poisk-po-parametram-abonenta.md"
+    },
+    {
+      "id": "integration-1c-27-filtraciya-zapisey-v-spravochnike",
+      "section": "7.4",
+      "title": "Фильтрация записей в справочнике",
+      "hint": "Вы можете вывести на экран все записи справочника абонентов, в которых есть определенный",
+      "pages": "41-43",
+      "tokens": 424,
+      "path": "docs/kb/integration-1c/sections/27-filtraciya-zapisey-v-spravochnike.md"
+    },
+    {
+      "id": "integration-1c-28-prilozhenie-kak-nastroit-standartnuyu-kn",
+      "section": "7.4",
+      "title": "Приложение. Как настроить стандартную кнопку вызова",
+      "hint": "и конфигурацию модуля",
+      "pages": "43",
+      "tokens": 101,
+      "path": "docs/kb/integration-1c/sections/28-prilozhenie-kak-nastroit-standartnuyu-kn.md"
+    },
+    {
+      "id": "integration-1c-29-upravleniekontaktnoyinformacieyklient",
+      "section": "7.4",
+      "title": "\"УправлениеКонтактнойИнформациейКлиент\"",
+      "hint": "",
+      "pages": "43",
+      "tokens": 88,
+      "path": "docs/kb/integration-1c/sections/29-upravleniekontaktnoyinformacieyklient.md"
+    },
+    {
+      "id": "integration-1c-30-osnovnye-svedeniya",
+      "section": "7.4",
+      "title": "Основные сведения",
+      "hint": "Вы можете настроить кнопку стандартного функционала конфигурации так, чтобы она",
+      "pages": "43",
+      "tokens": 282,
+      "path": "docs/kb/integration-1c/sections/30-osnovnye-svedeniya.md"
+    },
+    {
+      "id": "integration-1c-31-kak-nastroit-konfiguraciyu-modulya",
+      "section": "7.4",
+      "title": "Как настроить конфигурацию модуля",
+      "hint": "Чтобы настроить кнопку стандартного функционала, нужно изменить конфигурацию модуля",
+      "pages": "43-45",
+      "tokens": 1078,
+      "path": "docs/kb/integration-1c/sections/31-kak-nastroit-konfiguraciyu-modulya.md"
+    },
+    {
+      "id": "integration-1c-32-spisok-izmeneniy-v-dokumente",
+      "section": "7.4",
+      "title": "Список изменений в документе",
+      "hint": "17.09.2023",
+      "pages": "45-46",
+      "tokens": 703,
+      "path": "docs/kb/integration-1c/sections/32-spisok-izmeneniy-v-dokumente.md"
+    }
+  ]
+}

@@ -24,10 +24,6 @@ ai-generated: true
 
 Иконка меню "Аналитика Calltouch" отображается у пользователей с соответствующими правами доступа.
 
-![Изображение, стр. 385](../images/239-analitika-calltouch-1.png)
-
 ![Изображение, стр. 385](../images/239-analitika-calltouch-2.jpeg)
 
 Клик по иконке открывает страницу авторизации в сервисе "Аналитика Calltouch" Вход в личный кабинет | Calltouch Зарегистрироваться в сервисе можно по ссылке https://www.calltouch.ru/mango/.
-
-![Изображение, стр. 386](../images/239-analitika-calltouch-3.jpeg)

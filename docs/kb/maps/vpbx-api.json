@@ -1,0 +1,2305 @@
+{
+  "document_id": "vpbx-api",
+  "index": "docs/kb/vpbx-api/index.md",
+  "product_ids": [
+    "voice-ucaas",
+    "contact-center"
+  ],
+  "sections": [
+    {
+      "id": "vpbx-api-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "API MANGO OFFICE",
+      "pages": "1-6",
+      "tokens": 3885,
+      "path": "docs/kb/vpbx-api/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "vpbx-api-01-opredeleniya-i-sokrascheniya",
+      "section": "—",
+      "title": "Определения и сокращения",
+      "hint": "АК — адресная книга MANGO OFFICE, используется в Контакт-центр, M.TALKER.",
+      "pages": "7",
+      "tokens": 557,
+      "path": "docs/kb/vpbx-api/sections/01-opredeleniya-i-sokrascheniya.md"
+    },
+    {
+      "id": "vpbx-api-02-osnovnye-svedeniya",
+      "section": "1",
+      "title": "Основные сведения",
+      "hint": "",
+      "pages": "8",
+      "tokens": 65,
+      "path": "docs/kb/vpbx-api/sections/02-osnovnye-svedeniya.md"
+    },
+    {
+      "id": "vpbx-api-03-naznachenie",
+      "section": "1.1",
+      "title": "Назначение",
+      "hint": "API MANGO OFFICE (далее по тексту – API) позволяет внешним клиентским системам,",
+      "pages": "8",
+      "tokens": 463,
+      "path": "docs/kb/vpbx-api/sections/03-naznachenie.md"
+    },
+    {
+      "id": "vpbx-api-04-trebovaniya-sovmestimosti-i-spisok-podde",
+      "section": "1.2",
+      "title": "Требования совместимости и список поддерживаемых протоколов",
+      "hint": "Чтобы взаимодействовать с API, внешняя система должна обеспечивать:",
+      "pages": "8",
+      "tokens": 259,
+      "path": "docs/kb/vpbx-api/sections/04-trebovaniya-sovmestimosti-i-spisok-podde.md"
+    },
+    {
+      "id": "vpbx-api-05-ogranicheniya",
+      "section": "1.3",
+      "title": "Ограничения",
+      "hint": "1) Не поддерживается протокол TLS версий 1.0, 1.1, 1.3.",
+      "pages": "8",
+      "tokens": 174,
+      "path": "docs/kb/vpbx-api/sections/05-ogranicheniya.md"
+    },
+    {
+      "id": "vpbx-api-06-limity-kolichestva-zaprosov-k-api",
+      "section": "1.4",
+      "title": "Лимиты количества запросов к API",
+      "hint": "В API существуют ограничения на максимальное число запросов в секунду.",
+      "pages": "9",
+      "tokens": 128,
+      "path": "docs/kb/vpbx-api/sections/06-limity-kolichestva-zaprosov-k-api.md"
+    },
+    {
+      "id": "vpbx-api-07-o-nevernyh-zaprosah-k-api-oshibka-401",
+      "section": "1.4.1",
+      "title": "О неверных запросах к API. Ошибка 401",
+      "hint": "Если ваш запрос к API MANGO OFFICE неверный, вы получаете код ошибки 3ХХХ.",
+      "pages": "9",
+      "tokens": 235,
+      "path": "docs/kb/vpbx-api/sections/07-o-nevernyh-zaprosah-k-api-oshibka-401.md"
+    },
+    {
+      "id": "vpbx-api-08-api-vats",
+      "section": "1.4.2",
+      "title": "API ВАТС",
+      "hint": "Устанавливаются следующие лимиты запросов в секунду:",
+      "pages": "9-10",
+      "tokens": 757,
+      "path": "docs/kb/vpbx-api/sections/08-api-vats.md"
+    },
+    {
+      "id": "vpbx-api-09-api-kc",
+      "section": "1.4.3",
+      "title": "API КЦ",
+      "hint": "Устанавливаются следующие лимиты запросов в секунду:",
+      "pages": "10",
+      "tokens": 243,
+      "path": "docs/kb/vpbx-api/sections/09-api-kc.md"
+    },
+    {
+      "id": "vpbx-api-10-chto-delat-esli-poluchili-oshibku-503-i",
+      "section": "1.4.4",
+      "title": "Что делать, если получили ошибку 503 и/или 5008?",
+      "hint": "Сделайте паузу или уменьшите интенсивность передачи запросов, или удалите лишние",
+      "pages": "10",
+      "tokens": 126,
+      "path": "docs/kb/vpbx-api/sections/10-chto-delat-esli-poluchili-oshibku-503-i.md"
+    },
+    {
+      "id": "vpbx-api-11-obschie-polozheniya-o-vzaimodeystvii-sis",
+      "section": "2",
+      "title": "Общие положения о взаимодействии систем",
+      "hint": "",
+      "pages": "11",
+      "tokens": 73,
+      "path": "docs/kb/vpbx-api/sections/11-obschie-polozheniya-o-vzaimodeystvii-sis.md"
+    },
+    {
+      "id": "vpbx-api-12-model-avtorizacii",
+      "section": "2.1",
+      "title": "Модель авторизации",
+      "hint": "API предоставляет внешней системе доступ к своим функциям без ограничений.",
+      "pages": "11",
+      "tokens": 296,
+      "path": "docs/kb/vpbx-api/sections/12-model-avtorizacii.md"
+    },
+    {
+      "id": "vpbx-api-13-model-vzaimodeystviya",
+      "section": "2.2",
+      "title": "Модель взаимодействия",
+      "hint": "",
+      "pages": "11",
+      "tokens": 72,
+      "path": "docs/kb/vpbx-api/sections/13-model-vzaimodeystviya.md"
+    },
+    {
+      "id": "vpbx-api-14-api-vats",
+      "section": "2.1.1",
+      "title": "API ВАТС",
+      "hint": "Описание модели",
+      "pages": "11-12",
+      "tokens": 1441,
+      "path": "docs/kb/vpbx-api/sections/14-api-vats.md"
+    },
+    {
+      "id": "vpbx-api-15-api-kc",
+      "section": "2.1.2",
+      "title": "API КЦ",
+      "hint": "Модель взаимодействия API КЦ с внешними системами практически полностью повторяет",
+      "pages": "13",
+      "tokens": 271,
+      "path": "docs/kb/vpbx-api/sections/15-api-kc.md"
+    },
+    {
+      "id": "vpbx-api-16-rabota-s-uslugami-virtualnoy-ats",
+      "section": "2.3",
+      "title": "Работа с услугами Виртуальной АТС",
+      "hint": "API предоставляет внешней системе доступ к подключению услуг.",
+      "pages": "13",
+      "tokens": 252,
+      "path": "docs/kb/vpbx-api/sections/16-rabota-s-uslugami-virtualnoy-ats.md"
+    },
+    {
+      "id": "vpbx-api-17-unikalnyy-kod-vashey-vats-klyuch-dlya-so",
+      "section": "2.4",
+      "title": "Уникальный код вашей ВАТС, ключ для создания подписи и параметр \"sign\"",
+      "hint": "\"sign\"",
+      "pages": "14",
+      "tokens": 89,
+      "path": "docs/kb/vpbx-api/sections/17-unikalnyy-kod-vashey-vats-klyuch-dlya-so.md"
+    },
+    {
+      "id": "vpbx-api-18-unikalnyy-kod-vashey-vats",
+      "section": "2.4.1",
+      "title": "Уникальный код вашей ВАТС",
+      "hint": "Уникальный код вашей ВАТС представляет собой строку вида:",
+      "pages": "14",
+      "tokens": 183,
+      "path": "docs/kb/vpbx-api/sections/18-unikalnyy-kod-vashey-vats.md"
+    },
+    {
+      "id": "vpbx-api-19-klyuch-sozdaniya-podpisi",
+      "section": "2.4.2",
+      "title": "Ключ создания подписи",
+      "hint": "При отправке запросов к API ВАТС используется ключ создания подписи.",
+      "pages": "14",
+      "tokens": 169,
+      "path": "docs/kb/vpbx-api/sections/19-klyuch-sozdaniya-podpisi.md"
+    },
+    {
+      "id": "vpbx-api-20-o-parametre-sign",
+      "section": "2.4.3",
+      "title": "О параметре \"sign\"",
+      "hint": "Данные, которыми обмениваются системы, как правило, будут передаваться в теле POST-",
+      "pages": "14",
+      "tokens": 235,
+      "path": "docs/kb/vpbx-api/sections/20-o-parametre-sign.md"
+    },
+    {
+      "id": "vpbx-api-21-pole-json",
+      "section": "2.4.4",
+      "title": "Поле json",
+      "hint": "Поле json можно рассматривать как ассоциативный массив любой вложенности и размера",
+      "pages": "15",
+      "tokens": 256,
+      "path": "docs/kb/vpbx-api/sections/21-pole-json.md"
+    },
+    {
+      "id": "vpbx-api-22-kak-uznat-svoy-unikalnyy-kod-vats-i-klyu",
+      "section": "2.4.5",
+      "title": "Как узнать свой уникальный код ВАТС и ключ создания подписи?",
+      "hint": "Для этого в Личном кабинете MANGO OFFICE следует:",
+      "pages": "15",
+      "tokens": 263,
+      "path": "docs/kb/vpbx-api/sections/22-kak-uznat-svoy-unikalnyy-kod-vats-i-klyu.md"
+    },
+    {
+      "id": "vpbx-api-23-emulyator-api-virtualnoy-ats",
+      "section": "2.5",
+      "title": "Эмулятор API Виртуальной АТС",
+      "hint": "Для удобства знакомства с API ВАТС разработан и размещен на сайте Эмулятор API",
+      "pages": "15",
+      "tokens": 119,
+      "path": "docs/kb/vpbx-api/sections/23-emulyator-api-virtualnoy-ats.md"
+    },
+    {
+      "id": "vpbx-api-24-opisanie-metodov-api-virtualnoy-ats-mang",
+      "section": "3",
+      "title": "Описание методов API Виртуальной АТС MANGO OFFICE",
+      "hint": "",
+      "pages": "16",
+      "tokens": 75,
+      "path": "docs/kb/vpbx-api/sections/24-opisanie-metodov-api-virtualnoy-ats-mang.md"
+    },
+    {
+      "id": "vpbx-api-25-api-realtime",
+      "section": "3.1",
+      "title": "API Realtime",
+      "hint": "",
+      "pages": "16",
+      "tokens": 65,
+      "path": "docs/kb/vpbx-api/sections/25-api-realtime.md"
+    },
+    {
+      "id": "vpbx-api-26-obschee",
+      "section": "3.1.1",
+      "title": "Общее",
+      "hint": "API Realtime представляет собой набор запросов (уведомлений), которые направляются",
+      "pages": "16",
+      "tokens": 270,
+      "path": "docs/kb/vpbx-api/sections/26-obschee.md"
+    },
+    {
+      "id": "vpbx-api-27-uvedomlenie-o-vyzove",
+      "section": "3.1.2",
+      "title": "Уведомление о вызове",
+      "hint": "POST https://external-system.com/events/call",
+      "pages": "16-22",
+      "tokens": 5271,
+      "path": "docs/kb/vpbx-api/sections/27-uvedomlenie-o-vyzove.md"
+    },
+    {
+      "id": "vpbx-api-28-uvedomlenie-o-rezultate-otpravki-sms",
+      "section": "3.1.3",
+      "title": "Уведомление о результате отправки SMS",
+      "hint": "POST https://external-system.com/events/sms",
+      "pages": "22",
+      "tokens": 388,
+      "path": "docs/kb/vpbx-api/sections/28-uvedomlenie-o-rezultate-otpravki-sms.md"
+    },
+    {
+      "id": "vpbx-api-29-uvedomlenie-o-zapisi-razgovora",
+      "section": "3.1.4",
+      "title": "Уведомление о записи разговора",
+      "hint": "POST https://external-system.com/events/recording",
+      "pages": "22-26",
+      "tokens": 1982,
+      "path": "docs/kb/vpbx-api/sections/29-uvedomlenie-o-zapisi-razgovora.md"
+    },
+    {
+      "id": "vpbx-api-30-uvedomlenie-o-nazhatiyah-dtmf-klavish",
+      "section": "3.1.5",
+      "title": "Уведомление о нажатиях DTMF клавиш",
+      "hint": "POST https://external-system.com/events/dtmf",
+      "pages": "26",
+      "tokens": 734,
+      "path": "docs/kb/vpbx-api/sections/30-uvedomlenie-o-nazhatiyah-dtmf-klavish.md"
+    },
+    {
+      "id": "vpbx-api-31-o-parametre-location",
+      "section": "3.1.5",
+      "title": "О параметре location",
+      "hint": "Параметр location состоит из двух определителей и имеет следующий формат:",
+      "pages": "26-27",
+      "tokens": 526,
+      "path": "docs/kb/vpbx-api/sections/31-o-parametre-location.md"
+    },
+    {
+      "id": "vpbx-api-32-uvedomlenie-o-zavershenii-vyzova",
+      "section": "3.1.6",
+      "title": "Уведомление о завершении вызова",
+      "hint": "POST https://external-system.com/events/summary",
+      "pages": "27-31",
+      "tokens": 3054,
+      "path": "docs/kb/vpbx-api/sections/32-uvedomlenie-o-zavershenii-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-33-sobytie-o-zavershenii-processa-raspoznav",
+      "section": "3.1.7",
+      "title": "Событие о завершении процесса распознавания тематик в разговорах",
+      "hint": "POST https://external-system.com/events/record/tagged",
+      "pages": "31-32",
+      "tokens": 602,
+      "path": "docs/kb/vpbx-api/sections/33-sobytie-o-zavershenii-processa-raspoznav.md"
+    },
+    {
+      "id": "vpbx-api-34-sobytie-o-pomeschenii-zapisi-razgovora-v",
+      "section": "3.1.8",
+      "title": "Событие о помещении записи разговора в облачное хранилище",
+      "hint": "POST https://external-system.com/events/record/added",
+      "pages": "32",
+      "tokens": 609,
+      "path": "docs/kb/vpbx-api/sections/34-sobytie-o-pomeschenii-zapisi-razgovora-v.md"
+    },
+    {
+      "id": "vpbx-api-35-api-komandy",
+      "section": "3.2",
+      "title": "API Команды",
+      "hint": "API Команды представляет собой набор запросов, которые инициирует внешняя система и",
+      "pages": "33",
+      "tokens": 234,
+      "path": "docs/kb/vpbx-api/sections/35-api-komandy.md"
+    },
+    {
+      "id": "vpbx-api-36-iniciirovanie-vyzova-ot-imeni-sotrudnika",
+      "section": "3.2.1",
+      "title": "Инициирование вызова от имени сотрудника",
+      "hint": "POST /vpbx/commands/callback",
+      "pages": "33-36",
+      "tokens": 1832,
+      "path": "docs/kb/vpbx-api/sections/36-iniciirovanie-vyzova-ot-imeni-sotrudnika.md"
+    },
+    {
+      "id": "vpbx-api-37-iniciirovanie-vyzova-ot-imeni-gruppy",
+      "section": "3.2.2",
+      "title": "Инициирование вызова от имени группы",
+      "hint": "POST /vpbx/commands/callback_group",
+      "pages": "36-38",
+      "tokens": 1355,
+      "path": "docs/kb/vpbx-api/sections/37-iniciirovanie-vyzova-ot-imeni-gruppy.md"
+    },
+    {
+      "id": "vpbx-api-38-zavershenie-vyzova",
+      "section": "3.2.3",
+      "title": "Завершение вызова",
+      "hint": "POST /vpbx/commands/call/hangup",
+      "pages": "38-39",
+      "tokens": 898,
+      "path": "docs/kb/vpbx-api/sections/38-zavershenie-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-39-otpravka-sms",
+      "section": "3.2.4",
+      "title": "Отправка SMS",
+      "hint": "POST /vpbx/commands/sms",
+      "pages": "39-41",
+      "tokens": 1460,
+      "path": "docs/kb/vpbx-api/sections/39-otpravka-sms.md"
+    },
+    {
+      "id": "vpbx-api-40-vklyuchenie-zapisi-razgovora",
+      "section": "3.2.5",
+      "title": "Включение записи разговора",
+      "hint": "POST /vpbx/commands/recording/start",
+      "pages": "41-43",
+      "tokens": 1438,
+      "path": "docs/kb/vpbx-api/sections/40-vklyuchenie-zapisi-razgovora.md"
+    },
+    {
+      "id": "vpbx-api-41-vklyuchenie-vosproizvedeniya-zvukovogo-f",
+      "section": "3.2.6",
+      "title": "Включение воспроизведения звукового файла",
+      "hint": "POST /vpbx/commands/play/start",
+      "pages": "43-45",
+      "tokens": 1658,
+      "path": "docs/kb/vpbx-api/sections/41-vklyuchenie-vosproizvedeniya-zvukovogo-f.md"
+    },
+    {
+      "id": "vpbx-api-42-marshrutizaciya-vyzova",
+      "section": "3.2.7",
+      "title": "Маршрутизация вызова",
+      "hint": "POST /vpbx/commands/route",
+      "pages": "45-46",
+      "tokens": 837,
+      "path": "docs/kb/vpbx-api/sections/42-marshrutizaciya-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-43-o-parametre-route",
+      "section": "3.2.7",
+      "title": "О параметре route",
+      "hint": "Команда route может работать в следующих режимах:",
+      "pages": "46-49",
+      "tokens": 1066,
+      "path": "docs/kb/vpbx-api/sections/43-o-parametre-route.md"
+    },
+    {
+      "id": "vpbx-api-44-perevod-vyzova",
+      "section": "3.2.8",
+      "title": "Перевод вызова",
+      "hint": "POST /vpbx/commands/transfer",
+      "pages": "50-55",
+      "tokens": 1977,
+      "path": "docs/kb/vpbx-api/sections/44-perevod-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-45-soedinenie-vyzova-v-rezhime-onhold-i-vyz",
+      "section": "3.2.9",
+      "title": "Соединение вызова в режиме OnHold и вызова в режиме Connected",
+      "hint": "POST /commands/calls_connect",
+      "pages": "55-56",
+      "tokens": 1213,
+      "path": "docs/kb/vpbx-api/sections/45-soedinenie-vyzova-v-rezhime-onhold-i-vyz.md"
+    },
+    {
+      "id": "vpbx-api-46-otmena-perevoda-vyzova",
+      "section": "3.2.10",
+      "title": "Отмена перевода вызова",
+      "hint": "POST /commands/transfer_cancel",
+      "pages": "57-58",
+      "tokens": 888,
+      "path": "docs/kb/vpbx-api/sections/46-otmena-perevoda-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-47-postanovka-vyzova-na-uderzhanie",
+      "section": "3.2.11",
+      "title": "Постановка вызова на удержание",
+      "hint": "",
+      "pages": "58",
+      "tokens": 79,
+      "path": "docs/kb/vpbx-api/sections/47-postanovka-vyzova-na-uderzhanie.md"
+    },
+    {
+      "id": "vpbx-api-48-opisanie-zaprosa-na-uderzhanie-vyzova",
+      "section": "3.2.11.1",
+      "title": "Описание запроса на удержание вызова",
+      "hint": "POST /commands/call/hold/on",
+      "pages": "58",
+      "tokens": 568,
+      "path": "docs/kb/vpbx-api/sections/48-opisanie-zaprosa-na-uderzhanie-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-49-poluchenie-rezultata-vypolneniya-zaprosa",
+      "section": "3.2.11.2",
+      "title": "Получение результата выполнения запроса",
+      "hint": "POST /result/call/hold/on",
+      "pages": "58-59",
+      "tokens": 531,
+      "path": "docs/kb/vpbx-api/sections/49-poluchenie-rezultata-vypolneniya-zaprosa.md"
+    },
+    {
+      "id": "vpbx-api-50-metody-raboty-s-pravilami-pereadresacii",
+      "section": "3.3",
+      "title": "Методы работы с правилами переадресации",
+      "hint": "Служат для работы со списком переадресации в ЛК ВАТС из внешней системы.",
+      "pages": "59",
+      "tokens": 131,
+      "path": "docs/kb/vpbx-api/sections/50-metody-raboty-s-pravilami-pereadresacii.md"
+    },
+    {
+      "id": "vpbx-api-51-poluchit-spisok-pravil-pereadresacii",
+      "section": "3.3.1",
+      "title": "Получить список правил переадресации",
+      "hint": "POST /vpbx/forwarding/numbers",
+      "pages": "59-61",
+      "tokens": 1829,
+      "path": "docs/kb/vpbx-api/sections/51-poluchit-spisok-pravil-pereadresacii.md"
+    },
+    {
+      "id": "vpbx-api-52-dobavlenie-novogo-pravila-pereadresacii",
+      "section": "3.3.2",
+      "title": "Добавление нового правила переадресации",
+      "hint": "POST /vpbx/forwarding/number/add",
+      "pages": "62-63",
+      "tokens": 1711,
+      "path": "docs/kb/vpbx-api/sections/52-dobavlenie-novogo-pravila-pereadresacii.md"
+    },
+    {
+      "id": "vpbx-api-53-izmenenie-pravila-pereadresacii",
+      "section": "3.3.3",
+      "title": "Изменение правила переадресации",
+      "hint": "POST /vpbx/forwarding/number/change",
+      "pages": "64-65",
+      "tokens": 1586,
+      "path": "docs/kb/vpbx-api/sections/53-izmenenie-pravila-pereadresacii.md"
+    },
+    {
+      "id": "vpbx-api-54-udalenie-pravila-pereadresacii",
+      "section": "3.3.4",
+      "title": "Удаление правила переадресации",
+      "hint": "POST /vpbx/forwarding/number/remove",
+      "pages": "65-66",
+      "tokens": 461,
+      "path": "docs/kb/vpbx-api/sections/54-udalenie-pravila-pereadresacii.md"
+    },
+    {
+      "id": "vpbx-api-55-api-statistika",
+      "section": "3.4",
+      "title": "API Статистика",
+      "hint": "Позволяет получить данные истории вызовов с помощью асинхронных запросов.",
+      "pages": "66",
+      "tokens": 138,
+      "path": "docs/kb/vpbx-api/sections/55-api-statistika.md"
+    },
+    {
+      "id": "vpbx-api-56-zapros-bazovoy-statistiki",
+      "section": "3.4.1",
+      "title": "Запрос базовой статистики",
+      "hint": "Получение базовой статистики состоит из следующих этапов:",
+      "pages": "66",
+      "tokens": 125,
+      "path": "docs/kb/vpbx-api/sections/56-zapros-bazovoy-statistiki.md"
+    },
+    {
+      "id": "vpbx-api-57-zapusk-formirovaniya-statistiki",
+      "section": "3.4.1.1",
+      "title": "Запуск формирования статистики",
+      "hint": "POST /vpbx/stats/request",
+      "pages": "66-69",
+      "tokens": 1805,
+      "path": "docs/kb/vpbx-api/sections/57-zapusk-formirovaniya-statistiki.md"
+    },
+    {
+      "id": "vpbx-api-58-poluchenie-statistiki-vyzovov",
+      "section": "3.4.1.2",
+      "title": "Получение статистики вызовов",
+      "hint": "Подготовленные данные хранятся до обращения за ними не менее 1 минуты.",
+      "pages": "69-71",
+      "tokens": 1820,
+      "path": "docs/kb/vpbx-api/sections/58-poluchenie-statistiki-vyzovov.md"
+    },
+    {
+      "id": "vpbx-api-59-zapros-rasshirennoy-statistiki",
+      "section": "3.4.2",
+      "title": "Запрос расширенной статистики",
+      "hint": "",
+      "pages": "71",
+      "tokens": 79,
+      "path": "docs/kb/vpbx-api/sections/59-zapros-rasshirennoy-statistiki.md"
+    },
+    {
+      "id": "vpbx-api-60-obzor",
+      "section": "3.4.2.1",
+      "title": "Обзор",
+      "hint": "Запрос расширенной статистики – это новый вид запроса, обработка которого оптимизирована",
+      "pages": "71",
+      "tokens": 242,
+      "path": "docs/kb/vpbx-api/sections/60-obzor.md"
+    },
+    {
+      "id": "vpbx-api-61-zapusk-formirovaniya-statistiki",
+      "section": "3.4.2.2",
+      "title": "Запуск формирования статистики",
+      "hint": "POST /vpbx/stats/calls/request",
+      "pages": "71-72",
+      "tokens": 1365,
+      "path": "docs/kb/vpbx-api/sections/61-zapusk-formirovaniya-statistiki.md"
+    },
+    {
+      "id": "vpbx-api-62-poluchenie-statistiki-vyzovov",
+      "section": "3.4.2.3",
+      "title": "Получение статистики вызовов",
+      "hint": "Подготовленные данные хранятся до обращения за ними не менее 1 минуты.",
+      "pages": "72-86",
+      "tokens": 8589,
+      "path": "docs/kb/vpbx-api/sections/62-poluchenie-statistiki-vyzovov.md"
+    },
+    {
+      "id": "vpbx-api-63-api-zapisi-razgovorov-rechevaya-analitik",
+      "section": "3.5",
+      "title": "API Записи разговоров, Речевая Аналитика",
+      "hint": "Речевая Аналитика (далее по тексту – РА) – это сервис, который позволяет расшифровывать и",
+      "pages": "87",
+      "tokens": 548,
+      "path": "docs/kb/vpbx-api/sections/63-api-zapisi-razgovorov-rechevaya-analitik.md"
+    },
+    {
+      "id": "vpbx-api-64-poluchenie-zapisi-razgovora-posredstvom",
+      "section": "3.5.1",
+      "title": "Получение записи разговора посредством POST запроса",
+      "hint": "POST /vpbx/queries/recording/post",
+      "pages": "87-88",
+      "tokens": 466,
+      "path": "docs/kb/vpbx-api/sections/64-poluchenie-zapisi-razgovora-posredstvom.md"
+    },
+    {
+      "id": "vpbx-api-65-poluchenie-zapisi-razgovora-posredstvom",
+      "section": "3.5.2",
+      "title": "Получение записи разговора посредством GET запроса без авторизации",
+      "hint": "GET",
+      "pages": "88-89",
+      "tokens": 729,
+      "path": "docs/kb/vpbx-api/sections/65-poluchenie-zapisi-razgovora-posredstvom.md"
+    },
+    {
+      "id": "vpbx-api-66-pryamaya-ssylka-na-zapis-razgovora-s-avt",
+      "section": "3.5.3",
+      "title": "Прямая ссылка на запись разговора с авторизацией через Личный кабинет",
+      "hint": "GET /vpbx/queries/recording/issa/[recording_id]/[action]",
+      "pages": "90",
+      "tokens": 639,
+      "path": "docs/kb/vpbx-api/sections/66-pryamaya-ssylka-na-zapis-razgovora-s-avt.md"
+    },
+    {
+      "id": "vpbx-api-67-poluchenie-tematik-razgovora-speech2text",
+      "section": "3.5.4",
+      "title": "Получение тематик разговора (Speech2Text)",
+      "hint": "POST /vpbx/queries/recording_categories",
+      "pages": "90-92",
+      "tokens": 1482,
+      "path": "docs/kb/vpbx-api/sections/67-poluchenie-tematik-razgovora-speech2text.md"
+    },
+    {
+      "id": "vpbx-api-68-poluchenie-spiska-rasshifrovok-raspoznan",
+      "section": "3.5.5",
+      "title": "Получение списка расшифровок распознанных разговоров",
+      "hint": "POST /vpbx/queries/recording_transcripts",
+      "pages": "92-94",
+      "tokens": 956,
+      "path": "docs/kb/vpbx-api/sections/68-poluchenie-spiska-rasshifrovok-raspoznan.md"
+    },
+    {
+      "id": "vpbx-api-69-zapros-informacii-o-konspekte-razgovora",
+      "section": "3.5.6",
+      "title": "Запрос информации о конспекте разговора",
+      "hint": "POST /s2t/queries/recording_summary",
+      "pages": "94",
+      "tokens": 627,
+      "path": "docs/kb/vpbx-api/sections/69-zapros-informacii-o-konspekte-razgovora.md"
+    },
+    {
+      "id": "vpbx-api-70-zapros-zapisey-s-rasshifrovkami-zvonkov",
+      "section": "3.5.7",
+      "title": "Запрос записей с расшифровками звонков",
+      "hint": "POST /s2t/queries/records",
+      "pages": "95-96",
+      "tokens": 964,
+      "path": "docs/kb/vpbx-api/sections/70-zapros-zapisey-s-rasshifrovkami-zvonkov.md"
+    },
+    {
+      "id": "vpbx-api-71-poluchenie-spiska-ii-pomoschnikov",
+      "section": "3.5.8",
+      "title": "Получение списка ИИ помощников",
+      "hint": "POST /s2t/queries/ai_agents",
+      "pages": "96-99",
+      "tokens": 1803,
+      "path": "docs/kb/vpbx-api/sections/71-poluchenie-spiska-ii-pomoschnikov.md"
+    },
+    {
+      "id": "vpbx-api-72-poluchenie-rezultatov-raboty-ii-pomoschn",
+      "section": "3.5.9",
+      "title": "Получение результатов работы ИИ помощников",
+      "hint": "POST /s2t/queries/recording_agents",
+      "pages": "100-102",
+      "tokens": 1614,
+      "path": "docs/kb/vpbx-api/sections/72-poluchenie-rezultatov-raboty-ii-pomoschn.md"
+    },
+    {
+      "id": "vpbx-api-73-skvoznaya-analitika",
+      "section": "3.6",
+      "title": "Сквозная аналитика.",
+      "hint": "",
+      "pages": "102",
+      "tokens": 72,
+      "path": "docs/kb/vpbx-api/sections/73-skvoznaya-analitika.md"
+    },
+    {
+      "id": "vpbx-api-74-zapros-informacii-o-posetitele-sayta-po",
+      "section": "3.6.1",
+      "title": "Запрос информации о посетителе сайта по динамическому номеру",
+      "hint": "POST /vpbx/queries/user_info_by_dct_number",
+      "pages": "102-104",
+      "tokens": 1429,
+      "path": "docs/kb/vpbx-api/sections/74-zapros-informacii-o-posetitele-sayta-po.md"
+    },
+    {
+      "id": "vpbx-api-75-zapros-istorii-navigacii-posetitelya-say",
+      "section": "3.6.2",
+      "title": "Запрос истории навигации посетителя сайта по динамическому номеру",
+      "hint": "POST /vpbx/queries/user_history_by_dct_number",
+      "pages": "104",
+      "tokens": 490,
+      "path": "docs/kb/vpbx-api/sections/75-zapros-istorii-navigacii-posetitelya-say.md"
+    },
+    {
+      "id": "vpbx-api-76-api-konfiguraciya",
+      "section": "3.7",
+      "title": "API Конфигурация",
+      "hint": "API Конфигурация — служит для управления параметрами Виртуальной АТС, а также",
+      "pages": "105",
+      "tokens": 117,
+      "path": "docs/kb/vpbx-api/sections/76-api-konfiguraciya.md"
+    },
+    {
+      "id": "vpbx-api-77-zapros-spiska-sotrudnikov-vats",
+      "section": "3.7.1",
+      "title": "Запрос списка сотрудников ВАТС",
+      "hint": "POST /vpbx/config/users/request",
+      "pages": "105-113",
+      "tokens": 3849,
+      "path": "docs/kb/vpbx-api/sections/77-zapros-spiska-sotrudnikov-vats.md"
+    },
+    {
+      "id": "vpbx-api-78-poluchit-spisok-grupp",
+      "section": "3.7.2",
+      "title": "Получить список групп",
+      "hint": "POST /vpbx/groups",
+      "pages": "113-116",
+      "tokens": 2092,
+      "path": "docs/kb/vpbx-api/sections/78-poluchit-spisok-grupp.md"
+    },
+    {
+      "id": "vpbx-api-79-dobavit-gruppu",
+      "section": "3.7.3",
+      "title": "Добавить группу",
+      "hint": "POST /vpbx/group/create",
+      "pages": "116-118",
+      "tokens": 1840,
+      "path": "docs/kb/vpbx-api/sections/79-dobavit-gruppu.md"
+    },
+    {
+      "id": "vpbx-api-80-redaktirovat-gruppu",
+      "section": "3.7.4",
+      "title": "Редактировать группу",
+      "hint": "POST /vpbx/group/update",
+      "pages": "118-120",
+      "tokens": 2159,
+      "path": "docs/kb/vpbx-api/sections/80-redaktirovat-gruppu.md"
+    },
+    {
+      "id": "vpbx-api-81-udalit-gruppu",
+      "section": "3.7.5",
+      "title": "Удалить группу",
+      "hint": "POST /vpbx/group/delete",
+      "pages": "121",
+      "tokens": 526,
+      "path": "docs/kb/vpbx-api/sections/81-udalit-gruppu.md"
+    },
+    {
+      "id": "vpbx-api-82-poluchenie-balansa",
+      "section": "3.7.6",
+      "title": "Получение баланса",
+      "hint": "POST /vpbx/account/balance",
+      "pages": "121-122",
+      "tokens": 372,
+      "path": "docs/kb/vpbx-api/sections/82-poluchenie-balansa.md"
+    },
+    {
+      "id": "vpbx-api-83-poluchenie-spiska-nomerov-vats",
+      "section": "3.7.7",
+      "title": "Получение списка номеров ВАТС",
+      "hint": "POST /vpbx/incominglines",
+      "pages": "122-123",
+      "tokens": 854,
+      "path": "docs/kb/vpbx-api/sections/83-poluchenie-spiska-nomerov-vats.md"
+    },
+    {
+      "id": "vpbx-api-84-poluchenie-spiska-melodiy-i-zvukovyh-soo",
+      "section": "3.7.8",
+      "title": "Получение списка мелодий и звуковых сообщений",
+      "hint": "POST /vpbx/audiofiles",
+      "pages": "123-124",
+      "tokens": 590,
+      "path": "docs/kb/vpbx-api/sections/84-poluchenie-spiska-melodiy-i-zvukovyh-soo.md"
+    },
+    {
+      "id": "vpbx-api-85-poluchenie-spiska-shem-pereadresaciy",
+      "section": "3.7.9",
+      "title": "Получение списка схем переадресаций",
+      "hint": "POST /vpbx/schemas",
+      "pages": "124-126",
+      "tokens": 1118,
+      "path": "docs/kb/vpbx-api/sections/85-poluchenie-spiska-shem-pereadresaciy.md"
+    },
+    {
+      "id": "vpbx-api-86-ustanovit-shemu-na-vhodyaschem-nomere",
+      "section": "3.7.10",
+      "title": "Установить схему на входящем номере",
+      "hint": "POST /vpbx/schema/set",
+      "pages": "127-128",
+      "tokens": 721,
+      "path": "docs/kb/vpbx-api/sections/86-ustanovit-shemu-na-vhodyaschem-nomere.md"
+    },
+    {
+      "id": "vpbx-api-87-poluchit-spisok-roley",
+      "section": "3.7.11",
+      "title": "Получить список ролей",
+      "hint": "POST /vpbx/roles",
+      "pages": "128-129",
+      "tokens": 593,
+      "path": "docs/kb/vpbx-api/sections/87-poluchit-spisok-roley.md"
+    },
+    {
+      "id": "vpbx-api-88-sozdat-sotrudnika",
+      "section": "3.7.12",
+      "title": "Создать сотрудника",
+      "hint": "POST /vpbx/member/create",
+      "pages": "130-131",
+      "tokens": 1621,
+      "path": "docs/kb/vpbx-api/sections/88-sozdat-sotrudnika.md"
+    },
+    {
+      "id": "vpbx-api-89-redaktirovat-sotrudnika",
+      "section": "3.7.13",
+      "title": "Редактировать сотрудника",
+      "hint": "Метод позволяет редактировать данные сотрудника Виртуальной АТС.",
+      "pages": "131",
+      "tokens": 155,
+      "path": "docs/kb/vpbx-api/sections/89-redaktirovat-sotrudnika.md"
+    },
+    {
+      "id": "vpbx-api-90-ogranicheniya",
+      "section": "3.7.13.1",
+      "title": "Ограничения",
+      "hint": "Необходимо учитывать следующие факторы:",
+      "pages": "131-132",
+      "tokens": 313,
+      "path": "docs/kb/vpbx-api/sections/90-ogranicheniya.md"
+    },
+    {
+      "id": "vpbx-api-91-opisanie-metoda",
+      "section": "3.7.13.2",
+      "title": "Описание метода",
+      "hint": "POST /vpbx/member/update",
+      "pages": "132-134",
+      "tokens": 1695,
+      "path": "docs/kb/vpbx-api/sections/91-opisanie-metoda.md"
+    },
+    {
+      "id": "vpbx-api-92-udalit-sotrudnika",
+      "section": "3.7.14",
+      "title": "Удалить сотрудника",
+      "hint": "POST /vpbx/member/delete",
+      "pages": "135",
+      "tokens": 419,
+      "path": "docs/kb/vpbx-api/sections/92-udalit-sotrudnika.md"
+    },
+    {
+      "id": "vpbx-api-93-poluchit-spisok-individualnyh-pravil-avt",
+      "section": "3.7.15",
+      "title": "Получить список индивидуальных правил автосекретаря для сотрудников",
+      "hint": "POST /vpbx/autosecretary/rules",
+      "pages": "135-138",
+      "tokens": 1903,
+      "path": "docs/kb/vpbx-api/sections/93-poluchit-spisok-individualnyh-pravil-avt.md"
+    },
+    {
+      "id": "vpbx-api-94-izmenit-status-individualnyh-pravil-avto",
+      "section": "3.7.16",
+      "title": "Изменить статус индивидуальных правил автосекретаря сотрудника",
+      "hint": "POST /vpbx/autosecretary/status/change",
+      "pages": "138",
+      "tokens": 547,
+      "path": "docs/kb/vpbx-api/sections/94-izmenit-status-individualnyh-pravil-avto.md"
+    },
+    {
+      "id": "vpbx-api-95-poluchit-sip-uchetnye-zapisi-sotrudnikov",
+      "section": "3.7.17",
+      "title": "Получить sip учетные записи сотрудников",
+      "hint": "POST /vpbx/sips",
+      "pages": "139",
+      "tokens": 506,
+      "path": "docs/kb/vpbx-api/sections/95-poluchit-sip-uchetnye-zapisi-sotrudnikov.md"
+    },
+    {
+      "id": "vpbx-api-96-poluchit-nastroennye-domeny",
+      "section": "3.7.18",
+      "title": "Получить настроенные домены",
+      "hint": "POST /vpbx/domains",
+      "pages": "140",
+      "tokens": 351,
+      "path": "docs/kb/vpbx-api/sections/96-poluchit-nastroennye-domeny.md"
+    },
+    {
+      "id": "vpbx-api-97-sozdat-sip-uchetku",
+      "section": "3.7.19",
+      "title": "Создать sip-учетку",
+      "hint": "POST /vpbx/sip/create",
+      "pages": "140-141",
+      "tokens": 608,
+      "path": "docs/kb/vpbx-api/sections/97-sozdat-sip-uchetku.md"
+    },
+    {
+      "id": "vpbx-api-98-redaktirovat-sip-uchetku",
+      "section": "3.7.20",
+      "title": "Редактировать sip-учетку",
+      "hint": "POST /vpbx/sip/update",
+      "pages": "141-142",
+      "tokens": 733,
+      "path": "docs/kb/vpbx-api/sections/98-redaktirovat-sip-uchetku.md"
+    },
+    {
+      "id": "vpbx-api-99-udalit-sip-uchetku",
+      "section": "3.7.21",
+      "title": "Удалить sip-учетку",
+      "hint": "POST /vpbx/sip/delete",
+      "pages": "142-143",
+      "tokens": 404,
+      "path": "docs/kb/vpbx-api/sections/99-udalit-sip-uchetku.md"
+    },
+    {
+      "id": "vpbx-api-100-zapros-nomerov-sip-trunk-ov",
+      "section": "3.7.22",
+      "title": "Запрос номеров sip-trunk'ов",
+      "hint": "POST /vpbx/trunks/numbers",
+      "pages": "143-144",
+      "tokens": 583,
+      "path": "docs/kb/vpbx-api/sections/100-zapros-nomerov-sip-trunk-ov.md"
+    },
+    {
+      "id": "vpbx-api-101-api-zapreschennyh-napravleniy-vyzova",
+      "section": "3.8",
+      "title": "API запрещенных направлений вызова",
+      "hint": "",
+      "pages": "144",
+      "tokens": 75,
+      "path": "docs/kb/vpbx-api/sections/101-api-zapreschennyh-napravleniy-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-102-obschee",
+      "section": "3.8.1",
+      "title": "Общее",
+      "hint": "При помощи данных методов API вы можете ограничить прием и совершение вызовов через",
+      "pages": "144",
+      "tokens": 360,
+      "path": "docs/kb/vpbx-api/sections/102-obschee.md"
+    },
+    {
+      "id": "vpbx-api-103-ogranichenie-vhodyaschih-kommunikaciy",
+      "section": "3.8.2",
+      "title": "Ограничение входящих коммуникаций",
+      "hint": "",
+      "pages": "144",
+      "tokens": 83,
+      "path": "docs/kb/vpbx-api/sections/103-ogranichenie-vhodyaschih-kommunikaciy.md"
+    },
+    {
+      "id": "vpbx-api-104-poluchenie-tekuschego-rezhima-raboty-ch",
+      "section": "3.8.2.1",
+      "title": "Получение текущего режима работы ч/б списка",
+      "hint": "POST /vpbx/bwlists/state/",
+      "pages": "144-145",
+      "tokens": 506,
+      "path": "docs/kb/vpbx-api/sections/104-poluchenie-tekuschego-rezhima-raboty-ch.md"
+    },
+    {
+      "id": "vpbx-api-105-poluchnenie-spiska-nomerov-vhodyaschih-v",
+      "section": "3.8.2.2",
+      "title": "Получнение списка номеров, входящих в ч/б списки ВАТС",
+      "hint": "POST /vpbx/bwlists/numbers/",
+      "pages": "145-147",
+      "tokens": 993,
+      "path": "docs/kb/vpbx-api/sections/105-poluchnenie-spiska-nomerov-vhodyaschih-v.md"
+    },
+    {
+      "id": "vpbx-api-106-dobavlenie-nomera-v-ch-b-spisok-vats",
+      "section": "3.8.2.3",
+      "title": "Добавление номера в ч/б список ВАТС",
+      "hint": "POST /vpbx/bwlists/number/add/",
+      "pages": "147-148",
+      "tokens": 725,
+      "path": "docs/kb/vpbx-api/sections/106-dobavlenie-nomera-v-ch-b-spisok-vats.md"
+    },
+    {
+      "id": "vpbx-api-107-udalenie-nomera-iz-ch-b-spiska-vats",
+      "section": "3.8.2.4",
+      "title": "Удаление номера из ч/б списка ВАТС",
+      "hint": "POST /vpbx/bwlists/number/delete/",
+      "pages": "148",
+      "tokens": 430,
+      "path": "docs/kb/vpbx-api/sections/107-udalenie-nomera-iz-ch-b-spiska-vats.md"
+    },
+    {
+      "id": "vpbx-api-108-ogranichenie-ishodyaschih-kommunikaciy",
+      "section": "3.8.3",
+      "title": "Ограничение исходящих коммуникаций",
+      "hint": "",
+      "pages": "149",
+      "tokens": 84,
+      "path": "docs/kb/vpbx-api/sections/108-ogranichenie-ishodyaschih-kommunikaciy.md"
+    },
+    {
+      "id": "vpbx-api-109-poluchenie-spiska-nomerov-vklyuchennyh-v",
+      "section": "3.8.3.1",
+      "title": "Получение списка номеров, включенных в \"черный\" список ИО",
+      "hint": "POST /vpbx/outbound_blacklist/get",
+      "pages": "149-150",
+      "tokens": 1164,
+      "path": "docs/kb/vpbx-api/sections/109-poluchenie-spiska-nomerov-vklyuchennyh-v.md"
+    },
+    {
+      "id": "vpbx-api-110-dobavlenie-nomera-v-chernyy-spisok-io",
+      "section": "3.8.3.2",
+      "title": "Добавление номера в \"черный\" список ИО",
+      "hint": "POST /vpbx/outbound_blacklist/add",
+      "pages": "150-152",
+      "tokens": 1143,
+      "path": "docs/kb/vpbx-api/sections/110-dobavlenie-nomera-v-chernyy-spisok-io.md"
+    },
+    {
+      "id": "vpbx-api-111-obnovlenie-opisaniya-nomera-v-chernom-sp",
+      "section": "3.8.3.3",
+      "title": "Обновление описания номера в \"черном\" списке ИО",
+      "hint": "POST /vpbx/outbound_blacklist/update_description",
+      "pages": "152-153",
+      "tokens": 711,
+      "path": "docs/kb/vpbx-api/sections/111-obnovlenie-opisaniya-nomera-v-chernom-sp.md"
+    },
+    {
+      "id": "vpbx-api-112-blokirovka-nomera-vnesennogo-v-chernyy-s",
+      "section": "3.8.3.4",
+      "title": "Блокировка номера, внесенного в \"черный\" список ИО",
+      "hint": "POST /vpbx/outbound_blacklist/enable_mode",
+      "pages": "153-154",
+      "tokens": 839,
+      "path": "docs/kb/vpbx-api/sections/112-blokirovka-nomera-vnesennogo-v-chernyy-s.md"
+    },
+    {
+      "id": "vpbx-api-113-razblokirovka-nomera-vnesennogo-v-cherny",
+      "section": "3.8.3.5",
+      "title": "Разблокировка номера, внесенного в \"черный\" список ИО",
+      "hint": "POST /vpbx/outbound_blacklist/disable_mode",
+      "pages": "154-155",
+      "tokens": 812,
+      "path": "docs/kb/vpbx-api/sections/113-razblokirovka-nomera-vnesennogo-v-cherny.md"
+    },
+    {
+      "id": "vpbx-api-114-udalenie-nomera-iz-chernogo-spiska-io",
+      "section": "3.8.3.6",
+      "title": "Удаление номера из \"черного\" списка ИО",
+      "hint": "POST /vpbx/outbound_blacklist/delete",
+      "pages": "155-156",
+      "tokens": 604,
+      "path": "docs/kb/vpbx-api/sections/114-udalenie-nomera-iz-chernogo-spiska-io.md"
+    },
+    {
+      "id": "vpbx-api-115-vklyuchenie-zapreta-na-vse-ishodyaschie",
+      "section": "3.8.3.7",
+      "title": "Включение запрета на все исходящие коммуникации",
+      "hint": "POST /vpbx/outbound_blacklist/enable",
+      "pages": "156",
+      "tokens": 354,
+      "path": "docs/kb/vpbx-api/sections/115-vklyuchenie-zapreta-na-vse-ishodyaschie.md"
+    },
+    {
+      "id": "vpbx-api-116-vyklyuchenie-zapreta-na-vse-ishodyaschie",
+      "section": "3.8.3.8",
+      "title": "Выключение запрета на все исходящие коммуникации",
+      "hint": "POST /vpbx/outbound_blacklist/disable",
+      "pages": "157",
+      "tokens": 364,
+      "path": "docs/kb/vpbx-api/sections/116-vyklyuchenie-zapreta-na-vse-ishodyaschie.md"
+    },
+    {
+      "id": "vpbx-api-117-api-dlya-raboty-s-adresnoy-knigoy",
+      "section": "3.9",
+      "title": "API для работы с адресной книгой",
+      "hint": "Возможности API, указанные в данном разделе, служат для управления адресной книгой",
+      "pages": "157",
+      "tokens": 168,
+      "path": "docs/kb/vpbx-api/sections/117-api-dlya-raboty-s-adresnoy-knigoy.md"
+    },
+    {
+      "id": "vpbx-api-118-organizacii",
+      "section": "3.9.1",
+      "title": "Организации",
+      "hint": "",
+      "pages": "157",
+      "tokens": 71,
+      "path": "docs/kb/vpbx-api/sections/118-organizacii.md"
+    },
+    {
+      "id": "vpbx-api-119-poluchit-organizaciyu-po-id",
+      "section": "3.9.1.1",
+      "title": "Получить организацию по id",
+      "hint": "POST /vpbx/ab/organization",
+      "pages": "157-159",
+      "tokens": 463,
+      "path": "docs/kb/vpbx-api/sections/119-poluchit-organizaciyu-po-id.md"
+    },
+    {
+      "id": "vpbx-api-120-poluchit-spisok-organizaciy-iniciaciya-o",
+      "section": "3.9.1.2",
+      "title": "Получить список организаций, инициация отчета",
+      "hint": "POST /vpbx/ab/organizations/init",
+      "pages": "159-161",
+      "tokens": 1383,
+      "path": "docs/kb/vpbx-api/sections/120-poluchit-spisok-organizaciy-iniciaciya-o.md"
+    },
+    {
+      "id": "vpbx-api-121-poluchit-spisok-organizaciy-postranichno",
+      "section": "3.9.1.3",
+      "title": "Получить список организаций, постраничное получение",
+      "hint": "POST /vpbx/ab/organizations/cursor",
+      "pages": "161-163",
+      "tokens": 1406,
+      "path": "docs/kb/vpbx-api/sections/121-poluchit-spisok-organizaciy-postranichno.md"
+    },
+    {
+      "id": "vpbx-api-122-dobavit-organizaciyu",
+      "section": "3.9.1.4",
+      "title": "Добавить организацию",
+      "hint": "POST /vpbx/ab/organizations/create",
+      "pages": "163-164",
+      "tokens": 688,
+      "path": "docs/kb/vpbx-api/sections/122-dobavit-organizaciyu.md"
+    },
+    {
+      "id": "vpbx-api-123-redaktirovat-organizaciyu",
+      "section": "3.9.1.5",
+      "title": "Редактировать организацию",
+      "hint": "POST /vpbx/ab/organizations/update",
+      "pages": "164-165",
+      "tokens": 695,
+      "path": "docs/kb/vpbx-api/sections/123-redaktirovat-organizaciyu.md"
+    },
+    {
+      "id": "vpbx-api-124-udalit-organizaciyu",
+      "section": "3.9.1.6",
+      "title": "Удалить организацию",
+      "hint": "POST /vpbx/ab/organizations/delete",
+      "pages": "165-166",
+      "tokens": 493,
+      "path": "docs/kb/vpbx-api/sections/124-udalit-organizaciyu.md"
+    },
+    {
+      "id": "vpbx-api-125-gruppy",
+      "section": "3.9.2",
+      "title": "Группы",
+      "hint": "",
+      "pages": "166",
+      "tokens": 69,
+      "path": "docs/kb/vpbx-api/sections/125-gruppy.md"
+    },
+    {
+      "id": "vpbx-api-126-poluchit-gruppu-po-id",
+      "section": "3.9.2.1",
+      "title": "Получить группу по id",
+      "hint": "POST /vpbx/ab/group",
+      "pages": "166-167",
+      "tokens": 451,
+      "path": "docs/kb/vpbx-api/sections/126-poluchit-gruppu-po-id.md"
+    },
+    {
+      "id": "vpbx-api-127-poluchit-spisok-grupp-iniciaciya-otcheta",
+      "section": "3.9.2.2",
+      "title": "Получить список групп, инициация отчета",
+      "hint": "POST /vpbx/ab/groups/init",
+      "pages": "167-168",
+      "tokens": 1351,
+      "path": "docs/kb/vpbx-api/sections/127-poluchit-spisok-grupp-iniciaciya-otcheta.md"
+    },
+    {
+      "id": "vpbx-api-128-poluchit-spisok-grupp-postranichnoe-polu",
+      "section": "3.9.2.3",
+      "title": "Получить список групп, постраничное получение",
+      "hint": "POST /vpbx/ab/groups/cursor",
+      "pages": "168-170",
+      "tokens": 1437,
+      "path": "docs/kb/vpbx-api/sections/128-poluchit-spisok-grupp-postranichnoe-polu.md"
+    },
+    {
+      "id": "vpbx-api-129-dobavit-gruppu",
+      "section": "3.9.2.4",
+      "title": "Добавить группу",
+      "hint": "POST /vpbx/ab/groups/create/",
+      "pages": "170-171",
+      "tokens": 613,
+      "path": "docs/kb/vpbx-api/sections/129-dobavit-gruppu.md"
+    },
+    {
+      "id": "vpbx-api-130-redaktirovat-gruppu",
+      "section": "3.9.2.5",
+      "title": "Редактировать группу",
+      "hint": "POST /vpbx/ab/groups/update",
+      "pages": "171-172",
+      "tokens": 668,
+      "path": "docs/kb/vpbx-api/sections/130-redaktirovat-gruppu.md"
+    },
+    {
+      "id": "vpbx-api-131-udalit-gruppu",
+      "section": "3.9.2.6",
+      "title": "Удалить группу",
+      "hint": "POST /vpbx/ab/groups/delete",
+      "pages": "172-173",
+      "tokens": 397,
+      "path": "docs/kb/vpbx-api/sections/131-udalit-gruppu.md"
+    },
+    {
+      "id": "vpbx-api-132-kontakty",
+      "section": "3.9.3",
+      "title": "Контакты",
+      "hint": "",
+      "pages": "173",
+      "tokens": 70,
+      "path": "docs/kb/vpbx-api/sections/132-kontakty.md"
+    },
+    {
+      "id": "vpbx-api-133-poluchit-spisok-kontaktov-iniciaciya-otc",
+      "section": "3.9.3.1",
+      "title": "Получить список контактов, инициация отчета",
+      "hint": "POST /vpbx/ab/contact/init",
+      "pages": "173-178",
+      "tokens": 3651,
+      "path": "docs/kb/vpbx-api/sections/133-poluchit-spisok-kontaktov-iniciaciya-otc.md"
+    },
+    {
+      "id": "vpbx-api-134-poluchit-spisok-kontaktov-postranichnoe",
+      "section": "3.9.3.2",
+      "title": "Получить список контактов, постраничное получение",
+      "hint": "POST /vpbx/ab/contact/cursor",
+      "pages": "178-182",
+      "tokens": 3539,
+      "path": "docs/kb/vpbx-api/sections/134-poluchit-spisok-kontaktov-postranichnoe.md"
+    },
+    {
+      "id": "vpbx-api-135-poluchit-kontakt-po-id",
+      "section": "3.9.3.3",
+      "title": "Получить контакт по id",
+      "hint": "POST /vpbx/ab/contact",
+      "pages": "182-185",
+      "tokens": 2582,
+      "path": "docs/kb/vpbx-api/sections/135-poluchit-kontakt-po-id.md"
+    },
+    {
+      "id": "vpbx-api-136-dobavit-kontakt",
+      "section": "3.9.3.4",
+      "title": "Добавить контакт",
+      "hint": "POST /vpbx/ab/contacts/create/",
+      "pages": "185-191",
+      "tokens": 3759,
+      "path": "docs/kb/vpbx-api/sections/136-dobavit-kontakt.md"
+    },
+    {
+      "id": "vpbx-api-137-redaktirovat-kontakt",
+      "section": "3.9.3.5",
+      "title": "Редактировать контакт",
+      "hint": "POST /vpbx/ab/contacts/update",
+      "pages": "191-195",
+      "tokens": 3756,
+      "path": "docs/kb/vpbx-api/sections/137-redaktirovat-kontakt.md"
+    },
+    {
+      "id": "vpbx-api-138-udalit-kontakt",
+      "section": "3.9.3.6",
+      "title": "Удалить контакт",
+      "hint": "POST /vpbx/ab/contacts/delete",
+      "pages": "195-196",
+      "tokens": 398,
+      "path": "docs/kb/vpbx-api/sections/138-udalit-kontakt.md"
+    },
+    {
+      "id": "vpbx-api-139-uvedomlenie-ob-operaciyah-s-adresnoy-kni",
+      "section": "3.9.4",
+      "title": "Уведомление об операциях с адресной книгой",
+      "hint": "",
+      "pages": "196",
+      "tokens": 81,
+      "path": "docs/kb/vpbx-api/sections/139-uvedomlenie-ob-operaciyah-s-adresnoy-kni.md"
+    },
+    {
+      "id": "vpbx-api-140-obzor",
+      "section": "3.9.4.1",
+      "title": "Обзор",
+      "hint": "POST https://external-system.com/events/ab/",
+      "pages": "196",
+      "tokens": 164,
+      "path": "docs/kb/vpbx-api/sections/140-obzor.md"
+    },
+    {
+      "id": "vpbx-api-141-dlya-organizaciy",
+      "section": "3.9.4.2",
+      "title": "Для организаций",
+      "hint": "Параметры:",
+      "pages": "196-197",
+      "tokens": 659,
+      "path": "docs/kb/vpbx-api/sections/141-dlya-organizaciy.md"
+    },
+    {
+      "id": "vpbx-api-142-dlya-grupp",
+      "section": "3.9.4.3",
+      "title": "Для групп",
+      "hint": "Параметры:",
+      "pages": "197-199",
+      "tokens": 901,
+      "path": "docs/kb/vpbx-api/sections/142-dlya-grupp.md"
+    },
+    {
+      "id": "vpbx-api-143-dlya-kontaktov",
+      "section": "3.9.4.4",
+      "title": "Для контактов",
+      "hint": "Параметры запроса:",
+      "pages": "199-201",
+      "tokens": 2361,
+      "path": "docs/kb/vpbx-api/sections/143-dlya-kontaktov.md"
+    },
+    {
+      "id": "vpbx-api-144-poluchenie-nabora-polzovatelskih-poley",
+      "section": "3.9.5",
+      "title": "Получение набора пользовательских полей",
+      "hint": "POST /vpbx/ab/custom_fields/",
+      "pages": "201-203",
+      "tokens": 1184,
+      "path": "docs/kb/vpbx-api/sections/144-poluchenie-nabora-polzovatelskih-poley.md"
+    },
+    {
+      "id": "vpbx-api-145-api-dlya-raboty-s-zapisyami-i-metadannym",
+      "section": "3.10",
+      "title": "API для работы с записями и метаданными, полученными из оффлайн-источников",
+      "hint": "оффлайн-источников",
+      "pages": "203-204",
+      "tokens": 157,
+      "path": "docs/kb/vpbx-api/sections/145-api-dlya-raboty-s-zapisyami-i-metadannym.md"
+    },
+    {
+      "id": "vpbx-api-146-zagruzka-i-raspoznavanie-rechi-v-wav-fay",
+      "section": "3.10.1",
+      "title": "Загрузка и распознавание речи в WAV-файле с привязкой к сотруднику",
+      "hint": "",
+      "pages": "204",
+      "tokens": 100,
+      "path": "docs/kb/vpbx-api/sections/146-zagruzka-i-raspoznavanie-rechi-v-wav-fay.md"
+    },
+    {
+      "id": "vpbx-api-147-obzor",
+      "section": "3.10.1.1",
+      "title": "Обзор",
+      "hint": "Метод обеспечивает загрузку в ВАТС и распознавание речи в звуковом файле, который",
+      "pages": "204",
+      "tokens": 452,
+      "path": "docs/kb/vpbx-api/sections/147-obzor.md"
+    },
+    {
+      "id": "vpbx-api-148-trebovaniya-i-rekomendacii",
+      "section": "3.10.1.2",
+      "title": "Требования и рекомендации",
+      "hint": "Чтобы использовать данный метод, необходимо в вашей ВАТС подключить услуги:",
+      "pages": "204",
+      "tokens": 296,
+      "path": "docs/kb/vpbx-api/sections/148-trebovaniya-i-rekomendacii.md"
+    },
+    {
+      "id": "vpbx-api-149-opisanie-metoda",
+      "section": "3.10.1.3",
+      "title": "Описание метода",
+      "hint": "POST /vpbx/offline_record/recognize",
+      "pages": "204-206",
+      "tokens": 1585,
+      "path": "docs/kb/vpbx-api/sections/149-opisanie-metoda.md"
+    },
+    {
+      "id": "vpbx-api-150-zagruzka-i-raspoznavanie-rechi-v-wav-fay",
+      "section": "3.10.2",
+      "title": "Загрузка и распознавание речи в WAV-файле без сохранения в ВАТС и без привязки к сотруднику",
+      "hint": "привязки к сотруднику",
+      "pages": "206",
+      "tokens": 121,
+      "path": "docs/kb/vpbx-api/sections/150-zagruzka-i-raspoznavanie-rechi-v-wav-fay.md"
+    },
+    {
+      "id": "vpbx-api-151-obzor",
+      "section": "3.10.2.1",
+      "title": "Обзор",
+      "hint": "Метод обеспечивает загрузку в ВАТС и распознавание речи в звуковом файле, при этом",
+      "pages": "206-207",
+      "tokens": 488,
+      "path": "docs/kb/vpbx-api/sections/151-obzor.md"
+    },
+    {
+      "id": "vpbx-api-152-opisanie-metoda",
+      "section": "3.10.2.2",
+      "title": "Описание метода",
+      "hint": "POST /vpbx/record/recognize",
+      "pages": "207-208",
+      "tokens": 825,
+      "path": "docs/kb/vpbx-api/sections/152-opisanie-metoda.md"
+    },
+    {
+      "id": "vpbx-api-153-sobytie-o-zavershenii-raspoznavaniya-rec",
+      "section": "3.10.3",
+      "title": "Событие о завершении распознавания речи в WAV-файле",
+      "hint": "POST /events/recognized/offline",
+      "pages": "208",
+      "tokens": 462,
+      "path": "docs/kb/vpbx-api/sections/153-sobytie-o-zavershenii-raspoznavaniya-rec.md"
+    },
+    {
+      "id": "vpbx-api-154-poluchenie-rezultata-raspoznavaniya-rech",
+      "section": "3.10.4",
+      "title": "Получение результата распознавания речи в WAV-файле",
+      "hint": "POST /vpbx/transcribes/tasks/",
+      "pages": "209-211",
+      "tokens": 1134,
+      "path": "docs/kb/vpbx-api/sections/154-poluchenie-rezultata-raspoznavaniya-rech.md"
+    },
+    {
+      "id": "vpbx-api-155-opisanie-metodov-api-kontakt-centra-mang",
+      "section": "4",
+      "title": "Описание методов API Контакт-центра MANGO OFFICE",
+      "hint": "",
+      "pages": "212",
+      "tokens": 75,
+      "path": "docs/kb/vpbx-api/sections/155-opisanie-metodov-api-kontakt-centra-mang.md"
+    },
+    {
+      "id": "vpbx-api-156-osnovnoe",
+      "section": "4.1",
+      "title": "Основное",
+      "hint": "1) Этот API позволяет обращаться к некоторым функциям и данными Контакт-центра",
+      "pages": "212",
+      "tokens": 398,
+      "path": "docs/kb/vpbx-api/sections/156-osnovnoe.md"
+    },
+    {
+      "id": "vpbx-api-157-podklyuchenie-i-nastroyka-api-kc",
+      "section": "4.2",
+      "title": "Подключение и настройка API КЦ",
+      "hint": "Чтобы у вас появилась возможность работы с API КЦ, нужно подключить услугу \"Открытое",
+      "pages": "213-214",
+      "tokens": 569,
+      "path": "docs/kb/vpbx-api/sections/157-podklyuchenie-i-nastroyka-api-kc.md"
+    },
+    {
+      "id": "vpbx-api-158-upravlenie-zadachey-na-avtoperezvon",
+      "section": "4.3",
+      "title": "Управление задачей на автоперезвон",
+      "hint": "",
+      "pages": "215",
+      "tokens": 76,
+      "path": "docs/kb/vpbx-api/sections/158-upravlenie-zadachey-na-avtoperezvon.md"
+    },
+    {
+      "id": "vpbx-api-159-sozdanie-zadachi-na-avtoperezvon",
+      "section": "4.3.1",
+      "title": "Создание задачи на автоперезвон",
+      "hint": "POST /cc/task/add",
+      "pages": "215-216",
+      "tokens": 1327,
+      "path": "docs/kb/vpbx-api/sections/159-sozdanie-zadachi-na-avtoperezvon.md"
+    },
+    {
+      "id": "vpbx-api-160-izmenenie-zadachi-na-avtoperezvon",
+      "section": "4.3.2",
+      "title": "Изменение задачи на автоперезвон",
+      "hint": "POST /cc/task/update",
+      "pages": "216-218",
+      "tokens": 1607,
+      "path": "docs/kb/vpbx-api/sections/160-izmenenie-zadachi-na-avtoperezvon.md"
+    },
+    {
+      "id": "vpbx-api-161-poluchenie-zadachi-po-id",
+      "section": "4.3.3",
+      "title": "Получение задачи по ID",
+      "hint": "POST /cc/task/get",
+      "pages": "218-219",
+      "tokens": 1150,
+      "path": "docs/kb/vpbx-api/sections/161-poluchenie-zadachi-po-id.md"
+    },
+    {
+      "id": "vpbx-api-162-poluchenie-spiska-zadach",
+      "section": "4.3.4",
+      "title": "Получение списка задач",
+      "hint": "POST /cc/task/list",
+      "pages": "220-222",
+      "tokens": 1830,
+      "path": "docs/kb/vpbx-api/sections/162-poluchenie-spiska-zadach.md"
+    },
+    {
+      "id": "vpbx-api-163-zavershenie-zadachi",
+      "section": "4.3.5",
+      "title": "Завершение задачи",
+      "hint": "POST /cc/task/done",
+      "pages": "222",
+      "tokens": 378,
+      "path": "docs/kb/vpbx-api/sections/163-zavershenie-zadachi.md"
+    },
+    {
+      "id": "vpbx-api-164-otmena-zadachi",
+      "section": "4.3.6",
+      "title": "Отмена задачи",
+      "hint": "POST /cc/task/cancel",
+      "pages": "223",
+      "tokens": 377,
+      "path": "docs/kb/vpbx-api/sections/164-otmena-zadachi.md"
+    },
+    {
+      "id": "vpbx-api-165-upravlenie-statusami-i-sessiyami-polzova",
+      "section": "4.4",
+      "title": "Управление статусами и сессиями пользователя",
+      "hint": "",
+      "pages": "223",
+      "tokens": 75,
+      "path": "docs/kb/vpbx-api/sections/165-upravlenie-statusami-i-sessiyami-polzova.md"
+    },
+    {
+      "id": "vpbx-api-166-statusy",
+      "section": "4.4.1",
+      "title": "Статусы",
+      "hint": "",
+      "pages": "223",
+      "tokens": 71,
+      "path": "docs/kb/vpbx-api/sections/166-statusy.md"
+    },
+    {
+      "id": "vpbx-api-167-chto-oznachaet-status-polzovatelya",
+      "section": "4.4.1.1",
+      "title": "Что означает статус пользователя",
+      "hint": "Статус - это атрибут пользователя, который определяет его готовность к приему вызовов.",
+      "pages": "223-224",
+      "tokens": 461,
+      "path": "docs/kb/vpbx-api/sections/167-chto-oznachaet-status-polzovatelya.md"
+    },
+    {
+      "id": "vpbx-api-168-kody-statusov",
+      "section": "4.4.1.2",
+      "title": "Коды статусов",
+      "hint": "Здесь перечислены коды статусов пользователей, которые можно использовать при запросах",
+      "pages": "224",
+      "tokens": 227,
+      "path": "docs/kb/vpbx-api/sections/168-kody-statusov.md"
+    },
+    {
+      "id": "vpbx-api-169-smena-statusa-sessii-polzovatelya",
+      "section": "4.4.1.3",
+      "title": "Смена статуса сессии пользователя",
+      "hint": "POST /cc/set_session_status",
+      "pages": "224-226",
+      "tokens": 1700,
+      "path": "docs/kb/vpbx-api/sections/169-smena-statusa-sessii-polzovatelya.md"
+    },
+    {
+      "id": "vpbx-api-170-smena-statusa-polzovatelya",
+      "section": "4.4.1.2",
+      "title": "Смена статуса пользователя",
+      "hint": "POST /cc/set_abonent_status",
+      "pages": "226-227",
+      "tokens": 622,
+      "path": "docs/kb/vpbx-api/sections/170-smena-statusa-polzovatelya.md"
+    },
+    {
+      "id": "vpbx-api-171-statusy-polzovateley-produkta",
+      "section": "4.4.1.3",
+      "title": "Статусы пользователей продукта",
+      "hint": "POST /cc/get_presence",
+      "pages": "227-229",
+      "tokens": 878,
+      "path": "docs/kb/vpbx-api/sections/171-statusy-polzovateley-produkta.md"
+    },
+    {
+      "id": "vpbx-api-172-statusy-na-produkte",
+      "section": "4.4.1.4",
+      "title": "Статусы на продукте",
+      "hint": "POST /cc/get_statuses",
+      "pages": "229-230",
+      "tokens": 616,
+      "path": "docs/kb/vpbx-api/sections/172-statusy-na-produkte.md"
+    },
+    {
+      "id": "vpbx-api-173-sobytiya",
+      "section": "4.4.2",
+      "title": "События",
+      "hint": "",
+      "pages": "230",
+      "tokens": 69,
+      "path": "docs/kb/vpbx-api/sections/173-sobytiya.md"
+    },
+    {
+      "id": "vpbx-api-174-izmenenie-statusa-polzovatelya",
+      "section": "4.4.2.1",
+      "title": "Изменение статуса пользователя",
+      "hint": "POST /events/user/status_changed",
+      "pages": "230",
+      "tokens": 426,
+      "path": "docs/kb/vpbx-api/sections/174-izmenenie-statusa-polzovatelya.md"
+    },
+    {
+      "id": "vpbx-api-175-zavershenie-sessii",
+      "section": "4.4.2.2",
+      "title": "Завершение сессии",
+      "hint": "POST /events/user/session_end",
+      "pages": "231",
+      "tokens": 384,
+      "path": "docs/kb/vpbx-api/sections/175-zavershenie-sessii.md"
+    },
+    {
+      "id": "vpbx-api-176-rabota-so-sdelkami",
+      "section": "4.5",
+      "title": "Работа со сделками",
+      "hint": "",
+      "pages": "231",
+      "tokens": 71,
+      "path": "docs/kb/vpbx-api/sections/176-rabota-so-sdelkami.md"
+    },
+    {
+      "id": "vpbx-api-177-sozdanie-sdelki",
+      "section": "4.5.1",
+      "title": "Создание сделки",
+      "hint": "POST /cc/deal/create",
+      "pages": "231-233",
+      "tokens": 1392,
+      "path": "docs/kb/vpbx-api/sections/177-sozdanie-sdelki.md"
+    },
+    {
+      "id": "vpbx-api-178-izmenenie-sdelki",
+      "section": "4.5.2",
+      "title": "Изменение сделки",
+      "hint": "POST /cc/deal/update",
+      "pages": "233-234",
+      "tokens": 1289,
+      "path": "docs/kb/vpbx-api/sections/178-izmenenie-sdelki.md"
+    },
+    {
+      "id": "vpbx-api-179-poluchenie-sdelki-po-id",
+      "section": "4.5.3",
+      "title": "Получение сделки по ID",
+      "hint": "POST /cc/deal/get",
+      "pages": "235-236",
+      "tokens": 1264,
+      "path": "docs/kb/vpbx-api/sections/179-poluchenie-sdelki-po-id.md"
+    },
+    {
+      "id": "vpbx-api-180-poluchenie-spiska-sdelok",
+      "section": "4.5.4",
+      "title": "Получение списка сделок",
+      "hint": "POST /cc/deal/list",
+      "pages": "236-239",
+      "tokens": 2111,
+      "path": "docs/kb/vpbx-api/sections/180-poluchenie-spiska-sdelok.md"
+    },
+    {
+      "id": "vpbx-api-181-poluchenie-spiska-polzovatelskih-poley",
+      "section": "4.5.5",
+      "title": "Получение списка пользовательских полей",
+      "hint": "POST /cc/deal/custom_fields.list",
+      "pages": "239-242",
+      "tokens": 1355,
+      "path": "docs/kb/vpbx-api/sections/181-poluchenie-spiska-polzovatelskih-poley.md"
+    },
+    {
+      "id": "vpbx-api-182-poluchenie-spiska-dokumentov-sdelki",
+      "section": "4.5.6",
+      "title": "Получение списка документов сделки",
+      "hint": "POST /cc/deal/documents.list",
+      "pages": "242-243",
+      "tokens": 685,
+      "path": "docs/kb/vpbx-api/sections/182-poluchenie-spiska-dokumentov-sdelki.md"
+    },
+    {
+      "id": "vpbx-api-183-dobavlenie-dokumentov-k-sdelke",
+      "section": "4.5.7",
+      "title": "Добавление документов к сделке",
+      "hint": "POST /cc/deal/documents.add",
+      "pages": "243-244",
+      "tokens": 617,
+      "path": "docs/kb/vpbx-api/sections/183-dobavlenie-dokumentov-k-sdelke.md"
+    },
+    {
+      "id": "vpbx-api-184-poluchenie-spiska-voronok",
+      "section": "4.5.8",
+      "title": "Получение списка воронок",
+      "hint": "POST /cc/deal/funnels.list",
+      "pages": "244-245",
+      "tokens": 974,
+      "path": "docs/kb/vpbx-api/sections/184-poluchenie-spiska-voronok.md"
+    },
+    {
+      "id": "vpbx-api-185-kampanii-ishodyaschego-obzvona",
+      "section": "4.6",
+      "title": "Кампании исходящего обзвона",
+      "hint": "",
+      "pages": "246",
+      "tokens": 77,
+      "path": "docs/kb/vpbx-api/sections/185-kampanii-ishodyaschego-obzvona.md"
+    },
+    {
+      "id": "vpbx-api-186-obschee",
+      "section": "4.6.1",
+      "title": "Общее",
+      "hint": "Возможности API КЦ, указанные в данном разделе, служат для управления кампаниями ИО и",
+      "pages": "246",
+      "tokens": 153,
+      "path": "docs/kb/vpbx-api/sections/186-obschee.md"
+    },
+    {
+      "id": "vpbx-api-187-poluchenie-spiska-zadach-i-podzadach-kam",
+      "section": "4.6.2",
+      "title": "Получение списка задач и подзадач кампаний",
+      "hint": "POST /vpbx/v2/campaign/tasks",
+      "pages": "246-250",
+      "tokens": 3205,
+      "path": "docs/kb/vpbx-api/sections/187-poluchenie-spiska-zadach-i-podzadach-kam.md"
+    },
+    {
+      "id": "vpbx-api-188-poluchenie-spiska-kampaniy-io",
+      "section": "4.6.3",
+      "title": "Получение списка кампаний ИО",
+      "hint": "POST /vpbx/campaign/list",
+      "pages": "250-259",
+      "tokens": 6323,
+      "path": "docs/kb/vpbx-api/sections/188-poluchenie-spiska-kampaniy-io.md"
+    },
+    {
+      "id": "vpbx-api-189-poluchenie-informacii-o-kampanii",
+      "section": "4.6.4",
+      "title": "Получение информации о кампании",
+      "hint": "POST /vpbx/campaign",
+      "pages": "259-264",
+      "tokens": 4806,
+      "path": "docs/kb/vpbx-api/sections/189-poluchenie-informacii-o-kampanii.md"
+    },
+    {
+      "id": "vpbx-api-190-vazhnaya-informaciya",
+      "section": "4.6.4",
+      "title": "Важная информация",
+      "hint": "При создании кампании ИО необходимо использовать данные о:",
+      "pages": "264",
+      "tokens": 401,
+      "path": "docs/kb/vpbx-api/sections/190-vazhnaya-informaciya.md"
+    },
+    {
+      "id": "vpbx-api-191-opisanie-zaprosa-na-sozdanie-kampanii-io",
+      "section": "4.6.4",
+      "title": "Описание запроса на создание кампании ИО",
+      "hint": "POST /vpbx/campaign/add",
+      "pages": "264-268",
+      "tokens": 4200,
+      "path": "docs/kb/vpbx-api/sections/191-opisanie-zaprosa-na-sozdanie-kampanii-io.md"
+    },
+    {
+      "id": "vpbx-api-192-obnovlenie-kampanii",
+      "section": "4.6.6",
+      "title": "Обновление кампании",
+      "hint": "POST /vpbx/campaign/update",
+      "pages": "268-271",
+      "tokens": 4114,
+      "path": "docs/kb/vpbx-api/sections/192-obnovlenie-kampanii.md"
+    },
+    {
+      "id": "vpbx-api-193-dobavlenie-neskolkih-zadaniy-v-kampaniyu",
+      "section": "4.6.7",
+      "title": "Добавление нескольких заданий в кампанию (асинхронный метод)",
+      "hint": "POST /vpbx/tasks/push",
+      "pages": "272-274",
+      "tokens": 1666,
+      "path": "docs/kb/vpbx-api/sections/193-dobavlenie-neskolkih-zadaniy-v-kampaniyu.md"
+    },
+    {
+      "id": "vpbx-api-194-dobavlenie-odnogo-zadaniya-v-kampaniyu-s",
+      "section": "4.6.8",
+      "title": "Добавление одного задания в кампанию (синхронный метод)",
+      "hint": "POST /vpbx/task/add",
+      "pages": "274-275",
+      "tokens": 1539,
+      "path": "docs/kb/vpbx-api/sections/194-dobavlenie-odnogo-zadaniya-v-kampaniyu-s.md"
+    },
+    {
+      "id": "vpbx-api-195-zapusk-kampanii",
+      "section": "4.6.9",
+      "title": "Запуск кампании",
+      "hint": "POST /vpbx/campaign/start",
+      "pages": "276",
+      "tokens": 406,
+      "path": "docs/kb/vpbx-api/sections/195-zapusk-kampanii.md"
+    },
+    {
+      "id": "vpbx-api-196-ostanovka-kampanii",
+      "section": "4.6.10",
+      "title": "Остановка кампании",
+      "hint": "POST /vpbx/campaign/stop",
+      "pages": "276-277",
+      "tokens": 506,
+      "path": "docs/kb/vpbx-api/sections/196-ostanovka-kampanii.md"
+    },
+    {
+      "id": "vpbx-api-197-udalenie-kampanii",
+      "section": "4.6.11",
+      "title": "Удаление кампании",
+      "hint": "POST /vpbx/campaign/delete",
+      "pages": "277",
+      "tokens": 448,
+      "path": "docs/kb/vpbx-api/sections/197-udalenie-kampanii.md"
+    },
+    {
+      "id": "vpbx-api-198-poluchenie-informacii-dlya-generacii-otc",
+      "section": "4.6.12",
+      "title": "Получение информации для генерации отчёта исходящего обзвона",
+      "hint": "POST /vpbx/campaign-report/create",
+      "pages": "278-281",
+      "tokens": 2631,
+      "path": "docs/kb/vpbx-api/sections/198-poluchenie-informacii-dlya-generacii-otc.md"
+    },
+    {
+      "id": "vpbx-api-199-poluchenie-informacii-o-zadache-kampanii",
+      "section": "4.6.13",
+      "title": "Получение информации о задаче кампании ИО",
+      "hint": "POST /vpbx/task",
+      "pages": "282-284",
+      "tokens": 2523,
+      "path": "docs/kb/vpbx-api/sections/199-poluchenie-informacii-o-zadache-kampanii.md"
+    },
+    {
+      "id": "vpbx-api-200-zapusk-zadaniya-kampanii-io",
+      "section": "4.6.14",
+      "title": "Запуск задания кампании ИО",
+      "hint": "POST /vpbx/task/start",
+      "pages": "284-285",
+      "tokens": 330,
+      "path": "docs/kb/vpbx-api/sections/200-zapusk-zadaniya-kampanii-io.md"
+    },
+    {
+      "id": "vpbx-api-201-ostanovka-zadaniya",
+      "section": "4.6.15",
+      "title": "Остановка задания",
+      "hint": "POST /vpbx/task/stop",
+      "pages": "285",
+      "tokens": 394,
+      "path": "docs/kb/vpbx-api/sections/201-ostanovka-zadaniya.md"
+    },
+    {
+      "id": "vpbx-api-202-udalenie-zadaniya",
+      "section": "4.6.16",
+      "title": "Удаление задания",
+      "hint": "POST /vpbx/task/delete",
+      "pages": "285-286",
+      "tokens": 327,
+      "path": "docs/kb/vpbx-api/sections/202-udalenie-zadaniya.md"
+    },
+    {
+      "id": "vpbx-api-203-obnovlenie-zadaniya-kampanii-io",
+      "section": "4.6.17",
+      "title": "Обновление задания кампании ИО",
+      "hint": "POST /vpbx/task/update",
+      "pages": "286-287",
+      "tokens": 691,
+      "path": "docs/kb/vpbx-api/sections/203-obnovlenie-zadaniya-kampanii-io.md"
+    },
+    {
+      "id": "vpbx-api-204-poluchenie-informacii-o-zavershennyh-zad",
+      "section": "4.6.18",
+      "title": "Получение информации о завершенных заданиях кампании ИО",
+      "hint": "",
+      "pages": "287",
+      "tokens": 86,
+      "path": "docs/kb/vpbx-api/sections/204-poluchenie-informacii-o-zavershennyh-zad.md"
+    },
+    {
+      "id": "vpbx-api-205-vazhnaya-informaciya",
+      "section": "4.6.18",
+      "title": "Важная информация",
+      "hint": "Этот метод позволяет получить информацию о завершенных заданиях кампании исходящего",
+      "pages": "287",
+      "tokens": 298,
+      "path": "docs/kb/vpbx-api/sections/205-vazhnaya-informaciya.md"
+    },
+    {
+      "id": "vpbx-api-206-opisanie-metoda",
+      "section": "4.6.18",
+      "title": "Описание метода",
+      "hint": "POST /vpbx/tasks/finished",
+      "pages": "287-290",
+      "tokens": 2575,
+      "path": "docs/kb/vpbx-api/sections/206-opisanie-metoda.md"
+    },
+    {
+      "id": "vpbx-api-207-sbros-popytok-vypolneniya-zadaniya-kampa",
+      "section": "4.6.19",
+      "title": "Сброс попыток выполнения задания кампании ИО",
+      "hint": "POST /vpbx/tasks/reset",
+      "pages": "291",
+      "tokens": 367,
+      "path": "docs/kb/vpbx-api/sections/207-sbros-popytok-vypolneniya-zadaniya-kampa.md"
+    },
+    {
+      "id": "vpbx-api-208-poluchenie-spiska-polzovatelskih-poley",
+      "section": "4.6.20",
+      "title": "Получение списка пользовательских полей",
+      "hint": "POST /vpbx/custom-type/list",
+      "pages": "291-292",
+      "tokens": 763,
+      "path": "docs/kb/vpbx-api/sections/208-poluchenie-spiska-polzovatelskih-poley.md"
+    },
+    {
+      "id": "vpbx-api-209-dannye-kontakt-centra-dlya-zvonka",
+      "section": "4.7",
+      "title": "Данные Контакт-центра для звонка",
+      "hint": "",
+      "pages": "292",
+      "tokens": 78,
+      "path": "docs/kb/vpbx-api/sections/209-dannye-kontakt-centra-dlya-zvonka.md"
+    },
+    {
+      "id": "vpbx-api-210-poluchenie-dannyh-kontakt-centra-dlya-zv",
+      "section": "4.7.1",
+      "title": "Получение данных Контакт-центра для звонка",
+      "hint": "POST /vpbx/cc/call/",
+      "pages": "292-296",
+      "tokens": 2377,
+      "path": "docs/kb/vpbx-api/sections/210-poluchenie-dannyh-kontakt-centra-dlya-zv.md"
+    },
+    {
+      "id": "vpbx-api-211-poluchenie-spiska-tematik-po-produktu",
+      "section": "4.7.2",
+      "title": "Получение списка тематик по продукту",
+      "hint": "POST /vpbx/cc/tags/",
+      "pages": "296-298",
+      "tokens": 1288,
+      "path": "docs/kb/vpbx-api/sections/211-poluchenie-spiska-tematik-po-produktu.md"
+    },
+    {
+      "id": "vpbx-api-212-metod-polucheniya-informacii-po-skriptu",
+      "section": "4.7.3",
+      "title": "Метод получения информации по скрипту(сценарию) КЦ",
+      "hint": "POST /vpbx/script/",
+      "pages": "298-299",
+      "tokens": 689,
+      "path": "docs/kb/vpbx-api/sections/212-metod-polucheniya-informacii-po-skriptu.md"
+    },
+    {
+      "id": "vpbx-api-213-vopros-dlya-ocenki-kachestva-raboty-oper",
+      "section": "4.7.4",
+      "title": "Вопрос для оценки качества работы операторов по обработке вызовов",
+      "hint": "POST /vpbx/quality/control/question/",
+      "pages": "299-300",
+      "tokens": 789,
+      "path": "docs/kb/vpbx-api/sections/213-vopros-dlya-ocenki-kachestva-raboty-oper.md"
+    },
+    {
+      "id": "vpbx-api-214-rabota-s-obrascheniyami-v-kontakt-centre",
+      "section": "4.8",
+      "title": "Работа с обращениями в Контакт-центре",
+      "hint": "",
+      "pages": "300",
+      "tokens": 81,
+      "path": "docs/kb/vpbx-api/sections/214-rabota-s-obrascheniyami-v-kontakt-centre.md"
+    },
+    {
+      "id": "vpbx-api-215-obschee",
+      "section": "4.8.1",
+      "title": "Общее",
+      "hint": "В этом разделе описаны методы, которые позволяют разово передавать информацию об",
+      "pages": "300",
+      "tokens": 150,
+      "path": "docs/kb/vpbx-api/sections/215-obschee.md"
+    },
+    {
+      "id": "vpbx-api-216-sozdanie-zakrytogo-obrascheniya",
+      "section": "4.8.2",
+      "title": "Создание закрытого обращения",
+      "hint": "/cc/appeals/create-closed-appeals",
+      "pages": "301-303",
+      "tokens": 1670,
+      "path": "docs/kb/vpbx-api/sections/216-sozdanie-zakrytogo-obrascheniya.md"
+    },
+    {
+      "id": "vpbx-api-217-sobytiya",
+      "section": "4.8.3",
+      "title": "События",
+      "hint": "",
+      "pages": "303",
+      "tokens": 69,
+      "path": "docs/kb/vpbx-api/sections/217-sobytiya.md"
+    },
+    {
+      "id": "vpbx-api-218-obschenie-zakryto",
+      "section": "4.8.3.1",
+      "title": "Общение закрыто",
+      "hint": "/events/md/onAppealClose",
+      "pages": "303-306",
+      "tokens": 2844,
+      "path": "docs/kb/vpbx-api/sections/218-obschenie-zakryto.md"
+    },
+    {
+      "id": "vpbx-api-219-upravlenie-zadachami",
+      "section": "4.9",
+      "title": "Управление задачами",
+      "hint": "",
+      "pages": "306",
+      "tokens": 68,
+      "path": "docs/kb/vpbx-api/sections/219-upravlenie-zadachami.md"
+    },
+    {
+      "id": "vpbx-api-220-metody",
+      "section": "4.9.1",
+      "title": "Методы",
+      "hint": "",
+      "pages": "306",
+      "tokens": 69,
+      "path": "docs/kb/vpbx-api/sections/220-metody.md"
+    },
+    {
+      "id": "vpbx-api-221-sozdanie-zadachi",
+      "section": "4.9.1.1",
+      "title": "Создание задачи",
+      "hint": "POST /cc/task/add",
+      "pages": "306-307",
+      "tokens": 1472,
+      "path": "docs/kb/vpbx-api/sections/221-sozdanie-zadachi.md"
+    },
+    {
+      "id": "vpbx-api-222-izmenenie-zadachi",
+      "section": "4.9.1.2",
+      "title": "Изменение задачи",
+      "hint": "POST /cc/task/update",
+      "pages": "308-309",
+      "tokens": 1566,
+      "path": "docs/kb/vpbx-api/sections/222-izmenenie-zadachi.md"
+    },
+    {
+      "id": "vpbx-api-223-poluchenie-zadachi-po-id",
+      "section": "4.9.1.3",
+      "title": "Получение задачи по ID",
+      "hint": "POST /cc/task/get",
+      "pages": "309-311",
+      "tokens": 1163,
+      "path": "docs/kb/vpbx-api/sections/223-poluchenie-zadachi-po-id.md"
+    },
+    {
+      "id": "vpbx-api-224-poluchenie-spiska-zadach",
+      "section": "4.9.1.4",
+      "title": "Получение списка задач",
+      "hint": "POST /cc/task/list",
+      "pages": "311-313",
+      "tokens": 1859,
+      "path": "docs/kb/vpbx-api/sections/224-poluchenie-spiska-zadach.md"
+    },
+    {
+      "id": "vpbx-api-225-zavershenie-zadachi",
+      "section": "4.9.1.5",
+      "title": "Завершение задачи",
+      "hint": "POST /cc/task/done",
+      "pages": "313-314",
+      "tokens": 402,
+      "path": "docs/kb/vpbx-api/sections/225-zavershenie-zadachi.md"
+    },
+    {
+      "id": "vpbx-api-226-otmena-zadachi",
+      "section": "4.9.1.6",
+      "title": "Отмена задачи",
+      "hint": "POST /cc/task/cancel",
+      "pages": "314",
+      "tokens": 378,
+      "path": "docs/kb/vpbx-api/sections/226-otmena-zadachi.md"
+    },
+    {
+      "id": "vpbx-api-227-sobytiya",
+      "section": "4.9.2",
+      "title": "События",
+      "hint": "",
+      "pages": "315",
+      "tokens": 69,
+      "path": "docs/kb/vpbx-api/sections/227-sobytiya.md"
+    },
+    {
+      "id": "vpbx-api-228-zadacha-sozdana",
+      "section": "4.9.2.1",
+      "title": "Задача создана",
+      "hint": "Событие, вызываемое при создании задачи.",
+      "pages": "315",
+      "tokens": 772,
+      "path": "docs/kb/vpbx-api/sections/228-zadacha-sozdana.md"
+    },
+    {
+      "id": "vpbx-api-229-zadacha-izmenena",
+      "section": "4.9.2.2",
+      "title": "Задача изменена",
+      "hint": "Событие, вызываемое при изменении задачи.",
+      "pages": "315-316",
+      "tokens": 761,
+      "path": "docs/kb/vpbx-api/sections/229-zadacha-izmenena.md"
+    },
+    {
+      "id": "vpbx-api-230-api-mobilnoe-prilozhenie",
+      "section": "4.10",
+      "title": "API Мобильное приложение",
+      "hint": "",
+      "pages": "316",
+      "tokens": 70,
+      "path": "docs/kb/vpbx-api/sections/230-api-mobilnoe-prilozhenie.md"
+    },
+    {
+      "id": "vpbx-api-231-obschee",
+      "section": "4.10.1",
+      "title": "Общее",
+      "hint": "API предназначен для отправки текстовых сообщений, изображений, файлов.",
+      "pages": "316",
+      "tokens": 242,
+      "path": "docs/kb/vpbx-api/sections/231-obschee.md"
+    },
+    {
+      "id": "vpbx-api-232-metody",
+      "section": "4.10.2",
+      "title": "Методы",
+      "hint": "",
+      "pages": "316",
+      "tokens": 69,
+      "path": "docs/kb/vpbx-api/sections/232-metody.md"
+    },
+    {
+      "id": "vpbx-api-233-otpravka-soobscheniya-libo-fayla-libo-oc",
+      "section": "4.10.2.1",
+      "title": "Отправка сообщения, либо файла, либо оценки обслуживания",
+      "hint": "POST /cc/send_message",
+      "pages": "316-318",
+      "tokens": 2009,
+      "path": "docs/kb/vpbx-api/sections/233-otpravka-soobscheniya-libo-fayla-libo-oc.md"
+    },
+    {
+      "id": "vpbx-api-234-otpravka-uvedomleniya-o-nabore-teksta",
+      "section": "4.10.2.2",
+      "title": "Отправка уведомления о наборе текста",
+      "hint": "POST /cc/user_typing",
+      "pages": "319",
+      "tokens": 477,
+      "path": "docs/kb/vpbx-api/sections/234-otpravka-uvedomleniya-o-nabore-teksta.md"
+    },
+    {
+      "id": "vpbx-api-235-otpravka-uvedomleniya-o-prochitannom-soo",
+      "section": "4.10.2.3",
+      "title": "Отправка уведомления о прочитанном сообщении",
+      "hint": "POST /cc/event_message_read",
+      "pages": "319-320",
+      "tokens": 513,
+      "path": "docs/kb/vpbx-api/sections/235-otpravka-uvedomleniya-o-prochitannom-soo.md"
+    },
+    {
+      "id": "vpbx-api-236-otpravka-uvedomleniya-o-dostavlennom-soo",
+      "section": "4.10.2.4",
+      "title": "Отправка уведомления о доставленном сообщении",
+      "hint": "POST /cc/event_message_received",
+      "pages": "320-321",
+      "tokens": 522,
+      "path": "docs/kb/vpbx-api/sections/236-otpravka-uvedomleniya-o-dostavlennom-soo.md"
+    },
+    {
+      "id": "vpbx-api-237-poluchenie-istorii-soobscheniy",
+      "section": "4.10.2.5",
+      "title": "Получение истории сообщений",
+      "hint": "POST /cc/get_chat_history",
+      "pages": "321-323",
+      "tokens": 1121,
+      "path": "docs/kb/vpbx-api/sections/237-poluchenie-istorii-soobscheniy.md"
+    },
+    {
+      "id": "vpbx-api-238-sobytiya",
+      "section": "4.10.3",
+      "title": "События",
+      "hint": "В данном разделе описаны события, отправляемые Контакт-центром MANGO OFFICE в",
+      "pages": "323",
+      "tokens": 111,
+      "path": "docs/kb/vpbx-api/sections/238-sobytiya.md"
+    },
+    {
+      "id": "vpbx-api-239-obschie-parametry-dlya-kazhdogo-sobytiya",
+      "section": "4.10.3.1",
+      "title": "Общие параметры для каждого события",
+      "hint": "Перечень общих параметров события:",
+      "pages": "323",
+      "tokens": 234,
+      "path": "docs/kb/vpbx-api/sections/239-obschie-parametry-dlya-kazhdogo-sobytiya.md"
+    },
+    {
+      "id": "vpbx-api-240-otpravka-soobscheniya",
+      "section": "4.10.3.2",
+      "title": "Отправка сообщения",
+      "hint": "В данном разделе описано событие \"Отправка сообщения\", отправляемое Контакт-центром",
+      "pages": "323-324",
+      "tokens": 483,
+      "path": "docs/kb/vpbx-api/sections/240-otpravka-soobscheniya.md"
+    },
+    {
+      "id": "vpbx-api-241-opoveschenie-o-tom-chto-polzovatel-nabir",
+      "section": "4.10.3.3",
+      "title": "Оповещение о том, что пользователь набирает текст",
+      "hint": "В данном разделе описано событие \"Оповещение о том, что пользователь что-то печатает\",",
+      "pages": "324",
+      "tokens": 213,
+      "path": "docs/kb/vpbx-api/sections/241-opoveschenie-o-tom-chto-polzovatel-nabir.md"
+    },
+    {
+      "id": "vpbx-api-242-opoveschenie-o-tom-chto-soobschenie-proc",
+      "section": "4.10.3.4",
+      "title": "Оповещение о том, что сообщение прочитано",
+      "hint": "В данном разделе описано событие \"Оповещение о том, что сообщение прочитано\",",
+      "pages": "324",
+      "tokens": 257,
+      "path": "docs/kb/vpbx-api/sections/242-opoveschenie-o-tom-chto-soobschenie-proc.md"
+    },
+    {
+      "id": "vpbx-api-243-opoveschenie-o-tom-chto-obraschenie-zakr",
+      "section": "4.10.3.5",
+      "title": "Оповещение о том, что обращение закрыто и нужно оценить работу оператора",
+      "hint": "В данном разделе описано событие, отправляемое Контакт-центром MANGO OFFICE в ваше",
+      "pages": "324-325",
+      "tokens": 598,
+      "path": "docs/kb/vpbx-api/sections/243-opoveschenie-o-tom-chto-obraschenie-zakr.md"
+    },
+    {
+      "id": "vpbx-api-244-kak-nayti-channelid",
+      "section": "4.10.4",
+      "title": "Как найти channelId",
+      "hint": "Если вы хотите использовать методы для получения сообщений из внешних приложений в",
+      "pages": "325-326",
+      "tokens": 622,
+      "path": "docs/kb/vpbx-api/sections/244-kak-nayti-channelid.md"
+    },
+    {
+      "id": "vpbx-api-245-spisok-kodov-rezultatov",
+      "section": "—",
+      "title": "Список кодов результатов",
+      "hint": "Ниже приведен список кодов результатов выполнения команд или запросов, завершения",
+      "pages": "327-332",
+      "tokens": 7338,
+      "path": "docs/kb/vpbx-api/sections/245-spisok-kodov-rezultatov.md"
+    },
+    {
+      "id": "vpbx-api-246-primery-povedeniya",
+      "section": "—",
+      "title": "Примеры поведения",
+      "hint": "",
+      "pages": "333",
+      "tokens": 61,
+      "path": "docs/kb/vpbx-api/sections/246-primery-povedeniya.md"
+    },
+    {
+      "id": "vpbx-api-247-uvedomlenie-o-vyzove",
+      "section": "—",
+      "title": "Уведомление о вызове",
+      "hint": "Сотрудник ВАТС с внутренним номером \"1234\" вызывает с номера \"74955404444\" внешнего",
+      "pages": "333-334",
+      "tokens": 508,
+      "path": "docs/kb/vpbx-api/sections/247-uvedomlenie-o-vyzove.md"
+    },
+    {
+      "id": "vpbx-api-248-iniciirovanie-ishodyaschego-vyzova",
+      "section": "—",
+      "title": "Инициирование исходящего вызова",
+      "hint": "Вешняя система отправляет команду инициирования вызова сотрудником ВАТС с внутренним",
+      "pages": "334-336",
+      "tokens": 1194,
+      "path": "docs/kb/vpbx-api/sections/248-iniciirovanie-ishodyaschego-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-249-marshrutizaciya-vyzova",
+      "section": "—",
+      "title": "Маршрутизация вызова",
+      "hint": "Вызов поступает на номер DID 7800123456789, попадает в IVR.",
+      "pages": "336-338",
+      "tokens": 1144,
+      "path": "docs/kb/vpbx-api/sections/249-marshrutizaciya-vyzova.md"
+    },
+    {
+      "id": "vpbx-api-250-perevod-vyzova-s-konsultaciey",
+      "section": "—",
+      "title": "Перевод вызова с консультацией",
+      "hint": "Входящий вызов с номера \"74955404444\" на номер сотрудника ВАТС \"12345678\" с",
+      "pages": "339-342",
+      "tokens": 1513,
+      "path": "docs/kb/vpbx-api/sections/250-perevod-vyzova-s-konsultaciey.md"
+    },
+    {
+      "id": "vpbx-api-251-perevod-vyzova-bez-konsultacii",
+      "section": "—",
+      "title": "Перевод вызова без консультации",
+      "hint": "Входящий вызов с номера \"74955404444\" на номер сотрудника ВАТС \"44332211\" с",
+      "pages": "342-345",
+      "tokens": 1303,
+      "path": "docs/kb/vpbx-api/sections/251-perevod-vyzova-bez-konsultacii.md"
+    },
+    {
+      "id": "vpbx-api-252-obrabotka-nazhatiy-dtmf-klavish",
+      "section": "—",
+      "title": "Обработка нажатий DTMF-клавиш",
+      "hint": "Пример:",
+      "pages": "345-348",
+      "tokens": 1839,
+      "path": "docs/kb/vpbx-api/sections/252-obrabotka-nazhatiy-dtmf-klavish.md"
+    },
+    {
+      "id": "vpbx-api-253-prilozhenie-1-opisanie-polya-sip-headers",
+      "section": "—",
+      "title": "Приложение 1 – Описание поля sip-headers",
+      "hint": "Опциональный параметр, содержащий вложенные SIP заголовки и их значения.",
+      "pages": "349",
+      "tokens": 620,
+      "path": "docs/kb/vpbx-api/sections/253-prilozhenie-1-opisanie-polya-sip-headers.md"
+    },
+    {
+      "id": "vpbx-api-254-istoriya-dokumenta",
+      "section": "—",
+      "title": "История документа",
+      "hint": "Обновление 06.07.2026",
+      "pages": "350-367",
+      "tokens": 13179,
+      "path": "docs/kb/vpbx-api/sections/254-istoriya-dokumenta.md"
+    }
+  ]
+}

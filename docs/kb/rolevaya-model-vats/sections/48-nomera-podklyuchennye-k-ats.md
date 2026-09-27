@@ -32,8 +32,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 48
 
-![Изображение, стр. 49](../images/48-nomera-podklyuchennye-k-ats-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

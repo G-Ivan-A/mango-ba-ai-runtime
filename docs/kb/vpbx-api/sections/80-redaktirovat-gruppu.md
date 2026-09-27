@@ -66,12 +66,4 @@ POST /vpbx/group/update Метод позволяет редактировать
 | "description":"Group Description Updated",<br>"extension":"12344"<br>}, |
 | "group_id":"10049774"<br>}" |
 
-![Изображение, стр. 120](../images/80-redaktirovat-gruppu-1.png)
-
-![Изображение, стр. 120](../images/80-redaktirovat-gruppu-2.png)
-
-![Изображение, стр. 120](../images/80-redaktirovat-gruppu-3.png)
-
-![Изображение, стр. 120](../images/80-redaktirovat-gruppu-4.png)
-
 Ответ: { "result": 1000, } Пример 2. Как редактировать состав группы (указать несколько сотрудников в запросе на редактирование). Запрос: POST https://app.mango-office.ru/vpbx/group/update vpbx_api_key = 1234567890qwerty, sign = 1234567890qwerty, json = { "group": { "operators": [ { "id":"400063087" }, { "id":"400063121" } ] }, "group_id":"10161740" } Ответ: { "result": 1000, }

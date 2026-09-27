@@ -30,8 +30,6 @@ ai-generated: true
 | Чат установлен | Чат взят в работу<br>оператором | mch_chat | mch_chat_established |
 | Запрос чата в<br>нерабочее<br>время | Клиент ввел и отправил<br>данные в форме чата в<br>нерабочее время | mch_chat | mch_chat_propose |
 
-![Изображение, стр. 368](../images/232-postanovka-celey-po-sobytiyam-tekstovye-1.jpeg)
-
 | Заказ<br>обратного<br>звонка | Клиент ввел номер<br>телефон, нажал<br>заказать звонок | mch_callback | mch_callback_created |
 | --- | --- | --- | --- |
 | Лидогенератор<br>показан | Посетителю сайта<br>отобразилась форма<br>лидогенератора | mch_leadgen | mch_leadgen_shown |

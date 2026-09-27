@@ -1,0 +1,594 @@
+{
+  "document_id": "rolevaya-model-vats",
+  "index": "docs/kb/rolevaya-model-vats/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "rolevaya-model-vats-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "РУКОВОДСТВО",
+      "pages": "1-4",
+      "tokens": 1715,
+      "path": "docs/kb/rolevaya-model-vats/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "rolevaya-model-vats-01-obschie-svedeniya",
+      "section": "1",
+      "title": "Общие сведения",
+      "hint": "Ролевая модель предназначена для разграничения прав доступа пользователей в системе.",
+      "pages": "4-5",
+      "tokens": 517,
+      "path": "docs/kb/rolevaya-model-vats/sections/01-obschie-svedeniya.md"
+    },
+    {
+      "id": "rolevaya-model-vats-02-standartnye-roli",
+      "section": "2",
+      "title": "Стандартные роли",
+      "hint": "В Виртуальной АТС MANGO OFFICE предусмотрены стандартные системные роли.",
+      "pages": "5-7",
+      "tokens": 974,
+      "path": "docs/kb/rolevaya-model-vats/sections/02-standartnye-roli.md"
+    },
+    {
+      "id": "rolevaya-model-vats-03-upravlenie-rolyami",
+      "section": "3",
+      "title": "Управление ролями",
+      "hint": "Управление ролями выполняется в разделе:",
+      "pages": "7",
+      "tokens": 454,
+      "path": "docs/kb/rolevaya-model-vats/sections/03-upravlenie-rolyami.md"
+    },
+    {
+      "id": "rolevaya-model-vats-04-prosmotr-spiska-roley",
+      "section": "3.1",
+      "title": "Просмотр списка ролей",
+      "hint": "Список ролей отображается на странице управления ролями.",
+      "pages": "7-8",
+      "tokens": 259,
+      "path": "docs/kb/rolevaya-model-vats/sections/04-prosmotr-spiska-roley.md"
+    },
+    {
+      "id": "rolevaya-model-vats-05-sozdanie-roli",
+      "section": "3.2",
+      "title": "Создание роли",
+      "hint": "Создание роли позволяет определить новый набор прав доступа для пользователей системы.",
+      "pages": "8-9",
+      "tokens": 472,
+      "path": "docs/kb/rolevaya-model-vats/sections/05-sozdanie-roli.md"
+    },
+    {
+      "id": "rolevaya-model-vats-06-sozdanie-roli-putem-kopirovaniya",
+      "section": "3.3",
+      "title": "Создание роли путем копирования",
+      "hint": "копирования",
+      "pages": "9",
+      "tokens": 164,
+      "path": "docs/kb/rolevaya-model-vats/sections/06-sozdanie-roli-putem-kopirovaniya.md"
+    },
+    {
+      "id": "rolevaya-model-vats-07-kopirovat-rol-bez-zapretov-na-izmenenie",
+      "section": "3.3.1",
+      "title": "Копировать роль без запретов на изменение настроек",
+      "hint": "изменение настроек",
+      "pages": "9-11",
+      "tokens": 937,
+      "path": "docs/kb/rolevaya-model-vats/sections/07-kopirovat-rol-bez-zapretov-na-izmenenie.md"
+    },
+    {
+      "id": "rolevaya-model-vats-08-kopirovat-rol",
+      "section": "3.3.2",
+      "title": "Копировать роль",
+      "hint": "Данная строка меню доступна для нажатия если у пользователя активировано право доступа",
+      "pages": "11-12",
+      "tokens": 538,
+      "path": "docs/kb/rolevaya-model-vats/sections/08-kopirovat-rol.md"
+    },
+    {
+      "id": "rolevaya-model-vats-09-udalenie-roli",
+      "section": "3.4",
+      "title": "Удаление роли",
+      "hint": "Удалить можно только пользовательские роли.",
+      "pages": "12",
+      "tokens": 216,
+      "path": "docs/kb/rolevaya-model-vats/sections/09-udalenie-roli.md"
+    },
+    {
+      "id": "rolevaya-model-vats-10-sbrosit-nastroyki-roli",
+      "section": "3.5",
+      "title": "Сбросить настройки роли",
+      "hint": "Если права доступа роли были изменены, их можно вернуть к исходным значениям.",
+      "pages": "12-14",
+      "tokens": 480,
+      "path": "docs/kb/rolevaya-model-vats/sections/10-sbrosit-nastroyki-roli.md"
+    },
+    {
+      "id": "rolevaya-model-vats-11-nastroyka-prav-dostupa-roli",
+      "section": "4",
+      "title": "Настройка прав доступа роли",
+      "hint": "роли",
+      "pages": "14-16",
+      "tokens": 1531,
+      "path": "docs/kb/rolevaya-model-vats/sections/11-nastroyka-prav-dostupa-roli.md"
+    },
+    {
+      "id": "rolevaya-model-vats-12-gibkaya-nastroyka-prav-dostupa-s-uchetom",
+      "section": "4.1",
+      "title": "Гибкая настройка прав доступа с учетом ролей объекта",
+      "hint": "учетом ролей объекта",
+      "pages": "16-19",
+      "tokens": 1444,
+      "path": "docs/kb/rolevaya-model-vats/sections/12-gibkaya-nastroyka-prav-dostupa-s-uchetom.md"
+    },
+    {
+      "id": "rolevaya-model-vats-13-matrica-roley-i-prav-dostupa",
+      "section": "5",
+      "title": "Матрица ролей и прав доступа",
+      "hint": "В разделе описаны возможности подключения/отключения прав доступа, установленные по умолчанию для системных ролей.",
+      "pages": "19",
+      "tokens": 227,
+      "path": "docs/kb/rolevaya-model-vats/sections/13-matrica-roley-i-prav-dostupa.md"
+    },
+    {
+      "id": "rolevaya-model-vats-14-razdel-sotrudniki",
+      "section": "5.1",
+      "title": "Раздел «Сотрудники»",
+      "hint": "",
+      "pages": "19",
+      "tokens": 77,
+      "path": "docs/kb/rolevaya-model-vats/sections/14-razdel-sotrudniki.md"
+    },
+    {
+      "id": "rolevaya-model-vats-15-vybor-podkontrolnyh-grupp",
+      "section": "5.1.1",
+      "title": "Выбор подконтрольных групп",
+      "hint": "",
+      "pages": "19",
+      "tokens": 350,
+      "path": "docs/kb/rolevaya-model-vats/sections/15-vybor-podkontrolnyh-grupp.md"
+    },
+    {
+      "id": "rolevaya-model-vats-16-sotrudniki-i-gruppy",
+      "section": "5.1.2",
+      "title": "Сотрудники и группы",
+      "hint": "Роли и права доступа | v.",
+      "pages": "19-24",
+      "tokens": 5463,
+      "path": "docs/kb/rolevaya-model-vats/sections/16-sotrudniki-i-gruppy.md"
+    },
+    {
+      "id": "rolevaya-model-vats-17-razdel-instrumenty",
+      "section": "5.2",
+      "title": "Раздел «Инструменты»",
+      "hint": "",
+      "pages": "24",
+      "tokens": 77,
+      "path": "docs/kb/rolevaya-model-vats/sections/17-razdel-instrumenty.md"
+    },
+    {
+      "id": "rolevaya-model-vats-18-wfm",
+      "section": "5.2.1",
+      "title": "WFM",
+      "hint": "Роли и права доступа | v.",
+      "pages": "24-25",
+      "tokens": 1127,
+      "path": "docs/kb/rolevaya-model-vats/sections/18-wfm.md"
+    },
+    {
+      "id": "rolevaya-model-vats-19-adresnaya-kniga",
+      "section": "5.2.2",
+      "title": "Адресная книга",
+      "hint": "Роли и права доступа | v.",
+      "pages": "25-26",
+      "tokens": 901,
+      "path": "docs/kb/rolevaya-model-vats/sections/19-adresnaya-kniga.md"
+    },
+    {
+      "id": "rolevaya-model-vats-20-analitika",
+      "section": "5.2.3",
+      "title": "Аналитика",
+      "hint": "Роли и права доступа | v.",
+      "pages": "26-27",
+      "tokens": 293,
+      "path": "docs/kb/rolevaya-model-vats/sections/20-analitika.md"
+    },
+    {
+      "id": "rolevaya-model-vats-21-analitika-calltouch",
+      "section": "5.2.4",
+      "title": "Аналитика Calltouch",
+      "hint": "",
+      "pages": "27",
+      "tokens": 215,
+      "path": "docs/kb/rolevaya-model-vats/sections/21-analitika-calltouch.md"
+    },
+    {
+      "id": "rolevaya-model-vats-22-golosovye-soobscheniya",
+      "section": "5.2.5",
+      "title": "Голосовые сообщения",
+      "hint": "Роли и права доступа | v.",
+      "pages": "27-28",
+      "tokens": 749,
+      "path": "docs/kb/rolevaya-model-vats/sections/22-golosovye-soobscheniya.md"
+    },
+    {
+      "id": "rolevaya-model-vats-23-dinamicheskiy-kolltreking",
+      "section": "5.2.6",
+      "title": "Динамический коллтрекинг",
+      "hint": "",
+      "pages": "28",
+      "tokens": 498,
+      "path": "docs/kb/rolevaya-model-vats/sections/23-dinamicheskiy-kolltreking.md"
+    },
+    {
+      "id": "rolevaya-model-vats-24-zadachi",
+      "section": "5.2.7",
+      "title": "Задачи",
+      "hint": "Роли и права доступа | v.",
+      "pages": "28-29",
+      "tokens": 340,
+      "path": "docs/kb/rolevaya-model-vats/sections/24-zadachi.md"
+    },
+    {
+      "id": "rolevaya-model-vats-25-zakaz-zvonka",
+      "section": "5.2.8",
+      "title": "Заказ звонка",
+      "hint": "",
+      "pages": "29",
+      "tokens": 221,
+      "path": "docs/kb/rolevaya-model-vats/sections/25-zakaz-zvonka.md"
+    },
+    {
+      "id": "rolevaya-model-vats-26-zapis-razgovorov",
+      "section": "5.2.9",
+      "title": "Запись разговоров",
+      "hint": "Роли и права доступа | v.",
+      "pages": "29-32",
+      "tokens": 2780,
+      "path": "docs/kb/rolevaya-model-vats/sections/26-zapis-razgovorov.md"
+    },
+    {
+      "id": "rolevaya-model-vats-27-istoriya-vyzovov",
+      "section": "5.2.10",
+      "title": "История вызовов",
+      "hint": "",
+      "pages": "32",
+      "tokens": 753,
+      "path": "docs/kb/rolevaya-model-vats/sections/27-istoriya-vyzovov.md"
+    },
+    {
+      "id": "rolevaya-model-vats-28-ishodyaschiy-obzvon",
+      "section": "5.2.11",
+      "title": "Исходящий обзвон",
+      "hint": "Роли и права доступа | v.",
+      "pages": "32-33",
+      "tokens": 774,
+      "path": "docs/kb/rolevaya-model-vats/sections/28-ishodyaschiy-obzvon.md"
+    },
+    {
+      "id": "rolevaya-model-vats-29-kontrol-kachestva",
+      "section": "5.2.12",
+      "title": "Контроль качества",
+      "hint": "Роли и права доступа | v.",
+      "pages": "33-34",
+      "tokens": 860,
+      "path": "docs/kb/rolevaya-model-vats/sections/29-kontrol-kachestva.md"
+    },
+    {
+      "id": "rolevaya-model-vats-30-mangomobayl",
+      "section": "5.2.13",
+      "title": "МангоМобайл",
+      "hint": "Роли и права доступа | v.",
+      "pages": "34-35",
+      "tokens": 299,
+      "path": "docs/kb/rolevaya-model-vats/sections/30-mangomobayl.md"
+    },
+    {
+      "id": "rolevaya-model-vats-31-obrascheniya",
+      "section": "5.2.14",
+      "title": "Обращения",
+      "hint": "Роли и права доступа | v.",
+      "pages": "35-36",
+      "tokens": 1276,
+      "path": "docs/kb/rolevaya-model-vats/sections/31-obrascheniya.md"
+    },
+    {
+      "id": "rolevaya-model-vats-32-otpravka-sms",
+      "section": "5.2.15",
+      "title": "Отправка SMS",
+      "hint": "Роли и права доступа | v.",
+      "pages": "36-37",
+      "tokens": 340,
+      "path": "docs/kb/rolevaya-model-vats/sections/32-otpravka-sms.md"
+    },
+    {
+      "id": "rolevaya-model-vats-33-otchety-kontakt-centra",
+      "section": "5.2.16",
+      "title": "Отчеты Контакт-Центра",
+      "hint": "Роли и права доступа | v.",
+      "pages": "37-39",
+      "tokens": 2138,
+      "path": "docs/kb/rolevaya-model-vats/sections/33-otchety-kontakt-centra.md"
+    },
+    {
+      "id": "rolevaya-model-vats-34-panel-pokazateley",
+      "section": "5.2.17",
+      "title": "Панель показателей",
+      "hint": "",
+      "pages": "39",
+      "tokens": 262,
+      "path": "docs/kb/rolevaya-model-vats/sections/34-panel-pokazateley.md"
+    },
+    {
+      "id": "rolevaya-model-vats-35-razdel-upravlenie-dozvonom",
+      "section": "5.2.18",
+      "title": "Раздел \"Управление дозвоном\"",
+      "hint": "Роли и права доступа | v.",
+      "pages": "39-40",
+      "tokens": 314,
+      "path": "docs/kb/rolevaya-model-vats/sections/35-razdel-upravlenie-dozvonom.md"
+    },
+    {
+      "id": "rolevaya-model-vats-36-rechevaya-analitika",
+      "section": "5.2.19",
+      "title": "Речевая аналитика",
+      "hint": "Роли и права доступа | v.",
+      "pages": "40-41",
+      "tokens": 626,
+      "path": "docs/kb/rolevaya-model-vats/sections/36-rechevaya-analitika.md"
+    },
+    {
+      "id": "rolevaya-model-vats-37-roboty",
+      "section": "5.2.20",
+      "title": "Роботы",
+      "hint": "",
+      "pages": "41",
+      "tokens": 208,
+      "path": "docs/kb/rolevaya-model-vats/sections/37-roboty.md"
+    },
+    {
+      "id": "rolevaya-model-vats-38-sdelki",
+      "section": "5.2.21",
+      "title": "Сделки",
+      "hint": "Роли и права доступа | v.",
+      "pages": "41-42",
+      "tokens": 792,
+      "path": "docs/kb/rolevaya-model-vats/sections/38-sdelki.md"
+    },
+    {
+      "id": "rolevaya-model-vats-39-skripty",
+      "section": "5.2.22",
+      "title": "Скрипты",
+      "hint": "",
+      "pages": "42",
+      "tokens": 228,
+      "path": "docs/kb/rolevaya-model-vats/sections/39-skripty.md"
+    },
+    {
+      "id": "rolevaya-model-vats-40-statistika-i-monitoring",
+      "section": "5.2.23",
+      "title": "Статистика и мониторинг",
+      "hint": "Роли и права доступа | v.",
+      "pages": "42-43",
+      "tokens": 310,
+      "path": "docs/kb/rolevaya-model-vats/sections/40-statistika-i-monitoring.md"
+    },
+    {
+      "id": "rolevaya-model-vats-41-staticheskiy-kolltreking",
+      "section": "5.2.24",
+      "title": "Статический коллтрекинг",
+      "hint": "",
+      "pages": "43",
+      "tokens": 230,
+      "path": "docs/kb/rolevaya-model-vats/sections/41-staticheskiy-kolltreking.md"
+    },
+    {
+      "id": "rolevaya-model-vats-42-tekstovye-rassylki",
+      "section": "5.2.25",
+      "title": "Текстовые рассылки",
+      "hint": "",
+      "pages": "43",
+      "tokens": 223,
+      "path": "docs/kb/rolevaya-model-vats/sections/42-tekstovye-rassylki.md"
+    },
+    {
+      "id": "rolevaya-model-vats-43-upravlenie-zvonkami",
+      "section": "5.2.26",
+      "title": "Управление звонками",
+      "hint": "Роли и права доступа | v.",
+      "pages": "43-45",
+      "tokens": 1007,
+      "path": "docs/kb/rolevaya-model-vats/sections/43-upravlenie-zvonkami.md"
+    },
+    {
+      "id": "rolevaya-model-vats-44-upravlenie-sotrudnikami",
+      "section": "5.2.27",
+      "title": "Управление сотрудниками",
+      "hint": "Роли и права доступа | v.",
+      "pages": "45-46",
+      "tokens": 1303,
+      "path": "docs/kb/rolevaya-model-vats/sections/44-upravlenie-sotrudnikami.md"
+    },
+    {
+      "id": "rolevaya-model-vats-45-razdel-obrabotka-zvonkov",
+      "section": "5.3",
+      "title": "Раздел «Обработка звонков»",
+      "hint": "",
+      "pages": "46",
+      "tokens": 78,
+      "path": "docs/kb/rolevaya-model-vats/sections/45-razdel-obrabotka-zvonkov.md"
+    },
+    {
+      "id": "rolevaya-model-vats-46-golosovoe-menyu-i-raspredelenie-zvonkov",
+      "section": "5.3.1",
+      "title": "Голосовое меню и распределение звонков",
+      "hint": "Роли и права доступа | v.",
+      "pages": "46-48",
+      "tokens": 1663,
+      "path": "docs/kb/rolevaya-model-vats/sections/46-golosovoe-menyu-i-raspredelenie-zvonkov.md"
+    },
+    {
+      "id": "rolevaya-model-vats-47-nastroyki-dozvona-i-soobscheniy-po-umolc",
+      "section": "5.3.2",
+      "title": "Настройки дозвона и сообщений по умолчанию",
+      "hint": "",
+      "pages": "48",
+      "tokens": 226,
+      "path": "docs/kb/rolevaya-model-vats/sections/47-nastroyki-dozvona-i-soobscheniy-po-umolc.md"
+    },
+    {
+      "id": "rolevaya-model-vats-48-nomera-podklyuchennye-k-ats",
+      "section": "5.3.3",
+      "title": "Номера, подключенные к АТС",
+      "hint": "Роли и права доступа | v.",
+      "pages": "48-49",
+      "tokens": 778,
+      "path": "docs/kb/rolevaya-model-vats/sections/48-nomera-podklyuchennye-k-ats.md"
+    },
+    {
+      "id": "rolevaya-model-vats-49-pereadresaciya-po-nomeru-klienta",
+      "section": "5.3.4",
+      "title": "Переадресация по номеру клиента",
+      "hint": "",
+      "pages": "49",
+      "tokens": 216,
+      "path": "docs/kb/rolevaya-model-vats/sections/49-pereadresaciya-po-nomeru-klienta.md"
+    },
+    {
+      "id": "rolevaya-model-vats-50-chernyy-belyy-spisok",
+      "section": "5.3.5",
+      "title": "Черный/белый список",
+      "hint": "Роли и права доступа | v.",
+      "pages": "49-50",
+      "tokens": 298,
+      "path": "docs/kb/rolevaya-model-vats/sections/50-chernyy-belyy-spisok.md"
+    },
+    {
+      "id": "rolevaya-model-vats-51-razdel-nastroyki-ats",
+      "section": "5.4",
+      "title": "Раздел «Настройки АТС»",
+      "hint": "",
+      "pages": "50",
+      "tokens": 77,
+      "path": "docs/kb/rolevaya-model-vats/sections/51-razdel-nastroyki-ats.md"
+    },
+    {
+      "id": "rolevaya-model-vats-52-audiofayly",
+      "section": "5.4.1",
+      "title": "Аудиофайлы",
+      "hint": "",
+      "pages": "50",
+      "tokens": 270,
+      "path": "docs/kb/rolevaya-model-vats/sections/52-audiofayly.md"
+    },
+    {
+      "id": "rolevaya-model-vats-53-bezopasnost-i-ogranicheniya",
+      "section": "5.4.2",
+      "title": "Безопасность и ограничения",
+      "hint": "Роли и права доступа | v.",
+      "pages": "50-51",
+      "tokens": 990,
+      "path": "docs/kb/rolevaya-model-vats/sections/53-bezopasnost-i-ogranicheniya.md"
+    },
+    {
+      "id": "rolevaya-model-vats-54-dopolnitelnye-nastroyki",
+      "section": "5.4.3",
+      "title": "Дополнительные настройки",
+      "hint": "Роли и права доступа | v.",
+      "pages": "51-52",
+      "tokens": 303,
+      "path": "docs/kb/rolevaya-model-vats/sections/54-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "rolevaya-model-vats-55-integracii",
+      "section": "5.4.4",
+      "title": "Интеграции",
+      "hint": "",
+      "pages": "52",
+      "tokens": 215,
+      "path": "docs/kb/rolevaya-model-vats/sections/55-integracii.md"
+    },
+    {
+      "id": "rolevaya-model-vats-56-konferenc-svyaz",
+      "section": "5.4.5",
+      "title": "Конференц-связь",
+      "hint": "Роли и права доступа | v.",
+      "pages": "52-53",
+      "tokens": 503,
+      "path": "docs/kb/rolevaya-model-vats/sections/56-konferenc-svyaz.md"
+    },
+    {
+      "id": "rolevaya-model-vats-57-nastroyka-sip",
+      "section": "5.4.6",
+      "title": "Настройка SIP",
+      "hint": "Роли и права доступа | v.",
+      "pages": "53-54",
+      "tokens": 918,
+      "path": "docs/kb/rolevaya-model-vats/sections/57-nastroyka-sip.md"
+    },
+    {
+      "id": "rolevaya-model-vats-58-upravlenie-uslugami",
+      "section": "5.4.7",
+      "title": "Управление услугами",
+      "hint": "",
+      "pages": "54",
+      "tokens": 215,
+      "path": "docs/kb/rolevaya-model-vats/sections/58-upravlenie-uslugami.md"
+    },
+    {
+      "id": "rolevaya-model-vats-59-razdel-finansy",
+      "section": "5.5",
+      "title": "Раздел «Финансы»",
+      "hint": "",
+      "pages": "54",
+      "tokens": 75,
+      "path": "docs/kb/rolevaya-model-vats/sections/59-razdel-finansy.md"
+    },
+    {
+      "id": "rolevaya-model-vats-60-podklyuchenie-kontakt-centra",
+      "section": "5.5.1",
+      "title": "Подключение Контакт-центра",
+      "hint": "Роли и права доступа | v.",
+      "pages": "54-55",
+      "tokens": 303,
+      "path": "docs/kb/rolevaya-model-vats/sections/60-podklyuchenie-kontakt-centra.md"
+    },
+    {
+      "id": "rolevaya-model-vats-61-razdel-finansy-i-balans-licevogo-scheta",
+      "section": "5.5.2",
+      "title": "Раздел \"Финансы\" и баланс Лицевого счета",
+      "hint": "Роли и права доступа | v.",
+      "pages": "55-56",
+      "tokens": 1080,
+      "path": "docs/kb/rolevaya-model-vats/sections/61-razdel-finansy-i-balans-licevogo-scheta.md"
+    },
+    {
+      "id": "rolevaya-model-vats-62-smena-tarifa-i-podklyuchenie-uslug",
+      "section": "5.5.3",
+      "title": "Смена тарифа и подключение услуг",
+      "hint": "Роли и права доступа | v.",
+      "pages": "56-57",
+      "tokens": 430,
+      "path": "docs/kb/rolevaya-model-vats/sections/62-smena-tarifa-i-podklyuchenie-uslug.md"
+    },
+    {
+      "id": "rolevaya-model-vats-63-razdel-podderzhka",
+      "section": "5.6",
+      "title": "Раздел «Поддержка»",
+      "hint": "",
+      "pages": "57",
+      "tokens": 260,
+      "path": "docs/kb/rolevaya-model-vats/sections/63-razdel-podderzhka.md"
+    },
+    {
+      "id": "rolevaya-model-vats-64-razdel-funkcii-mango-talker",
+      "section": "5.7",
+      "title": "Раздел «Функции Mango Talker»",
+      "hint": "Роли и права доступа | v.",
+      "pages": "57-59",
+      "tokens": 1523,
+      "path": "docs/kb/rolevaya-model-vats/sections/64-razdel-funkcii-mango-talker.md"
+    }
+  ]
+}

@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [voice-ucaas]
 type: kb-source-index
 doc_code: MTALKER-MOB
 doc_title: "Mango Talker для Android - Руководство пользователя"

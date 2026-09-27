@@ -7,7 +7,8 @@
   "doc_title": "Руководство пользователя. Речевая аналитика & КАТС",
   "doc_version": "1.26.18",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 387,
+  "image_count": 225,
+  "image_count_extracted": 387,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
