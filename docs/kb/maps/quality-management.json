@@ -1,0 +1,478 @@
+{
+  "document_id": "quality-management",
+  "index": "docs/kb/quality-management/index.md",
+  "product_ids": [
+    "contact-center",
+    "analytics-reporting"
+  ],
+  "sections": [
+    {
+      "id": "quality-management-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "КОНТРОЛЬ КАЧЕСТВА",
+      "pages": "1-4",
+      "tokens": 1153,
+      "path": "docs/kb/quality-management/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "quality-management-01-bystryy-start",
+      "section": "1",
+      "title": "Быстрый старт",
+      "hint": "Руководство содержит описание работы с модулем \"Контроль качества MANGO OFFICE\".",
+      "pages": "4",
+      "tokens": 120,
+      "path": "docs/kb/quality-management/sections/01-bystryy-start.md"
+    },
+    {
+      "id": "quality-management-02-kak-podklyuchit-modul-kontrol-kachestva",
+      "section": "1.1",
+      "title": "Как подключить модуль Контроль качества в Личном кабинете",
+      "hint": "Доступ к модулю Контроль качества MANGO OFFICE осуществляется через браузер по адресу",
+      "pages": "4-5",
+      "tokens": 776,
+      "path": "docs/kb/quality-management/sections/02-kak-podklyuchit-modul-kontrol-kachestva.md"
+    },
+    {
+      "id": "quality-management-03-kak-dobavit-kontrolera",
+      "section": "1.2",
+      "title": "Как добавить контролера",
+      "hint": "Контролёр – сотрудник ВАТС, оценивающий качество работы операторов по данным",
+      "pages": "5-6",
+      "tokens": 341,
+      "path": "docs/kb/quality-management/sections/03-kak-dobavit-kontrolera.md"
+    },
+    {
+      "id": "quality-management-04-roli-i-funkcii",
+      "section": "1.3",
+      "title": "Роли и функции",
+      "hint": "Сводное описание параметров доступности, разрешений (прав) и функциональных возможностей",
+      "pages": "6-9",
+      "tokens": 2458,
+      "path": "docs/kb/quality-management/sections/04-roli-i-funkcii.md"
+    },
+    {
+      "id": "quality-management-05-nastroyka-blankov-ocenki",
+      "section": "2",
+      "title": "Настройка бланков оценки",
+      "hint": "Бланки оценок предназначены для оценки работы сотрудника контролером, по совокупности",
+      "pages": "9",
+      "tokens": 725,
+      "path": "docs/kb/quality-management/sections/05-nastroyka-blankov-ocenki.md"
+    },
+    {
+      "id": "quality-management-06-sozdanie-blanka-ocenki",
+      "section": "2.1",
+      "title": "Создание бланка оценки",
+      "hint": "Бланк может быть создан двумя способами:",
+      "pages": "9-11",
+      "tokens": 1411,
+      "path": "docs/kb/quality-management/sections/06-sozdanie-blanka-ocenki.md"
+    },
+    {
+      "id": "quality-management-07-prosmotr-i-redaktirovanie-blanka-ocenki",
+      "section": "2.2",
+      "title": "Просмотр и редактирование бланка оценки",
+      "hint": "Просмотр бланка доступен из рабочей области вкладки.",
+      "pages": "11-12",
+      "tokens": 493,
+      "path": "docs/kb/quality-management/sections/07-prosmotr-i-redaktirovanie-blanka-ocenki.md"
+    },
+    {
+      "id": "quality-management-08-nastroyka-shkaly-ocenok-i-vesa-kriteriev",
+      "section": "2.3",
+      "title": "Настройка шкалы оценок и веса критериев",
+      "hint": "Для настройки шкалы и веса критериев кликните по кнопке «Настроить бланк».",
+      "pages": "12-13",
+      "tokens": 548,
+      "path": "docs/kb/quality-management/sections/08-nastroyka-shkaly-ocenok-i-vesa-kriteriev.md"
+    },
+    {
+      "id": "quality-management-09-nastroyka-apellyacii",
+      "section": "2.4",
+      "title": "Настройка апелляции",
+      "hint": "Для настройки оператору возможности подать апелляцию кликните по кнопке «Настроить бланк».",
+      "pages": "13-15",
+      "tokens": 802,
+      "path": "docs/kb/quality-management/sections/09-nastroyka-apellyacii.md"
+    },
+    {
+      "id": "quality-management-10-udalenie-blanka-ocenki",
+      "section": "2.5",
+      "title": "Удаление бланка оценки",
+      "hint": "Для удаления созданного ранее бланка откройте бланк и нажмите кнопку \"Удалить\".",
+      "pages": "15",
+      "tokens": 189,
+      "path": "docs/kb/quality-management/sections/10-udalenie-blanka-ocenki.md"
+    },
+    {
+      "id": "quality-management-11-blank-ocenki-bazovaya-ocenka-sotrudnika",
+      "section": "2.6",
+      "title": "Бланк оценки \"Базовая оценка сотрудника\"",
+      "hint": "Бланк настроен по умолчанию и содержит следующие поля:",
+      "pages": "15-17",
+      "tokens": 493,
+      "path": "docs/kb/quality-management/sections/11-blank-ocenki-bazovaya-ocenka-sotrudnika.md"
+    },
+    {
+      "id": "quality-management-12-ocenka-obrascheniy",
+      "section": "3",
+      "title": "Оценка обращений",
+      "hint": "Раздел меню Оценка обращений содержит три вкладки:",
+      "pages": "17",
+      "tokens": 137,
+      "path": "docs/kb/quality-management/sections/12-ocenka-obrascheniy.md"
+    },
+    {
+      "id": "quality-management-13-ocenka-zvonkov",
+      "section": "3.1",
+      "title": "Оценка звонков",
+      "hint": "Отчет \"Оценка звонков\" содержит данные о качестве работы сотрудников ВАТС в соответствии с",
+      "pages": "17-27",
+      "tokens": 7839,
+      "path": "docs/kb/quality-management/sections/13-ocenka-zvonkov.md"
+    },
+    {
+      "id": "quality-management-14-ocenka-chatov",
+      "section": "3.2",
+      "title": "Оценка чатов",
+      "hint": "Отчет предназначен для анализа и оценки эффективности текстовой коммуникации с клиентом.",
+      "pages": "27-32",
+      "tokens": 3280,
+      "path": "docs/kb/quality-management/sections/14-ocenka-chatov.md"
+    },
+    {
+      "id": "quality-management-15-randomayzer",
+      "section": "3.3",
+      "title": "Рандомайзер",
+      "hint": "На вкладке контролер имеет возможность отбирать произвольные разговоры сотрудников",
+      "pages": "32-34",
+      "tokens": 1003,
+      "path": "docs/kb/quality-management/sections/15-randomayzer.md"
+    },
+    {
+      "id": "quality-management-16-nastroyka-postzvonkovoy-ocenki",
+      "section": "4",
+      "title": "Настройка постзвонковой оценки",
+      "hint": "Для настройки постзвонковой оценки пройдите в раздел меню Настройки Постзвонковая",
+      "pages": "34",
+      "tokens": 181,
+      "path": "docs/kb/quality-management/sections/16-nastroyka-postzvonkovoy-ocenki.md"
+    },
+    {
+      "id": "quality-management-17-nastroyka-pravil-postzvonkovoy-ocenki",
+      "section": "4.1",
+      "title": "Настройка правил постзвонковой оценки",
+      "hint": "Постзвонковая оценка качества предназначена для оценки:",
+      "pages": "34-38",
+      "tokens": 2354,
+      "path": "docs/kb/quality-management/sections/17-nastroyka-pravil-postzvonkovoy-ocenki.md"
+    },
+    {
+      "id": "quality-management-18-nastroyka-uvedomleniy-o-postzvonkovyh-oc",
+      "section": "4.2",
+      "title": "Настройка уведомлений о постзвонковых оценках",
+      "hint": "В Личном кабинете пользователя ВАТС доступна услуга «Настройка уведомлений о постзвонковых",
+      "pages": "38-41",
+      "tokens": 921,
+      "path": "docs/kb/quality-management/sections/18-nastroyka-uvedomleniy-o-postzvonkovyh-oc.md"
+    },
+    {
+      "id": "quality-management-19-zapis-ekrana",
+      "section": "5",
+      "title": "Запись экрана",
+      "hint": "",
+      "pages": "41",
+      "tokens": 64,
+      "path": "docs/kb/quality-management/sections/19-zapis-ekrana.md"
+    },
+    {
+      "id": "quality-management-20-prosmotr-i-skachivanie-zapisey",
+      "section": "5.1",
+      "title": "Просмотр и скачивание записей",
+      "hint": "Раздел предназначен для просмотра списка, выбора и скачивания видео-записей экрана",
+      "pages": "41-43",
+      "tokens": 2128,
+      "path": "docs/kb/quality-management/sections/20-prosmotr-i-skachivanie-zapisey.md"
+    },
+    {
+      "id": "quality-management-21-prosmotr-nastroek-zapisi",
+      "section": "5.2",
+      "title": "Просмотр настроек записи",
+      "hint": "Это окно предоставляет возможность управления правилами записи экрана для сотрудников",
+      "pages": "43-45",
+      "tokens": 956,
+      "path": "docs/kb/quality-management/sections/21-prosmotr-nastroek-zapisi.md"
+    },
+    {
+      "id": "quality-management-22-naznachenie-pravil-zapisi",
+      "section": "5.3",
+      "title": "Назначение правил записи",
+      "hint": "Администратор может настроить расписание для нескольких сотрудников таким образом, чтобы",
+      "pages": "45-48",
+      "tokens": 1601,
+      "path": "docs/kb/quality-management/sections/22-naznachenie-pravil-zapisi.md"
+    },
+    {
+      "id": "quality-management-23-ocenka-kachestva-v-chatah",
+      "section": "6",
+      "title": "Оценка качества в чатах",
+      "hint": "Вкладка Оценок качества в чатах предназначена для оценки работы сотрудника клиентом по",
+      "pages": "48",
+      "tokens": 458,
+      "path": "docs/kb/quality-management/sections/23-ocenka-kachestva-v-chatah.md"
+    },
+    {
+      "id": "quality-management-24-sozdanie-redaktirovanie-i-udalenie-pravi",
+      "section": "6.1",
+      "title": "Создание, редактирование и удаление правила",
+      "hint": "Чтобы создать новое правило оценки нажмите на кнопку «Добавить правило».",
+      "pages": "48-51",
+      "tokens": 1145,
+      "path": "docs/kb/quality-management/sections/24-sozdanie-redaktirovanie-i-udalenie-pravi.md"
+    },
+    {
+      "id": "quality-management-25-statistika",
+      "section": "7",
+      "title": "Статистика",
+      "hint": "Раздел содержит отчеты Динамика оценок и Сводная статистика.",
+      "pages": "51",
+      "tokens": 87,
+      "path": "docs/kb/quality-management/sections/25-statistika.md"
+    },
+    {
+      "id": "quality-management-26-dinamika-ocenok",
+      "section": "7.1",
+      "title": "Динамика оценок",
+      "hint": "Отчет \"Динамика оценок\" содержит данные о качестве работы сотрудников ВАТС в соответствии с",
+      "pages": "51-56",
+      "tokens": 2435,
+      "path": "docs/kb/quality-management/sections/26-dinamika-ocenok.md"
+    },
+    {
+      "id": "quality-management-27-svodnaya-statistika",
+      "section": "7.2",
+      "title": "Сводная статистика",
+      "hint": "В разделе отображаются таблицы сводной статистики оценок сотрудников ВАТС клиентами и",
+      "pages": "56-59",
+      "tokens": 1032,
+      "path": "docs/kb/quality-management/sections/27-svodnaya-statistika.md"
+    },
+    {
+      "id": "quality-management-28-rabota-kontrolerov",
+      "section": "7.3",
+      "title": "Работа контролеров",
+      "hint": "Отчет состоит четырех блоков:",
+      "pages": "59-64",
+      "tokens": 1980,
+      "path": "docs/kb/quality-management/sections/28-rabota-kontrolerov.md"
+    },
+    {
+      "id": "quality-management-29-apellyacii",
+      "section": "8",
+      "title": "Апелляции",
+      "hint": "KPI оператора зависит от оценок его разговоров.",
+      "pages": "64",
+      "tokens": 428,
+      "path": "docs/kb/quality-management/sections/29-apellyacii.md"
+    },
+    {
+      "id": "quality-management-30-kak-sotrudniku-podat-apellyaciyu",
+      "section": "8.1",
+      "title": "Как сотруднику подать апелляцию",
+      "hint": "Если после получения уведомления сотрудник хочет подать апелляцию на пересмотр негативной",
+      "pages": "64-65",
+      "tokens": 465,
+      "path": "docs/kb/quality-management/sections/30-kak-sotrudniku-podat-apellyaciyu.md"
+    },
+    {
+      "id": "quality-management-31-kak-kontroleru-obrabatyvat-apellyacii",
+      "section": "8.2",
+      "title": "Как контролеру обрабатывать апелляции",
+      "hint": "Контролер обрабатывает апелляции следующим образом:",
+      "pages": "65-67",
+      "tokens": 725,
+      "path": "docs/kb/quality-management/sections/31-kak-kontroleru-obrabatyvat-apellyacii.md"
+    },
+    {
+      "id": "quality-management-32-rechevaya-analitika",
+      "section": "9",
+      "title": "Речевая аналитика",
+      "hint": "Речевая аналитика — эффективный способ контролировать работу колл-центра.",
+      "pages": "67",
+      "tokens": 257,
+      "path": "docs/kb/quality-management/sections/32-rechevaya-analitika.md"
+    },
+    {
+      "id": "quality-management-33-podklyuchenie-uslugi-rechevaya-analitika",
+      "section": "9.1",
+      "title": "Подключение услуги Речевая аналитика",
+      "hint": "Для подключения услуги \"Речевая аналитика\" в демо-режиме зайдите в Личный кабинет и найдите",
+      "pages": "67-69",
+      "tokens": 912,
+      "path": "docs/kb/quality-management/sections/33-podklyuchenie-uslugi-rechevaya-analitika.md"
+    },
+    {
+      "id": "quality-management-34-vkladka-otchety",
+      "section": "9.2",
+      "title": "Вкладка ОТЧЕТЫ",
+      "hint": "Вкладка Отчеты содержит детальную аналитическую информацию о распознанных вызовах в",
+      "pages": "69",
+      "tokens": 395,
+      "path": "docs/kb/quality-management/sections/34-vkladka-otchety.md"
+    },
+    {
+      "id": "quality-management-35-vkladka-tegirovanie-razgovorov",
+      "section": "9.3",
+      "title": "Вкладка ТЕГИРОВАНИЕ РАЗГОВОРОВ",
+      "hint": "Рабочая область вкладки «Тегирование разговоров» содержит список всех Тематик и ИИ Тематик,",
+      "pages": "69-72",
+      "tokens": 1264,
+      "path": "docs/kb/quality-management/sections/35-vkladka-tegirovanie-razgovorov.md"
+    },
+    {
+      "id": "quality-management-36-vkladka-nastroyki",
+      "section": "9.4",
+      "title": "Вкладка НАСТРОЙКИ",
+      "hint": "Вкладка Настройки модуля Речевая аналитика содержит блок онбординга, а также следующие",
+      "pages": "72-73",
+      "tokens": 1106,
+      "path": "docs/kb/quality-management/sections/36-vkladka-nastroyki.md"
+    },
+    {
+      "id": "quality-management-37-shagi-onbordinga",
+      "section": "9.4.1",
+      "title": "Шаги онбординга",
+      "hint": "В верхней части вкладки Настройки модуля находится блок онбординга, содержащего все этапы",
+      "pages": "73-75",
+      "tokens": 1034,
+      "path": "docs/kb/quality-management/sections/37-shagi-onbordinga.md"
+    },
+    {
+      "id": "quality-management-38-nastroyki-raspoznavaniya-zapisey",
+      "section": "9.4.2",
+      "title": "Настройки распознавания записей",
+      "hint": "Блок Настройка распознавания записей позволяет настроить функции распознавания и пересылки",
+      "pages": "75-77",
+      "tokens": 1409,
+      "path": "docs/kb/quality-management/sections/38-nastroyki-raspoznavaniya-zapisey.md"
+    },
+    {
+      "id": "quality-management-39-analitika-tekstovyh-kommunikaciy",
+      "section": "9.4.3",
+      "title": "Аналитика текстовых коммуникаций",
+      "hint": "Блок Аналитика текстовых коммуникаций позволяет настроить услугу аналитики текстовых",
+      "pages": "77-78",
+      "tokens": 708,
+      "path": "docs/kb/quality-management/sections/39-analitika-tekstovyh-kommunikaciy.md"
+    },
+    {
+      "id": "quality-management-40-ii-instrumenty",
+      "section": "9.4.4",
+      "title": "ИИ Инструменты",
+      "hint": "",
+      "pages": "78",
+      "tokens": 73,
+      "path": "docs/kb/quality-management/sections/40-ii-instrumenty.md"
+    },
+    {
+      "id": "quality-management-41-ii-konspekty",
+      "section": "9.4.4.1",
+      "title": "ИИ Конспекты",
+      "hint": "Блок ИИ Конспекты позволяет автоматически формировать краткое содержание телефонных",
+      "pages": "78-81",
+      "tokens": 1453,
+      "path": "docs/kb/quality-management/sections/41-ii-konspekty.md"
+    },
+    {
+      "id": "quality-management-42-ii-tegirovanie",
+      "section": "9.4.4.2",
+      "title": "ИИ Тегирование",
+      "hint": "Блок ИИ Тегирование позволяет настроить анализ разговоров сотрудников с использованием ИИ.",
+      "pages": "81-83",
+      "tokens": 693,
+      "path": "docs/kb/quality-management/sections/42-ii-tegirovanie.md"
+    },
+    {
+      "id": "quality-management-43-ii-pomoschniki",
+      "section": "9.4.4.3",
+      "title": "ИИ Помощники",
+      "hint": "",
+      "pages": "83",
+      "tokens": 76,
+      "path": "docs/kb/quality-management/sections/43-ii-pomoschniki.md"
+    },
+    {
+      "id": "quality-management-44-chto-eto-takoe-i-zachem-nuzhno",
+      "section": "9.4.4.3.1",
+      "title": "Что это такое и зачем нужно",
+      "hint": "ИИ Помощники - это инструмент, который позволяет автоматически анализировать разговоры по",
+      "pages": "83",
+      "tokens": 406,
+      "path": "docs/kb/quality-management/sections/44-chto-eto-takoe-i-zachem-nuzhno.md"
+    },
+    {
+      "id": "quality-management-45-kak-sozdat-ii-pomoschnika",
+      "section": "9.4.4.3.2",
+      "title": "Как создать ИИ Помощника",
+      "hint": "1.",
+      "pages": "83-84",
+      "tokens": 230,
+      "path": "docs/kb/quality-management/sections/45-kak-sozdat-ii-pomoschnika.md"
+    },
+    {
+      "id": "quality-management-46-nastroyka-ii-pomoschnika",
+      "section": "9.4.4.3.3",
+      "title": "Настройка ИИ Помощника",
+      "hint": "1.",
+      "pages": "84-87",
+      "tokens": 1648,
+      "path": "docs/kb/quality-management/sections/46-nastroyka-ii-pomoschnika.md"
+    },
+    {
+      "id": "quality-management-47-gde-smotret-rezultaty",
+      "section": "9.4.4.3.4",
+      "title": "Где смотреть результаты",
+      "hint": "Чтобы посмотреть результат анализа:",
+      "pages": "87-90",
+      "tokens": 1631,
+      "path": "docs/kb/quality-management/sections/47-gde-smotret-rezultaty.md"
+    },
+    {
+      "id": "quality-management-48-dopolnitelnye-nastroyki",
+      "section": "9.4.5",
+      "title": "Дополнительные настройки",
+      "hint": "Блок Дополнительные настройки позволяет пользователю управлять расширенными функциями",
+      "pages": "90-91",
+      "tokens": 531,
+      "path": "docs/kb/quality-management/sections/48-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "quality-management-49-otklyuchenie-uslugi",
+      "section": "9.4.6",
+      "title": "Отключение услуги",
+      "hint": "При необходимости пользователь может отключить услугу Речевая аналитика.",
+      "pages": "91-93",
+      "tokens": 347,
+      "path": "docs/kb/quality-management/sections/49-otklyuchenie-uslugi.md"
+    },
+    {
+      "id": "quality-management-50-vkladka-zayavki",
+      "section": "9.5",
+      "title": "Вкладка ЗАЯВКИ",
+      "hint": "Пользователь, который выбрал для распознавания технологию 3iTech, может отправить заявку на",
+      "pages": "93-97",
+      "tokens": 1105,
+      "path": "docs/kb/quality-management/sections/50-vkladka-zayavki.md"
+    },
+    {
+      "id": "quality-management-51-dopolnitelnye-vozmozhnosti",
+      "section": "10",
+      "title": "Дополнительные возможности",
+      "hint": "В разделе «Дополнительные возможности» доступно подключение и настройка дополнительных",
+      "pages": "97",
+      "tokens": 424,
+      "path": "docs/kb/quality-management/sections/51-dopolnitelnye-vozmozhnosti.md"
+    }
+  ]
+}

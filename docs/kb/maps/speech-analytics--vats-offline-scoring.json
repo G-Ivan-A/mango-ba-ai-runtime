@@ -1,0 +1,801 @@
+{
+  "document_id": "speech-analytics--vats-offline-scoring",
+  "index": "docs/kb/speech-analytics/vats-offline-scoring/index.md",
+  "product_ids": [
+    "analytics-reporting"
+  ],
+  "sections": [
+    {
+      "id": "vats-offline-scoring-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "РУКОВОДСТВО",
+      "pages": "1-2",
+      "tokens": 221,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "vats-offline-scoring-01-oglavlenie",
+      "section": "—",
+      "title": "Оглавление",
+      "hint": "Оглавление .............................................................................................................",
+      "pages": "2-5",
+      "tokens": 1991,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/01-oglavlenie.md"
+    },
+    {
+      "id": "vats-offline-scoring-02-obschie-svedeniya",
+      "section": "1",
+      "title": "Общие сведения",
+      "hint": "MANGO OFFICE предоставляет пользователям возможность использовать Речевую аналитику",
+      "pages": "5-8",
+      "tokens": 1106,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/02-obschie-svedeniya.md"
+    },
+    {
+      "id": "vats-offline-scoring-03-podklyuchenie-uslugi-rechevaya-analitika",
+      "section": "2",
+      "title": "Подключение услуги «Речевая аналитика»",
+      "hint": "«Речевая аналитика»",
+      "pages": "8",
+      "tokens": 146,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/03-podklyuchenie-uslugi-rechevaya-analitika.md"
+    },
+    {
+      "id": "vats-offline-scoring-04-podklyuchenie-v-demo-rezhime",
+      "section": "2.1",
+      "title": "Подключение в демо-режиме",
+      "hint": "Функционал демо-версии услуги Речевая аналитика полностью соответствует функционалу",
+      "pages": "8-11",
+      "tokens": 2147,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/04-podklyuchenie-v-demo-rezhime.md"
+    },
+    {
+      "id": "vats-offline-scoring-05-podklyuchenie-uslugi-v-platnom-rezhime",
+      "section": "2.2",
+      "title": "Подключение услуги в платном режиме",
+      "hint": "режиме",
+      "pages": "11-13",
+      "tokens": 1173,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/05-podklyuchenie-uslugi-v-platnom-rezhime.md"
+    },
+    {
+      "id": "vats-offline-scoring-06-nastroyki",
+      "section": "3",
+      "title": "Настройки",
+      "hint": "Вкладка Настройки модуля Речевая аналитика содержит блок онбординга, а также следующие",
+      "pages": "13-14",
+      "tokens": 1107,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/06-nastroyki.md"
+    },
+    {
+      "id": "vats-offline-scoring-07-shagi-onbordinga",
+      "section": "3.1",
+      "title": "Шаги онбординга",
+      "hint": "В верхней части вкладки Настройки модуля находится блок онбординга, содержащего все этапы",
+      "pages": "14-15",
+      "tokens": 977,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/07-shagi-onbordinga.md"
+    },
+    {
+      "id": "vats-offline-scoring-08-nastroyki-raspoznavaniya-zapisey",
+      "section": "3.2",
+      "title": "Настройки распознавания записей",
+      "hint": "Блок Настройка распознавания записей позволяет настроить функции распознавания и",
+      "pages": "15-17",
+      "tokens": 1521,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/08-nastroyki-raspoznavaniya-zapisey.md"
+    },
+    {
+      "id": "vats-offline-scoring-09-analitika-tekstovyh-kommunikaciy",
+      "section": "3.3",
+      "title": "Аналитика текстовых коммуникаций",
+      "hint": "коммуникаций",
+      "pages": "17-18",
+      "tokens": 827,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/09-analitika-tekstovyh-kommunikaciy.md"
+    },
+    {
+      "id": "vats-offline-scoring-10-ii-instrumenty",
+      "section": "3.4",
+      "title": "ИИ Инструменты",
+      "hint": "",
+      "pages": "18",
+      "tokens": 82,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/10-ii-instrumenty.md"
+    },
+    {
+      "id": "vats-offline-scoring-11-ii-konspekty",
+      "section": "3.4.1",
+      "title": "ИИ Конспекты",
+      "hint": "Блок ИИ Конспекты позволяет автоматически формировать краткое содержание телефонных",
+      "pages": "18-20",
+      "tokens": 1568,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/11-ii-konspekty.md"
+    },
+    {
+      "id": "vats-offline-scoring-12-ii-tegirovanie",
+      "section": "3.4.2",
+      "title": "ИИ Тегирование",
+      "hint": "Блок ИИ Тегирование предназначен для анализа разговоров сотрудников с использованием",
+      "pages": "20-21",
+      "tokens": 737,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/12-ii-tegirovanie.md"
+    },
+    {
+      "id": "vats-offline-scoring-13-ii-pomoschniki",
+      "section": "3.4.3",
+      "title": "ИИ Помощники",
+      "hint": "",
+      "pages": "21",
+      "tokens": 85,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/13-ii-pomoschniki.md"
+    },
+    {
+      "id": "vats-offline-scoring-14-chto-eto-takoe-i-zachem-nuzhno",
+      "section": "3.4.3.1",
+      "title": "Что это такое и зачем нужно",
+      "hint": "ИИ Помощники — это инструмент, который позволяет автоматически анализировать разговоры по",
+      "pages": "21",
+      "tokens": 415,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/14-chto-eto-takoe-i-zachem-nuzhno.md"
+    },
+    {
+      "id": "vats-offline-scoring-15-kak-sozdat-ii-pomoschnika",
+      "section": "3.4.3.2",
+      "title": "Как создать ИИ Помощника",
+      "hint": "1.",
+      "pages": "21-22",
+      "tokens": 306,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/15-kak-sozdat-ii-pomoschnika.md"
+    },
+    {
+      "id": "vats-offline-scoring-16-nastroyka-ii-pomoschnika",
+      "section": "3.4.3.3",
+      "title": "Настройка ИИ Помощника",
+      "hint": "1.",
+      "pages": "22-25",
+      "tokens": 1861,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/16-nastroyka-ii-pomoschnika.md"
+    },
+    {
+      "id": "vats-offline-scoring-17-gde-smotret-rezultaty",
+      "section": "3.4.3.4",
+      "title": "Где смотреть результаты",
+      "hint": "Чтобы посмотреть результат анализа:",
+      "pages": "25-28",
+      "tokens": 1841,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/17-gde-smotret-rezultaty.md"
+    },
+    {
+      "id": "vats-offline-scoring-18-dopolnitelnye-nastroyki",
+      "section": "3.5",
+      "title": "Дополнительные настройки",
+      "hint": "Блок Дополнительные настройки позволяет пользователю управлять расширенными функциями",
+      "pages": "28-29",
+      "tokens": 1100,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/18-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "vats-offline-scoring-19-otklyuchenie-uslugi",
+      "section": "3.6",
+      "title": "Отключение услуги",
+      "hint": "При необходимости пользователь может отключить услугу Речевая аналитика.",
+      "pages": "29-31",
+      "tokens": 492,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/19-otklyuchenie-uslugi.md"
+    },
+    {
+      "id": "vats-offline-scoring-20-kak-rabotaet-poisk-po-razgovoram",
+      "section": "4",
+      "title": "Как работает поиск по разговорам",
+      "hint": "разговорам",
+      "pages": "31",
+      "tokens": 172,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/20-kak-rabotaet-poisk-po-razgovoram.md"
+    },
+    {
+      "id": "vats-offline-scoring-21-terminy-i-opredeleniya",
+      "section": "4.1",
+      "title": "Термины и определения",
+      "hint": "4.2.",
+      "pages": "31-33",
+      "tokens": 1997,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/21-terminy-i-opredeleniya.md"
+    },
+    {
+      "id": "vats-offline-scoring-22-pravila-obrabotki-poiskovyh-zaprosov",
+      "section": "4.2",
+      "title": "Правила обработки поисковых запросов",
+      "hint": "запросов",
+      "pages": "33-34",
+      "tokens": 874,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/22-pravila-obrabotki-poiskovyh-zaprosov.md"
+    },
+    {
+      "id": "vats-offline-scoring-23-obschie-sovety-dlya-sostavleniya-poiskov",
+      "section": "4.3",
+      "title": "Общие советы для составления поисковых запросов",
+      "hint": "поисковых запросов",
+      "pages": "34-36",
+      "tokens": 1034,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/23-obschie-sovety-dlya-sostavleniya-poiskov.md"
+    },
+    {
+      "id": "vats-offline-scoring-24-poisk-po-audiozapisyam-razgovorov",
+      "section": "5",
+      "title": "Поиск по аудиозаписям разговоров",
+      "hint": "разговоров",
+      "pages": "36",
+      "tokens": 93,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/24-poisk-po-audiozapisyam-razgovorov.md"
+    },
+    {
+      "id": "vats-offline-scoring-25-polya-formy-modulya-poiska-v-zapisyah-ra",
+      "section": "5.1",
+      "title": "Поля формы модуля поиска в записях разговоров",
+      "hint": "записях разговоров",
+      "pages": "36-38",
+      "tokens": 2653,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/25-polya-formy-modulya-poiska-v-zapisyah-ra.md"
+    },
+    {
+      "id": "vats-offline-scoring-26-proslushivanie-zapisey",
+      "section": "5.2",
+      "title": "Прослушивание записей",
+      "hint": "Для прослушивания записи следует нажать на иконку напротив наименования нужной записи.",
+      "pages": "38-44",
+      "tokens": 4199,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/26-proslushivanie-zapisey.md"
+    },
+    {
+      "id": "vats-offline-scoring-27-tegirovanie-razgovorov",
+      "section": "6",
+      "title": "Тегирование разговоров",
+      "hint": "Разговор – текстовый или аудио диалог сотрудника и клиента, сотрудника и сотрудника.",
+      "pages": "44",
+      "tokens": 427,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/27-tegirovanie-razgovorov.md"
+    },
+    {
+      "id": "vats-offline-scoring-28-tematiki",
+      "section": "6.1",
+      "title": "Тематики",
+      "hint": "Рабочая область вкладки «Тематики» содержит:",
+      "pages": "44-45",
+      "tokens": 948,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/28-tematiki.md"
+    },
+    {
+      "id": "vats-offline-scoring-29-sozdanie-i-redaktirovanie-tematik",
+      "section": "6.2",
+      "title": "Создание и редактирование тематик",
+      "hint": "тематик",
+      "pages": "45-46",
+      "tokens": 648,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/29-sozdanie-i-redaktirovanie-tematik.md"
+    },
+    {
+      "id": "vats-offline-scoring-30-klyuchevye-slova",
+      "section": "6.2.1",
+      "title": "Ключевые слова",
+      "hint": "Блок ключевых слов содержит следующие поля:",
+      "pages": "46-48",
+      "tokens": 1105,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/30-klyuchevye-slova.md"
+    },
+    {
+      "id": "vats-offline-scoring-31-rasshirennye-nastroyki",
+      "section": "6.2.2",
+      "title": "Расширенные настройки",
+      "hint": "Блок добавления условий содержит следующие поля:",
+      "pages": "48-49",
+      "tokens": 1053,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/31-rasshirennye-nastroyki.md"
+    },
+    {
+      "id": "vats-offline-scoring-32-nastroyka-uvedomleniy",
+      "section": "6.2.3",
+      "title": "Настройка уведомлений",
+      "hint": "При добавлении тематики пользователь задает ряд условий.",
+      "pages": "49-51",
+      "tokens": 1326,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/32-nastroyka-uvedomleniy.md"
+    },
+    {
+      "id": "vats-offline-scoring-33-sovety-po-nastroyke-tematik",
+      "section": "6.3",
+      "title": "Советы по настройке тематик",
+      "hint": "Создавайте простые тематики, чтобы одна тематика решала максимум одну задачу.",
+      "pages": "51-54",
+      "tokens": 1163,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/33-sovety-po-nastroyke-tematik.md"
+    },
+    {
+      "id": "vats-offline-scoring-34-primery-ispolzovaniya-tematiki",
+      "section": "6.4",
+      "title": "Примеры использования тематики",
+      "hint": "Пример 1.",
+      "pages": "54",
+      "tokens": 520,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/34-primery-ispolzovaniya-tematiki.md"
+    },
+    {
+      "id": "vats-offline-scoring-35-predustanovlennye-tematiki",
+      "section": "6.5",
+      "title": "Предустановленные тематики",
+      "hint": "По умолчанию в Речевой аналитике включены 36 предустановленных тематик:",
+      "pages": "54-56",
+      "tokens": 1576,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/35-predustanovlennye-tematiki.md"
+    },
+    {
+      "id": "vats-offline-scoring-36-zayavki-na-uluchshenie-kachestva-raspozn",
+      "section": "6.6",
+      "title": "Заявки на улучшение качества распознавания",
+      "hint": "распознавания",
+      "pages": "56-59",
+      "tokens": 1393,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/36-zayavki-na-uluchshenie-kachestva-raspozn.md"
+    },
+    {
+      "id": "vats-offline-scoring-37-tehnicheskaya-tematika",
+      "section": "6.7",
+      "title": "Техническая тематика",
+      "hint": "Техническая тематика необходима для корректной диаризации – автоматического разделения",
+      "pages": "59",
+      "tokens": 342,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/37-tehnicheskaya-tematika.md"
+    },
+    {
+      "id": "vats-offline-scoring-38-ii-tematiki",
+      "section": "6.8",
+      "title": "ИИ Тематики",
+      "hint": "Модуль Речевая аналитика поддерживает семантический анализ разговоров на основе запросов к",
+      "pages": "59-62",
+      "tokens": 1373,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/38-ii-tematiki.md"
+    },
+    {
+      "id": "vats-offline-scoring-39-oflayn-skoring",
+      "section": "7",
+      "title": "Офлайн-скоринг",
+      "hint": "FTP/FTPS серверы используются в тех случаях, когда записанные звуковые данные собраны",
+      "pages": "62",
+      "tokens": 251,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/39-oflayn-skoring.md"
+    },
+    {
+      "id": "vats-offline-scoring-40-oflaynovye-zapisi",
+      "section": "7.1",
+      "title": "Офлайновые записи",
+      "hint": "Речевая аналитика.",
+      "pages": "62-64",
+      "tokens": 1336,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/40-oflaynovye-zapisi.md"
+    },
+    {
+      "id": "vats-offline-scoring-41-izbrannye",
+      "section": "7.1.1",
+      "title": "Избранные",
+      "hint": "Вкладка “Избранное” содержит список офлайновых записей разговоров, отмеченных метками.",
+      "pages": "64",
+      "tokens": 338,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/41-izbrannye.md"
+    },
+    {
+      "id": "vats-offline-scoring-42-nastroyki",
+      "section": "7.1.2",
+      "title": "Настройки",
+      "hint": "В этой вкладке можно управлять параметрами осуществления, хранения и пересылки, а также",
+      "pages": "64-65",
+      "tokens": 346,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/42-nastroyki.md"
+    },
+    {
+      "id": "vats-offline-scoring-43-podklyuchennye-kanaly",
+      "section": "7.2",
+      "title": "Подключенные каналы",
+      "hint": "Раздел содержит варианты способов получения записей разговоров для расшифровки и",
+      "pages": "65",
+      "tokens": 120,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/43-podklyuchennye-kanaly.md"
+    },
+    {
+      "id": "vats-offline-scoring-44-osnovnye-nastroyki",
+      "section": "7.2.1",
+      "title": "Основные настройки",
+      "hint": "Вкладка содержит описание опций, необходимых для корректной работы Речевой аналитики",
+      "pages": "65-66",
+      "tokens": 356,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/44-osnovnye-nastroyki.md"
+    },
+    {
+      "id": "vats-offline-scoring-45-nastroyki-ftp",
+      "section": "7.2.2",
+      "title": "Настройки FTP",
+      "hint": "FTP/FTPS/SFTP серверы используются в тех случаях, когда записанные звуковые данные собраны",
+      "pages": "66-69",
+      "tokens": 1841,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/45-nastroyki-ftp.md"
+    },
+    {
+      "id": "vats-offline-scoring-46-nastroyki-api",
+      "section": "7.2.3",
+      "title": "Настройки API",
+      "hint": "Сервис загрузки по HTTP записей, полученных из офлайн-источников.",
+      "pages": "69-70",
+      "tokens": 618,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/46-nastroyki-api.md"
+    },
+    {
+      "id": "vats-offline-scoring-47-zagruzit-vruchnuyu",
+      "section": "7.2.4",
+      "title": "Загрузить вручную",
+      "hint": "Вкладка предназначена для ручной загрузки в систему аудиозаписей (одноканальных или",
+      "pages": "70-73",
+      "tokens": 1687,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/47-zagruzit-vruchnuyu.md"
+    },
+    {
+      "id": "vats-offline-scoring-48-tekstovye-kommunikacii",
+      "section": "8",
+      "title": "Текстовые коммуникации",
+      "hint": "",
+      "pages": "73",
+      "tokens": 80,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/48-tekstovye-kommunikacii.md"
+    },
+    {
+      "id": "vats-offline-scoring-49-spisok-tekstovyh-kommunikaciy",
+      "section": "8.1",
+      "title": "Список текстовых коммуникаций",
+      "hint": "При переходе на страницу «Текстовые коммуникации» отображается панель «Список текстовых",
+      "pages": "73-75",
+      "tokens": 1406,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/49-spisok-tekstovyh-kommunikaciy.md"
+    },
+    {
+      "id": "vats-offline-scoring-50-metki-na-oscillogramme-razgovora",
+      "section": "8.2",
+      "title": "Метки на осциллограмме разговора",
+      "hint": "разговора",
+      "pages": "75-77",
+      "tokens": 1297,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/50-metki-na-oscillogramme-razgovora.md"
+    },
+    {
+      "id": "vats-offline-scoring-51-otchety",
+      "section": "9",
+      "title": "Отчеты",
+      "hint": "Вкладка Отчеты содержит детальную аналитическую информацию о распознанных вызовах в",
+      "pages": "77",
+      "tokens": 506,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/51-otchety.md"
+    },
+    {
+      "id": "vats-offline-scoring-52-rashody-rechevoy-analitiki",
+      "section": "9.1",
+      "title": "Расходы Речевой аналитики",
+      "hint": "Страница расходов помогает быстро понять, сколько стоит использование сервиса за выбранный",
+      "pages": "77-80",
+      "tokens": 1253,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/52-rashody-rechevoy-analitiki.md"
+    },
+    {
+      "id": "vats-offline-scoring-53-analiz-sotrudnikov",
+      "section": "9.2",
+      "title": "Анализ сотрудников",
+      "hint": "Отчет Анализ сотрудников состоит из трех блоков:",
+      "pages": "80",
+      "tokens": 163,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/53-analiz-sotrudnikov.md"
+    },
+    {
+      "id": "vats-offline-scoring-54-blok-filtrov",
+      "section": "9.2.1",
+      "title": "Блок фильтров",
+      "hint": "Кнопка Сохранить – сохранение отчета на странице Мои отчеты;",
+      "pages": "80-82",
+      "tokens": 2094,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/54-blok-filtrov.md"
+    },
+    {
+      "id": "vats-offline-scoring-55-blok-vizualizacii-srabatyvaniya-tematik",
+      "section": "9.2.2",
+      "title": "Блок визуализации срабатывания тематик",
+      "hint": "Отчет предоставляет данные по количеству присвоенных звонкам тематик в разговорах",
+      "pages": "82-83",
+      "tokens": 1543,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/55-blok-vizualizacii-srabatyvaniya-tematik.md"
+    },
+    {
+      "id": "vats-offline-scoring-56-blok-tablicy-razgovory-detalizaciya",
+      "section": "9.2.3",
+      "title": "Блок таблицы Разговоры, детализация",
+      "hint": "Табличная часть отчета состоит из трех разделов:",
+      "pages": "83-87",
+      "tokens": 2436,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/56-blok-tablicy-razgovory-detalizaciya.md"
+    },
+    {
+      "id": "vats-offline-scoring-57-detalizaciya-razgovorov",
+      "section": "9.2.4",
+      "title": "Детализация разговоров",
+      "hint": "Рассмотрим пример детализации для типа записи разговора: «телефонные разговоры»:",
+      "pages": "87-88",
+      "tokens": 924,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/57-detalizaciya-razgovorov.md"
+    },
+    {
+      "id": "vats-offline-scoring-58-analiz-razgovorov",
+      "section": "9.3",
+      "title": "Анализ разговоров",
+      "hint": "Отчет «Анализ разговоров» состоит из двух блоков: Блока таблицы и Блока визуализаций",
+      "pages": "88-89",
+      "tokens": 298,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/58-analiz-razgovorov.md"
+    },
+    {
+      "id": "vats-offline-scoring-59-blok-filtrov",
+      "section": "9.3.1",
+      "title": "Блок фильтров",
+      "hint": "Для построения отчета “Анализ разговоров” выберите временной период, срез (день/месяц/год) и",
+      "pages": "89-90",
+      "tokens": 1585,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/59-blok-filtrov.md"
+    },
+    {
+      "id": "vats-offline-scoring-60-blok-vizualizaciy",
+      "section": "9.3.2",
+      "title": "Блок визуализаций",
+      "hint": "Визуализация “Тематики по словам”",
+      "pages": "90-92",
+      "tokens": 871,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/60-blok-vizualizaciy.md"
+    },
+    {
+      "id": "vats-offline-scoring-61-blok-tablicy",
+      "section": "9.3.3",
+      "title": "Блок таблицы",
+      "hint": "Таблица формируется по срезу День/Месяц/Год и заданным пользователем в окне “Показатели”",
+      "pages": "92-93",
+      "tokens": 906,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/61-blok-tablicy.md"
+    },
+    {
+      "id": "vats-offline-scoring-62-detalizaciya",
+      "section": "9.3.4",
+      "title": "Детализация",
+      "hint": "По клику на цифру \"Количество распознанных разговоров\" открывается окно детализации",
+      "pages": "93-94",
+      "tokens": 1048,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/62-detalizaciya.md"
+    },
+    {
+      "id": "vats-offline-scoring-63-analiz-po-chek-listam",
+      "section": "9.4",
+      "title": "Анализ по чек-листам",
+      "hint": "Отчет предназначен для автоматической оценки разговора сотрудника с клиентом на соответствие",
+      "pages": "94-96",
+      "tokens": 1314,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/63-analiz-po-chek-listam.md"
+    },
+    {
+      "id": "vats-offline-scoring-64-konstruktor-chek-listov",
+      "section": "9.4.1",
+      "title": "Конструктор чек-листов",
+      "hint": "Возможно создание не более 20-ти чек-листов.",
+      "pages": "96-102",
+      "tokens": 4895,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/64-konstruktor-chek-listov.md"
+    },
+    {
+      "id": "vats-offline-scoring-65-statistika",
+      "section": "9.4.2",
+      "title": "Статистика",
+      "hint": "Вкладка «Таблица»",
+      "pages": "102-105",
+      "tokens": 2240,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/65-statistika.md"
+    },
+    {
+      "id": "vats-offline-scoring-66-pravila-podscheta-statistiki",
+      "section": "9.4.3",
+      "title": "Правила подсчета статистики",
+      "hint": "Рассмотрим правила подсчета статистики на примере скриншотов ниже (в числах и процентах):",
+      "pages": "105-112",
+      "tokens": 3919,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/66-pravila-podscheta-statistiki.md"
+    },
+    {
+      "id": "vats-offline-scoring-67-lovec-insaytov",
+      "section": "9.5",
+      "title": "Ловец инсайтов",
+      "hint": "Данные отчета позволяют прослеживать – как фраза или тематика разговора повлияла на ход",
+      "pages": "112-113",
+      "tokens": 328,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/67-lovec-insaytov.md"
+    },
+    {
+      "id": "vats-offline-scoring-68-blok-parametrov",
+      "section": "9.5.1",
+      "title": "Блок параметров",
+      "hint": "При формировании отчета пользователям доступна фильтрация:",
+      "pages": "113-114",
+      "tokens": 1281,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/68-blok-parametrov.md"
+    },
+    {
+      "id": "vats-offline-scoring-69-blok-rezultatov",
+      "section": "9.5.2",
+      "title": "Блок результатов",
+      "hint": "Блок содержит подробную информацию о срабатывание триггера, с отображением причины и",
+      "pages": "114-115",
+      "tokens": 525,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/69-blok-rezultatov.md"
+    },
+    {
+      "id": "vats-offline-scoring-70-pokazateli-otchetov",
+      "section": "9.6",
+      "title": "Показатели отчетов",
+      "hint": "Для построения отчетов устанавливаются показатели, по которым будет формироваться отчет.",
+      "pages": "115-117",
+      "tokens": 1578,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/70-pokazateli-otchetov.md"
+    },
+    {
+      "id": "vats-offline-scoring-71-roli-i-prava-dostupa",
+      "section": "10",
+      "title": "Роли и права доступа",
+      "hint": "В данном разделе приведено сводное описание параметров доступности, разрешений (прав) и",
+      "pages": "117-119",
+      "tokens": 814,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/71-roli-i-prava-dostupa.md"
+    },
+    {
+      "id": "vats-offline-scoring-72-integraciya-rechevoy-analitiki-so-storon",
+      "section": "11",
+      "title": "Интеграция Речевой аналитики со сторонними ВАТС",
+      "hint": "аналитики со сторонними",
+      "pages": "119-121",
+      "tokens": 2928,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/72-integraciya-rechevoy-analitiki-so-storon.md"
+    },
+    {
+      "id": "vats-offline-scoring-73-tochka-vhoda-passivnyy-sip",
+      "section": "11.1",
+      "title": "Точка входа «Пассивный SIP»",
+      "hint": "1) Подключение услуги Речевая аналитика",
+      "pages": "121",
+      "tokens": 165,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/73-tochka-vhoda-passivnyy-sip.md"
+    },
+    {
+      "id": "vats-offline-scoring-74-podklyuchenie-passivnogo-sip",
+      "section": "11.1.1",
+      "title": "Подключение пассивного SIP",
+      "hint": "Шаг 1.",
+      "pages": "121-124",
+      "tokens": 1342,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/74-podklyuchenie-passivnogo-sip.md"
+    },
+    {
+      "id": "vats-offline-scoring-75-sozdanie-sotrudnika",
+      "section": "11.1.2",
+      "title": "Создание сотрудника",
+      "hint": "Откройте личный кабинет по ссылке lk.mango-office.ru.",
+      "pages": "124-125",
+      "tokens": 507,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/75-sozdanie-sotrudnika.md"
+    },
+    {
+      "id": "vats-offline-scoring-76-tochka-vhoda-aktivnyy-sip",
+      "section": "11.2",
+      "title": "Точка входа «Активный SIP»",
+      "hint": "1) Подключение услуги Речевая аналитика",
+      "pages": "125",
+      "tokens": 166,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/76-tochka-vhoda-aktivnyy-sip.md"
+    },
+    {
+      "id": "vats-offline-scoring-77-sozdanie-sotrudnika",
+      "section": "11.2.1",
+      "title": "Создание сотрудника",
+      "hint": "Откройте личный кабинет по ссылке lk.mango-office.ru.",
+      "pages": "125-126",
+      "tokens": 486,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/77-sozdanie-sotrudnika.md"
+    },
+    {
+      "id": "vats-offline-scoring-78-podklyuchenie-aktivnogo-sip",
+      "section": "11.2.2",
+      "title": "Подключение активного SIP",
+      "hint": "Шаг 1.",
+      "pages": "126-132",
+      "tokens": 2368,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/78-podklyuchenie-aktivnogo-sip.md"
+    },
+    {
+      "id": "vats-offline-scoring-79-tochka-vhoda-did-mango-office",
+      "section": "11.3",
+      "title": "Точка входа «DID MANGO OFFICE»",
+      "hint": "1) Подключение услуги Речевая аналитика;",
+      "pages": "132-133",
+      "tokens": 315,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/79-tochka-vhoda-did-mango-office.md"
+    },
+    {
+      "id": "vats-offline-scoring-80-nastroyka-shemy-raspredeleniya-zvonkov-v",
+      "section": "11.3.1",
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "hint": "звонков в Личном кабинете",
+      "pages": "133",
+      "tokens": 190,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/80-nastroyka-shemy-raspredeleniya-zvonkov-v.md"
+    },
+    {
+      "id": "vats-offline-scoring-81-tochka-vhoda-sip-trunk",
+      "section": "11.4",
+      "title": "Точка входа «SIP Trunk»",
+      "hint": "1) Добавление SIP Trunk",
+      "pages": "133-135",
+      "tokens": 463,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/81-tochka-vhoda-sip-trunk.md"
+    },
+    {
+      "id": "vats-offline-scoring-82-vkladka-nastroyka",
+      "section": "11.4",
+      "title": "Вкладка Настройка",
+      "hint": "В открывшейся вкладке Настройка заполните поля:",
+      "pages": "135-137",
+      "tokens": 1965,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/82-vkladka-nastroyka.md"
+    },
+    {
+      "id": "vats-offline-scoring-83-vkladka-nomera",
+      "section": "11.4",
+      "title": "Вкладка Номера",
+      "hint": "Заполните поля:",
+      "pages": "137-138",
+      "tokens": 760,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/83-vkladka-nomera.md"
+    },
+    {
+      "id": "vats-offline-scoring-84-vkladka-telefoniya",
+      "section": "11.4",
+      "title": "Вкладка Телефония",
+      "hint": "В поле Исходящий̆ номер выберите из выпадающего списка номер SIP Trunkа.",
+      "pages": "138",
+      "tokens": 535,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/84-vkladka-telefoniya.md"
+    },
+    {
+      "id": "vats-offline-scoring-85-aktivaciya-sip-trunk-v-kartochke-sotrudn",
+      "section": "11.4.1",
+      "title": "Активация SIP Trunk в карточке сотрудника",
+      "hint": "сотрудника",
+      "pages": "138",
+      "tokens": 171,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/85-aktivaciya-sip-trunk-v-kartochke-sotrudn.md"
+    },
+    {
+      "id": "vats-offline-scoring-86-nastroyka-shemy-raspredeleniya-zvonkov-v",
+      "section": "11.4.2",
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "hint": "звонков в Личном кабинете",
+      "pages": "138-141",
+      "tokens": 952,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/86-nastroyka-shemy-raspredeleniya-zvonkov-v.md"
+    },
+    {
+      "id": "vats-offline-scoring-87-podklyuchenie-dvuhfaktornoy-autentifikac",
+      "section": "12",
+      "title": "Подключение двухфакторной аутентификации",
+      "hint": "двухфакторной",
+      "pages": "141-143",
+      "tokens": 1437,
+      "path": "docs/kb/speech-analytics/vats-offline-scoring/sections/87-podklyuchenie-dvuhfaktornoy-autentifikac.md"
+    }
+  ]
+}

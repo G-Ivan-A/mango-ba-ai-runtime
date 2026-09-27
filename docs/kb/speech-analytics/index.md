@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [analytics-reporting]
 type: kb-multi-document-index
 status: extracted
 ai-generated: true

@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [voice-ucaas, contact-center]
 type: kb-source-index
 doc_code: VPBXAPI
 doc_title: "API Mango Office"

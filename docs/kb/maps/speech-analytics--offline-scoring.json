@@ -1,0 +1,792 @@
+{
+  "document_id": "speech-analytics--offline-scoring",
+  "index": "docs/kb/speech-analytics/offline-scoring/index.md",
+  "product_ids": [
+    "analytics-reporting"
+  ],
+  "sections": [
+    {
+      "id": "offline-scoring-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "РУКОВОДСТВО",
+      "pages": "1-5",
+      "tokens": 2229,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "offline-scoring-01-obschie-svedeniya",
+      "section": "1",
+      "title": "Общие сведения",
+      "hint": "MANGO OFFICE предоставляет пользователям возможность использовать Речевую аналитику",
+      "pages": "5-7",
+      "tokens": 993,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/01-obschie-svedeniya.md"
+    },
+    {
+      "id": "offline-scoring-02-moi-otchety",
+      "section": "2",
+      "title": "Мои отчеты",
+      "hint": "Вкладка Мои отчеты содержит детальную аналитическую информацию о распознанных вызовах в",
+      "pages": "7",
+      "tokens": 444,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/02-moi-otchety.md"
+    },
+    {
+      "id": "offline-scoring-03-rashody-rechevoy-analitiki",
+      "section": "2.1",
+      "title": "Расходы Речевой аналитики",
+      "hint": "Страница расходов помогает быстро понять, сколько стоит использование сервиса за выбранный",
+      "pages": "7-9",
+      "tokens": 1146,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/03-rashody-rechevoy-analitiki.md"
+    },
+    {
+      "id": "offline-scoring-04-analiz-sotrudnikov",
+      "section": "2.2",
+      "title": "Анализ сотрудников",
+      "hint": "Отчет Анализ сотрудников состоит из трех блоков:",
+      "pages": "9",
+      "tokens": 164,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/04-analiz-sotrudnikov.md"
+    },
+    {
+      "id": "offline-scoring-05-blok-filtrov",
+      "section": "2.2.1",
+      "title": "Блок фильтров",
+      "hint": "Кнопка Сохранить – сохранение отчета на странице «Мои отчеты» с выбором вида графика на",
+      "pages": "9-11",
+      "tokens": 1268,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/05-blok-filtrov.md"
+    },
+    {
+      "id": "offline-scoring-06-blok-vizualizacii-srabatyvaniya-tematik",
+      "section": "2.2.2",
+      "title": "Блок визуализации срабатывания тематик",
+      "hint": "тематик",
+      "pages": "11-13",
+      "tokens": 1644,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/06-blok-vizualizacii-srabatyvaniya-tematik.md"
+    },
+    {
+      "id": "offline-scoring-07-blok-tablicy-razgovory-detalizaciya",
+      "section": "2.2.3",
+      "title": "Блок таблицы Разговоры, детализация",
+      "hint": "детализация",
+      "pages": "13-16",
+      "tokens": 2023,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/07-blok-tablicy-razgovory-detalizaciya.md"
+    },
+    {
+      "id": "offline-scoring-08-analiz-razgovorov",
+      "section": "2.3",
+      "title": "Анализ разговоров",
+      "hint": "Отчет «Анализ разговоров» состоит из двух блоков: Блока таблицы и Блока визуализаций",
+      "pages": "16-20",
+      "tokens": 2356,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/08-analiz-razgovorov.md"
+    },
+    {
+      "id": "offline-scoring-09-kak-nastraivaetsya-otchet-analiz-razgovo",
+      "section": "2.3.1",
+      "title": "Как настраивается отчет “Анализ разговоров”",
+      "hint": "разговоров”",
+      "pages": "20-21",
+      "tokens": 931,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/09-kak-nastraivaetsya-otchet-analiz-razgovo.md"
+    },
+    {
+      "id": "offline-scoring-10-pokazateli-otchetov",
+      "section": "2.4",
+      "title": "Показатели отчетов",
+      "hint": "Для построения отчетов устанавливаются показатели, по которым будет формироваться отчет.",
+      "pages": "21-22",
+      "tokens": 1432,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/10-pokazateli-otchetov.md"
+    },
+    {
+      "id": "offline-scoring-11-analiz-po-chek-listam",
+      "section": "2.5",
+      "title": "Анализ по чек-листам",
+      "hint": "Отчет предназначен для автоматической оценки разговора сотрудника с клиентом на соответствие",
+      "pages": "22-24",
+      "tokens": 1305,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/11-analiz-po-chek-listam.md"
+    },
+    {
+      "id": "offline-scoring-12-konstruktor-chek-listov",
+      "section": "2.5.1",
+      "title": "Конструктор чек-листов",
+      "hint": "Возможно создание не более 20-ти чек-листов.",
+      "pages": "24-29",
+      "tokens": 4304,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/12-konstruktor-chek-listov.md"
+    },
+    {
+      "id": "offline-scoring-13-statistika",
+      "section": "2.5.2",
+      "title": "Статистика",
+      "hint": "Вкладка «Таблица»",
+      "pages": "29-31",
+      "tokens": 1966,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/13-statistika.md"
+    },
+    {
+      "id": "offline-scoring-14-pravila-podscheta-statistiki",
+      "section": "2.5.3",
+      "title": "Правила подсчета статистики",
+      "hint": "Рассмотрим правила подсчета статистики на примере скриншотов ниже (в числах и процентах):",
+      "pages": "31-37",
+      "tokens": 3879,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/14-pravila-podscheta-statistiki.md"
+    },
+    {
+      "id": "offline-scoring-15-lovec-insaytov",
+      "section": "2.6",
+      "title": "Ловец инсайтов",
+      "hint": "Данные отчета позволяют прослеживать – как фраза или тематика разговора повлияла на ход",
+      "pages": "37-38",
+      "tokens": 326,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/15-lovec-insaytov.md"
+    },
+    {
+      "id": "offline-scoring-16-blok-parametrov",
+      "section": "2.6.1",
+      "title": "Блок параметров",
+      "hint": "При формировании отчета пользователям доступна фильтрация:",
+      "pages": "38-39",
+      "tokens": 1174,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/16-blok-parametrov.md"
+    },
+    {
+      "id": "offline-scoring-17-blok-rezultatov",
+      "section": "2.6.2",
+      "title": "Блок результатов",
+      "hint": "Блок содержит подробную информацию о срабатывание триггера, с отображением причины и",
+      "pages": "39-41",
+      "tokens": 603,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/17-blok-rezultatov.md"
+    },
+    {
+      "id": "offline-scoring-18-tegirovanie-razgovorov",
+      "section": "3",
+      "title": "Тегирование разговоров",
+      "hint": "Тематика – метка на разговор, которая устанавливается в зависимости от правил, заданных",
+      "pages": "41",
+      "tokens": 363,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/18-tegirovanie-razgovorov.md"
+    },
+    {
+      "id": "offline-scoring-19-tematiki",
+      "section": "3.1",
+      "title": "Тематики",
+      "hint": "Рабочая область вкладки «Тематики» содержит:",
+      "pages": "41-42",
+      "tokens": 940,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/19-tematiki.md"
+    },
+    {
+      "id": "offline-scoring-20-sozdanie-i-redaktirovanie-tematik",
+      "section": "3.2",
+      "title": "Создание и редактирование тематик",
+      "hint": "тематик",
+      "pages": "42-43",
+      "tokens": 629,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/20-sozdanie-i-redaktirovanie-tematik.md"
+    },
+    {
+      "id": "offline-scoring-21-klyuchevye-slova",
+      "section": "3.2.1",
+      "title": "Ключевые слова",
+      "hint": "Блок ключевых слов содержит следующие поля:",
+      "pages": "43-45",
+      "tokens": 1080,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/21-klyuchevye-slova.md"
+    },
+    {
+      "id": "offline-scoring-22-rasshirennye-nastroyki",
+      "section": "3.2.2",
+      "title": "Расширенные настройки",
+      "hint": "Блок добавления условий содержит следующие поля:",
+      "pages": "45-46",
+      "tokens": 1089,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/22-rasshirennye-nastroyki.md"
+    },
+    {
+      "id": "offline-scoring-23-nastroyka-uvedomleniy",
+      "section": "3.2.3",
+      "title": "Настройка уведомлений",
+      "hint": "При добавлении тематики пользователь задает ряд условий.",
+      "pages": "46-47",
+      "tokens": 910,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/23-nastroyka-uvedomleniy.md"
+    },
+    {
+      "id": "offline-scoring-24-sovety-po-nastroyke-tematik",
+      "section": "3.3",
+      "title": "Советы по настройке тематик",
+      "hint": "ПРИМЕР: В двух уведомлениях выбраны идентичные сотрудники, e-mail и номера телефона.",
+      "pages": "48-51",
+      "tokens": 1582,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/24-sovety-po-nastroyke-tematik.md"
+    },
+    {
+      "id": "offline-scoring-25-primery-ispolzovaniya-tematiki",
+      "section": "3.4",
+      "title": "Примеры использования тематики",
+      "hint": "тематики",
+      "pages": "51",
+      "tokens": 534,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/25-primery-ispolzovaniya-tematiki.md"
+    },
+    {
+      "id": "offline-scoring-26-predustanovlennye-tematiki",
+      "section": "3.5",
+      "title": "Предустановленные тематики",
+      "hint": "По умолчанию в Речевой аналитике включены 36 предустановленных тематик:",
+      "pages": "51-53",
+      "tokens": 1566,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/26-predustanovlennye-tematiki.md"
+    },
+    {
+      "id": "offline-scoring-27-tehnicheskaya-tematika",
+      "section": "3.6",
+      "title": "Техническая тематика",
+      "hint": "Техническая тематика необходима для корректной диаризации – автоматического разделения",
+      "pages": "53",
+      "tokens": 346,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/27-tehnicheskaya-tematika.md"
+    },
+    {
+      "id": "offline-scoring-28-zayavki-na-uluchshenie-kachestva-raspozn",
+      "section": "3.7",
+      "title": "Заявки на улучшение качества распознавания",
+      "hint": "распознавания",
+      "pages": "53-57",
+      "tokens": 1431,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/28-zayavki-na-uluchshenie-kachestva-raspozn.md"
+    },
+    {
+      "id": "offline-scoring-29-ai-tematiki",
+      "section": "3.8",
+      "title": "AI Тематики",
+      "hint": "Модуль Речевая аналитика поддерживает семантический анализ разговоров на основе запросов к",
+      "pages": "57-60",
+      "tokens": 1339,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/29-ai-tematiki.md"
+    },
+    {
+      "id": "offline-scoring-30-podklyuchennye-kanaly",
+      "section": "4",
+      "title": "Подключенные каналы",
+      "hint": "Раздел содержит варианты способов получения записей разговоров для расшифровки и",
+      "pages": "60",
+      "tokens": 125,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/30-podklyuchennye-kanaly.md"
+    },
+    {
+      "id": "offline-scoring-31-osnovnye-nastroyki",
+      "section": "4.1",
+      "title": "Основные настройки",
+      "hint": "В разделе Основные настройки пользователь может ознакомится со статусом подключения",
+      "pages": "60",
+      "tokens": 240,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/31-osnovnye-nastroyki.md"
+    },
+    {
+      "id": "offline-scoring-32-nastroyki-ftp",
+      "section": "4.2",
+      "title": "Настройки FTP",
+      "hint": "FTP/FTPS/SFTP серверы используются в тех случаях, когда записанные звуковые данные собраны",
+      "pages": "60-64",
+      "tokens": 1901,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/32-nastroyki-ftp.md"
+    },
+    {
+      "id": "offline-scoring-33-nastroyki-api",
+      "section": "4.3",
+      "title": "Настройки API",
+      "hint": "Сервис загрузки по HTTP записей (одноканальных и двухканальных), полученных из офлайн-",
+      "pages": "64-65",
+      "tokens": 788,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/33-nastroyki-api.md"
+    },
+    {
+      "id": "offline-scoring-34-zagruzit-vruchnuyu",
+      "section": "4.4",
+      "title": "Загрузить вручную",
+      "hint": "Вкладка предназначена для ручной загрузки в систему аудиозаписей (одноканальных или",
+      "pages": "65-67",
+      "tokens": 1577,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/34-zagruzit-vruchnuyu.md"
+    },
+    {
+      "id": "offline-scoring-35-oflaynovye-zapisi",
+      "section": "5",
+      "title": "Офлайновые записи",
+      "hint": "Раздел содержит три вкладки:",
+      "pages": "67",
+      "tokens": 121,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/35-oflaynovye-zapisi.md"
+    },
+    {
+      "id": "offline-scoring-36-vse-razgovory",
+      "section": "5.1",
+      "title": "Все разговоры",
+      "hint": "При переходе на вкладку «Распознанные разговоры» в окне отображается панель фильтрации.",
+      "pages": "67-69",
+      "tokens": 2127,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/36-vse-razgovory.md"
+    },
+    {
+      "id": "offline-scoring-37-metki-na-pleere-pri-proslushivanii-zapis",
+      "section": "5.1.1",
+      "title": "Метки на плеере при прослушивании записи разговора",
+      "hint": "записи разговора",
+      "pages": "69-73",
+      "tokens": 3296,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/37-metki-na-pleere-pri-proslushivanii-zapis.md"
+    },
+    {
+      "id": "offline-scoring-38-izbrannoe",
+      "section": "5.2",
+      "title": "Избранное",
+      "hint": "Вкладка “Избранное” содержит список офлайновых записей разговоров, отмеченных метками.",
+      "pages": "73-74",
+      "tokens": 429,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/38-izbrannoe.md"
+    },
+    {
+      "id": "offline-scoring-39-nastroyki-oflayn-skoringa",
+      "section": "5.3",
+      "title": "Настройки (офлайн скоринга)",
+      "hint": "В этой вкладке можно управлять параметрами хранения и пересылки, а также изменить формат",
+      "pages": "74-75",
+      "tokens": 387,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/39-nastroyki-oflayn-skoringa.md"
+    },
+    {
+      "id": "offline-scoring-40-kak-rabotaet-poisk-po-raspoznannym-zapis",
+      "section": "6",
+      "title": "Как работает поиск по распознанным записям разговоров",
+      "hint": "распознанным записям",
+      "pages": "75",
+      "tokens": 230,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/40-kak-rabotaet-poisk-po-raspoznannym-zapis.md"
+    },
+    {
+      "id": "offline-scoring-41-terminy-i-opredeleniya",
+      "section": "6.1",
+      "title": "Термины и определения",
+      "hint": "Канал - участник разговора, речь которого анализируется.",
+      "pages": "75-77",
+      "tokens": 1916,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/41-terminy-i-opredeleniya.md"
+    },
+    {
+      "id": "offline-scoring-42-pravila-obrabotki-poiskovyh-zaprosov",
+      "section": "6.2",
+      "title": "Правила обработки поисковых запросов",
+      "hint": "запросов",
+      "pages": "77-78",
+      "tokens": 872,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/42-pravila-obrabotki-poiskovyh-zaprosov.md"
+    },
+    {
+      "id": "offline-scoring-43-obschie-sovety-dlya-sostavleniya-poiskov",
+      "section": "6.3",
+      "title": "Общие советы для составления поисковых запросов",
+      "hint": "поисковых запросов",
+      "pages": "78-80",
+      "tokens": 1025,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/43-obschie-sovety-dlya-sostavleniya-poiskov.md"
+    },
+    {
+      "id": "offline-scoring-44-obschie-nastroyki",
+      "section": "7",
+      "title": "Общие настройки",
+      "hint": "",
+      "pages": "80",
+      "tokens": 85,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/44-obschie-nastroyki.md"
+    },
+    {
+      "id": "offline-scoring-45-nastroyki",
+      "section": "7.1",
+      "title": "Настройки",
+      "hint": "Вкладка Настройки модуля \"Речевая аналитика\" содержит следующие блоки:",
+      "pages": "80-81",
+      "tokens": 748,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/45-nastroyki.md"
+    },
+    {
+      "id": "offline-scoring-46-raspoznavanie-razgovorov",
+      "section": "7.1.1",
+      "title": "Распознавание разговоров",
+      "hint": "Блок Настройка распознавания позволяет настроить функции распознавания и пересылки",
+      "pages": "81-82",
+      "tokens": 810,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/46-raspoznavanie-razgovorov.md"
+    },
+    {
+      "id": "offline-scoring-47-ai-konspekty",
+      "section": "7.1.2",
+      "title": "AI Конспекты",
+      "hint": "Блок AI Конспекты позволяет автоматически формировать краткое содержание телефонных",
+      "pages": "82-84",
+      "tokens": 1551,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/47-ai-konspekty.md"
+    },
+    {
+      "id": "offline-scoring-48-ai-tegirovanie",
+      "section": "7.1.3",
+      "title": "AI Тегирование",
+      "hint": "Блок AI Тегирование предназначен для анализа разговоров сотрудников с использованием",
+      "pages": "84-85",
+      "tokens": 729,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/48-ai-tegirovanie.md"
+    },
+    {
+      "id": "offline-scoring-49-dopolnitelnye-nastroyki",
+      "section": "7.1.4",
+      "title": "Дополнительные настройки",
+      "hint": "Блок Дополнительные настройки позволяет пользователю управлять расширенными функциями",
+      "pages": "85-86",
+      "tokens": 964,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/49-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "offline-scoring-50-sotrudniki-i-gruppy",
+      "section": "7.2",
+      "title": "Сотрудники и группы",
+      "hint": "Сотрудники, заведенные в Личном кабинете нужны только для сопоставления номера телефона",
+      "pages": "86",
+      "tokens": 231,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/50-sotrudniki-i-gruppy.md"
+    },
+    {
+      "id": "offline-scoring-51-vkladka-sotrudniki",
+      "section": "7.2.1",
+      "title": "Вкладка «Сотрудники»",
+      "hint": "На вкладке содержится список сотрудников, добавленных в Личном кабинете РА.",
+      "pages": "86-89",
+      "tokens": 1255,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/51-vkladka-sotrudniki.md"
+    },
+    {
+      "id": "offline-scoring-52-vkladka-gruppy",
+      "section": "7.2.2",
+      "title": "Вкладка «Группы»",
+      "hint": "Для создания группы сотрудников, нажмите кнопку «Добавить группу».",
+      "pages": "89-90",
+      "tokens": 644,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/52-vkladka-gruppy.md"
+    },
+    {
+      "id": "offline-scoring-53-bezopasnost-i-ogranicheniya",
+      "section": "7.3",
+      "title": "Безопасность и ограничения",
+      "hint": "Раздел «Безопасность и ограничения» содержит следующие вкладки:",
+      "pages": "90-91",
+      "tokens": 428,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/53-bezopasnost-i-ogranicheniya.md"
+    },
+    {
+      "id": "offline-scoring-54-vkladka-nastroyki",
+      "section": "7.3.1",
+      "title": "Вкладка «Настройки»",
+      "hint": "Пароль администратора ЛС",
+      "pages": "91-93",
+      "tokens": 1690,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/54-vkladka-nastroyki.md"
+    },
+    {
+      "id": "offline-scoring-55-bezopasnost-pro",
+      "section": "7.3.2",
+      "title": "Безопасность PRO",
+      "hint": "Безопасность PRO — это набор расширенных функций для защиты бизнеса.",
+      "pages": "93-95",
+      "tokens": 1560,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/55-bezopasnost-pro.md"
+    },
+    {
+      "id": "offline-scoring-56-vkladka-zhurnal-deystviy",
+      "section": "7.3.3",
+      "title": "Вкладка «Журнал действий»",
+      "hint": "Данный отчет отображает информацию о действиях пользователей в Личном кабинете.",
+      "pages": "95-96",
+      "tokens": 557,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/56-vkladka-zhurnal-deystviy.md"
+    },
+    {
+      "id": "offline-scoring-57-vkladka-nastroyki-dostupa",
+      "section": "7.3.4",
+      "title": "Вкладка «Настройки доступа»",
+      "hint": "Данный раздел предназначен для создания и редактирования ролей пользователей.",
+      "pages": "96-98",
+      "tokens": 1516,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/57-vkladka-nastroyki-dostupa.md"
+    },
+    {
+      "id": "offline-scoring-58-vkladka-ogranicheniya",
+      "section": "7.3.5",
+      "title": "Вкладка «Ограничения»",
+      "hint": "Вкладка Ограничения предназначена для управления параметрами времени жизни",
+      "pages": "98",
+      "tokens": 306,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/58-vkladka-ogranicheniya.md"
+    },
+    {
+      "id": "offline-scoring-59-sso-single-sign-on",
+      "section": "7.3.6",
+      "title": "SSO (Single Sign-On)",
+      "hint": "Вкладка SSO предназначена для настройки единого входа (Single Sign-On) в Личный кабинет ВАТС",
+      "pages": "98-100",
+      "tokens": 837,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/59-sso-single-sign-on.md"
+    },
+    {
+      "id": "offline-scoring-60-oblachnoe-hranilische",
+      "section": "7.4",
+      "title": "Облачное хранилище",
+      "hint": "В разделе задаются настройки хранения данных в защищенном персональном облачном",
+      "pages": "100",
+      "tokens": 624,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/60-oblachnoe-hranilische.md"
+    },
+    {
+      "id": "offline-scoring-61-podklyuchenie-po-ldap",
+      "section": "7.5",
+      "title": "Подключение по LDAP",
+      "hint": "Данный инструмент предназначен для интеграции со сторонними сервисами по протоколу",
+      "pages": "100-102",
+      "tokens": 724,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/61-podklyuchenie-po-ldap.md"
+    },
+    {
+      "id": "offline-scoring-62-shag-1-podklyuchenie-k-ldap-serveru",
+      "section": "7.5",
+      "title": "Шаг 1. Подключение к LDAP-серверу",
+      "hint": "На данной вкладке осуществляется настройка подключения.",
+      "pages": "102",
+      "tokens": 418,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/62-shag-1-podklyuchenie-k-ldap-serveru.md"
+    },
+    {
+      "id": "offline-scoring-63-shag-2-sopostavlenie-atributov",
+      "section": "7.5",
+      "title": "Шаг 2. Сопоставление атрибутов",
+      "hint": "На данном шаге выполняется сопоставление полей карточки сотрудника в Личном кабинете",
+      "pages": "102-104",
+      "tokens": 629,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/63-shag-2-sopostavlenie-atributov.md"
+    },
+    {
+      "id": "offline-scoring-64-shag-3-sopostavlenie-sotrudnikov",
+      "section": "7.5",
+      "title": "Шаг 3. Сопоставление сотрудников",
+      "hint": "Данный шаг не является обязательным.",
+      "pages": "104-106",
+      "tokens": 1486,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/64-shag-3-sopostavlenie-sotrudnikov.md"
+    },
+    {
+      "id": "offline-scoring-65-shag-4-nastroyka-sinhronizacii",
+      "section": "7.5",
+      "title": "Шаг 4. Настройка синхронизации",
+      "hint": "Настройки данного шага разнесены на две вкладки:",
+      "pages": "106-109",
+      "tokens": 2733,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/65-shag-4-nastroyka-sinhronizacii.md"
+    },
+    {
+      "id": "offline-scoring-66-api-konnektor",
+      "section": "7.6",
+      "title": "API коннектор",
+      "hint": "Перейдите на вкладку API Коннектор и нажмите кнопку Подключить API Коннектор.",
+      "pages": "109-114",
+      "tokens": 3784,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/66-api-konnektor.md"
+    },
+    {
+      "id": "offline-scoring-67-upravlenie-uslugami",
+      "section": "7.7",
+      "title": "Управление услугами",
+      "hint": "Вкладка Дополнительные услуги служит для агрегации информации обо всех отдельно",
+      "pages": "114-116",
+      "tokens": 554,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/67-upravlenie-uslugami.md"
+    },
+    {
+      "id": "offline-scoring-68-finansy",
+      "section": "8",
+      "title": "Финансы",
+      "hint": "Раздел позволяет узнать о функциях и инструментах для работы с текущим Лицевым счетом:",
+      "pages": "116",
+      "tokens": 415,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/68-finansy.md"
+    },
+    {
+      "id": "offline-scoring-69-dokumenty",
+      "section": "8.1",
+      "title": "Документы",
+      "hint": "В рабочей области вкладки «Документы» можно оперативно просматривать, формировать и",
+      "pages": "116",
+      "tokens": 245,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/69-dokumenty.md"
+    },
+    {
+      "id": "offline-scoring-70-prosmotret-zagruzit-buhgalterskie-dokume",
+      "section": "9.1.2",
+      "title": "Просмотреть/загрузить бухгалтерские документы",
+      "hint": "документы",
+      "pages": "116-117",
+      "tokens": 562,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/70-prosmotret-zagruzit-buhgalterskie-dokume.md"
+    },
+    {
+      "id": "offline-scoring-71-sformirovat-schet-na-predoplatu-telekomm",
+      "section": "9.1.3",
+      "title": "Сформировать счет на предоплату телекоммуникационных услуг",
+      "hint": "телекоммуникационных услуг",
+      "pages": "117",
+      "tokens": 526,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/71-sformirovat-schet-na-predoplatu-telekomm.md"
+    },
+    {
+      "id": "offline-scoring-72-sozdat-akt-sverki-vzaimnyh-raschetov",
+      "section": "9.1.4",
+      "title": "Создать акт сверки взаимных расчетов",
+      "hint": "Укажите даты в соответствующих полях блока «Акт сверки».",
+      "pages": "117",
+      "tokens": 175,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/72-sozdat-akt-sverki-vzaimnyh-raschetov.md"
+    },
+    {
+      "id": "offline-scoring-73-poluchit-detalizaciyu-sovershennyh-razgo",
+      "section": "9.1.5",
+      "title": "Получить детализацию совершенных разговоров",
+      "hint": "разговоров",
+      "pages": "117-118",
+      "tokens": 492,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/73-poluchit-detalizaciyu-sovershennyh-razgo.md"
+    },
+    {
+      "id": "offline-scoring-74-dogovory",
+      "section": "8.2",
+      "title": "Договоры",
+      "hint": "В разделе отображается список договор пользователя, с возможностью скачивания документов.",
+      "pages": "118-119",
+      "tokens": 826,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/74-dogovory.md"
+    },
+    {
+      "id": "offline-scoring-75-rashody-na-produkt",
+      "section": "8.3",
+      "title": "Расходы на продукт",
+      "hint": "Отчет Расходы на продукт позволяет просмотреть детализацию расходов по выбранному",
+      "pages": "119-123",
+      "tokens": 2045,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/75-rashody-na-produkt.md"
+    },
+    {
+      "id": "offline-scoring-76-platezhi",
+      "section": "8.4",
+      "title": "Платежи",
+      "hint": "Список «Период» позволяет установить вариант выбора дат (по умолчанию предлагается период",
+      "pages": "123-124",
+      "tokens": 533,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/76-platezhi.md"
+    },
+    {
+      "id": "offline-scoring-77-popolnit-schet",
+      "section": "8.5",
+      "title": "Пополнить счет",
+      "hint": "На вкладке Пополнить счет пополнять счет можно разными способами.",
+      "pages": "124-125",
+      "tokens": 408,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/77-popolnit-schet.md"
+    },
+    {
+      "id": "offline-scoring-78-bankovskiy-perevod",
+      "section": "9.5.1",
+      "title": "Банковский перевод",
+      "hint": "",
+      "pages": "125",
+      "tokens": 95,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/78-bankovskiy-perevod.md"
+    },
+    {
+      "id": "offline-scoring-79-dlya-yuridicheskih-lic",
+      "section": "9.5.1.1",
+      "title": "Для юридических лиц",
+      "hint": "Для оплаты услуг «Манго Телеком» юридическими лицами с использованием банковских",
+      "pages": "125",
+      "tokens": 307,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/79-dlya-yuridicheskih-lic.md"
+    },
+    {
+      "id": "offline-scoring-80-dlya-fizicheskih-lic",
+      "section": "8.5.1.1",
+      "title": "Для физических лиц",
+      "hint": "Перейдите на вкладку «Квитанция для физических лиц».",
+      "pages": "125-126",
+      "tokens": 448,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/80-dlya-fizicheskih-lic.md"
+    },
+    {
+      "id": "offline-scoring-81-bankovskie-karty",
+      "section": "9.5.2",
+      "title": "Банковские карты",
+      "hint": "Пополнение счета с помощью банковских карт возможно через системы:",
+      "pages": "126-128",
+      "tokens": 420,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/81-bankovskie-karty.md"
+    },
+    {
+      "id": "offline-scoring-82-oplata-cherez-qr-kod",
+      "section": "9.5.3",
+      "title": "Оплата через QR-код",
+      "hint": "Пополнение счета через QR-код производится с помощью сервиса PayMaster, без взимания",
+      "pages": "128",
+      "tokens": 308,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/82-oplata-cherez-qr-kod.md"
+    },
+    {
+      "id": "offline-scoring-83-avtoplatezh",
+      "section": "8.6",
+      "title": "Автоплатеж",
+      "hint": "Внимание",
+      "pages": "128-130",
+      "tokens": 1188,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/83-avtoplatezh.md"
+    },
+    {
+      "id": "offline-scoring-84-rekvizity",
+      "section": "8.7",
+      "title": "Реквизиты",
+      "hint": "Во вкладке «Реквизиты» можно просматривать и изменять контактные данные, отслеживать",
+      "pages": "130",
+      "tokens": 752,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/84-rekvizity.md"
+    },
+    {
+      "id": "offline-scoring-85-nastroyka-uvedomleniy",
+      "section": "8.8",
+      "title": "Настройка уведомлений",
+      "hint": "Уведомления о событиях можно получать по электронной почте, в виде SMS-сообщений и PUSH-",
+      "pages": "130-133",
+      "tokens": 1317,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/85-nastroyka-uvedomleniy.md"
+    },
+    {
+      "id": "offline-scoring-86-roli-i-prava-dostupa",
+      "section": "9",
+      "title": "Роли и права доступа",
+      "hint": "В данном разделе приведено сводное описание параметров доступности, разрешений (прав) и",
+      "pages": "133",
+      "tokens": 628,
+      "path": "docs/kb/speech-analytics/offline-scoring/sections/86-roli-i-prava-dostupa.md"
+    }
+  ]
+}

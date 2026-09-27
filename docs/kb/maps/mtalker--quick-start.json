@@ -1,0 +1,72 @@
+{
+  "document_id": "mtalker--quick-start",
+  "index": "docs/kb/mtalker/quick-start/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "quick-start-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Mango Talker для ОС Android",
+      "pages": "1-2",
+      "tokens": 167,
+      "path": "docs/kb/mtalker/quick-start/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "quick-start-01-obschie-svedeniya",
+      "section": "—",
+      "title": "Общие сведения",
+      "hint": "Коммуникатор “Mango Talker” (далее по тексту - коммуникатор) предоставляет вам",
+      "pages": "2",
+      "tokens": 247,
+      "path": "docs/kb/mtalker/quick-start/sections/01-obschie-svedeniya.md"
+    },
+    {
+      "id": "quick-start-02-dostup-k-kommunikatoru",
+      "section": "—",
+      "title": "Доступ к коммуникатору",
+      "hint": "Скачать коммуникатор Вы на сайте MANGO OFFICE.",
+      "pages": "2-3",
+      "tokens": 582,
+      "path": "docs/kb/mtalker/quick-start/sections/02-dostup-k-kommunikatoru.md"
+    },
+    {
+      "id": "quick-start-03-vyzov-abonenta-iz-spiska-kontakty",
+      "section": "—",
+      "title": "Вызов абонента из списка “Контакты”",
+      "hint": "Вы можете выбрать контакт в списке “Контакты” и позвонить или передать сообщение в чат,",
+      "pages": "3",
+      "tokens": 576,
+      "path": "docs/kb/mtalker/quick-start/sections/03-vyzov-abonenta-iz-spiska-kontakty.md"
+    },
+    {
+      "id": "quick-start-04-kak-na-vneshniy-nomer-telefona-pozvonit",
+      "section": "—",
+      "title": "Как на внешний номер телефона позвонить или отправить СМС",
+      "hint": "отправить СМС",
+      "pages": "3-4",
+      "tokens": 441,
+      "path": "docs/kb/mtalker/quick-start/sections/04-kak-na-vneshniy-nomer-telefona-pozvonit.md"
+    },
+    {
+      "id": "quick-start-05-tekstovyy-chat",
+      "section": "—",
+      "title": "Текстовый чат",
+      "hint": "Вы можете открыть текстовый чат и посмотреть историю переписки с абонентом, в том",
+      "pages": "4",
+      "tokens": 296,
+      "path": "docs/kb/mtalker/quick-start/sections/05-tekstovyy-chat.md"
+    },
+    {
+      "id": "quick-start-06-kak-otpravit-fayl-abonentu",
+      "section": "—",
+      "title": "Как отправить файл абоненту",
+      "hint": "В окне текстового чата Вы можете отправить файл абоненту, например, фотографию.",
+      "pages": "4",
+      "tokens": 236,
+      "path": "docs/kb/mtalker/quick-start/sections/06-kak-otpravit-fayl-abonentu.md"
+    }
+  ]
+}

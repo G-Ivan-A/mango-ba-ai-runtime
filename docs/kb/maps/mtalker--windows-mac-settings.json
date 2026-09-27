@@ -1,0 +1,504 @@
+{
+  "document_id": "mtalker--windows-mac-settings",
+  "index": "docs/kb/mtalker/windows-mac-settings/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "windows-mac-settings-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Mango Talker для сред ОС",
+      "pages": "1-4",
+      "tokens": 1162,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "windows-mac-settings-01-kak-otkryt-nastroyki-obobschenno",
+      "section": "1",
+      "title": "Как открыть настройки. Обобщенно",
+      "hint": "Вы можете установить те или иные настройки MTalker, для этого в основном",
+      "pages": "4",
+      "tokens": 236,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/01-kak-otkryt-nastroyki-obobschenno.md"
+    },
+    {
+      "id": "windows-mac-settings-02-upravlenie-mtalker",
+      "section": "2",
+      "title": "Управление MTalker",
+      "hint": "",
+      "pages": "4",
+      "tokens": 55,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/02-upravlenie-mtalker.md"
+    },
+    {
+      "id": "windows-mac-settings-03-avtomaticheskiy-zapusk-raboty",
+      "section": "2.1",
+      "title": "Автоматический запуск работы",
+      "hint": "Если в настройках вы включили автозапуск, то MTalker будет запускаться",
+      "pages": "4",
+      "tokens": 312,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/03-avtomaticheskiy-zapusk-raboty.md"
+    },
+    {
+      "id": "windows-mac-settings-04-avtomaticheskiy-vhod-polzovatelya",
+      "section": "2.2",
+      "title": "Автоматический вход пользователя",
+      "hint": "",
+      "pages": "4",
+      "tokens": 64,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/04-avtomaticheskiy-vhod-polzovatelya.md"
+    },
+    {
+      "id": "windows-mac-settings-05-obschie-svedeniya",
+      "section": "2.2",
+      "title": "Общие сведения",
+      "hint": "Функция автоматического входа пользователя помогает быстрее войти в",
+      "pages": "4",
+      "tokens": 134,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/05-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-settings-06-kak-vklyuchit-avtomaticheskiy-vhod",
+      "section": "2.2",
+      "title": "Как включить автоматический вход",
+      "hint": "Для того чтобы включить данную функцию, следует:",
+      "pages": "4-5",
+      "tokens": 526,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/06-kak-vklyuchit-avtomaticheskiy-vhod.md"
+    },
+    {
+      "id": "windows-mac-settings-07-kak-otklyuchit-avtomaticheskiy-vhod",
+      "section": "2.2",
+      "title": "Как отключить автоматический вход",
+      "hint": "Чтобы отключить автоматический вход в MTalker, следует:",
+      "pages": "5-6",
+      "tokens": 533,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/07-kak-otklyuchit-avtomaticheskiy-vhod.md"
+    },
+    {
+      "id": "windows-mac-settings-08-kak-vklyuchit-avtomaticheskiy-perehod-v",
+      "section": "3",
+      "title": "Как включить автоматический переход в фоновый режим при автозапуске",
+      "hint": "режим при автозапуске",
+      "pages": "6",
+      "tokens": 298,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/08-kak-vklyuchit-avtomaticheskiy-perehod-v.md"
+    },
+    {
+      "id": "windows-mac-settings-09-fayly-i-zagruzki",
+      "section": "4",
+      "title": "Файлы и загрузки",
+      "hint": "",
+      "pages": "6",
+      "tokens": 58,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/09-fayly-i-zagruzki.md"
+    },
+    {
+      "id": "windows-mac-settings-10-obschie-svedeniya",
+      "section": "4.1",
+      "title": "Общие сведения",
+      "hint": "В MTalker вы можете отправлять и получать фотографии, документы и другие",
+      "pages": "6",
+      "tokens": 160,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/10-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-settings-11-kak-nayti-i-otkryt-zagruzhennyy-fayl",
+      "section": "4.2",
+      "title": "Как найти и открыть загруженный файл",
+      "hint": "Чтобы найти папку загрузки файлов, следует:",
+      "pages": "6",
+      "tokens": 290,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/11-kak-nayti-i-otkryt-zagruzhennyy-fayl.md"
+    },
+    {
+      "id": "windows-mac-settings-12-kak-izmenit-papku-sohraneniya-faylov",
+      "section": "4.3",
+      "title": "Как изменить папку сохранения файлов",
+      "hint": "Чтобы изменить папку сохранения файлов, следует:",
+      "pages": "6-7",
+      "tokens": 317,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/12-kak-izmenit-papku-sohraneniya-faylov.md"
+    },
+    {
+      "id": "windows-mac-settings-13-kak-vklyuchit-zapros-mesta-sohraneniya-f",
+      "section": "4.4",
+      "title": "Как включить запрос места сохранения файлов",
+      "hint": "Если вы хотите, чтобы присланные вам файлы сохранялись только по вашей",
+      "pages": "7",
+      "tokens": 270,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/13-kak-vklyuchit-zapros-mesta-sohraneniya-f.md"
+    },
+    {
+      "id": "windows-mac-settings-14-avtozagruzka-izobrazheniy",
+      "section": "4.5",
+      "title": "Автозагрузка изображений",
+      "hint": "По умолчанию изображения во входящих сообщениях сохраняются",
+      "pages": "7",
+      "tokens": 277,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/14-avtozagruzka-izobrazheniy.md"
+    },
+    {
+      "id": "windows-mac-settings-15-kak-obnovit-mtalker",
+      "section": "5",
+      "title": "Как обновить MTalker",
+      "hint": "В MTalker регулярно автоматически выполняется проверка выхода",
+      "pages": "7-8",
+      "tokens": 377,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/15-kak-obnovit-mtalker.md"
+    },
+    {
+      "id": "windows-mac-settings-16-personalizaciya",
+      "section": "6",
+      "title": "Персонализация",
+      "hint": "",
+      "pages": "8",
+      "tokens": 57,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/16-personalizaciya.md"
+    },
+    {
+      "id": "windows-mac-settings-17-vneshniy-vid",
+      "section": "6.1",
+      "title": "Внешний вид",
+      "hint": "",
+      "pages": "8",
+      "tokens": 60,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/17-vneshniy-vid.md"
+    },
+    {
+      "id": "windows-mac-settings-18-kak-vklyuchit-ili-vyklyuchit-podtverzhde",
+      "section": "6.1",
+      "title": "Как включить или выключить подтверждение действия пользователя",
+      "hint": "По умолчанию окно подтверждения действий отображается в MTalker при",
+      "pages": "8",
+      "tokens": 441,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/18-kak-vklyuchit-ili-vyklyuchit-podtverzhde.md"
+    },
+    {
+      "id": "windows-mac-settings-19-vklyuchenie-i-vyklyuchenie-uvedomleniy-o",
+      "section": "6.1",
+      "title": "Включение и выключение уведомлений о новых сообщениях",
+      "hint": "На вашем ПК вы можете получать от MTalker уведомления о новых сообщениях",
+      "pages": "8-9",
+      "tokens": 433,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/19-vklyuchenie-i-vyklyuchenie-uvedomleniy-o.md"
+    },
+    {
+      "id": "windows-mac-settings-20-obrabotka-klikov-po-ssylkam",
+      "section": "6.2",
+      "title": "Обработка кликов по ссылкам",
+      "hint": "На многих сайтах в интернете указанные на них номера телефонов и факсов",
+      "pages": "9",
+      "tokens": 600,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/20-obrabotka-klikov-po-ssylkam.md"
+    },
+    {
+      "id": "windows-mac-settings-21-pereklyuchenie-fokusa-pri-vhodyaschem-zv",
+      "section": "6.3",
+      "title": "Переключение фокуса при входящем звонке",
+      "hint": "Эта настройка используется, чтобы при входящем звонке автоматически",
+      "pages": "9-10",
+      "tokens": 667,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/21-pereklyuchenie-fokusa-pri-vhodyaschem-zv.md"
+    },
+    {
+      "id": "windows-mac-settings-22-udalenie-lishnih-simvolov-pri-vvode-nome",
+      "section": "6.4",
+      "title": "Удаление лишних символов при вводе номера",
+      "hint": "",
+      "pages": "10",
+      "tokens": 69,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/22-udalenie-lishnih-simvolov-pri-vvode-nome.md"
+    },
+    {
+      "id": "windows-mac-settings-23-obschie-svedeniya",
+      "section": "6.4",
+      "title": "Общие сведения",
+      "hint": "В MTalker реализована проверка номера перед совершением вызова.",
+      "pages": "10",
+      "tokens": 260,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/23-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-settings-24-vklyuchenie-proverki",
+      "section": "6.4",
+      "title": "Включение проверки",
+      "hint": "Для того чтобы включить проверку номера, следует:",
+      "pages": "10-11",
+      "tokens": 249,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/24-vklyuchenie-proverki.md"
+    },
+    {
+      "id": "windows-mac-settings-25-uvedomleniya",
+      "section": "6.5",
+      "title": "Уведомления",
+      "hint": "",
+      "pages": "11",
+      "tokens": 58,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/25-uvedomleniya.md"
+    },
+    {
+      "id": "windows-mac-settings-26-nastroyka-otpravki-na-e-mail",
+      "section": "6.5",
+      "title": "Настройка отправки на e-mail",
+      "hint": "MTalker формирует и передает на e-mail уведомления о новых сообщениях и",
+      "pages": "11",
+      "tokens": 428,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/26-nastroyka-otpravki-na-e-mail.md"
+    },
+    {
+      "id": "windows-mac-settings-27-zvukovye-uvedomleniya-kak-vybrat-rington",
+      "section": "6.5",
+      "title": "Звуковые уведомления. Как выбрать рингтон",
+      "hint": "При входящем звонке и сообщении MTalker выдает звуковой сигнал (рингтон),",
+      "pages": "11-12",
+      "tokens": 407,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/27-zvukovye-uvedomleniya-kak-vybrat-rington.md"
+    },
+    {
+      "id": "windows-mac-settings-28-klavishi-otpravki-soobscheniy-v-chat",
+      "section": "6.6",
+      "title": "Клавиши отправки сообщений в чат",
+      "hint": "Вы можете выбрать кнопку отправки сообщений:",
+      "pages": "12",
+      "tokens": 287,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/28-klavishi-otpravki-soobscheniy-v-chat.md"
+    },
+    {
+      "id": "windows-mac-settings-29-globalnye-goryachie-klavishi",
+      "section": "6.7",
+      "title": "Глобальные горячие клавиши",
+      "hint": "Ознакомьтесь с сочетаниями клавиш, чтобы быстрее и эффективнее",
+      "pages": "12",
+      "tokens": 425,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/29-globalnye-goryachie-klavishi.md"
+    },
+    {
+      "id": "windows-mac-settings-30-yazyk",
+      "section": "6.8",
+      "title": "Язык",
+      "hint": "Вы можете выбрать интерфейса MTalker:",
+      "pages": "12-13",
+      "tokens": 323,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/30-yazyk.md"
+    },
+    {
+      "id": "windows-mac-settings-31-konfidencialnost-kak-udalit-lichnye-dann",
+      "section": "6.9",
+      "title": "Конфиденциальность. Как удалить личные данные",
+      "hint": "Вы можете удалить следующие личные данные из MTalker:",
+      "pages": "13",
+      "tokens": 404,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/31-konfidencialnost-kak-udalit-lichnye-dann.md"
+    },
+    {
+      "id": "windows-mac-settings-32-video",
+      "section": "7",
+      "title": "Видео",
+      "hint": "",
+      "pages": "13",
+      "tokens": 54,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/32-video.md"
+    },
+    {
+      "id": "windows-mac-settings-33-otkryvat-video-zvonki-vo-vneshnem-brauze",
+      "section": "7.1",
+      "title": "Открывать видео звонки во внешнем браузере",
+      "hint": "По умолчанию, в MTalker данная настройка включена, это означает что при",
+      "pages": "13-14",
+      "tokens": 470,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/33-otkryvat-video-zvonki-vo-vneshnem-brauze.md"
+    },
+    {
+      "id": "windows-mac-settings-34-zvuk",
+      "section": "8",
+      "title": "Звук",
+      "hint": "",
+      "pages": "14",
+      "tokens": 53,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/34-zvuk.md"
+    },
+    {
+      "id": "windows-mac-settings-35-izmenenie-parametrov-zvukovyh-ustroystva",
+      "section": "8.1",
+      "title": "Изменение параметров звуковых устройства",
+      "hint": "Для того чтобы настроить параметры динамиков и микрофона, следует:",
+      "pages": "14",
+      "tokens": 449,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/35-izmenenie-parametrov-zvukovyh-ustroystva.md"
+    },
+    {
+      "id": "windows-mac-settings-36-kak-bystro-pereklyuchit-vyvod-zvuka-na-s",
+      "section": "8.2",
+      "title": "Как быстро переключить вывод звука на стороннюю гарнитуру",
+      "hint": "С помощью настройки “Автоматически использовать подключенные",
+      "pages": "14-15",
+      "tokens": 372,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/36-kak-bystro-pereklyuchit-vyvod-zvuka-na-s.md"
+    },
+    {
+      "id": "windows-mac-settings-37-sbros-nastroek-zvuka",
+      "section": "8.3",
+      "title": "Сброс настроек звука",
+      "hint": "При помощи MTalker в ОС Windows вы можете сбросить все пользовательские",
+      "pages": "15",
+      "tokens": 364,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/37-sbros-nastroek-zvuka.md"
+    },
+    {
+      "id": "windows-mac-settings-38-avtopodnyatie-trubki-dlya-ishodyaschih-z",
+      "section": "8.4",
+      "title": "Автоподнятие трубки для исходящих звонков",
+      "hint": "Данная настройка влияет на обработку звонка при клике по номеру телефона.",
+      "pages": "15-16",
+      "tokens": 623,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/38-avtopodnyatie-trubki-dlya-ishodyaschih-z.md"
+    },
+    {
+      "id": "windows-mac-settings-39-ispolzovat-vneshniy-telefon",
+      "section": "9",
+      "title": "Использовать внешний телефон",
+      "hint": "",
+      "pages": "16",
+      "tokens": 62,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/39-ispolzovat-vneshniy-telefon.md"
+    },
+    {
+      "id": "windows-mac-settings-40-obschie-svedeniya",
+      "section": "9.1",
+      "title": "Общие сведения",
+      "hint": "Если в вашей версии ВАТС доступна функция совершения callback-вызовов,",
+      "pages": "16",
+      "tokens": 328,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/40-obschie-svedeniya.md"
+    },
+    {
+      "id": "windows-mac-settings-41-vklyuchenie-funkcii-i-vvod-vneshnego-nom",
+      "section": "9.2",
+      "title": "Включение функции и ввод внешнего номера",
+      "hint": "Для того чтобы включить функцию и указать внешний номер, следует:",
+      "pages": "16-17",
+      "tokens": 322,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/41-vklyuchenie-funkcii-i-vvod-vneshnego-nom.md"
+    },
+    {
+      "id": "windows-mac-settings-42-tehnicheskie-nastroyki",
+      "section": "10",
+      "title": "Технические настройки",
+      "hint": "",
+      "pages": "17",
+      "tokens": 60,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/42-tehnicheskie-nastroyki.md"
+    },
+    {
+      "id": "windows-mac-settings-43-podklyuchenie-k-seti",
+      "section": "10.1",
+      "title": "Подключение к сети",
+      "hint": "",
+      "pages": "17",
+      "tokens": 62,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/43-podklyuchenie-k-seti.md"
+    },
+    {
+      "id": "windows-mac-settings-44-proksi-server",
+      "section": "10.1",
+      "title": "Прокси-сервер",
+      "hint": "Если ваш ПК подключен к информационной сети, в которой необходима",
+      "pages": "17",
+      "tokens": 366,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/44-proksi-server.md"
+    },
+    {
+      "id": "windows-mac-settings-45-nastroyki-sip",
+      "section": "10.1",
+      "title": "Настройки SIP",
+      "hint": "По умолчанию, в MTalker установлены настройки SIP-подключения к серверам",
+      "pages": "17",
+      "tokens": 291,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/45-nastroyki-sip.md"
+    },
+    {
+      "id": "windows-mac-settings-46-vklyuchenie-vyklyuchenie-funkciy-cng-vad",
+      "section": "10.1",
+      "title": "Включение/выключение функций CNG, VAD, анти-эхо",
+      "hint": "В MTalker реализованы следующий функции обработки звукового сигнала:",
+      "pages": "17-18",
+      "tokens": 525,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/46-vklyuchenie-vyklyuchenie-funkciy-cng-vad.md"
+    },
+    {
+      "id": "windows-mac-settings-47-kodeki",
+      "section": "10.2",
+      "title": "Кодеки",
+      "hint": "",
+      "pages": "18",
+      "tokens": 58,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/47-kodeki.md"
+    },
+    {
+      "id": "windows-mac-settings-48-perechen-podderzhivaemyh-kodekov",
+      "section": "10.2",
+      "title": "Перечень поддерживаемых кодеков",
+      "hint": "В таблице ниже перечислены кодеки, поддерживаемые MTalker.",
+      "pages": "18",
+      "tokens": 314,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/48-perechen-podderzhivaemyh-kodekov.md"
+    },
+    {
+      "id": "windows-mac-settings-49-vklyuchenie-i-vyklyuchenie-kodekov",
+      "section": "10.2",
+      "title": "Включение и выключение кодеков",
+      "hint": "По умолчанию в MTalker включено применение всех кодеков.",
+      "pages": "18",
+      "tokens": 257,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/49-vklyuchenie-i-vyklyuchenie-kodekov.md"
+    },
+    {
+      "id": "windows-mac-settings-50-nastroyka-prioriteta-ispolzovaniya-kodek",
+      "section": "10.2",
+      "title": "Настройка приоритета использования кодека",
+      "hint": "В настройках MTalker, кодеки перечислены в порядке их применения при",
+      "pages": "18-19",
+      "tokens": 386,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/50-nastroyka-prioriteta-ispolzovaniya-kodek.md"
+    },
+    {
+      "id": "windows-mac-settings-51-zagruzka-nastroek-kodekov-s-servera",
+      "section": "10.2",
+      "title": "Загрузка настроек кодеков с сервера",
+      "hint": "Чтобы включить загрузку кодеков с севера, следует:",
+      "pages": "19",
+      "tokens": 225,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/51-zagruzka-nastroek-kodekov-s-servera.md"
+    },
+    {
+      "id": "windows-mac-settings-52-sessii-polzovatelya",
+      "section": "10.3",
+      "title": "Сессии пользователя",
+      "hint": "",
+      "pages": "19",
+      "tokens": 58,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/52-sessii-polzovatelya.md"
+    },
+    {
+      "id": "windows-mac-settings-53-kak-uznat-na-kakih-ustroystvah-otkryty-s",
+      "section": "10.3",
+      "title": "Как узнать, на каких устройствах открыты сессии пользователей",
+      "hint": "Вы можете посмотреть список устройств, на которых выполнен вход в MTalker",
+      "pages": "19",
+      "tokens": 268,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/53-kak-uznat-na-kakih-ustroystvah-otkryty-s.md"
+    },
+    {
+      "id": "windows-mac-settings-54-udalennyy-vyhod-iz-mtalker",
+      "section": "10.3",
+      "title": "Удаленный выход из MTalker",
+      "hint": "Если вы забыли выйти из MTalker на ПК, к которому у вас уже нет доступа, то",
+      "pages": "19",
+      "tokens": 232,
+      "path": "docs/kb/mtalker/windows-mac-settings/sections/54-udalennyy-vyhod-iz-mtalker.md"
+    }
+  ]
+}

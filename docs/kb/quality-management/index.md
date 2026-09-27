@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [contact-center, analytics-reporting]
 type: kb-source-index
 doc_code: QM
 doc_title: "Руководство по контролю качества"

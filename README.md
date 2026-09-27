@@ -42,8 +42,9 @@ updated: 2026-09-26
 
 `docs/kb/` — копия `kb/processed` из
 [`mango_ba_prompts`](https://github.com/G-Ivan-A/mango_ba_prompts/tree/main/kb/processed).
-Навигация: [`docs/kb/README.md`](docs/kb/README.md) →
-`docs/kb/<документ>/index.md` → `sections/NN-*.md`.
+Навигация: [`docs/kb/MAP.json`](docs/kb/MAP.json) →
+`docs/kb/maps/<документ>.json` → `sections/NN-*.md`.
+Порядок выбора и повторного поиска: [`docs/kb/USAGE.md`](docs/kb/USAGE.md).
 
 ## Версии и происхождение
 

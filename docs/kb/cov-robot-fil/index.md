@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [contact-center]
 type: kb-source-index
 doc_code: ROBOTFIL
 doc_title: "Модуль ЦОВ «Робот Фил 2,0». Руководство пользователя"

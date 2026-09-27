@@ -1,0 +1,900 @@
+{
+  "document_id": "mtalker--android-user-guide",
+  "index": "docs/kb/mtalker/android-user-guide/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "android-user-guide-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Mango Talker для ОС Android",
+      "pages": "1-7",
+      "tokens": 2876,
+      "path": "docs/kb/mtalker/android-user-guide/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "android-user-guide-01-nachalo-raboty",
+      "section": "—",
+      "title": "Начало работы",
+      "hint": "",
+      "pages": "7",
+      "tokens": 62,
+      "path": "docs/kb/mtalker/android-user-guide/sections/01-nachalo-raboty.md"
+    },
+    {
+      "id": "android-user-guide-02-obzor",
+      "section": "—",
+      "title": "Обзор",
+      "hint": "Mango Talker (MTalker), это кроссплатформенный продукт, позволяющий реализовать все",
+      "pages": "7",
+      "tokens": 435,
+      "path": "docs/kb/mtalker/android-user-guide/sections/02-obzor.md"
+    },
+    {
+      "id": "android-user-guide-03-ustanovka-i-udalenie",
+      "section": "—",
+      "title": "Установка и удаление",
+      "hint": "Установка",
+      "pages": "7-8",
+      "tokens": 870,
+      "path": "docs/kb/mtalker/android-user-guide/sections/03-ustanovka-i-udalenie.md"
+    },
+    {
+      "id": "android-user-guide-04-vhod-i-vyhod",
+      "section": "—",
+      "title": "Вход и выход",
+      "hint": "Автоматический вход в MTalker",
+      "pages": "8-9",
+      "tokens": 405,
+      "path": "docs/kb/mtalker/android-user-guide/sections/04-vhod-i-vyhod.md"
+    },
+    {
+      "id": "android-user-guide-05-obschee-opisanie-interfeysa",
+      "section": "—",
+      "title": "Общее описание интерфейса",
+      "hint": "В окне программы отображаются следующие элементы интерфейса:",
+      "pages": "9",
+      "tokens": 362,
+      "path": "docs/kb/mtalker/android-user-guide/sections/05-obschee-opisanie-interfeysa.md"
+    },
+    {
+      "id": "android-user-guide-06-kak-pozvonit-ili-prinyat-vhodyaschiy-zvo",
+      "section": "—",
+      "title": "Как позвонить или принять входящий звонок",
+      "hint": "",
+      "pages": "9",
+      "tokens": 76,
+      "path": "docs/kb/mtalker/android-user-guide/sections/06-kak-pozvonit-ili-prinyat-vhodyaschiy-zvo.md"
+    },
+    {
+      "id": "android-user-guide-07-zvonok-sotrudniku",
+      "section": "—",
+      "title": "Звонок сотруднику",
+      "hint": "Вы можете сделать аудио или видеозвонок вашему сотруднику, зарегистрированному в ВАТС, и",
+      "pages": "9-10",
+      "tokens": 371,
+      "path": "docs/kb/mtalker/android-user-guide/sections/07-zvonok-sotrudniku.md"
+    },
+    {
+      "id": "android-user-guide-08-kak-pozvonit-na-lyuboy-nomer-telefona",
+      "section": "—",
+      "title": "Как позвонить на любой номер телефона",
+      "hint": "С помощью MTalker вы можете звонить на номера телефонов: домашний, мобильный, рабочий,",
+      "pages": "10",
+      "tokens": 497,
+      "path": "docs/kb/mtalker/android-user-guide/sections/08-kak-pozvonit-na-lyuboy-nomer-telefona.md"
+    },
+    {
+      "id": "android-user-guide-09-v-komnatu-audio-konferencsvyazi",
+      "section": "—",
+      "title": "В комнату аудио конференцсвязи",
+      "hint": "В вашей ВАТС могут быть настроены комнаты для проведения аудио конференций.",
+      "pages": "10-11",
+      "tokens": 437,
+      "path": "docs/kb/mtalker/android-user-guide/sections/09-v-komnatu-audio-konferencsvyazi.md"
+    },
+    {
+      "id": "android-user-guide-10-kak-nachat-gruppovoy-videozvonok",
+      "section": "—",
+      "title": "Как начать групповой видеозвонок",
+      "hint": "Вы можете пригласить сотрудников провести групповой видеозвонок.",
+      "pages": "11",
+      "tokens": 808,
+      "path": "docs/kb/mtalker/android-user-guide/sections/10-kak-nachat-gruppovoy-videozvonok.md"
+    },
+    {
+      "id": "android-user-guide-11-kak-prinyat-vhodyaschiy-zvonok",
+      "section": "—",
+      "title": "Как принять входящий звонок?",
+      "hint": "Если вам поступил звонок на MTalker, то на экране вашего устройства Android поверх всех окно",
+      "pages": "11-12",
+      "tokens": 223,
+      "path": "docs/kb/mtalker/android-user-guide/sections/11-kak-prinyat-vhodyaschiy-zvonok.md"
+    },
+    {
+      "id": "android-user-guide-12-kak-otpravit-soobschenie-sotrudniku-vats",
+      "section": "—",
+      "title": "Как отправить сообщение сотруднику ВАТС",
+      "hint": "",
+      "pages": "12",
+      "tokens": 73,
+      "path": "docs/kb/mtalker/android-user-guide/sections/12-kak-otpravit-soobschenie-sotrudniku-vats.md"
+    },
+    {
+      "id": "android-user-guide-13-otpravka-soobscheniya-v-chat",
+      "section": "—",
+      "title": "Отправка сообщения в чат",
+      "hint": "Для того чтобы отправить текстовое сообщение сотруднику ВАТС, в основном окне MTalker",
+      "pages": "12",
+      "tokens": 299,
+      "path": "docs/kb/mtalker/android-user-guide/sections/13-otpravka-soobscheniya-v-chat.md"
+    },
+    {
+      "id": "android-user-guide-14-otpravka-audio-i-videofayla-mestopolozhe",
+      "section": "—",
+      "title": "Отправка аудио и видеофайла, местоположения, файля, контакта или СМС-",
+      "hint": "сообщение",
+      "pages": "12",
+      "tokens": 439,
+      "path": "docs/kb/mtalker/android-user-guide/sections/14-otpravka-audio-i-videofayla-mestopolozhe.md"
+    },
+    {
+      "id": "android-user-guide-15-proverka-statusa-dostavki-otpravlennogo",
+      "section": "—",
+      "title": "Проверка статуса доставки отправленного сообщения",
+      "hint": "Для того чтобы проверить доставку отправленного сообщения или файла, или смс, или факса на",
+      "pages": "12-13",
+      "tokens": 386,
+      "path": "docs/kb/mtalker/android-user-guide/sections/15-proverka-statusa-dostavki-otpravlennogo.md"
+    },
+    {
+      "id": "android-user-guide-16-kak-pozvonit-ili-otpravit-sms-na-proizvo",
+      "section": "—",
+      "title": "Как позвонить или отправить смс на произвольный номер",
+      "hint": "Вы можете через MTalker взаимодействовать с внешним номером:",
+      "pages": "13-14",
+      "tokens": 772,
+      "path": "docs/kb/mtalker/android-user-guide/sections/16-kak-pozvonit-ili-otpravit-sms-na-proizvo.md"
+    },
+    {
+      "id": "android-user-guide-17-poluchenie-soobscheniy",
+      "section": "—",
+      "title": "Получение сообщений",
+      "hint": "Если вам поступило новое сообщение в чат или канал, то в MTalker будет показана пиктограмма",
+      "pages": "14",
+      "tokens": 272,
+      "path": "docs/kb/mtalker/android-user-guide/sections/17-poluchenie-soobscheniy.md"
+    },
+    {
+      "id": "android-user-guide-18-kak-otpravit-email",
+      "section": "—",
+      "title": "Как отправить email",
+      "hint": "Вы можете отправить email через MTalker, если адрес электронной почты нужного вам абонента",
+      "pages": "14-15",
+      "tokens": 341,
+      "path": "docs/kb/mtalker/android-user-guide/sections/18-kak-otpravit-email.md"
+    },
+    {
+      "id": "android-user-guide-19-vo-vremya-zvonka",
+      "section": "—",
+      "title": "Во время звонка",
+      "hint": "",
+      "pages": "15",
+      "tokens": 64,
+      "path": "docs/kb/mtalker/android-user-guide/sections/19-vo-vremya-zvonka.md"
+    },
+    {
+      "id": "android-user-guide-20-upravlenie-videozvonkom",
+      "section": "—",
+      "title": "Управление видеозвонком",
+      "hint": "Завершение вызова",
+      "pages": "15-16",
+      "tokens": 936,
+      "path": "docs/kb/mtalker/android-user-guide/sections/20-upravlenie-videozvonkom.md"
+    },
+    {
+      "id": "android-user-guide-21-upravlenie-audio-zvonkom",
+      "section": "—",
+      "title": "Управление аудио звонком",
+      "hint": "Общие сведения",
+      "pages": "16-19",
+      "tokens": 2689,
+      "path": "docs/kb/mtalker/android-user-guide/sections/21-upravlenie-audio-zvonkom.md"
+    },
+    {
+      "id": "android-user-guide-22-konferencii",
+      "section": "—",
+      "title": "Конференции",
+      "hint": "",
+      "pages": "19",
+      "tokens": 63,
+      "path": "docs/kb/mtalker/android-user-guide/sections/22-konferencii.md"
+    },
+    {
+      "id": "android-user-guide-23-obschee",
+      "section": "—",
+      "title": "Общее",
+      "hint": "Конференции — это групповые видеозвонки.",
+      "pages": "19",
+      "tokens": 271,
+      "path": "docs/kb/mtalker/android-user-guide/sections/23-obschee.md"
+    },
+    {
+      "id": "android-user-guide-24-onbording-videokonferenciy",
+      "section": "—",
+      "title": "Онбординг видеоконференций",
+      "hint": "При первом использовании видеоконференции пользователю отображаются подсказки.",
+      "pages": "19",
+      "tokens": 268,
+      "path": "docs/kb/mtalker/android-user-guide/sections/24-onbording-videokonferenciy.md"
+    },
+    {
+      "id": "android-user-guide-25-ekran-videokonferencii",
+      "section": "—",
+      "title": "Экран видеоконференции",
+      "hint": "Управление видеозвонком",
+      "pages": "19-20",
+      "tokens": 390,
+      "path": "docs/kb/mtalker/android-user-guide/sections/25-ekran-videokonferencii.md"
+    },
+    {
+      "id": "android-user-guide-26-kak-nachat-audio-konferenciyu",
+      "section": "—",
+      "title": "Как начать аудио конференцию",
+      "hint": "Чтобы создать новую аудио конференцию, в разделе “Конференции” MTalker следует:",
+      "pages": "20",
+      "tokens": 389,
+      "path": "docs/kb/mtalker/android-user-guide/sections/26-kak-nachat-audio-konferenciyu.md"
+    },
+    {
+      "id": "android-user-guide-27-kak-pozvonit-v-komnatu-audio-konferencii",
+      "section": "—",
+      "title": "Как позвонить в комнату аудио конференции",
+      "hint": "Комната аудио конференции создается в вашей ВАТС.",
+      "pages": "20-21",
+      "tokens": 385,
+      "path": "docs/kb/mtalker/android-user-guide/sections/27-kak-pozvonit-v-komnatu-audio-konferencii.md"
+    },
+    {
+      "id": "android-user-guide-28-kak-sozdat-novuyu-videokonferenciyu-i-po",
+      "section": "—",
+      "title": "Как создать новую видеоконференцию и поделиться ссылкой на нее",
+      "hint": "Вы можете инициировать новую видеоконференцию.",
+      "pages": "21",
+      "tokens": 467,
+      "path": "docs/kb/mtalker/android-user-guide/sections/28-kak-sozdat-novuyu-videokonferenciyu-i-po.md"
+    },
+    {
+      "id": "android-user-guide-29-kak-prisoedinitsya-k-konferencii-po-ssyl",
+      "section": "—",
+      "title": "Как присоединиться к конференции по ссылке",
+      "hint": "Если вы получили ссылку на видеоконференцию, например, по email, вы можете присоединиться",
+      "pages": "21-22",
+      "tokens": 506,
+      "path": "docs/kb/mtalker/android-user-guide/sections/29-kak-prisoedinitsya-k-konferencii-po-ssyl.md"
+    },
+    {
+      "id": "android-user-guide-30-rasshifrovka-i-konspektirovanie-zapisey",
+      "section": "—",
+      "title": "Расшифровка и конспектирование записей встреч",
+      "hint": "Общие сведения",
+      "pages": "22-27",
+      "tokens": 1194,
+      "path": "docs/kb/mtalker/android-user-guide/sections/30-rasshifrovka-i-konspektirovanie-zapisey.md"
+    },
+    {
+      "id": "android-user-guide-31-chat-vo-vremya-videokonferencii",
+      "section": "—",
+      "title": "Чат во время видеоконференции",
+      "hint": "Во время видеоконференции в MTalker доступен чат для обмена сообщениями между",
+      "pages": "27-29",
+      "tokens": 485,
+      "path": "docs/kb/mtalker/android-user-guide/sections/31-chat-vo-vremya-videokonferencii.md"
+    },
+    {
+      "id": "android-user-guide-32-podnyat-ruku-vo-vremya-videokonferencii",
+      "section": "—",
+      "title": "Поднять руку во время видеоконференции",
+      "hint": "Во время видеоконференции вы можете подать сигнал участникам о том, что хотите выступить",
+      "pages": "29",
+      "tokens": 464,
+      "path": "docs/kb/mtalker/android-user-guide/sections/32-podnyat-ruku-vo-vremya-videokonferencii.md"
+    },
+    {
+      "id": "android-user-guide-33-poisk-komnaty-konferencii",
+      "section": "—",
+      "title": "Поиск комнаты конференции",
+      "hint": "Вы можете выполнить поиск нужно вам конференции.",
+      "pages": "29-30",
+      "tokens": 229,
+      "path": "docs/kb/mtalker/android-user-guide/sections/33-poisk-komnaty-konferencii.md"
+    },
+    {
+      "id": "android-user-guide-34-provedenie-chata",
+      "section": "—",
+      "title": "Проведение чата",
+      "hint": "",
+      "pages": "30",
+      "tokens": 63,
+      "path": "docs/kb/mtalker/android-user-guide/sections/34-provedenie-chata.md"
+    },
+    {
+      "id": "android-user-guide-35-obschie-svedeniya",
+      "section": "—",
+      "title": "Общие сведения",
+      "hint": "Под чатом понимается функция обмена текстовыми и смс-сообщениями, файлами между двумя",
+      "pages": "30",
+      "tokens": 373,
+      "path": "docs/kb/mtalker/android-user-guide/sections/35-obschie-svedeniya.md"
+    },
+    {
+      "id": "android-user-guide-36-opisanie-elementov-interfeysa-chata-kana",
+      "section": "—",
+      "title": "Описание элементов интерфейса чата/канала",
+      "hint": "Для того чтобы открыть закладку “Чаты”, в основном окне программы следует нажать кнопку",
+      "pages": "30-31",
+      "tokens": 643,
+      "path": "docs/kb/mtalker/android-user-guide/sections/36-opisanie-elementov-interfeysa-chata-kana.md"
+    },
+    {
+      "id": "android-user-guide-37-sozdanie-novogo-chata-ili-kanala",
+      "section": "—",
+      "title": "Создание нового чата или канала",
+      "hint": "Чтобы создать чат или канал, в основном окне MTalker следует:",
+      "pages": "31",
+      "tokens": 312,
+      "path": "docs/kb/mtalker/android-user-guide/sections/37-sozdanie-novogo-chata-ili-kanala.md"
+    },
+    {
+      "id": "android-user-guide-38-otobrazhenie-udalennogo-sotrudnika",
+      "section": "—",
+      "title": "Отображение удаленного сотрудника",
+      "hint": "Если сотрудник был удален (уволен) из ВАТС, ранее созданные с ним чаты сохраняются.",
+      "pages": "31",
+      "tokens": 159,
+      "path": "docs/kb/mtalker/android-user-guide/sections/38-otobrazhenie-udalennogo-sotrudnika.md"
+    },
+    {
+      "id": "android-user-guide-39-vhodyaschie",
+      "section": "—",
+      "title": "Входящие",
+      "hint": "Чтение новых сообщений.",
+      "pages": "31-32",
+      "tokens": 736,
+      "path": "docs/kb/mtalker/android-user-guide/sections/39-vhodyaschie.md"
+    },
+    {
+      "id": "android-user-guide-40-gruppy-chatov",
+      "section": "—",
+      "title": "Группы чатов",
+      "hint": "Все чаты в MTalker собраны в группы:",
+      "pages": "32",
+      "tokens": 507,
+      "path": "docs/kb/mtalker/android-user-guide/sections/40-gruppy-chatov.md"
+    },
+    {
+      "id": "android-user-guide-41-filtr-chatov-po-neprochitannym-soobschen",
+      "section": "—",
+      "title": "Фильтр чатов по непрочитанным сообщениям",
+      "hint": "В MTalker вы можете отфильтровать список чатов по наличию непрочитанных сообщений.",
+      "pages": "32-34",
+      "tokens": 641,
+      "path": "docs/kb/mtalker/android-user-guide/sections/41-filtr-chatov-po-neprochitannym-soobschen.md"
+    },
+    {
+      "id": "android-user-guide-42-zakreplenie-i-otkreplenie-chata",
+      "section": "—",
+      "title": "Закрепление и открепление чата",
+      "hint": "Вы можете закрепить тот или иной чат в верхней строчке списка ваших чатов.",
+      "pages": "34",
+      "tokens": 270,
+      "path": "docs/kb/mtalker/android-user-guide/sections/42-zakreplenie-i-otkreplenie-chata.md"
+    },
+    {
+      "id": "android-user-guide-43-poisk-soobscheniy",
+      "section": "—",
+      "title": "Поиск сообщений",
+      "hint": "Параметры поиска",
+      "pages": "34-35",
+      "tokens": 723,
+      "path": "docs/kb/mtalker/android-user-guide/sections/43-poisk-soobscheniy.md"
+    },
+    {
+      "id": "android-user-guide-44-operacii-nad-soobscheniyami",
+      "section": "—",
+      "title": "Операции над сообщениями",
+      "hint": "Вы можете выполнять следующие действия над сообщениями:",
+      "pages": "35",
+      "tokens": 399,
+      "path": "docs/kb/mtalker/android-user-guide/sections/44-operacii-nad-soobscheniyami.md"
+    },
+    {
+      "id": "android-user-guide-45-rabota-s-tehpodderzhkoy",
+      "section": "—",
+      "title": "Работа с техподдержкой",
+      "hint": "Вы можете создавать заявки в техническую поддержку и получать ответы на них в чате.",
+      "pages": "35-40",
+      "tokens": 1003,
+      "path": "docs/kb/mtalker/android-user-guide/sections/45-rabota-s-tehpodderzhkoy.md"
+    },
+    {
+      "id": "android-user-guide-46-posmotret-kontaktnye-dannye-sobesednika",
+      "section": "—",
+      "title": "Посмотреть контактные данные собеседника",
+      "hint": "Вы можете быстро перейти из чата в карточку вашего собеседника.",
+      "pages": "40",
+      "tokens": 211,
+      "path": "docs/kb/mtalker/android-user-guide/sections/46-posmotret-kontaktnye-dannye-sobesednika.md"
+    },
+    {
+      "id": "android-user-guide-47-posmotret-istoriyu-soobscheniy-v-chate",
+      "section": "—",
+      "title": "Посмотреть историю сообщений в чате",
+      "hint": "MTalker по умолчанию сохраняет историю сообщений в чате/канале.",
+      "pages": "40-41",
+      "tokens": 360,
+      "path": "docs/kb/mtalker/android-user-guide/sections/47-posmotret-istoriyu-soobscheniy-v-chate.md"
+    },
+    {
+      "id": "android-user-guide-48-udalenie-vsey-perepiski",
+      "section": "—",
+      "title": "Удаление всей переписки",
+      "hint": "Чтобы удалить все сообщения из того или иного чата, в основном окне MTalker следует:",
+      "pages": "41-42",
+      "tokens": 427,
+      "path": "docs/kb/mtalker/android-user-guide/sections/48-udalenie-vsey-perepiski.md"
+    },
+    {
+      "id": "android-user-guide-49-administrirovanie-obschego-chata-ili-kan",
+      "section": "—",
+      "title": "Администрирование общего чата или канала",
+      "hint": "",
+      "pages": "42",
+      "tokens": 74,
+      "path": "docs/kb/mtalker/android-user-guide/sections/49-administrirovanie-obschego-chata-ili-kan.md"
+    },
+    {
+      "id": "android-user-guide-50-obschie-svedeniya",
+      "section": "—",
+      "title": "Общие сведения",
+      "hint": "Чат “один-на-один” отличается от общего чата или канала не только количеством участников, но",
+      "pages": "42",
+      "tokens": 346,
+      "path": "docs/kb/mtalker/android-user-guide/sections/50-obschie-svedeniya.md"
+    },
+    {
+      "id": "android-user-guide-51-opisanie-prav-uchastnikov",
+      "section": "—",
+      "title": "Описание прав участников",
+      "hint": "Все участники общего чата / канала делятся на две группы:",
+      "pages": "42",
+      "tokens": 562,
+      "path": "docs/kb/mtalker/android-user-guide/sections/51-opisanie-prav-uchastnikov.md"
+    },
+    {
+      "id": "android-user-guide-52-otobrazhenie-spiska-uchastnikov",
+      "section": "—",
+      "title": "Отображение списка участников",
+      "hint": "Вы можете посмотреть имена и фамилии участников того или иного чата или канала, в котором",
+      "pages": "42-43",
+      "tokens": 236,
+      "path": "docs/kb/mtalker/android-user-guide/sections/52-otobrazhenie-spiska-uchastnikov.md"
+    },
+    {
+      "id": "android-user-guide-53-dobavit-uchastnika",
+      "section": "—",
+      "title": "Добавить участника",
+      "hint": "Вы можете добавить участника в общий чат или канал, если вам предоставлены",
+      "pages": "43",
+      "tokens": 310,
+      "path": "docs/kb/mtalker/android-user-guide/sections/53-dobavit-uchastnika.md"
+    },
+    {
+      "id": "android-user-guide-54-vydacha-snyatie-prav-administratora",
+      "section": "—",
+      "title": "Выдача / снятие прав администратора",
+      "hint": "Если вам предоставлены права администратора в общем чате/канале, то вы можете менять права",
+      "pages": "43",
+      "tokens": 390,
+      "path": "docs/kb/mtalker/android-user-guide/sections/54-vydacha-snyatie-prav-administratora.md"
+    },
+    {
+      "id": "android-user-guide-55-bystryy-perehod-k-kartochke-kontakta",
+      "section": "—",
+      "title": "Быстрый переход к карточке контакта",
+      "hint": "Общие сведения",
+      "pages": "43-44",
+      "tokens": 453,
+      "path": "docs/kb/mtalker/android-user-guide/sections/55-bystryy-perehod-k-kartochke-kontakta.md"
+    },
+    {
+      "id": "android-user-guide-56-pereimenovat-chat-kanal",
+      "section": "—",
+      "title": "Переименовать чат / канал",
+      "hint": "Вы можете переименовать чат, который ранее был создан вами и/или тот чат, в котором вам",
+      "pages": "44",
+      "tokens": 316,
+      "path": "docs/kb/mtalker/android-user-guide/sections/56-pereimenovat-chat-kanal.md"
+    },
+    {
+      "id": "android-user-guide-57-udalit-uchastnika",
+      "section": "—",
+      "title": "Удалить участника",
+      "hint": "Вы можете удалить участника из чата, который ранее был создан вами и/или тот чат, в котором",
+      "pages": "44-45",
+      "tokens": 357,
+      "path": "docs/kb/mtalker/android-user-guide/sections/57-udalit-uchastnika.md"
+    },
+    {
+      "id": "android-user-guide-58-vyhod-iz-obschego-chata-kanala",
+      "section": "—",
+      "title": "Выход из общего чата / канала",
+      "hint": "Общие сведения",
+      "pages": "45",
+      "tokens": 495,
+      "path": "docs/kb/mtalker/android-user-guide/sections/58-vyhod-iz-obschego-chata-kanala.md"
+    },
+    {
+      "id": "android-user-guide-59-prosmotr-obschih-faylov",
+      "section": "—",
+      "title": "Просмотр общих файлов",
+      "hint": "Вы можете посмотреть список всех ранее отправленных в чат / канал файлов.",
+      "pages": "45-46",
+      "tokens": 358,
+      "path": "docs/kb/mtalker/android-user-guide/sections/59-prosmotr-obschih-faylov.md"
+    },
+    {
+      "id": "android-user-guide-60-kak-otklyuchit-uvedomleniya-o-novyh-soob",
+      "section": "—",
+      "title": "Как отключить уведомления о новых сообщениях в чате / канале",
+      "hint": "Вы можете выключить показ уведомлений о новых сообщениях в чате или канале.",
+      "pages": "46-47",
+      "tokens": 380,
+      "path": "docs/kb/mtalker/android-user-guide/sections/60-kak-otklyuchit-uvedomleniya-o-novyh-soob.md"
+    },
+    {
+      "id": "android-user-guide-61-zhurnal-vyzovov",
+      "section": "—",
+      "title": "Журнал вызовов",
+      "hint": "",
+      "pages": "47",
+      "tokens": 65,
+      "path": "docs/kb/mtalker/android-user-guide/sections/61-zhurnal-vyzovov.md"
+    },
+    {
+      "id": "android-user-guide-62-opisanie-zhurnala-vyzovov",
+      "section": "—",
+      "title": "Описание журнала вызовов",
+      "hint": "Функция MTalker” Журнал вызовов” позволяет получать информацию о том, кто и когда звонил",
+      "pages": "47",
+      "tokens": 635,
+      "path": "docs/kb/mtalker/android-user-guide/sections/62-opisanie-zhurnala-vyzovov.md"
+    },
+    {
+      "id": "android-user-guide-63-razdely-zhurnala",
+      "section": "—",
+      "title": "Разделы журнала",
+      "hint": "Все записи в журнале вызовов MTalker собраны в разделы (группы):",
+      "pages": "47-48",
+      "tokens": 503,
+      "path": "docs/kb/mtalker/android-user-guide/sections/63-razdely-zhurnala.md"
+    },
+    {
+      "id": "android-user-guide-64-poisk-i-filtracii-zapisey",
+      "section": "—",
+      "title": "Поиск и фильтрации записей",
+      "hint": "Общие сведения",
+      "pages": "48-49",
+      "tokens": 935,
+      "path": "docs/kb/mtalker/android-user-guide/sections/64-poisk-i-filtracii-zapisey.md"
+    },
+    {
+      "id": "android-user-guide-65-kak-posmotret-podrobnye-dannye-o-gruppov",
+      "section": "—",
+      "title": "Как посмотреть подробные данные о групповом звонке / конференции",
+      "hint": "Для этого, в основном окне MTalker следует:",
+      "pages": "49-50",
+      "tokens": 382,
+      "path": "docs/kb/mtalker/android-user-guide/sections/65-kak-posmotret-podrobnye-dannye-o-gruppov.md"
+    },
+    {
+      "id": "android-user-guide-66-kak-perezvonit",
+      "section": "—",
+      "title": "Как перезвонить ?",
+      "hint": "Вы можете перезвонить из журнала вызовов тому или иному абоненту.",
+      "pages": "50",
+      "tokens": 512,
+      "path": "docs/kb/mtalker/android-user-guide/sections/66-kak-perezvonit.md"
+    },
+    {
+      "id": "android-user-guide-67-kak-otpravit-soobschenie",
+      "section": "—",
+      "title": "Как отправить сообщение",
+      "hint": "Вы можете отправить текстовое сообщение или смс из журнала вызовов тому или иному",
+      "pages": "50-51",
+      "tokens": 473,
+      "path": "docs/kb/mtalker/android-user-guide/sections/67-kak-otpravit-soobschenie.md"
+    },
+    {
+      "id": "android-user-guide-68-kak-zakazat-obratnyy-zvonok",
+      "section": "—",
+      "title": "Как заказать обратный звонок?",
+      "hint": "Вы можете заказать обратный звонок прямо из журнала вызовов.",
+      "pages": "51",
+      "tokens": 364,
+      "path": "docs/kb/mtalker/android-user-guide/sections/68-kak-zakazat-obratnyy-zvonok.md"
+    },
+    {
+      "id": "android-user-guide-69-opisanie-kartochki-vyzova",
+      "section": "—",
+      "title": "Описание карточки вызова",
+      "hint": "Чтобы открыть карточку вызова, в строке с данными вызова следует нажать на пиктограмму .",
+      "pages": "51-52",
+      "tokens": 836,
+      "path": "docs/kb/mtalker/android-user-guide/sections/69-opisanie-kartochki-vyzova.md"
+    },
+    {
+      "id": "android-user-guide-70-kak-sohranit-nomer-v-telefonnoy-knige",
+      "section": "—",
+      "title": "Как сохранить номер в телефонной книге",
+      "hint": "Вы можете сохранить в телефонной книге тот или иной номер, указанный в журнале вызовов.",
+      "pages": "52",
+      "tokens": 276,
+      "path": "docs/kb/mtalker/android-user-guide/sections/70-kak-sohranit-nomer-v-telefonnoy-knige.md"
+    },
+    {
+      "id": "android-user-guide-71-proslushat-zapis-razgovora",
+      "section": "—",
+      "title": "Прослушать запись разговора",
+      "hint": "Если во время звонка велась запись разговора, то в журнале она будет обозначена пиктограммой",
+      "pages": "52",
+      "tokens": 524,
+      "path": "docs/kb/mtalker/android-user-guide/sections/71-proslushat-zapis-razgovora.md"
+    },
+    {
+      "id": "android-user-guide-72-kak-skopirovat-informaciyu-o-zvonkah-v-z",
+      "section": "—",
+      "title": "Как скопировать информацию о звонках в журнале вызовов",
+      "hint": "Вы можете скопировать строку с данными о звонке из журнала вызовов, чтобы передать эту",
+      "pages": "52",
+      "tokens": 219,
+      "path": "docs/kb/mtalker/android-user-guide/sections/72-kak-skopirovat-informaciyu-o-zvonkah-v-z.md"
+    },
+    {
+      "id": "android-user-guide-73-udalenie-zapisi-o-zvonke-iz-zhurnala-vyz",
+      "section": "—",
+      "title": "Удаление записи о звонке из журнала вызовов",
+      "hint": "Для того чтобы удалить ту или иную запись о вызове, в журнале вызовов следует:",
+      "pages": "52-54",
+      "tokens": 246,
+      "path": "docs/kb/mtalker/android-user-guide/sections/73-udalenie-zapisi-o-zvonke-iz-zhurnala-vyz.md"
+    },
+    {
+      "id": "android-user-guide-74-kontakty",
+      "section": "—",
+      "title": "Контакты",
+      "hint": "",
+      "pages": "54",
+      "tokens": 61,
+      "path": "docs/kb/mtalker/android-user-guide/sections/74-kontakty.md"
+    },
+    {
+      "id": "android-user-guide-75-obschie-svedeniya",
+      "section": "—",
+      "title": "Общие сведения",
+      "hint": "Все контакты в телефонной книге MTalker поделены на группы:",
+      "pages": "54",
+      "tokens": 615,
+      "path": "docs/kb/mtalker/android-user-guide/sections/75-obschie-svedeniya.md"
+    },
+    {
+      "id": "android-user-guide-76-poisk-kontakta",
+      "section": "—",
+      "title": "Поиск контакта",
+      "hint": "В MTalker для поиска контакта можно использовать тот или иной параметр:",
+      "pages": "54-55",
+      "tokens": 396,
+      "path": "docs/kb/mtalker/android-user-guide/sections/76-poisk-kontakta.md"
+    },
+    {
+      "id": "android-user-guide-77-opisanie-kartochki-kontakta",
+      "section": "—",
+      "title": "Описание карточки контакта",
+      "hint": "В карточке контакта, в общем случае, отображаются следующие элементы интерфейса:",
+      "pages": "55",
+      "tokens": 564,
+      "path": "docs/kb/mtalker/android-user-guide/sections/77-opisanie-kartochki-kontakta.md"
+    },
+    {
+      "id": "android-user-guide-78-kak-svyazatsya-s-kontaktom",
+      "section": "—",
+      "title": "Как связаться с контактом",
+      "hint": "Вы можете звонить контактам, отправлять им сообщения на email или SMS.",
+      "pages": "55-56",
+      "tokens": 431,
+      "path": "docs/kb/mtalker/android-user-guide/sections/78-kak-svyazatsya-s-kontaktom.md"
+    },
+    {
+      "id": "android-user-guide-79-kak-posmotret-istoriyu-vzaimodeystviya-s",
+      "section": "—",
+      "title": "Как посмотреть историю взаимодействия с абонентом",
+      "hint": "M.TALKER сохраняет историю вашего взаимодействия с другими абонентами, которую вы",
+      "pages": "56",
+      "tokens": 670,
+      "path": "docs/kb/mtalker/android-user-guide/sections/79-kak-posmotret-istoriyu-vzaimodeystviya-s.md"
+    },
+    {
+      "id": "android-user-guide-80-kak-dobavlyat-importirovat-redaktirovat",
+      "section": "—",
+      "title": "Как добавлять, импортировать, редактировать и удалять контакты",
+      "hint": "Добавление контакта",
+      "pages": "56-57",
+      "tokens": 746,
+      "path": "docs/kb/mtalker/android-user-guide/sections/80-kak-dobavlyat-importirovat-redaktirovat.md"
+    },
+    {
+      "id": "android-user-guide-81-kak-filtrovat-sortirovat-i-nastroit-otob",
+      "section": "—",
+      "title": "Как фильтровать, сортировать и настроить отображение контактов",
+      "hint": "Настройка фильтра",
+      "pages": "57-59",
+      "tokens": 856,
+      "path": "docs/kb/mtalker/android-user-guide/sections/81-kak-filtrovat-sortirovat-i-nastroit-otob.md"
+    },
+    {
+      "id": "android-user-guide-82-avtosekretar",
+      "section": "—",
+      "title": "Автосекретарь",
+      "hint": "",
+      "pages": "59",
+      "tokens": 66,
+      "path": "docs/kb/mtalker/android-user-guide/sections/82-avtosekretar.md"
+    },
+    {
+      "id": "android-user-guide-83-obschee",
+      "section": "—",
+      "title": "Общее",
+      "hint": "В вашей ВАТС существует услуга “Автосекретарь”, в которой вы настраиваете расписание и",
+      "pages": "59",
+      "tokens": 198,
+      "path": "docs/kb/mtalker/android-user-guide/sections/83-obschee.md"
+    },
+    {
+      "id": "android-user-guide-84-proverka-statusa-raboty-pravil",
+      "section": "—",
+      "title": "Проверка статуса работы правил",
+      "hint": "Для этого, в основном окне MTalker следует:",
+      "pages": "59",
+      "tokens": 322,
+      "path": "docs/kb/mtalker/android-user-guide/sections/84-proverka-statusa-raboty-pravil.md"
+    },
+    {
+      "id": "android-user-guide-85-kak-vklyuchit-ili-vyklyuchit-pravilo",
+      "section": "—",
+      "title": "Как включить или выключить правило",
+      "hint": "Чтобы включить правило в разделе “Автосекретарь” следует:",
+      "pages": "59-60",
+      "tokens": 325,
+      "path": "docs/kb/mtalker/android-user-guide/sections/85-kak-vklyuchit-ili-vyklyuchit-pravilo.md"
+    },
+    {
+      "id": "android-user-guide-86-upravlenie-profilem-polzovatelya",
+      "section": "—",
+      "title": "Управление профилем пользователя",
+      "hint": "",
+      "pages": "60",
+      "tokens": 65,
+      "path": "docs/kb/mtalker/android-user-guide/sections/86-upravlenie-profilem-polzovatelya.md"
+    },
+    {
+      "id": "android-user-guide-87-kak-vyvesti-na-ekran-i-skopirovat-vash-s",
+      "section": "—",
+      "title": "Как вывести на экран и скопировать ваш SIP-ID",
+      "hint": "Вы можете вывести на экран вашу SIP-учетную запись и скопировать ее в буфер обмена вашего",
+      "pages": "60",
+      "tokens": 284,
+      "path": "docs/kb/mtalker/android-user-guide/sections/87-kak-vyvesti-na-ekran-i-skopirovat-vash-s.md"
+    },
+    {
+      "id": "android-user-guide-88-kak-izmenit-ili-sbrosit-svoy-parol",
+      "section": "—",
+      "title": "Как изменить или сбросить свой пароль",
+      "hint": "Чтобы восстановить пароль для входа в MTalker, в основном окне MTalker следует:",
+      "pages": "60-61",
+      "tokens": 778,
+      "path": "docs/kb/mtalker/android-user-guide/sections/88-kak-izmenit-ili-sbrosit-svoy-parol.md"
+    },
+    {
+      "id": "android-user-guide-89-smena-statusa-polzovatelya",
+      "section": "—",
+      "title": "Смена статуса пользователя",
+      "hint": "Статус пользователя определяет его готовность к приему вызовов.",
+      "pages": "61",
+      "tokens": 369,
+      "path": "docs/kb/mtalker/android-user-guide/sections/89-smena-statusa-polzovatelya.md"
+    },
+    {
+      "id": "android-user-guide-90-kak-pomenyat-ili-udalit-avatar",
+      "section": "—",
+      "title": "Как поменять или удалить аватар",
+      "hint": "В вашем профиле аватар формируется автоматически в виде первых букв вашего имени и",
+      "pages": "61-62",
+      "tokens": 513,
+      "path": "docs/kb/mtalker/android-user-guide/sections/90-kak-pomenyat-ili-udalit-avatar.md"
+    },
+    {
+      "id": "android-user-guide-91-sluzhebnye-operacii",
+      "section": "—",
+      "title": "Служебные операции",
+      "hint": "",
+      "pages": "62",
+      "tokens": 64,
+      "path": "docs/kb/mtalker/android-user-guide/sections/91-sluzhebnye-operacii.md"
+    },
+    {
+      "id": "android-user-guide-92-konfidencialnost",
+      "section": "—",
+      "title": "Конфиденциальность",
+      "hint": "Как удалить историю вызовов и/или сообщений",
+      "pages": "62-63",
+      "tokens": 875,
+      "path": "docs/kb/mtalker/android-user-guide/sections/92-konfidencialnost.md"
+    },
+    {
+      "id": "android-user-guide-93-raspisanie-priema-zvonkov-i-soobscheniy",
+      "section": "—",
+      "title": "Расписание приема звонков и сообщений",
+      "hint": "Вы можете создать расписание приема звонков на MTalker на устройстве Android.",
+      "pages": "63",
+      "tokens": 338,
+      "path": "docs/kb/mtalker/android-user-guide/sections/93-raspisanie-priema-zvonkov-i-soobscheniy.md"
+    },
+    {
+      "id": "android-user-guide-94-avtozagruzka-faylov-i-izobrazheniy",
+      "section": "—",
+      "title": "Автозагрузка файлов и изображений",
+      "hint": "По умолчанию изображения во входящих сообщениях сохраняются автоматически в папку",
+      "pages": "63",
+      "tokens": 414,
+      "path": "docs/kb/mtalker/android-user-guide/sections/94-avtozagruzka-faylov-i-izobrazheniy.md"
+    },
+    {
+      "id": "android-user-guide-95-kak-obnovit-mtalker",
+      "section": "—",
+      "title": "Как обновить MTalker",
+      "hint": "В MTalker регулярно автоматически выполняется проверка выхода обновления.",
+      "pages": "63",
+      "tokens": 137,
+      "path": "docs/kb/mtalker/android-user-guide/sections/95-kak-obnovit-mtalker.md"
+    },
+    {
+      "id": "android-user-guide-96-uvedomleniya",
+      "section": "—",
+      "title": "Уведомления",
+      "hint": "Вы можете выключить уведомления в MTalker .",
+      "pages": "63-64",
+      "tokens": 593,
+      "path": "docs/kb/mtalker/android-user-guide/sections/96-uvedomleniya.md"
+    },
+    {
+      "id": "android-user-guide-97-tehnicheskie-nastroyki",
+      "section": "—",
+      "title": "Технические настройки",
+      "hint": "Включение и выключение возможности видеозвонка.",
+      "pages": "64-66",
+      "tokens": 1356,
+      "path": "docs/kb/mtalker/android-user-guide/sections/97-tehnicheskie-nastroyki.md"
+    },
+    {
+      "id": "android-user-guide-98-kak-soobschit-o-probleme-ili-otpravit-ot",
+      "section": "—",
+      "title": "Как сообщить о проблеме или отправить отзыв",
+      "hint": "Общие сведения",
+      "pages": "66",
+      "tokens": 379,
+      "path": "docs/kb/mtalker/android-user-guide/sections/98-kak-soobschit-o-probleme-ili-otpravit-ot.md"
+    }
+  ]
+}

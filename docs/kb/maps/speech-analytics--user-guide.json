@@ -1,0 +1,693 @@
+{
+  "document_id": "speech-analytics--user-guide",
+  "index": "docs/kb/speech-analytics/user-guide/index.md",
+  "product_ids": [
+    "analytics-reporting"
+  ],
+  "sections": [
+    {
+      "id": "user-guide-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "РУКОВОДСТВО",
+      "pages": "1-4",
+      "tokens": 1798,
+      "path": "docs/kb/speech-analytics/user-guide/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "user-guide-01-obschie-svedeniya",
+      "section": "1",
+      "title": "Общие сведения",
+      "hint": "Речевая аналитика распознает записанные разговоры и текстовые сообщения, и производит в них",
+      "pages": "4-7",
+      "tokens": 1115,
+      "path": "docs/kb/speech-analytics/user-guide/sections/01-obschie-svedeniya.md"
+    },
+    {
+      "id": "user-guide-02-podklyuchenie-uslugi-rechevaya-analitika",
+      "section": "2",
+      "title": "Подключение услуги «Речевая аналитика»",
+      "hint": "«Речевая аналитика»",
+      "pages": "7",
+      "tokens": 128,
+      "path": "docs/kb/speech-analytics/user-guide/sections/02-podklyuchenie-uslugi-rechevaya-analitika.md"
+    },
+    {
+      "id": "user-guide-03-podklyuchenie-v-demo-rezhime",
+      "section": "2.1",
+      "title": "Подключение в демо-режиме",
+      "hint": "Функционал демо-версии услуги Речевая аналитика полностью соответствует функционалу",
+      "pages": "7-10",
+      "tokens": 2106,
+      "path": "docs/kb/speech-analytics/user-guide/sections/03-podklyuchenie-v-demo-rezhime.md"
+    },
+    {
+      "id": "user-guide-04-podklyuchenie-uslugi-v-platnom-rezhime",
+      "section": "2.2",
+      "title": "Подключение услуги в платном режиме",
+      "hint": "режиме",
+      "pages": "10-12",
+      "tokens": 1129,
+      "path": "docs/kb/speech-analytics/user-guide/sections/04-podklyuchenie-uslugi-v-platnom-rezhime.md"
+    },
+    {
+      "id": "user-guide-05-nastroyki",
+      "section": "3",
+      "title": "Настройки",
+      "hint": "Вкладка Настройки модуля Речевая аналитика содержит блок онбординга, а также следующие",
+      "pages": "12-13",
+      "tokens": 1080,
+      "path": "docs/kb/speech-analytics/user-guide/sections/05-nastroyki.md"
+    },
+    {
+      "id": "user-guide-06-shagi-onbordinga",
+      "section": "3.1",
+      "title": "Шаги онбординга",
+      "hint": "В верхней части вкладки Настройки модуля находится блок онбординга, содержащего все этапы",
+      "pages": "13-14",
+      "tokens": 1066,
+      "path": "docs/kb/speech-analytics/user-guide/sections/06-shagi-onbordinga.md"
+    },
+    {
+      "id": "user-guide-07-nastroyki-raspoznavaniya-zapisey",
+      "section": "3.2",
+      "title": "Настройки распознавания записей",
+      "hint": "Блок Настройка распознавания записей позволяет настроить функции распознавания и",
+      "pages": "14-16",
+      "tokens": 1486,
+      "path": "docs/kb/speech-analytics/user-guide/sections/07-nastroyki-raspoznavaniya-zapisey.md"
+    },
+    {
+      "id": "user-guide-08-analitika-tekstovyh-kommunikaciy",
+      "section": "3.3",
+      "title": "Аналитика текстовых коммуникаций",
+      "hint": "коммуникаций",
+      "pages": "16-17",
+      "tokens": 808,
+      "path": "docs/kb/speech-analytics/user-guide/sections/08-analitika-tekstovyh-kommunikaciy.md"
+    },
+    {
+      "id": "user-guide-09-ii-instrumenty",
+      "section": "3.4",
+      "title": "ИИ Инструменты",
+      "hint": "внимание",
+      "pages": "17",
+      "tokens": 123,
+      "path": "docs/kb/speech-analytics/user-guide/sections/09-ii-instrumenty.md"
+    },
+    {
+      "id": "user-guide-10-ii-konspekty",
+      "section": "3.4.1",
+      "title": "ИИ Конспекты",
+      "hint": "Блок ИИ Конспекты позволяет автоматически формировать краткое содержание телефонных",
+      "pages": "17-19",
+      "tokens": 1653,
+      "path": "docs/kb/speech-analytics/user-guide/sections/10-ii-konspekty.md"
+    },
+    {
+      "id": "user-guide-11-ii-tegirovanie",
+      "section": "3.4.2",
+      "title": "ИИ Тегирование",
+      "hint": "Блок ИИ Тегирование позволяет настроить анализ разговоров сотрудников с использованием ИИ.",
+      "pages": "19-20",
+      "tokens": 697,
+      "path": "docs/kb/speech-analytics/user-guide/sections/11-ii-tegirovanie.md"
+    },
+    {
+      "id": "user-guide-12-ii-pomoschniki",
+      "section": "3.4.3",
+      "title": "ИИ Помощники",
+      "hint": "",
+      "pages": "20",
+      "tokens": 79,
+      "path": "docs/kb/speech-analytics/user-guide/sections/12-ii-pomoschniki.md"
+    },
+    {
+      "id": "user-guide-13-chto-eto-takoe-i-zachem-nuzhno",
+      "section": "3.4.3.1",
+      "title": "Что это такое и зачем нужно",
+      "hint": "ИИ Помощники - это инструмент, который позволяет автоматически анализировать разговоры по",
+      "pages": "20-21",
+      "tokens": 500,
+      "path": "docs/kb/speech-analytics/user-guide/sections/13-chto-eto-takoe-i-zachem-nuzhno.md"
+    },
+    {
+      "id": "user-guide-14-kak-sozdat-ii-pomoschnika",
+      "section": "3.4.3.2",
+      "title": "Как создать ИИ Помощника",
+      "hint": "1.",
+      "pages": "21-22",
+      "tokens": 285,
+      "path": "docs/kb/speech-analytics/user-guide/sections/14-kak-sozdat-ii-pomoschnika.md"
+    },
+    {
+      "id": "user-guide-15-nastroyka-ii-pomoschnika",
+      "section": "3.4.3.3",
+      "title": "Настройка ИИ Помощника",
+      "hint": "1.",
+      "pages": "22-25",
+      "tokens": 1810,
+      "path": "docs/kb/speech-analytics/user-guide/sections/15-nastroyka-ii-pomoschnika.md"
+    },
+    {
+      "id": "user-guide-16-gde-smotret-rezultaty",
+      "section": "3.4.3.4",
+      "title": "Где смотреть результаты",
+      "hint": "Чтобы посмотреть результат анализа:",
+      "pages": "25-28",
+      "tokens": 1790,
+      "path": "docs/kb/speech-analytics/user-guide/sections/16-gde-smotret-rezultaty.md"
+    },
+    {
+      "id": "user-guide-17-dopolnitelnye-nastroyki",
+      "section": "3.5",
+      "title": "Дополнительные настройки",
+      "hint": "Блок Дополнительные настройки позволяет пользователю управлять расширенными функциями",
+      "pages": "28-29",
+      "tokens": 1080,
+      "path": "docs/kb/speech-analytics/user-guide/sections/17-dopolnitelnye-nastroyki.md"
+    },
+    {
+      "id": "user-guide-18-otklyuchenie-uslugi",
+      "section": "3.6",
+      "title": "Отключение услуги",
+      "hint": "При необходимости пользователь может отключить услугу Речевая аналитика.",
+      "pages": "29-31",
+      "tokens": 456,
+      "path": "docs/kb/speech-analytics/user-guide/sections/18-otklyuchenie-uslugi.md"
+    },
+    {
+      "id": "user-guide-19-kak-rabotaet-poisk-po-razgovoram",
+      "section": "4",
+      "title": "Как работает поиск по разговорам",
+      "hint": "разговорам",
+      "pages": "31",
+      "tokens": 166,
+      "path": "docs/kb/speech-analytics/user-guide/sections/19-kak-rabotaet-poisk-po-razgovoram.md"
+    },
+    {
+      "id": "user-guide-20-terminy-i-opredeleniya",
+      "section": "4.1",
+      "title": "Термины и определения",
+      "hint": "4.2.",
+      "pages": "31-33",
+      "tokens": 1962,
+      "path": "docs/kb/speech-analytics/user-guide/sections/20-terminy-i-opredeleniya.md"
+    },
+    {
+      "id": "user-guide-21-pravila-obrabotki-poiskovyh-zaprosov",
+      "section": "4.2",
+      "title": "Правила обработки поисковых запросов",
+      "hint": "запросов",
+      "pages": "33-34",
+      "tokens": 849,
+      "path": "docs/kb/speech-analytics/user-guide/sections/21-pravila-obrabotki-poiskovyh-zaprosov.md"
+    },
+    {
+      "id": "user-guide-22-obschie-sovety-dlya-sostavleniya-poiskov",
+      "section": "4.3",
+      "title": "Общие советы для составления поисковых запросов",
+      "hint": "поисковых запросов",
+      "pages": "34-35",
+      "tokens": 910,
+      "path": "docs/kb/speech-analytics/user-guide/sections/22-obschie-sovety-dlya-sostavleniya-poiskov.md"
+    },
+    {
+      "id": "user-guide-23-poisk-po-audiozapisyam-razgovorov",
+      "section": "5",
+      "title": "Поиск по аудиозаписям разговоров",
+      "hint": "разговоров",
+      "pages": "35",
+      "tokens": 87,
+      "path": "docs/kb/speech-analytics/user-guide/sections/23-poisk-po-audiozapisyam-razgovorov.md"
+    },
+    {
+      "id": "user-guide-24-polya-formy-modulya-poiska-v-zapisyah-ra",
+      "section": "5.1",
+      "title": "Поля формы модуля поиска в записях разговоров",
+      "hint": "записях разговоров",
+      "pages": "35-37",
+      "tokens": 2500,
+      "path": "docs/kb/speech-analytics/user-guide/sections/24-polya-formy-modulya-poiska-v-zapisyah-ra.md"
+    },
+    {
+      "id": "user-guide-25-proslushivanie-zapisey",
+      "section": "5.2",
+      "title": "Прослушивание записей",
+      "hint": "Для прослушивания записи следует нажать на иконку напротив наименования нужной записи.",
+      "pages": "37-42",
+      "tokens": 3902,
+      "path": "docs/kb/speech-analytics/user-guide/sections/25-proslushivanie-zapisey.md"
+    },
+    {
+      "id": "user-guide-26-tegirovanie-razgovorov",
+      "section": "6",
+      "title": "Тегирование разговоров",
+      "hint": "Разговор – текстовый или аудио диалог сотрудника и клиента, сотрудника и сотрудника.",
+      "pages": "42",
+      "tokens": 579,
+      "path": "docs/kb/speech-analytics/user-guide/sections/26-tegirovanie-razgovorov.md"
+    },
+    {
+      "id": "user-guide-27-tematiki",
+      "section": "6.1",
+      "title": "Тематики",
+      "hint": "Рабочая область вкладки «Тематики» содержит:",
+      "pages": "42-43",
+      "tokens": 925,
+      "path": "docs/kb/speech-analytics/user-guide/sections/27-tematiki.md"
+    },
+    {
+      "id": "user-guide-28-sozdanie-i-redaktirovanie-tematik",
+      "section": "6.2",
+      "title": "Создание и редактирование тематик",
+      "hint": "тематик",
+      "pages": "43-44",
+      "tokens": 628,
+      "path": "docs/kb/speech-analytics/user-guide/sections/28-sozdanie-i-redaktirovanie-tematik.md"
+    },
+    {
+      "id": "user-guide-29-klyuchevye-slova",
+      "section": "6.2.1",
+      "title": "Ключевые слова",
+      "hint": "Блок ключевых слов содержит следующие поля:",
+      "pages": "44-46",
+      "tokens": 1069,
+      "path": "docs/kb/speech-analytics/user-guide/sections/29-klyuchevye-slova.md"
+    },
+    {
+      "id": "user-guide-30-rasshirennye-nastroyki",
+      "section": "6.2.2",
+      "title": "Расширенные настройки",
+      "hint": "Блок добавления условий содержит следующие поля:",
+      "pages": "46-47",
+      "tokens": 1032,
+      "path": "docs/kb/speech-analytics/user-guide/sections/30-rasshirennye-nastroyki.md"
+    },
+    {
+      "id": "user-guide-31-nastroyka-uvedomleniy",
+      "section": "6.2.3",
+      "title": "Настройка уведомлений",
+      "hint": "При добавлении тематики пользователь задает ряд условий.",
+      "pages": "47-49",
+      "tokens": 1290,
+      "path": "docs/kb/speech-analytics/user-guide/sections/31-nastroyka-uvedomleniy.md"
+    },
+    {
+      "id": "user-guide-32-sovety-po-nastroyke-tematik",
+      "section": "6.3",
+      "title": "Советы по настройке тематик",
+      "hint": "Создавайте простые тематики, чтобы одна тематика решала максимум одну задачу.",
+      "pages": "49-52",
+      "tokens": 1112,
+      "path": "docs/kb/speech-analytics/user-guide/sections/32-sovety-po-nastroyke-tematik.md"
+    },
+    {
+      "id": "user-guide-33-primery-ispolzovaniya-tematiki",
+      "section": "6.4",
+      "title": "Примеры использования тематики",
+      "hint": "Пример 1.",
+      "pages": "52",
+      "tokens": 514,
+      "path": "docs/kb/speech-analytics/user-guide/sections/33-primery-ispolzovaniya-tematiki.md"
+    },
+    {
+      "id": "user-guide-34-predustanovlennye-tematiki",
+      "section": "6.5",
+      "title": "Предустановленные тематики",
+      "hint": "По умолчанию в Речевой аналитике включены 36 предустановленных тематик:",
+      "pages": "52-54",
+      "tokens": 1540,
+      "path": "docs/kb/speech-analytics/user-guide/sections/34-predustanovlennye-tematiki.md"
+    },
+    {
+      "id": "user-guide-35-zayavki-na-uluchshenie-kachestva-raspozn",
+      "section": "6.6",
+      "title": "Заявки на улучшение качества распознавания",
+      "hint": "распознавания",
+      "pages": "54-57",
+      "tokens": 1334,
+      "path": "docs/kb/speech-analytics/user-guide/sections/35-zayavki-na-uluchshenie-kachestva-raspozn.md"
+    },
+    {
+      "id": "user-guide-36-ii-tematiki",
+      "section": "6.7",
+      "title": "ИИ Тематики",
+      "hint": "Модуль Речевая аналитика поддерживает семантический анализ разговоров на основе запросов к",
+      "pages": "57-60",
+      "tokens": 1371,
+      "path": "docs/kb/speech-analytics/user-guide/sections/36-ii-tematiki.md"
+    },
+    {
+      "id": "user-guide-37-tekstovye-kommunikacii",
+      "section": "7",
+      "title": "Текстовые коммуникации",
+      "hint": "",
+      "pages": "60",
+      "tokens": 74,
+      "path": "docs/kb/speech-analytics/user-guide/sections/37-tekstovye-kommunikacii.md"
+    },
+    {
+      "id": "user-guide-38-spisok-tekstovyh-kommunikaciy",
+      "section": "7.1",
+      "title": "Список текстовых коммуникаций",
+      "hint": "При переходе на страницу «Текстовые коммуникации» отображается панель фильтров.",
+      "pages": "60-62",
+      "tokens": 1360,
+      "path": "docs/kb/speech-analytics/user-guide/sections/38-spisok-tekstovyh-kommunikaciy.md"
+    },
+    {
+      "id": "user-guide-39-metki-na-oscillogramme-dialoga",
+      "section": "7.2",
+      "title": "Метки на осциллограмме диалога",
+      "hint": "Для отображения результатов поиска в текстовых сообщениях используется осциллограмма",
+      "pages": "62-64",
+      "tokens": 1238,
+      "path": "docs/kb/speech-analytics/user-guide/sections/39-metki-na-oscillogramme-dialoga.md"
+    },
+    {
+      "id": "user-guide-40-otchety",
+      "section": "8",
+      "title": "Отчеты",
+      "hint": "Вкладка Отчеты содержит детальную аналитическую информацию о распознанных вызовах в",
+      "pages": "64",
+      "tokens": 500,
+      "path": "docs/kb/speech-analytics/user-guide/sections/40-otchety.md"
+    },
+    {
+      "id": "user-guide-41-rashody-rechevoy-analitiki",
+      "section": "8.1",
+      "title": "Расходы Речевой аналитики",
+      "hint": "Страница расходов помогает быстро понять, сколько стоит использование сервиса за выбранный",
+      "pages": "64-67",
+      "tokens": 1202,
+      "path": "docs/kb/speech-analytics/user-guide/sections/41-rashody-rechevoy-analitiki.md"
+    },
+    {
+      "id": "user-guide-42-analiz-sotrudnikov",
+      "section": "8.2",
+      "title": "Анализ сотрудников",
+      "hint": "Отчет Анализ сотрудников состоит из трех блоков:",
+      "pages": "67",
+      "tokens": 157,
+      "path": "docs/kb/speech-analytics/user-guide/sections/42-analiz-sotrudnikov.md"
+    },
+    {
+      "id": "user-guide-43-blok-filtrov",
+      "section": "8.2.1",
+      "title": "Блок фильтров",
+      "hint": "Кнопка Сохранить – сохранение отчета на странице Мои отчеты в одном из вариантов – график,",
+      "pages": "67-69",
+      "tokens": 2069,
+      "path": "docs/kb/speech-analytics/user-guide/sections/43-blok-filtrov.md"
+    },
+    {
+      "id": "user-guide-44-blok-vizualizacii-srabatyvaniya-tematik",
+      "section": "8.2.2",
+      "title": "Блок визуализации срабатывания тематик",
+      "hint": "Отчет предоставляет данные по количеству присвоенных звонкам тематик в разговорах",
+      "pages": "69-70",
+      "tokens": 1522,
+      "path": "docs/kb/speech-analytics/user-guide/sections/44-blok-vizualizacii-srabatyvaniya-tematik.md"
+    },
+    {
+      "id": "user-guide-45-blok-tablicy-razgovory-detalizaciya",
+      "section": "8.2.3",
+      "title": "Блок таблицы Разговоры, детализация",
+      "hint": "Табличная часть отчета состоит из трех разделов:",
+      "pages": "70-74",
+      "tokens": 2365,
+      "path": "docs/kb/speech-analytics/user-guide/sections/45-blok-tablicy-razgovory-detalizaciya.md"
+    },
+    {
+      "id": "user-guide-46-detalizaciya-razgovorov",
+      "section": "8.2.4",
+      "title": "Детализация разговоров",
+      "hint": "Рассмотрим пример детализации для типа записи разговора: «телефонные разговоры»:",
+      "pages": "74-75",
+      "tokens": 903,
+      "path": "docs/kb/speech-analytics/user-guide/sections/46-detalizaciya-razgovorov.md"
+    },
+    {
+      "id": "user-guide-47-analiz-razgovorov",
+      "section": "8.3",
+      "title": "Анализ разговоров",
+      "hint": "Отчет «Анализ разговоров» состоит из двух блоков: Блока таблицы и Блока визуализаций",
+      "pages": "75-76",
+      "tokens": 277,
+      "path": "docs/kb/speech-analytics/user-guide/sections/47-analiz-razgovorov.md"
+    },
+    {
+      "id": "user-guide-48-blok-filtrov",
+      "section": "8.3.1",
+      "title": "Блок фильтров",
+      "hint": "Для построения отчета “Анализ разговоров” выберите временной период, срез (день/месяц/год) и",
+      "pages": "76-78",
+      "tokens": 1657,
+      "path": "docs/kb/speech-analytics/user-guide/sections/48-blok-filtrov.md"
+    },
+    {
+      "id": "user-guide-49-blok-vizualizaciy",
+      "section": "8.3.2",
+      "title": "Блок визуализаций",
+      "hint": "Визуализация “Тематики по словам”",
+      "pages": "78-79",
+      "tokens": 755,
+      "path": "docs/kb/speech-analytics/user-guide/sections/49-blok-vizualizaciy.md"
+    },
+    {
+      "id": "user-guide-50-blok-tablicy",
+      "section": "8.3.3",
+      "title": "Блок таблицы",
+      "hint": "Таблица формируется по срезу День/Месяц/Год и заданным пользователем в окне “Показатели”",
+      "pages": "79-80",
+      "tokens": 885,
+      "path": "docs/kb/speech-analytics/user-guide/sections/50-blok-tablicy.md"
+    },
+    {
+      "id": "user-guide-51-detalizaciya",
+      "section": "8.3.4",
+      "title": "Детализация",
+      "hint": "По клику на цифру \"Количество распознанных разговоров\" открывается окно детализации",
+      "pages": "80-81",
+      "tokens": 1027,
+      "path": "docs/kb/speech-analytics/user-guide/sections/51-detalizaciya.md"
+    },
+    {
+      "id": "user-guide-52-analiz-po-chek-listam",
+      "section": "8.4",
+      "title": "Анализ по чек-листам",
+      "hint": "Отчет предназначен для автоматической оценки разговора сотрудника с клиентом на соответствие",
+      "pages": "81-83",
+      "tokens": 1278,
+      "path": "docs/kb/speech-analytics/user-guide/sections/52-analiz-po-chek-listam.md"
+    },
+    {
+      "id": "user-guide-53-konstruktor-chek-listov",
+      "section": "8.4.1",
+      "title": "Конструктор чек-листов",
+      "hint": "Возможно создание не более 20-ти чек-листов.",
+      "pages": "83-89",
+      "tokens": 4816,
+      "path": "docs/kb/speech-analytics/user-guide/sections/53-konstruktor-chek-listov.md"
+    },
+    {
+      "id": "user-guide-54-statistika",
+      "section": "8.4.2",
+      "title": "Статистика",
+      "hint": "Вкладка «Таблица»",
+      "pages": "89-92",
+      "tokens": 2210,
+      "path": "docs/kb/speech-analytics/user-guide/sections/54-statistika.md"
+    },
+    {
+      "id": "user-guide-55-pravila-podscheta-statistiki",
+      "section": "8.4.3",
+      "title": "Правила подсчета статистики",
+      "hint": "Рассмотрим правила подсчета статистики на примере скриншотов ниже (в числах и процентах):",
+      "pages": "92-99",
+      "tokens": 3808,
+      "path": "docs/kb/speech-analytics/user-guide/sections/55-pravila-podscheta-statistiki.md"
+    },
+    {
+      "id": "user-guide-56-lovec-insaytov",
+      "section": "8.5",
+      "title": "Ловец инсайтов",
+      "hint": "Данные отчета позволяют прослеживать – как фраза или тематика разговора повлияла на ход",
+      "pages": "99",
+      "tokens": 223,
+      "path": "docs/kb/speech-analytics/user-guide/sections/56-lovec-insaytov.md"
+    },
+    {
+      "id": "user-guide-57-blok-parametrov",
+      "section": "8.5.1",
+      "title": "Блок параметров",
+      "hint": "При формировании отчета пользователям доступна фильтрация:",
+      "pages": "99-100",
+      "tokens": 1280,
+      "path": "docs/kb/speech-analytics/user-guide/sections/57-blok-parametrov.md"
+    },
+    {
+      "id": "user-guide-58-blok-rezultatov",
+      "section": "8.5.2",
+      "title": "Блок результатов",
+      "hint": "Блок содержит подробную информацию о срабатывание триггера, с отображением причины и",
+      "pages": "100-102",
+      "tokens": 583,
+      "path": "docs/kb/speech-analytics/user-guide/sections/58-blok-rezultatov.md"
+    },
+    {
+      "id": "user-guide-59-pokazateli-otchetov",
+      "section": "8.6",
+      "title": "Показатели отчетов",
+      "hint": "Для построения отчетов устанавливаются показатели, по которым будет формироваться отчет.",
+      "pages": "102-104",
+      "tokens": 1542,
+      "path": "docs/kb/speech-analytics/user-guide/sections/59-pokazateli-otchetov.md"
+    },
+    {
+      "id": "user-guide-60-roli-i-prava-dostupa",
+      "section": "9",
+      "title": "Роли и права доступа",
+      "hint": "В данном разделе приведено сводное описание параметров доступности, разрешений (прав) и",
+      "pages": "104-105",
+      "tokens": 678,
+      "path": "docs/kb/speech-analytics/user-guide/sections/60-roli-i-prava-dostupa.md"
+    },
+    {
+      "id": "user-guide-61-integraciya-rechevoy-analitiki-so-storon",
+      "section": "10",
+      "title": "Интеграция Речевой аналитики со сторонними ВАТС",
+      "hint": "аналитики со сторонними",
+      "pages": "105-107",
+      "tokens": 2935,
+      "path": "docs/kb/speech-analytics/user-guide/sections/61-integraciya-rechevoy-analitiki-so-storon.md"
+    },
+    {
+      "id": "user-guide-62-tochka-vhoda-passivnyy-sip",
+      "section": "10.1",
+      "title": "Точка входа «Пассивный SIP»",
+      "hint": "1) Подключение услуги Речевая аналитика",
+      "pages": "107",
+      "tokens": 159,
+      "path": "docs/kb/speech-analytics/user-guide/sections/62-tochka-vhoda-passivnyy-sip.md"
+    },
+    {
+      "id": "user-guide-63-podklyuchenie-passivnogo-sip",
+      "section": "10.1",
+      "title": "Подключение пассивного SIP",
+      "hint": "Шаг 1.",
+      "pages": "107-110",
+      "tokens": 1283,
+      "path": "docs/kb/speech-analytics/user-guide/sections/63-podklyuchenie-passivnogo-sip.md"
+    },
+    {
+      "id": "user-guide-64-sozdanie-sotrudnika",
+      "section": "10.1",
+      "title": "Создание сотрудника",
+      "hint": "Откройте личный кабинет по ссылке lk.mango-office.ru.",
+      "pages": "110-111",
+      "tokens": 549,
+      "path": "docs/kb/speech-analytics/user-guide/sections/64-sozdanie-sotrudnika.md"
+    },
+    {
+      "id": "user-guide-65-tochka-vhoda-aktivnyy-sip",
+      "section": "10.2",
+      "title": "Точка входа «Активный SIP»",
+      "hint": "1) Подключение услуги Речевая аналитика",
+      "pages": "111",
+      "tokens": 160,
+      "path": "docs/kb/speech-analytics/user-guide/sections/65-tochka-vhoda-aktivnyy-sip.md"
+    },
+    {
+      "id": "user-guide-66-sozdanie-sotrudnika",
+      "section": "10.2",
+      "title": "Создание сотрудника",
+      "hint": "Откройте личный кабинет по ссылке lk.mango-office.ru.",
+      "pages": "111-112",
+      "tokens": 456,
+      "path": "docs/kb/speech-analytics/user-guide/sections/66-sozdanie-sotrudnika.md"
+    },
+    {
+      "id": "user-guide-67-podklyuchenie-aktivnogo-sip",
+      "section": "10.2",
+      "title": "Подключение активного SIP",
+      "hint": "Шаг 1.",
+      "pages": "112-118",
+      "tokens": 2267,
+      "path": "docs/kb/speech-analytics/user-guide/sections/67-podklyuchenie-aktivnogo-sip.md"
+    },
+    {
+      "id": "user-guide-68-tochka-vhoda-did-mango-office",
+      "section": "10.3",
+      "title": "Точка входа «DID MANGO OFFICE»",
+      "hint": "1) Подключение услуги Речевая аналитика;",
+      "pages": "118-119",
+      "tokens": 294,
+      "path": "docs/kb/speech-analytics/user-guide/sections/68-tochka-vhoda-did-mango-office.md"
+    },
+    {
+      "id": "user-guide-69-nastroyka-shemy-raspredeleniya-zvonkov-v",
+      "section": "10.3",
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "hint": "Личном кабинете",
+      "pages": "119",
+      "tokens": 169,
+      "path": "docs/kb/speech-analytics/user-guide/sections/69-nastroyka-shemy-raspredeleniya-zvonkov-v.md"
+    },
+    {
+      "id": "user-guide-70-tochka-vhoda-sip-trunk",
+      "section": "10.4",
+      "title": "Точка входа «SIP Trunk»",
+      "hint": "1) Добавление SIP Trunk",
+      "pages": "119-121",
+      "tokens": 427,
+      "path": "docs/kb/speech-analytics/user-guide/sections/70-tochka-vhoda-sip-trunk.md"
+    },
+    {
+      "id": "user-guide-71-vkladka-nastroyka",
+      "section": "10.4",
+      "title": "Вкладка Настройка",
+      "hint": "В открывшейся вкладке Настройка заполните поля:",
+      "pages": "121-123",
+      "tokens": 1892,
+      "path": "docs/kb/speech-analytics/user-guide/sections/71-vkladka-nastroyka.md"
+    },
+    {
+      "id": "user-guide-72-vkladka-nomera",
+      "section": "10.4",
+      "title": "Вкладка Номера",
+      "hint": "Заполните поля:",
+      "pages": "123-124",
+      "tokens": 743,
+      "path": "docs/kb/speech-analytics/user-guide/sections/72-vkladka-nomera.md"
+    },
+    {
+      "id": "user-guide-73-vkladka-telefoniya",
+      "section": "10.4",
+      "title": "Вкладка Телефония",
+      "hint": "В поле Исходящий̆ номер выберите из выпадающего списка номер SIP Trunkа.",
+      "pages": "124",
+      "tokens": 529,
+      "path": "docs/kb/speech-analytics/user-guide/sections/73-vkladka-telefoniya.md"
+    },
+    {
+      "id": "user-guide-74-aktivaciya-sip-trunk-v-kartochke-sotrudn",
+      "section": "10.4.1",
+      "title": "Активация SIP Trunk в карточке сотрудника",
+      "hint": "сотрудника",
+      "pages": "124",
+      "tokens": 165,
+      "path": "docs/kb/speech-analytics/user-guide/sections/74-aktivaciya-sip-trunk-v-kartochke-sotrudn.md"
+    },
+    {
+      "id": "user-guide-75-nastroyka-shemy-raspredeleniya-zvonkov-v",
+      "section": "10.4.2",
+      "title": "Настройка схемы распределения звонков в Личном кабинете",
+      "hint": "звонков в Личном кабинете",
+      "pages": "124-126",
+      "tokens": 834,
+      "path": "docs/kb/speech-analytics/user-guide/sections/75-nastroyka-shemy-raspredeleniya-zvonkov-v.md"
+    }
+  ]
+}

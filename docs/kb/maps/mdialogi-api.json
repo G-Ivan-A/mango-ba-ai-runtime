@@ -1,0 +1,639 @@
+{
+  "document_id": "mdialogi-api",
+  "index": "docs/kb/mdialogi-api/index.md",
+  "product_ids": [
+    "contact-center"
+  ],
+  "sections": [
+    {
+      "id": "mdialogi-api-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Манго Диалоги.",
+      "pages": "1-5",
+      "tokens": 1729,
+      "path": "docs/kb/mdialogi-api/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "mdialogi-api-01-opredeleniya-i-sokrascheniya",
+      "section": "—",
+      "title": "Определения и сокращения",
+      "hint": "API Манго Диалоги (API) – программный интерфейс системы \"Манго",
+      "pages": "5-7",
+      "tokens": 1045,
+      "path": "docs/kb/mdialogi-api/sections/01-opredeleniya-i-sokrascheniya.md"
+    },
+    {
+      "id": "mdialogi-api-02-o-mango-dialogah",
+      "section": "1",
+      "title": "О Манго Диалогах",
+      "hint": "",
+      "pages": "7",
+      "tokens": 65,
+      "path": "docs/kb/mdialogi-api/sections/02-o-mango-dialogah.md"
+    },
+    {
+      "id": "mdialogi-api-03-obschee",
+      "section": "1.1",
+      "title": "Общее",
+      "hint": "Система \"Манго Диалоги\" (далее по тексту - МД) предоставляет сервис",
+      "pages": "7",
+      "tokens": 268,
+      "path": "docs/kb/mdialogi-api/sections/03-obschee.md"
+    },
+    {
+      "id": "mdialogi-api-04-podderzhivaemye-kanaly-kommunikacii",
+      "section": "1.2",
+      "title": "Поддерживаемые каналы коммуникации",
+      "hint": "Каналы коммуникации различаются способом взаимодействия",
+      "pages": "7-8",
+      "tokens": 875,
+      "path": "docs/kb/mdialogi-api/sections/04-podderzhivaemye-kanaly-kommunikacii.md"
+    },
+    {
+      "id": "mdialogi-api-05-princip-tekstovyh-kommunikaciy-s-kliento",
+      "section": "1.3",
+      "title": "Принцип текстовых коммуникаций с Клиентом при помощи Манго Диалогов",
+      "hint": "помощи Манго Диалогов",
+      "pages": "8-9",
+      "tokens": 855,
+      "path": "docs/kb/mdialogi-api/sections/05-princip-tekstovyh-kommunikaciy-s-kliento.md"
+    },
+    {
+      "id": "mdialogi-api-06-osnovnye-suschnosti",
+      "section": "1.4",
+      "title": "Основные сущности",
+      "hint": "В этом параграфе рассказывается об основных сущностях МД и их",
+      "pages": "9-11",
+      "tokens": 1390,
+      "path": "docs/kb/mdialogi-api/sections/06-osnovnye-suschnosti.md"
+    },
+    {
+      "id": "mdialogi-api-07-nachalo-raboty-s-api",
+      "section": "2",
+      "title": "Начало работы с API",
+      "hint": "",
+      "pages": "11",
+      "tokens": 62,
+      "path": "docs/kb/mdialogi-api/sections/07-nachalo-raboty-s-api.md"
+    },
+    {
+      "id": "mdialogi-api-08-vvedenie-v-api",
+      "section": "2.1",
+      "title": "Введение в API",
+      "hint": "Используя API Манго Диалоги (далее по тексту - API), вы можете связать",
+      "pages": "11",
+      "tokens": 186,
+      "path": "docs/kb/mdialogi-api/sections/08-vvedenie-v-api.md"
+    },
+    {
+      "id": "mdialogi-api-09-neskolko-shagov-i-mozhno-pristupat-k-rab",
+      "section": "2.2",
+      "title": "Несколько шагов и можно приступать к работе",
+      "hint": "1) Прочитайте общие положения о взаимодействии систем.",
+      "pages": "11",
+      "tokens": 301,
+      "path": "docs/kb/mdialogi-api/sections/09-neskolko-shagov-i-mozhno-pristupat-k-rab.md"
+    },
+    {
+      "id": "mdialogi-api-10-obschie-polozheniya-o-vzaimodeystvii-sis",
+      "section": "2.3",
+      "title": "Общие положения о взаимодействии систем",
+      "hint": "В этом разделе рассказывается о модели взаимодействия вашей",
+      "pages": "11",
+      "tokens": 301,
+      "path": "docs/kb/mdialogi-api/sections/10-obschie-polozheniya-o-vzaimodeystvii-sis.md"
+    },
+    {
+      "id": "mdialogi-api-11-model-avtorizacii",
+      "section": "2.3.1",
+      "title": "Модель авторизации",
+      "hint": "API предоставляет внешней системе доступ к своим функциям без",
+      "pages": "11-12",
+      "tokens": 467,
+      "path": "docs/kb/mdialogi-api/sections/11-model-avtorizacii.md"
+    },
+    {
+      "id": "mdialogi-api-12-model-vzaimodeystviya",
+      "section": "2.3.2",
+      "title": "Модель взаимодействия",
+      "hint": "Внешняя система и API взаимодействуют по протоколу HTTPS.",
+      "pages": "12-13",
+      "tokens": 809,
+      "path": "docs/kb/mdialogi-api/sections/12-model-vzaimodeystviya.md"
+    },
+    {
+      "id": "mdialogi-api-13-vidy-zaprosov",
+      "section": "2.3.3",
+      "title": "Виды запросов",
+      "hint": "Запросы между системами условимся разделять на асинхронные и",
+      "pages": "13-14",
+      "tokens": 354,
+      "path": "docs/kb/mdialogi-api/sections/13-vidy-zaprosov.md"
+    },
+    {
+      "id": "mdialogi-api-14-ogranicheniya",
+      "section": "2.3.4",
+      "title": "Ограничения",
+      "hint": "1) Не поддерживается протокол TLS версий 1.0, 1.1, 1.3.",
+      "pages": "14",
+      "tokens": 175,
+      "path": "docs/kb/mdialogi-api/sections/14-ogranicheniya.md"
+    },
+    {
+      "id": "mdialogi-api-15-limity-kolichestva-zaprosov-k-api",
+      "section": "2.3.5",
+      "title": "Лимиты количества запросов к API",
+      "hint": "В API существуют ограничения на максимальное число запросов в",
+      "pages": "14-15",
+      "tokens": 549,
+      "path": "docs/kb/mdialogi-api/sections/15-limity-kolichestva-zaprosov-k-api.md"
+    },
+    {
+      "id": "mdialogi-api-16-razreshennye-ip-adresa",
+      "section": "2.3.6",
+      "title": "Разрешенные IP-адреса",
+      "hint": "При подключении API коннектора в настройках Личного кабинета",
+      "pages": "15-16",
+      "tokens": 329,
+      "path": "docs/kb/mdialogi-api/sections/16-razreshennye-ip-adresa.md"
+    },
+    {
+      "id": "mdialogi-api-17-ob-elektronnoy-podpisi-zaprosov",
+      "section": "2.3.7",
+      "title": "Об электронной подписи запросов",
+      "hint": "",
+      "pages": "16",
+      "tokens": 75,
+      "path": "docs/kb/mdialogi-api/sections/17-ob-elektronnoy-podpisi-zaprosov.md"
+    },
+    {
+      "id": "mdialogi-api-18-obschee",
+      "section": "2.3.7",
+      "title": "Общее",
+      "hint": "Данные, которыми обмениваются системы, как правило, передаются в",
+      "pages": "16-17",
+      "tokens": 459,
+      "path": "docs/kb/mdialogi-api/sections/18-obschee.md"
+    },
+    {
+      "id": "mdialogi-api-19-vpbx-api-salt",
+      "section": "2.3.7",
+      "title": "vpbx_api_salt",
+      "hint": "Секретный ключ для формирования электронной подписи.",
+      "pages": "17-18",
+      "tokens": 579,
+      "path": "docs/kb/mdialogi-api/sections/19-vpbx-api-salt.md"
+    },
+    {
+      "id": "mdialogi-api-20-obekty-dannyh",
+      "section": "2.4",
+      "title": "Объекты данных",
+      "hint": "В данном разделе описаны основные объекты, используемые в API Манго",
+      "pages": "18",
+      "tokens": 131,
+      "path": "docs/kb/mdialogi-api/sections/20-obekty-dannyh.md"
+    },
+    {
+      "id": "mdialogi-api-21-obekt-widget",
+      "section": "2.4.1",
+      "title": "Объект Widget",
+      "hint": "Объект Widget описывает виджет, настроенный в системе Манго Диалоги.",
+      "pages": "18-19",
+      "tokens": 379,
+      "path": "docs/kb/mdialogi-api/sections/21-obekt-widget.md"
+    },
+    {
+      "id": "mdialogi-api-22-obekt-shannel",
+      "section": "2.4.2",
+      "title": "Объект Сhannel",
+      "hint": "Объект Channel описывает канал коммуникации, входящий в состав",
+      "pages": "19-21",
+      "tokens": 1492,
+      "path": "docs/kb/mdialogi-api/sections/22-obekt-shannel.md"
+    },
+    {
+      "id": "mdialogi-api-23-obekt-socialuser",
+      "section": "2.4.3",
+      "title": "Объект SocialUser",
+      "hint": "Объект SocialUser содержит информацию о пользователе социальной",
+      "pages": "21-23",
+      "tokens": 912,
+      "path": "docs/kb/mdialogi-api/sections/23-obekt-socialuser.md"
+    },
+    {
+      "id": "mdialogi-api-24-obekt-shat",
+      "section": "2.4.4",
+      "title": "Объект Сhat",
+      "hint": "",
+      "pages": "23",
+      "tokens": 185,
+      "path": "docs/kb/mdialogi-api/sections/24-obekt-shat.md"
+    },
+    {
+      "id": "mdialogi-api-25-obekt-session",
+      "section": "2.4.5",
+      "title": "Объект Session",
+      "hint": "Объект Session содержит информацию о сессии коммуникации между",
+      "pages": "23-25",
+      "tokens": 1087,
+      "path": "docs/kb/mdialogi-api/sections/25-obekt-session.md"
+    },
+    {
+      "id": "mdialogi-api-26-obekt-message",
+      "section": "2.4.6",
+      "title": "Объект Message",
+      "hint": "Объект Message описывает сообщение между Клиентом и оператором.",
+      "pages": "25-26",
+      "tokens": 828,
+      "path": "docs/kb/mdialogi-api/sections/26-obekt-message.md"
+    },
+    {
+      "id": "mdialogi-api-27-obekt-button",
+      "section": "2.4.7",
+      "title": "Объект Button",
+      "hint": "Объект Button описывает кнопку.",
+      "pages": "26-27",
+      "tokens": 195,
+      "path": "docs/kb/mdialogi-api/sections/27-obekt-button.md"
+    },
+    {
+      "id": "mdialogi-api-28-rukovodstvo-po-api",
+      "section": "3",
+      "title": "Руководство по API",
+      "hint": "",
+      "pages": "27",
+      "tokens": 63,
+      "path": "docs/kb/mdialogi-api/sections/28-rukovodstvo-po-api.md"
+    },
+    {
+      "id": "mdialogi-api-29-obmen-soobscheniyami-v-whatsapp",
+      "section": "3.1",
+      "title": "Обмен сообщениями в WhatsApp",
+      "hint": "",
+      "pages": "27",
+      "tokens": 66,
+      "path": "docs/kb/mdialogi-api/sections/29-obmen-soobscheniyami-v-whatsapp.md"
+    },
+    {
+      "id": "mdialogi-api-30-obschee",
+      "section": "3.1.1",
+      "title": "Общее",
+      "hint": "Если к Вашей Виртуальной АТС подключена услуга \"WhatsApp Business",
+      "pages": "27",
+      "tokens": 352,
+      "path": "docs/kb/mdialogi-api/sections/30-obschee.md"
+    },
+    {
+      "id": "mdialogi-api-31-dostup-k-metodam",
+      "section": "3.1.2",
+      "title": "Доступ к методам",
+      "hint": "Вы можете использовать методы, описанные в данном разделе, если",
+      "pages": "27-28",
+      "tokens": 328,
+      "path": "docs/kb/mdialogi-api/sections/31-dostup-k-metodam.md"
+    },
+    {
+      "id": "mdialogi-api-32-poluchenie-spiska-hsm-shablonov",
+      "section": "3.1.3",
+      "title": "Получение списка HSM-шаблонов",
+      "hint": "Метод позволяет получить список HSM-шаблонов, имеющих статус",
+      "pages": "28-31",
+      "tokens": 1849,
+      "path": "docs/kb/mdialogi-api/sections/32-poluchenie-spiska-hsm-shablonov.md"
+    },
+    {
+      "id": "mdialogi-api-33-otpravlenie-hsm",
+      "section": "3.1.4",
+      "title": "Отправление HSM",
+      "hint": "Метод позволяет отправить Клиенту сообщение в соответствии с тем",
+      "pages": "31-34",
+      "tokens": 1536,
+      "path": "docs/kb/mdialogi-api/sections/33-otpravlenie-hsm.md"
+    },
+    {
+      "id": "mdialogi-api-34-api-upravleniya-sessiyami",
+      "section": "3.2",
+      "title": "API управления сессиями",
+      "hint": "",
+      "pages": "34",
+      "tokens": 67,
+      "path": "docs/kb/mdialogi-api/sections/34-api-upravleniya-sessiyami.md"
+    },
+    {
+      "id": "mdialogi-api-35-sozdat-novuyu-sessiyu",
+      "section": "3.2.1",
+      "title": "Создать новую сессию",
+      "hint": "Если Клиент ранее уже обращался в вашу компанию и у вас есть",
+      "pages": "34-36",
+      "tokens": 1592,
+      "path": "docs/kb/mdialogi-api/sections/35-sozdat-novuyu-sessiyu.md"
+    },
+    {
+      "id": "mdialogi-api-36-vzyat-sessiyu-v-rabotu",
+      "section": "3.2.2",
+      "title": "Взять сессию в работу",
+      "hint": "Метод позволяет перевести сессию из статуса \"pending\" в статус \"dialog\",",
+      "pages": "36-38",
+      "tokens": 804,
+      "path": "docs/kb/mdialogi-api/sections/36-vzyat-sessiyu-v-rabotu.md"
+    },
+    {
+      "id": "mdialogi-api-37-perevod-sessii-na-drugogo-sotrudnika-ili",
+      "section": "3.2.3",
+      "title": "Перевод сессии на другого сотрудника или группу",
+      "hint": "Этот метод позволяет передать диалог с Клиентом от одного оператора",
+      "pages": "38-41",
+      "tokens": 1589,
+      "path": "docs/kb/mdialogi-api/sections/37-perevod-sessii-na-drugogo-sotrudnika-ili.md"
+    },
+    {
+      "id": "mdialogi-api-38-zakryt-sessiyu",
+      "section": "3.2.4",
+      "title": "Закрыть сессию",
+      "hint": "Метод позволяет принудительно закрыть сессию в статусе \"dialog\".",
+      "pages": "41-42",
+      "tokens": 645,
+      "path": "docs/kb/mdialogi-api/sections/38-zakryt-sessiyu.md"
+    },
+    {
+      "id": "mdialogi-api-39-otpravit-soobschenie-operatora-k-klientu",
+      "section": "3.2.5",
+      "title": "Отправить сообщение оператора к Клиенту",
+      "hint": "Метод позволяет отправить Клиенту сообщение от имени оператора.",
+      "pages": "42-45",
+      "tokens": 1071,
+      "path": "docs/kb/mdialogi-api/sections/39-otpravit-soobschenie-operatora-k-klientu.md"
+    },
+    {
+      "id": "mdialogi-api-40-zagruzka-istorii-chata",
+      "section": "3.2.6",
+      "title": "Загрузка истории чата",
+      "hint": "Метод возвращает массив сообщений, которыми обменивались Клиент",
+      "pages": "45-47",
+      "tokens": 886,
+      "path": "docs/kb/mdialogi-api/sections/40-zagruzka-istorii-chata.md"
+    },
+    {
+      "id": "mdialogi-api-41-api-realtime-vebhuki",
+      "section": "3.3",
+      "title": "API Realtime (вебхуки)",
+      "hint": "",
+      "pages": "47",
+      "tokens": 68,
+      "path": "docs/kb/mdialogi-api/sections/41-api-realtime-vebhuki.md"
+    },
+    {
+      "id": "mdialogi-api-42-sessiya-v-sostoyanii-ozhidaniya",
+      "section": "3.3.1",
+      "title": "Сессия в состоянии ожидания",
+      "hint": "Данный вебхук отправляется во внешнюю систему после того, как в МД",
+      "pages": "47-49",
+      "tokens": 740,
+      "path": "docs/kb/mdialogi-api/sections/42-sessiya-v-sostoyanii-ozhidaniya.md"
+    },
+    {
+      "id": "mdialogi-api-43-sessiya-vzyata-v-rabotu",
+      "section": "3.3.2",
+      "title": "Сессия взята в работу",
+      "hint": "Данный вебхук отправляется во внешнюю систему после того, как",
+      "pages": "49-51",
+      "tokens": 756,
+      "path": "docs/kb/mdialogi-api/sections/43-sessiya-vzyata-v-rabotu.md"
+    },
+    {
+      "id": "mdialogi-api-44-sessiya-zakryta",
+      "section": "3.3.3",
+      "title": "Сессия закрыта",
+      "hint": "Данный вебхук отправляется во внешнюю систему после того, как",
+      "pages": "51-53",
+      "tokens": 769,
+      "path": "docs/kb/mdialogi-api/sections/44-sessiya-zakryta.md"
+    },
+    {
+      "id": "mdialogi-api-45-hsm-soobschenie-operatora-prochitano-kli",
+      "section": "3.3.4",
+      "title": "HSM-сообщение оператора прочитано клиентом",
+      "hint": "В МД существует возможность отправлять Клиентам HSM-сообщения",
+      "pages": "53-54",
+      "tokens": 605,
+      "path": "docs/kb/mdialogi-api/sections/45-hsm-soobschenie-operatora-prochitano-kli.md"
+    },
+    {
+      "id": "mdialogi-api-46-soobschenie-operatora-ne-dostavleno-klie",
+      "section": "3.3.5",
+      "title": "Сообщение оператора не доставлено клиенту",
+      "hint": "Данный вебхук отправляется во внешнюю систему в том случае, если",
+      "pages": "54-55",
+      "tokens": 444,
+      "path": "docs/kb/mdialogi-api/sections/46-soobschenie-operatora-ne-dostavleno-klie.md"
+    },
+    {
+      "id": "mdialogi-api-47-soobschenie-operatora-dostavleno-klientu",
+      "section": "3.3.6",
+      "title": "Сообщение оператора доставлено клиенту",
+      "hint": "Данный вебхук отправляется во внешнюю систему в том случае, если",
+      "pages": "55-56",
+      "tokens": 553,
+      "path": "docs/kb/mdialogi-api/sections/47-soobschenie-operatora-dostavleno-klientu.md"
+    },
+    {
+      "id": "mdialogi-api-48-soobschenie-operatora-prochitano-kliento",
+      "section": "3.3.7",
+      "title": "Сообщение оператора прочитано клиентом",
+      "hint": "Данный вебхук отправляется во внешнюю систему в том случае, если",
+      "pages": "56-57",
+      "tokens": 550,
+      "path": "docs/kb/mdialogi-api/sections/48-soobschenie-operatora-prochitano-kliento.md"
+    },
+    {
+      "id": "mdialogi-api-49-novoe-soobschenie-v-chate",
+      "section": "3.3.8",
+      "title": "Новое сообщение в чате",
+      "hint": "Данный вебхук отправляется во внешнюю систему, когда Клиент либо оператор",
+      "pages": "57-59",
+      "tokens": 580,
+      "path": "docs/kb/mdialogi-api/sections/49-novoe-soobschenie-v-chate.md"
+    },
+    {
+      "id": "mdialogi-api-50-kody-oshibok",
+      "section": "4",
+      "title": "Коды ошибок",
+      "hint": "",
+      "pages": "59",
+      "tokens": 60,
+      "path": "docs/kb/mdialogi-api/sections/50-kody-oshibok.md"
+    },
+    {
+      "id": "mdialogi-api-51-vazhnaya-informaciya",
+      "section": "4.1",
+      "title": "Важная информация",
+      "hint": "1.",
+      "pages": "59",
+      "tokens": 476,
+      "path": "docs/kb/mdialogi-api/sections/51-vazhnaya-informaciya.md"
+    },
+    {
+      "id": "mdialogi-api-52-vozmozhnye-kody-oshibok-api",
+      "section": "4.2",
+      "title": "Возможные коды ошибок API",
+      "hint": "В системе Манго Диалоги используются два типа ошибок:",
+      "pages": "59-60",
+      "tokens": 335,
+      "path": "docs/kb/mdialogi-api/sections/52-vozmozhnye-kody-oshibok-api.md"
+    },
+    {
+      "id": "mdialogi-api-53-kody-oshibok-otveta-api",
+      "section": "4.2.1",
+      "title": "Коды ошибок ответа API",
+      "hint": "Манго Диалоги.",
+      "pages": "60-62",
+      "tokens": 729,
+      "path": "docs/kb/mdialogi-api/sections/53-kody-oshibok-otveta-api.md"
+    },
+    {
+      "id": "mdialogi-api-54-kody-oshibok-dostavki-soobscheniy",
+      "section": "4.2.2",
+      "title": "Коды ошибок доставки сообщений",
+      "hint": "Манго Диалоги.",
+      "pages": "62-65",
+      "tokens": 1956,
+      "path": "docs/kb/mdialogi-api/sections/54-kody-oshibok-dostavki-soobscheniy.md"
+    },
+    {
+      "id": "mdialogi-api-55-obrabotka-neizvestnyh-oshibok",
+      "section": "4.2.3",
+      "title": "Обработка неизвестных ошибок",
+      "hint": "Если система получает код ошибки, который отсутствует в реестре, он",
+      "pages": "65",
+      "tokens": 144,
+      "path": "docs/kb/mdialogi-api/sections/55-obrabotka-neizvestnyh-oshibok.md"
+    },
+    {
+      "id": "mdialogi-api-56-primechaniya",
+      "section": "4.2.4",
+      "title": "Примечания",
+      "hint": "1.",
+      "pages": "65-66",
+      "tokens": 222,
+      "path": "docs/kb/mdialogi-api/sections/56-primechaniya.md"
+    },
+    {
+      "id": "mdialogi-api-57-primery-ispolzovaniya-api",
+      "section": "5",
+      "title": "Примеры использования API",
+      "hint": "",
+      "pages": "66",
+      "tokens": 61,
+      "path": "docs/kb/mdialogi-api/sections/57-primery-ispolzovaniya-api.md"
+    },
+    {
+      "id": "mdialogi-api-58-priem-i-obrabotka-obrascheniy-klienta",
+      "section": "5.1",
+      "title": "Прием и обработка обращений Клиента",
+      "hint": "После настройки каналов коммуникации в МД, вы сможете получать",
+      "pages": "66-73",
+      "tokens": 3098,
+      "path": "docs/kb/mdialogi-api/sections/58-priem-i-obrabotka-obrascheniy-klienta.md"
+    },
+    {
+      "id": "mdialogi-api-59-operator-obraschaetsya-k-klientu",
+      "section": "5.2",
+      "title": "Оператор обращается к Клиенту",
+      "hint": "Если Клиент ранее уже обращался в вашу компанию по тому или иному",
+      "pages": "73-77",
+      "tokens": 2160,
+      "path": "docs/kb/mdialogi-api/sections/59-operator-obraschaetsya-k-klientu.md"
+    },
+    {
+      "id": "mdialogi-api-60-perevod-obrascheniya-na-drugogo-operator",
+      "section": "5.3",
+      "title": "Перевод обращения на другого оператора",
+      "hint": "В этом параграфе рассказывается о том, как перевести обработку обращения с",
+      "pages": "77-80",
+      "tokens": 722,
+      "path": "docs/kb/mdialogi-api/sections/60-perevod-obrascheniya-na-drugogo-operator.md"
+    },
+    {
+      "id": "mdialogi-api-61-ustarevshie-metody-api",
+      "section": "6",
+      "title": "Устаревшие методы API",
+      "hint": "Внимание!",
+      "pages": "80",
+      "tokens": 176,
+      "path": "docs/kb/mdialogi-api/sections/61-ustarevshie-metody-api.md"
+    },
+    {
+      "id": "mdialogi-api-62-otpravlenie-kaskada-soobscheniy-cherez-w",
+      "section": "6.1",
+      "title": "Отправление каскада сообщений через WhatsApp и SMS",
+      "hint": "POST /cc/send_text_message",
+      "pages": "80",
+      "tokens": 162,
+      "path": "docs/kb/mdialogi-api/sections/62-otpravlenie-kaskada-soobscheniy-cherez-w.md"
+    },
+    {
+      "id": "mdialogi-api-63-pravila-raboty",
+      "section": "6.1.1",
+      "title": "Правила работы",
+      "hint": "Чтобы выполнить массовую рассылку, необходимо комплексно",
+      "pages": "80-81",
+      "tokens": 956,
+      "path": "docs/kb/mdialogi-api/sections/63-pravila-raboty.md"
+    },
+    {
+      "id": "mdialogi-api-64-ogranicheniya",
+      "section": "6.1.2",
+      "title": "Ограничения",
+      "hint": "1) Текст сообщения (параметр \"text\") должен быть заключен в кавычки и",
+      "pages": "81-82",
+      "tokens": 365,
+      "path": "docs/kb/mdialogi-api/sections/64-ogranicheniya.md"
+    },
+    {
+      "id": "mdialogi-api-65-opisanie-zaprosa",
+      "section": "6.1.3",
+      "title": "Описание запроса",
+      "hint": "Параметры запроса:",
+      "pages": "82-85",
+      "tokens": 1390,
+      "path": "docs/kb/mdialogi-api/sections/65-opisanie-zaprosa.md"
+    },
+    {
+      "id": "mdialogi-api-66-poluchit-spisok-vidzhetov",
+      "section": "6.1.4",
+      "title": "Получить список виджетов",
+      "hint": "Метод возвращает список виджетов МД.",
+      "pages": "85-87",
+      "tokens": 1016,
+      "path": "docs/kb/mdialogi-api/sections/66-poluchit-spisok-vidzhetov.md"
+    },
+    {
+      "id": "mdialogi-api-67-poluchit-spisok-aktivnyh-sessiy",
+      "section": "6.1.5",
+      "title": "Получить список активных сессий",
+      "hint": "Метод возвращает список сессий, находящихся в статусе:",
+      "pages": "87-91",
+      "tokens": 1637,
+      "path": "docs/kb/mdialogi-api/sections/67-poluchit-spisok-aktivnyh-sessiy.md"
+    },
+    {
+      "id": "mdialogi-api-68-poluchenie-statusov-otpravlennyh-hsm-soo",
+      "section": "6.2",
+      "title": "Получение статусов отправленных HSM-сообщений",
+      "hint": "Метод позволяет получить статус ранее отправленного HSM-",
+      "pages": "91-93",
+      "tokens": 749,
+      "path": "docs/kb/mdialogi-api/sections/68-poluchenie-statusov-otpravlennyh-hsm-soo.md"
+    },
+    {
+      "id": "mdialogi-api-69-istoriya-dokumenta",
+      "section": "—",
+      "title": "История документа",
+      "hint": "09.06.2026",
+      "pages": "93-96",
+      "tokens": 2004,
+      "path": "docs/kb/mdialogi-api/sections/69-istoriya-dokumenta.md"
+    }
+  ]
+}

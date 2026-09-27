@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [voice-ucaas]
 type: kb-source-index
 doc_code: INTB24
 doc_title: "Интеграция Виртуальной АТС и Битрикс24. Инструкция по настройке"

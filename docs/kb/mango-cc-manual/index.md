@@ -1,4 +1,6 @@
 ---
+product_taxonomy_ref: taxonomy/products.yaml#classes
+product_ids: [contact-center]
 type: kb-source-index
 doc_code: CC
 doc_title: "Контакт-центр MANGO OFFICE - Руководство пользователя"

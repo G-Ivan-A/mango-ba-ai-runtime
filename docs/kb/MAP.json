@@ -1,0 +1,395 @@
+{
+  "schema_version": 1,
+  "taxonomy_ref": "taxonomy/products.yaml#classes",
+  "generated_by": "docs/kb/build_map.py",
+  "navigation": {
+    "select_document": "Match question terms and known product class against title, aliases and product_ids; open only the selected sections_map.",
+    "select_section": "Match the question against section title and hint; open the exact path of the best matching section, then adjacent rows only if context is needed.",
+    "retrieval_if_insufficient": [
+      "Search other sections in the same document map.",
+      "Search other documents in the same group_id.",
+      "Search documents with overlapping product_ids, then all document titles and aliases.",
+      "If local KB still lacks evidence, follow taxonomy/source-tiers.yaml and record the missing source or question."
+    ]
+  },
+  "documents": [
+    {
+      "id": "cov-robot-fil",
+      "group_id": "cov-robot-fil",
+      "title": "Модуль ЦОВ «Робот Фил 2,0». Руководство пользователя",
+      "version": "1.26.28",
+      "product_ids": [
+        "contact-center"
+      ],
+      "aliases": [
+        "голосовой робот",
+        "чат-бот",
+        "фильтр вызовов",
+        "сценарий робота"
+      ],
+      "index": "docs/kb/cov-robot-fil/index.md",
+      "sections_map": "docs/kb/maps/cov-robot-fil.json",
+      "section_count": 75
+    },
+    {
+      "id": "integration-1c",
+      "group_id": "integration-1c",
+      "title": "Прямая интеграция с системой «1С: Управление торговлей». Интеграция Виртуальной АТС и системы «1С: Управление торговлей»",
+      "version": "22.12.2025",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "1С",
+        "управление торговлей",
+        "интеграция АТС"
+      ],
+      "index": "docs/kb/integration-1c/index.md",
+      "sections_map": "docs/kb/maps/integration-1c.json",
+      "section_count": 33
+    },
+    {
+      "id": "integration-amocrm",
+      "group_id": "integration-amocrm",
+      "title": "Интеграция Виртуальной АТС и amoCRM. Инструкция по настройке",
+      "version": "25.08.2025",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "amoCRM",
+        "интеграция CRM"
+      ],
+      "index": "docs/kb/integration-amocrm/index.md",
+      "sections_map": "docs/kb/maps/integration-amocrm.json",
+      "section_count": 86
+    },
+    {
+      "id": "integration-bitrix24",
+      "group_id": "integration-bitrix24",
+      "title": "Интеграция Виртуальной АТС и Битрикс24. Инструкция по настройке",
+      "version": "03.03.2026",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "Битрикс24",
+        "Bitrix24",
+        "интеграция CRM"
+      ],
+      "index": "docs/kb/integration-bitrix24/index.md",
+      "sections_map": "docs/kb/maps/integration-bitrix24.json",
+      "section_count": 192
+    },
+    {
+      "id": "integration-bpmsoft",
+      "group_id": "integration-bpmsoft",
+      "title": "Интеграция Виртуальной АТС и BPMSoft. Руководство по интеграции",
+      "version": "22.06.2026",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "BPMSoft",
+        "интеграция CRM"
+      ],
+      "index": "docs/kb/integration-bpmsoft/index.md",
+      "sections_map": "docs/kb/maps/integration-bpmsoft.json",
+      "section_count": 127
+    },
+    {
+      "id": "lk-vats-sso",
+      "group_id": "lk-vats-sso",
+      "title": "Аутентификация и авторизация в рамках SSO",
+      "version": "1.0",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "SSO",
+        "единый вход",
+        "авторизация",
+        "IdP"
+      ],
+      "index": "docs/kb/lk-vats-sso/index.md",
+      "sections_map": "docs/kb/maps/lk-vats-sso.json",
+      "section_count": 10
+    },
+    {
+      "id": "mango-cc-manual",
+      "group_id": "mango-cc-manual",
+      "title": "Контакт-центр MANGO OFFICE - Руководство пользователя",
+      "version": "1.26.28.1",
+      "product_ids": [
+        "contact-center"
+      ],
+      "aliases": [
+        "контакт-центр",
+        "оператор",
+        "очередь обращений",
+        "CC"
+      ],
+      "index": "docs/kb/mango-cc-manual/index.md",
+      "sections_map": "docs/kb/maps/mango-cc-manual.json",
+      "section_count": 139
+    },
+    {
+      "id": "mango-lk-manual",
+      "group_id": "mango-lk-manual",
+      "title": "Виртуальная АТС MANGO OFFICE - Справочник абонента",
+      "version": "1.23",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "личный кабинет",
+        "ВАТС",
+        "настройка телефонии"
+      ],
+      "index": "docs/kb/mango-lk-manual/index.md",
+      "sections_map": "docs/kb/maps/mango-lk-manual.json",
+      "section_count": 351
+    },
+    {
+      "id": "mdialogi-api",
+      "group_id": "mdialogi-api",
+      "title": "Манго Диалоги. Справочник по API",
+      "version": "10.06.2026",
+      "product_ids": [
+        "contact-center"
+      ],
+      "aliases": [
+        "Манго Диалоги",
+        "MDialogi",
+        "API сообщений"
+      ],
+      "index": "docs/kb/mdialogi-api/index.md",
+      "sections_map": "docs/kb/maps/mdialogi-api.json",
+      "section_count": 70
+    },
+    {
+      "id": "mtalker--android-user-guide",
+      "group_id": "mtalker",
+      "title": "Mango Talker для Android - Руководство пользователя",
+      "version": "11.06.2026",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "Mango Talker",
+        "софтфон",
+        "мобильное приложение"
+      ],
+      "index": "docs/kb/mtalker/android-user-guide/index.md",
+      "sections_map": "docs/kb/maps/mtalker--android-user-guide.json",
+      "section_count": 99
+    },
+    {
+      "id": "mtalker--quick-start",
+      "group_id": "mtalker",
+      "title": "Mango Talker для Windows/Mac - Быстрый старт",
+      "version": "23.08.2024",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "Mango Talker",
+        "софтфон",
+        "мобильное приложение"
+      ],
+      "index": "docs/kb/mtalker/quick-start/index.md",
+      "sections_map": "docs/kb/maps/mtalker--quick-start.json",
+      "section_count": 7
+    },
+    {
+      "id": "mtalker--windows-mac-admin",
+      "group_id": "mtalker",
+      "title": "Mango Talker для Windows/Mac - Информация для администратора ВАТС",
+      "version": "23.08.2024",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "Mango Talker",
+        "софтфон",
+        "мобильное приложение"
+      ],
+      "index": "docs/kb/mtalker/windows-mac-admin/index.md",
+      "sections_map": "docs/kb/maps/mtalker--windows-mac-admin.json",
+      "section_count": 15
+    },
+    {
+      "id": "mtalker--windows-mac-settings",
+      "group_id": "mtalker",
+      "title": "Mango Talker для Windows/Mac - Установка настроек",
+      "version": "23.08.2024",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "Mango Talker",
+        "софтфон",
+        "мобильное приложение"
+      ],
+      "index": "docs/kb/mtalker/windows-mac-settings/index.md",
+      "sections_map": "docs/kb/maps/mtalker--windows-mac-settings.json",
+      "section_count": 55
+    },
+    {
+      "id": "mtalker--windows-mac-working",
+      "group_id": "mtalker",
+      "title": "Mango Talker для Windows/Mac - Руководство пользователя (Работа)",
+      "version": "11.06.2026",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "Mango Talker",
+        "софтфон",
+        "мобильное приложение"
+      ],
+      "index": "docs/kb/mtalker/windows-mac-working/index.md",
+      "sections_map": "docs/kb/maps/mtalker--windows-mac-working.json",
+      "section_count": 143
+    },
+    {
+      "id": "quality-management",
+      "group_id": "quality-management",
+      "title": "Руководство по контролю качества",
+      "version": "1.26.18",
+      "product_ids": [
+        "contact-center",
+        "analytics-reporting"
+      ],
+      "aliases": [
+        "контроль качества",
+        "оценка звонков",
+        "бланк оценки"
+      ],
+      "index": "docs/kb/quality-management/index.md",
+      "sections_map": "docs/kb/maps/quality-management.json",
+      "section_count": 52
+    },
+    {
+      "id": "rolevaya-model-vats",
+      "group_id": "rolevaya-model-vats",
+      "title": "Руководство пользователя. Роли и права доступа",
+      "version": "1.26.08",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "роли",
+        "права доступа",
+        "ВАТС"
+      ],
+      "index": "docs/kb/rolevaya-model-vats/index.md",
+      "sections_map": "docs/kb/maps/rolevaya-model-vats.json",
+      "section_count": 65
+    },
+    {
+      "id": "sip-trunk",
+      "group_id": "sip-trunk",
+      "title": "SIP TRUNK. Руководство пользователя",
+      "version": "1.23.43",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "SIP TRUNK",
+        "SIP-транк",
+        "внешняя АТС"
+      ],
+      "index": "docs/kb/sip-trunk/index.md",
+      "sections_map": "docs/kb/maps/sip-trunk.json",
+      "section_count": 39
+    },
+    {
+      "id": "speech-analytics--kats",
+      "group_id": "speech-analytics",
+      "title": "Руководство пользователя. Речевая аналитика & КАТС",
+      "version": "1.26.18",
+      "product_ids": [
+        "analytics-reporting"
+      ],
+      "aliases": [
+        "речевая аналитика",
+        "распознавание",
+        "офлайн скоринг"
+      ],
+      "index": "docs/kb/speech-analytics/kats/index.md",
+      "sections_map": "docs/kb/maps/speech-analytics--kats.json",
+      "section_count": 92
+    },
+    {
+      "id": "speech-analytics--offline-scoring",
+      "group_id": "speech-analytics",
+      "title": "Руководство пользователя. Речевая аналитика. Офлайн скоринг",
+      "version": "1.26.15",
+      "product_ids": [
+        "analytics-reporting"
+      ],
+      "aliases": [
+        "речевая аналитика",
+        "распознавание",
+        "офлайн скоринг"
+      ],
+      "index": "docs/kb/speech-analytics/offline-scoring/index.md",
+      "sections_map": "docs/kb/maps/speech-analytics--offline-scoring.json",
+      "section_count": 87
+    },
+    {
+      "id": "speech-analytics--user-guide",
+      "group_id": "speech-analytics",
+      "title": "Руководство пользователя. Речевая аналитика",
+      "version": "1.26.18",
+      "product_ids": [
+        "analytics-reporting"
+      ],
+      "aliases": [
+        "речевая аналитика",
+        "распознавание",
+        "офлайн скоринг"
+      ],
+      "index": "docs/kb/speech-analytics/user-guide/index.md",
+      "sections_map": "docs/kb/maps/speech-analytics--user-guide.json",
+      "section_count": 76
+    },
+    {
+      "id": "speech-analytics--vats-offline-scoring",
+      "group_id": "speech-analytics",
+      "title": "Руководство пользователя. Речевая аналитика. ВАТС & Офлайн скоринг",
+      "version": "1.26.18",
+      "product_ids": [
+        "analytics-reporting"
+      ],
+      "aliases": [
+        "речевая аналитика",
+        "распознавание",
+        "офлайн скоринг"
+      ],
+      "index": "docs/kb/speech-analytics/vats-offline-scoring/index.md",
+      "sections_map": "docs/kb/maps/speech-analytics--vats-offline-scoring.json",
+      "section_count": 88
+    },
+    {
+      "id": "vpbx-api",
+      "group_id": "vpbx-api",
+      "title": "API Mango Office",
+      "version": "1.9",
+      "product_ids": [
+        "voice-ucaas",
+        "contact-center"
+      ],
+      "aliases": [
+        "API ВАТС",
+        "API КЦ",
+        "вебхук",
+        "звонки"
+      ],
+      "index": "docs/kb/vpbx-api/index.md",
+      "sections_map": "docs/kb/maps/vpbx-api.json",
+      "section_count": 255
+    }
+  ]
+}
