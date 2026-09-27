@@ -24,8 +24,4 @@ ai-generated: true
 
 1. В поле «Токен HTTP API» вставьте токен, полученный в MAX. 2. Нажмите «Сохранить». После проверки токена плашка канала перейдёт в состояние «Токен авторизован».
 
-![Изображение, стр. 326](../images/200-podklyuchenie-tokena-max-1.jpeg)
-
-![Изображение, стр. 326](../images/200-podklyuchenie-tokena-max-2.png)
-
 ![Изображение, стр. 326](../images/200-podklyuchenie-tokena-max-3.png)

@@ -24,8 +24,6 @@ ai-generated: true
 
 1) Подключение услуги Речевая аналитика; 2) Создание сотрудника; Речевая аналитика | v.1.26.18 118
 
-![Изображение, стр. 119](../images/68-tochka-vhoda-did-mango-office-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

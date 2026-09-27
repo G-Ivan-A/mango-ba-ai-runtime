@@ -28,8 +28,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 51
 
-![Изображение, стр. 52](../images/54-dopolnitelnye-nastroyki-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

@@ -24,6 +24,4 @@ ai-generated: true
 
 Нажмите «Настроить и подключить». Откроется страница настроек подключения.
 
-![Изображение, стр. 325](../images/199-perehod-k-nastroykam-1.png)
-
 ![Изображение, стр. 325](../images/199-perehod-k-nastroykam-2.jpeg)

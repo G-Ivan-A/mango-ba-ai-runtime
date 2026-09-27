@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика. ВАТС & Офлайн скоринг | v.1.26.18 88
 
-![Изображение, стр. 89](../images/58-analiz-razgovorov-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

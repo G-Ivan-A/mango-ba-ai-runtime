@@ -24,10 +24,6 @@ ai-generated: true
 
 Пополнение счета возможно при помощи наличных денежных средств через платежные терминалы и в магазинах-салонах «Евросеть» и «Связной».
 
-![Изображение, стр. 39](../images/42-oplata-nalichnymi-1.jpeg)
-
 ![Изображение, стр. 39](../images/42-oplata-nalichnymi-2.jpeg)
 
 Если у вас остались вопросы по внесению платежей, то рекомендуем посетить официальные сайты платежных систем: • Paymaster – www.paymaster.ru • PayOnline – www.payonline.ru • ЮMoney— www.yoomoney.ru • QIWI – www.qiwi.com
-
-![Изображение, стр. 40](../images/42-oplata-nalichnymi-3.jpeg)

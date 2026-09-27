@@ -32,8 +32,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 41
 
-![Изображение, стр. 42](../images/38-sdelki-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

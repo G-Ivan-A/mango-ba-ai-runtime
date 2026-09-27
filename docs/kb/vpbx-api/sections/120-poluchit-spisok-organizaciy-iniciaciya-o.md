@@ -32,11 +32,7 @@ POST /vpbx/ab/organizations/init Для получения списка всех
 
 Пример запроса: POST https://app.mango-office.ru/vpbx/ab/organizations/init vpbx_api_key = 1234567890qwerty, sign = 1234567890qwerty, json = { "query":"", "limit_rows":"2", "order": [ {
 
-![Изображение, стр. 160](../images/120-poluchit-spisok-organizaciy-iniciaciya-o-1.png)
-
 "id":"asc"
-
-![Изображение, стр. 160](../images/120-poluchit-spisok-organizaciy-iniciaciya-o-2.png)
 
 <!-- изображение на стр. 160: байты не извлечены (PyMuPDF недоступен) -->
 

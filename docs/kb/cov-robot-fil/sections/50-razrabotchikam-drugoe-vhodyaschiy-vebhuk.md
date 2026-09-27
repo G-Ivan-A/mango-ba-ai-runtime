@@ -22,17 +22,11 @@ ai-generated: true
 
 > Трассировка: PDF §6.4 · сквозные стр. 149-151 · источники: ч.1 `kb/sources/cov-robot-fil/Модуль ЦОВ Робот Фил 2,0_manual_v7.26.28.pdf` с.149-151.
 
-![Изображение, стр. 150](../images/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk-1.png)
-
 ![Изображение, стр. 150](../images/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk-2.png)
 
 Скопируйте данные из поля «Вебхук для вызова rest api», далее вернитесь в модуль Роботы MANGO OFFICE и разместите скопированные данные в поле Настройки интеграции.
 
-![Изображение, стр. 150](../images/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk-3.png)
-
 ![Изображение, стр. 150](../images/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk-4.png)
-
-![Изображение, стр. 151](../images/50-razrabotchikam-drugoe-vhodyaschiy-vebhuk-5.png)
 
 Нажмите кнопку Подключить интеграцию. Теперь вы можете работать со сделками и лидами Битрикс при помощи блока Интеграции конструктора скриптов.
 

@@ -28,8 +28,4 @@ Outbound Routes - Исходящая маршрутизация FusionPBX (Frees
 
 Данный шаблон соответствует номерам из 10 цифр начинающимся на 795
 
-![Изображение, стр. 563](../images/348-ishodyaschaya-marshrutizaciya-2.jpeg)
-
 ![Изображение, стр. 563](../images/348-ishodyaschaya-marshrutizaciya-3.jpeg)
-
-![Изображение, стр. 564](../images/348-ishodyaschaya-marshrutizaciya-4.jpeg)

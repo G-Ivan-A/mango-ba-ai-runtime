@@ -7,7 +7,8 @@
   "doc_title": "Mango Talker для Windows/Mac - Руководство пользователя (Работа)",
   "doc_version": "11.06.2026",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 362,
+  "image_count": 359,
+  "image_count_extracted": 362,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

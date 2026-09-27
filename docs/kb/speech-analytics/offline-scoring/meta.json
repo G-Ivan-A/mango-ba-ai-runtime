@@ -7,7 +7,8 @@
   "doc_title": "Руководство пользователя. Речевая аналитика. Офлайн скоринг",
   "doc_version": "1.26.15",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 351,
+  "image_count": 202,
+  "image_count_extracted": 351,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

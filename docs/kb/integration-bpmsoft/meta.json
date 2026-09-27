@@ -7,7 +7,8 @@
   "doc_title": "Интеграция Виртуальной АТС и BPMSoft. Руководство по интеграции",
   "doc_version": "22.06.2026",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 163,
+  "image_count": 162,
+  "image_count_extracted": 163,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

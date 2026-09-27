@@ -23,5 +23,3 @@ ai-generated: true
 > Трассировка: PDF §4 · сквозные стр. 69-70 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-123.pdf` с.69-70.
 
 Блок содержит ссылки на мобильное приложение MANGO OFFICE Личный кабинет в Google Play и App Store. Блок отображается для пользователей с ролью «Администратор лицевого счета».
-
-![Изображение, стр. 70](../images/70-prilozhenie-lichnyy-kabinet-1.jpeg)

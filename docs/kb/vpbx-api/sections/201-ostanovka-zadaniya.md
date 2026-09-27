@@ -37,8 +37,4 @@ POST /vpbx/task/stop Метод позволяет остановить зада
 
 Пример ответа:
 
-![Изображение, стр. 285](../images/201-ostanovka-zadaniya-1.png)
-
-![Изображение, стр. 285](../images/201-ostanovka-zadaniya-2.png)
-
 { "result": 1000 }

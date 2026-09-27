@@ -7,7 +7,8 @@
   "doc_title": "Манго Диалоги. Справочник по API",
   "doc_version": "10.06.2026",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 13,
+  "image_count": 9,
+  "image_count_extracted": 13,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

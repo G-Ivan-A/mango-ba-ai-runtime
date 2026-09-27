@@ -26,6 +26,4 @@ ai-generated: true
 
 Mango Talker для ОС Android Быстрый старт Версия документа от 23.08.2024
 
-![Изображение, стр. 1](../images/00-titulnaya-chast-2.png)
-
 Mango Talker для ОС Android. Быстрый старт | Версия от 23.08.2024

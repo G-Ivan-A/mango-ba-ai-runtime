@@ -22,11 +22,7 @@ ai-generated: true
 
 > Трассировка: PDF §— · сквозные стр. 1-2 · источники: ч.1 `kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_VATS-_-Skoring-1.26.18.pdf` с.1-2.
 
-![Изображение, стр. 1](../images/00-titulnaya-chast-1.png)
-
 РУКОВОДСТВО ПОЛЬЗОВАТЕЛЯ Речевая аналитика. ВАТС & Офлайн скоринг v. 1.26.18
-
-![Изображение, стр. 2](../images/00-titulnaya-chast-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

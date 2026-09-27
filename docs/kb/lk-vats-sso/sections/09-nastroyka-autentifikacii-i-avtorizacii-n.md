@@ -24,69 +24,37 @@ ai-generated: true
 
 примере Keycloak Чтобы начать настройку аутентификации и авторизации с помощью Keycloak, перейдите на вкладку «Login» в настройках вашего существующего Realm.
 
-![Изображение, стр. 13](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-1.png)
-
 ![Изображение, стр. 13](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-2.png)
 
 Далее установите переключатель «Email as username» («Email в качестве имени пользователя») в положение «включено». Это важно, чтобы после успешной авторизации вам предоставлялось значение адреса электронной почты в атрибуте «nameId». По умолчанию, адрес электронной почты используется как идентификатор.
 
-![Изображение, стр. 13](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-3.jpeg)
-
-![Изображение, стр. 13](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-4.png)
-
 ![Изображение, стр. 14](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-5.png)
-
-![Изображение, стр. 14](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-6.jpeg)
-
-![Изображение, стр. 14](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-7.png)
 
 Кликнув на ссылку, экспортируйте настройки в формате XML для последующего импорта в Личный Кабинет MANGO OFFICE.
 
 ![Изображение, стр. 14](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-8.png)
 
-![Изображение, стр. 14](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-9.jpeg)
-
-![Изображение, стр. 15](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-10.png)
-
 ![Изображение, стр. 15](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-11.jpeg)
-
-![Изображение, стр. 15](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-12.png)
 
 После сохранения настроек IdP (Identity Provider) в ЛК MANGO OFFICE, импортируйте полученный XML файл. Для этого нажмите на кнопку «Загрузить файл metadata.xml» на вкладке Настройка Identity-провайдера.
 
 ![Изображение, стр. 15](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-13.png)
 
-![Изображение, стр. 15](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-14.jpeg)
-
 Плоле «Название провайдера» заполните самостоятельно, остальные поля подтянутся из файла metadata.xml. В ЛК ВАТС произведите сопоставление полей в соответствии с Шагом 2.
 
-![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-15.png)
-
 ![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-16.png)
-
-![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-17.png)
 
 После успешного сохранения IdP в ЛК MANGO OFFICE скачайте файл с метаданными для последующего импорта в Keycloak. Для этого нажмите на кнопку «Скачать файл metadata.xml» на вкладке Данные Service-провайдера.
 
 ![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-18.png)
 
-![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-19.jpeg)
-
 Вернитесь в Keycloak и перейдите на вкладку Clients. Затем импортируйте скачанный в шаге 5 файл с метаданными, нажав на кнопку «Import client».
-
-![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-20.png)
 
 ![Изображение, стр. 16](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-21.jpeg)
 
-![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-22.png)
-
 ![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-23.png)
 
-![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-24.jpeg)
-
 После импорта настроек, заполните параметры «Valid Redirect URIs» и «Valid Post Logout Redirect URIs» значением https://auth.mango-office.ru/*.
-
-![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-25.png)
 
 ![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-26.png)
 
@@ -94,19 +62,13 @@ ai-generated: true
 
 ![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-27.png)
 
-![Изображение, стр. 17](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-28.jpeg)
-
 ![Изображение, стр. 18](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-29.png)
-
-![Изображение, стр. 18](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-30.jpeg)
 
 ![Изображение, стр. 18](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-31.jpeg)
 
 Перейдите на вкладку Client Scopes и добавьте новый маппер для сопоставления полей, настроенных в Шаге 2 настройки IdP в ЛК MANGO OFFICE.
 
 ![Изображение, стр. 18](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-32.png)
-
-![Изображение, стр. 18](../images/09-nastroyka-autentifikacii-i-avtorizacii-n-33.jpeg)
 
 Нажмите кнопку «Add predefined mapper», чтобы добавить новый маппер.
 

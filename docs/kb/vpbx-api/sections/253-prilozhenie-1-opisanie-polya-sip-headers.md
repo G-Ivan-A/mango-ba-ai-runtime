@@ -29,10 +29,4 @@ ai-generated: true
 | sip_header = string token ## Сип заголовок из стандартных<br>заголовков сип<br>sip_header_part = string token ## Изменяемый раздел заголовка<br>из стандартных<br>разделов заголовков сип<br>value = string ## Подставляемое значение |
 | string = ALPHA\|DIGIT exclude ";" / "/" / "?" / ":" / "@" / "&" / "=" / "+"<br>/ "$" / "," |
 
-![Изображение, стр. 349](../images/253-prilozhenie-1-opisanie-polya-sip-headers-1.png)
-
-![Изображение, стр. 349](../images/253-prilozhenie-1-opisanie-polya-sip-headers-2.png)
-
-![Изображение, стр. 349](../images/253-prilozhenie-1-opisanie-polya-sip-headers-3.png)
-
 Примеры: "sip_headers": { "From/display-name": "Santa Claus", "Call-Info/answer-after": "0", }

@@ -24,6 +24,4 @@ ai-generated: true
 
 Для настройки постзвонковой оценки пройдите в раздел меню Настройки Постзвонковая оценка качества.
 
-![Изображение, стр. 34](../images/16-nastroyka-postzvonkovoy-ocenki-1.png)
-
 ![Изображение, стр. 34](../images/16-nastroyka-postzvonkovoy-ocenki-2.png)

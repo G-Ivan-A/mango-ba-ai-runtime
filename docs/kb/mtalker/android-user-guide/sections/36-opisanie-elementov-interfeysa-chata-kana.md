@@ -34,10 +34,6 @@ ai-generated: true
 | Входящее |  | белый |
 | Исходящее |  | темно-серый |
 
-![Изображение, стр. 30](../images/36-opisanie-elementov-interfeysa-chata-kana-2.png)
-
-![Изображение, стр. 30](../images/36-opisanie-elementov-interfeysa-chata-kana-3.png)
-
 Mango Talker для ОС Android. Руководство пользователя | Версия от 11.06.2026 Видеоконференция из чата
 
 ![Изображение, стр. 31](../images/36-opisanie-elementov-interfeysa-chata-kana-4.png)

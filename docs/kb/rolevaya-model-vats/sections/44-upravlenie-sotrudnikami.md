@@ -33,8 +33,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 45
 
-![Изображение, стр. 46](../images/44-upravlenie-sotrudnikami-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

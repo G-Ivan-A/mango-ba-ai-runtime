@@ -26,8 +26,6 @@ ai-generated: true
 
 ![Изображение, стр. 267](../images/173-otchet-vremya-obsluzhivaniya-vyzova-1.jpeg)
 
-![Изображение, стр. 268](../images/173-otchet-vremya-obsluzhivaniya-vyzova-2.jpeg)
-
 В нижней части окна отображается детальная информация о количестве вызовов, относящихся к определенному периоду.
 
 ![Изображение, стр. 268](../images/173-otchet-vremya-obsluzhivaniya-vyzova-3.jpeg)
@@ -45,7 +43,5 @@ ai-generated: true
 | верхнего порога оптимальной длительности. |  |
 
 При щелчке по названию группы в столбце «Участники» отображается подсказка, содержащая подробную информацию по вызову.
-
-![Изображение, стр. 269](../images/173-otchet-vremya-obsluzhivaniya-vyzova-4.jpeg)
 
 ![Изображение, стр. 269](../images/173-otchet-vremya-obsluzhivaniya-vyzova-5.jpeg)

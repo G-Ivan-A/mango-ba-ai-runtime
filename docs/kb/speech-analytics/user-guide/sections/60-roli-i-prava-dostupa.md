@@ -38,8 +38,6 @@ ai-generated: true
 
 Речевая аналитика | v.1.26.18 104
 
-![Изображение, стр. 105](../images/60-roli-i-prava-dostupa-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

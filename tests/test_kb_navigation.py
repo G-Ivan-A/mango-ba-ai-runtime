@@ -42,6 +42,9 @@ class KnowledgeBaseNavigationTest(unittest.TestCase):
             self.assertEqual(section_map["document_id"], document["id"])
             self.assertEqual(section_map["product_ids"], document["product_ids"])
             self.assertEqual(document["section_count"], len(section_map["sections"]))
+            meta = json.loads((index.parent / "meta.json").read_text())
+            self.assertEqual(meta["image_count"], len(list((index.parent / "images").glob("*"))))
+            self.assertGreaterEqual(meta["image_count_extracted"], meta["image_count"])
             for section in section_map["sections"]:
                 path = ROOT / section["path"]
                 self.assertTrue(path.is_file(), path)

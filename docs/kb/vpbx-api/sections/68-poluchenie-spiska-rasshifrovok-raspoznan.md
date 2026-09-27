@@ -41,13 +41,7 @@ POST /vpbx/queries/recording_transcripts Метод позволяет полу�
 
 Примечание. Правила установки значений client и operator: □ если оба параметра известны (vpbx.from_member_id > 0 и vpbx.to_member_id > 0): client - имя сотрудника (или "Канал 1", если имя не найдено); operator - имя сотрудника (или "Канал 2", если имя не найдено); □ если оба параметра неизвестны (vpbx.from_member_id > 0 и vpbx.to_member_id > 0): client - "Канал 1"; operator - "Канал 2"; □ для остальных случаев: client - "Клиент"; operator - "Сотрудник". Пример ответа: { "result": 1000, "data": [ { "recording_id": "MToxMDAwNzM4ODo1MDA5NzI0NjE3OjA=", "names": { "client": "Клиент", "operator": "Микросип_хост" }, "phrases": [ [ "operator", "здравствуйте вас приветствует компания Манго Телеком"
 
-![Изображение, стр. 94](../images/68-poluchenie-spiska-rasshifrovok-raspoznan-1.png)
-
 | ],<br>[<br>"client", |
 | --- |
 | "спасибо до свидания"<br>] |
 | ] } ]} |
-
-![Изображение, стр. 94](../images/68-poluchenie-spiska-rasshifrovok-raspoznan-2.png)
-
-![Изображение, стр. 94](../images/68-poluchenie-spiska-rasshifrovok-raspoznan-3.png)

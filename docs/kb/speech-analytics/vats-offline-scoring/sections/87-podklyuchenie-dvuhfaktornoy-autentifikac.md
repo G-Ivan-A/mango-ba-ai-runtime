@@ -32,8 +32,6 @@ ai-generated: true
 
 • Клик по пиктограмме добавляет дополнительные поля ввода данных. Речевая аналитика. ВАТС & Офлайн скоринг | v.1.26.18 141
 
-![Изображение, стр. 142](../images/87-podklyuchenie-dvuhfaktornoy-autentifikac-3.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -47,8 +45,6 @@ ai-generated: true
 ![Изображение, стр. 142](../images/87-podklyuchenie-dvuhfaktornoy-autentifikac-5.png)
 
 Речевая аналитика. ВАТС & Офлайн скоринг | v.1.26.18 142
-
-![Изображение, стр. 143](../images/87-podklyuchenie-dvuhfaktornoy-autentifikac-6.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

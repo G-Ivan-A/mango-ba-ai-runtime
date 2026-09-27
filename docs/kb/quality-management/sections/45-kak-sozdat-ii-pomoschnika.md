@@ -26,8 +26,6 @@ ai-generated: true
 
 ![Изображение, стр. 83](../images/45-kak-sozdat-ii-pomoschnika-1.png)
 
-![Изображение, стр. 84](../images/45-kak-sozdat-ii-pomoschnika-2.png)
-
 3. Откроется форма создания нового ИИ Помощника
 
 ![Изображение, стр. 84](../images/45-kak-sozdat-ii-pomoschnika-3.png)

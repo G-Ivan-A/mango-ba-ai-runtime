@@ -31,8 +31,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 57
 
-![Изображение, стр. 58](../images/64-razdel-funkcii-mango-talker-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -50,8 +48,6 @@ ai-generated: true
 | Доступ к публичным чатам | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 58
-
-![Изображение, стр. 59](../images/64-razdel-funkcii-mango-talker-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

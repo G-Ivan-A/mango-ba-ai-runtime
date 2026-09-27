@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика. Скоринг | v.1.26.15 124
 
-![Изображение, стр. 125](../images/77-popolnit-schet-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

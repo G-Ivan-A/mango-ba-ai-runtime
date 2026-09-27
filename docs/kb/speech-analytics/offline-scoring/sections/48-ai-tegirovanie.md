@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика. Скоринг | v.1.26.15 84
 
-![Изображение, стр. 85](../images/48-ai-tegirovanie-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

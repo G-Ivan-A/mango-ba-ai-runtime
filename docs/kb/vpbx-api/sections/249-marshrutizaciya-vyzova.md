@@ -30,10 +30,6 @@ ai-generated: true
 | "from": {<br>"number": "79000000000",<br>"taken_from_call_id": "100:500:256" |
 | },<br>"to": {<br>"extension": "123"<br>"number": "sip:aaa@mangosip.ru",<br>"line_number": "7800123456789" } } |
 
-![Изображение, стр. 338](../images/249-marshrutizaciya-vyzova-1.png)
-
-![Изображение, стр. 338](../images/249-marshrutizaciya-vyzova-2.png)
-
 <!-- изображение на стр. 338: байты не извлечены (PyMuPDF недоступен) -->
 
 Вызов завершен, внешний абонент повесил трубку. POST https://external-system.com/events/call vpbx_api_key = qwerty123 sign = qwerty123 json = { "call_id": "100:500:257", "entry_id": "232wc3e3w3s222", "timestamp": "1399907008", "seq": "3", "command_id": "c111", "call_state": "Disconnected", "location": "abonent", "from": { "number": "79000000000", "taken_from_call_id": "100:500:256" }, "to": { "extension": "123" "number": "sip:aaa@mangosip.ru", "line_number": "7800123456789" } "disconnect_reason": "1120" }

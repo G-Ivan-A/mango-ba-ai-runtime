@@ -34,8 +34,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 24
 
-![Изображение, стр. 25](../images/18-wfm-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

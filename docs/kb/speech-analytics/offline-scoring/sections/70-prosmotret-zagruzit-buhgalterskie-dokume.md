@@ -28,8 +28,6 @@ ai-generated: true
 
 Речевая аналитика. Скоринг | v.1.26.15 116
 
-![Изображение, стр. 117](../images/70-prosmotret-zagruzit-buhgalterskie-dokume-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

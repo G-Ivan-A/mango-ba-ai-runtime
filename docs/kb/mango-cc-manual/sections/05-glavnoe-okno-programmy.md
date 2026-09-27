@@ -50,8 +50,6 @@ ai-generated: true
 
 ![Изображение, стр. 21](../images/05-glavnoe-okno-programmy-8.jpeg)
 
-![Изображение, стр. 22](../images/05-glavnoe-okno-programmy-9.png)
-
 |  | Окно управления статусом; |
 | --- | --- |
 |  | Вызов панели очереди обращений |

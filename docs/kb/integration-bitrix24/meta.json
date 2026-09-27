@@ -7,7 +7,8 @@
   "doc_title": "Интеграция Виртуальной АТС и Битрикс24. Инструкция по настройке",
   "doc_version": "03.03.2026",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 221,
+  "image_count": 220,
+  "image_count_extracted": 221,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

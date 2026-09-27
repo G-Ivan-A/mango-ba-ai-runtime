@@ -7,7 +7,8 @@
   "doc_title": "Mango Talker для Windows/Mac - Быстрый старт",
   "doc_version": "23.08.2024",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 16,
+  "image_count": 15,
+  "image_count_extracted": 16,
   "image_extractor": "pymupdf 1.27.2.3",
   "image_extractors": [
     "pymupdf 1.27.2.3"

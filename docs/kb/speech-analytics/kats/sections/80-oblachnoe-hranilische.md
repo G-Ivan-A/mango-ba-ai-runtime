@@ -24,8 +24,6 @@ ai-generated: true
 
 Речевая аналитика & КАТС | v.1.26.18 130
 
-![Изображение, стр. 131](../images/80-oblachnoe-hranilische-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

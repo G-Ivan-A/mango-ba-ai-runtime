@@ -7,7 +7,8 @@
   "doc_title": "Руководство по контролю качества",
   "doc_version": "1.26.18",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 217,
+  "image_count": 115,
+  "image_count_extracted": 217,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

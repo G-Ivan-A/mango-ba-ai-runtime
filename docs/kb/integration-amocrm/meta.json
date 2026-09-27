@@ -7,7 +7,8 @@
   "doc_title": "Интеграция Виртуальной АТС и amoCRM. Инструкция по настройке",
   "doc_version": "25.08.2025",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 230,
+  "image_count": 229,
+  "image_count_extracted": 230,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"

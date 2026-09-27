@@ -28,8 +28,6 @@ ai-generated: true
 
 3. Откроется форма создания нового ИИ Помощника Речевая аналитика & КАТС | v.1.26.18 109
 
-![Изображение, стр. 110](../images/66-kak-sozdat-ii-pomoschnika-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |

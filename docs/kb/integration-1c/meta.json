@@ -7,7 +7,8 @@
   "doc_title": "Прямая интеграция с системой «1С: Управление торговлей». Интеграция Виртуальной АТС и системы «1С: Управление торговлей»",
   "doc_version": "22.12.2025",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 72,
+  "image_count": 71,
+  "image_count_extracted": 72,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
