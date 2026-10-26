@@ -53,3 +53,5 @@ ai-generated: true
 ![Изображение, стр. 537](../images/339-spisok-trankov-8.jpeg)
 
 ● транк деактивирован;
+
+![Изображение, стр. 538](../images/339-spisok-trankov-9.jpeg)
