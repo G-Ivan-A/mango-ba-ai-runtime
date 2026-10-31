@@ -74,7 +74,7 @@ multi-part документов `pages` остаётся сквозной паг
 | Документ | Статус |
 | --- | --- |
 | [`mango-cc-manual/`](mango-cc-manual/index.md) | руководство КЦ v1.26.28.1 (issue #317) |
-| [`mango-lk-manual/`](mango-lk-manual/index.md) | справочник абонента ЛК ВАТС v1.23 (issue #317) |
+| [`mango-lk-manual/`](mango-lk-manual/index.md) | справочник абонента ЛК ВАТС v1.25, редакция v 26.42 от 07.10.2026; иллюстрации с текстовыми описаниями ([`IMAGES.md`](mango-lk-manual/IMAGES.md)); извлекается [`tools/extract_lk_manual.py`](tools/extract_lk_manual.py) (issue #8) |
 | [`mtalker/`](mtalker/index.md) | комплект из 5 документов Mango Talker (issues #121, #317) |
 | [`vpbx-api/`](vpbx-api/index.md) | API ВАТС MANGO OFFICE v1.9 (issue #310) |
 | [`rolevaya-model-vats/`](rolevaya-model-vats/index.md) | роли и права доступа ВАТС v1.26.08 (issue #310) |
