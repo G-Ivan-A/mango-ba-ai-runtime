@@ -119,7 +119,7 @@
       "id": "mango-cc-manual",
       "group_id": "mango-cc-manual",
       "title": "Контакт-центр MANGO OFFICE - Руководство пользователя",
-      "version": "1.26.28.1",
+      "version": "1.26.42",
       "product_ids": [
         "contact-center"
       ],
@@ -131,7 +131,7 @@
       ],
       "index": "docs/kb/mango-cc-manual/index.md",
       "sections_map": "docs/kb/maps/mango-cc-manual.json",
-      "section_count": 139
+      "section_count": 103
     },
     {
       "id": "mango-lk-manual",
