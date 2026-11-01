@@ -1,0 +1,218 @@
+{
+  "doc_code": "INTIDENT",
+  "doc_title": "Интеграция Виртуальной АТС и системы IDENT. Инструкция по настройке",
+  "doc_version": "14.01.2025",
+  "extracted_by": "pymupdf 1.28.2",
+  "image_count": 7,
+  "image_description": "manual text before the image + caption + tesseract OCR (rus+eng)",
+  "image_extractor": "pymupdf 1.28.2",
+  "images_dropped_decorative": 1,
+  "note": "Инструкция по настройке интеграции виртуальной АТС MANGO OFFICE с системой IDENT: подключение ВАТС, софтфон Mango Talker, виджет в Личном кабинете, отключение интеграции.",
+  "page_count": 9,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 9,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
+      "number": "—",
+      "order": "00",
+      "pages": "1-2",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-2",
+          "pages": "1-2",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 230
+    },
+    {
+      "file": "sections/01-obzor.md",
+      "images": 0,
+      "number": "1",
+      "order": "01",
+      "pages": "3-4",
+      "pdf_heading": "1 Обзор",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "3-4",
+          "pages": "3-4",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Обзор",
+      "tokens": 1174
+    },
+    {
+      "file": "sections/02-kak-nastroit-integraciyu.md",
+      "images": 0,
+      "number": "2",
+      "order": "02",
+      "pages": "5",
+      "pdf_heading": "2 Как настроить интеграцию",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Как настроить интеграцию",
+      "tokens": 0
+    },
+    {
+      "file": "sections/03-poryadok-deystviy.md",
+      "images": 0,
+      "number": "2",
+      "order": "03",
+      "pages": "5",
+      "pdf_heading": "Порядок действий",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Порядок действий",
+      "tokens": 443
+    },
+    {
+      "file": "sections/04-shag-1-podklyuchenie-virtualnoy-ats-mang.md",
+      "images": 0,
+      "number": "—",
+      "order": "04",
+      "pages": "5",
+      "pdf_heading": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "tokens": 91
+    },
+    {
+      "file": "sections/05-shag-2-ustanovka-softfona-mango-talker.md",
+      "images": 0,
+      "number": "—",
+      "order": "05",
+      "pages": "5-6",
+      "pdf_heading": "Шаг 2. Установка софтфона Mango Talker",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Шаг 2. Установка софтфона Mango Talker",
+      "tokens": 323
+    },
+    {
+      "file": "sections/06-shag-3-podklyuchenie-vidzheta-v-lichnom.md",
+      "images": 4,
+      "number": "—",
+      "order": "06",
+      "pages": "6-7",
+      "pdf_heading": "Шаг 3. Подключение виджета в Личном кабинете Виртуальной АТС",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "6-7",
+          "pages": "6-7",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Шаг 3. Подключение виджета в Личном кабинете Виртуальной АТС",
+      "tokens": 1706
+    },
+    {
+      "file": "sections/07-shag-4-kak-obratitsya-v-sluzhbu-podderzh.md",
+      "images": 0,
+      "number": "—",
+      "order": "07",
+      "pages": "8",
+      "pdf_heading": "Шаг 4. Как обратиться в службу поддержки IDENT",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Шаг 4. Как обратиться в службу поддержки IDENT",
+      "tokens": 160
+    },
+    {
+      "file": "sections/08-kak-otklyuchit-vidzhet-integracii.md",
+      "images": 3,
+      "number": "3",
+      "order": "08",
+      "pages": "8-9",
+      "pdf_heading": "3 Как отключить виджет интеграции",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "8-9",
+          "pages": "8-9",
+          "part": 1,
+          "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+        }
+      ],
+      "title": "Как отключить виджет интеграции",
+      "tokens": 1187
+    }
+  ],
+  "source_document": "integration-ident",
+  "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf",
+  "source_pdfs": [
+    "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf"
+  ],
+  "source_set": "integration-ident",
+  "source_sha256": "0b5240e8c829e42aec6771edcb7edcd500d47ecd3fc9b4de2ce7e37cdf993c2c",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 9,
+      "source_pdf": "kb/sources/integration-ident/Mango_office_integration_IDENT.pdf",
+      "source_sha256": "0b5240e8c829e42aec6771edcb7edcd500d47ecd3fc9b4de2ce7e37cdf993c2c"
+    }
+  ],
+  "table_count": 0,
+  "toc_entries": 8,
+  "toc_entries_missing": [],
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 1550,
+  "tokens_total": 5314,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 46,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-11-01",
+    "method": "cross-engine (PyMuPDF -> pdfplumber re-read of the same pages ±1)"
+  }
+}
