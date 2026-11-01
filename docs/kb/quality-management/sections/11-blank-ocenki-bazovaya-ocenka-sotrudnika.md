@@ -15,6 +15,7 @@ source_refs: '[{"source_pdf":"kb/sources/quality-managment/QM_manual_v-1.26.18.p
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
 tokens: 493
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -35,8 +36,6 @@ ai-generated: true
 |  | Вовлекает клиента в процесс | нет |
 | Работа с возражениями | Уточняет информацию, аргументирует позицию | нет |
 
-![Изображение, стр. 16](../images/11-blank-ocenki-bazovaya-ocenka-sotrudnika-1.png)
-
 | Раздел | Критерии | Обязательность |
 | --- | --- | --- |
 |  | Отработал возражение "Мне надо подумать" | да |
@@ -44,5 +43,3 @@ ai-generated: true
 |  | Проговорил последующие шаги | да |
 | Навыки общения | Проявляет положительные эмоции | да |
 |  | Грамотная и четкая речь | да |
-
-![Изображение, стр. 17](../images/11-blank-ocenki-bazovaya-ocenka-sotrudnika-2.png)

@@ -3,15 +3,28 @@
   "body_font_sizes": [
     11.0
   ],
+  "decorative_images_removed": {
+    "однотонная подложка-тень под снимком экрана (снимок на той же странице сохранён отдельно)": 6,
+    "фирменный шаблон страницы (логотип MANGO OFFICE, контакты) — одно изображение на большинстве страниц": 96
+  },
   "doc_code": "QM",
   "doc_title": "Руководство по контролю качества",
   "doc_version": "1.26.18",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 217,
+  "illustration_description": "контекстное текстовое описание под каждой иллюстрацией: id, раздел, страница, тип, размер, цитата текста руководства, к которому относится иллюстрация, следующий текст, подпись и OCR-текст интерфейса",
+  "illustration_refs": 115,
+  "image_count": 115,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_annotated": "2026-11-01",
+  "images_optimised": {
+    "black_images_rerendered": 0,
+    "bytes_after": 4753906,
+    "bytes_before": 9061187,
+    "duplicates_merged": 1
+  },
   "note": "Руководство пользователя по модулю контроля качества в Mango Office. Описывает процессы оценки качества звонков, мониторинга операторов, аудита и управления качеством обслуживания.",
   "page_count": 97,
   "part_count": 1,
@@ -978,6 +991,7 @@
   "token_method": "tiktoken:cl100k_base",
   "tokens_index": 5453,
   "tokens_total": 54430,
+  "unique_images": 114,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 1.0,
