@@ -11,7 +11,7 @@
       "title": "Титульная часть",
       "hint": "Интеграция Виртуальной АТС",
       "pages": "1-4",
-      "tokens": 1476,
+      "tokens": 1450,
       "path": "docs/kb/integration-bitrix24/sections/00-titulnaya-chast.md"
     },
     {
@@ -74,7 +74,7 @@
       "title": "Шаг 3. Настройка Виртуальной АТС. Выбор пакета интеграции",
       "hint": "Это нужно сделать, чтобы Виртуальная АТС MANGO OFFICE могла передавать",
       "pages": "5-7",
-      "tokens": 744,
+      "tokens": 2689,
       "path": "docs/kb/integration-bitrix24/sections/07-shag-3-nastroyka-virtualnoy-ats-vybor-pa.md"
     },
     {
@@ -83,7 +83,7 @@
       "title": "Шаг 4. Установка приложения интеграции в Битрикс24",
       "hint": "Чтобы в вашем Битрикс24 установить приложение интеграции MANGO",
       "pages": "7-10",
-      "tokens": 934,
+      "tokens": 3098,
       "path": "docs/kb/integration-bitrix24/sections/08-shag-4-ustanovka-prilozheniya-integracii.md"
     },
     {
@@ -110,7 +110,7 @@
       "title": "Как настроить сопоставление сотрудников",
       "hint": "Для этого в форме настройки приложения:",
       "pages": "11-13",
-      "tokens": 614,
+      "tokens": 1251,
       "path": "docs/kb/integration-bitrix24/sections/11-kak-nastroit-sopostavlenie-sotrudnikov.md"
     },
     {
@@ -119,7 +119,7 @@
       "title": "Как сохранять все звонки в Битрикс24. Обобщенно",
       "hint": "По умолчанию, приложение интеграции сохраняет в Битрикс24 данные о",
       "pages": "13-14",
-      "tokens": 399,
+      "tokens": 766,
       "path": "docs/kb/integration-bitrix24/sections/12-kak-sohranyat-vse-zvonki-v-bitriks24-obo.md"
     },
     {
@@ -137,7 +137,7 @@
       "title": "Как посмотреть списки сотрудников ВАТС и сотрудников Битрикс24",
       "hint": "В Вашей Виртуальной АТС есть список сотрудников.",
       "pages": "14-15",
-      "tokens": 361,
+      "tokens": 1315,
       "path": "docs/kb/integration-bitrix24/sections/14-kak-posmotret-spiski-sotrudnikov-vats-i.md"
     },
     {
@@ -146,7 +146,7 @@
       "title": "Шаг 6. Проверка настройки телефонии",
       "hint": "Обычно настройки телефонии устанавливаются одновременно с установкой",
       "pages": "15-18",
-      "tokens": 698,
+      "tokens": 2030,
       "path": "docs/kb/integration-bitrix24/sections/15-shag-6-proverka-nastroyki-telefonii.md"
     },
     {
@@ -209,7 +209,7 @@
       "title": "Как позвонить или принять звонок",
       "hint": "Чтобы позвонить Клиенту (исходящий звонок), пользователь может:",
       "pages": "23-25",
-      "tokens": 487,
+      "tokens": 991,
       "path": "docs/kb/integration-bitrix24/sections/22-kak-pozvonit-ili-prinyat-zvonok.md"
     },
     {
@@ -227,7 +227,7 @@
       "title": "Как открыть форму настройки приложения",
       "hint": "Для того чтобы открыть настройки интеграции, в вашем Битрикс24 выберите",
       "pages": "25-27",
-      "tokens": 383,
+      "tokens": 1159,
       "path": "docs/kb/integration-bitrix24/sections/24-kak-otkryt-formu-nastroyki-prilozheniya.md"
     },
     {
@@ -263,7 +263,7 @@
       "title": "Как включить настройку",
       "hint": "По умолчанию данная настройка выключена.",
       "pages": "29-30",
-      "tokens": 306,
+      "tokens": 716,
       "path": "docs/kb/integration-bitrix24/sections/28-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -281,7 +281,7 @@
       "title": "Автоматически создавать лид и дело при входящих звонках",
       "hint": "Откройте форму настройки приложения интеграции.",
       "pages": "30-32",
-      "tokens": 648,
+      "tokens": 2059,
       "path": "docs/kb/integration-bitrix24/sections/30-avtomaticheski-sozdavat-lid-i-delo-pri-v.md"
     },
     {
@@ -299,7 +299,7 @@
       "title": "На что влияет эта настройка",
       "hint": "Если у вас несколько номеров подключено к Виртуальной АТС, и вы хотите",
       "pages": "32-33",
-      "tokens": 475,
+      "tokens": 2202,
       "path": "docs/kb/integration-bitrix24/sections/32-na-chto-vliyaet-eta-nastroyka.md"
     },
     {
@@ -317,7 +317,7 @@
       "title": "Как настроить справочник источников",
       "hint": "Для этого в вашем Битрикс24 следует:",
       "pages": "34-38",
-      "tokens": 853,
+      "tokens": 3171,
       "path": "docs/kb/integration-bitrix24/sections/34-kak-nastroit-spravochnik-istochnikov.md"
     },
     {
@@ -326,7 +326,7 @@
       "title": "Как включить настройку",
       "hint": "Для того чтобы включить настройку \"Указывать источник при входящих",
       "pages": "38-39",
-      "tokens": 432,
+      "tokens": 1355,
       "path": "docs/kb/integration-bitrix24/sections/35-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -353,7 +353,7 @@
       "title": "Как включить настройку",
       "hint": "1) откройте форму настройки приложения интеграции;",
       "pages": "39-40",
-      "tokens": 285,
+      "tokens": 611,
       "path": "docs/kb/integration-bitrix24/sections/38-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -389,7 +389,7 @@
       "title": "Вот как включить настройку",
       "hint": "1) откройте форму настройки приложения интеграции;",
       "pages": "40-41",
-      "tokens": 329,
+      "tokens": 677,
       "path": "docs/kb/integration-bitrix24/sections/42-vot-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -425,7 +425,7 @@
       "title": "Как включить настройку",
       "hint": "1) откройте форму настройки приложения интеграции;",
       "pages": "41-42",
-      "tokens": 325,
+      "tokens": 676,
       "path": "docs/kb/integration-bitrix24/sections/46-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -461,7 +461,7 @@
       "title": "Во время звонка",
       "hint": "Если вы подключили интеграцию с динамическим коллтрекингом, а также",
       "pages": "43-45",
-      "tokens": 504,
+      "tokens": 1479,
       "path": "docs/kb/integration-bitrix24/sections/50-vo-vremya-zvonka.md"
     },
     {
@@ -470,7 +470,7 @@
       "title": "В отчетах и списках Битрикс24",
       "hint": "Теперь при каждом входящем звонке (даже если он и был пропущен) на номер",
       "pages": "45-46",
-      "tokens": 380,
+      "tokens": 1244,
       "path": "docs/kb/integration-bitrix24/sections/51-v-otchetah-i-spiskah-bitriks24.md"
     },
     {
@@ -479,7 +479,7 @@
       "title": "Как включить настройку",
       "hint": "Для этого, в вашем Битрикс24 выполните:",
       "pages": "46-47",
-      "tokens": 273,
+      "tokens": 736,
       "path": "docs/kb/integration-bitrix24/sections/52-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -497,7 +497,7 @@
       "title": "Добавлять сообщение о звонке сотруднику Битрикс24 в чат",
       "hint": "Важно!",
       "pages": "47-48",
-      "tokens": 629,
+      "tokens": 1292,
       "path": "docs/kb/integration-bitrix24/sections/54-dobavlyat-soobschenie-o-zvonke-sotrudnik.md"
     },
     {
@@ -524,7 +524,7 @@
       "title": "Предварительные действия. Включение звукового приветствия",
       "hint": "Чтобы включить голосовое приветствие в схему распределения Виртуальной",
       "pages": "49-50",
-      "tokens": 335,
+      "tokens": 1100,
       "path": "docs/kb/integration-bitrix24/sections/57-predvaritelnye-deystviya-vklyuchenie-zvu.md"
     },
     {
@@ -533,7 +533,7 @@
       "title": "Как настроить распределение звонков в приложении интеграции",
       "hint": "Вы можете настроить собственный алгоритм распределения, указав правила",
       "pages": "50-53",
-      "tokens": 1248,
+      "tokens": 3246,
       "path": "docs/kb/integration-bitrix24/sections/58-kak-nastroit-raspredelenie-zvonkov-v-pri.md"
     },
     {
@@ -551,7 +551,7 @@
       "title": "Значение \"Переадресовывать на ответственного и переадресовывать далее на номер, если нет ответа\"",
       "hint": "номер, если нет ответа\"",
       "pages": "54-56",
-      "tokens": 866,
+      "tokens": 1974,
       "path": "docs/kb/integration-bitrix24/sections/60-znachenie-pereadresovyvat-na-otvetstvenn.md"
     },
     {
@@ -560,7 +560,7 @@
       "title": "Примеры настройки правил умного алгоритма распределения",
       "hint": "Пример 1.",
       "pages": "56-61",
-      "tokens": 1344,
+      "tokens": 3166,
       "path": "docs/kb/integration-bitrix24/sections/61-primery-nastroyki-pravil-umnogo-algoritm.md"
     },
     {
@@ -569,7 +569,7 @@
       "title": "Настройка расписания работы умных правил",
       "hint": "Включите работу умных алгоритмов в определенные дни недели и часы.",
       "pages": "61",
-      "tokens": 352,
+      "tokens": 698,
       "path": "docs/kb/integration-bitrix24/sections/62-nastroyka-raspisaniya-raboty-umnyh-pravi.md"
     },
     {
@@ -578,7 +578,7 @@
       "title": "Фильтровать входящие звонки по линиям",
       "hint": "Данная функция позволяет в Битрикс24 ограничить обработку звонков, на",
       "pages": "61-63",
-      "tokens": 736,
+      "tokens": 1140,
       "path": "docs/kb/integration-bitrix24/sections/63-filtrovat-vhodyaschie-zvonki-po-liniyam.md"
     },
     {
@@ -596,7 +596,7 @@
       "title": "Автоматический прием при исходящем звонке",
       "hint": "Важно!",
       "pages": "63-64",
-      "tokens": 604,
+      "tokens": 949,
       "path": "docs/kb/integration-bitrix24/sections/65-avtomaticheskiy-priem-pri-ishodyaschem-z.md"
     },
     {
@@ -623,7 +623,7 @@
       "title": "Как включить настройку",
       "hint": "Чтобы включить настройку, в Битрикс24 необходимо:",
       "pages": "64-65",
-      "tokens": 293,
+      "tokens": 620,
       "path": "docs/kb/integration-bitrix24/sections/68-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -659,7 +659,7 @@
       "title": "Как включить и настроить",
       "hint": "Для настройки SMS визитки в Битрикс24 необходимо:",
       "pages": "66-68",
-      "tokens": 1073,
+      "tokens": 1860,
       "path": "docs/kb/integration-bitrix24/sections/72-kak-vklyuchit-i-nastroit.md"
     },
     {
@@ -677,7 +677,7 @@
       "title": "Обзор",
       "hint": "В приложении интеграции с Битрикс24 доступна возможность отправки SMS",
       "pages": "68-70",
-      "tokens": 578,
+      "tokens": 1312,
       "path": "docs/kb/integration-bitrix24/sections/74-obzor.md"
     },
     {
@@ -686,7 +686,7 @@
       "title": "Как включить возможность отправки sms",
       "hint": "Для этого, в форме настройки приложения следует:",
       "pages": "70",
-      "tokens": 187,
+      "tokens": 492,
       "path": "docs/kb/integration-bitrix24/sections/75-kak-vklyuchit-vozmozhnost-otpravki-sms.md"
     },
     {
@@ -722,7 +722,7 @@
       "title": "Как включить настройку",
       "hint": "Для этого, в форме настройки приложения:",
       "pages": "71",
-      "tokens": 173,
+      "tokens": 450,
       "path": "docs/kb/integration-bitrix24/sections/79-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -731,7 +731,7 @@
       "title": "Как отправить sms-рассылку",
       "hint": "Чтобы сделать рассылку, в Битрикс24 следует:",
       "pages": "71-74",
-      "tokens": 508,
+      "tokens": 2211,
       "path": "docs/kb/integration-bitrix24/sections/80-kak-otpravit-sms-rassylku.md"
     },
     {
@@ -758,7 +758,7 @@
       "title": "Как включить настройку",
       "hint": "Для этого, в форме настройки приложения следует:",
       "pages": "74-75",
-      "tokens": 218,
+      "tokens": 495,
       "path": "docs/kb/integration-bitrix24/sections/83-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -767,7 +767,7 @@
       "title": "Как настроить уведомление в роботах и бизнес-процессах",
       "hint": "Чтобы сделать рассылку, в Битрикс24 следует:",
       "pages": "75-78",
-      "tokens": 762,
+      "tokens": 3147,
       "path": "docs/kb/integration-bitrix24/sections/84-kak-nastroit-uvedomlenie-v-robotah-i-biz.md"
     },
     {
@@ -776,7 +776,7 @@
       "title": "Отображать сделки в карточке звонка",
       "hint": "Если данная настройка включена, то в карточке звонка будут отображаться",
       "pages": "78-79",
-      "tokens": 368,
+      "tokens": 808,
       "path": "docs/kb/integration-bitrix24/sections/85-otobrazhat-sdelki-v-kartochke-zvonka.md"
     },
     {
@@ -794,7 +794,7 @@
       "title": "Как это работает",
       "hint": "Важно!",
       "pages": "79",
-      "tokens": 495,
+      "tokens": 834,
       "path": "docs/kb/integration-bitrix24/sections/87-kak-eto-rabotaet.md"
     },
     {
@@ -812,7 +812,7 @@
       "title": "Как включить или выключить поддержку обратных звонков",
       "hint": "Для этого, выполните следующие действия:",
       "pages": "80-81",
-      "tokens": 324,
+      "tokens": 744,
       "path": "docs/kb/integration-bitrix24/sections/89-kak-vklyuchit-ili-vyklyuchit-podderzhku.md"
     },
     {
@@ -866,7 +866,7 @@
       "title": "Как включить сохранение тематик",
       "hint": "Чтобы включить сохранение данных Речевой аналитики, в Битрикс24",
       "pages": "82-84",
-      "tokens": 375,
+      "tokens": 1223,
       "path": "docs/kb/integration-bitrix24/sections/95-kak-vklyuchit-sohranenie-tematik.md"
     },
     {
@@ -875,7 +875,7 @@
       "title": "Как посмотреть тематику разговора",
       "hint": "Чтобы вывести на экран название тематики, определенной в том или ином",
       "pages": "84",
-      "tokens": 196,
+      "tokens": 718,
       "path": "docs/kb/integration-bitrix24/sections/96-kak-posmotret-tematiku-razgovora.md"
     },
     {
@@ -902,7 +902,7 @@
       "title": "Как настроить",
       "hint": "Чтобы включить функцию сохранения тематик Речевой аналитики, в",
       "pages": "85-86",
-      "tokens": 278,
+      "tokens": 697,
       "path": "docs/kb/integration-bitrix24/sections/99-kak-nastroit.md"
     },
     {
@@ -911,7 +911,7 @@
       "title": "Как посмотреть распознанный текст",
       "hint": "Чтобы вывести на экран распознанный текст того или иного разговора, в",
       "pages": "86-87",
-      "tokens": 267,
+      "tokens": 966,
       "path": "docs/kb/integration-bitrix24/sections/100-kak-posmotret-raspoznannyy-tekst.md"
     },
     {
@@ -920,7 +920,7 @@
       "title": "Передача данных в Речевую аналитику",
       "hint": "В отчетах сервиса \"Речевая аналитика\" MANGO OFFICE содержатся данные о",
       "pages": "87-88",
-      "tokens": 497,
+      "tokens": 881,
       "path": "docs/kb/integration-bitrix24/sections/101-peredacha-dannyh-v-rechevuyu-analitiku.md"
     },
     {
@@ -965,7 +965,7 @@
       "title": "Как включить автоперезвон через вебхук",
       "hint": "В настройках интеграции MANGO OFFICE в блоке \"Дополнительно\", выполните",
       "pages": "89-90",
-      "tokens": 442,
+      "tokens": 904,
       "path": "docs/kb/integration-bitrix24/sections/106-kak-vklyuchit-avtoperezvon-cherez-vebhuk.md"
     },
     {
@@ -992,7 +992,7 @@
       "title": "Настройка вебхука в приложении интеграции Битрикс24",
       "hint": "Для этого, в форме настройки приложения интеграции в блоке",
       "pages": "91-94",
-      "tokens": 1117,
+      "tokens": 3463,
       "path": "docs/kb/integration-bitrix24/sections/109-nastroyka-vebhuka-v-prilozhenii-integrac.md"
     },
     {
@@ -1046,7 +1046,7 @@
       "title": "Загружать отсутствующие звонки в CRM",
       "hint": "Если настройка \"Загружать отсутствующие звонки в CRM\" включена, то для",
       "pages": "98-99",
-      "tokens": 463,
+      "tokens": 952,
       "path": "docs/kb/integration-bitrix24/sections/115-zagruzhat-otsutstvuyuschie-zvonki-v-crm.md"
     },
     {
@@ -1055,7 +1055,7 @@
       "title": "Всплывающие сообщения об ошибках в интерфейсе Битрикс24",
       "hint": "Битрикс24",
       "pages": "99",
-      "tokens": 406,
+      "tokens": 701,
       "path": "docs/kb/integration-bitrix24/sections/116-vsplyvayuschie-soobscheniya-ob-oshibkah.md"
     },
     {
@@ -1064,7 +1064,7 @@
       "title": "Как включить или выключить показ звонков в календаре",
       "hint": "При регистрации звонка в календаре Битрикса24 создается соответствующая",
       "pages": "99-101",
-      "tokens": 600,
+      "tokens": 2367,
       "path": "docs/kb/integration-bitrix24/sections/117-kak-vklyuchit-ili-vyklyuchit-pokaz-zvonk.md"
     },
     {
@@ -1109,7 +1109,7 @@
       "title": "Переключение между режимами работы Битрикс24",
       "hint": "Приложение интеграции поддерживает разные режимы работы:",
       "pages": "102-104",
-      "tokens": 643,
+      "tokens": 2245,
       "path": "docs/kb/integration-bitrix24/sections/122-pereklyuchenie-mezhdu-rezhimami-raboty-b.md"
     },
     {
@@ -1118,7 +1118,7 @@
       "title": "Настройка отображения карточки звонка",
       "hint": "Вы можете настроить показ карточки входящего звонка (см.",
       "pages": "104-105",
-      "tokens": 538,
+      "tokens": 1480,
       "path": "docs/kb/integration-bitrix24/sections/123-nastroyka-otobrazheniya-kartochki-zvonka.md"
     },
     {
@@ -1154,7 +1154,7 @@
       "title": "Настройка интеграции с Контакт-центром MANGO OFFICE. Общие инструкции",
       "hint": "инструкции",
       "pages": "106-108",
-      "tokens": 706,
+      "tokens": 1643,
       "path": "docs/kb/integration-bitrix24/sections/127-nastroyka-integracii-s-kontakt-centrom-m.md"
     },
     {
@@ -1199,7 +1199,7 @@
       "title": "Импорт данных из \"пользовательских\" полей",
       "hint": "В Контакт-центре MANGO OFFICE пользователь может настроить структуру",
       "pages": "109-110",
-      "tokens": 315,
+      "tokens": 1073,
       "path": "docs/kb/integration-bitrix24/sections/132-import-dannyh-iz-polzovatelskih-poley.md"
     },
     {
@@ -1208,7 +1208,7 @@
       "title": "Как настроить",
       "hint": "Чтобы импортировать данные из \"пользовательских\" полей Контакт-центра",
       "pages": "110-111",
-      "tokens": 383,
+      "tokens": 838,
       "path": "docs/kb/integration-bitrix24/sections/133-kak-nastroit.md"
     },
     {
@@ -1217,7 +1217,7 @@
       "title": "Как включить автоматическое создание контактов и сделок в Битрикс24",
       "hint": "Для этого необходимо:",
       "pages": "111-113",
-      "tokens": 974,
+      "tokens": 2042,
       "path": "docs/kb/integration-bitrix24/sections/134-kak-vklyuchit-avtomaticheskoe-sozdanie-k.md"
     },
     {
@@ -1226,7 +1226,7 @@
       "title": "Как отправить данные о лидах в Битрикс24",
       "hint": "Чтобы из Контакт-центра MANGO OFFICE в Битрикс24 отправить обращение",
       "pages": "113-115",
-      "tokens": 408,
+      "tokens": 1306,
       "path": "docs/kb/integration-bitrix24/sections/135-kak-otpravit-dannye-o-lidah-v-bitriks24.md"
     },
     {
@@ -1235,7 +1235,7 @@
       "title": "Как в Битрикс24 посмотреть контакты и сделки, созданные по входящему обращению Контакт-центра MANGO OFFICE",
       "hint": "обращению Контакт-центра MANGO OFFICE",
       "pages": "115-116",
-      "tokens": 554,
+      "tokens": 1478,
       "path": "docs/kb/integration-bitrix24/sections/136-kak-v-bitriks24-posmotret-kontakty-i-sde.md"
     },
     {
@@ -1289,7 +1289,7 @@
       "title": "Порядок действий",
       "hint": "Чтобы включить настройку, необходимо:",
       "pages": "117-118",
-      "tokens": 294,
+      "tokens": 756,
       "path": "docs/kb/integration-bitrix24/sections/142-poryadok-deystviy.md"
     },
     {
@@ -1316,7 +1316,7 @@
       "title": "Как включить настройку",
       "hint": "Чтобы включить настройку, необходимо:",
       "pages": "119-120",
-      "tokens": 255,
+      "tokens": 669,
       "path": "docs/kb/integration-bitrix24/sections/145-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -1325,7 +1325,7 @@
       "title": "Как посмотреть тематику Контакт-Центра",
       "hint": "Тематики сохраняются в контакте, компании или лиде Битрикс24 в поле под",
       "pages": "120",
-      "tokens": 181,
+      "tokens": 626,
       "path": "docs/kb/integration-bitrix24/sections/146-kak-posmotret-tematiku-kontakt-centra.md"
     },
     {
@@ -1352,7 +1352,7 @@
       "title": "Понятие \"Технический таск\" в кампании исходящего обзвона",
       "hint": "После того как вы настроили интеграцию с Контакт-центром MANGO OFFICE",
       "pages": "121-122",
-      "tokens": 602,
+      "tokens": 1084,
       "path": "docs/kb/integration-bitrix24/sections/149-ponyatie-tehnicheskiy-task-v-kampanii-is.md"
     },
     {
@@ -1370,7 +1370,7 @@
       "title": "Как настроить интеграцию в Контакт-центром MANGO OFFICE через вебхуки",
       "hint": "вебхуки",
       "pages": "122-124",
-      "tokens": 598,
+      "tokens": 1090,
       "path": "docs/kb/integration-bitrix24/sections/151-kak-nastroit-integraciyu-v-kontakt-centr.md"
     },
     {
@@ -1379,7 +1379,7 @@
       "title": "Как добавить вебхуки интеграции в робота в Битрик24",
       "hint": "В Битрикс24 выполните следующие действия:",
       "pages": "124-126",
-      "tokens": 528,
+      "tokens": 2400,
       "path": "docs/kb/integration-bitrix24/sections/152-kak-dobavit-vebhuki-integracii-v-robota.md"
     },
     {
@@ -1397,7 +1397,7 @@
       "title": "Скрипты",
       "hint": "Если вы хотите:",
       "pages": "126-127",
-      "tokens": 507,
+      "tokens": 1530,
       "path": "docs/kb/integration-bitrix24/sections/154-skripty.md"
     },
     {
@@ -1415,7 +1415,7 @@
       "title": "Как выдать или снять права доступа к приложению интеграции",
       "hint": "Для этого, в вашем Битрикс24 выполните следующие действия:",
       "pages": "128-130",
-      "tokens": 581,
+      "tokens": 1957,
       "path": "docs/kb/integration-bitrix24/sections/156-kak-vydat-ili-snyat-prava-dostupa-k-pril.md"
     },
     {
@@ -1424,7 +1424,7 @@
       "title": "Как включить использование скриптов в приложении",
       "hint": "Для начала убедитесь, что вы используете расширенный пакет интеграции и",
       "pages": "130-132",
-      "tokens": 480,
+      "tokens": 905,
       "path": "docs/kb/integration-bitrix24/sections/157-kak-vklyuchit-ispolzovanie-skriptov-v-pr.md"
     },
     {
@@ -1433,7 +1433,7 @@
       "title": "Сохранять постзвонковую оценку качества",
       "hint": "После разговора Клиент может оценить качество диалога с оператором, эта",
       "pages": "132-133",
-      "tokens": 437,
+      "tokens": 859,
       "path": "docs/kb/integration-bitrix24/sections/158-sohranyat-postzvonkovuyu-ocenku-kachestv.md"
     },
     {
@@ -1442,7 +1442,7 @@
       "title": "Сохранять данные кампаний исходящих обзвонов Контакт-центра",
       "hint": "Если данная настройка включена, то интеграция в вашем Битрикс24 будет",
       "pages": "133-134",
-      "tokens": 520,
+      "tokens": 956,
       "path": "docs/kb/integration-bitrix24/sections/159-sohranyat-dannye-kampaniy-ishodyaschih-o.md"
     },
     {
@@ -1478,7 +1478,7 @@
       "title": "Как включить",
       "hint": "Перед тем как отправлять Клиенту в WhatsApp сообщения по какому-либо",
       "pages": "135-137",
-      "tokens": 531,
+      "tokens": 1261,
       "path": "docs/kb/integration-bitrix24/sections/163-kak-vklyuchit.md"
     },
     {
@@ -1505,7 +1505,7 @@
       "title": "Подключение Манго Диалогов в ЛК ВАТС",
       "hint": "Авторизуйтесь в Личном кабинете ВАТС MANGO OFFICE по ссылке",
       "pages": "137",
-      "tokens": 238,
+      "tokens": 456,
       "path": "docs/kb/integration-bitrix24/sections/166-podklyuchenie-mango-dialogov-v-lk-vats.md"
     },
     {
@@ -1514,7 +1514,7 @@
       "title": "Подключение каналов «Манго Диалоги» в ЛК ВАТС",
       "hint": "Тарифный план «Контакт-центр Манго Диалоги Интеграция» предоставляет",
       "pages": "137-139",
-      "tokens": 777,
+      "tokens": 1255,
       "path": "docs/kb/integration-bitrix24/sections/167-podklyuchenie-kanalov-mango-dialogi-v-lk.md"
     },
     {
@@ -1523,7 +1523,7 @@
       "title": "Активируйте использование Манго Диалогов для передачи текстовых сообщений",
       "hint": "сообщений",
       "pages": "139-140",
-      "tokens": 405,
+      "tokens": 1222,
       "path": "docs/kb/integration-bitrix24/sections/168-aktiviruyte-ispolzovanie-mango-dialogov.md"
     },
     {
@@ -1532,7 +1532,7 @@
       "title": "Проверьте подключение виджета Манго Диалоги в Битрикс24",
       "hint": "В Битрикс24:",
       "pages": "140-141",
-      "tokens": 452,
+      "tokens": 1917,
       "path": "docs/kb/integration-bitrix24/sections/169-proverte-podklyuchenie-vidzheta-mango-di.md"
     },
     {
@@ -1541,7 +1541,7 @@
       "title": "Настройте «Открытую линию» в Битрикс24",
       "hint": "Открытая линия в Битрикс24 — это инструмент, который собирает все",
       "pages": "141-143",
-      "tokens": 742,
+      "tokens": 1860,
       "path": "docs/kb/integration-bitrix24/sections/170-nastroyte-otkrytuyu-liniyu-v-bitriks24.md"
     },
     {
@@ -1550,7 +1550,7 @@
       "title": "Как обрабатывать чаты в Контакт-центре Битрикс24",
       "hint": "Как это работает:",
       "pages": "143-146",
-      "tokens": 871,
+      "tokens": 3276,
       "path": "docs/kb/integration-bitrix24/sections/171-kak-obrabatyvat-chaty-v-kontakt-centre-b.md"
     },
     {
@@ -1568,7 +1568,7 @@
       "title": "Входящий звонок",
       "hint": "При входящем звонке у сотрудника зазвонит телефон (указанный в карточке",
       "pages": "146-149",
-      "tokens": 704,
+      "tokens": 2109,
       "path": "docs/kb/integration-bitrix24/sections/173-vhodyaschiy-zvonok.md"
     },
     {
@@ -1577,7 +1577,7 @@
       "title": "Исходящий звонок",
       "hint": "Сотрудник может кликнуть на номер телефона в Битрикс24, набрать его в",
       "pages": "149-150",
-      "tokens": 346,
+      "tokens": 969,
       "path": "docs/kb/integration-bitrix24/sections/174-ishodyaschiy-zvonok.md"
     },
     {
@@ -1586,7 +1586,7 @@
       "title": "Пропущенные звонки",
       "hint": "Если сотрудник отсутствовал на рабочем месте и были пропущенные звонки,",
       "pages": "150-152",
-      "tokens": 766,
+      "tokens": 2619,
       "path": "docs/kb/integration-bitrix24/sections/175-propuschennye-zvonki.md"
     },
     {
@@ -1604,7 +1604,7 @@
       "title": "Обзор",
       "hint": "Чтобы отслеживать и обрабатывать пропущенные звонки, вам нужно включить",
       "pages": "152-154",
-      "tokens": 699,
+      "tokens": 2130,
       "path": "docs/kb/integration-bitrix24/sections/177-obzor.md"
     },
     {
@@ -1613,7 +1613,7 @@
       "title": "Как обработать пропущенный звонок",
       "hint": "Для этого, вам нужно открыть ранее созданное дело о входящем звонке, затем",
       "pages": "154-157",
-      "tokens": 1180,
+      "tokens": 4105,
       "path": "docs/kb/integration-bitrix24/sections/178-kak-obrabotat-propuschennyy-zvonok.md"
     },
     {
@@ -1622,7 +1622,7 @@
       "title": "История вызовов",
       "hint": "Каждый звонок от Клиента отображается в карточке клиента, в истории",
       "pages": "157-158",
-      "tokens": 266,
+      "tokens": 811,
       "path": "docs/kb/integration-bitrix24/sections/179-istoriya-vyzovov.md"
     },
     {
@@ -1631,7 +1631,7 @@
       "title": "Просмотр сведений о звонках в календаре",
       "hint": "В календаре Битрикс24 фиксируются совершенные звонки и звонки,",
       "pages": "158-159",
-      "tokens": 340,
+      "tokens": 849,
       "path": "docs/kb/integration-bitrix24/sections/180-prosmotr-svedeniy-o-zvonkah-v-kalendare.md"
     },
     {
@@ -1640,7 +1640,7 @@
       "title": "Запись разговоров",
       "hint": "Если в Виртуальной АТС подключена услуга записи разговоров и в настройках",
       "pages": "159-160",
-      "tokens": 421,
+      "tokens": 971,
       "path": "docs/kb/integration-bitrix24/sections/181-zapis-razgovorov.md"
     },
     {
@@ -1649,7 +1649,7 @@
       "title": "Интеграция с адресной книгой Виртуальной АТС",
       "hint": "Если вы используете расширенный пакет интеграции, то в Личном кабинете",
       "pages": "160-163",
-      "tokens": 881,
+      "tokens": 2428,
       "path": "docs/kb/integration-bitrix24/sections/182-integraciya-s-adresnoy-knigoy-virtualnoy.md"
     },
     {
@@ -1667,7 +1667,7 @@
       "title": "Описание",
       "hint": "Софтфон \"MANGO CONNECT\" - расширение для Google Chrome, которое при",
       "pages": "163-167",
-      "tokens": 1094,
+      "tokens": 2874,
       "path": "docs/kb/integration-bitrix24/sections/184-opisanie.md"
     },
     {
@@ -1676,7 +1676,7 @@
       "title": "Дополнительно. Как включить и выключить режим \"Не беспокоить\" / DND",
       "hint": "беспокоить\" / DND",
       "pages": "167-168",
-      "tokens": 472,
+      "tokens": 1384,
       "path": "docs/kb/integration-bitrix24/sections/185-dopolnitelno-kak-vklyuchit-i-vyklyuchit.md"
     },
     {
@@ -1694,7 +1694,7 @@
       "title": "Обновление приложения",
       "hint": "Команда разработки постоянно работает над улучшениями приложения",
       "pages": "169-170",
-      "tokens": 506,
+      "tokens": 967,
       "path": "docs/kb/integration-bitrix24/sections/187-obnovlenie-prilozheniya.md"
     },
     {
@@ -1712,7 +1712,7 @@
       "title": "А. Как открыть отчет \"Детализация звонков\" в Битрикс24",
       "hint": "Чтобы открыть отчет \"Детализация звонков\", в вашем Битсрикс24 выполните:",
       "pages": "170-172",
-      "tokens": 515,
+      "tokens": 2381,
       "path": "docs/kb/integration-bitrix24/sections/189-a-kak-otkryt-otchet-detalizaciya-zvonkov.md"
     },
     {
@@ -1721,7 +1721,7 @@
       "title": "Б. Настройка отображения колонок в списке лидов, сделок, контактов",
       "hint": "контактов",
       "pages": "172-174",
-      "tokens": 573,
+      "tokens": 2119,
       "path": "docs/kb/integration-bitrix24/sections/190-b-nastroyka-otobrazheniya-kolonok-v-spis.md"
     },
     {

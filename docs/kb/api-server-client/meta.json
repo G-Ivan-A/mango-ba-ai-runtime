@@ -1,0 +1,1130 @@
+{
+  "doc_code": "APISC",
+  "doc_title": "Описание API «Сервер-клиент». API MANGO OFFICE",
+  "doc_version": "18.09.2024",
+  "extracted_by": "pymupdf 1.28.2",
+  "image_count": 1,
+  "image_description": "manual text before the image + caption + tesseract OCR (rus+eng)",
+  "image_extractor": "pymupdf 1.28.2",
+  "images_dropped_decorative": 1,
+  "note": "Описание API «Сервер-клиент» MANGO OFFICE: REST-запросы управления интеграцией, пользователями, вебсокетом, звонками, SMS, записями и статистикой, события вебсокета, справочники и коды результатов.",
+  "page_count": 57,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 57,
+  "section_source": "pdf-outline (pymupdf 1.28.2)",
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
+      "number": "—",
+      "order": "00",
+      "pages": "1-3",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-3",
+          "pages": "1-3",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 1128
+    },
+    {
+      "file": "sections/01-annotaciya.md",
+      "images": 0,
+      "number": "—",
+      "order": "01",
+      "pages": "4",
+      "pdf_heading": "Аннотация",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Аннотация",
+      "tokens": 61
+    },
+    {
+      "file": "sections/02-principy-integracii-i-obrabotka-oshibok.md",
+      "images": 0,
+      "number": "1",
+      "order": "02",
+      "pages": "4",
+      "pdf_heading": "1 Принципы интеграции и обработка ошибок",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Принципы интеграции и обработка ошибок",
+      "tokens": 0
+    },
+    {
+      "file": "sections/03-naznachenie.md",
+      "images": 0,
+      "number": "1.1",
+      "order": "03",
+      "pages": "4",
+      "pdf_heading": "1.1 Назначение",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Назначение",
+      "tokens": 277
+    },
+    {
+      "file": "sections/04-trebovaniya-sovmestimosti-i-spisok-podde.md",
+      "images": 0,
+      "number": "1.2",
+      "order": "04",
+      "pages": "4",
+      "pdf_heading": "1.2 Требования совместимости и список поддерживаемых протоколов",
+      "pdf_section": "1.2",
+      "source_refs": [
+        {
+          "global_pages": "4",
+          "pages": "4",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Требования совместимости и список поддерживаемых протоколов",
+      "tokens": 87
+    },
+    {
+      "file": "sections/05-dostup-k-funkciyam.md",
+      "images": 0,
+      "number": "1.3",
+      "order": "05",
+      "pages": "5",
+      "pdf_heading": "1.3 Доступ к функциям",
+      "pdf_section": "1.3",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Доступ к функциям",
+      "tokens": 167
+    },
+    {
+      "file": "sections/06-obrabotka-oshibok.md",
+      "images": 0,
+      "number": "1.4",
+      "order": "06",
+      "pages": "5",
+      "pdf_heading": "1.4 Обработка ошибок",
+      "pdf_section": "1.4",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Обработка ошибок",
+      "tokens": 123
+    },
+    {
+      "file": "sections/07-opisanie-primerov-ispolzovaniya-servisa.md",
+      "images": 0,
+      "number": "2",
+      "order": "07",
+      "pages": "5",
+      "pdf_heading": "2 Описание примеров использования Сервиса",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "5",
+          "pages": "5",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Описание примеров использования Сервиса",
+      "tokens": 0
+    },
+    {
+      "file": "sections/08-posledovatelnost-podklyucheniya-servisa.md",
+      "images": 0,
+      "number": "2.1",
+      "order": "08",
+      "pages": "5-6",
+      "pdf_heading": "2.1 Последовательность подключения Сервиса",
+      "pdf_section": "2.1",
+      "source_refs": [
+        {
+          "global_pages": "5-6",
+          "pages": "5-6",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Последовательность подключения Сервиса",
+      "tokens": 718
+    },
+    {
+      "file": "sections/09-korrektnoe-zavershenie-raboty-prilozheni.md",
+      "images": 0,
+      "number": "2.2",
+      "order": "09",
+      "pages": "6",
+      "pdf_heading": "2.2 Корректное завершение работы приложения пользователя",
+      "pdf_section": "2.2",
+      "source_refs": [
+        {
+          "global_pages": "6",
+          "pages": "6",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Корректное завершение работы приложения пользователя",
+      "tokens": 178
+    },
+    {
+      "file": "sections/10-poryadok-polucheniya-propuschennyh-sobyt.md",
+      "images": 0,
+      "number": "2.3",
+      "order": "10",
+      "pages": "7",
+      "pdf_heading": "2.3 Порядок получения пропущенных событий",
+      "pdf_section": "2.3",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Порядок получения пропущенных событий",
+      "tokens": 267
+    },
+    {
+      "file": "sections/11-poryadok-iniciirovaniya-zvonka-callback.md",
+      "images": 0,
+      "number": "2.4",
+      "order": "11",
+      "pages": "7",
+      "pdf_heading": "2.4 Порядок инициирования звонка callback",
+      "pdf_section": "2.4",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Порядок инициирования звонка callback",
+      "tokens": 146
+    },
+    {
+      "file": "sections/12-poryadok-proigryvaniya-zapisi.md",
+      "images": 0,
+      "number": "2.5",
+      "order": "12",
+      "pages": "7",
+      "pdf_heading": "2.5 Порядок проигрывания записи",
+      "pdf_section": "2.5",
+      "source_refs": [
+        {
+          "global_pages": "7",
+          "pages": "7",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Порядок проигрывания записи",
+      "tokens": 165
+    },
+    {
+      "file": "sections/13-poryadok-perevoda-na-otvetstvennogo-sotr.md",
+      "images": 0,
+      "number": "2.6",
+      "order": "13",
+      "pages": "8",
+      "pdf_heading": "2.6 Порядок перевода на ответственного сотрудника",
+      "pdf_section": "2.6",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Порядок перевода на ответственного сотрудника",
+      "tokens": 207
+    },
+    {
+      "file": "sections/14-zvonki-na-gruppu.md",
+      "images": 0,
+      "number": "2.7",
+      "order": "14",
+      "pages": "8",
+      "pdf_heading": "2.7 Звонки на группу",
+      "pdf_section": "2.7",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Звонки на группу",
+      "tokens": 182
+    },
+    {
+      "file": "sections/15-rest-api.md",
+      "images": 0,
+      "number": "3",
+      "order": "15",
+      "pages": "9",
+      "pdf_heading": "3 REST API",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "REST API",
+      "tokens": 0
+    },
+    {
+      "file": "sections/16-opisanie-zaprosov.md",
+      "images": 0,
+      "number": "3.1",
+      "order": "16",
+      "pages": "9",
+      "pdf_heading": "3.1 Описание запросов",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Описание запросов",
+      "tokens": 0
+    },
+    {
+      "file": "sections/17-sozdanie-integracii.md",
+      "images": 0,
+      "number": "3.1.1",
+      "order": "17",
+      "pages": "9-11",
+      "pdf_heading": "3.1.1 Создание интеграции",
+      "pdf_section": "3.1.1",
+      "source_refs": [
+        {
+          "global_pages": "9-11",
+          "pages": "9-11",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Создание интеграции",
+      "tokens": 1251
+    },
+    {
+      "file": "sections/18-obnovlenie-integracii.md",
+      "images": 0,
+      "number": "3.1.2",
+      "order": "18",
+      "pages": "11-12",
+      "pdf_heading": "3.1.2 Обновление интеграции",
+      "pdf_section": "3.1.2",
+      "source_refs": [
+        {
+          "global_pages": "11-12",
+          "pages": "11-12",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Обновление интеграции",
+      "tokens": 1169
+    },
+    {
+      "file": "sections/19-udalit-integraciyu.md",
+      "images": 0,
+      "number": "3.1.3",
+      "order": "19",
+      "pages": "13",
+      "pdf_heading": "3.1.3 Удалить интеграцию",
+      "pdf_section": "3.1.3",
+      "source_refs": [
+        {
+          "global_pages": "13",
+          "pages": "13",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Удалить интеграцию",
+      "tokens": 307
+    },
+    {
+      "file": "sections/20-ustanovit-nastroyki.md",
+      "images": 0,
+      "number": "3.1.4",
+      "order": "20",
+      "pages": "14",
+      "pdf_heading": "3.1.4 Установить настройки",
+      "pdf_section": "3.1.4",
+      "source_refs": [
+        {
+          "global_pages": "14",
+          "pages": "14",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Установить настройки",
+      "tokens": 496
+    },
+    {
+      "file": "sections/21-poluchit-nastroyki.md",
+      "images": 0,
+      "number": "3.1.5",
+      "order": "21",
+      "pages": "15",
+      "pdf_heading": "3.1.5 Получить настройки",
+      "pdf_section": "3.1.5",
+      "source_refs": [
+        {
+          "global_pages": "15",
+          "pages": "15",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получить настройки",
+      "tokens": 288
+    },
+    {
+      "file": "sections/22-sozdat-polzovatelya-v-integracii.md",
+      "images": 0,
+      "number": "3.1.6",
+      "order": "22",
+      "pages": "16-17",
+      "pdf_heading": "3.1.6 Создать пользователя (в интеграции)",
+      "pdf_section": "3.1.6",
+      "source_refs": [
+        {
+          "global_pages": "16-17",
+          "pages": "16-17",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Создать пользователя (в интеграции)",
+      "tokens": 789
+    },
+    {
+      "file": "sections/23-obnovit-polzovatelya-v-integracii.md",
+      "images": 0,
+      "number": "3.1.7",
+      "order": "23",
+      "pages": "17-18",
+      "pdf_heading": "3.1.7 Обновить пользователя (в интеграции)",
+      "pdf_section": "3.1.7",
+      "source_refs": [
+        {
+          "global_pages": "17-18",
+          "pages": "17-18",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Обновить пользователя (в интеграции)",
+      "tokens": 629
+    },
+    {
+      "file": "sections/24-udalit-polzovatelya-v-integracii.md",
+      "images": 0,
+      "number": "3.1.8",
+      "order": "24",
+      "pages": "19-20",
+      "pdf_heading": "3.1.8 Удалить пользователя (в интеграции)",
+      "pdf_section": "3.1.8",
+      "source_refs": [
+        {
+          "global_pages": "19-20",
+          "pages": "19-20",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Удалить пользователя (в интеграции)",
+      "tokens": 504
+    },
+    {
+      "file": "sections/25-poluchit-status-polzovateley-v-integraci.md",
+      "images": 0,
+      "number": "3.1.9",
+      "order": "25",
+      "pages": "20-21",
+      "pdf_heading": "3.1.9 Получить статус пользователей (в интеграции)",
+      "pdf_section": "3.1.9",
+      "source_refs": [
+        {
+          "global_pages": "20-21",
+          "pages": "20-21",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получить статус пользователей (в интеграции)",
+      "tokens": 805
+    },
+    {
+      "file": "sections/26-poluchit-spisok-polzovateley-v-integraci.md",
+      "images": 0,
+      "number": "3.1.10",
+      "order": "26",
+      "pages": "22-23",
+      "pdf_heading": "3.1.10 Получить список пользователей (в интеграции)",
+      "pdf_section": "3.1.10",
+      "source_refs": [
+        {
+          "global_pages": "22-23",
+          "pages": "22-23",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получить список пользователей (в интеграции)",
+      "tokens": 508
+    },
+    {
+      "file": "sections/27-poluchit-spisok-polzovateley-vats.md",
+      "images": 0,
+      "number": "3.1.11",
+      "order": "27",
+      "pages": "23-25",
+      "pdf_heading": "3.1.11 Получить список пользователей (ВАТС)",
+      "pdf_section": "3.1.11",
+      "source_refs": [
+        {
+          "global_pages": "23-25",
+          "pages": "23-25",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получить список пользователей (ВАТС)",
+      "tokens": 664
+    },
+    {
+      "file": "sections/28-poluchit-vebsoket.md",
+      "images": 0,
+      "number": "3.1.12",
+      "order": "28",
+      "pages": "25-26",
+      "pdf_heading": "3.1.12 Получить вебсокет",
+      "pdf_section": "3.1.12",
+      "source_refs": [
+        {
+          "global_pages": "25-26",
+          "pages": "25-26",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получить вебсокет",
+      "tokens": 501
+    },
+    {
+      "file": "sections/29-nachat-sessiyu-vebsoketa.md",
+      "images": 0,
+      "number": "3.1.13",
+      "order": "29",
+      "pages": "26-27",
+      "pdf_heading": "3.1.13 Начать сессию вебсокета",
+      "pdf_section": "3.1.13",
+      "source_refs": [
+        {
+          "global_pages": "26-27",
+          "pages": "26-27",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Начать сессию вебсокета",
+      "tokens": 314
+    },
+    {
+      "file": "sections/30-zavershit-sessiyu-vebsoketa.md",
+      "images": 0,
+      "number": "3.1.14",
+      "order": "30",
+      "pages": "27-28",
+      "pdf_heading": "3.1.14 Завершить сессию вебсокета",
+      "pdf_section": "3.1.14",
+      "source_refs": [
+        {
+          "global_pages": "27-28",
+          "pages": "27-28",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Завершить сессию вебсокета",
+      "tokens": 301
+    },
+    {
+      "file": "sections/31-proverka-statusa-servera.md",
+      "images": 0,
+      "number": "3.1.15",
+      "order": "31",
+      "pages": "28",
+      "pdf_heading": "3.1.15 Проверка статуса сервера",
+      "pdf_section": "3.1.15",
+      "source_refs": [
+        {
+          "global_pages": "28",
+          "pages": "28",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Проверка статуса сервера",
+      "tokens": 160
+    },
+    {
+      "file": "sections/32-iniciirovat-zvonok.md",
+      "images": 0,
+      "number": "3.1.16",
+      "order": "32",
+      "pages": "29-30",
+      "pdf_heading": "3.1.16 Инициировать звонок",
+      "pdf_section": "3.1.16",
+      "source_refs": [
+        {
+          "global_pages": "29-30",
+          "pages": "29-30",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Инициировать звонок",
+      "tokens": 453
+    },
+    {
+      "file": "sections/33-zavershenie-zvonka.md",
+      "images": 0,
+      "number": "3.1.17",
+      "order": "33",
+      "pages": "30-31",
+      "pdf_heading": "3.1.17 Завершение звонка",
+      "pdf_section": "3.1.17",
+      "source_refs": [
+        {
+          "global_pages": "30-31",
+          "pages": "30-31",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Завершение звонка",
+      "tokens": 490
+    },
+    {
+      "file": "sections/34-otpravit-sms.md",
+      "images": 0,
+      "number": "3.1.18",
+      "order": "34",
+      "pages": "31-32",
+      "pdf_heading": "3.1.18 Отправить SMS",
+      "pdf_section": "3.1.18",
+      "source_refs": [
+        {
+          "global_pages": "31-32",
+          "pages": "31-32",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Отправить SMS",
+      "tokens": 577
+    },
+    {
+      "file": "sections/35-poluchenie-zapisi.md",
+      "images": 0,
+      "number": "3.1.19",
+      "order": "35",
+      "pages": "32-33",
+      "pdf_heading": "3.1.19 Получение записи",
+      "pdf_section": "3.1.19",
+      "source_refs": [
+        {
+          "global_pages": "32-33",
+          "pages": "32-33",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получение записи",
+      "tokens": 535
+    },
+    {
+      "file": "sections/36-perevesti-na-sotrudnika.md",
+      "images": 0,
+      "number": "3.1.20",
+      "order": "36",
+      "pages": "34-35",
+      "pdf_heading": "3.1.20 Перевести на сотрудника",
+      "pdf_section": "3.1.20",
+      "source_refs": [
+        {
+          "global_pages": "34-35",
+          "pages": "34-35",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Перевести на сотрудника",
+      "tokens": 462
+    },
+    {
+      "file": "sections/37-poluchit-propuschennye-sobytiya.md",
+      "images": 0,
+      "number": "3.1.21",
+      "order": "37",
+      "pages": "35-37",
+      "pdf_heading": "3.1.21 Получить пропущенные события",
+      "pdf_section": "3.1.21",
+      "source_refs": [
+        {
+          "global_pages": "35-37",
+          "pages": "35-37",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Получить пропущенные события",
+      "tokens": 731
+    },
+    {
+      "file": "sections/38-zapros-statistiki-vyzovov.md",
+      "images": 0,
+      "number": "3.1.22",
+      "order": "38",
+      "pages": "37-41",
+      "pdf_heading": "3.1.22 Запрос статистики вызовов",
+      "pdf_section": "3.1.22",
+      "source_refs": [
+        {
+          "global_pages": "37-41",
+          "pages": "37-41",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Запрос статистики вызовов",
+      "tokens": 2346
+    },
+    {
+      "file": "sections/39-perevod-transfer-zvonka.md",
+      "images": 0,
+      "number": "3.1.23",
+      "order": "39",
+      "pages": "42-43",
+      "pdf_heading": "3.1.23 Перевод (transfer) звонка",
+      "pdf_section": "3.1.23",
+      "source_refs": [
+        {
+          "global_pages": "42-43",
+          "pages": "42-43",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Перевод (transfer) звонка",
+      "tokens": 582
+    },
+    {
+      "file": "sections/40-kc-poluchenie-informacii-o-zadanii.md",
+      "images": 0,
+      "number": "3.1.24",
+      "order": "40",
+      "pages": "43-44",
+      "pdf_heading": "3.1.24 КЦ. Получение информации о задании",
+      "pdf_section": "3.1.24",
+      "source_refs": [
+        {
+          "global_pages": "43-44",
+          "pages": "43-44",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "КЦ. Получение информации о задании",
+      "tokens": 241
+    },
+    {
+      "file": "sections/41-sobytiya.md",
+      "images": 0,
+      "number": "3.2",
+      "order": "41",
+      "pages": "44",
+      "pdf_heading": "3.2 События",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "44",
+          "pages": "44",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "События",
+      "tokens": 0
+    },
+    {
+      "file": "sections/42-sobytiya-telefonii.md",
+      "images": 0,
+      "number": "3.2.1",
+      "order": "42",
+      "pages": "44-46",
+      "pdf_heading": "3.2.1 События телефонии",
+      "pdf_section": "3.2.1",
+      "source_refs": [
+        {
+          "global_pages": "44-46",
+          "pages": "44-46",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "События телефонии",
+      "tokens": 1004
+    },
+    {
+      "file": "sections/43-sobytiya-zapisi.md",
+      "images": 0,
+      "number": "3.2.2",
+      "order": "43",
+      "pages": "46",
+      "pdf_heading": "3.2.2 События записи",
+      "pdf_section": "3.2.2",
+      "source_refs": [
+        {
+          "global_pages": "46",
+          "pages": "46",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "События записи",
+      "tokens": 307
+    },
+    {
+      "file": "sections/44-izmenenie-statusa-polzovatelya.md",
+      "images": 0,
+      "number": "3.2.3",
+      "order": "44",
+      "pages": "47",
+      "pdf_heading": "3.2.3 Изменение статуса пользователя",
+      "pdf_section": "3.2.3",
+      "source_refs": [
+        {
+          "global_pages": "47",
+          "pages": "47",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Изменение статуса пользователя",
+      "tokens": 477
+    },
+    {
+      "file": "sections/45-informaciya-dkt.md",
+      "images": 0,
+      "number": "3.2.4",
+      "order": "45",
+      "pages": "48-49",
+      "pdf_heading": "3.2.4 Информация ДКТ",
+      "pdf_section": "3.2.4",
+      "source_refs": [
+        {
+          "global_pages": "48-49",
+          "pages": "48-49",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Информация ДКТ",
+      "tokens": 1075
+    },
+    {
+      "file": "sections/46-rezultat-komandy-route-async.md",
+      "images": 0,
+      "number": "3.2.5",
+      "order": "46",
+      "pages": "49",
+      "pdf_heading": "3.2.5 Результат команды route/async/",
+      "pdf_section": "3.2.5",
+      "source_refs": [
+        {
+          "global_pages": "49",
+          "pages": "49",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Результат команды route/async/",
+      "tokens": 147
+    },
+    {
+      "file": "sections/47-rezultat-komandy-v1-callstat-request.md",
+      "images": 0,
+      "number": "3.2.6",
+      "order": "47",
+      "pages": "50",
+      "pdf_heading": "3.2.6 Результат команды v1/callstat/request",
+      "pdf_section": "3.2.6",
+      "source_refs": [
+        {
+          "global_pages": "50",
+          "pages": "50",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Результат команды v1/callstat/request",
+      "tokens": 170
+    },
+    {
+      "file": "sections/48-vebsoket-zakryt-so-storony-servera-api.md",
+      "images": 0,
+      "number": "3.2.7",
+      "order": "48",
+      "pages": "50",
+      "pdf_heading": "3.2.7 Вебсокет закрыт со стороны сервера API",
+      "pdf_section": "3.2.7",
+      "source_refs": [
+        {
+          "global_pages": "50",
+          "pages": "50",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Вебсокет закрыт со стороны сервера API",
+      "tokens": 46
+    },
+    {
+      "file": "sections/49-spravochniki.md",
+      "images": 0,
+      "number": "4",
+      "order": "49",
+      "pages": "51",
+      "pdf_heading": "4 Справочники",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Справочники",
+      "tokens": 0
+    },
+    {
+      "file": "sections/50-kody-otveta-json-result-code.md",
+      "images": 0,
+      "number": "4.1",
+      "order": "50",
+      "pages": "51",
+      "pdf_heading": "4.1 Коды ответа JSON Result[code]",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Коды ответа JSON Result[code]",
+      "tokens": 100
+    },
+    {
+      "file": "sections/51-sistema-registration-system.md",
+      "images": 0,
+      "number": "4.2",
+      "order": "51",
+      "pages": "51",
+      "pdf_heading": "4.2 Система Registration[system]",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "51",
+          "pages": "51",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Система Registration[system]",
+      "tokens": 46
+    },
+    {
+      "file": "sections/52-sostoyanie-zvonka.md",
+      "images": 1,
+      "number": "4.3",
+      "order": "52",
+      "pages": "51-52",
+      "pdf_heading": "4.3 Состояние звонка",
+      "pdf_section": "4.3",
+      "source_refs": [
+        {
+          "global_pages": "51-52",
+          "pages": "51-52",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Состояние звонка",
+      "tokens": 391
+    },
+    {
+      "file": "sections/53-tip-zvonka.md",
+      "images": 0,
+      "number": "4.4",
+      "order": "53",
+      "pages": "52",
+      "pdf_heading": "4.4 Тип звонка",
+      "pdf_section": "4.4",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Тип звонка",
+      "tokens": 347
+    },
+    {
+      "file": "sections/54-status-zapisi.md",
+      "images": 0,
+      "number": "4.5",
+      "order": "54",
+      "pages": "52",
+      "pdf_heading": "4.5 Статус записи",
+      "pdf_section": "4.5",
+      "source_refs": [
+        {
+          "global_pages": "52",
+          "pages": "52",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Статус записи",
+      "tokens": 128
+    },
+    {
+      "file": "sections/55-spisok-kodov-rezultatov.md",
+      "images": 0,
+      "number": "5",
+      "order": "55",
+      "pages": "53-56",
+      "pdf_heading": "5 Список кодов результатов",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "53-56",
+          "pages": "53-56",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Список кодов результатов",
+      "tokens": 4478
+    },
+    {
+      "file": "sections/56-spisok-izmeneniy-v-dokumente.md",
+      "images": 0,
+      "number": "5",
+      "order": "56",
+      "pages": "57",
+      "pdf_heading": "Список изменений в документе",
+      "pdf_section": "5",
+      "source_refs": [
+        {
+          "global_pages": "57",
+          "pages": "57",
+          "part": 1,
+          "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf"
+        }
+      ],
+      "title": "Список изменений в документе",
+      "tokens": 203
+    }
+  ],
+  "source_document": "api-server-client",
+  "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf",
+  "source_pdfs": [
+    "kb/sources/api-server-client/Api_server_client.pdf"
+  ],
+  "source_set": "api-server-client",
+  "source_sha256": "e24aec227820ddd29b32ffd4747357523b1ebb7ad5bcca468c345a09d426f6af",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 57,
+      "source_pdf": "kb/sources/api-server-client/Api_server_client.pdf",
+      "source_sha256": "e24aec227820ddd29b32ffd4747357523b1ebb7ad5bcca468c345a09d426f6af"
+    }
+  ],
+  "table_count": 67,
+  "toc_entries": 56,
+  "toc_entries_missing": [],
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 5350,
+  "tokens_total": 27728,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 1303,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-11-01",
+    "method": "cross-engine (PyMuPDF -> pdfplumber re-read of the same pages ±1)"
+  }
+}

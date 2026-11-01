@@ -14,7 +14,8 @@ source_pages: "ч.1: 50-51"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"50-51","global_pages":"50-51"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 990
+tokens: 960
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -30,8 +31,6 @@ ai-generated: true
 | Создавать роль* | Недоступно | Недоступно | Недоступно | Доступно | Недоступно | Недоступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 50
-
-![Изображение, стр. 51](../images/53-bezopasnost-i-ogranicheniya-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

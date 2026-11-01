@@ -1,0 +1,446 @@
+{
+  "doc_code": "WB",
+  "doc_title": "Программа для ЭВМ «Wallboard Mango Office». Руководство пользователя",
+  "doc_version": "7.22.25",
+  "extracted_by": "pymupdf 1.28.2",
+  "image_count": 31,
+  "image_description": "manual text before the image + caption + tesseract OCR (rus+eng)",
+  "image_extractor": "pymupdf 1.28.2",
+  "images_dropped_decorative": 67,
+  "note": "Руководство пользователя модуля Wallboard Mango Office: подключение в Личном кабинете ВАТС, аккаунт, авторизация, настройка показателей по шаблону и своему шаблону, мониторинг групп.",
+  "page_count": 28,
+  "part_count": 1,
+  "processing_mode": "single",
+  "section_count": 21,
+  "section_source": "printed table of contents; headings located on their pages",
+  "sections": [
+    {
+      "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
+      "number": "—",
+      "order": "00",
+      "pages": "1-3",
+      "pdf_heading": "Титульная часть",
+      "pdf_section": "—",
+      "source_refs": [
+        {
+          "global_pages": "1-3",
+          "pages": "1-3",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Титульная часть",
+      "tokens": 507
+    },
+    {
+      "file": "sections/01-nachalo-raboty.md",
+      "images": 0,
+      "number": "1",
+      "order": "01",
+      "pages": "3",
+      "pdf_heading": "1 Начало работы",
+      "pdf_section": "1",
+      "source_refs": [
+        {
+          "global_pages": "3",
+          "pages": "3",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Начало работы",
+      "tokens": 138
+    },
+    {
+      "file": "sections/02-podklyuchenie-modulya-programma-dlya-evm.md",
+      "images": 3,
+      "number": "1.1",
+      "order": "02",
+      "pages": "3-4",
+      "pdf_heading": "1.1 Подключение модуля Программа для ЭВМ \"Wallboard Mango Office\" в Личном кабинете ВАТС",
+      "pdf_section": "1.1",
+      "source_refs": [
+        {
+          "global_pages": "3-4",
+          "pages": "3-4",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Подключение модуля Программа для ЭВМ \"Wallboard Mango Office\" в Личном кабинете ВАТС",
+      "tokens": 978
+    },
+    {
+      "file": "sections/03-sozdanie-akkaunta-wallboard.md",
+      "images": 3,
+      "number": "1.2",
+      "order": "03",
+      "pages": "4-6",
+      "pdf_heading": "1.2 Создание аккаунта Wallboard",
+      "pdf_section": "1.2",
+      "source_refs": [
+        {
+          "global_pages": "4-6",
+          "pages": "4-6",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Создание аккаунта Wallboard",
+      "tokens": 1542
+    },
+    {
+      "file": "sections/04-stranica-avtorizacii.md",
+      "images": 1,
+      "number": "2",
+      "order": "04",
+      "pages": "6-7",
+      "pdf_heading": "2 Страница авторизации",
+      "pdf_section": "2",
+      "source_refs": [
+        {
+          "global_pages": "6-7",
+          "pages": "6-7",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Страница авторизации",
+      "tokens": 344
+    },
+    {
+      "file": "sections/05-nastroyka-wallboard.md",
+      "images": 1,
+      "number": "3",
+      "order": "05",
+      "pages": "7-8",
+      "pdf_heading": "3 Настройка Wallboard",
+      "pdf_section": "3",
+      "source_refs": [
+        {
+          "global_pages": "7-8",
+          "pages": "7-8",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Настройка Wallboard",
+      "tokens": 405
+    },
+    {
+      "file": "sections/06-nastroyka-wallboard-po-shablonu.md",
+      "images": 0,
+      "number": "3.1",
+      "order": "06",
+      "pages": "8",
+      "pdf_heading": "3.1 Настройка Wallboard по шаблону",
+      "pdf_section": "3.1",
+      "source_refs": [
+        {
+          "global_pages": "8",
+          "pages": "8",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Настройка Wallboard по шаблону",
+      "tokens": 0
+    },
+    {
+      "file": "sections/07-vybor-shablona.md",
+      "images": 0,
+      "number": "3.1.1",
+      "order": "07",
+      "pages": "8-9",
+      "pdf_heading": "3.1.1 Выбор шаблона",
+      "pdf_section": "3.1.1",
+      "source_refs": [
+        {
+          "global_pages": "8-9",
+          "pages": "8-9",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Выбор шаблона",
+      "tokens": 630
+    },
+    {
+      "file": "sections/08-vybor-gruppy-dlya-monitoringa.md",
+      "images": 1,
+      "number": "3.1.2",
+      "order": "08",
+      "pages": "9",
+      "pdf_heading": "3.1.2 Выбор группы для мониторинга",
+      "pdf_section": "3.1.2",
+      "source_refs": [
+        {
+          "global_pages": "9",
+          "pages": "9",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Выбор группы для мониторинга",
+      "tokens": 455
+    },
+    {
+      "file": "sections/09-nastroyka-svoego-shablona-pokazateley-wa.md",
+      "images": 2,
+      "number": "3.2",
+      "order": "09",
+      "pages": "9-11",
+      "pdf_heading": "3.2 Настройка «своего шаблона» показателей Wallboard",
+      "pdf_section": "3.2",
+      "source_refs": [
+        {
+          "global_pages": "9-11",
+          "pages": "9-11",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Настройка «своего шаблона» показателей Wallboard",
+      "tokens": 676
+    },
+    {
+      "file": "sections/10-nastroyka-vidzheta-obschego-gruppovogo-p.md",
+      "images": 1,
+      "number": "3.2.1",
+      "order": "10",
+      "pages": "11-13",
+      "pdf_heading": "3.2.1 Настройка виджета общего группового показателя",
+      "pdf_section": "3.2.1",
+      "source_refs": [
+        {
+          "global_pages": "11-13",
+          "pages": "11-13",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Настройка виджета общего группового показателя",
+      "tokens": 705
+    },
+    {
+      "file": "sections/11-nastroyka-vidzheta-personalnogo-pokazate.md",
+      "images": 1,
+      "number": "3.2.2",
+      "order": "11",
+      "pages": "13-14",
+      "pdf_heading": "3.2.2 Настройка виджета персонального показателя (рейтинга)",
+      "pdf_section": "3.2.2",
+      "source_refs": [
+        {
+          "global_pages": "13-14",
+          "pages": "13-14",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Настройка виджета персонального показателя (рейтинга)",
+      "tokens": 1156
+    },
+    {
+      "file": "sections/12-pokazateli-proizvoditelnosti-wallboard.md",
+      "images": 1,
+      "number": "3.3",
+      "order": "12",
+      "pages": "14-15",
+      "pdf_heading": "3.3 Показатели производительности Wallboard",
+      "pdf_section": "3.3",
+      "source_refs": [
+        {
+          "global_pages": "14-15",
+          "pages": "14-15",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Показатели производительности Wallboard",
+      "tokens": 524
+    },
+    {
+      "file": "sections/13-pokazateli-proizvoditelnosti-gruppy-zvon.md",
+      "images": 6,
+      "number": "3.3.1",
+      "order": "13",
+      "pages": "15-19",
+      "pdf_heading": "3.3.1 Показатели производительности группы «Звонки»",
+      "pdf_section": "3.3.1",
+      "source_refs": [
+        {
+          "global_pages": "15-19",
+          "pages": "15-19",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Показатели производительности группы «Звонки»",
+      "tokens": 4495
+    },
+    {
+      "file": "sections/14-pokazateli-proizvoditelnosti-gruppy-sdel.md",
+      "images": 2,
+      "number": "3.3.2",
+      "order": "14",
+      "pages": "19-20",
+      "pdf_heading": "3.3.2 Показатели производительности группы «Сделки»",
+      "pdf_section": "3.3.2",
+      "source_refs": [
+        {
+          "global_pages": "19-20",
+          "pages": "19-20",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Показатели производительности группы «Сделки»",
+      "tokens": 2461
+    },
+    {
+      "file": "sections/15-pokazateli-proizvoditelnosti-gruppy-bitr.md",
+      "images": 2,
+      "number": "3.3.3",
+      "order": "15",
+      "pages": "20-23",
+      "pdf_heading": "3.3.3 Показатели производительности группы «Битрикс24»",
+      "pdf_section": "3.3.3",
+      "source_refs": [
+        {
+          "global_pages": "20-23",
+          "pages": "20-23",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Показатели производительности группы «Битрикс24»",
+      "tokens": 2268
+    },
+    {
+      "file": "sections/16-glavnoe-okno-modulya.md",
+      "images": 4,
+      "number": "4",
+      "order": "16",
+      "pages": "23-24",
+      "pdf_heading": "4 Главное окно модуля",
+      "pdf_section": "4",
+      "source_refs": [
+        {
+          "global_pages": "23-24",
+          "pages": "23-24",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Главное окно модуля",
+      "tokens": 1239
+    },
+    {
+      "file": "sections/17-personalnye-pokazateli-reytingi.md",
+      "images": 0,
+      "number": "4.1",
+      "order": "17",
+      "pages": "24",
+      "pdf_heading": "4.1 Персональные показатели (рейтинги)",
+      "pdf_section": "4.1",
+      "source_refs": [
+        {
+          "global_pages": "24",
+          "pages": "24",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Персональные показатели (рейтинги)",
+      "tokens": 83
+    },
+    {
+      "file": "sections/18-reyting-po-sotrudnikam.md",
+      "images": 1,
+      "number": "4.1.1",
+      "order": "18",
+      "pages": "24-27",
+      "pdf_heading": "4.1.1 Рейтинг по сотрудникам",
+      "pdf_section": "4.1.1",
+      "source_refs": [
+        {
+          "global_pages": "24-27",
+          "pages": "24-27",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Рейтинг по сотрудникам",
+      "tokens": 1168
+    },
+    {
+      "file": "sections/19-reyting-po-gruppam.md",
+      "images": 1,
+      "number": "4.1.2",
+      "order": "19",
+      "pages": "27-28",
+      "pdf_heading": "4.1.2 Рейтинг по группам",
+      "pdf_section": "4.1.2",
+      "source_refs": [
+        {
+          "global_pages": "27-28",
+          "pages": "27-28",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Рейтинг по группам",
+      "tokens": 641
+    },
+    {
+      "file": "sections/20-obschie-gruppovye-pokazateli.md",
+      "images": 1,
+      "number": "4.2",
+      "order": "20",
+      "pages": "28",
+      "pdf_heading": "4.2 Общие групповые показатели",
+      "pdf_section": "4.2",
+      "source_refs": [
+        {
+          "global_pages": "28",
+          "pages": "28",
+          "part": 1,
+          "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+        }
+      ],
+      "title": "Общие групповые показатели",
+      "tokens": 533
+    }
+  ],
+  "source_document": "wallboard",
+  "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf",
+  "source_pdfs": [
+    "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf"
+  ],
+  "source_set": "wallboard",
+  "source_sha256": "906ab9555f9be222166a3456563a631f275af558f735bbc4e767d9562d135524",
+  "sources": [
+    {
+      "order": 1,
+      "page_count": 28,
+      "source_pdf": "kb/sources/wallboard/Programma-dlya-EVM-Wallboard-Mango-Office_v7.22.25.pdf",
+      "source_sha256": "906ab9555f9be222166a3456563a631f275af558f735bbc4e767d9562d135524"
+    }
+  ],
+  "table_count": 12,
+  "toc_entries": 20,
+  "toc_entries_missing": [],
+  "token_method": "tiktoken:cl100k_base",
+  "tokens_index": 2785,
+  "tokens_total": 20948,
+  "verification": {
+    "confidence_level": "high",
+    "confirmed_ratio": 1.0,
+    "critical_tokens_checked": 25,
+    "critical_tokens_unconfirmed": 0,
+    "extraction_date": "2026-11-01",
+    "method": "cross-engine (PyMuPDF -> pdfplumber re-read of the same pages ±1)"
+  }
+}

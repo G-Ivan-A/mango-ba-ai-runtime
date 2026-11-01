@@ -1,0 +1,90 @@
+{
+  "document_id": "integration-ident",
+  "index": "docs/kb/integration-ident/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "integration-ident-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Интеграция Виртуальной АТС и системы IDENT",
+      "pages": "1-2",
+      "tokens": 230,
+      "path": "docs/kb/integration-ident/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "integration-ident-01-obzor",
+      "section": "1",
+      "title": "Обзор",
+      "hint": "Данная инструкция предназначена для ознакомления пользователей с порядком самостоятельной",
+      "pages": "3-4",
+      "tokens": 1174,
+      "path": "docs/kb/integration-ident/sections/01-obzor.md"
+    },
+    {
+      "id": "integration-ident-02-kak-nastroit-integraciyu",
+      "section": "2",
+      "title": "Как настроить интеграцию",
+      "hint": "",
+      "pages": "5",
+      "tokens": 0,
+      "path": "docs/kb/integration-ident/sections/02-kak-nastroit-integraciyu.md"
+    },
+    {
+      "id": "integration-ident-03-poryadok-deystviy",
+      "section": "2",
+      "title": "Порядок действий",
+      "hint": "Чтобы настроить интеграцию, вам потребуется:",
+      "pages": "5",
+      "tokens": 443,
+      "path": "docs/kb/integration-ident/sections/03-poryadok-deystviy.md"
+    },
+    {
+      "id": "integration-ident-04-shag-1-podklyuchenie-virtualnoy-ats-mang",
+      "section": "—",
+      "title": "Шаг 1. Подключение Виртуальной АТС MANGO OFFICE",
+      "hint": "Сначала подключите ту или иную версию Виртуальной АТС MANGO OFFICE, если у вас ее еще нет.",
+      "pages": "5",
+      "tokens": 91,
+      "path": "docs/kb/integration-ident/sections/04-shag-1-podklyuchenie-virtualnoy-ats-mang.md"
+    },
+    {
+      "id": "integration-ident-05-shag-2-ustanovka-softfona-mango-talker",
+      "section": "—",
+      "title": "Шаг 2. Установка софтфона Mango Talker",
+      "hint": "Виртуальная АТС позволяет установить телефонную связь между абонентами. Ваш IDENT позволяе",
+      "pages": "5-6",
+      "tokens": 323,
+      "path": "docs/kb/integration-ident/sections/05-shag-2-ustanovka-softfona-mango-talker.md"
+    },
+    {
+      "id": "integration-ident-06-shag-3-podklyuchenie-vidzheta-v-lichnom",
+      "section": "—",
+      "title": "Шаг 3. Подключение виджета в Личном кабинете Виртуальной АТС",
+      "hint": "Для подключения интеграции с IDENT вам необходимо:",
+      "pages": "6-7",
+      "tokens": 1706,
+      "path": "docs/kb/integration-ident/sections/06-shag-3-podklyuchenie-vidzheta-v-lichnom.md"
+    },
+    {
+      "id": "integration-ident-07-shag-4-kak-obratitsya-v-sluzhbu-podderzh",
+      "section": "—",
+      "title": "Шаг 4. Как обратиться в службу поддержки IDENT",
+      "hint": "После того, как вы подключили виджет интеграции, свяжитесь со службой поддержки пользовате",
+      "pages": "8",
+      "tokens": 160,
+      "path": "docs/kb/integration-ident/sections/07-shag-4-kak-obratitsya-v-sluzhbu-podderzh.md"
+    },
+    {
+      "id": "integration-ident-08-kak-otklyuchit-vidzhet-integracii",
+      "section": "3",
+      "title": "Как отключить виджет интеграции",
+      "hint": "Для отключения интеграции с IDENT вам необходимо:",
+      "pages": "8-9",
+      "tokens": 1187,
+      "path": "docs/kb/integration-ident/sections/08-kak-otklyuchit-vidzhet-integracii.md"
+    }
+  ]
+}

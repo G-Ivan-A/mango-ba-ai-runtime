@@ -14,7 +14,8 @@ source_pages: "ч.1: 48-49"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"48-49","global_pages":"48-49"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 778
+tokens: 746
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -31,8 +32,6 @@ ai-generated: true
 | Просматривать и<br>редактировать настройки<br>приема звонков | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 48
-
-![Изображение, стр. 49](../images/48-nomera-podklyuchennye-k-ats-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

@@ -14,7 +14,8 @@ source_pages: "ч.1: 28-29"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"28-29","global_pages":"28-29"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 340
+tokens: 318
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -27,8 +28,6 @@ ai-generated: true
 | Назначать задачи | только себе /<br>сотрудникам<br>своих и<br>подконтрольных<br>групп / всем<br>сотрудникам | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 28
-
-![Изображение, стр. 29](../images/24-zadachi-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

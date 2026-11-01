@@ -14,7 +14,8 @@ source_pages: "ч.1: 40-41"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"40-41","global_pages":"40-41"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 626
+tokens: 599
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -31,8 +32,6 @@ ai-generated: true
 | Настройки<br>распознавания<br>сотрудников и номеров | подконтрольных<br>групп и их<br>операторов / для<br>всех сотрудников и<br>групп | Недоступно | Доступно | Доступно | Доступно | Недоступно | Недоступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 40
-
-![Изображение, стр. 41](../images/36-rechevaya-analitika-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

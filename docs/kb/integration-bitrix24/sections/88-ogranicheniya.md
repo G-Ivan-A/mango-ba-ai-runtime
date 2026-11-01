@@ -15,6 +15,7 @@ source_refs: '[{"source_pdf":"kb/sources/integration-bitrix24/Mango_office_integ
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
 tokens: 271
+images: 0
 status: extracted
 ai-generated: true
 ---

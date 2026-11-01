@@ -14,7 +14,8 @@ source_pages: "ч.1: 11-12"
 source_refs: '[{"source_pdf":"kb/sources/sip-trunk/MO_SIP_Trunk.pdf","part":1,"pages":"11-12","global_pages":"11-12"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 493
+tokens: 463
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -27,7 +28,5 @@ ai-generated: true
 | (\d*)\d{1} |
 | --- |
 | 350\|7(\d{8}) - 350 или все девятизначные номера, начинающиеся с 7 |
-
-![Изображение, стр. 12](../images/11-pravila-ispolzovanie-masok-1.png)
 
 Если поле “Маска” заполнено, поле “Преобразования номера” не может оставаться пустым.

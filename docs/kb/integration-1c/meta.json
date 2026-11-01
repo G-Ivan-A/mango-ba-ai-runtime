@@ -7,11 +7,14 @@
   "doc_title": "Прямая интеграция с системой «1С: Управление торговлей». Интеграция Виртуальной АТС и системы «1С: Управление торговлей»",
   "doc_version": "22.12.2025",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 72,
+  "image_count": 71,
+  "image_description": "PDF context above the image + caption + tesseract OCR (rus+eng)",
+  "image_description_date": "2026-11-01",
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_dropped_decorative": 1,
   "note": "Инструкция по прямой интеграции виртуальной АТС Mango Office с системой «1С: Управление торговлей» редакции 11 (11.3 – 11.4, 11.5). Описывает настройку соединения, синхронизацию данных, управление звонками и использование телефонных функций внутри 1С.",
   "page_count": 46,
   "part_count": 1,
@@ -24,6 +27,7 @@
   "sections": [
     {
       "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
       "number": "—",
       "order": "00",
       "pages": "1-4",
@@ -38,10 +42,11 @@
         }
       ],
       "title": "Титульная часть",
-      "tokens": 1395
+      "tokens": 1369
     },
     {
       "file": "sections/01-obzor.md",
+      "images": 0,
       "number": "1",
       "order": "01",
       "pages": "4",
@@ -60,6 +65,7 @@
     },
     {
       "file": "sections/02-naznachenie.md",
+      "images": 0,
       "number": "1.1",
       "order": "02",
       "pages": "4",
@@ -78,6 +84,7 @@
     },
     {
       "file": "sections/03-vazhnye-ogranicheniya.md",
+      "images": 0,
       "number": "1.2",
       "order": "03",
       "pages": "4",
@@ -96,6 +103,7 @@
     },
     {
       "file": "sections/04-kak-nastroit-integraciyu.md",
+      "images": 0,
       "number": "1.3",
       "order": "04",
       "pages": "4-5",
@@ -114,6 +122,7 @@
     },
     {
       "file": "sections/05-nachalo-raboty-s-integraciey.md",
+      "images": 0,
       "number": "2",
       "order": "05",
       "pages": "5",
@@ -132,6 +141,7 @@
     },
     {
       "file": "sections/06-shag-1-podklyuchenie-virtualnoy-ats-mang.md",
+      "images": 0,
       "number": "2",
       "order": "06",
       "pages": "5",
@@ -150,6 +160,7 @@
     },
     {
       "file": "sections/07-shag-2-ustanovka-softfona-mango-talker.md",
+      "images": 0,
       "number": "2",
       "order": "07",
       "pages": "5",
@@ -168,6 +179,7 @@
     },
     {
       "file": "sections/08-shag-3-podklyuchenie-vidzheta-integracii.md",
+      "images": 4,
       "number": "2",
       "order": "08",
       "pages": "5-7",
@@ -182,10 +194,11 @@
         }
       ],
       "title": "Шаг 3. Подключение виджета интеграции в Личном кабинете MANGO OFFICE",
-      "tokens": 669
+      "tokens": 2311
     },
     {
       "file": "sections/09-shag-4-nastroyka-integracii-v-1s.md",
+      "images": 21,
       "number": "2",
       "order": "09",
       "pages": "7-17",
@@ -200,10 +213,11 @@
         }
       ],
       "title": "Шаг 4. Настройка интеграции в 1С",
-      "tokens": 4360
+      "tokens": 11632
     },
     {
       "file": "sections/10-dopolnitelnye-nastroyki-integracii.md",
+      "images": 0,
       "number": "3",
       "order": "10",
       "pages": "17",
@@ -222,6 +236,7 @@
     },
     {
       "file": "sections/11-obrabotka-zvonkov.md",
+      "images": 7,
       "number": "3.1",
       "order": "11",
       "pages": "17-22",
@@ -236,10 +251,11 @@
         }
       ],
       "title": "Обработка звонков",
-      "tokens": 2841
+      "tokens": 5904
     },
     {
       "file": "sections/12-avtomaticheskoe-sozdanie-klientov.md",
+      "images": 1,
       "number": "3.2",
       "order": "12",
       "pages": "22-23",
@@ -254,10 +270,11 @@
         }
       ],
       "title": "Автоматическое создание Клиентов",
-      "tokens": 825
+      "tokens": 1295
     },
     {
       "file": "sections/13-obrabotka-zvonkov-pri-sohranenii.md",
+      "images": 1,
       "number": "3.3",
       "order": "13",
       "pages": "23-25",
@@ -272,10 +289,11 @@
         }
       ],
       "title": "Обработка звонков при сохранении",
-      "tokens": 764
+      "tokens": 1224
     },
     {
       "file": "sections/14-upravlenie-polzovatelyami-integracii-1s.md",
+      "images": 8,
       "number": "3.4",
       "order": "14",
       "pages": "25-29",
@@ -290,10 +308,11 @@
         }
       ],
       "title": "Управление пользователями интеграции 1С",
-      "tokens": 1438
+      "tokens": 4377
     },
     {
       "file": "sections/15-vhodyaschiy-zvonok.md",
+      "images": 2,
       "number": "4",
       "order": "15",
       "pages": "29",
@@ -308,10 +327,11 @@
         }
       ],
       "title": "Входящий звонок",
-      "tokens": 569
+      "tokens": 1274
     },
     {
       "file": "sections/16-ishodyaschiy-zvonok.md",
+      "images": 0,
       "number": "5",
       "order": "16",
       "pages": "29-30",
@@ -330,6 +350,7 @@
     },
     {
       "file": "sections/17-zvonok-po-kliku.md",
+      "images": 5,
       "number": "5.1",
       "order": "17",
       "pages": "30-31",
@@ -344,10 +365,11 @@
         }
       ],
       "title": "Звонок по клику",
-      "tokens": 693
+      "tokens": 2156
     },
     {
       "file": "sections/18-softfon.md",
+      "images": 2,
       "number": "5.2",
       "order": "18",
       "pages": "31-32",
@@ -362,10 +384,11 @@
         }
       ],
       "title": "Софтфон",
-      "tokens": 533
+      "tokens": 1174
     },
     {
       "file": "sections/19-otchety.md",
+      "images": 0,
       "number": "6",
       "order": "19",
       "pages": "32",
@@ -384,6 +407,7 @@
     },
     {
       "file": "sections/20-otchet-po-telefonnym-zvonkam-vats.md",
+      "images": 6,
       "number": "6.1",
       "order": "20",
       "pages": "32-36",
@@ -398,10 +422,11 @@
         }
       ],
       "title": "Отчет по телефонным звонкам ВАТС",
-      "tokens": 2263
+      "tokens": 4696
     },
     {
       "file": "sections/21-kartochka-zvonka.md",
+      "images": 4,
       "number": "6.2",
       "order": "21",
       "pages": "36-38",
@@ -416,10 +441,11 @@
         }
       ],
       "title": "Карточка звонка",
-      "tokens": 932
+      "tokens": 2898
     },
     {
       "file": "sections/22-otchet-telefonnye-zvonki.md",
+      "images": 4,
       "number": "6.3",
       "order": "22",
       "pages": "38-40",
@@ -434,10 +460,11 @@
         }
       ],
       "title": "Отчет «Телефонные звонки»",
-      "tokens": 681
+      "tokens": 2027
     },
     {
       "file": "sections/23-spravochnik-abonentov.md",
+      "images": 0,
       "number": "7",
       "order": "23",
       "pages": "40",
@@ -456,6 +483,7 @@
     },
     {
       "file": "sections/24-kak-otkryt-spravochnik.md",
+      "images": 1,
       "number": "7.1",
       "order": "24",
       "pages": "40",
@@ -470,10 +498,11 @@
         }
       ],
       "title": "Как открыть справочник",
-      "tokens": 217
+      "tokens": 647
     },
     {
       "file": "sections/25-poisk-po-nomeru-telefona.md",
+      "images": 2,
       "number": "7.2",
       "order": "25",
       "pages": "40-41",
@@ -488,10 +517,11 @@
         }
       ],
       "title": "Поиск по номеру телефона",
-      "tokens": 407
+      "tokens": 1325
     },
     {
       "file": "sections/26-poisk-po-parametram-abonenta.md",
+      "images": 1,
       "number": "7.3",
       "order": "26",
       "pages": "41",
@@ -506,10 +536,11 @@
         }
       ],
       "title": "Поиск по параметрам абонента",
-      "tokens": 338
+      "tokens": 590
     },
     {
       "file": "sections/27-filtraciya-zapisey-v-spravochnike.md",
+      "images": 1,
       "number": "7.4",
       "order": "27",
       "pages": "41-43",
@@ -524,10 +555,11 @@
         }
       ],
       "title": "Фильтрация записей в справочнике",
-      "tokens": 424
+      "tokens": 926
     },
     {
       "file": "sections/28-prilozhenie-kak-nastroit-standartnuyu-kn.md",
+      "images": 0,
       "number": "7.4",
       "order": "28",
       "pages": "43",
@@ -546,6 +578,7 @@
     },
     {
       "file": "sections/29-upravleniekontaktnoyinformacieyklient.md",
+      "images": 0,
       "number": "7.4",
       "order": "29",
       "pages": "43",
@@ -564,6 +597,7 @@
     },
     {
       "file": "sections/30-osnovnye-svedeniya.md",
+      "images": 1,
       "number": "7.4",
       "order": "30",
       "pages": "43",
@@ -578,10 +612,11 @@
         }
       ],
       "title": "Основные сведения",
-      "tokens": 282
+      "tokens": 469
     },
     {
       "file": "sections/31-kak-nastroit-konfiguraciyu-modulya.md",
+      "images": 0,
       "number": "7.4",
       "order": "31",
       "pages": "43-45",
@@ -600,6 +635,7 @@
     },
     {
       "file": "sections/32-spisok-izmeneniy-v-dokumente.md",
+      "images": 0,
       "number": "7.4",
       "order": "32",
       "pages": "45-46",
@@ -634,8 +670,8 @@
   ],
   "table_count": 8,
   "token_method": "tiktoken:cl100k_base",
-  "tokens_index": 3550,
-  "tokens_total": 24035,
+  "tokens_index": 3938,
+  "tokens_total": 50698,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 1.0,

@@ -11,7 +11,7 @@
       "title": "Титульная часть",
       "hint": "Прямая интеграция с",
       "pages": "1-4",
-      "tokens": 1395,
+      "tokens": 1369,
       "path": "docs/kb/integration-1c/sections/00-titulnaya-chast.md"
     },
     {
@@ -83,7 +83,7 @@
       "title": "Шаг 3. Подключение виджета интеграции в Личном кабинете MANGO OFFICE",
       "hint": "MANGO OFFICE",
       "pages": "5-7",
-      "tokens": 669,
+      "tokens": 2311,
       "path": "docs/kb/integration-1c/sections/08-shag-3-podklyuchenie-vidzheta-integracii.md"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Шаг 4. Настройка интеграции в 1С",
       "hint": "Подключение расширения конфигурации",
       "pages": "7-17",
-      "tokens": 4360,
+      "tokens": 11632,
       "path": "docs/kb/integration-1c/sections/09-shag-4-nastroyka-integracii-v-1s.md"
     },
     {
@@ -110,7 +110,7 @@
       "title": "Обработка звонков",
       "hint": "Распределение вызовов по ответственным сотрудникам",
       "pages": "17-22",
-      "tokens": 2841,
+      "tokens": 5904,
       "path": "docs/kb/integration-1c/sections/11-obrabotka-zvonkov.md"
     },
     {
@@ -119,7 +119,7 @@
       "title": "Автоматическое создание Клиентов",
       "hint": "С помощью этой настройки вы сможете разрешить или запретить автоматическое создание",
       "pages": "22-23",
-      "tokens": 825,
+      "tokens": 1295,
       "path": "docs/kb/integration-1c/sections/12-avtomaticheskoe-sozdanie-klientov.md"
     },
     {
@@ -128,7 +128,7 @@
       "title": "Обработка звонков при сохранении",
       "hint": "На обработку звонков при сохранении их в 1С влияют параметры:",
       "pages": "23-25",
-      "tokens": 764,
+      "tokens": 1224,
       "path": "docs/kb/integration-1c/sections/13-obrabotka-zvonkov-pri-sohranenii.md"
     },
     {
@@ -137,7 +137,7 @@
       "title": "Управление пользователями интеграции 1С",
       "hint": "Информация о пользователях",
       "pages": "25-29",
-      "tokens": 1438,
+      "tokens": 4377,
       "path": "docs/kb/integration-1c/sections/14-upravlenie-polzovatelyami-integracii-1s.md"
     },
     {
@@ -146,7 +146,7 @@
       "title": "Входящий звонок",
       "hint": "После настройки интеграции с 1С вы можете принимать звонки.",
       "pages": "29",
-      "tokens": 569,
+      "tokens": 1274,
       "path": "docs/kb/integration-1c/sections/15-vhodyaschiy-zvonok.md"
     },
     {
@@ -164,7 +164,7 @@
       "title": "Звонок по клику",
       "hint": "Вы можете инициировать исходящий звонок из следующих элементов 1С:",
       "pages": "30-31",
-      "tokens": 693,
+      "tokens": 2156,
       "path": "docs/kb/integration-1c/sections/17-zvonok-po-kliku.md"
     },
     {
@@ -173,7 +173,7 @@
       "title": "Софтфон",
       "hint": "Это встроенная функция прямой интеграции с 1С, при помощи которой вы можете набрать номер",
       "pages": "31-32",
-      "tokens": 533,
+      "tokens": 1174,
       "path": "docs/kb/integration-1c/sections/18-softfon.md"
     },
     {
@@ -191,7 +191,7 @@
       "title": "Отчет по телефонным звонкам ВАТС",
       "hint": "Это отчет в 1С, который отражает количество звонков, совершенных через вашу Виртуальную",
       "pages": "32-36",
-      "tokens": 2263,
+      "tokens": 4696,
       "path": "docs/kb/integration-1c/sections/20-otchet-po-telefonnym-zvonkam-vats.md"
     },
     {
@@ -200,7 +200,7 @@
       "title": "Карточка звонка",
       "hint": "Общие сведения",
       "pages": "36-38",
-      "tokens": 932,
+      "tokens": 2898,
       "path": "docs/kb/integration-1c/sections/21-kartochka-zvonka.md"
     },
     {
@@ -209,7 +209,7 @@
       "title": "Отчет «Телефонные звонки»",
       "hint": "Отчет «Телефонные звонки» позволяет получить информацию о звонках пользователей через",
       "pages": "38-40",
-      "tokens": 681,
+      "tokens": 2027,
       "path": "docs/kb/integration-1c/sections/22-otchet-telefonnye-zvonki.md"
     },
     {
@@ -227,7 +227,7 @@
       "title": "Как открыть справочник",
       "hint": "Чтобы перейти в справочник абонентов, выполните следующие действия:",
       "pages": "40",
-      "tokens": 217,
+      "tokens": 647,
       "path": "docs/kb/integration-1c/sections/24-kak-otkryt-spravochnik.md"
     },
     {
@@ -236,7 +236,7 @@
       "title": "Поиск по номеру телефона",
       "hint": "Чтобы выполнить поиск абонента по номеру телефона, выполните следующие действия:",
       "pages": "40-41",
-      "tokens": 407,
+      "tokens": 1325,
       "path": "docs/kb/integration-1c/sections/25-poisk-po-nomeru-telefona.md"
     },
     {
@@ -245,7 +245,7 @@
       "title": "Поиск по параметрам абонента",
       "hint": "Поиск абонента в справочнике можно выполнять не только по номеру телефона, но и по",
       "pages": "41",
-      "tokens": 338,
+      "tokens": 590,
       "path": "docs/kb/integration-1c/sections/26-poisk-po-parametram-abonenta.md"
     },
     {
@@ -254,7 +254,7 @@
       "title": "Фильтрация записей в справочнике",
       "hint": "Вы можете вывести на экран все записи справочника абонентов, в которых есть определенный",
       "pages": "41-43",
-      "tokens": 424,
+      "tokens": 926,
       "path": "docs/kb/integration-1c/sections/27-filtraciya-zapisey-v-spravochnike.md"
     },
     {
@@ -281,7 +281,7 @@
       "title": "Основные сведения",
       "hint": "Вы можете настроить кнопку стандартного функционала конфигурации так, чтобы она",
       "pages": "43",
-      "tokens": 282,
+      "tokens": 469,
       "path": "docs/kb/integration-1c/sections/30-osnovnye-svedeniya.md"
     },
     {

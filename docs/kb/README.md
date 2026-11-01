@@ -77,17 +77,20 @@ multi-part документов `pages` остаётся сквозной паг
 | [`mango-lk-manual/`](mango-lk-manual/index.md) | справочник абонента ЛК ВАТС v1.25, редакция v 26.42 от 07.10.2026; иллюстрации с текстовыми описаниями ([`IMAGES.md`](mango-lk-manual/IMAGES.md)); извлекается [`tools/extract_lk_manual.py`](tools/extract_lk_manual.py) (issue #8) |
 | [`mtalker/`](mtalker/index.md) | комплект из 5 документов Mango Talker (issues #121, #317; описания иллюстраций Android и Windows/macOS — issue #11) |
 | [`vpbx-api/`](vpbx-api/index.md) | API ВАТС MANGO OFFICE v1.9 (issue #310) |
-| [`rolevaya-model-vats/`](rolevaya-model-vats/index.md) | роли и права доступа ВАТС v1.26.08 (issue #310) |
+| [`rolevaya-model-vats/`](rolevaya-model-vats/index.md) | роли и права доступа ВАТС v1.26.08 (issue #310) (issue #12: иллюстрации описаны текстом, декоративные удалены, PNG оптимизированы — [`IMAGES.md`](rolevaya-model-vats/IMAGES.md)) |
 | [`lk-vats-sso/`](lk-vats-sso/index.md) | аутентификация и авторизация в рамках SSO (issue #310) |
 | [`cov-robot-fil/`](cov-robot-fil/index.md) | голосовой робот и фильтр вызовов v1.26.28 (issue #317; описания иллюстраций — issue #11) |
 | [`mdialogi-api/`](mdialogi-api/index.md) | API MDialogi от 10.06.2026 (issue #317) |
-| [`integration-1c/`](integration-1c/index.md) | прямая интеграция ВАТС с «1С: Управление торговлей» от 22.12.2025 (issues #310, #320) |
-| [`integration-amocrm/`](integration-amocrm/index.md) | интеграция ВАТС и amoCRM от 25.08.2025 (issue #320) |
-| [`integration-bitrix24/`](integration-bitrix24/index.md) | интеграция ВАТС и Битрикс24 от 03.03.2026 (issue #320) |
-| [`integration-bpmsoft/`](integration-bpmsoft/index.md) | интеграция ВАТС и BPMSoft от 22.06.2026 (issue #320) |
-| [`sip-trunk/`](sip-trunk/index.md) | SIP TRUNK, руководство пользователя v1.23.43 (issue #320) |
+| [`integration-1c/`](integration-1c/index.md) | прямая интеграция ВАТС с «1С: Управление торговлей» от 22.12.2025 (issues #310, #320) (issue #12: иллюстрации описаны текстом, декоративные удалены, PNG оптимизированы — [`IMAGES.md`](integration-1c/IMAGES.md)) |
+| [`integration-amocrm/`](integration-amocrm/index.md) | интеграция ВАТС и amoCRM от 25.08.2025 (issue #320) (issue #12: иллюстрации описаны текстом, декоративные удалены, PNG оптимизированы — [`IMAGES.md`](integration-amocrm/IMAGES.md)) |
+| [`integration-bitrix24/`](integration-bitrix24/index.md) | интеграция ВАТС и Битрикс24 от 03.03.2026 (issue #320) (issue #12: иллюстрации описаны текстом, декоративные удалены, PNG оптимизированы — [`IMAGES.md`](integration-bitrix24/IMAGES.md)) |
+| [`integration-bpmsoft/`](integration-bpmsoft/index.md) | интеграция ВАТС и BPMSoft от 22.06.2026 (issue #320) (issue #12: иллюстрации описаны текстом, декоративные удалены, PNG оптимизированы — [`IMAGES.md`](integration-bpmsoft/IMAGES.md)) |
+| [`sip-trunk/`](sip-trunk/index.md) | SIP TRUNK, руководство пользователя v1.23.43 (issue #320) (issue #12: иллюстрации описаны текстом, декоративные удалены, PNG оптимизированы — [`IMAGES.md`](sip-trunk/IMAGES.md)) |
 | [`quality-management/`](quality-management/index.md) | контроль качества v1.26.18 (issue #320; описания иллюстраций — issue #11) |
 | [`speech-analytics/`](speech-analytics/index.md) | комплект из 4 руководств «Речевая аналитика» v1.26.15–1.26.42; «Руководство пользователя» обновлено до v1.26.42 с описаниями иллюстраций (issues #320, #11) |
+| [`api-server-client/`](api-server-client/index.md) | описание API «Сервер-клиент», версия от 18.09.2024; извлекается [`tools/extract_kb_doc.py`](tools/extract_kb_doc.py), иллюстрации описаны ([`IMAGES.md`](api-server-client/IMAGES.md)) (issue #12) |
+| [`integration-ident/`](integration-ident/index.md) | интеграция ВАТС и IDENT от 14.01.2025; [`tools/extract_kb_doc.py`](tools/extract_kb_doc.py), [`IMAGES.md`](integration-ident/IMAGES.md) (issue #12) |
+| [`wallboard/`](wallboard/index.md) | программа для ЭВМ «Wallboard Mango Office» v7.22.25; [`tools/extract_kb_doc.py`](tools/extract_kb_doc.py), [`IMAGES.md`](wallboard/IMAGES.md) (issue #12) |
 
 Синтетическая фикстура `contact-center-manual-sample/` удалена в issue #310:
 БЗ содержит только извлечения реальных документов. Стенд конвейера

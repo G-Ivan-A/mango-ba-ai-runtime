@@ -15,6 +15,7 @@ source_refs: '[{"source_pdf":"kb/sources/sip-trunk/MO_SIP_Trunk.pdf","part":1,"p
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
 tokens: 67
+images: 0
 status: extracted
 ai-generated: true
 ---

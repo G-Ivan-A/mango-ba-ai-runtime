@@ -1,0 +1,199 @@
+{
+  "document_id": "wallboard",
+  "index": "docs/kb/wallboard/index.md",
+  "product_ids": [
+    "contact-center",
+    "analytics-reporting"
+  ],
+  "sections": [
+    {
+      "id": "wallboard-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Программа для ЭВМ «Wallboard Mango Office»",
+      "pages": "1-3",
+      "tokens": 507,
+      "path": "docs/kb/wallboard/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "wallboard-01-nachalo-raboty",
+      "section": "1",
+      "title": "Начало работы",
+      "hint": "Модуль Программа для ЭВМ \"Wallboard Mango Office\" отражает индивидуальные или командные ре",
+      "pages": "3",
+      "tokens": 138,
+      "path": "docs/kb/wallboard/sections/01-nachalo-raboty.md"
+    },
+    {
+      "id": "wallboard-02-podklyuchenie-modulya-programma-dlya-evm",
+      "section": "1.1",
+      "title": "Подключение модуля Программа для ЭВМ \"Wallboard Mango Office\" в Личном кабинете ВАТС",
+      "hint": "Для подключения кликните по иконке модуля в левом вертикальном меню Личного кабинета польз",
+      "pages": "3-4",
+      "tokens": 978,
+      "path": "docs/kb/wallboard/sections/02-podklyuchenie-modulya-programma-dlya-evm.md"
+    },
+    {
+      "id": "wallboard-03-sozdanie-akkaunta-wallboard",
+      "section": "1.2",
+      "title": "Создание аккаунта Wallboard",
+      "hint": "Заполните поля формы создания аккаунта Wallboard. Пароль должен содержать не менее 8 симво",
+      "pages": "4-6",
+      "tokens": 1542,
+      "path": "docs/kb/wallboard/sections/03-sozdanie-akkaunta-wallboard.md"
+    },
+    {
+      "id": "wallboard-04-stranica-avtorizacii",
+      "section": "2",
+      "title": "Страница авторизации",
+      "hint": "Доступ к модулю Программа для ЭВМ \"Wallboard Mango Office\" осуществляется по адресу https:",
+      "pages": "6-7",
+      "tokens": 344,
+      "path": "docs/kb/wallboard/sections/04-stranica-avtorizacii.md"
+    },
+    {
+      "id": "wallboard-05-nastroyka-wallboard",
+      "section": "3",
+      "title": "Настройка Wallboard",
+      "hint": "При первом входе в систему пользователь может воспользоваться одним из уже настроенных в с",
+      "pages": "7-8",
+      "tokens": 405,
+      "path": "docs/kb/wallboard/sections/05-nastroyka-wallboard.md"
+    },
+    {
+      "id": "wallboard-06-nastroyka-wallboard-po-shablonu",
+      "section": "3.1",
+      "title": "Настройка Wallboard по шаблону",
+      "hint": "",
+      "pages": "8",
+      "tokens": 0,
+      "path": "docs/kb/wallboard/sections/06-nastroyka-wallboard-po-shablonu.md"
+    },
+    {
+      "id": "wallboard-07-vybor-shablona",
+      "section": "3.1.1",
+      "title": "Выбор шаблона",
+      "hint": "Для того, чтобы выбрать шаблон, пользователь должен выделить соответствующую иконку и нажа",
+      "pages": "8-9",
+      "tokens": 630,
+      "path": "docs/kb/wallboard/sections/07-vybor-shablona.md"
+    },
+    {
+      "id": "wallboard-08-vybor-gruppy-dlya-monitoringa",
+      "section": "3.1.2",
+      "title": "Выбор группы для мониторинга",
+      "hint": "Если на предыдущем шаге был выбран один из трех преднастроенных шаблонов, откроется окно в",
+      "pages": "9",
+      "tokens": 455,
+      "path": "docs/kb/wallboard/sections/08-vybor-gruppy-dlya-monitoringa.md"
+    },
+    {
+      "id": "wallboard-09-nastroyka-svoego-shablona-pokazateley-wa",
+      "section": "3.2",
+      "title": "Настройка «своего шаблона» показателей Wallboard",
+      "hint": "При выборе собственного варианта отображения монитора показателей открывается экран с пуст",
+      "pages": "9-11",
+      "tokens": 676,
+      "path": "docs/kb/wallboard/sections/09-nastroyka-svoego-shablona-pokazateley-wa.md"
+    },
+    {
+      "id": "wallboard-10-nastroyka-vidzheta-obschego-gruppovogo-p",
+      "section": "3.2.1",
+      "title": "Настройка виджета общего группового показателя",
+      "hint": "Рис. 3.2.1 – Окно настройки виджета общего группового показателя.",
+      "pages": "11-13",
+      "tokens": 705,
+      "path": "docs/kb/wallboard/sections/10-nastroyka-vidzheta-obschego-gruppovogo-p.md"
+    },
+    {
+      "id": "wallboard-11-nastroyka-vidzheta-personalnogo-pokazate",
+      "section": "3.2.2",
+      "title": "Настройка виджета персонального показателя (рейтинга)",
+      "hint": "Рис. 3.2.2 – Окно настройки виджета персонального показателя (рейтинга).",
+      "pages": "13-14",
+      "tokens": 1156,
+      "path": "docs/kb/wallboard/sections/11-nastroyka-vidzheta-personalnogo-pokazate.md"
+    },
+    {
+      "id": "wallboard-12-pokazateli-proizvoditelnosti-wallboard",
+      "section": "3.3",
+      "title": "Показатели производительности Wallboard",
+      "hint": "Показатели производительности, используемые в модуле Программа для ЭВМ \"Wallboard Mango Of",
+      "pages": "14-15",
+      "tokens": 524,
+      "path": "docs/kb/wallboard/sections/12-pokazateli-proizvoditelnosti-wallboard.md"
+    },
+    {
+      "id": "wallboard-13-pokazateli-proizvoditelnosti-gruppy-zvon",
+      "section": "3.3.1",
+      "title": "Показатели производительности группы «Звонки»",
+      "hint": "Количество успешно совершенных",
+      "pages": "15-19",
+      "tokens": 4495,
+      "path": "docs/kb/wallboard/sections/13-pokazateli-proizvoditelnosti-gruppy-zvon.md"
+    },
+    {
+      "id": "wallboard-14-pokazateli-proizvoditelnosti-gruppy-sdel",
+      "section": "3.3.2",
+      "title": "Показатели производительности группы «Сделки»",
+      "hint": "Для группы Количество заведенных сделок (и не",
+      "pages": "19-20",
+      "tokens": 2461,
+      "path": "docs/kb/wallboard/sections/14-pokazateli-proizvoditelnosti-gruppy-sdel.md"
+    },
+    {
+      "id": "wallboard-15-pokazateli-proizvoditelnosti-gruppy-bitr",
+      "section": "3.3.3",
+      "title": "Показатели производительности группы «Битрикс24»",
+      "hint": "Показатели производительности, доступные при интеграции с Битрикс24.",
+      "pages": "20-23",
+      "tokens": 2268,
+      "path": "docs/kb/wallboard/sections/15-pokazateli-proizvoditelnosti-gruppy-bitr.md"
+    },
+    {
+      "id": "wallboard-16-glavnoe-okno-modulya",
+      "section": "4",
+      "title": "Главное окно модуля",
+      "hint": "На главном окне отображаются:",
+      "pages": "23-24",
+      "tokens": 1239,
+      "path": "docs/kb/wallboard/sections/16-glavnoe-okno-modulya.md"
+    },
+    {
+      "id": "wallboard-17-personalnye-pokazateli-reytingi",
+      "section": "4.1",
+      "title": "Персональные показатели (рейтинги)",
+      "hint": "Рейтинг может быть сформирован:",
+      "pages": "24",
+      "tokens": 83,
+      "path": "docs/kb/wallboard/sections/17-personalnye-pokazateli-reytingi.md"
+    },
+    {
+      "id": "wallboard-18-reyting-po-sotrudnikam",
+      "section": "4.1.1",
+      "title": "Рейтинг по сотрудникам",
+      "hint": "Сотрудники располагаются в рейтинге в порядке убывания значения показателя. Лидер рейтинга",
+      "pages": "24-27",
+      "tokens": 1168,
+      "path": "docs/kb/wallboard/sections/18-reyting-po-sotrudnikam.md"
+    },
+    {
+      "id": "wallboard-19-reyting-po-gruppam",
+      "section": "4.1.2",
+      "title": "Рейтинг по группам",
+      "hint": "Группы располагаются в рейтинге в порядке убывания значения показателя.",
+      "pages": "27-28",
+      "tokens": 641,
+      "path": "docs/kb/wallboard/sections/19-reyting-po-gruppam.md"
+    },
+    {
+      "id": "wallboard-20-obschie-gruppovye-pokazateli",
+      "section": "4.2",
+      "title": "Общие групповые показатели",
+      "hint": "• Наименование показателя; • Данные о текущем и плановом (если задано) значении показателя",
+      "pages": "28",
+      "tokens": 533,
+      "path": "docs/kb/wallboard/sections/20-obschie-gruppovye-pokazateli.md"
+    }
+  ]
+}

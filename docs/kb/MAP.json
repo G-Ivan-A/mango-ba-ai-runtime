@@ -14,6 +14,24 @@
   },
   "documents": [
     {
+      "id": "api-server-client",
+      "group_id": "api-server-client",
+      "title": "Описание API «Сервер-клиент». API MANGO OFFICE",
+      "version": "18.09.2024",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "API Сервер-клиент",
+        "Server-client API",
+        "WebSocket",
+        "интеграция клиента"
+      ],
+      "index": "docs/kb/api-server-client/index.md",
+      "sections_map": "docs/kb/maps/api-server-client.json",
+      "section_count": 57
+    },
+    {
       "id": "cov-robot-fil",
       "group_id": "cov-robot-fil",
       "title": "Модуль ЦОВ «Робот Фил 2,0». Руководство пользователя",
@@ -96,6 +114,24 @@
       "index": "docs/kb/integration-bpmsoft/index.md",
       "sections_map": "docs/kb/maps/integration-bpmsoft.json",
       "section_count": 127
+    },
+    {
+      "id": "integration-ident",
+      "group_id": "integration-ident",
+      "title": "Интеграция Виртуальной АТС и системы IDENT. Инструкция по настройке",
+      "version": "14.01.2025",
+      "product_ids": [
+        "voice-ucaas"
+      ],
+      "aliases": [
+        "IDENT",
+        "стоматология",
+        "медицинская CRM",
+        "интеграция CRM"
+      ],
+      "index": "docs/kb/integration-ident/index.md",
+      "sections_map": "docs/kb/maps/integration-ident.json",
+      "section_count": 9
     },
     {
       "id": "lk-vats-sso",
@@ -390,6 +426,25 @@
       "index": "docs/kb/vpbx-api/index.md",
       "sections_map": "docs/kb/maps/vpbx-api.json",
       "section_count": 255
+    },
+    {
+      "id": "wallboard",
+      "group_id": "wallboard",
+      "title": "Программа для ЭВМ «Wallboard Mango Office». Руководство пользователя",
+      "version": "7.22.25",
+      "product_ids": [
+        "contact-center",
+        "analytics-reporting"
+      ],
+      "aliases": [
+        "Wallboard",
+        "табло",
+        "рейтинг операторов",
+        "показатели в реальном времени"
+      ],
+      "index": "docs/kb/wallboard/index.md",
+      "sections_map": "docs/kb/maps/wallboard.json",
+      "section_count": 21
     }
   ]
 }

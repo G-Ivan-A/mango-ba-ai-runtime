@@ -7,11 +7,14 @@
   "doc_title": "SIP TRUNK. Руководство пользователя",
   "doc_version": "1.23.43",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 91,
+  "image_count": 49,
+  "image_description": "PDF context above the image + caption + tesseract OCR (rus+eng)",
+  "image_description_date": "2026-11-01",
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_dropped_decorative": 42,
   "note": "Руководство пользователя по настройке и использованию SIP-транков в Mango Office. Описывает подключение внешних операторов, управление каналами, маршрутизацию и мониторинг.",
   "page_count": 42,
   "part_count": 1,
@@ -24,6 +27,7 @@
   "sections": [
     {
       "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
       "number": "—",
       "order": "00",
       "pages": "1-3",
@@ -38,10 +42,11 @@
         }
       ],
       "title": "Титульная часть",
-      "tokens": 675
+      "tokens": 597
     },
     {
       "file": "sections/01-terminy-i-opredeleniya.md",
+      "images": 0,
       "number": "1",
       "order": "01",
       "pages": "3",
@@ -60,6 +65,7 @@
     },
     {
       "file": "sections/02-chto-takoe-sip-trunk.md",
+      "images": 1,
       "number": "2",
       "order": "02",
       "pages": "3-4",
@@ -74,10 +80,11 @@
         }
       ],
       "title": "Что такое SIP Trunk",
-      "tokens": 262
+      "tokens": 441
     },
     {
       "file": "sections/03-sozdanie-i-redaktirovanie-sip-trunk.md",
+      "images": 1,
       "number": "3",
       "order": "03",
       "pages": "4",
@@ -92,10 +99,11 @@
         }
       ],
       "title": "Создание и редактирование SIP Trunk",
-      "tokens": 270
+      "tokens": 651
     },
     {
       "file": "sections/04-1.md",
+      "images": 0,
       "number": "3",
       "order": "04",
       "pages": "5",
@@ -114,6 +122,7 @@
     },
     {
       "file": "sections/05-2.md",
+      "images": 0,
       "number": "3",
       "order": "05",
       "pages": "5",
@@ -132,6 +141,7 @@
     },
     {
       "file": "sections/06-3.md",
+      "images": 0,
       "number": "3",
       "order": "06",
       "pages": "5",
@@ -146,10 +156,11 @@
         }
       ],
       "title": "3.",
-      "tokens": 73
+      "tokens": 52
     },
     {
       "file": "sections/07-vneshniy-sip-trunk.md",
+      "images": 0,
       "number": "3.1",
       "order": "07",
       "pages": "5",
@@ -168,6 +179,7 @@
     },
     {
       "file": "sections/08-nastroyka.md",
+      "images": 1,
       "number": "3.1.1",
       "order": "08",
       "pages": "5-8",
@@ -182,10 +194,11 @@
         }
       ],
       "title": "Настройка",
-      "tokens": 1779
+      "tokens": 2135
     },
     {
       "file": "sections/09-nomera.md",
+      "images": 2,
       "number": "3.1.2",
       "order": "09",
       "pages": "8-9",
@@ -200,10 +213,11 @@
         }
       ],
       "title": "Номера",
-      "tokens": 639
+      "tokens": 1101
     },
     {
       "file": "sections/10-marshrutizaciya.md",
+      "images": 1,
       "number": "3.1.3",
       "order": "10",
       "pages": "9-11",
@@ -218,10 +232,11 @@
         }
       ],
       "title": "Маршрутизация",
-      "tokens": 1636
+      "tokens": 2006
     },
     {
       "file": "sections/11-pravila-ispolzovanie-masok.md",
+      "images": 0,
       "number": "3.1.3.1",
       "order": "11",
       "pages": "11-12",
@@ -236,10 +251,11 @@
         }
       ],
       "title": "Правила использование масок:",
-      "tokens": 493
+      "tokens": 463
     },
     {
       "file": "sections/12-pravila-preobrazovaniya-nomera.md",
+      "images": 0,
       "number": "3.1.3.2",
       "order": "12",
       "pages": "12",
@@ -258,6 +274,7 @@
     },
     {
       "file": "sections/13-rezervirovanie.md",
+      "images": 1,
       "number": "3.1.4",
       "order": "13",
       "pages": "12-13",
@@ -272,10 +289,11 @@
         }
       ],
       "title": "Резервирование",
-      "tokens": 226
+      "tokens": 608
     },
     {
       "file": "sections/14-vnutrenniy-sip-trunk.md",
+      "images": 0,
       "number": "3.2",
       "order": "14",
       "pages": "13",
@@ -294,6 +312,7 @@
     },
     {
       "file": "sections/15-nastroyka.md",
+      "images": 1,
       "number": "3.2.1",
       "order": "15",
       "pages": "13-14",
@@ -308,10 +327,11 @@
         }
       ],
       "title": "Настройка",
-      "tokens": 287
+      "tokens": 751
     },
     {
       "file": "sections/16-nomera.md",
+      "images": 1,
       "number": "3.2.2",
       "order": "16",
       "pages": "14-15",
@@ -326,10 +346,11 @@
         }
       ],
       "title": "Номера",
-      "tokens": 223
+      "tokens": 448
     },
     {
       "file": "sections/17-marshrutizaciya.md",
+      "images": 1,
       "number": "3.2.3",
       "order": "17",
       "pages": "15-16",
@@ -344,10 +365,11 @@
         }
       ],
       "title": "Маршрутизация",
-      "tokens": 172
+      "tokens": 493
     },
     {
       "file": "sections/18-aktivaciya-sip-trunk-v-kartochke-sotrudn.md",
+      "images": 1,
       "number": "3.3",
       "order": "18",
       "pages": "16",
@@ -362,10 +384,11 @@
         }
       ],
       "title": "Активация SIP Trunk в карточке сотрудника",
-      "tokens": 361
+      "tokens": 572
     },
     {
       "file": "sections/19-1.md",
+      "images": 0,
       "number": "3",
       "order": "19",
       "pages": "17",
@@ -384,6 +407,7 @@
     },
     {
       "file": "sections/20-2.md",
+      "images": 0,
       "number": "3",
       "order": "20",
       "pages": "17",
@@ -402,6 +426,7 @@
     },
     {
       "file": "sections/21-3.md",
+      "images": 0,
       "number": "3",
       "order": "21",
       "pages": "17",
@@ -420,6 +445,7 @@
     },
     {
       "file": "sections/22-3-1.md",
+      "images": 0,
       "number": "3",
       "order": "22",
       "pages": "17",
@@ -434,10 +460,11 @@
         }
       ],
       "title": "3.1.",
-      "tokens": 54
+      "tokens": 179
     },
     {
       "file": "sections/23-3-2.md",
+      "images": 0,
       "number": "3",
       "order": "23",
       "pages": "17",
@@ -452,10 +479,11 @@
         }
       ],
       "title": "3.2.",
-      "tokens": 54
+      "tokens": 179
     },
     {
       "file": "sections/24-3-3.md",
+      "images": 0,
       "number": "3",
       "order": "24",
       "pages": "17",
@@ -470,10 +498,11 @@
         }
       ],
       "title": "3.3.",
-      "tokens": 357
+      "tokens": 334
     },
     {
       "file": "sections/25-redaktirovanie-sip-trunk.md",
+      "images": 0,
       "number": "3.4",
       "order": "25",
       "pages": "17",
@@ -492,6 +521,7 @@
     },
     {
       "file": "sections/26-udalenie-sip-trunk.md",
+      "images": 1,
       "number": "3.5",
       "order": "26",
       "pages": "17",
@@ -506,10 +536,11 @@
         }
       ],
       "title": "Удаление SIP Trunk",
-      "tokens": 286
+      "tokens": 475
     },
     {
       "file": "sections/27-rabochaya-panel-sip-trunk.md",
+      "images": 0,
       "number": "4",
       "order": "27",
       "pages": "17-18",
@@ -524,10 +555,11 @@
         }
       ],
       "title": "Рабочая панель SIP Trunk",
-      "tokens": 165
+      "tokens": 137
     },
     {
       "file": "sections/28-spisok-trankov.md",
+      "images": 8,
       "number": "4.1",
       "order": "28",
       "pages": "18",
@@ -542,10 +574,11 @@
         }
       ],
       "title": "Список транков",
-      "tokens": 591
+      "tokens": 2177
     },
     {
       "file": "sections/29-spisok-pravil-marshrutizacii.md",
+      "images": 1,
       "number": "4.2",
       "order": "29",
       "pages": "18-19",
@@ -560,10 +593,11 @@
         }
       ],
       "title": "Список правил маршрутизации",
-      "tokens": 241
+      "tokens": 519
     },
     {
       "file": "sections/30-nastroyka-shemy-raspredeleniya-zvonkov-v.md",
+      "images": 5,
       "number": "5",
       "order": "30",
       "pages": "19-22",
@@ -578,10 +612,11 @@
         }
       ],
       "title": "Настройка схемы распределения звонков в Личном кабинете",
-      "tokens": 837
+      "tokens": 2166
     },
     {
       "file": "sections/31-primery-nastroyki-zvonkov-cherez-sip-tru.md",
+      "images": 6,
       "number": "6",
       "order": "31",
       "pages": "22-30",
@@ -596,10 +631,11 @@
         }
       ],
       "title": "Примеры настройки звонков через SIP Trunk",
-      "tokens": 3627
+      "tokens": 6176
     },
     {
       "file": "sections/32-konfiguraciya-populyarnyh-pbx.md",
+      "images": 0,
       "number": "7",
       "order": "32",
       "pages": "30",
@@ -618,6 +654,7 @@
     },
     {
       "file": "sections/33-sozdanie-sip-trunk-dlya-freepbx-asterisk.md",
+      "images": 6,
       "number": "7.1",
       "order": "33",
       "pages": "30-35",
@@ -632,10 +669,11 @@
         }
       ],
       "title": "Создание SIP trunk для FreePBX (Asterisk)",
-      "tokens": 2430
+      "tokens": 3840
     },
     {
       "file": "sections/34-kak-proverit-sostoyanie-tranka.md",
+      "images": 1,
       "number": "7.1.1",
       "order": "34",
       "pages": "35",
@@ -650,10 +688,11 @@
         }
       ],
       "title": "Как проверить состояние транка",
-      "tokens": 123
+      "tokens": 291
     },
     {
       "file": "sections/35-ishodyaschaya-marshrutizaciya.md",
+      "images": 4,
       "number": "7.1.2",
       "order": "35",
       "pages": "35-38",
@@ -668,10 +707,11 @@
         }
       ],
       "title": "Исходящая маршрутизация",
-      "tokens": 995
+      "tokens": 1841
     },
     {
       "file": "sections/36-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md",
+      "images": 4,
       "number": "7.2",
       "order": "36",
       "pages": "38-40",
@@ -686,10 +726,11 @@
         }
       ],
       "title": "Создание SIP trunk для FusionPBX (Freeswitch)",
-      "tokens": 439
+      "tokens": 1186
     },
     {
       "file": "sections/37-7-2-1-ishodyaschaya-marshrutizaciya.md",
+      "images": 2,
       "number": "7.2",
       "order": "37",
       "pages": "40-42",
@@ -704,10 +745,11 @@
         }
       ],
       "title": "7.2.1.Исходящая маршрутизация",
-      "tokens": 338
+      "tokens": 824
     },
     {
       "file": "sections/38-roli-i-prava-dostupa.md",
+      "images": 0,
       "number": "8",
       "order": "38",
       "pages": "42",
@@ -742,8 +784,8 @@
   ],
   "table_count": 16,
   "token_method": "tiktoken:cl100k_base",
-  "tokens_index": 3428,
-  "tokens_total": 19061,
+  "tokens_index": 3795,
+  "tokens_total": 32070,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 0.993,

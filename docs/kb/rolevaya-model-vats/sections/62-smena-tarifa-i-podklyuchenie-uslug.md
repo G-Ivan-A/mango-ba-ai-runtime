@@ -14,7 +14,8 @@ source_pages: "ч.1: 56-57"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"56-57","global_pages":"56-57"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 430
+tokens: 397
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -29,8 +30,6 @@ ai-generated: true
 | Акцептировать оферты и<br>другие юридические<br>документы | Недоступно | Доступно | Доступно | Доступно | Недоступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 56
-
-![Изображение, стр. 57](../images/62-smena-tarifa-i-podklyuchenie-uslug-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

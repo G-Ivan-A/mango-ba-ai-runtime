@@ -1,0 +1,522 @@
+{
+  "document_id": "api-server-client",
+  "index": "docs/kb/api-server-client/index.md",
+  "product_ids": [
+    "voice-ucaas"
+  ],
+  "sections": [
+    {
+      "id": "api-server-client-00-titulnaya-chast",
+      "section": "—",
+      "title": "Титульная часть",
+      "hint": "Описание API «Сервер-клиент»",
+      "pages": "1-3",
+      "tokens": 1128,
+      "path": "docs/kb/api-server-client/sections/00-titulnaya-chast.md"
+    },
+    {
+      "id": "api-server-client-01-annotaciya",
+      "section": "—",
+      "title": "Аннотация",
+      "hint": "В этом документе описаны основные принципы работы с API «Сервер-клиент», приведены примеры",
+      "pages": "4",
+      "tokens": 61,
+      "path": "docs/kb/api-server-client/sections/01-annotaciya.md"
+    },
+    {
+      "id": "api-server-client-02-principy-integracii-i-obrabotka-oshibok",
+      "section": "1",
+      "title": "Принципы интеграции и обработка ошибок",
+      "hint": "",
+      "pages": "4",
+      "tokens": 0,
+      "path": "docs/kb/api-server-client/sections/02-principy-integracii-i-obrabotka-oshibok.md"
+    },
+    {
+      "id": "api-server-client-03-naznachenie",
+      "section": "1.1",
+      "title": "Назначение",
+      "hint": "API «Сервер-клиент» (далее по тексту – Сервис) позволяет внешним приложениям:",
+      "pages": "4",
+      "tokens": 277,
+      "path": "docs/kb/api-server-client/sections/03-naznachenie.md"
+    },
+    {
+      "id": "api-server-client-04-trebovaniya-sovmestimosti-i-spisok-podde",
+      "section": "1.2",
+      "title": "Требования совместимости и список поддерживаемых протоколов",
+      "hint": "Чтобы взаимодействовать с Сервисом, внешняя система должна обеспечивать:",
+      "pages": "4",
+      "tokens": 87,
+      "path": "docs/kb/api-server-client/sections/04-trebovaniya-sovmestimosti-i-spisok-podde.md"
+    },
+    {
+      "id": "api-server-client-05-dostup-k-funkciyam",
+      "section": "1.3",
+      "title": "Доступ к функциям",
+      "hint": "Сервис доступен по ссылке:",
+      "pages": "5",
+      "tokens": 167,
+      "path": "docs/kb/api-server-client/sections/05-dostup-k-funkciyam.md"
+    },
+    {
+      "id": "api-server-client-06-obrabotka-oshibok",
+      "section": "1.4",
+      "title": "Обработка ошибок",
+      "hint": "В случае некорректных данных или при возникновении ошибок обработки данных любой из методо",
+      "pages": "5",
+      "tokens": 123,
+      "path": "docs/kb/api-server-client/sections/06-obrabotka-oshibok.md"
+    },
+    {
+      "id": "api-server-client-07-opisanie-primerov-ispolzovaniya-servisa",
+      "section": "2",
+      "title": "Описание примеров использования Сервиса",
+      "hint": "",
+      "pages": "5",
+      "tokens": 0,
+      "path": "docs/kb/api-server-client/sections/07-opisanie-primerov-ispolzovaniya-servisa.md"
+    },
+    {
+      "id": "api-server-client-08-posledovatelnost-podklyucheniya-servisa",
+      "section": "2.1",
+      "title": "Последовательность подключения Сервиса",
+      "hint": "1) создать интеграцию, выполнив запрос создания интерации (/integration/create), при этом",
+      "pages": "5-6",
+      "tokens": 718,
+      "path": "docs/kb/api-server-client/sections/08-posledovatelnost-podklyucheniya-servisa.md"
+    },
+    {
+      "id": "api-server-client-09-korrektnoe-zavershenie-raboty-prilozheni",
+      "section": "2.2",
+      "title": "Корректное завершение работы приложения пользователя",
+      "hint": "1) клиентское приложение завершает вебсокет сессию (вкладка браузера закрывается, выход из",
+      "pages": "6",
+      "tokens": 178,
+      "path": "docs/kb/api-server-client/sections/09-korrektnoe-zavershenie-raboty-prilozheni.md"
+    },
+    {
+      "id": "api-server-client-10-poryadok-polucheniya-propuschennyh-sobyt",
+      "section": "2.3",
+      "title": "Порядок получения пропущенных событий",
+      "hint": "1) пользователь не залогинен в websocket-сессии; 2) все события, проходящие через систему,",
+      "pages": "7",
+      "tokens": 267,
+      "path": "docs/kb/api-server-client/sections/10-poryadok-polucheniya-propuschennyh-sobyt.md"
+    },
+    {
+      "id": "api-server-client-11-poryadok-iniciirovaniya-zvonka-callback",
+      "section": "2.4",
+      "title": "Порядок инициирования звонка callback",
+      "hint": "1) у пользователя открыт софтфон или иное настроенное средство приема; 2) выполняется запр",
+      "pages": "7",
+      "tokens": 146,
+      "path": "docs/kb/api-server-client/sections/11-poryadok-iniciirovaniya-zvonka-callback.md"
+    },
+    {
+      "id": "api-server-client-12-poryadok-proigryvaniya-zapisi",
+      "section": "2.5",
+      "title": "Порядок проигрывания записи",
+      "hint": "1) осуществляется запись звонка более 6 секунд; 2) после получения события записи (/record",
+      "pages": "7",
+      "tokens": 165,
+      "path": "docs/kb/api-server-client/sections/12-poryadok-proigryvaniya-zapisi.md"
+    },
+    {
+      "id": "api-server-client-13-poryadok-perevoda-na-otvetstvennogo-sotr",
+      "section": "2.6",
+      "title": "Порядок перевода на ответственного сотрудника",
+      "hint": "1) при получении входящего звонка на ВАТС Сервис отправляет событие телефонии (/ivr) в ста",
+      "pages": "8",
+      "tokens": 207,
+      "path": "docs/kb/api-server-client/sections/13-poryadok-perevoda-na-otvetstvennogo-sotr.md"
+    },
+    {
+      "id": "api-server-client-14-zvonki-na-gruppu",
+      "section": "2.7",
+      "title": "Звонки на группу",
+      "hint": "1) происходит звонок на группу в ВАТС; 2) один из сотрудников группы поднял трубку; 3) ост",
+      "pages": "8",
+      "tokens": 182,
+      "path": "docs/kb/api-server-client/sections/14-zvonki-na-gruppu.md"
+    },
+    {
+      "id": "api-server-client-15-rest-api",
+      "section": "3",
+      "title": "REST API",
+      "hint": "",
+      "pages": "9",
+      "tokens": 0,
+      "path": "docs/kb/api-server-client/sections/15-rest-api.md"
+    },
+    {
+      "id": "api-server-client-16-opisanie-zaprosov",
+      "section": "3.1",
+      "title": "Описание запросов",
+      "hint": "",
+      "pages": "9",
+      "tokens": 0,
+      "path": "docs/kb/api-server-client/sections/16-opisanie-zaprosov.md"
+    },
+    {
+      "id": "api-server-client-17-sozdanie-integracii",
+      "section": "3.1.1",
+      "title": "Создание интеграции",
+      "hint": "POST /v1/integration/create",
+      "pages": "9-11",
+      "tokens": 1251,
+      "path": "docs/kb/api-server-client/sections/17-sozdanie-integracii.md"
+    },
+    {
+      "id": "api-server-client-18-obnovlenie-integracii",
+      "section": "3.1.2",
+      "title": "Обновление интеграции",
+      "hint": "POST /v1/integration/update/ Header[X-Mango-API-Token]",
+      "pages": "11-12",
+      "tokens": 1169,
+      "path": "docs/kb/api-server-client/sections/18-obnovlenie-integracii.md"
+    },
+    {
+      "id": "api-server-client-19-udalit-integraciyu",
+      "section": "3.1.3",
+      "title": "Удалить интеграцию",
+      "hint": "POST /v1/integration/delete/{token}",
+      "pages": "13",
+      "tokens": 307,
+      "path": "docs/kb/api-server-client/sections/19-udalit-integraciyu.md"
+    },
+    {
+      "id": "api-server-client-20-ustanovit-nastroyki",
+      "section": "3.1.4",
+      "title": "Установить настройки",
+      "hint": "POST /v1/settings/set/ Header[X-Mango-API-Token]",
+      "pages": "14",
+      "tokens": 496,
+      "path": "docs/kb/api-server-client/sections/20-ustanovit-nastroyki.md"
+    },
+    {
+      "id": "api-server-client-21-poluchit-nastroyki",
+      "section": "3.1.5",
+      "title": "Получить настройки",
+      "hint": "POST /v1/settings/get/ Header[X-Mango-API-Token]",
+      "pages": "15",
+      "tokens": 288,
+      "path": "docs/kb/api-server-client/sections/21-poluchit-nastroyki.md"
+    },
+    {
+      "id": "api-server-client-22-sozdat-polzovatelya-v-integracii",
+      "section": "3.1.6",
+      "title": "Создать пользователя (в интеграции)",
+      "hint": "POST /v1/users/create Header[X-Mango-API-Token]",
+      "pages": "16-17",
+      "tokens": 789,
+      "path": "docs/kb/api-server-client/sections/22-sozdat-polzovatelya-v-integracii.md"
+    },
+    {
+      "id": "api-server-client-23-obnovit-polzovatelya-v-integracii",
+      "section": "3.1.7",
+      "title": "Обновить пользователя (в интеграции)",
+      "hint": "POST /v1/users/update Header[X-Mango-API-Token]",
+      "pages": "17-18",
+      "tokens": 629,
+      "path": "docs/kb/api-server-client/sections/23-obnovit-polzovatelya-v-integracii.md"
+    },
+    {
+      "id": "api-server-client-24-udalit-polzovatelya-v-integracii",
+      "section": "3.1.8",
+      "title": "Удалить пользователя (в интеграции)",
+      "hint": "POST /v1/users/delete Header[X-Mango-API-Token]",
+      "pages": "19-20",
+      "tokens": 504,
+      "path": "docs/kb/api-server-client/sections/24-udalit-polzovatelya-v-integracii.md"
+    },
+    {
+      "id": "api-server-client-25-poluchit-status-polzovateley-v-integraci",
+      "section": "3.1.9",
+      "title": "Получить статус пользователей (в интеграции)",
+      "hint": "POST /v1/users/state Header[X-Mango-API-Token]",
+      "pages": "20-21",
+      "tokens": 805,
+      "path": "docs/kb/api-server-client/sections/25-poluchit-status-polzovateley-v-integraci.md"
+    },
+    {
+      "id": "api-server-client-26-poluchit-spisok-polzovateley-v-integraci",
+      "section": "3.1.10",
+      "title": "Получить список пользователей (в интеграции)",
+      "hint": "GET /v1/users Header[X-Mango-API-Token]",
+      "pages": "22-23",
+      "tokens": 508,
+      "path": "docs/kb/api-server-client/sections/26-poluchit-spisok-polzovateley-v-integraci.md"
+    },
+    {
+      "id": "api-server-client-27-poluchit-spisok-polzovateley-vats",
+      "section": "3.1.11",
+      "title": "Получить список пользователей (ВАТС)",
+      "hint": "POST /v1/vpbxusers/get/",
+      "pages": "23-25",
+      "tokens": 664,
+      "path": "docs/kb/api-server-client/sections/27-poluchit-spisok-polzovateley-vats.md"
+    },
+    {
+      "id": "api-server-client-28-poluchit-vebsoket",
+      "section": "3.1.12",
+      "title": "Получить вебсокет",
+      "hint": "GET /v1/channel/{userId} Header[X-Mango-API-Token]",
+      "pages": "25-26",
+      "tokens": 501,
+      "path": "docs/kb/api-server-client/sections/28-poluchit-vebsoket.md"
+    },
+    {
+      "id": "api-server-client-29-nachat-sessiyu-vebsoketa",
+      "section": "3.1.13",
+      "title": "Начать сессию вебсокета",
+      "hint": "POST /v1/session/register/{userId} Header[X-Mango-API-Token]",
+      "pages": "26-27",
+      "tokens": 314,
+      "path": "docs/kb/api-server-client/sections/29-nachat-sessiyu-vebsoketa.md"
+    },
+    {
+      "id": "api-server-client-30-zavershit-sessiyu-vebsoketa",
+      "section": "3.1.14",
+      "title": "Завершить сессию вебсокета",
+      "hint": "POST /v1/session/unregister/{userId} Header[X-Mango-API-Token]",
+      "pages": "27-28",
+      "tokens": 301,
+      "path": "docs/kb/api-server-client/sections/30-zavershit-sessiyu-vebsoketa.md"
+    },
+    {
+      "id": "api-server-client-31-proverka-statusa-servera",
+      "section": "3.1.15",
+      "title": "Проверка статуса сервера",
+      "hint": "Запрос без параметров.",
+      "pages": "28",
+      "tokens": 160,
+      "path": "docs/kb/api-server-client/sections/31-proverka-statusa-servera.md"
+    },
+    {
+      "id": "api-server-client-32-iniciirovat-zvonok",
+      "section": "3.1.16",
+      "title": "Инициировать звонок",
+      "hint": "POST /v1/callback Header[X-Mango-API-Token]",
+      "pages": "29-30",
+      "tokens": 453,
+      "path": "docs/kb/api-server-client/sections/32-iniciirovat-zvonok.md"
+    },
+    {
+      "id": "api-server-client-33-zavershenie-zvonka",
+      "section": "3.1.17",
+      "title": "Завершение звонка",
+      "hint": "POST /v1/callmanager/hangup Header[X-Mango-API-Token]",
+      "pages": "30-31",
+      "tokens": 490,
+      "path": "docs/kb/api-server-client/sections/33-zavershenie-zvonka.md"
+    },
+    {
+      "id": "api-server-client-34-otpravit-sms",
+      "section": "3.1.18",
+      "title": "Отправить SMS",
+      "hint": "POST /v1/sms Header[X-Mango-API-Token]",
+      "pages": "31-32",
+      "tokens": 577,
+      "path": "docs/kb/api-server-client/sections/34-otpravit-sms.md"
+    },
+    {
+      "id": "api-server-client-35-poluchenie-zapisi",
+      "section": "3.1.19",
+      "title": "Получение записи",
+      "hint": "GET /v1/record/{userId}/{recordingId}",
+      "pages": "32-33",
+      "tokens": 535,
+      "path": "docs/kb/api-server-client/sections/35-poluchenie-zapisi.md"
+    },
+    {
+      "id": "api-server-client-36-perevesti-na-sotrudnika",
+      "section": "3.1.20",
+      "title": "Перевести на сотрудника",
+      "hint": "POST /v1/route/async/{userId}?TO={ext}&CALL_ID={callId}&TRANSACTION_ID={txId} Header[X-Man",
+      "pages": "34-35",
+      "tokens": 462,
+      "path": "docs/kb/api-server-client/sections/36-perevesti-na-sotrudnika.md"
+    },
+    {
+      "id": "api-server-client-37-poluchit-propuschennye-sobytiya",
+      "section": "3.1.21",
+      "title": "Получить пропущенные события",
+      "hint": "POST /v1/notifications/missed/pull?USER_ID={ext}&LIMIT={limit} Header[X- Mango-API-Token]",
+      "pages": "35-37",
+      "tokens": 731,
+      "path": "docs/kb/api-server-client/sections/37-poluchit-propuschennye-sobytiya.md"
+    },
+    {
+      "id": "api-server-client-38-zapros-statistiki-vyzovov",
+      "section": "3.1.22",
+      "title": "Запрос статистики вызовов",
+      "hint": "Доступность запроса определяется наличием включенной услуги на продукте ВАТС API_VBPX_STAT",
+      "pages": "37-41",
+      "tokens": 2346,
+      "path": "docs/kb/api-server-client/sections/38-zapros-statistiki-vyzovov.md"
+    },
+    {
+      "id": "api-server-client-39-perevod-transfer-zvonka",
+      "section": "3.1.23",
+      "title": "Перевод (transfer) звонка",
+      "hint": "3.1.23.1 \"Слепой\" перевод",
+      "pages": "42-43",
+      "tokens": 582,
+      "path": "docs/kb/api-server-client/sections/39-perevod-transfer-zvonka.md"
+    },
+    {
+      "id": "api-server-client-40-kc-poluchenie-informacii-o-zadanii",
+      "section": "3.1.24",
+      "title": "КЦ. Получение информации о задании",
+      "hint": "POST /v1/cov/get_campaign_task_info?campaign_task_id={id} Header[X-Mango- API-Token]",
+      "pages": "43-44",
+      "tokens": 241,
+      "path": "docs/kb/api-server-client/sections/40-kc-poluchenie-informacii-o-zadanii.md"
+    },
+    {
+      "id": "api-server-client-41-sobytiya",
+      "section": "3.2",
+      "title": "События",
+      "hint": "",
+      "pages": "44",
+      "tokens": 0,
+      "path": "docs/kb/api-server-client/sections/41-sobytiya.md"
+    },
+    {
+      "id": "api-server-client-42-sobytiya-telefonii",
+      "section": "3.2.1",
+      "title": "События телефонии",
+      "hint": "Параметр Тип Описание",
+      "pages": "44-46",
+      "tokens": 1004,
+      "path": "docs/kb/api-server-client/sections/42-sobytiya-telefonii.md"
+    },
+    {
+      "id": "api-server-client-43-sobytiya-zapisi",
+      "section": "3.2.2",
+      "title": "События записи",
+      "hint": "Важно! Для внутренних разговоров события записи не передаются",
+      "pages": "46",
+      "tokens": 307,
+      "path": "docs/kb/api-server-client/sections/43-sobytiya-zapisi.md"
+    },
+    {
+      "id": "api-server-client-44-izmenenie-statusa-polzovatelya",
+      "section": "3.2.3",
+      "title": "Изменение статуса пользователя",
+      "hint": "routeKey=\"/user_state\"",
+      "pages": "47",
+      "tokens": 477,
+      "path": "docs/kb/api-server-client/sections/44-izmenenie-statusa-polzovatelya.md"
+    },
+    {
+      "id": "api-server-client-45-informaciya-dkt",
+      "section": "3.2.4",
+      "title": "Информация ДКТ",
+      "hint": "Параметр Тип Описание",
+      "pages": "48-49",
+      "tokens": 1075,
+      "path": "docs/kb/api-server-client/sections/45-informaciya-dkt.md"
+    },
+    {
+      "id": "api-server-client-46-rezultat-komandy-route-async",
+      "section": "3.2.5",
+      "title": "Результат команды route/async/",
+      "hint": "routeKey=\"/route_result\"",
+      "pages": "49",
+      "tokens": 147,
+      "path": "docs/kb/api-server-client/sections/46-rezultat-komandy-route-async.md"
+    },
+    {
+      "id": "api-server-client-47-rezultat-komandy-v1-callstat-request",
+      "section": "3.2.6",
+      "title": "Результат команды v1/callstat/request",
+      "hint": "Сообщает о готовности результатов запроса статистики.",
+      "pages": "50",
+      "tokens": 170,
+      "path": "docs/kb/api-server-client/sections/47-rezultat-komandy-v1-callstat-request.md"
+    },
+    {
+      "id": "api-server-client-48-vebsoket-zakryt-so-storony-servera-api",
+      "section": "3.2.7",
+      "title": "Вебсокет закрыт со стороны сервера API",
+      "hint": "Получение пустой строки \"\". После получения такого message необходимо выполнить закрытие в",
+      "pages": "50",
+      "tokens": 46,
+      "path": "docs/kb/api-server-client/sections/48-vebsoket-zakryt-so-storony-servera-api.md"
+    },
+    {
+      "id": "api-server-client-49-spravochniki",
+      "section": "4",
+      "title": "Справочники",
+      "hint": "",
+      "pages": "51",
+      "tokens": 0,
+      "path": "docs/kb/api-server-client/sections/49-spravochniki.md"
+    },
+    {
+      "id": "api-server-client-50-kody-otveta-json-result-code",
+      "section": "4.1",
+      "title": "Коды ответа JSON Result[code]",
+      "hint": "103 Ошибочные параметры",
+      "pages": "51",
+      "tokens": 100,
+      "path": "docs/kb/api-server-client/sections/50-kody-otveta-json-result-code.md"
+    },
+    {
+      "id": "api-server-client-51-sistema-registration-system",
+      "section": "4.2",
+      "title": "Система Registration[system]",
+      "hint": "* Алгоритм по умолчанию",
+      "pages": "51",
+      "tokens": 46,
+      "path": "docs/kb/api-server-client/sections/51-sistema-registration-system.md"
+    },
+    {
+      "id": "api-server-client-52-sostoyanie-zvonka",
+      "section": "4.3",
+      "title": "Состояние звонка",
+      "hint": "APPEARED Звонок в состоянии ожидания",
+      "pages": "51-52",
+      "tokens": 391,
+      "path": "docs/kb/api-server-client/sections/52-sostoyanie-zvonka.md"
+    },
+    {
+      "id": "api-server-client-53-tip-zvonka",
+      "section": "4.4",
+      "title": "Тип звонка",
+      "hint": "Входящий, к пользователю ВАТС с любого номера, не указанного у",
+      "pages": "52",
+      "tokens": 347,
+      "path": "docs/kb/api-server-client/sections/53-tip-zvonka.md"
+    },
+    {
+      "id": "api-server-client-54-status-zapisi",
+      "section": "4.5",
+      "title": "Статус записи",
+      "hint": "NONE По звонку началась запись",
+      "pages": "52",
+      "tokens": 128,
+      "path": "docs/kb/api-server-client/sections/54-status-zapisi.md"
+    },
+    {
+      "id": "api-server-client-55-spisok-kodov-rezultatov",
+      "section": "5",
+      "title": "Список кодов результатов",
+      "hint": "Ниже приведен список кодов результатов выполнения команд или запросов, завершения вызовов,",
+      "pages": "53-56",
+      "tokens": 4478,
+      "path": "docs/kb/api-server-client/sections/55-spisok-kodov-rezultatov.md"
+    },
+    {
+      "id": "api-server-client-56-spisok-izmeneniy-v-dokumente",
+      "section": "5",
+      "title": "Список изменений в документе",
+      "hint": "Изменение дизайна документа.",
+      "pages": "57",
+      "tokens": 203,
+      "path": "docs/kb/api-server-client/sections/56-spisok-izmeneniy-v-dokumente.md"
+    }
+  ]
+}
