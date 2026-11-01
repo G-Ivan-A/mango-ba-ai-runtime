@@ -7,11 +7,14 @@
   "doc_title": "Интеграция Виртуальной АТС и amoCRM. Инструкция по настройке",
   "doc_version": "25.08.2025",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 230,
+  "image_count": 229,
+  "image_description": "PDF context above the image + caption + tesseract OCR (rus+eng)",
+  "image_description_date": "2026-11-01",
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_dropped_decorative": 1,
   "note": "Инструкция по настройке интеграции виртуальной АТС Mango Office с CRM amoCRM. Описывает подключение, настройку синхронизации данных, управление звонками и использование телефонных функций внутри amoCRM.",
   "page_count": 153,
   "part_count": 1,
@@ -24,6 +27,7 @@
   "sections": [
     {
       "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
       "number": "—",
       "order": "00",
       "pages": "1-5",
@@ -38,10 +42,11 @@
         }
       ],
       "title": "Титульная часть",
-      "tokens": 2203
+      "tokens": 2177
     },
     {
       "file": "sections/01-nachalo-raboty-s-integraciey.md",
+      "images": 0,
       "number": "1",
       "order": "01",
       "pages": "5",
@@ -60,6 +65,7 @@
     },
     {
       "file": "sections/02-obzor.md",
+      "images": 0,
       "number": "1",
       "order": "02",
       "pages": "5-6",
@@ -78,6 +84,7 @@
     },
     {
       "file": "sections/03-shag-1-podklyuchenie-virtualnoy-ats-mang.md",
+      "images": 0,
       "number": "1",
       "order": "03",
       "pages": "6",
@@ -96,6 +103,7 @@
     },
     {
       "file": "sections/04-shag-2-ustanovka-softfona-mango-talker.md",
+      "images": 0,
       "number": "1",
       "order": "04",
       "pages": "6",
@@ -114,6 +122,7 @@
     },
     {
       "file": "sections/05-shag-3-ustanovka-vidzheta-integracii-v-a.md",
+      "images": 3,
       "number": "1",
       "order": "05",
       "pages": "6-8",
@@ -128,10 +137,11 @@
         }
       ],
       "title": "Шаг 3. Установка виджета интеграции в amoCRM",
-      "tokens": 594
+      "tokens": 1633
     },
     {
       "file": "sections/06-shag-4-nastroyka-virtualnoy-ats-vybor-pa.md",
+      "images": 9,
       "number": "1",
       "order": "06",
       "pages": "8-13",
@@ -146,10 +156,11 @@
         }
       ],
       "title": "Шаг 4. Настройка Виртуальной АТС. Выбор пакета интеграции",
-      "tokens": 1632
+      "tokens": 4862
     },
     {
       "file": "sections/07-shag-5-sopostavlenie-sotrudnikov-virtual.md",
+      "images": 10,
       "number": "1",
       "order": "07",
       "pages": "13-18",
@@ -164,10 +175,11 @@
         }
       ],
       "title": "Шаг 5. Сопоставление сотрудников Виртуальной АТС и amoCRM",
-      "tokens": 3243
+      "tokens": 6511
     },
     {
       "file": "sections/08-ustanovka-dopolnitelnyh-nastroek-integra.md",
+      "images": 0,
       "number": "1",
       "order": "08",
       "pages": "18-19",
@@ -186,6 +198,7 @@
     },
     {
       "file": "sections/09-kak-proverit-peredachu-zvonkov-v-amocrm.md",
+      "images": 0,
       "number": "1",
       "order": "09",
       "pages": "19-20",
@@ -204,6 +217,7 @@
     },
     {
       "file": "sections/10-kak-otobrazhayutsya-dannye-o-zvonke-v-am.md",
+      "images": 0,
       "number": "1",
       "order": "10",
       "pages": "20",
@@ -222,6 +236,7 @@
     },
     {
       "file": "sections/11-kak-pozvonit-ili-prinyat-zvonok.md",
+      "images": 3,
       "number": "1",
       "order": "11",
       "pages": "20-22",
@@ -236,10 +251,11 @@
         }
       ],
       "title": "Как позвонить или принять звонок",
-      "tokens": 734
+      "tokens": 1420
     },
     {
       "file": "sections/12-nastroyka-integracii.md",
+      "images": 0,
       "number": "2",
       "order": "12",
       "pages": "22",
@@ -258,6 +274,7 @@
     },
     {
       "file": "sections/13-vklyuchenie-uvedomleniy-v-brauzere.md",
+      "images": 2,
       "number": "2.1",
       "order": "13",
       "pages": "22-23",
@@ -272,10 +289,11 @@
         }
       ],
       "title": "Включение уведомлений в браузере",
-      "tokens": 607
+      "tokens": 1283
     },
     {
       "file": "sections/14-dopolnitelnye-nastroyki-integracii-obzor.md",
+      "images": 4,
       "number": "2.2",
       "order": "14",
       "pages": "23-25",
@@ -290,10 +308,11 @@
         }
       ],
       "title": "Дополнительные настройки интеграции. Обзор",
-      "tokens": 793
+      "tokens": 2485
     },
     {
       "file": "sections/15-nastroyka-sohranyat-vse-zvonki-ili-kak-s.md",
+      "images": 2,
       "number": "2.3",
       "order": "15",
       "pages": "25-28",
@@ -308,10 +327,11 @@
         }
       ],
       "title": "Настройка “Сохранять все звонки” или как сохраняются",
-      "tokens": 2087
+      "tokens": 2861
     },
     {
       "file": "sections/16-obrabotka-vhodyaschih-vyzovov-ot-novyh-k.md",
+      "images": 6,
       "number": "2.4",
       "order": "16",
       "pages": "28-31",
@@ -326,10 +346,11 @@
         }
       ],
       "title": "Обработка входящих вызовов от новых Клиентов",
-      "tokens": 1509
+      "tokens": 3427
     },
     {
       "file": "sections/17-obrabotka-povtornyh-vhodyaschih-vyzovov.md",
+      "images": 20,
       "number": "2.5",
       "order": "17",
       "pages": "31-41",
@@ -344,10 +365,11 @@
         }
       ],
       "title": "Обработка повторных входящих вызовов",
-      "tokens": 5906
+      "tokens": 13031
     },
     {
       "file": "sections/18-obrabotka-ishodyaschih-vyzovov-novym-kli.md",
+      "images": 8,
       "number": "2.6",
       "order": "18",
       "pages": "41-45",
@@ -362,10 +384,11 @@
         }
       ],
       "title": "Обработка исходящих вызовов новым Клиентам",
-      "tokens": 2268
+      "tokens": 5301
     },
     {
       "file": "sections/19-propuschennye-v-ivr.md",
+      "images": 2,
       "number": "2.7",
       "order": "19",
       "pages": "45-47",
@@ -380,10 +403,11 @@
         }
       ],
       "title": "Пропущенные в IVR",
-      "tokens": 952
+      "tokens": 1825
     },
     {
       "file": "sections/20-otvetstvennyy-pri-propuschennyh-zvonkah.md",
+      "images": 1,
       "number": "2.8",
       "order": "20",
       "pages": "47-48",
@@ -398,10 +422,11 @@
         }
       ],
       "title": "Ответственный при пропущенных звонках в группу",
-      "tokens": 431
+      "tokens": 877
     },
     {
       "file": "sections/21-sohranenie-dannyh-rechevoy-analitiki.md",
+      "images": 8,
       "number": "2.9",
       "order": "21",
       "pages": "48-55",
@@ -416,10 +441,11 @@
         }
       ],
       "title": "Сохранение данных Речевой Аналитики",
-      "tokens": 4272
+      "tokens": 7698
     },
     {
       "file": "sections/22-ogranichenie-nomerov-vats.md",
+      "images": 1,
       "number": "2.10",
       "order": "22",
       "pages": "55-56",
@@ -434,10 +460,11 @@
         }
       ],
       "title": "Ограничение номеров ВАТС",
-      "tokens": 520
+      "tokens": 969
     },
     {
       "file": "sections/23-nomera-drugih-operatorov-podklyuchennye.md",
+      "images": 0,
       "number": "2.11",
       "order": "23",
       "pages": "56",
@@ -456,6 +483,7 @@
     },
     {
       "file": "sections/24-poisk-po-nomeru-telefona-sredi-zapisey-v.md",
+      "images": 0,
       "number": "2.12",
       "order": "24",
       "pages": "56",
@@ -474,6 +502,7 @@
     },
     {
       "file": "sections/25-opredelyat-vnutrennie-nomera-sip-tranka.md",
+      "images": 2,
       "number": "2.13",
       "order": "25",
       "pages": "56-57",
@@ -488,10 +517,11 @@
         }
       ],
       "title": "Определять внутренние номера SIP-транка",
-      "tokens": 501
+      "tokens": 1293
     },
     {
       "file": "sections/26-nalichie-dubley-kontaktov-v-amocrm.md",
+      "images": 5,
       "number": "2.14",
       "order": "26",
       "pages": "57-59",
@@ -506,10 +536,11 @@
         }
       ],
       "title": "Наличие дублей контактов в amoCRM",
-      "tokens": 862
+      "tokens": 2442
     },
     {
       "file": "sections/27-ispolzovanie-sposobov-dozvona-do-sotrudn.md",
+      "images": 0,
       "number": "2.15",
       "order": "27",
       "pages": "59",
@@ -528,6 +559,7 @@
     },
     {
       "file": "sections/28-ispolzovanie-algoritmov-raspredeleniya-v.md",
+      "images": 0,
       "number": "2.16",
       "order": "28",
       "pages": "59",
@@ -546,6 +578,7 @@
     },
     {
       "file": "sections/29-stavit-zadachi-po-propuschennym-vyzovam.md",
+      "images": 3,
       "number": "2.17",
       "order": "29",
       "pages": "59-62",
@@ -560,10 +593,11 @@
         }
       ],
       "title": "Ставить задачи по пропущенным вызовам",
-      "tokens": 1896
+      "tokens": 3116
     },
     {
       "file": "sections/30-sms-vizitka.md",
+      "images": 3,
       "number": "2.18",
       "order": "30",
       "pages": "62-64",
@@ -578,10 +612,11 @@
         }
       ],
       "title": "SMS-визитка",
-      "tokens": 1629
+      "tokens": 2716
     },
     {
       "file": "sections/31-otpravka-sms-iz-kartochki-klienta.md",
+      "images": 3,
       "number": "2.19",
       "order": "31",
       "pages": "64-65",
@@ -596,10 +631,11 @@
         }
       ],
       "title": "Отправка SMS из карточки Клиента",
-      "tokens": 492
+      "tokens": 1465
     },
     {
       "file": "sections/32-otslezhivanie-zvonkov-s-neskolkih-domeno.md",
+      "images": 2,
       "number": "2.20",
       "order": "32",
       "pages": "65-69",
@@ -614,10 +650,11 @@
         }
       ],
       "title": "Отслеживание звонков с нескольких доменов",
-      "tokens": 2836
+      "tokens": 3713
     },
     {
       "file": "sections/33-integraciya-virtualnoy-ats-odnovremenno.md",
+      "images": 9,
       "number": "2.21",
       "order": "33",
       "pages": "69-80",
@@ -632,10 +669,11 @@
         }
       ],
       "title": "Интеграция Виртуальной АТС одновременно с несколькими",
-      "tokens": 7757
+      "tokens": 10875
     },
     {
       "file": "sections/34-zagruzhat-otsutstvuyuschie-v-amocrm-zvon.md",
+      "images": 2,
       "number": "2.22",
       "order": "34",
       "pages": "80-81",
@@ -650,10 +688,11 @@
         }
       ],
       "title": "Загружать отсутствующие в amoCRM звонки",
-      "tokens": 490
+      "tokens": 1383
     },
     {
       "file": "sections/35-sozdanie-sdelok-v-raznyh-voronkah-v-zavi.md",
+      "images": 8,
       "number": "2.23",
       "order": "35",
       "pages": "81-85",
@@ -668,10 +707,11 @@
         }
       ],
       "title": "Создание сделок в разных воронках в зависимости от",
-      "tokens": 1786
+      "tokens": 4213
     },
     {
       "file": "sections/36-zamenyat-nomer-linii-na-kommentariy-v-in.md",
+      "images": 2,
       "number": "2.24",
       "order": "36",
       "pages": "85-86",
@@ -686,10 +726,11 @@
         }
       ],
       "title": "Заменять номер линии на комментарий в интерфейсе CRM",
-      "tokens": 682
+      "tokens": 1342
     },
     {
       "file": "sections/37-prochie-nastroyki.md",
+      "images": 2,
       "number": "2.25",
       "order": "37",
       "pages": "86-89",
@@ -704,10 +745,11 @@
         }
       ],
       "title": "Прочие настройки",
-      "tokens": 1320
+      "tokens": 1986
     },
     {
       "file": "sections/38-vhodyaschiy-zvonok.md",
+      "images": 0,
       "number": "3",
       "order": "38",
       "pages": "89",
@@ -726,6 +768,7 @@
     },
     {
       "file": "sections/39-obschee.md",
+      "images": 2,
       "number": "3.1",
       "order": "39",
       "pages": "89",
@@ -740,10 +783,11 @@
         }
       ],
       "title": "Общее",
-      "tokens": 341
+      "tokens": 740
     },
     {
       "file": "sections/40-informacionnoe-soobschenie-otvetstvennyy.md",
+      "images": 1,
       "number": "3.2",
       "order": "40",
       "pages": "89-90",
@@ -758,10 +802,11 @@
         }
       ],
       "title": "Информационное сообщение “Ответственный: не определен”",
-      "tokens": 320
+      "tokens": 565
     },
     {
       "file": "sections/41-ishodyaschiy-zvonok.md",
+      "images": 1,
       "number": "4",
       "order": "41",
       "pages": "90-91",
@@ -776,10 +821,11 @@
         }
       ],
       "title": "Исходящий звонок",
-      "tokens": 272
+      "tokens": 516
     },
     {
       "file": "sections/42-propuschennye-zvonki.md",
+      "images": 2,
       "number": "5",
       "order": "42",
       "pages": "91-92",
@@ -794,10 +840,11 @@
         }
       ],
       "title": "Пропущенные звонки",
-      "tokens": 545
+      "tokens": 1035
     },
     {
       "file": "sections/43-istoriya-vyzovov.md",
+      "images": 1,
       "number": "6",
       "order": "43",
       "pages": "92-93",
@@ -812,10 +859,11 @@
         }
       ],
       "title": "История вызовов",
-      "tokens": 288
+      "tokens": 787
     },
     {
       "file": "sections/44-kartochka-zvonka.md",
+      "images": 0,
       "number": "7",
       "order": "44",
       "pages": "93",
@@ -834,6 +882,7 @@
     },
     {
       "file": "sections/45-obzor.md",
+      "images": 0,
       "number": "7.1",
       "order": "45",
       "pages": "93",
@@ -852,6 +901,7 @@
     },
     {
       "file": "sections/46-kak-upravlyat-otobrazheniem-kartochki-zv.md",
+      "images": 7,
       "number": "7.2",
       "order": "46",
       "pages": "93-95",
@@ -866,10 +916,11 @@
         }
       ],
       "title": "Как управлять отображением карточки звонка",
-      "tokens": 1233
+      "tokens": 2798
     },
     {
       "file": "sections/47-ob-interfeyse-kartochki-zvonka.md",
+      "images": 9,
       "number": "7.3",
       "order": "47",
       "pages": "95-97",
@@ -884,10 +935,11 @@
         }
       ],
       "title": "Об интерфейсе карточки звонка",
-      "tokens": 979
+      "tokens": 3078
     },
     {
       "file": "sections/48-kak-pozvonit-ili-prinyat-zvonok.md",
+      "images": 6,
       "number": "7.4",
       "order": "48",
       "pages": "97-99",
@@ -902,10 +954,11 @@
         }
       ],
       "title": "Как позвонить или принять звонок",
-      "tokens": 1129
+      "tokens": 2524
     },
     {
       "file": "sections/49-kak-dobavit-kontakt.md",
+      "images": 0,
       "number": "7.5",
       "order": "49",
       "pages": "99",
@@ -924,6 +977,7 @@
     },
     {
       "file": "sections/50-kak-perevesti-zvonok.md",
+      "images": 6,
       "number": "7.6",
       "order": "50",
       "pages": "99-102",
@@ -938,10 +992,11 @@
         }
       ],
       "title": "Как перевести звонок",
-      "tokens": 1754
+      "tokens": 3316
     },
     {
       "file": "sections/51-stavit-zadachu-po-zvonku-vruchnuyu.md",
+      "images": 2,
       "number": "7.7",
       "order": "51",
       "pages": "102",
@@ -956,10 +1011,11 @@
         }
       ],
       "title": "Ставить задачу по звонку вручную",
-      "tokens": 458
+      "tokens": 986
     },
     {
       "file": "sections/52-istoriya-zvonkov.md",
+      "images": 10,
       "number": "7.8",
       "order": "52",
       "pages": "102-104",
@@ -974,10 +1030,11 @@
         }
       ],
       "title": "История звонков",
-      "tokens": 1118
+      "tokens": 3370
     },
     {
       "file": "sections/53-nomeronabiratel.md",
+      "images": 3,
       "number": "7.9",
       "order": "53",
       "pages": "104-105",
@@ -992,10 +1049,11 @@
         }
       ],
       "title": "Номеронабиратель",
-      "tokens": 391
+      "tokens": 966
     },
     {
       "file": "sections/54-moy-ishodyaschiy-nomer.md",
+      "images": 2,
       "number": "7.10",
       "order": "54",
       "pages": "105-106",
@@ -1010,10 +1068,11 @@
         }
       ],
       "title": "Мой исходящий номер",
-      "tokens": 548
+      "tokens": 972
     },
     {
       "file": "sections/55-informacionnoe-soobschenie-otvetstvennyy.md",
+      "images": 1,
       "number": "7.11",
       "order": "55",
       "pages": "106",
@@ -1028,10 +1087,11 @@
         }
       ],
       "title": "Информационное сообщение “Ответственный: не определен”",
-      "tokens": 288
+      "tokens": 525
     },
     {
       "file": "sections/56-ogranicheniya-po-peredachi-zvonka-v-novy.md",
+      "images": 0,
       "number": "7.12",
       "order": "56",
       "pages": "106-107",
@@ -1050,6 +1110,7 @@
     },
     {
       "file": "sections/57-polzovatelskie-nastroyki-kartochki-zvonk.md",
+      "images": 1,
       "number": "7.13",
       "order": "57",
       "pages": "107-108",
@@ -1064,10 +1125,11 @@
         }
       ],
       "title": "Пользовательские настройки карточки звонка",
-      "tokens": 449
+      "tokens": 695
     },
     {
       "file": "sections/58-spisok-obzvona.md",
+      "images": 7,
       "number": "8",
       "order": "58",
       "pages": "108-111",
@@ -1082,10 +1144,11 @@
         }
       ],
       "title": "Список обзвона",
-      "tokens": 1562
+      "tokens": 3361
     },
     {
       "file": "sections/59-analitika.md",
+      "images": 1,
       "number": "9",
       "order": "59",
       "pages": "111-112",
@@ -1100,10 +1163,11 @@
         }
       ],
       "title": "Аналитика",
-      "tokens": 154
+      "tokens": 551
     },
     {
       "file": "sections/60-zapis-razgovorov.md",
+      "images": 1,
       "number": "10",
       "order": "60",
       "pages": "112-113",
@@ -1118,10 +1182,11 @@
         }
       ],
       "title": "Запись разговоров",
-      "tokens": 469
+      "tokens": 830
     },
     {
       "file": "sections/61-integraciya-s-kolltrekingom-mango-office.md",
+      "images": 0,
       "number": "11",
       "order": "61",
       "pages": "113",
@@ -1140,6 +1205,7 @@
     },
     {
       "file": "sections/62-obzor.md",
+      "images": 0,
       "number": "11.1",
       "order": "62",
       "pages": "113",
@@ -1158,6 +1224,7 @@
     },
     {
       "file": "sections/63-kak-nastroit.md",
+      "images": 1,
       "number": "11.2",
       "order": "63",
       "pages": "113",
@@ -1172,10 +1239,11 @@
         }
       ],
       "title": "Как настроить",
-      "tokens": 191
+      "tokens": 631
     },
     {
       "file": "sections/64-vozmozhnosti.md",
+      "images": 0,
       "number": "11.3",
       "order": "64",
       "pages": "113-116",
@@ -1194,6 +1262,7 @@
     },
     {
       "file": "sections/65-postzvonkovaya-ocenka-kachestva.md",
+      "images": 0,
       "number": "12",
       "order": "65",
       "pages": "116",
@@ -1212,6 +1281,7 @@
     },
     {
       "file": "sections/66-obschee.md",
+      "images": 2,
       "number": "12",
       "order": "66",
       "pages": "116-118",
@@ -1226,10 +1296,11 @@
         }
       ],
       "title": "Общее",
-      "tokens": 1792
+      "tokens": 2305
     },
     {
       "file": "sections/67-kak-nastroit.md",
+      "images": 2,
       "number": "12",
       "order": "67",
       "pages": "118-119",
@@ -1244,10 +1315,11 @@
         }
       ],
       "title": "Как настроить",
-      "tokens": 316
+      "tokens": 1188
     },
     {
       "file": "sections/68-kak-posmotret-zvonki-s-ocenkoy-nizhe-che.md",
+      "images": 6,
       "number": "12",
       "order": "68",
       "pages": "119-122",
@@ -1262,10 +1334,11 @@
         }
       ],
       "title": "Как посмотреть звонки с оценкой ниже, чем максимальный порог",
-      "tokens": 888
+      "tokens": 2976
     },
     {
       "file": "sections/69-integraciya-s-adresnoy-knigoy-virtualnoy.md",
+      "images": 4,
       "number": "13",
       "order": "69",
       "pages": "122-124",
@@ -1280,10 +1353,11 @@
         }
       ],
       "title": "Интеграция с адресной книгой Виртуальной АТС",
-      "tokens": 769
+      "tokens": 2156
     },
     {
       "file": "sections/70-integraciya-s-kontakt-centrom-mango-offi.md",
+      "images": 0,
       "number": "14",
       "order": "70",
       "pages": "124",
@@ -1302,6 +1376,7 @@
     },
     {
       "file": "sections/71-uchet-kampaniy-ishodyaschego-obzvona-v-a.md",
+      "images": 2,
       "number": "14.1",
       "order": "71",
       "pages": "124-125",
@@ -1316,10 +1391,11 @@
         }
       ],
       "title": "Учет кампаний исходящего обзвона в amoCRM",
-      "tokens": 631
+      "tokens": 1359
     },
     {
       "file": "sections/72-integraciya-s-digital-voronkoy.md",
+      "images": 14,
       "number": "14.2",
       "order": "72",
       "pages": "125-136",
@@ -1334,10 +1410,11 @@
         }
       ],
       "title": "Интеграция с digital-воронкой",
-      "tokens": 6531
+      "tokens": 10988
     },
     {
       "file": "sections/73-sohranyat-v-sdelkah-tematiki-i-kommentar.md",
+      "images": 2,
       "number": "14.3",
       "order": "73",
       "pages": "136-139",
@@ -1352,10 +1429,11 @@
         }
       ],
       "title": "Сохранять в сделках тематики и комментарии звонка из Контакт-центра",
-      "tokens": 1486
+      "tokens": 2401
     },
     {
       "file": "sections/74-softfon-mango-connect.md",
+      "images": 0,
       "number": "15",
       "order": "74",
       "pages": "139",
@@ -1374,6 +1452,7 @@
     },
     {
       "file": "sections/75-obzor.md",
+      "images": 1,
       "number": "15.1",
       "order": "75",
       "pages": "139-140",
@@ -1388,10 +1467,11 @@
         }
       ],
       "title": "Обзор",
-      "tokens": 790
+      "tokens": 1051
     },
     {
       "file": "sections/76-ustanovka-i-pervyy-zapusk-raboty.md",
+      "images": 6,
       "number": "15.2",
       "order": "76",
       "pages": "140-143",
@@ -1406,10 +1486,11 @@
         }
       ],
       "title": "Установка и первый запуск работы",
-      "tokens": 581
+      "tokens": 2315
     },
     {
       "file": "sections/77-dopolnitelno.md",
+      "images": 3,
       "number": "15.3",
       "order": "77",
       "pages": "143-144",
@@ -1424,10 +1505,11 @@
         }
       ],
       "title": "Дополнительно",
-      "tokens": 384
+      "tokens": 975
     },
     {
       "file": "sections/78-osobennosti.md",
+      "images": 0,
       "number": "16",
       "order": "78",
       "pages": "144-145",
@@ -1446,6 +1528,7 @@
     },
     {
       "file": "sections/79-vsplyvayuschie-soobscheniya-ob-oshibkah.md",
+      "images": 0,
       "number": "17",
       "order": "79",
       "pages": "145",
@@ -1464,6 +1547,7 @@
     },
     {
       "file": "sections/80-obzor.md",
+      "images": 2,
       "number": "17.1",
       "order": "80",
       "pages": "145-146",
@@ -1478,10 +1562,11 @@
         }
       ],
       "title": "Обзор",
-      "tokens": 460
+      "tokens": 916
     },
     {
       "file": "sections/81-perechen-kodov-oshibok.md",
+      "images": 0,
       "number": "17.2",
       "order": "81",
       "pages": "146-148",
@@ -1500,6 +1585,7 @@
     },
     {
       "file": "sections/82-uvedomleniya-po-elektronnoy-pochte-o-blo.md",
+      "images": 0,
       "number": "17.3",
       "order": "82",
       "pages": "148",
@@ -1518,6 +1604,7 @@
     },
     {
       "file": "sections/83-primer-uvedomleniya-o-blokirovke-vidzhet.md",
+      "images": 1,
       "number": "17.4",
       "order": "83",
       "pages": "148",
@@ -1532,10 +1619,11 @@
         }
       ],
       "title": "Пример уведомления о блокировке виджета",
-      "tokens": 265
+      "tokens": 646
     },
     {
       "file": "sections/84-chto-delat-esli-ne-prihodit-uvedomlenie.md",
+      "images": 0,
       "number": "17.5",
       "order": "84",
       "pages": "148-149",
@@ -1554,6 +1642,7 @@
     },
     {
       "file": "sections/85-spisok-izmeneniy-v-dokumente.md",
+      "images": 0,
       "number": "17.5",
       "order": "85",
       "pages": "149-153",
@@ -1588,8 +1677,8 @@
   ],
   "table_count": 15,
   "token_method": "tiktoken:cl100k_base",
-  "tokens_index": 8756,
-  "tokens_total": 90305,
+  "tokens_index": 9139,
+  "tokens_total": 163347,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 1.0,

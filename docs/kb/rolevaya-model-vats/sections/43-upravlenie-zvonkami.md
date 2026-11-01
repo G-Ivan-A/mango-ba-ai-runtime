@@ -14,7 +14,8 @@ source_pages: "ч.1: 43-45"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"43-45","global_pages":"43-45"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 1007
+tokens: 951
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -29,8 +30,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 43
 
-![Изображение, стр. 44](../images/43-upravlenie-zvonkami-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -44,8 +43,6 @@ ai-generated: true
 | Использовать внешний<br>телефон / софтфон | всегда включено<br>для роли / всегда<br>выключено для<br>роли | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 44
-
-![Изображение, стр. 45](../images/43-upravlenie-zvonkami-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

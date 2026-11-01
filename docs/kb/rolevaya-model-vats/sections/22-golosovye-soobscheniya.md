@@ -14,7 +14,8 @@ source_pages: "ч.1: 27-28"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"27-28","global_pages":"27-28"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 749
+tokens: 721
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -28,8 +29,6 @@ ai-generated: true
 | Скачивать и<br>удалять<br>голосовые<br>сообщения | только свои /<br>всей<br>компании | Доступно | Доступно | Доступно | только свои /<br>свои<br>подконтрольных<br>групп/ всей<br>компании | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 27
-
-![Изображение, стр. 28](../images/22-golosovye-soobscheniya-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

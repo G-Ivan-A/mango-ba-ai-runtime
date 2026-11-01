@@ -14,7 +14,8 @@ source_pages: "ч.1: 42-43"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"42-43","global_pages":"42-43"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 310
+tokens: 285
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -27,8 +28,6 @@ ai-generated: true
 | Доступ к разделу | — | Недоступно | Недоступно | Доступно | Доступно | Недоступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 42
-
-![Изображение, стр. 43](../images/40-statistika-i-monitoring-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

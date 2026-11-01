@@ -14,7 +14,8 @@ source_pages: "ч.1: 46-48"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"46-48","global_pages":"46-48"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 1663
+tokens: 1591
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -28,8 +29,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 46
 
-![Изображение, стр. 47](../images/46-golosovoe-menyu-i-raspredelenie-zvonkov-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -42,8 +41,6 @@ ai-generated: true
 | Редактировать<br>дополнительные<br>настройки<br>распределения<br>звонков | только те, в<br>которых<br>участвует / все<br>созданные | Недоступно | Недоступно | Доступно | только те, в<br>которых<br>участвует / в<br>которых<br>участвует сам и<br>подконтрольные<br>группы / все<br>созданные | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 47
-
-![Изображение, стр. 48](../images/46-golosovoe-menyu-i-raspredelenie-zvonkov-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

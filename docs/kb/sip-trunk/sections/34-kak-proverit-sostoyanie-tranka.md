@@ -14,7 +14,8 @@ source_pages: "ч.1: 35"
 source_refs: '[{"source_pdf":"kb/sources/sip-trunk/MO_SIP_Trunk.pdf","part":1,"pages":"35","global_pages":"35"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 123
+tokens: 291
+images: 1
 status: extracted
 ai-generated: true
 ---
@@ -24,4 +25,8 @@ ai-generated: true
 
 Проверить состояние транка можно через меню Reports-Asterisk Info:
 
-![Изображение, стр. 35](../images/34-kak-proverit-sostoyanie-tranka-1.png)
+![Снимок экрана / схема, стр. 35](../images/34-kak-proverit-sostoyanie-tranka-1.png)
+
+> **Описание иллюстрации SIPT-§7.1.1-1** (к §7.1.1 «Как проверить состояние транка», стр. 35; 1067×120 px). Снимок экрана / схема.
+> Относится к тексту руководства: «…транка можно через меню Reports-Asterisk Info:».
+> Текст на изображении (OCR, требует сверки): CHANSIP; Name/username; Host; ACL Port; status; Dyn Forcerport Comedia; Description; mango; 81.88.86.230; No; 5060

@@ -7,11 +7,14 @@
   "doc_title": "Интеграция Виртуальной АТС и BPMSoft. Руководство по интеграции",
   "doc_version": "22.06.2026",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 163,
+  "image_count": 162,
+  "image_description": "PDF context above the image + caption + tesseract OCR (rus+eng)",
+  "image_description_date": "2026-11-01",
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_dropped_decorative": 1,
   "note": "Руководство по интеграции виртуальной АТС Mango Office с BPMSoft. Описывает подключение, настройку синхронизации данных, управление звонками и использование телефонных функций внутри BPMSoft.",
   "page_count": 96,
   "part_count": 1,
@@ -24,6 +27,7 @@
   "sections": [
     {
       "file": "sections/00-titulnaya-chast.md",
+      "images": 0,
       "number": "—",
       "order": "00",
       "pages": "1-5",
@@ -38,10 +42,11 @@
         }
       ],
       "title": "Титульная часть",
-      "tokens": 1755
+      "tokens": 1729
     },
     {
       "file": "sections/01-nachalo-raboty-s-integraciey.md",
+      "images": 0,
       "number": "1",
       "order": "01",
       "pages": "5",
@@ -60,6 +65,7 @@
     },
     {
       "file": "sections/02-obzor.md",
+      "images": 0,
       "number": "1",
       "order": "02",
       "pages": "5",
@@ -78,6 +84,7 @@
     },
     {
       "file": "sections/03-vazhnaya-informaciya.md",
+      "images": 0,
       "number": "1",
       "order": "03",
       "pages": "5",
@@ -96,6 +103,7 @@
     },
     {
       "file": "sections/04-podgotovka.md",
+      "images": 0,
       "number": "1",
       "order": "04",
       "pages": "5",
@@ -114,6 +122,7 @@
     },
     {
       "file": "sections/05-poryadok-deystviy.md",
+      "images": 0,
       "number": "1",
       "order": "05",
       "pages": "5-6",
@@ -132,6 +141,7 @@
     },
     {
       "file": "sections/06-shag-1-podklyuchenie-virtualnoy-ats-mang.md",
+      "images": 0,
       "number": "1",
       "order": "06",
       "pages": "6",
@@ -150,6 +160,7 @@
     },
     {
       "file": "sections/07-shag-2-ustanovka-softfona-mango-talker.md",
+      "images": 0,
       "number": "1",
       "order": "07",
       "pages": "6-7",
@@ -168,6 +179,7 @@
     },
     {
       "file": "sections/08-shag-3-ustanovka-prilozheniya-integracii.md",
+      "images": 0,
       "number": "1",
       "order": "08",
       "pages": "7",
@@ -186,6 +198,7 @@
     },
     {
       "file": "sections/09-ustanovka-prilozheniya.md",
+      "images": 6,
       "number": "1",
       "order": "09",
       "pages": "7-9",
@@ -200,10 +213,11 @@
         }
       ],
       "title": "Установка приложения",
-      "tokens": 831
+      "tokens": 2370
     },
     {
       "file": "sections/10-ustanovka-sistemnyh-nastroek.md",
+      "images": 13,
       "number": "1",
       "order": "10",
       "pages": "9-13",
@@ -218,10 +232,11 @@
         }
       ],
       "title": "Установка системных настроек",
-      "tokens": 1190
+      "tokens": 5094
     },
     {
       "file": "sections/11-shag-4-nastroyka-integracii-v-lichnom-ka.md",
+      "images": 0,
       "number": "1",
       "order": "11",
       "pages": "13",
@@ -240,6 +255,7 @@
     },
     {
       "file": "sections/12-ustanovka-i-bazovye-nastroyki.md",
+      "images": 3,
       "number": "1",
       "order": "12",
       "pages": "13-14",
@@ -254,10 +270,11 @@
         }
       ],
       "title": "Установка и базовые настройки",
-      "tokens": 591
+      "tokens": 1755
     },
     {
       "file": "sections/13-nastoyka-podklyucheniya-k-bpmsoft.md",
+      "images": 2,
       "number": "1",
       "order": "13",
       "pages": "14-17",
@@ -272,10 +289,11 @@
         }
       ],
       "title": "Настойка подключения к BPMSoft",
-      "tokens": 1455
+      "tokens": 2059
     },
     {
       "file": "sections/14-nastroyka-sootvetstviya-vnutrennih-nomer.md",
+      "images": 0,
       "number": "1",
       "order": "14",
       "pages": "17",
@@ -294,6 +312,7 @@
     },
     {
       "file": "sections/15-obschee.md",
+      "images": 0,
       "number": "1",
       "order": "15",
       "pages": "17-18",
@@ -312,6 +331,7 @@
     },
     {
       "file": "sections/16-kak-nastroit-sopostavlenie-sotrudnikov.md",
+      "images": 2,
       "number": "1",
       "order": "16",
       "pages": "18-20",
@@ -326,10 +346,11 @@
         }
       ],
       "title": "Как настроить сопоставление сотрудников",
-      "tokens": 435
+      "tokens": 1235
     },
     {
       "file": "sections/17-dopolnitelnye-nastroyki-integracii.md",
+      "images": 0,
       "number": "2",
       "order": "17",
       "pages": "20",
@@ -348,6 +369,7 @@
     },
     {
       "file": "sections/18-obrabotka-zvonkov.md",
+      "images": 0,
       "number": "2.1",
       "order": "18",
       "pages": "20",
@@ -366,6 +388,7 @@
     },
     {
       "file": "sections/19-kak-nastroit-dlitelnost-uspeshno-prinyat.md",
+      "images": 1,
       "number": "2.1",
       "order": "19",
       "pages": "20-22",
@@ -380,10 +403,11 @@
         }
       ],
       "title": "Как настроить длительность успешно принятых и дозвонившихся",
-      "tokens": 589
+      "tokens": 989
     },
     {
       "file": "sections/20-sozdavat-kontakt-kontragenta-lid-pri-zvo.md",
+      "images": 2,
       "number": "2.1",
       "order": "20",
       "pages": "22-24",
@@ -398,10 +422,11 @@
         }
       ],
       "title": "Создавать контакт / контрагента / лид при звонках с новых номеров",
-      "tokens": 733
+      "tokens": 1633
     },
     {
       "file": "sections/21-otvetstvennyy-pri-propuschennyh-zvonkah.md",
+      "images": 1,
       "number": "2.1",
       "order": "21",
       "pages": "24-25",
@@ -416,10 +441,11 @@
         }
       ],
       "title": "Ответственный при пропущенных звонках в группу",
-      "tokens": 517
+      "tokens": 971
     },
     {
       "file": "sections/22-flag-fiksirovat-propuschennye-v-ivr.md",
+      "images": 1,
       "number": "2.1",
       "order": "22",
       "pages": "25-26",
@@ -434,10 +460,11 @@
         }
       ],
       "title": "Флаг “Фиксировать пропущенные в IVR”",
-      "tokens": 455
+      "tokens": 905
     },
     {
       "file": "sections/23-zagruzhat-postzvonkovuyu-ocenku.md",
+      "images": 0,
       "number": "2.1",
       "order": "23",
       "pages": "26",
@@ -456,6 +483,7 @@
     },
     {
       "file": "sections/24-obzor.md",
+      "images": 0,
       "number": "2.1",
       "order": "24",
       "pages": "26",
@@ -474,6 +502,7 @@
     },
     {
       "file": "sections/25-trebovaniya.md",
+      "images": 0,
       "number": "2.1",
       "order": "25",
       "pages": "26",
@@ -492,6 +521,7 @@
     },
     {
       "file": "sections/26-kak-podklyuchit.md",
+      "images": 1,
       "number": "2.1",
       "order": "26",
       "pages": "26-27",
@@ -506,10 +536,11 @@
         }
       ],
       "title": "Как подключить",
-      "tokens": 230
+      "tokens": 640
     },
     {
       "file": "sections/27-obrabotka-povtornyh-vhodyaschih-vyzovov.md",
+      "images": 0,
       "number": "2.2",
       "order": "27",
       "pages": "27",
@@ -528,6 +559,7 @@
     },
     {
       "file": "sections/28-sozdat-lid.md",
+      "images": 1,
       "number": "2.2",
       "order": "28",
       "pages": "27-28",
@@ -542,10 +574,11 @@
         }
       ],
       "title": "Создать лид",
-      "tokens": 462
+      "tokens": 898
     },
     {
       "file": "sections/29-sohranenie-dannyh-kolltrekinga-mango-off.md",
+      "images": 0,
       "number": "2.2",
       "order": "29",
       "pages": "28",
@@ -564,6 +597,7 @@
     },
     {
       "file": "sections/30-obzor.md",
+      "images": 0,
       "number": "2.2",
       "order": "30",
       "pages": "28-30",
@@ -582,6 +616,7 @@
     },
     {
       "file": "sections/31-kak-vklyuchit-ili-vyklyuchit-sohranenie.md",
+      "images": 1,
       "number": "2.2",
       "order": "31",
       "pages": "30-31",
@@ -596,10 +631,11 @@
         }
       ],
       "title": "Как включить или выключить сохранение данных коллтрекинга",
-      "tokens": 346
+      "tokens": 775
     },
     {
       "file": "sections/32-kak-posmotret-dannye-kolltrekinga-v-bpms.md",
+      "images": 3,
       "number": "2.2",
       "order": "32",
       "pages": "31-32",
@@ -614,10 +650,11 @@
         }
       ],
       "title": "Как посмотреть данные коллтрекинга в BPMSoft",
-      "tokens": 391
+      "tokens": 1804
     },
     {
       "file": "sections/33-umnye-pravila-raspredeleniya-vhodyaschih.md",
+      "images": 0,
       "number": "2.2",
       "order": "33",
       "pages": "32",
@@ -636,6 +673,7 @@
     },
     {
       "file": "sections/34-obzor.md",
+      "images": 0,
       "number": "2.2",
       "order": "34",
       "pages": "32",
@@ -654,6 +692,7 @@
     },
     {
       "file": "sections/35-kak-sozdat-i-nastroit-umnye-pravila.md",
+      "images": 8,
       "number": "2.2",
       "order": "35",
       "pages": "32-35",
@@ -668,10 +707,11 @@
         }
       ],
       "title": "Как создать и настроить умные правила",
-      "tokens": 1521
+      "tokens": 4010
     },
     {
       "file": "sections/36-primery-nastroyki-umnogo-algoritma-raspr.md",
+      "images": 2,
       "number": "2.2",
       "order": "36",
       "pages": "35-36",
@@ -686,10 +726,11 @@
         }
       ],
       "title": "Примеры настройки умного алгоритма распределения",
-      "tokens": 340
+      "tokens": 914
     },
     {
       "file": "sections/37-obrabotka-ishodyaschih-zvonkov.md",
+      "images": 0,
       "number": "2.3",
       "order": "37",
       "pages": "36",
@@ -708,6 +749,7 @@
     },
     {
       "file": "sections/38-ishodyaschiy-zvonok-po-kliku-iz-bpmsoft.md",
+      "images": 1,
       "number": "2.3",
       "order": "38",
       "pages": "36-37",
@@ -722,10 +764,11 @@
         }
       ],
       "title": "Исходящий звонок по клику из BPMSoft",
-      "tokens": 351
+      "tokens": 796
     },
     {
       "file": "sections/39-dopolnitelnye-nastroyki-integracii.md",
+      "images": 0,
       "number": "2.4",
       "order": "39",
       "pages": "37",
@@ -744,6 +787,7 @@
     },
     {
       "file": "sections/40-sohranenie-dannyh-rechevoy-analitiki.md",
+      "images": 0,
       "number": "2.4",
       "order": "40",
       "pages": "37",
@@ -762,6 +806,7 @@
     },
     {
       "file": "sections/41-pered-nachalom-raboty.md",
+      "images": 0,
       "number": "2.4",
       "order": "41",
       "pages": "37",
@@ -780,6 +825,7 @@
     },
     {
       "file": "sections/42-sohranenie-tematik-razgovorov.md",
+      "images": 2,
       "number": "2.4",
       "order": "42",
       "pages": "37-40",
@@ -794,10 +840,11 @@
         }
       ],
       "title": "Сохранение тематик разговоров",
-      "tokens": 1640
+      "tokens": 2527
     },
     {
       "file": "sections/43-sohranenie-tekstov-rechevoy-analitiki.md",
+      "images": 0,
       "number": "2.4",
       "order": "43",
       "pages": "40",
@@ -816,6 +863,7 @@
     },
     {
       "file": "sections/44-obschie-svedeniya.md",
+      "images": 0,
       "number": "2.4",
       "order": "44",
       "pages": "40-41",
@@ -834,6 +882,7 @@
     },
     {
       "file": "sections/45-kak-nastroit.md",
+      "images": 1,
       "number": "2.4",
       "order": "45",
       "pages": "41-42",
@@ -848,10 +897,11 @@
         }
       ],
       "title": "Как настроить",
-      "tokens": 249
+      "tokens": 691
     },
     {
       "file": "sections/46-kak-posmotret-raspoznannyy-tekst.md",
+      "images": 2,
       "number": "2.4",
       "order": "46",
       "pages": "42",
@@ -866,10 +916,11 @@
         }
       ],
       "title": "Как посмотреть распознанный текст",
-      "tokens": 263
+      "tokens": 969
     },
     {
       "file": "sections/47-obschie-svedeniya.md",
+      "images": 0,
       "number": "2.4",
       "order": "47",
       "pages": "42-43",
@@ -888,6 +939,7 @@
     },
     {
       "file": "sections/48-kak-vklyuchit-sohranenie-rezyume-razgovo.md",
+      "images": 2,
       "number": "2.4",
       "order": "48",
       "pages": "43-44",
@@ -902,10 +954,11 @@
         }
       ],
       "title": "Как включить сохранение резюме разговора",
-      "tokens": 321
+      "tokens": 1025
     },
     {
       "file": "sections/49-kak-rabotaet-formirovanie-rezyume.md",
+      "images": 0,
       "number": "2.4",
       "order": "49",
       "pages": "44",
@@ -924,6 +977,7 @@
     },
     {
       "file": "sections/50-kak-posmotret-rezyume-razgovora.md",
+      "images": 1,
       "number": "2.4",
       "order": "50",
       "pages": "44-45",
@@ -938,10 +992,11 @@
         }
       ],
       "title": "Как посмотреть резюме разговора",
-      "tokens": 310
+      "tokens": 796
     },
     {
       "file": "sections/51-ispolzovanie-vks-mango-talker.md",
+      "images": 0,
       "number": "2.4",
       "order": "51",
       "pages": "45",
@@ -960,6 +1015,7 @@
     },
     {
       "file": "sections/52-kak-vklyuchit-ispolzovanie-vks.md",
+      "images": 2,
       "number": "2.4",
       "order": "52",
       "pages": "45-46",
@@ -974,10 +1030,11 @@
         }
       ],
       "title": "Как включить использование ВКС",
-      "tokens": 367
+      "tokens": 970
     },
     {
       "file": "sections/53-kak-rabotat-s-videokonferenciey-v-kartoc.md",
+      "images": 1,
       "number": "2.4",
       "order": "53",
       "pages": "46-47",
@@ -992,10 +1049,11 @@
         }
       ],
       "title": "Как работать с видеоконференцией в карточке контакта",
-      "tokens": 360
+      "tokens": 786
     },
     {
       "file": "sections/54-rezultaty-video-vstrechi.md",
+      "images": 2,
       "number": "2.4",
       "order": "54",
       "pages": "47-48",
@@ -1010,10 +1068,11 @@
         }
       ],
       "title": "Результаты видео-встречи",
-      "tokens": 388
+      "tokens": 1353
     },
     {
       "file": "sections/55-zagruzka-otsutstvuyuschih-v-crm-zvonkov.md",
+      "images": 0,
       "number": "2.4",
       "order": "55",
       "pages": "48",
@@ -1032,6 +1091,7 @@
     },
     {
       "file": "sections/56-obzor.md",
+      "images": 0,
       "number": "2.4",
       "order": "56",
       "pages": "48-49",
@@ -1050,6 +1110,7 @@
     },
     {
       "file": "sections/57-kak-vklyuchit.md",
+      "images": 1,
       "number": "2.4",
       "order": "57",
       "pages": "49",
@@ -1064,10 +1125,11 @@
         }
       ],
       "title": "Как включить",
-      "tokens": 209
+      "tokens": 504
     },
     {
       "file": "sections/58-otklyuchit-rabotu-s-lidami.md",
+      "images": 0,
       "number": "2.4",
       "order": "58",
       "pages": "49",
@@ -1086,6 +1148,7 @@
     },
     {
       "file": "sections/59-obzor.md",
+      "images": 0,
       "number": "2.4",
       "order": "59",
       "pages": "49",
@@ -1104,6 +1167,7 @@
     },
     {
       "file": "sections/60-kak-vklyuchit.md",
+      "images": 1,
       "number": "2.4",
       "order": "60",
       "pages": "49-50",
@@ -1118,10 +1182,11 @@
         }
       ],
       "title": "Как включить",
-      "tokens": 204
+      "tokens": 484
     },
     {
       "file": "sections/61-ispolzovat-statusy-kontakt-centra.md",
+      "images": 0,
       "number": "2.4",
       "order": "61",
       "pages": "50",
@@ -1140,6 +1205,7 @@
     },
     {
       "file": "sections/62-obzor.md",
+      "images": 0,
       "number": "2.4",
       "order": "62",
       "pages": "50",
@@ -1158,6 +1224,7 @@
     },
     {
       "file": "sections/63-trebovaniya.md",
+      "images": 0,
       "number": "2.4",
       "order": "63",
       "pages": "50-51",
@@ -1176,6 +1243,7 @@
     },
     {
       "file": "sections/64-statusy-kontakt-centra-v-interfeyse-bpms.md",
+      "images": 1,
       "number": "2.4",
       "order": "64",
       "pages": "51",
@@ -1190,10 +1258,11 @@
         }
       ],
       "title": "Статусы Контакт-центра в интерфейсе BPMSoft",
-      "tokens": 204
+      "tokens": 604
     },
     {
       "file": "sections/65-kak-vklyuchit-nastroyku-ispolzovat-statu.md",
+      "images": 1,
       "number": "2.4",
       "order": "65",
       "pages": "51-52",
@@ -1208,10 +1277,11 @@
         }
       ],
       "title": "Как включить настройку “Использовать статусы Контакт-Центра”",
-      "tokens": 276
+      "tokens": 644
     },
     {
       "file": "sections/66-ruchnaya-privyazka-zvonka-k-suschnostyam.md",
+      "images": 0,
       "number": "2.4",
       "order": "66",
       "pages": "52",
@@ -1230,6 +1300,7 @@
     },
     {
       "file": "sections/67-obzor.md",
+      "images": 0,
       "number": "2.4",
       "order": "67",
       "pages": "52",
@@ -1248,6 +1319,7 @@
     },
     {
       "file": "sections/68-kak-vklyuchit.md",
+      "images": 1,
       "number": "2.4",
       "order": "68",
       "pages": "52-53",
@@ -1262,10 +1334,11 @@
         }
       ],
       "title": "Как включить",
-      "tokens": 214
+      "tokens": 495
     },
     {
       "file": "sections/69-privyazka-zvonka-k-suschnosti-vruchnuyu.md",
+      "images": 0,
       "number": "2.4",
       "order": "69",
       "pages": "53",
@@ -1284,6 +1357,7 @@
     },
     {
       "file": "sections/70-nastroyka-deystviy-v-zavisimosti-ot-roli.md",
+      "images": 0,
       "number": "2.5",
       "order": "70",
       "pages": "53",
@@ -1302,6 +1376,7 @@
     },
     {
       "file": "sections/71-obschee.md",
+      "images": 0,
       "number": "2.5",
       "order": "71",
       "pages": "53",
@@ -1320,6 +1395,7 @@
     },
     {
       "file": "sections/72-naznachenie.md",
+      "images": 0,
       "number": "2.5",
       "order": "72",
       "pages": "53-54",
@@ -1338,6 +1414,7 @@
     },
     {
       "file": "sections/73-prosmotr-primenennyh-pravil-v-kartochke.md",
+      "images": 0,
       "number": "2.5",
       "order": "73",
       "pages": "54",
@@ -1356,6 +1433,7 @@
     },
     {
       "file": "sections/74-ogranicheniya.md",
+      "images": 0,
       "number": "2.5",
       "order": "74",
       "pages": "54",
@@ -1374,6 +1452,7 @@
     },
     {
       "file": "sections/75-testovye-pravila.md",
+      "images": 0,
       "number": "2.5",
       "order": "75",
       "pages": "54",
@@ -1392,6 +1471,7 @@
     },
     {
       "file": "sections/76-kak-otkryt-nastroyku.md",
+      "images": 4,
       "number": "2.5",
       "order": "76",
       "pages": "54-55",
@@ -1406,10 +1486,11 @@
         }
       ],
       "title": "Как открыть настройку",
-      "tokens": 374
+      "tokens": 1477
     },
     {
       "file": "sections/77-kak-ustroena-tablica-pravil.md",
+      "images": 0,
       "number": "2.5",
       "order": "77",
       "pages": "55",
@@ -1428,6 +1509,7 @@
     },
     {
       "file": "sections/78-opisanie-interfeysa.md",
+      "images": 2,
       "number": "2.5",
       "order": "78",
       "pages": "55-58",
@@ -1442,10 +1524,11 @@
         }
       ],
       "title": "Описание интерфейса",
-      "tokens": 1843
+      "tokens": 2749
     },
     {
       "file": "sections/79-o-vidah-deystviy.md",
+      "images": 0,
       "number": "2.5",
       "order": "79",
       "pages": "58-60",
@@ -1464,6 +1547,7 @@
     },
     {
       "file": "sections/80-trebovanie-k-zapolneniyu-grafy-znachenie.md",
+      "images": 0,
       "number": "2.5",
       "order": "80",
       "pages": "60",
@@ -1482,6 +1566,7 @@
     },
     {
       "file": "sections/81-kak-interpretiruyutsya-pravila-ukazannye.md",
+      "images": 0,
       "number": "2.5",
       "order": "81",
       "pages": "60-61",
@@ -1500,6 +1585,7 @@
     },
     {
       "file": "sections/82-kak-aktivirovat-nastroyku.md",
+      "images": 0,
       "number": "2.5",
       "order": "82",
       "pages": "61",
@@ -1518,6 +1604,7 @@
     },
     {
       "file": "sections/83-vazhnaya-informaciya.md",
+      "images": 0,
       "number": "2.5",
       "order": "83",
       "pages": "61",
@@ -1536,6 +1623,7 @@
     },
     {
       "file": "sections/84-kak-aktivirovat-ili-deaktivirovat-nastro.md",
+      "images": 6,
       "number": "2.5",
       "order": "84",
       "pages": "61-62",
@@ -1550,10 +1638,11 @@
         }
       ],
       "title": "Как активировать или деактивировать настройку",
-      "tokens": 551
+      "tokens": 2125
     },
     {
       "file": "sections/85-upravlenie-pravilami-vypolneniya-deystvi.md",
+      "images": 0,
       "number": "2.5",
       "order": "85",
       "pages": "62",
@@ -1572,6 +1661,7 @@
     },
     {
       "file": "sections/86-kak-vklyuchit-ili-priostanovit-deystvie.md",
+      "images": 5,
       "number": "2.5",
       "order": "86",
       "pages": "62-64",
@@ -1586,10 +1676,11 @@
         }
       ],
       "title": "Как включить или приостановить действие правила",
-      "tokens": 652
+      "tokens": 2352
     },
     {
       "file": "sections/87-kak-nastroit-kolonki-v-tablice.md",
+      "images": 6,
       "number": "2.5",
       "order": "87",
       "pages": "64-65",
@@ -1604,10 +1695,11 @@
         }
       ],
       "title": "Как настроить колонки в таблице",
-      "tokens": 564
+      "tokens": 2388
     },
     {
       "file": "sections/88-dobavlenie.md",
+      "images": 4,
       "number": "2.5",
       "order": "88",
       "pages": "65-66",
@@ -1622,10 +1714,11 @@
         }
       ],
       "title": "Добавление",
-      "tokens": 443
+      "tokens": 1610
     },
     {
       "file": "sections/89-redaktirovanie-ili-udalenie-pravila.md",
+      "images": 5,
       "number": "2.5",
       "order": "89",
       "pages": "66-68",
@@ -1640,10 +1733,11 @@
         }
       ],
       "title": "Редактирование или удаление правила",
-      "tokens": 709
+      "tokens": 1935
     },
     {
       "file": "sections/90-nastroyka-sohranyat-istoriyu-deystviy-po.md",
+      "images": 0,
       "number": "2.6",
       "order": "90",
       "pages": "68",
@@ -1662,6 +1756,7 @@
     },
     {
       "file": "sections/91-obschee.md",
+      "images": 0,
       "number": "2.6",
       "order": "91",
       "pages": "68",
@@ -1680,6 +1775,7 @@
     },
     {
       "file": "sections/92-kak-vklyuchit-ili-vyklyuchit-nastroyku.md",
+      "images": 5,
       "number": "2.6",
       "order": "92",
       "pages": "68-69",
@@ -1694,10 +1790,11 @@
         }
       ],
       "title": "Как включить или выключить настройку",
-      "tokens": 511
+      "tokens": 1977
     },
     {
       "file": "sections/93-dalneyshie-deystviya.md",
+      "images": 0,
       "number": "2.6",
       "order": "93",
       "pages": "69-70",
@@ -1716,6 +1813,7 @@
     },
     {
       "file": "sections/94-kak-proverit-vklyuchena-li-nastroyka-nas.md",
+      "images": 5,
       "number": "2.6",
       "order": "94",
       "pages": "70-71",
@@ -1730,10 +1828,11 @@
         }
       ],
       "title": "Как проверить, включена ли настройка ”Настройки действий в зависимости от роли”",
-      "tokens": 575
+      "tokens": 2111
     },
     {
       "file": "sections/95-otchet-deystviya-zvonka.md",
+      "images": 0,
       "number": "2.7",
       "order": "95",
       "pages": "71",
@@ -1752,6 +1851,7 @@
     },
     {
       "file": "sections/96-obschee.md",
+      "images": 0,
       "number": "2.7",
       "order": "96",
       "pages": "71",
@@ -1770,6 +1870,7 @@
     },
     {
       "file": "sections/97-trebovaniya.md",
+      "images": 0,
       "number": "2.7",
       "order": "97",
       "pages": "71-72",
@@ -1788,6 +1889,7 @@
     },
     {
       "file": "sections/98-kak-otkryt-otchet.md",
+      "images": 2,
       "number": "2.7",
       "order": "98",
       "pages": "72-73",
@@ -1802,10 +1904,11 @@
         }
       ],
       "title": "Как открыть отчет",
-      "tokens": 289
+      "tokens": 1166
     },
     {
       "file": "sections/99-struktura-otcheta.md",
+      "images": 0,
       "number": "2.7",
       "order": "99",
       "pages": "73",
@@ -1824,6 +1927,7 @@
     },
     {
       "file": "sections/100-dannye-o-pravilah-primenennyh-k-zvonku.md",
+      "images": 0,
       "number": "2.7",
       "order": "100",
       "pages": "73",
@@ -1842,6 +1946,7 @@
     },
     {
       "file": "sections/101-soobschenie-net-dannyh.md",
+      "images": 0,
       "number": "2.7",
       "order": "101",
       "pages": "73",
@@ -1860,6 +1965,7 @@
     },
     {
       "file": "sections/102-soobschenie-1-nepolnaya-nastroyka-sohran.md",
+      "images": 0,
       "number": "2.7",
       "order": "102",
       "pages": "73-74",
@@ -1878,6 +1984,7 @@
     },
     {
       "file": "sections/103-otpravka-soobscheniy-whatsapp.md",
+      "images": 0,
       "number": "2.8",
       "order": "103",
       "pages": "74",
@@ -1896,6 +2003,7 @@
     },
     {
       "file": "sections/104-obschee.md",
+      "images": 0,
       "number": "2.8",
       "order": "104",
       "pages": "74",
@@ -1914,6 +2022,7 @@
     },
     {
       "file": "sections/105-obschee-o-mango-dialogah.md",
+      "images": 0,
       "number": "2.8",
       "order": "105",
       "pages": "74",
@@ -1932,6 +2041,7 @@
     },
     {
       "file": "sections/106-kak-vklyuchit-otpravku-soobscheniy-whats.md",
+      "images": 1,
       "number": "2.8",
       "order": "106",
       "pages": "74-75",
@@ -1946,10 +2056,11 @@
         }
       ],
       "title": "Как включить отправку сообщений WhatsApp",
-      "tokens": 250
+      "tokens": 596
     },
     {
       "file": "sections/107-kak-otpravit-klientu-soobschenie-whatsap.md",
+      "images": 8,
       "number": "2.8",
       "order": "107",
       "pages": "75-77",
@@ -1964,10 +2075,11 @@
         }
       ],
       "title": "Как отправить Клиенту сообщение WhatsApp",
-      "tokens": 795
+      "tokens": 3194
     },
     {
       "file": "sections/108-dobavlenie-zadaniya-na-ishodyaschiy-obzv.md",
+      "images": 0,
       "number": "2.9",
       "order": "108",
       "pages": "77",
@@ -1986,6 +2098,7 @@
     },
     {
       "file": "sections/109-obzor.md",
+      "images": 0,
       "number": "2.9",
       "order": "109",
       "pages": "77-78",
@@ -2004,6 +2117,7 @@
     },
     {
       "file": "sections/110-kak-vklyuchit-nastroyku.md",
+      "images": 1,
       "number": "2.9",
       "order": "110",
       "pages": "78",
@@ -2018,10 +2132,11 @@
         }
       ],
       "title": "Как включить настройку",
-      "tokens": 231
+      "tokens": 557
     },
     {
       "file": "sections/111-kak-dobavit-zadanie-v-kampaniyu-ishodyas.md",
+      "images": 5,
       "number": "2.9",
       "order": "111",
       "pages": "78-81",
@@ -2036,10 +2151,11 @@
         }
       ],
       "title": "Как добавить задание в кампанию исходящего обзвона Контакт-центра MANGO OFFICE",
-      "tokens": 703
+      "tokens": 2511
     },
     {
       "file": "sections/112-kak-sovershat-i-prinimat-vyzovy.md",
+      "images": 0,
       "number": "3",
       "order": "112",
       "pages": "81",
@@ -2058,6 +2174,7 @@
     },
     {
       "file": "sections/113-vhodyaschiy-zvonok.md",
+      "images": 4,
       "number": "3.1",
       "order": "113",
       "pages": "81-82",
@@ -2072,10 +2189,11 @@
         }
       ],
       "title": "Входящий звонок",
-      "tokens": 498
+      "tokens": 2003
     },
     {
       "file": "sections/114-ishodyaschiy-zvonok.md",
+      "images": 1,
       "number": "3.2",
       "order": "114",
       "pages": "82-83",
@@ -2090,10 +2208,11 @@
         }
       ],
       "title": "Исходящий звонок",
-      "tokens": 342
+      "tokens": 777
     },
     {
       "file": "sections/115-kak-perevesti-zvonok-na-drugogo-sotrudni.md",
+      "images": 0,
       "number": "3.3",
       "order": "115",
       "pages": "83",
@@ -2112,6 +2231,7 @@
     },
     {
       "file": "sections/116-obschee.md",
+      "images": 0,
       "number": "3.3",
       "order": "116",
       "pages": "83",
@@ -2130,6 +2250,7 @@
     },
     {
       "file": "sections/117-ogranicheniya.md",
+      "images": 0,
       "number": "3.3",
       "order": "117",
       "pages": "83",
@@ -2148,6 +2269,7 @@
     },
     {
       "file": "sections/118-kak-perevesti-zvonok-s-konsultaciey.md",
+      "images": 8,
       "number": "3.3",
       "order": "118",
       "pages": "83-86",
@@ -2162,10 +2284,11 @@
         }
       ],
       "title": "Как перевести звонок с консультацией",
-      "tokens": 1140
+      "tokens": 4311
     },
     {
       "file": "sections/119-slepoy-perevod-ili-kak-perevesti-zvonok.md",
+      "images": 7,
       "number": "3.3",
       "order": "119",
       "pages": "86-88",
@@ -2180,10 +2303,11 @@
         }
       ],
       "title": "Слепой перевод или как перевести звонок без консультации",
-      "tokens": 892
+      "tokens": 3666
     },
     {
       "file": "sections/120-propuschennye-zvonki.md",
+      "images": 1,
       "number": "4",
       "order": "120",
       "pages": "88",
@@ -2198,10 +2322,11 @@
         }
       ],
       "title": "Пропущенные звонки",
-      "tokens": 362
+      "tokens": 849
     },
     {
       "file": "sections/121-nastroyka-vneshnego-vida-tablicy-zvonkov.md",
+      "images": 5,
       "number": "4.1",
       "order": "121",
       "pages": "88-91",
@@ -2216,10 +2341,11 @@
         }
       ],
       "title": "Настройка внешнего вида таблицы звонков",
-      "tokens": 648
+      "tokens": 2346
     },
     {
       "file": "sections/122-istoriya-vyzovov.md",
+      "images": 2,
       "number": "5",
       "order": "122",
       "pages": "91-92",
@@ -2234,10 +2360,11 @@
         }
       ],
       "title": "История вызовов",
-      "tokens": 329
+      "tokens": 1084
     },
     {
       "file": "sections/123-zapis-razgovorov.md",
+      "images": 4,
       "number": "6",
       "order": "123",
       "pages": "92-93",
@@ -2252,10 +2379,11 @@
         }
       ],
       "title": "Запись разговоров",
-      "tokens": 569
+      "tokens": 1834
     },
     {
       "file": "sections/124-prilozhenie-informaciya-dlya-administrat.md",
+      "images": 0,
       "number": "—",
       "order": "124",
       "pages": "93",
@@ -2274,6 +2402,7 @@
     },
     {
       "file": "sections/125-kak-izmenit-login-i-parol-api-bpmsoft.md",
+      "images": 5,
       "number": "—",
       "order": "125",
       "pages": "93-95",
@@ -2288,10 +2417,11 @@
         }
       ],
       "title": "Как изменить логин и пароль API BPMSoft",
-      "tokens": 676
+      "tokens": 1974
     },
     {
       "file": "sections/126-spisok-izmeneniy-v-dokumente.md",
+      "images": 0,
       "number": "—",
       "order": "126",
       "pages": "95-96",
@@ -2326,8 +2456,8 @@
   ],
   "table_count": 7,
   "token_method": "tiktoken:cl100k_base",
-  "tokens_index": 11803,
-  "tokens_total": 49903,
+  "tokens_index": 12192,
+  "tokens_total": 104777,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 1.0,

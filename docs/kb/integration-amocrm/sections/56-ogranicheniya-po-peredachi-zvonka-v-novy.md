@@ -15,6 +15,7 @@ source_refs: '[{"source_pdf":"kb/sources/integration_amocrm/Mango_office_integra
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
 tokens: 391
+images: 0
 status: extracted
 ai-generated: true
 ---

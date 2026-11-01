@@ -14,7 +14,8 @@ source_pages: "ч.1: 32-33"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"32-33","global_pages":"32-33"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 774
+tokens: 747
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -27,8 +28,6 @@ ai-generated: true
 | Просматривать<br>кампании | в которых состоит<br>/ своих и<br>подконтрольных<br>групп / все | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 32
-
-![Изображение, стр. 33](../images/28-ishodyaschiy-obzvon-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

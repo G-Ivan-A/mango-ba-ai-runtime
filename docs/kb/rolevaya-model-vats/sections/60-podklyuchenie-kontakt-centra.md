@@ -14,7 +14,8 @@ source_pages: "ч.1: 54-55"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"54-55","global_pages":"54-55"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 303
+tokens: 273
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -27,8 +28,6 @@ ai-generated: true
 | П олный доступ к разделу | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 54
-
-![Изображение, стр. 55](../images/60-podklyuchenie-kontakt-centra-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

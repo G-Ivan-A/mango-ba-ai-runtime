@@ -14,7 +14,8 @@ source_pages: "ч.1: 29-32"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"29-32","global_pages":"29-32"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 2780
+tokens: 2702
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -27,8 +28,6 @@ ai-generated: true
 | Доступ к<br>записям | Видеть и<br>прослушива<br>ть записи,<br>ставить и<br>удалять<br>метки и<br>просматрив<br>ать отчёты<br>речевой<br>аналитики | только для<br>своих<br>звонков /<br>для всех<br>звонков<br>компании | Доступно | Доступно | Доступно | только для<br>своих звонков<br>/ для своих<br>звонков,<br>звонков<br>подконтрольн<br>ых групп и их<br>операторов /<br>для всех<br>звонков<br>компании | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 29
-
-![Изображение, стр. 30](../images/26-zapis-razgovorov-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
@@ -43,8 +42,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 30
 
-![Изображение, стр. 31](../images/26-zapis-razgovorov-2.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -57,8 +54,6 @@ ai-generated: true
 | Настройки | Редактирова<br>ть настройки<br>записей<br>разговоров | — | Недоступно | Недоступно | Доступно |  | Недоступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 31
-
-![Изображение, стр. 32](../images/26-zapis-razgovorov-3.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

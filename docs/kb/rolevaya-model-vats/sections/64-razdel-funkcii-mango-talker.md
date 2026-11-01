@@ -14,7 +14,8 @@ source_pages: "ч.1: 57-59"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"57-59","global_pages":"57-59"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 1523
+tokens: 1463
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -30,8 +31,6 @@ ai-generated: true
 | Инициирование записи<br>видеозвонков | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 57
-
-![Изображение, стр. 58](../images/64-razdel-funkcii-mango-talker-1.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
@@ -50,8 +49,6 @@ ai-generated: true
 | Доступ к публичным чатам | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 58
-
-![Изображение, стр. 59](../images/64-razdel-funkcii-mango-talker-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |

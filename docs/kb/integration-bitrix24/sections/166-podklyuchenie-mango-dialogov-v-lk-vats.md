@@ -14,7 +14,8 @@ source_pages: "ч.1: 137"
 source_refs: '[{"source_pdf":"kb/sources/integration-bitrix24/Mango_office_integration_Bitrix24.pdf","part":1,"pages":"137","global_pages":"137"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 238
+tokens: 456
+images: 1
 status: extracted
 ai-generated: true
 ---
@@ -24,6 +25,10 @@ ai-generated: true
 
 Авторизуйтесь в Личном кабинете ВАТС MANGO OFFICE по ссылке https://lk.mango-office.ru/.
 
-![Изображение, стр. 137](../images/166-podklyuchenie-mango-dialogov-v-lk-vats-1.png)
+![Пиктограмма (значок элемента интерфейса), стр. 137](../images/166-podklyuchenie-mango-dialogov-v-lk-vats-1.png)
+
+> **Описание иллюстрации INTB24-§2.24.2-1** (к §2.24.2 «Подключение Манго Диалогов в ЛК ВАТС», стр. 137; 20×18 px). Пиктограмма (значок элемента интерфейса).
+> Относится к тексту руководства: «…аняется в карточке клиента. 2.24.2 Подключение Манго Диалогов в ЛК ВАТС Авторизуйтесь в Личном кабинете ВАТС MANGO OFFICE по ссылке https://lk.mango-office.ru/.».
+> Текста на изображении нет; назначение элемента — см. текст, к которому он относится.
 
 Далее в боковой навигационной панели выберите строку меню Диалоги . Ознакомьтесь с информацией на приветственной странице и нажмите кнопку Подключить. Далее переходите к подключению и настройке каналов.

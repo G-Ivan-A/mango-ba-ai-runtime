@@ -14,7 +14,8 @@ source_pages: "ч.1: 37-39"
 source_refs: '[{"source_pdf":"kb/sources/Rolevaya-model-vats/Rolevaya-model-VATS_1_26_08.pdf","part":1,"pages":"37-39","global_pages":"37-39"}]'
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
-tokens: 2138
+tokens: 2084
+images: 0
 status: extracted
 ai-generated: true
 ---
@@ -34,8 +35,6 @@ ai-generated: true
 
 Роли и права доступа | v. 1.26.08 37
 
-![Изображение, стр. 38](../images/33-otchety-kontakt-centra-1.png)
-
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
 |  | mango@mangotele.com |
@@ -50,8 +49,6 @@ ai-generated: true
 | Конструктор<br>отчетов –<br>Элементы | Удаление | только по своим<br>элементам / по<br>своим<br>элементам и<br>элементам<br>подконтрольных<br>групп / по всем<br>элементам | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно | Доступно |
 
 Роли и права доступа | v. 1.26.08 38
-
-![Изображение, стр. 39](../images/33-otchety-kontakt-centra-2.png)
 
 | 8 800 555 55 22, mango-office.ru |  |
 | --- | --- |
