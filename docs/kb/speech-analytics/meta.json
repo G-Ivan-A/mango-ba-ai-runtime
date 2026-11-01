@@ -7,15 +7,15 @@
       "index": "user-guide/index.md",
       "meta": "user-guide/meta.json",
       "output": "kb/processed/speech-analytics/user-guide",
-      "page_count": 126,
-      "section_count": 76,
+      "page_count": 129,
+      "section_count": 67,
       "slug": "user-guide",
       "source_files": [
-        "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_1.26.18.pdf"
+        "kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_1.26.42.pdf"
       ],
       "title": "Руководство пользователя. Речевая аналитика",
-      "tokens_total": 86230,
-      "version": "1.26.18"
+      "tokens_total": 153995,
+      "version": "1.26.42"
     },
     {
       "doc_code": "SA-KATS",
@@ -69,7 +69,7 @@
   "processing_mode": "multi_document",
   "product": "Mango Office",
   "source_dir": "kb/sources/speech-analytics",
-  "tokens_total": 375566,
-  "total_pages": 548,
+  "tokens_total": 443331,
+  "total_pages": 551,
   "version": "1.26"
 }

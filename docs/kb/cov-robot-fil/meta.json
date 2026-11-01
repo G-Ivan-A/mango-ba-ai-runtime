@@ -3,15 +3,30 @@
   "body_font_sizes": [
     12.0
   ],
+  "decorative_images_removed": {
+    "однотонная заливка без содержимого": 4,
+    "однотонная подложка-тень под снимком экрана (снимок на той же странице сохранён отдельно)": 45,
+    "служебный элемент менее 8 пикселей": 2,
+    "фирменный шаблон страницы (логотип MANGO OFFICE, контакты) — одно изображение на большинстве страниц": 194
+  },
   "doc_code": "ROBOTFIL",
   "doc_title": "Модуль ЦОВ «Робот Фил 2,0». Руководство пользователя",
   "doc_version": "1.26.28",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 455,
+  "illustration_description": "контекстное текстовое описание под каждой иллюстрацией: id, раздел, страница, тип, размер, цитата текста руководства, к которому относится иллюстрация, следующий текст, подпись и OCR-текст интерфейса",
+  "illustration_refs": 210,
+  "image_count": 210,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_annotated": "2026-11-01",
+  "images_optimised": {
+    "black_images_rerendered": 0,
+    "bytes_after": 7660699,
+    "bytes_before": 16512660,
+    "duplicates_merged": 19
+  },
   "note": "Руководство пользователя модуля ЦОВ «Робот Фил 2,0» (v 1.26.28 по титульному листу; имя файла — manual_v7.26.28). Описывает голосового робота: сценарии обзвона, распознавание речи, настройку диалогов и отчётность.",
   "page_count": 195,
   "part_count": 1,
@@ -1392,6 +1407,7 @@
   "token_method": "tiktoken:cl100k_base",
   "tokens_index": 7775,
   "tokens_total": 96376,
+  "unique_images": 191,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 1.0,
