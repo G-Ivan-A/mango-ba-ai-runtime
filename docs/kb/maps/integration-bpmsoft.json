@@ -11,7 +11,7 @@
       "title": "Титульная часть",
       "hint": "Интеграция Виртуальной АТС",
       "pages": "1-5",
-      "tokens": 1755,
+      "tokens": 1729,
       "path": "docs/kb/integration-bpmsoft/sections/00-titulnaya-chast.md"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Установка приложения",
       "hint": "Чтобы установить приложение интеграции, необходимо:",
       "pages": "7-9",
-      "tokens": 831,
+      "tokens": 2370,
       "path": "docs/kb/integration-bpmsoft/sections/09-ustanovka-prilozheniya.md"
     },
     {
@@ -101,7 +101,7 @@
       "title": "Установка системных настроек",
       "hint": "В вашем BPMSoft выполните следующие действия:",
       "pages": "9-13",
-      "tokens": 1190,
+      "tokens": 5094,
       "path": "docs/kb/integration-bpmsoft/sections/10-ustanovka-sistemnyh-nastroek.md"
     },
     {
@@ -119,7 +119,7 @@
       "title": "Установка и базовые настройки",
       "hint": "Для того чтобы подключить приложение интеграции с BPMSoft, нужно",
       "pages": "13-14",
-      "tokens": 591,
+      "tokens": 1755,
       "path": "docs/kb/integration-bpmsoft/sections/12-ustanovka-i-bazovye-nastroyki.md"
     },
     {
@@ -128,7 +128,7 @@
       "title": "Настойка подключения к BPMSoft",
       "hint": "Чтобы настроить подключение в форме “Основные настройки интеграции”",
       "pages": "14-17",
-      "tokens": 1455,
+      "tokens": 2059,
       "path": "docs/kb/integration-bpmsoft/sections/13-nastoyka-podklyucheniya-k-bpmsoft.md"
     },
     {
@@ -155,7 +155,7 @@
       "title": "Как настроить сопоставление сотрудников",
       "hint": "На вкладке “Сотрудники” необходимо:",
       "pages": "18-20",
-      "tokens": 435,
+      "tokens": 1235,
       "path": "docs/kb/integration-bpmsoft/sections/16-kak-nastroit-sopostavlenie-sotrudnikov.md"
     },
     {
@@ -182,7 +182,7 @@
       "title": "Как настроить длительность успешно принятых и дозвонившихся",
       "hint": "Успешно принятый звонок – это входящий звонок, длительность которого не",
       "pages": "20-22",
-      "tokens": 589,
+      "tokens": 989,
       "path": "docs/kb/integration-bpmsoft/sections/19-kak-nastroit-dlitelnost-uspeshno-prinyat.md"
     },
     {
@@ -191,7 +191,7 @@
       "title": "Создавать контакт / контрагента / лид при звонках с новых номеров",
       "hint": "В поле “От нового клиента” вы можете выбрать способ обработки звонка с",
       "pages": "22-24",
-      "tokens": 733,
+      "tokens": 1633,
       "path": "docs/kb/integration-bpmsoft/sections/20-sozdavat-kontakt-kontragenta-lid-pri-zvo.md"
     },
     {
@@ -200,7 +200,7 @@
       "title": "Ответственный при пропущенных звонках в группу",
       "hint": "Если включен флаг “Ответственный при пропущенных звонках в группу” и",
       "pages": "24-25",
-      "tokens": 517,
+      "tokens": 971,
       "path": "docs/kb/integration-bpmsoft/sections/21-otvetstvennyy-pri-propuschennyh-zvonkah.md"
     },
     {
@@ -209,7 +209,7 @@
       "title": "Флаг “Фиксировать пропущенные в IVR”",
       "hint": "Если включен флаг “Фиксировать пропущенные в IVR”, то каждый звонок,",
       "pages": "25-26",
-      "tokens": 455,
+      "tokens": 905,
       "path": "docs/kb/integration-bpmsoft/sections/22-flag-fiksirovat-propuschennye-v-ivr.md"
     },
     {
@@ -245,7 +245,7 @@
       "title": "Как подключить",
       "hint": "Чтобы включить передачу постзвонковой оценки в вашей BPMSoft, в основных",
       "pages": "26-27",
-      "tokens": 230,
+      "tokens": 640,
       "path": "docs/kb/integration-bpmsoft/sections/26-kak-podklyuchit.md"
     },
     {
@@ -263,7 +263,7 @@
       "title": "Создать лид",
       "hint": "Чтобы при повторном входящем звонке, поступающем от клиента, в BPMSoft",
       "pages": "27-28",
-      "tokens": 462,
+      "tokens": 898,
       "path": "docs/kb/integration-bpmsoft/sections/28-sozdat-lid.md"
     },
     {
@@ -290,7 +290,7 @@
       "title": "Как включить или выключить сохранение данных коллтрекинга",
       "hint": "Чтобы включить сохранение данных КТ в BPMSoft, в окне “Основные настойки",
       "pages": "30-31",
-      "tokens": 346,
+      "tokens": 775,
       "path": "docs/kb/integration-bpmsoft/sections/31-kak-vklyuchit-ili-vyklyuchit-sohranenie.md"
     },
     {
@@ -299,7 +299,7 @@
       "title": "Как посмотреть данные коллтрекинга в BPMSoft",
       "hint": "Данные коллтрекинга отображаются в карточке звонка на вкладке “ДКТ”.",
       "pages": "31-32",
-      "tokens": 391,
+      "tokens": 1804,
       "path": "docs/kb/integration-bpmsoft/sections/32-kak-posmotret-dannye-kolltrekinga-v-bpms.md"
     },
     {
@@ -326,7 +326,7 @@
       "title": "Как создать и настроить умные правила",
       "hint": "1) Вам нужно открыть вкладку “Обработка звонков” и прокрутить эту",
       "pages": "32-35",
-      "tokens": 1521,
+      "tokens": 4010,
       "path": "docs/kb/integration-bpmsoft/sections/35-kak-sozdat-i-nastroit-umnye-pravila.md"
     },
     {
@@ -335,7 +335,7 @@
       "title": "Примеры настройки умного алгоритма распределения",
       "hint": "Пример 1.",
       "pages": "35-36",
-      "tokens": 340,
+      "tokens": 914,
       "path": "docs/kb/integration-bpmsoft/sections/36-primery-nastroyki-umnogo-algoritma-raspr.md"
     },
     {
@@ -353,7 +353,7 @@
       "title": "Исходящий звонок по клику из BPMSoft",
       "hint": "Приложение поддерживает возможность исходящего звонка в один клик по",
       "pages": "36-37",
-      "tokens": 351,
+      "tokens": 796,
       "path": "docs/kb/integration-bpmsoft/sections/38-ishodyaschiy-zvonok-po-kliku-iz-bpmsoft.md"
     },
     {
@@ -389,7 +389,7 @@
       "title": "Сохранение тематик разговоров",
       "hint": "Общие сведения",
       "pages": "37-40",
-      "tokens": 1640,
+      "tokens": 2527,
       "path": "docs/kb/integration-bpmsoft/sections/42-sohranenie-tematik-razgovorov.md"
     },
     {
@@ -416,7 +416,7 @@
       "title": "Как настроить",
       "hint": "Чтобы включить функцию сохранения тематик Речевой аналитики, в окне",
       "pages": "41-42",
-      "tokens": 249,
+      "tokens": 691,
       "path": "docs/kb/integration-bpmsoft/sections/45-kak-nastroit.md"
     },
     {
@@ -425,7 +425,7 @@
       "title": "Как посмотреть распознанный текст",
       "hint": "Чтобы посмотреть текст, распознанный в диалоге с клиентом, BPMSoft",
       "pages": "42",
-      "tokens": 263,
+      "tokens": 969,
       "path": "docs/kb/integration-bpmsoft/sections/46-kak-posmotret-raspoznannyy-tekst.md"
     },
     {
@@ -443,7 +443,7 @@
       "title": "Как включить сохранение резюме разговора",
       "hint": "Чтобы включить сохранение резюме разговоров в BPMSoft, в основных",
       "pages": "43-44",
-      "tokens": 321,
+      "tokens": 1025,
       "path": "docs/kb/integration-bpmsoft/sections/48-kak-vklyuchit-sohranenie-rezyume-razgovo.md"
     },
     {
@@ -461,7 +461,7 @@
       "title": "Как посмотреть резюме разговора",
       "hint": "Чтобы посмотреть резюме разговора в BPMSoft, необходимо:",
       "pages": "44-45",
-      "tokens": 310,
+      "tokens": 796,
       "path": "docs/kb/integration-bpmsoft/sections/50-kak-posmotret-rezyume-razgovora.md"
     },
     {
@@ -479,7 +479,7 @@
       "title": "Как включить использование ВКС",
       "hint": "Чтобы включить возможность работы с видеоконференцсвязью, в основных",
       "pages": "45-46",
-      "tokens": 367,
+      "tokens": 970,
       "path": "docs/kb/integration-bpmsoft/sections/52-kak-vklyuchit-ispolzovanie-vks.md"
     },
     {
@@ -488,7 +488,7 @@
       "title": "Как работать с видеоконференцией в карточке контакта",
       "hint": "В разделе “Контакты” в карточке контакта доступна ссылка для подключения к",
       "pages": "46-47",
-      "tokens": 360,
+      "tokens": 786,
       "path": "docs/kb/integration-bpmsoft/sections/53-kak-rabotat-s-videokonferenciey-v-kartoc.md"
     },
     {
@@ -497,7 +497,7 @@
       "title": "Результаты видео-встречи",
       "hint": "После завершения видео-встречи информация о ней сохраняется в BPMSoft",
       "pages": "47-48",
-      "tokens": 388,
+      "tokens": 1353,
       "path": "docs/kb/integration-bpmsoft/sections/54-rezultaty-video-vstrechi.md"
     },
     {
@@ -524,7 +524,7 @@
       "title": "Как включить",
       "hint": "Чтобы включить функцию загрузки отсутствующих в CRM звонков, в окне",
       "pages": "49",
-      "tokens": 209,
+      "tokens": 504,
       "path": "docs/kb/integration-bpmsoft/sections/57-kak-vklyuchit.md"
     },
     {
@@ -551,7 +551,7 @@
       "title": "Как включить",
       "hint": "Для этого, в вашей BPMSoft, в основных настройках интеграции необходимо:",
       "pages": "49-50",
-      "tokens": 204,
+      "tokens": 484,
       "path": "docs/kb/integration-bpmsoft/sections/60-kak-vklyuchit.md"
     },
     {
@@ -587,7 +587,7 @@
       "title": "Статусы Контакт-центра в интерфейсе BPMSoft",
       "hint": "Статус пользователя отображается в интерфейсе BPMSoft сразу после",
       "pages": "51",
-      "tokens": 204,
+      "tokens": 604,
       "path": "docs/kb/integration-bpmsoft/sections/64-statusy-kontakt-centra-v-interfeyse-bpms.md"
     },
     {
@@ -596,7 +596,7 @@
       "title": "Как включить настройку “Использовать статусы Контакт-Центра”",
       "hint": "Для этого, в вашей BPMSoft, в основных настройках интеграции необходимо:",
       "pages": "51-52",
-      "tokens": 276,
+      "tokens": 644,
       "path": "docs/kb/integration-bpmsoft/sections/65-kak-vklyuchit-nastroyku-ispolzovat-statu.md"
     },
     {
@@ -623,7 +623,7 @@
       "title": "Как включить",
       "hint": "Для этого, в вашей BPMSoft, в основных настройках интеграции необходимо:",
       "pages": "52-53",
-      "tokens": 214,
+      "tokens": 495,
       "path": "docs/kb/integration-bpmsoft/sections/68-kak-vklyuchit.md"
     },
     {
@@ -695,7 +695,7 @@
       "title": "Как открыть настройку",
       "hint": "Для этого, в вашей BPMSoft выполните следующие действия:",
       "pages": "54-55",
-      "tokens": 374,
+      "tokens": 1477,
       "path": "docs/kb/integration-bpmsoft/sections/76-kak-otkryt-nastroyku.md"
     },
     {
@@ -713,7 +713,7 @@
       "title": "Описание интерфейса",
       "hint": "На странице “Настройка действий в зависимости от роли” показана таблица",
       "pages": "55-58",
-      "tokens": 1843,
+      "tokens": 2749,
       "path": "docs/kb/integration-bpmsoft/sections/78-opisanie-interfeysa.md"
     },
     {
@@ -767,7 +767,7 @@
       "title": "Как активировать или деактивировать настройку",
       "hint": "Для этого, в вашей BPMSoft откройте настройку.",
       "pages": "61-62",
-      "tokens": 551,
+      "tokens": 2125,
       "path": "docs/kb/integration-bpmsoft/sections/84-kak-aktivirovat-ili-deaktivirovat-nastro.md"
     },
     {
@@ -785,7 +785,7 @@
       "title": "Как включить или приостановить действие правила",
       "hint": "Для включения и отключения правила, используется специальная колонка",
       "pages": "62-64",
-      "tokens": 652,
+      "tokens": 2352,
       "path": "docs/kb/integration-bpmsoft/sections/86-kak-vklyuchit-ili-priostanovit-deystvie.md"
     },
     {
@@ -794,7 +794,7 @@
       "title": "Как настроить колонки в таблице",
       "hint": "Для этого, в настройке “Настройка действий в зависимости от роли” следует:",
       "pages": "64-65",
-      "tokens": 564,
+      "tokens": 2388,
       "path": "docs/kb/integration-bpmsoft/sections/87-kak-nastroit-kolonki-v-tablice.md"
     },
     {
@@ -803,7 +803,7 @@
       "title": "Добавление",
       "hint": "Важно.",
       "pages": "65-66",
-      "tokens": 443,
+      "tokens": 1610,
       "path": "docs/kb/integration-bpmsoft/sections/88-dobavlenie.md"
     },
     {
@@ -812,7 +812,7 @@
       "title": "Редактирование или удаление правила",
       "hint": "Важно.",
       "pages": "66-68",
-      "tokens": 709,
+      "tokens": 1935,
       "path": "docs/kb/integration-bpmsoft/sections/89-redaktirovanie-ili-udalenie-pravila.md"
     },
     {
@@ -839,7 +839,7 @@
       "title": "Как включить или выключить настройку",
       "hint": "Для этого, в вашем BPMSoft выполните следующие действия:",
       "pages": "68-69",
-      "tokens": 511,
+      "tokens": 1977,
       "path": "docs/kb/integration-bpmsoft/sections/92-kak-vklyuchit-ili-vyklyuchit-nastroyku.md"
     },
     {
@@ -857,7 +857,7 @@
       "title": "Как проверить, включена ли настройка ”Настройки действий в зависимости от роли”",
       "hint": "от роли”",
       "pages": "70-71",
-      "tokens": 575,
+      "tokens": 2111,
       "path": "docs/kb/integration-bpmsoft/sections/94-kak-proverit-vklyuchena-li-nastroyka-nas.md"
     },
     {
@@ -893,7 +893,7 @@
       "title": "Как открыть отчет",
       "hint": "Чтобы открыть отчет “Действия звонка”, выполните следующие действия в",
       "pages": "72-73",
-      "tokens": 289,
+      "tokens": 1166,
       "path": "docs/kb/integration-bpmsoft/sections/98-kak-otkryt-otchet.md"
     },
     {
@@ -965,7 +965,7 @@
       "title": "Как включить отправку сообщений WhatsApp",
       "hint": "Для этого, в окне “Основные настройки интеграции” следует:",
       "pages": "74-75",
-      "tokens": 250,
+      "tokens": 596,
       "path": "docs/kb/integration-bpmsoft/sections/106-kak-vklyuchit-otpravku-soobscheniy-whats.md"
     },
     {
@@ -974,7 +974,7 @@
       "title": "Как отправить Клиенту сообщение WhatsApp",
       "hint": "Для этого в вашей BPMSoft следует:",
       "pages": "75-77",
-      "tokens": 795,
+      "tokens": 3194,
       "path": "docs/kb/integration-bpmsoft/sections/107-kak-otpravit-klientu-soobschenie-whatsap.md"
     },
     {
@@ -1001,7 +1001,7 @@
       "title": "Как включить настройку",
       "hint": "Для этого, в окне “Основные настройки интеграции” следует:",
       "pages": "78",
-      "tokens": 231,
+      "tokens": 557,
       "path": "docs/kb/integration-bpmsoft/sections/110-kak-vklyuchit-nastroyku.md"
     },
     {
@@ -1010,7 +1010,7 @@
       "title": "Как добавить задание в кампанию исходящего обзвона Контакт-центра MANGO OFFICE",
       "hint": "MANGO OFFICE",
       "pages": "78-81",
-      "tokens": 703,
+      "tokens": 2511,
       "path": "docs/kb/integration-bpmsoft/sections/111-kak-dobavit-zadanie-v-kampaniyu-ishodyas.md"
     },
     {
@@ -1028,7 +1028,7 @@
       "title": "Входящий звонок",
       "hint": "При входящем звонке у сотрудника зазвонит телефон (указанный в карточке",
       "pages": "81-82",
-      "tokens": 498,
+      "tokens": 2003,
       "path": "docs/kb/integration-bpmsoft/sections/113-vhodyaschiy-zvonok.md"
     },
     {
@@ -1037,7 +1037,7 @@
       "title": "Исходящий звонок",
       "hint": "Вы можете инициировать исходящий звонок, кликнув по номеру телефона в",
       "pages": "82-83",
-      "tokens": 342,
+      "tokens": 777,
       "path": "docs/kb/integration-bpmsoft/sections/114-ishodyaschiy-zvonok.md"
     },
     {
@@ -1073,7 +1073,7 @@
       "title": "Как перевести звонок с консультацией",
       "hint": "Чтобы перевести звонок с консультацией, в коммутационной панели BPMSoft",
       "pages": "83-86",
-      "tokens": 1140,
+      "tokens": 4311,
       "path": "docs/kb/integration-bpmsoft/sections/118-kak-perevesti-zvonok-s-konsultaciey.md"
     },
     {
@@ -1082,7 +1082,7 @@
       "title": "Слепой перевод или как перевести звонок без консультации",
       "hint": "Чтобы выполнить слепой перевод звонка, то есть без предварительной",
       "pages": "86-88",
-      "tokens": 892,
+      "tokens": 3666,
       "path": "docs/kb/integration-bpmsoft/sections/119-slepoy-perevod-ili-kak-perevesti-zvonok.md"
     },
     {
@@ -1091,7 +1091,7 @@
       "title": "Пропущенные звонки",
       "hint": "Если сотрудник отсутствовал на рабочем месте и были пропущенные звонки,",
       "pages": "88",
-      "tokens": 362,
+      "tokens": 849,
       "path": "docs/kb/integration-bpmsoft/sections/120-propuschennye-zvonki.md"
     },
     {
@@ -1100,7 +1100,7 @@
       "title": "Настройка внешнего вида таблицы звонков",
       "hint": "Чтобы настроить внешний вид таблицы звонков, необходимо:",
       "pages": "88-91",
-      "tokens": 648,
+      "tokens": 2346,
       "path": "docs/kb/integration-bpmsoft/sections/121-nastroyka-vneshnego-vida-tablicy-zvonkov.md"
     },
     {
@@ -1109,7 +1109,7 @@
       "title": "История вызовов",
       "hint": "Каждый звонок от контакта отображается в истории взаимоотношений с",
       "pages": "91-92",
-      "tokens": 329,
+      "tokens": 1084,
       "path": "docs/kb/integration-bpmsoft/sections/122-istoriya-vyzovov.md"
     },
     {
@@ -1118,7 +1118,7 @@
       "title": "Запись разговоров",
       "hint": "Если в Виртуальной АТС подключена услуга записи разговоров, то при",
       "pages": "92-93",
-      "tokens": 569,
+      "tokens": 1834,
       "path": "docs/kb/integration-bpmsoft/sections/123-zapis-razgovorov.md"
     },
     {
@@ -1136,7 +1136,7 @@
       "title": "Как изменить логин и пароль API BPMSoft",
       "hint": "Логин и пароль API BPMSoft – это логин и пароль пользователя BPMSoft,",
       "pages": "93-95",
-      "tokens": 676,
+      "tokens": 1974,
       "path": "docs/kb/integration-bpmsoft/sections/125-kak-izmenit-login-i-parol-api-bpmsoft.md"
     },
     {

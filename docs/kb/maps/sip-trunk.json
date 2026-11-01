@@ -11,7 +11,7 @@
       "title": "Титульная часть",
       "hint": "SIP TRUNK",
       "pages": "1-3",
-      "tokens": 675,
+      "tokens": 597,
       "path": "docs/kb/sip-trunk/sections/00-titulnaya-chast.md"
     },
     {
@@ -29,7 +29,7 @@
       "title": "Что такое SIP Trunk",
       "hint": "SIP Trunk – это виртуальный канал связи между вашей АТС (кАТС) и",
       "pages": "3-4",
-      "tokens": 262,
+      "tokens": 441,
       "path": "docs/kb/sip-trunk/sections/02-chto-takoe-sip-trunk.md"
     },
     {
@@ -38,7 +38,7 @@
       "title": "Создание и редактирование SIP Trunk",
       "hint": "В подразделе “Настройки SIP” раздела “Настройки и инструменты” Личного кабинета",
       "pages": "4",
-      "tokens": 270,
+      "tokens": 651,
       "path": "docs/kb/sip-trunk/sections/03-sozdanie-i-redaktirovanie-sip-trunk.md"
     },
     {
@@ -65,7 +65,7 @@
       "title": "3.",
       "hint": "",
       "pages": "5",
-      "tokens": 73,
+      "tokens": 52,
       "path": "docs/kb/sip-trunk/sections/06-3.md"
     },
     {
@@ -83,7 +83,7 @@
       "title": "Настройка",
       "hint": "В открывшейся вкладке Настройка заполните поля:",
       "pages": "5-8",
-      "tokens": 1779,
+      "tokens": 2135,
       "path": "docs/kb/sip-trunk/sections/08-nastroyka.md"
     },
     {
@@ -92,7 +92,7 @@
       "title": "Номера",
       "hint": "Заполните поля:",
       "pages": "8-9",
-      "tokens": 639,
+      "tokens": 1101,
       "path": "docs/kb/sip-trunk/sections/09-nomera.md"
     },
     {
@@ -101,7 +101,7 @@
       "title": "Маршрутизация",
       "hint": "Заполните поля:",
       "pages": "9-11",
-      "tokens": 1636,
+      "tokens": 2006,
       "path": "docs/kb/sip-trunk/sections/10-marshrutizaciya.md"
     },
     {
@@ -110,7 +110,7 @@
       "title": "Правила использование масок:",
       "hint": "● \\d - одна цифра;",
       "pages": "11-12",
-      "tokens": 493,
+      "tokens": 463,
       "path": "docs/kb/sip-trunk/sections/11-pravila-ispolzovanie-masok.md"
     },
     {
@@ -128,7 +128,7 @@
       "title": "Резервирование",
       "hint": "На вкладке Резервирование следует задать список резервных SIP Trunk",
       "pages": "12-13",
-      "tokens": 226,
+      "tokens": 608,
       "path": "docs/kb/sip-trunk/sections/13-rezervirovanie.md"
     },
     {
@@ -146,7 +146,7 @@
       "title": "Настройка",
       "hint": "Для настройки внутреннего SIP Trunk необходимо установить связь между двумя ВАТС,",
       "pages": "13-14",
-      "tokens": 287,
+      "tokens": 751,
       "path": "docs/kb/sip-trunk/sections/15-nastroyka.md"
     },
     {
@@ -155,7 +155,7 @@
       "title": "Номера",
       "hint": "Заполните поля:",
       "pages": "14-15",
-      "tokens": 223,
+      "tokens": 448,
       "path": "docs/kb/sip-trunk/sections/16-nomera.md"
     },
     {
@@ -164,7 +164,7 @@
       "title": "Маршрутизация",
       "hint": "При заполнении полей формы, руководствуйтесь инструкциями, предоставленными в",
       "pages": "15-16",
-      "tokens": 172,
+      "tokens": 493,
       "path": "docs/kb/sip-trunk/sections/17-marshrutizaciya.md"
     },
     {
@@ -173,7 +173,7 @@
       "title": "Активация SIP Trunk в карточке сотрудника",
       "hint": "Чтобы установить SIP Trunk для исходящих вызовов конкретного сотрудника, откройте",
       "pages": "16",
-      "tokens": 361,
+      "tokens": 572,
       "path": "docs/kb/sip-trunk/sections/18-aktivaciya-sip-trunk-v-kartochke-sotrudn.md"
     },
     {
@@ -209,7 +209,7 @@
       "title": "3.1.",
       "hint": "",
       "pages": "17",
-      "tokens": 54,
+      "tokens": 179,
       "path": "docs/kb/sip-trunk/sections/22-3-1.md"
     },
     {
@@ -218,7 +218,7 @@
       "title": "3.2.",
       "hint": "",
       "pages": "17",
-      "tokens": 54,
+      "tokens": 179,
       "path": "docs/kb/sip-trunk/sections/23-3-2.md"
     },
     {
@@ -227,7 +227,7 @@
       "title": "3.3.",
       "hint": "Результат: звонок инициируется через определенный транк с префиксом",
       "pages": "17",
-      "tokens": 357,
+      "tokens": 334,
       "path": "docs/kb/sip-trunk/sections/24-3-3.md"
     },
     {
@@ -245,7 +245,7 @@
       "title": "Удаление SIP Trunk",
       "hint": "Чтобы удалить SIP Trunk, кликните по названию транка в списке транков на рабочей",
       "pages": "17",
-      "tokens": 286,
+      "tokens": 475,
       "path": "docs/kb/sip-trunk/sections/26-udalenie-sip-trunk.md"
     },
     {
@@ -254,7 +254,7 @@
       "title": "Рабочая панель SIP Trunk",
       "hint": "Рабочая панель SIP Trunk состоит из вкладок Список транков и Список правил",
       "pages": "17-18",
-      "tokens": 165,
+      "tokens": 137,
       "path": "docs/kb/sip-trunk/sections/27-rabochaya-panel-sip-trunk.md"
     },
     {
@@ -263,7 +263,7 @@
       "title": "Список транков",
       "hint": "Название транка - название транка, установленное пользователем;",
       "pages": "18",
-      "tokens": 591,
+      "tokens": 2177,
       "path": "docs/kb/sip-trunk/sections/28-spisok-trankov.md"
     },
     {
@@ -272,7 +272,7 @@
       "title": "Список правил маршрутизации",
       "hint": "Маска набора номера - задается пользователем во вкладке «Маршрутизация»;",
       "pages": "18-19",
-      "tokens": 241,
+      "tokens": 519,
       "path": "docs/kb/sip-trunk/sections/29-spisok-pravil-marshrutizacii.md"
     },
     {
@@ -281,7 +281,7 @@
       "title": "Настройка схемы распределения звонков в Личном кабинете",
       "hint": "Личном кабинете",
       "pages": "19-22",
-      "tokens": 837,
+      "tokens": 2166,
       "path": "docs/kb/sip-trunk/sections/30-nastroyka-shemy-raspredeleniya-zvonkov-v.md"
     },
     {
@@ -290,7 +290,7 @@
       "title": "Примеры настройки звонков через SIP Trunk",
       "hint": "Для совершения исходящих вызовов ВАТС должна знать какой номер, в каком формате,",
       "pages": "22-30",
-      "tokens": 3627,
+      "tokens": 6176,
       "path": "docs/kb/sip-trunk/sections/31-primery-nastroyki-zvonkov-cherez-sip-tru.md"
     },
     {
@@ -308,7 +308,7 @@
       "title": "Создание SIP trunk для FreePBX (Asterisk)",
       "hint": "Откройте меню администрирования транков во вкладке Trunks раздела",
       "pages": "30-35",
-      "tokens": 2430,
+      "tokens": 3840,
       "path": "docs/kb/sip-trunk/sections/33-sozdanie-sip-trunk-dlya-freepbx-asterisk.md"
     },
     {
@@ -317,7 +317,7 @@
       "title": "Как проверить состояние транка",
       "hint": "Проверить состояние транка можно через меню Reports-Asterisk Info:",
       "pages": "35",
-      "tokens": 123,
+      "tokens": 291,
       "path": "docs/kb/sip-trunk/sections/34-kak-proverit-sostoyanie-tranka.md"
     },
     {
@@ -326,7 +326,7 @@
       "title": "Исходящая маршрутизация",
       "hint": "Outbound Routes - исходящая маршрутизация FreePBX.",
       "pages": "35-38",
-      "tokens": 995,
+      "tokens": 1841,
       "path": "docs/kb/sip-trunk/sections/35-ishodyaschaya-marshrutizaciya.md"
     },
     {
@@ -335,7 +335,7 @@
       "title": "Создание SIP trunk для FusionPBX (Freeswitch)",
       "hint": "Откройте меню администрирования транков во вкладке Gateways раздела",
       "pages": "38-40",
-      "tokens": 439,
+      "tokens": 1186,
       "path": "docs/kb/sip-trunk/sections/36-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md"
     },
     {
@@ -344,7 +344,7 @@
       "title": "7.2.1.Исходящая маршрутизация",
       "hint": "Outbound Routes - Исходящая маршрутизация FusionPBX (Freeswitch).",
       "pages": "40-42",
-      "tokens": 338,
+      "tokens": 824,
       "path": "docs/kb/sip-trunk/sections/37-7-2-1-ishodyaschaya-marshrutizaciya.md"
     },
     {

@@ -19,10 +19,12 @@ SECTION_LINK = re.compile(r"\[sections/([^]\n]+)\]\(sections/([^)]*)\)")
 # Search words are routing hints, not product facts. Product IDs come from the
 # frontmatter of each index and must exist in taxonomy/products.yaml#classes.
 ALIASES = {
+    "api-server-client": ["API Сервер-клиент", "Server-client API", "WebSocket", "интеграция клиента"],
     "cov-robot-fil": ["голосовой робот", "чат-бот", "фильтр вызовов", "сценарий робота"],
     "integration-1c": ["1С", "управление торговлей", "интеграция АТС"],
     "integration-amocrm": ["amoCRM", "интеграция CRM"],
     "integration-bitrix24": ["Битрикс24", "Bitrix24", "интеграция CRM"],
+    "integration-ident": ["IDENT", "стоматология", "медицинская CRM", "интеграция CRM"],
     "integration-bpmsoft": ["BPMSoft", "интеграция CRM"],
     "lk-vats-sso": ["SSO", "единый вход", "авторизация", "IdP"],
     "mango-cc-manual": ["контакт-центр", "оператор", "очередь обращений", "CC"],
@@ -33,6 +35,7 @@ ALIASES = {
     "rolevaya-model-vats": ["роли", "права доступа", "ВАТС"],
     "sip-trunk": ["SIP TRUNK", "SIP-транк", "внешняя АТС"],
     "speech-analytics": ["речевая аналитика", "распознавание", "офлайн скоринг"],
+    "wallboard": ["Wallboard", "табло", "рейтинг операторов", "показатели в реальном времени"],
     "vpbx-api": ["API ВАТС", "API КЦ", "вебхук", "звонки"],
 }
 
