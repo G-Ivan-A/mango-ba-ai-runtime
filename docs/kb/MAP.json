@@ -137,7 +137,7 @@
       "id": "mango-lk-manual",
       "group_id": "mango-lk-manual",
       "title": "Виртуальная АТС MANGO OFFICE - Справочник абонента",
-      "version": "1.23",
+      "version": "1.25",
       "product_ids": [
         "voice-ucaas"
       ],
@@ -148,7 +148,7 @@
       ],
       "index": "docs/kb/mango-lk-manual/index.md",
       "sections_map": "docs/kb/maps/mango-lk-manual.json",
-      "section_count": 351
+      "section_count": 352
     },
     {
       "id": "mdialogi-api",

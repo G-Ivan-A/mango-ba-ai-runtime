@@ -2,28 +2,31 @@
 id: mango-lk-manual-334-marshrutizaciya
 doc_code: LK
 doc_title: "Виртуальная АТС MANGO OFFICE - Справочник абонента"
-doc_version: "1.23"
+doc_version: "1.25"
 section: "5.3.2.3"
 pdf_section: "5.3.2.3"
 title: "Маршрутизация"
 pdf_heading: "5.3.2.3 Маршрутизация"
-pages: "534-535"
-source: kb/sources/mango-lk-manual/LK_manual_v-123.pdf
-source_part: "1"
-source_pages: "ч.1: 534-535"
-source_refs: '[{"source_pdf":"kb/sources/mango-lk-manual/LK_manual_v-123.pdf","part":1,"pages":"534-535","global_pages":"534-535"}]'
-extracted_by: "pdfplumber 0.11.10"
+pages: "535-536"
+source: kb/sources/mango-lk-manual/LK_manual_v-125-281-566.pdf
+source_part: "2"
+source_pages: "ч.2: 255-256"
+source_refs: '[{"source_pdf":"kb/sources/mango-lk-manual/LK_manual_v-125-281-566.pdf","part":2,"pages":"255-256","global_pages":"535-536"}]'
+extracted_by: "pymupdf 1.28.2"
 token_method: "tiktoken:cl100k_base"
-tokens: 178
+tokens: 393
+images: 1
 status: extracted
 ai-generated: true
 ---
-# 5.3.2.3. Маршрутизация
+#### 5.3.2.3. Маршрутизация
 
-> Трассировка: PDF §5.3.2.3 · сквозные стр. 534-535 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-123.pdf` с.534-535.
+> Трассировка: PDF §5.3.2.3 · сквозные стр. 535-536 · источники: ч.2 `kb/sources/mango-lk-manual/LK_manual_v-125-281-566.pdf` с.255-256.
 
-![Изображение, стр. 534](../images/334-marshrutizaciya-1.jpeg)
+![Снимок экрана / схема Личного кабинета, стр. 535](../images/334-marshrutizaciya-1.png)
+
+> **Описание иллюстрации LK-§5.3.2.3-1** (к §5.3.2.3 «Маршрутизация», стр. 535; 661×455 px). Снимок экрана / схема Личного кабинета.
+> Относится к тексту руководства: «…начало раздела».
+> Текст на изображении (OCR, требует сверки): Внутренний SIP-Trunk ВАТС-1 4; Настройка; Номера; Маршрутизация; Маршрутизация звонков из внутреннего транка через ВАТС в ТфОП; Исходящий номер @; Не указан номер; Управление номером ©; Разрешить изменение номера линии через заголовок "Ргогп:"; Маршрутизация звонков из Виртуальной АТС во внутренний транк; Префикс транка ©; Маски номеров; Набираемый номер ©; Преобразование ©
 
 При заполнении полей формы, руководствуйтесь инструкциями, предоставленными в разделе Маршрутизация для внешнего SIP Trunk.
-
-![Изображение, стр. 535](../images/334-marshrutizaciya-2.jpeg)

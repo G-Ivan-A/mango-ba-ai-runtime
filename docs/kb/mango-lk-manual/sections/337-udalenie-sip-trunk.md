@@ -2,22 +2,37 @@
 id: mango-lk-manual-337-udalenie-sip-trunk
 doc_code: LK
 doc_title: "Виртуальная АТС MANGO OFFICE - Справочник абонента"
-doc_version: "1.23"
+doc_version: "1.25"
 section: "5.3.5"
 pdf_section: "5.3.5"
 title: "Удаление SIP Trunk"
 pdf_heading: "5.3.5 Удаление SIP Trunk"
-pages: "536"
-source: kb/sources/mango-lk-manual/LK_manual_v-123.pdf
-source_part: "1"
-source_pages: "ч.1: 536"
-source_refs: '[{"source_pdf":"kb/sources/mango-lk-manual/LK_manual_v-123.pdf","part":1,"pages":"536","global_pages":"536"}]'
-extracted_by: "pdfplumber 0.11.10"
+pages: "537"
+source: kb/sources/mango-lk-manual/LK_manual_v-125-281-566.pdf
+source_part: "2"
+source_pages: "ч.2: 257"
+source_refs: '[{"source_pdf":"kb/sources/mango-lk-manual/LK_manual_v-125-281-566.pdf","part":2,"pages":"257","global_pages":"537"}]'
+extracted_by: "pymupdf 1.28.2"
 token_method: "tiktoken:cl100k_base"
-tokens: 69
+tokens: 377
+images: 1
 status: extracted
 ai-generated: true
 ---
-# 5.3.5. Удаление SIP Trunk
+### 5.3.5. Удаление SIP Trunk
 
-> Трассировка: PDF §5.3.5 · сквозные стр. 536 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-123.pdf` с.536.
+> Трассировка: PDF §5.3.5 · сквозные стр. 537 · источники: ч.2 `kb/sources/mango-lk-manual/LK_manual_v-125-281-566.pdf` с.257.
+
+Чтобы удалить SIP Trunk, кликните по названию транка в списке транков на рабочей
+
+![Пиктограмма (значок элемента интерфейса), стр. 537](../images/337-udalenie-sip-trunk-1.png)
+
+> **Описание иллюстрации LK-§5.3.5-1** (к §5.3.5 «Удаление SIP Trunk», стр. 537; 17×17 px). Пиктограмма (значок элемента интерфейса).
+> Относится к тексту руководства: «…Чтобы удалить SIP Trunk, кликните по названию транка в списке транков на рабочей».
+> Текста на изображении нет; назначение значка — см. текст, к которому он относится.
+
+панели. В открывшейся карточке транка нажмите кнопку .
+
+Если для данного транка и номеров данного транка настроены схемы распределения вызовов, переадресация или номер используется в качестве исходящего номера абонента, транк удалению не подлежит.
+
+Также не подлежит удалению SIP Trunk, указанный в качестве резервного транка. Необходимо предварительно удалить транк из списка резервных на вкладке

@@ -2,22 +2,35 @@
 id: mango-lk-manual-05-obschie-svedeniya
 doc_code: LK
 doc_title: "Виртуальная АТС MANGO OFFICE - Справочник абонента"
-doc_version: "1.23"
+doc_version: "1.25"
 section: "1.4"
 pdf_section: "1.4"
 title: "Общие сведения"
-pdf_heading: "1.4 Общие сведения"
+pdf_heading: "1.4 ОБЩИЕ СВЕДЕНИЯ"
 pages: "11"
-source: kb/sources/mango-lk-manual/LK_manual_v-123.pdf
+source: kb/sources/mango-lk-manual/LK_manual_v-125-1-280.pdf
 source_part: "1"
 source_pages: "ч.1: 11"
-source_refs: '[{"source_pdf":"kb/sources/mango-lk-manual/LK_manual_v-123.pdf","part":1,"pages":"11","global_pages":"11"}]'
-extracted_by: "pdfplumber 0.11.10"
+source_refs: '[{"source_pdf":"kb/sources/mango-lk-manual/LK_manual_v-125-1-280.pdf","part":1,"pages":"11","global_pages":"11"}]'
+extracted_by: "pymupdf 1.28.2"
 token_method: "tiktoken:cl100k_base"
-tokens: 65
+tokens: 318
+images: 0
 status: extracted
 ai-generated: true
 ---
-# 1.4. Общие сведения
+## 1.4. Общие сведения
 
-> Трассировка: PDF §1.4 · сквозные стр. 11 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-123.pdf` с.11.
+> Трассировка: PDF §1.4 · сквозные стр. 11 · источники: ч.1 `kb/sources/mango-lk-manual/LK_manual_v-125-1-280.pdf` с.11.
+
+Перед вами справочник абонента, в котором есть ответы на большинство вопросов об управлении Личным кабинетом. Не спешите звонить в службу поддержки, если что-то не работает. Скорее всего, вы сможете самостоятельно устранить проблему, прочитав справочник.
+
+После ввода регистрационных данных выполняется переход на страницу первого доступного продукта из списка, к которому у пользователя есть права доступа.
+
+Ниже приведено описание элементов Личного кабинета, доступных на странице каждого из продуктов.
+
+совет
+
+Некоторые элементы Личного кабинета могут быть заблокированы. Прочесть о настройке доступа к разным функциям и страницам можно в разделах «Безопасность и ограничения» и «Сотрудники и группы».
+
+Также имеются некоторые различия в интерфейсе Личного кабинета при авторизации через партнеров MANGO OFFICE.
