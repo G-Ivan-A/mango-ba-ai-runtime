@@ -342,7 +342,7 @@
       "id": "speech-analytics--user-guide",
       "group_id": "speech-analytics",
       "title": "Руководство пользователя. Речевая аналитика",
-      "version": "1.26.18",
+      "version": "1.26.42",
       "product_ids": [
         "analytics-reporting"
       ],
@@ -353,7 +353,7 @@
       ],
       "index": "docs/kb/speech-analytics/user-guide/index.md",
       "sections_map": "docs/kb/maps/speech-analytics--user-guide.json",
-      "section_count": 76
+      "section_count": 67
     },
     {
       "id": "speech-analytics--vats-offline-scoring",

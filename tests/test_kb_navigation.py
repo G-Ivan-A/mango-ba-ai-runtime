@@ -76,7 +76,8 @@ class KnowledgeBaseNavigationTest(unittest.TestCase):
                 self.assertTrue(image.is_file(), (section, target))
                 referenced.append(image)
         images = {path.resolve() for path in KB.glob("**/images/*") if path.is_file()}
-        self.assertEqual(len(referenced), len(images))
+        # Pixel-identical illustrations share one file (issue #11), so a file may
+        # be referenced several times; every file must still be referenced.
         self.assertEqual(set(referenced), images)
 
 
