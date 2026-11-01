@@ -37,6 +37,7 @@ import datetime
 import hashlib
 import io
 import json
+import os
 import re
 import shutil
 import subprocess
@@ -97,8 +98,12 @@ def ocr(img):
     im = img.convert("RGB").resize((img.width * scale, img.height * scale))
     with tempfile.NamedTemporaryFile(suffix=".png") as f:
         im.save(f.name)
-        out = subprocess.run(["tesseract", f.name, "-", "-l", "rus+eng", "--psm", "11"],
-                             capture_output=True, text=True, check=False).stdout
+        try:  # one thread per call: parallel runs otherwise oversubscribe OpenMP
+            out = subprocess.run(["tesseract", f.name, "-", "-l", "rus+eng", "--psm", "11"],
+                                 capture_output=True, text=True, check=False, timeout=120,
+                                 env={**os.environ, "OMP_THREAD_LIMIT": "1"}).stdout
+        except subprocess.TimeoutExpired:
+            out = ""
     seen, words = set(), []
     for line in out.splitlines():
         line = norm(line)
