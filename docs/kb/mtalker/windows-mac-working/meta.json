@@ -3,15 +3,27 @@
   "body_font_sizes": [
     12.0
   ],
+  "decorative_images_removed": {
+    "однотонная подложка-тень под снимком экрана (снимок на той же странице сохранён отдельно)": 2
+  },
   "doc_code": "MTALKER-WORK",
   "doc_title": "Mango Talker для Windows/Mac - Руководство пользователя (Работа)",
   "doc_version": "11.06.2026",
   "extracted_by": "pdfplumber 0.11.10",
-  "image_count": 362,
+  "illustration_description": "контекстное текстовое описание под каждой иллюстрацией: id, раздел, страница, тип, размер, цитата текста руководства, к которому относится иллюстрация, следующий текст, подпись и OCR-текст интерфейса",
+  "illustration_refs": 360,
+  "image_count": 360,
   "image_extractor": "pymupdf 1.28.2",
   "image_extractors": [
     "pymupdf 1.28.2"
   ],
+  "images_annotated": "2026-11-01",
+  "images_optimised": {
+    "black_images_rerendered": 0,
+    "bytes_after": 1404498,
+    "bytes_before": 1716125,
+    "duplicates_merged": 195
+  },
   "note": "Основное руководство пользователя Mango Talker для сред ОС Windows и Mac: звонки, чаты, контакты, история вызовов.",
   "page_count": 128,
   "part_count": 1,
@@ -2616,6 +2628,7 @@
   "token_method": "tiktoken:cl100k_base",
   "tokens_index": 13615,
   "tokens_total": 102173,
+  "unique_images": 165,
   "verification": {
     "confidence_level": "high",
     "confirmed_ratio": 1.0,
