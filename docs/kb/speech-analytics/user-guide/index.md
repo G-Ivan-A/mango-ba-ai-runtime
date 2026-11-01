@@ -4,113 +4,106 @@ product_ids: [analytics-reporting]
 type: kb-source-index
 doc_code: SA
 doc_title: "Руководство пользователя. Речевая аналитика"
-doc_version: "1.26.18"
+doc_version: "1.26.42"
 status: extracted
 ai-generated: true
-source_document: "RECHEVAYA-ANALITIKA_1.26.18.pdf"
-extraction_date: "2026-08-25"
-model_used: "pdfplumber 0.11.10 + PyMuPDF 1.28.2"
+source_document: "RECHEVAYA-ANALITIKA_1.26.42.pdf"
+extraction_date: "2026-11-01"
+model_used: "PyMuPDF 1.28.2 + pdfplumber 0.11.10 + tesseract OCR (rus+eng)"
 confidence_level: "high"
-pages_covered: "1-126"
+pages_covered: "1-129"
 ---
 
 # Руководство пользователя. Речевая аналитика — индекс БЗ (карта разделов)
 
-> Источник: `kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_1.26.18.pdf` · извлечено: pdfplumber 0.11.10 ·
-> токены: tiktoken:cl100k_base. Это **карта поиска** для агента (замена
-> retrieval-шага до RAG, ADR-007 R2): найди раздел по колонке «Когда
-> обращаться», открой только его файл, процитируй стабильным адресом.
+> Источник: руководство v1.26.42, `kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_1.26.42.pdf` (129 стр.). Исходный PDF в репозитории
+> не хранится (хранение — на АРМ пользователя). Токены: tiktoken:cl100k_base. Это **карта поиска**
+> для агента (ADR-007 R2): найди раздел по колонке «Когда обращаться», открой только его файл,
+> процитируй стабильным адресом.
 
-> Перекрёстная проверка критических данных: [`verification.md`](verification.md) — уровень доверия **high**. Неоднозначности помечены в разделах маркерами `❓ ТРЕБУЕТСЯ ПРОВЕРКА` / `⚠️ ПРОБЕЛ ИЗВЛЕЧЕНИЯ` с точной ссылкой «PDF + страница».
+> Перекрёстная проверка критических данных: [`verification.md`](verification.md). Отбор и
+> оптимизация изображений: [`IMAGES.md`](IMAGES.md).
 
 ## Как цитировать
 
 `[SA, §<номер>, с.<страница>]` — формат проекта (issue #109);
-плюс адрес чанка `kb/processed/<doc>/sections/<file>#<якорь>` (ADR-007 R3).
+плюс адрес чанка `docs/kb/speech-analytics/user-guide/sections/<file>#<якорь>` (ADR-007 R3).
+
+## Иллюстрации
+
+Каждая содержательная иллюстрация в разделе сопровождается блоком
+`> **Описание иллюстрации SA-§<раздел>-<n>**`: тип изображения, страница, фрагмент текста
+руководства, к которому относится иллюстрация, подпись и распознанный (OCR) текст интерфейса.
+OCR-текст — вспомогательный: факты цитируются по тексту руководства.
 
 ## Разделы
 
 | № PDF | Раздел | Файл | Стр. | Источник | Токены | Когда обращаться |
 | --- | --- | --- | --- | --- | ---: | --- |
-| — | Титульная часть | [sections/00-titulnaya-chast.md](sections/00-titulnaya-chast.md) | 1-4 | ч.1 с.1-4 | 1798 | РУКОВОДСТВО |
-| 1 | Общие сведения | [sections/01-obschie-svedeniya.md](sections/01-obschie-svedeniya.md) | 4-7 | ч.1 с.4-7 | 1115 | Речевая аналитика распознает записанные разговоры и текстовые сообщения, и производит в них |
-| 2 | Подключение услуги «Речевая аналитика» | [sections/02-podklyuchenie-uslugi-rechevaya-analitika.md](sections/02-podklyuchenie-uslugi-rechevaya-analitika.md) | 7 | ч.1 с.7 | 128 | «Речевая аналитика» |
-| 2.1 | Подключение в демо-режиме | [sections/03-podklyuchenie-v-demo-rezhime.md](sections/03-podklyuchenie-v-demo-rezhime.md) | 7-10 | ч.1 с.7-10 | 2106 | Функционал демо-версии услуги Речевая аналитика полностью соответствует функционалу |
-| 2.2 | Подключение услуги в платном режиме | [sections/04-podklyuchenie-uslugi-v-platnom-rezhime.md](sections/04-podklyuchenie-uslugi-v-platnom-rezhime.md) | 10-12 | ч.1 с.10-12 | 1129 | режиме |
-| 3 | Настройки | [sections/05-nastroyki.md](sections/05-nastroyki.md) | 12-13 | ч.1 с.12-13 | 1080 | Вкладка Настройки модуля Речевая аналитика содержит блок онбординга, а также следующие |
-| 3.1 | Шаги онбординга | [sections/06-shagi-onbordinga.md](sections/06-shagi-onbordinga.md) | 13-14 | ч.1 с.13-14 | 1066 | В верхней части вкладки Настройки модуля находится блок онбординга, содержащего все этапы |
-| 3.2 | Настройки распознавания записей | [sections/07-nastroyki-raspoznavaniya-zapisey.md](sections/07-nastroyki-raspoznavaniya-zapisey.md) | 14-16 | ч.1 с.14-16 | 1486 | Блок Настройка распознавания записей позволяет настроить функции распознавания и |
-| 3.3 | Аналитика текстовых коммуникаций | [sections/08-analitika-tekstovyh-kommunikaciy.md](sections/08-analitika-tekstovyh-kommunikaciy.md) | 16-17 | ч.1 с.16-17 | 808 | коммуникаций |
-| 3.4 | ИИ Инструменты | [sections/09-ii-instrumenty.md](sections/09-ii-instrumenty.md) | 17 | ч.1 с.17 | 123 | внимание |
-| 3.4.1 | ИИ Конспекты | [sections/10-ii-konspekty.md](sections/10-ii-konspekty.md) | 17-19 | ч.1 с.17-19 | 1653 | Блок ИИ Конспекты позволяет автоматически формировать краткое содержание телефонных |
-| 3.4.2 | ИИ Тегирование | [sections/11-ii-tegirovanie.md](sections/11-ii-tegirovanie.md) | 19-20 | ч.1 с.19-20 | 697 | Блок ИИ Тегирование позволяет настроить анализ разговоров сотрудников с использованием ИИ. |
-| 3.4.3 | ИИ Помощники | [sections/12-ii-pomoschniki.md](sections/12-ii-pomoschniki.md) | 20 | ч.1 с.20 | 79 | — |
-| 3.4.3.1 | Что это такое и зачем нужно | [sections/13-chto-eto-takoe-i-zachem-nuzhno.md](sections/13-chto-eto-takoe-i-zachem-nuzhno.md) | 20-21 | ч.1 с.20-21 | 500 | ИИ Помощники - это инструмент, который позволяет автоматически анализировать разговоры по |
-| 3.4.3.2 | Как создать ИИ Помощника | [sections/14-kak-sozdat-ii-pomoschnika.md](sections/14-kak-sozdat-ii-pomoschnika.md) | 21-22 | ч.1 с.21-22 | 285 | 1. |
-| 3.4.3.3 | Настройка ИИ Помощника | [sections/15-nastroyka-ii-pomoschnika.md](sections/15-nastroyka-ii-pomoschnika.md) | 22-25 | ч.1 с.22-25 | 1810 | 1. |
-| 3.4.3.4 | Где смотреть результаты | [sections/16-gde-smotret-rezultaty.md](sections/16-gde-smotret-rezultaty.md) | 25-28 | ч.1 с.25-28 | 1790 | Чтобы посмотреть результат анализа: |
-| 3.5 | Дополнительные настройки | [sections/17-dopolnitelnye-nastroyki.md](sections/17-dopolnitelnye-nastroyki.md) | 28-29 | ч.1 с.28-29 | 1080 | Блок Дополнительные настройки позволяет пользователю управлять расширенными функциями |
-| 3.6 | Отключение услуги | [sections/18-otklyuchenie-uslugi.md](sections/18-otklyuchenie-uslugi.md) | 29-31 | ч.1 с.29-31 | 456 | При необходимости пользователь может отключить услугу Речевая аналитика. |
-| 4 | Как работает поиск по разговорам | [sections/19-kak-rabotaet-poisk-po-razgovoram.md](sections/19-kak-rabotaet-poisk-po-razgovoram.md) | 31 | ч.1 с.31 | 166 | разговорам |
-| 4.1 | Термины и определения | [sections/20-terminy-i-opredeleniya.md](sections/20-terminy-i-opredeleniya.md) | 31-33 | ч.1 с.31-33 | 1962 | 4.2. |
-| 4.2 | Правила обработки поисковых запросов | [sections/21-pravila-obrabotki-poiskovyh-zaprosov.md](sections/21-pravila-obrabotki-poiskovyh-zaprosov.md) | 33-34 | ч.1 с.33-34 | 849 | запросов |
-| 4.3 | Общие советы для составления поисковых запросов | [sections/22-obschie-sovety-dlya-sostavleniya-poiskov.md](sections/22-obschie-sovety-dlya-sostavleniya-poiskov.md) | 34-35 | ч.1 с.34-35 | 910 | поисковых запросов |
-| 5 | Поиск по аудиозаписям разговоров | [sections/23-poisk-po-audiozapisyam-razgovorov.md](sections/23-poisk-po-audiozapisyam-razgovorov.md) | 35 | ч.1 с.35 | 87 | разговоров |
-| 5.1 | Поля формы модуля поиска в записях разговоров | [sections/24-polya-formy-modulya-poiska-v-zapisyah-ra.md](sections/24-polya-formy-modulya-poiska-v-zapisyah-ra.md) | 35-37 | ч.1 с.35-37 | 2500 | записях разговоров |
-| 5.2 | Прослушивание записей | [sections/25-proslushivanie-zapisey.md](sections/25-proslushivanie-zapisey.md) | 37-42 | ч.1 с.37-42 | 3902 | Для прослушивания записи следует нажать на иконку напротив наименования нужной записи. |
-| 6 | Тегирование разговоров | [sections/26-tegirovanie-razgovorov.md](sections/26-tegirovanie-razgovorov.md) | 42 | ч.1 с.42 | 579 | Разговор – текстовый или аудио диалог сотрудника и клиента, сотрудника и сотрудника. |
-| 6.1 | Тематики | [sections/27-tematiki.md](sections/27-tematiki.md) | 42-43 | ч.1 с.42-43 | 925 | Рабочая область вкладки «Тематики» содержит: |
-| 6.2 | Создание и редактирование тематик | [sections/28-sozdanie-i-redaktirovanie-tematik.md](sections/28-sozdanie-i-redaktirovanie-tematik.md) | 43-44 | ч.1 с.43-44 | 628 | тематик |
-| 6.2.1 | Ключевые слова | [sections/29-klyuchevye-slova.md](sections/29-klyuchevye-slova.md) | 44-46 | ч.1 с.44-46 | 1069 | Блок ключевых слов содержит следующие поля: |
-| 6.2.2 | Расширенные настройки | [sections/30-rasshirennye-nastroyki.md](sections/30-rasshirennye-nastroyki.md) | 46-47 | ч.1 с.46-47 | 1032 | Блок добавления условий содержит следующие поля: |
-| 6.2.3 | Настройка уведомлений | [sections/31-nastroyka-uvedomleniy.md](sections/31-nastroyka-uvedomleniy.md) | 47-49 | ч.1 с.47-49 | 1290 | При добавлении тематики пользователь задает ряд условий. |
-| 6.3 | Советы по настройке тематик | [sections/32-sovety-po-nastroyke-tematik.md](sections/32-sovety-po-nastroyke-tematik.md) | 49-52 | ч.1 с.49-52 | 1112 | Создавайте простые тематики, чтобы одна тематика решала максимум одну задачу. |
-| 6.4 | Примеры использования тематики | [sections/33-primery-ispolzovaniya-tematiki.md](sections/33-primery-ispolzovaniya-tematiki.md) | 52 | ч.1 с.52 | 514 | Пример 1. |
-| 6.5 | Предустановленные тематики | [sections/34-predustanovlennye-tematiki.md](sections/34-predustanovlennye-tematiki.md) | 52-54 | ч.1 с.52-54 | 1540 | По умолчанию в Речевой аналитике включены 36 предустановленных тематик: |
-| 6.6 | Заявки на улучшение качества распознавания | [sections/35-zayavki-na-uluchshenie-kachestva-raspozn.md](sections/35-zayavki-na-uluchshenie-kachestva-raspozn.md) | 54-57 | ч.1 с.54-57 | 1334 | распознавания |
-| 6.7 | ИИ Тематики | [sections/36-ii-tematiki.md](sections/36-ii-tematiki.md) | 57-60 | ч.1 с.57-60 | 1371 | Модуль Речевая аналитика поддерживает семантический анализ разговоров на основе запросов к |
-| 7 | Текстовые коммуникации | [sections/37-tekstovye-kommunikacii.md](sections/37-tekstovye-kommunikacii.md) | 60 | ч.1 с.60 | 74 | — |
-| 7.1 | Список текстовых коммуникаций | [sections/38-spisok-tekstovyh-kommunikaciy.md](sections/38-spisok-tekstovyh-kommunikaciy.md) | 60-62 | ч.1 с.60-62 | 1360 | При переходе на страницу «Текстовые коммуникации» отображается панель фильтров. |
-| 7.2 | Метки на осциллограмме диалога | [sections/39-metki-na-oscillogramme-dialoga.md](sections/39-metki-na-oscillogramme-dialoga.md) | 62-64 | ч.1 с.62-64 | 1238 | Для отображения результатов поиска в текстовых сообщениях используется осциллограмма |
-| 8 | Отчеты | [sections/40-otchety.md](sections/40-otchety.md) | 64 | ч.1 с.64 | 500 | Вкладка Отчеты содержит детальную аналитическую информацию о распознанных вызовах в |
-| 8.1 | Расходы Речевой аналитики | [sections/41-rashody-rechevoy-analitiki.md](sections/41-rashody-rechevoy-analitiki.md) | 64-67 | ч.1 с.64-67 | 1202 | Страница расходов помогает быстро понять, сколько стоит использование сервиса за выбранный |
-| 8.2 | Анализ сотрудников | [sections/42-analiz-sotrudnikov.md](sections/42-analiz-sotrudnikov.md) | 67 | ч.1 с.67 | 157 | Отчет Анализ сотрудников состоит из трех блоков: |
-| 8.2.1 | Блок фильтров | [sections/43-blok-filtrov.md](sections/43-blok-filtrov.md) | 67-69 | ч.1 с.67-69 | 2069 | Кнопка Сохранить – сохранение отчета на странице Мои отчеты в одном из вариантов – график, |
-| 8.2.2 | Блок визуализации срабатывания тематик | [sections/44-blok-vizualizacii-srabatyvaniya-tematik.md](sections/44-blok-vizualizacii-srabatyvaniya-tematik.md) | 69-70 | ч.1 с.69-70 | 1522 | Отчет предоставляет данные по количеству присвоенных звонкам тематик в разговорах |
-| 8.2.3 | Блок таблицы Разговоры, детализация | [sections/45-blok-tablicy-razgovory-detalizaciya.md](sections/45-blok-tablicy-razgovory-detalizaciya.md) | 70-74 | ч.1 с.70-74 | 2365 | Табличная часть отчета состоит из трех разделов: |
-| 8.2.4 | Детализация разговоров | [sections/46-detalizaciya-razgovorov.md](sections/46-detalizaciya-razgovorov.md) | 74-75 | ч.1 с.74-75 | 903 | Рассмотрим пример детализации для типа записи разговора: «телефонные разговоры»: |
-| 8.3 | Анализ разговоров | [sections/47-analiz-razgovorov.md](sections/47-analiz-razgovorov.md) | 75-76 | ч.1 с.75-76 | 277 | Отчет «Анализ разговоров» состоит из двух блоков: Блока таблицы и Блока визуализаций |
-| 8.3.1 | Блок фильтров | [sections/48-blok-filtrov.md](sections/48-blok-filtrov.md) | 76-78 | ч.1 с.76-78 | 1657 | Для построения отчета “Анализ разговоров” выберите временной период, срез (день/месяц/год) и |
-| 8.3.2 | Блок визуализаций | [sections/49-blok-vizualizaciy.md](sections/49-blok-vizualizaciy.md) | 78-79 | ч.1 с.78-79 | 755 | Визуализация “Тематики по словам” |
-| 8.3.3 | Блок таблицы | [sections/50-blok-tablicy.md](sections/50-blok-tablicy.md) | 79-80 | ч.1 с.79-80 | 885 | Таблица формируется по срезу День/Месяц/Год и заданным пользователем в окне “Показатели” |
-| 8.3.4 | Детализация | [sections/51-detalizaciya.md](sections/51-detalizaciya.md) | 80-81 | ч.1 с.80-81 | 1027 | По клику на цифру "Количество распознанных разговоров" открывается окно детализации |
-| 8.4 | Анализ по чек-листам | [sections/52-analiz-po-chek-listam.md](sections/52-analiz-po-chek-listam.md) | 81-83 | ч.1 с.81-83 | 1278 | Отчет предназначен для автоматической оценки разговора сотрудника с клиентом на соответствие |
-| 8.4.1 | Конструктор чек-листов | [sections/53-konstruktor-chek-listov.md](sections/53-konstruktor-chek-listov.md) | 83-89 | ч.1 с.83-89 | 4816 | Возможно создание не более 20-ти чек-листов. |
-| 8.4.2 | Статистика | [sections/54-statistika.md](sections/54-statistika.md) | 89-92 | ч.1 с.89-92 | 2210 | Вкладка «Таблица» |
-| 8.4.3 | Правила подсчета статистики | [sections/55-pravila-podscheta-statistiki.md](sections/55-pravila-podscheta-statistiki.md) | 92-99 | ч.1 с.92-99 | 3808 | Рассмотрим правила подсчета статистики на примере скриншотов ниже (в числах и процентах): |
-| 8.5 | Ловец инсайтов | [sections/56-lovec-insaytov.md](sections/56-lovec-insaytov.md) | 99 | ч.1 с.99 | 223 | Данные отчета позволяют прослеживать – как фраза или тематика разговора повлияла на ход |
-| 8.5.1 | Блок параметров | [sections/57-blok-parametrov.md](sections/57-blok-parametrov.md) | 99-100 | ч.1 с.99-100 | 1280 | При формировании отчета пользователям доступна фильтрация: |
-| 8.5.2 | Блок результатов | [sections/58-blok-rezultatov.md](sections/58-blok-rezultatov.md) | 100-102 | ч.1 с.100-102 | 583 | Блок содержит подробную информацию о срабатывание триггера, с отображением причины и |
-| 8.6 | Показатели отчетов | [sections/59-pokazateli-otchetov.md](sections/59-pokazateli-otchetov.md) | 102-104 | ч.1 с.102-104 | 1542 | Для построения отчетов устанавливаются показатели, по которым будет формироваться отчет. |
-| 9 | Роли и права доступа | [sections/60-roli-i-prava-dostupa.md](sections/60-roli-i-prava-dostupa.md) | 104-105 | ч.1 с.104-105 | 678 | В данном разделе приведено сводное описание параметров доступности, разрешений (прав) и |
-| 10 | Интеграция Речевой аналитики со сторонними ВАТС | [sections/61-integraciya-rechevoy-analitiki-so-storon.md](sections/61-integraciya-rechevoy-analitiki-so-storon.md) | 105-107 | ч.1 с.105-107 | 2935 | аналитики со сторонними |
-| 10.1 | Точка входа «Пассивный SIP» | [sections/62-tochka-vhoda-passivnyy-sip.md](sections/62-tochka-vhoda-passivnyy-sip.md) | 107 | ч.1 с.107 | 159 | 1) Подключение услуги Речевая аналитика |
-| 10.1 | Подключение пассивного SIP | [sections/63-podklyuchenie-passivnogo-sip.md](sections/63-podklyuchenie-passivnogo-sip.md) | 107-110 | ч.1 с.107-110 | 1283 | Шаг 1. |
-| 10.1 | Создание сотрудника | [sections/64-sozdanie-sotrudnika.md](sections/64-sozdanie-sotrudnika.md) | 110-111 | ч.1 с.110-111 | 549 | Откройте личный кабинет по ссылке lk.mango-office.ru. |
-| 10.2 | Точка входа «Активный SIP» | [sections/65-tochka-vhoda-aktivnyy-sip.md](sections/65-tochka-vhoda-aktivnyy-sip.md) | 111 | ч.1 с.111 | 160 | 1) Подключение услуги Речевая аналитика |
-| 10.2 | Создание сотрудника | [sections/66-sozdanie-sotrudnika.md](sections/66-sozdanie-sotrudnika.md) | 111-112 | ч.1 с.111-112 | 456 | Откройте личный кабинет по ссылке lk.mango-office.ru. |
-| 10.2 | Подключение активного SIP | [sections/67-podklyuchenie-aktivnogo-sip.md](sections/67-podklyuchenie-aktivnogo-sip.md) | 112-118 | ч.1 с.112-118 | 2267 | Шаг 1. |
-| 10.3 | Точка входа «DID MANGO OFFICE» | [sections/68-tochka-vhoda-did-mango-office.md](sections/68-tochka-vhoda-did-mango-office.md) | 118-119 | ч.1 с.118-119 | 294 | 1) Подключение услуги Речевая аналитика; |
-| 10.3 | Настройка схемы распределения звонков в Личном кабинете | [sections/69-nastroyka-shemy-raspredeleniya-zvonkov-v.md](sections/69-nastroyka-shemy-raspredeleniya-zvonkov-v.md) | 119 | ч.1 с.119 | 169 | Личном кабинете |
-| 10.4 | Точка входа «SIP Trunk» | [sections/70-tochka-vhoda-sip-trunk.md](sections/70-tochka-vhoda-sip-trunk.md) | 119-121 | ч.1 с.119-121 | 427 | 1) Добавление SIP Trunk |
-| 10.4 | Вкладка Настройка | [sections/71-vkladka-nastroyka.md](sections/71-vkladka-nastroyka.md) | 121-123 | ч.1 с.121-123 | 1892 | В открывшейся вкладке Настройка заполните поля: |
-| 10.4 | Вкладка Номера | [sections/72-vkladka-nomera.md](sections/72-vkladka-nomera.md) | 123-124 | ч.1 с.123-124 | 743 | Заполните поля: |
-| 10.4 | Вкладка Телефония | [sections/73-vkladka-telefoniya.md](sections/73-vkladka-telefoniya.md) | 124 | ч.1 с.124 | 529 | В поле Исходящий̆ номер выберите из выпадающего списка номер SIP Trunkа. |
-| 10.4.1 | Активация SIP Trunk в карточке сотрудника | [sections/74-aktivaciya-sip-trunk-v-kartochke-sotrudn.md](sections/74-aktivaciya-sip-trunk-v-kartochke-sotrudn.md) | 124 | ч.1 с.124 | 165 | сотрудника |
-| 10.4.2 | Настройка схемы распределения звонков в Личном кабинете | [sections/75-nastroyka-shemy-raspredeleniya-zvonkov-v.md](sections/75-nastroyka-shemy-raspredeleniya-zvonkov-v.md) | 124-126 | ч.1 с.124-126 | 834 | звонков в Личном кабинете |
-| | **ИТОГО** | | | | **86230** | весь документ |
-
-## Источники
-
-- Источник БЗ, часть 1: `kb/sources/speech-analytics/RECHEVAYA-ANALITIKA_1.26.18.pdf`
-- Стандарт цитирования: [`standards/kb-standard.md`](../../../../standards/kb-standard.md), [ADR-007](../../../../docs/adr/007-kb-standard.md)
+| — | Титульная часть | [sections/00-titulnaya-chast.md](sections/00-titulnaya-chast.md) | 1-4 | ч.1 с.1-4 | 1548 | 1. Общие сведения......................................................................... |
+| 1 | Общие сведения | [sections/01-obschie-svedeniya.md](sections/01-obschie-svedeniya.md) | 4-6 | ч.1 с.4-6 | 1819 | Речевая аналитика распознает записанные разговоры и текстовые сообщения, и производит в ни |
+| 2 | Подключение услуги «Речевая аналитика» | [sections/02-podklyuchenie-uslugi-rechevaya-analitika.md](sections/02-podklyuchenie-uslugi-rechevaya-analitika.md) | 6 | ч.1 с.6 | 34 | 2.1. Подключение в Демо-режиме |
+| 2.1 | Подключение в демо-режиме | [sections/03-podklyuchenie-v-demo-rezhime.md](sections/03-podklyuchenie-v-demo-rezhime.md) | 6-9 | ч.1 с.6-9 | 3494 | Функционал демо-версии услуги Речевая аналитика полностью соответствует функционалу полной |
+| 2.2 | Подключение услуги в платном режиме | [sections/04-podklyuchenie-uslugi-v-platnom-rezhime.md](sections/04-podklyuchenie-uslugi-v-platnom-rezhime.md) | 9-11 | ч.1 с.9-11 | 1898 | Для подключения услуги "Речевая аналитика" последовательно перейдите в подраздел Речевая а |
+| 3 | Настройки | [sections/05-nastroyki.md](sections/05-nastroyki.md) | 11-12 | ч.1 с.11-12 | 2225 | Вкладка Настройки модуля Речевая аналитика содержит блок онбординга, а также следующие бло |
+| 3.1 | Шаги онбординга | [sections/06-shagi-onbordinga.md](sections/06-shagi-onbordinga.md) | 12-14 | ч.1 с.12-14 | 1662 | В верхней части вкладки Настройки модуля находится блок онбординга, содержащего все этапы  |
+| 3.2 | Настройки распознавания записей | [sections/07-nastroyki-raspoznavaniya-zapisey.md](sections/07-nastroyki-raspoznavaniya-zapisey.md) | 14-15 | ч.1 с.14-15 | 1797 | Блок Настройка распознавания записей позволяет настроить функции распознавания и пересылки |
+| 3.3 | Аналитика текстовых коммуникаций | [sections/08-analitika-tekstovyh-kommunikaciy.md](sections/08-analitika-tekstovyh-kommunikaciy.md) | 15-17 | ч.1 с.15-17 | 1114 | Раздел доступен только при подключенной услуге «Диалоги» (омниканальные коммуникации). Есл |
+| 3.4 | ИИ Инструменты | [sections/09-ii-instrumenty.md](sections/09-ii-instrumenty.md) | 17 | ч.1 с.17 | 50 | В настоящее время подключение ИИ Инструментов доступно бесплатно. Срок действия данной опц |
+| 3.4.1 | ИИ Конспекты | [sections/10-ii-konspekty.md](sections/10-ii-konspekty.md) | 17-19 | ч.1 с.17-19 | 2530 | Блок ИИ Конспекты позволяет автоматически формировать краткое содержание телефонных разгов |
+| 3.4.2 | ИИ Тегирование | [sections/11-ii-tegirovanie.md](sections/11-ii-tegirovanie.md) | 19-20 | ч.1 с.19-20 | 1002 | Блок ИИ Тегирование позволяет настроить анализ разговоров и чатов сотрудников с использова |
+| 3.4.3 | ИИ Помощники | [sections/12-ii-pomoschniki.md](sections/12-ii-pomoschniki.md) | 20-28 | ч.1 с.20-28 | 8166 | 3.4.3.1 Что это такое и зачем нужно |
+| 3.5 | Дополнительные настройки | [sections/13-dopolnitelnye-nastroyki.md](sections/13-dopolnitelnye-nastroyki.md) | 28-29 | ч.1 с.28-29 | 1328 | Блок Дополнительные настройки позволяет пользователю управлять расширенными функциями обра |
+| 3.6 | Отключение услуги | [sections/14-otklyuchenie-uslugi.md](sections/14-otklyuchenie-uslugi.md) | 29-30 | ч.1 с.29-30 | 986 | При необходимости пользователь может отключить услугу Речевая аналитика. Для этого в разде |
+| 4 | Как работает поиск по разговорам | [sections/15-kak-rabotaet-poisk-po-razgovoram.md](sections/15-kak-rabotaet-poisk-po-razgovoram.md) | 30 | ч.1 с.30 | 135 | Пользователям ВАТС доступен поиск ключевых слов или словосочетаний в распознанных аудиозап |
+| 4.1 | Термины и определения | [sections/16-terminy-i-opredeleniya.md](sections/16-terminy-i-opredeleniya.md) | 30-32 | ч.1 с.30-32 | 2039 | Канал – участник разговора, речь/текст которого анализируется. Пользователь может выбрать  |
+| 4.2 | Правила обработки поисковых запросов | [sections/17-pravila-obrabotki-poiskovyh-zaprosov.md](sections/17-pravila-obrabotki-poiskovyh-zaprosov.md) | 32-33 | ч.1 с.32-33 | 679 | При вводе терм допускается использование следующих символов: |
+| 4.3 | Общие советы для составления поисковых запросов | [sections/18-obschie-sovety-dlya-sostavleniya-poiskov.md](sections/18-obschie-sovety-dlya-sostavleniya-poiskov.md) | 33 | ч.1 с.33 | 731 | СОВЕТ 1: При составлении поискового запроса используйте синонимы. |
+| 5 | Поиск по аудиозаписям разговоров | [sections/19-poisk-po-audiozapisyam-razgovorov.md](sections/19-poisk-po-audiozapisyam-razgovorov.md) | 33-34 | ч.1 с.33-34 | 0 | — |
+| 5.1 | Поля формы модуля поиска в записях разговоров | [sections/20-polya-formy-modulya-poiska-v-zapisyah-ra.md](sections/20-polya-formy-modulya-poiska-v-zapisyah-ra.md) | 34-36 | ч.1 с.34-36 | 4647 | Во вкладке «Записанные разговоры» раздела Запись разговоров ЛК ВАТС можно просмотреть и от |
+| 5.2 | Прослушивание записей | [sections/21-proslushivanie-zapisey.md](sections/21-proslushivanie-zapisey.md) | 36-41 | ч.1 с.36-41 | 13200 | Для прослушивания записи следует нажать на иконку напротив наименования нужной записи. |
+| 6 | Тегирование разговоров | [sections/22-tegirovanie-razgovorov.md](sections/22-tegirovanie-razgovorov.md) | 41 | ч.1 с.41 | 504 | Разговор – текстовый или аудио диалог сотрудника и клиента, сотрудника и сотрудника. |
+| 6.1 | Тематики | [sections/23-tematiki.md](sections/23-tematiki.md) | 41-42 | ч.1 с.41-42 | 1843 | Рабочая область вкладки «Тематики» содержит: |
+| 6.2 | Создание и редактирование тематик | [sections/24-sozdanie-i-redaktirovanie-tematik.md](sections/24-sozdanie-i-redaktirovanie-tematik.md) | 42-43 | ч.1 с.42-43 | 456 | Чтобы добавить новую тематику, перейдите на вкладку Тематики модуля Речевая аналитика и ще |
+| 6.2.1 | Ключевые слова | [sections/25-klyuchevye-slova.md](sections/25-klyuchevye-slova.md) | 43-45 | ч.1 с.43-45 | 2753 | Блок ключевых слов содержит следующие поля: |
+| 6.2.2 | Расширенные настройки | [sections/26-rasshirennye-nastroyki.md](sections/26-rasshirennye-nastroyki.md) | 45-46 | ч.1 с.45-46 | 1953 | Блок добавления условий содержит следующие поля: |
+| 6.2.3 | Настройка уведомлений | [sections/27-nastroyka-uvedomleniy.md](sections/27-nastroyka-uvedomleniy.md) | 46-48 | ч.1 с.46-48 | 1793 | При добавлении тематики пользователь задает ряд условий. Если срабатывают все заданные усл |
+| 6.3 | Советы по настройке тематик | [sections/28-sovety-po-nastroyke-tematik.md](sections/28-sovety-po-nastroyke-tematik.md) | 48-51 | ч.1 с.48-51 | 2191 | Лучше создать несколько узконаправленных тематик, нежели одну общую. |
+| 6.4 | Примеры использования тематики | [sections/29-primery-ispolzovaniya-tematiki.md](sections/29-primery-ispolzovaniya-tematiki.md) | 51 | ч.1 с.51 | 439 | Пример 1. Тематика “Информирование о спецпредложении” |
+| 6.5 | Предустановленные тематики | [sections/30-predustanovlennye-tematiki.md](sections/30-predustanovlennye-tematiki.md) | 51-53 | ч.1 с.51-53 | 1733 | По умолчанию в Речевой аналитике включены 36 предустановленных тематик: |
+| 6.6 | Заявки на улучшение качества распознавания | [sections/31-zayavki-na-uluchshenie-kachestva-raspozn.md](sections/31-zayavki-na-uluchshenie-kachestva-raspozn.md) | 53-56 | ч.1 с.53-56 | 3267 | Пользователь, который выбрал для распознавания технологию 3iTech, может отправить заявку н |
+| 6.7 | ИИ Тематики | [sections/32-ii-tematiki.md](sections/32-ii-tematiki.md) | 56-59 | ч.1 с.56-59 | 2265 | Модуль Речевая аналитика поддерживает семантический анализ разговоров на основе запросов к |
+| 7 | Текстовые коммуникации | [sections/33-tekstovye-kommunikacii.md](sections/33-tekstovye-kommunikacii.md) | 59 | ч.1 с.59 | 0 | — |
+| 7.1 | Список текстовых коммуникаций | [sections/34-spisok-tekstovyh-kommunikaciy.md](sections/34-spisok-tekstovyh-kommunikaciy.md) | 59-61 | ч.1 с.59-61 | 2680 | При переходе на страницу «Текстовые коммуникации» отображается панель фильтров. На панели  |
+| 7.2 | Конспекты чатов | [sections/35-konspekty-chatov.md](sections/35-konspekty-chatov.md) | 61 | ч.1 с.61 | 254 | Если в настройках Речевой аналитики включена услуга ИИ Конспекты, в списке текстовых комму |
+| 7.3 | Метки на осциллограмме диалога | [sections/36-metki-na-oscillogramme-dialoga.md](sections/36-metki-na-oscillogramme-dialoga.md) | 61-62 | ч.1 с.61-62 | 4099 | Для отображения результатов поиска в текстовых сообщениях используется осциллограмма диало |
+| 7.4 | Плеер чата | [sections/37-pleer-chata.md](sections/37-pleer-chata.md) | 62-63 | ч.1 с.62-63 | 237 | Правая часть плеера с расшифровкой чата устроена аналогично плееру для звонков и содержит  |
+| 8 | Отчеты | [sections/38-otchety.md](sections/38-otchety.md) | 63 | ч.1 с.63 | 200 | Вкладка Отчеты содержит детальную аналитическую информацию о распознанных вызовах в соотве |
+| 8.1 | Мои отчеты | [sections/39-moi-otchety.md](sections/39-moi-otchety.md) | 63-64 | ч.1 с.63-64 | 1807 | Страница Мои отчеты – главный экран отчетов Речевой аналитики. На ней собраны ключевые пок |
+| 8.2 | Расходы Речевой аналитики | [sections/40-rashody-rechevoy-analitiki.md](sections/40-rashody-rechevoy-analitiki.md) | 64-67 | ч.1 с.64-67 | 1637 | Страница расходов помогает быстро понять, сколько стоит использование сервиса за выбранный |
+| 8.3 | Анализ сотрудников | [sections/41-analiz-sotrudnikov.md](sections/41-analiz-sotrudnikov.md) | 67 | ч.1 с.67 | 75 | Отчет Анализ сотрудников состоит из трех блоков: |
+| 8.3.1 | Блок фильтров | [sections/42-blok-filtrov.md](sections/42-blok-filtrov.md) | 67-69 | ч.1 с.67-69 | 3914 | Кнопка Сохранить – становится активной после формирования отчета. При нажатии отображается |
+| 8.3.2 | Блок визуализации срабатывания тематик | [sections/43-blok-vizualizacii-srabatyvaniya-tematik.md](sections/43-blok-vizualizacii-srabatyvaniya-tematik.md) | 69-71 | ч.1 с.69-71 | 2646 | Отчет предоставляет данные по количеству присвоенных звонкам тематик в разговорах сотрудни |
+| 8.3.3 | Блок таблицы Разговоры, детализация | [sections/44-blok-tablicy-razgovory-detalizaciya.md](sections/44-blok-tablicy-razgovory-detalizaciya.md) | 71-74 | ч.1 с.71-74 | 5015 | Табличная часть отчета состоит из трех разделов: |
+| 8.3.4 | Детализация разговоров | [sections/45-detalizaciya-razgovorov.md](sections/45-detalizaciya-razgovorov.md) | 74-76 | ч.1 с.74-76 | 2438 | Рассмотрим пример детализации для типа записи разговора: «телефонные разговоры»: |
+| 8.4 | Анализ разговоров | [sections/46-analiz-razgovorov.md](sections/46-analiz-razgovorov.md) | 76 | ч.1 с.76 | 377 | Отчет «Анализ разговоров» состоит из двух блоков: Блока таблицы и Блока визуализаций Темат |
+| 8.4.1 | Блок фильтров | [sections/47-blok-filtrov.md](sections/47-blok-filtrov.md) | 76-78 | ч.1 с.76-78 | 3263 | Для построения отчета “Анализ разговоров” выберите временной период, срез (день/месяц/год) |
+| 8.4.2 | Блок визуализаций | [sections/48-blok-vizualizaciy.md](sections/48-blok-vizualizaciy.md) | 78-80 | ч.1 с.78-80 | 1504 | В поле визуализации “Тематики по словам” отображается: |
+| 8.4.3 | Блок таблицы | [sections/49-blok-tablicy.md](sections/49-blok-tablicy.md) | 80-81 | ч.1 с.80-81 | 1992 | Таблица формируется по срезу День/Месяц/Год и заданным пользователем в окне “Показатели” п |
+| 8.4.4 | Детализация | [sections/50-detalizaciya.md](sections/50-detalizaciya.md) | 81-82 | ч.1 с.81-82 | 1713 | По клику на цифру "Количество распознанных разговоров" открывается окно детализации разгов |
+| 8.5 | Анализ по чек-листам | [sections/51-analiz-po-chek-listam.md](sections/51-analiz-po-chek-listam.md) | 82-84 | ч.1 с.82-84 | 2406 | Отчет предназначен для автоматической оценки разговора сотрудника с клиентом на соответств |
+| 8.5.1 | Конструктор чек-листов | [sections/52-konstruktor-chek-listov.md](sections/52-konstruktor-chek-listov.md) | 84-90 | ч.1 с.84-90 | 8069 | Возможно создание не более 20-ти чек-листов. |
+| 8.5.2 | Статистика | [sections/53-statistika.md](sections/53-statistika.md) | 90-93 | ч.1 с.90-93 | 4460 | Статистика отчета по Чек-листам содержит вкладки «Таблица» и «График», которые позволяют к |
+| 8.5.3 | Правила подсчета статистики | [sections/54-pravila-podscheta-statistiki.md](sections/54-pravila-podscheta-statistiki.md) | 93-100 | ч.1 с.93-100 | 10547 | Рассмотрим правила подсчета статистики на примере скриншотов ниже (в числах и процентах): |
+| 8.6 | Ловец инсайтов | [sections/55-lovec-insaytov.md](sections/55-lovec-insaytov.md) | 100 | ч.1 с.100 | 144 | Данные отчета позволяют прослеживать – как фраза или тематика разговора повлияла на ход ра |
+| 8.6.1 | Блок параметров | [sections/56-blok-parametrov.md](sections/56-blok-parametrov.md) | 100-101 | ч.1 с.100-101 | 1583 | При формировании отчета пользователям доступна фильтрация: |
+| 8.6.2 | Блок результатов | [sections/57-blok-rezultatov.md](sections/57-blok-rezultatov.md) | 101-103 | ч.1 с.101-103 | 934 | Блок содержит подробную информацию о срабатывание триггера, с отображением причины и резул |
+| 8.7 | Показатели отчетов | [sections/58-pokazateli-otchetov.md](sections/58-pokazateli-otchetov.md) | 103-105 | ч.1 с.103-105 | 2204 | Для построения отчетов устанавливаются показатели, по которым будет формироваться отчет. |
+| 9 | Роли и права доступа | [sections/59-roli-i-prava-dostupa.md](sections/59-roli-i-prava-dostupa.md) | 105-106 | ч.1 с.105-106 | 440 | В данном разделе приведено сводное описание параметров доступности, разрешений (прав) и фу |
+| 10 | Интеграция Речевой аналитики со сторонними ВАТС | [sections/60-integraciya-rechevoy-analitiki-so-storon.md](sections/60-integraciya-rechevoy-analitiki-so-storon.md) | 106-110 | ч.1 с.106-110 | 1904 | Интеграция виртуальных АТС с сервисом «Речевая аналитика» MANGO OFFICE происходит быстро и |
+| 10.1 | Точка входа «Пассивный SIP» | [sections/61-tochka-vhoda-passivnyy-sip.md](sections/61-tochka-vhoda-passivnyy-sip.md) | 110-114 | ч.1 с.110-114 | 4053 | 1) Подключение услуги Речевая аналитика 2) Подключение Пассивного SIP 3) Создание сотрудни |
+| 10.2 | Точка входа «Активный SIP» | [sections/62-tochka-vhoda-aktivnyy-sip.md](sections/62-tochka-vhoda-aktivnyy-sip.md) | 114-121 | ч.1 с.114-121 | 6000 | 1) Подключение услуги Речевая аналитика 2) Создание сотрудника 3) Подключение Активного SI |
+| 10.3 | Точка входа «DID MANGO OFFICE» | [sections/63-tochka-vhoda-did-mango-office.md](sections/63-tochka-vhoda-did-mango-office.md) | 121-122 | ч.1 с.121-122 | 619 | 1) Подключение услуги Речевая аналитика; 2) Создание сотрудника; |
+| 10.4 | Точка входа «SIP Trunk» | [sections/64-tochka-vhoda-sip-trunk.md](sections/64-tochka-vhoda-sip-trunk.md) | 122-127 | ч.1 с.122-127 | 4805 | 1) Добавление SIP Trunk 2) Активация SIP Trunk в карточке сотрудника 3) Настройка схемы ра |
+| 10.4.1 | Активация SIP Trunk в карточке сотрудника | [sections/65-aktivaciya-sip-trunk-v-kartochke-sotrudn.md](sections/65-aktivaciya-sip-trunk-v-kartochke-sotrudn.md) | 127 | ч.1 с.127 | 69 | Чтобы установить SIP Trunk для исходящих вызовов конкретного сотрудника, откройте Карточку |
+| 10.4.2 | Настройка схемы распределения звонков в Личном кабинете | [sections/66-nastroyka-shemy-raspredeleniya-zvonkov-v.md](sections/66-nastroyka-shemy-raspredeleniya-zvonkov-v.md) | 127-129 | ч.1 с.127-129 | 1626 | Для настройки схемы распределения звонков откройте подраздел “Голосовое меню и распределен |

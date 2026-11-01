@@ -15,6 +15,7 @@ source_refs: '[{"source_pdf":"kb/sources/quality-managment/QM_manual_v-1.26.18.p
 extracted_by: "pdfplumber 0.11.10"
 token_method: "tiktoken:cl100k_base"
 tokens: 64
+images: 0
 status: extracted
 ai-generated: true
 ---
