@@ -2,8 +2,8 @@
 type: system-prompt
 contract: c-in
 status: runtime
-version: 0.5
-updated: 2026-09-26
+version: 0.6
+updated: 2026-11-04
 ---
 
 # C-IN — контракт входа маршрута
@@ -47,9 +47,23 @@ updated: 2026-09-26
 | --- | --- | --- | --- |
 | `marker` | да | string (шаблон `^[A-ZА-Я]$`) |  |
 | `product_class` | да | одно из: `contact-center`, `voice-ucaas`, `analytics-reporting` |  |
-| `atomic_function` | да | string (мин. длина `1`) |  |
+| `atomic_function` | да | id узла `level: function` из `taxonomy/mango-products.yaml` | `product_class` записи входит в `classes` этого узла (правило PT-5) |
 | `profile` | да | одно из: `P-SETTINGS`, `P-NO-SETTINGS`, `P-DEVICE`, `P-API` |  |
 | `owner` | да | string (мин. длина `1`) |  |
+
+Условие для `c-in.products[]` (правило PT-5): `atomic_function` — закрытое
+значение. Вход принимается, только если в `taxonomy/mango-products.yaml` есть
+узел с `id`, равным `atomic_function`, и `level: function`, а `product_class`
+записи входит в `classes` этого узла. Иначе вход отвергается до первого шага,
+а навык узла `n1` на шаге `check-schema` отказывает, если такой вход до него
+дошёл; отказ описывает непокрытый случай, новое значение не изобретается и не
+подбирается близкий id каталога:
+
+- значение не найдено среди id узлов каталога — «функция вне каталога»;
+- узел найден, но его уровень не `function` — «уровень каталога не функция»;
+- узел найден, но `product_class` не входит в его `classes` — «функция чужого
+  класса»; у функции с `classes: []` класса runtime нет, и во входе она не
+  объявляется.
 
 #### `c-in.sources[]`
 
