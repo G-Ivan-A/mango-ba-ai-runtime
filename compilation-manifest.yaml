@@ -52,6 +52,15 @@ copied:
     source_commit: 8cbf82aa73129ec5747af07f790aaf438b0fb6e9
     to: docs/kb
     note: копия каталога без изменений; уровень ST-5-LOCAL
+  - what: каталог продуктов Mango 2026-10-28.1 (все 353 узла Domain → Capability → Feature → Atomic Function)
+    from: https://github.com/G-Ivan-A/mango_ba_prompts/blob/7f920e2e967ad1331e027fef885ea68ecef7070f/docs/taxonomy/products.json
+    source_commit: 7f920e2e967ad1331e027fef885ea68ecef7070f
+    to: taxonomy/mango-products.yaml
+    note: >-
+      копия значений каталога спицы без отбора и без изменения смысла: id,
+      имена, связи и lifecycle сохранены, classes вычислены через предков по
+      runtime_compatibility каталога; правило привязки atomic_function к
+      каталогу — задача Хаба, в каталог не входит
 
 # 2. Преобразовано: нормативный текст стал структурой, которую исполняет
 #    скрипт, а не читает человек.
