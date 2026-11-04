@@ -122,6 +122,9 @@ class GoldenSetTest(unittest.TestCase):
                 with self.subTest(case["id"]):
                     declared = case["declared_function"]
                     self.assertEqual(case["refusing_node"], "n1")
+                    reason = {"outside-catalog": "функция вне каталога",
+                              "foreign-class": "функция чужого класса"}[case["catalog_check"]]
+                    self.assertTrue(case["reason"].startswith(reason), case["reason"])
                     if case["catalog_check"] == "outside-catalog":
                         self.assertNotIn(declared, self.catalog)
                         self.assertNotIn(declared, (ROOT / "taxonomy" / "mango-products.yaml").read_text(encoding="utf-8"))
