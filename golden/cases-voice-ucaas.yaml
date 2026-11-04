@@ -1,0 +1,128 @@
+# Машиночитаемый индекс Golden Set класса voice-ucaas (Виртуальная АТС, SIP,
+# софтфон). Форма — как у golden/cases.yaml (contact-center); поля
+# product_class и atomic_function привязывают случай к функции каталога
+# taxonomy/mango-products.yaml, в classes которой есть класс набора.
+# Поведение маршрута (RFC-RT-001, R-4): класс вне среза (in_slice: false в
+# taxonomy/products.yaml), навыков класса в skills/ нет, маршрут
+# routes/rg-bcreq-v1.yaml объявлен для contact-center. Набор — данные для
+# промптов спицы и структурной сверки; check_golden читает только
+# golden/cases.yaml, поэтому набор не меняет вердикт G-mach по пакету. У
+# отрицательных случаев отказывающий узел — узел графа (refusing_node) и
+# пакет навыка узла (refusing_pack), а не навык класса: навыка нет.
+golden_set: mvp-bcreq-voice-ucaas
+version: "0.1"
+product_class: voice-ucaas
+catalog_version: "2026-10-28.1"
+structural_only: true   # все эталоны synthetic и до подтверждения человеком
+                        # применяются только структурно
+cases:
+  - id: GS-VU-01
+    kind: positive
+    file: golden/gs-vu-01-after-hours-forwarding.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: voice-ucaas
+    atomic_function: cloud-pbx/function/working-hours-routing
+    artifact_class: A-BCREQ
+    format_class: F-APPROVAL
+    projection: V-APPROVE
+    product_profile: P-SETTINGS
+    expect:
+      outcome: completed
+      slots_present_all: true
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SETTINGS, S-UI, S-SCENARIO, S-AC, S-NFR, S-LIMITS, S-OPEN, S-TRACE]
+      empty_with_reason:
+        S-INTEGRATION: "нет по продукту"
+      glossary_terms: [Переадресация]
+      trace_nonempty: true
+  - id: GS-VU-02
+    kind: positive
+    file: golden/gs-vu-02-trunk-failover.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: voice-ucaas
+    atomic_function: sip-connectivity/function/trunk-failover
+    artifact_class: A-BCREQ
+    format_class: F-SHORT
+    projection: V-BIZ
+    product_profile: P-SETTINGS
+    expect:
+      outcome: completed
+      slots_present_all: true
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SETTINGS, S-UI, S-SCENARIO, S-AC, S-LIMITS, S-OPEN, S-INTEGRATION, S-TRACE]
+      empty_with_reason:
+        S-NFR: "в источнике нет требований к качеству"
+      glossary_terms: [SIP Trunk]
+      trace_nonempty: true
+  - id: GS-VU-NEG-01
+    kind: negative
+    file: golden/gs-vu-neg-01-forwarding-vs-transfer.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: voice-ucaas
+    atomic_function: cloud-pbx/function/auto-attendant
+    glossary_pair: [TRM-FORWARDING, TRM-TRANSFER]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_pack: SK-context-extraction
+      reason: "действие источника близко к двум значениям словаря: правило АТС до ответа или действие сотрудника во время разговора; источник не позволяет выбрать одно"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Переадресация, Перевод звонка]
+        allowed_statuses: [включено, исключено, не применимо]
+  - id: GS-VU-NEG-02
+    kind: negative
+    file: golden/gs-vu-neg-02-blind-vs-consult.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: voice-ucaas
+    atomic_function: unified-communications/function/softphone-call
+    glossary_pair: [TRM-BLIND-TRANSFER, TRM-CONSULT-TRANSFER]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_pack: SK-context-extraction
+      reason: "вид перевода в источнике не назван, признаки подходят обоим значениям словаря"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Слепой перевод, Консультативный перевод]
+        allowed_statuses: [включено, исключено, не применимо]
+  - id: GS-VU-NEG-03
+    kind: negative
+    file: golden/gs-vu-neg-03-sip-account-vs-trunk.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: voice-ucaas
+    atomic_function: number-management/function/number-assignment
+    glossary_pair: [TRM-SIP-ACCOUNT, TRM-SIP-TRUNK]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_pack: SK-context-extraction
+      reason: "«подключение по SIP» близко к двум значениям словаря: учётные записи телефонов сотрудников или транк к АТС клиента; источник не называет оборудование"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Учётная запись SIP, SIP Trunk]
+        allowed_statuses: [включено, исключено, не применимо]
+  # Отрицательный случай «функция чужого класса» (RFC-RT-001, РТ-3):
+  # atomic_function — функция класса набора, о которой сценарий; недопустимое
+  # значение входа — declared_function (функция каталога другого класса).
+  - id: GS-VU-NEG-04
+    kind: negative
+    file: golden/gs-vu-neg-04-foreign-class-function.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: voice-ucaas
+    atomic_function: number-management/function/number-assignment
+    declared_function: call-tracking/function/dynamic-number-substitution
+    catalog_check: foreign-class
+    expect:
+      outcome: refused
+      refusing_node: n1
+      refusing_pack: SK-transcript-normalization
+      reason: "функция реестра есть в каталоге, но в её classes нет объявленного класса voice-ucaas; функция не подменяется функцией объявленного класса, а класс — классом функции (правило 1 AGENTS.md; класс объявлен до начала — правило 2)"
+      artifact_produced: false

@@ -94,6 +94,16 @@ transformed:
     note: >-
       EP-G7 переведено в исполняемый вид: каждая пара confusable_with словаря
       домена обязана иметь отрицательный случай, что проверяется валидатором
+  - what: Golden Set по продуктовым классам с привязкой к каталогу (РТ-3, RFC-RT-001)
+    to: [golden/cases.yaml, golden/cases-voice-ucaas.yaml, golden/cases-analytics-reporting.yaml]
+    form: индекс на класс; у каждого случая product_class и atomic_function — функция каталога taxonomy/mango-products.yaml с классом набора
+    note: >-
+      все случаи synthetic с confirmed_by none и применяются структурно до
+      подтверждения человеком. Недопустимое значение входа отрицательного
+      случая «функция вне каталога / чужого класса» записано в
+      declared_function, проверка — catalog_check. check_golden читает только
+      golden/cases.yaml (contact-center); наборы классов вне среза — данные
+      для промптов спицы и структурной сверки
   - what: правила следа EP-R4, EP-R8 и лист прогона
     to: [routes/run-sheet-template.yaml, contracts/c-rk.md]
     form: append-only перечень событий и проекция передачи работы

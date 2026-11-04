@@ -32,7 +32,8 @@ for file in AGENTS.md README.md compilation-manifest.yaml \
   docs/guides/README.md docs/guides/00-quick-start.md \
   routes/rg-bcreq-v1.yaml routes/run-sheet-template.yaml \
   evaluation/validate-package.md evaluation/g-mach-checklist.md \
-  evaluation/g-human-checklist.md docs/kb/README.md
+  evaluation/g-human-checklist.md docs/kb/README.md \
+  golden/cases.yaml golden/cases-voice-ucaas.yaml golden/cases-analytics-reporting.yaml
 do
   require_file "$file"
 done

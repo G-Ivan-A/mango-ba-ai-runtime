@@ -32,6 +32,7 @@ updated: 2026-09-26
 | `taxonomy/mango-products.yaml` | закрытый каталог продуктов Mango (Domain → Capability → Feature → Atomic Function); значение `atomic_function` берётся из него по id |
 | `taxonomy/domain-glossary*.yaml` | словарь домена на продуктовый класс: `domain-glossary.yaml` — `contact-center`, `domain-glossary-voice-ucaas.yaml`, `domain-glossary-analytics-reporting.yaml`; пары `confusable_with` — источник отрицательных эталонов (EP-G7) |
 | `templates/`, `golden/`, `evaluation/` | шаблоны, эталоны, гейты и промпт `G-mach` |
+| `golden/cases*.yaml` | Golden Set на продуктовый класс: `cases.yaml` — `contact-center` (читает `G-mach`), `cases-voice-ucaas.yaml`, `cases-analytics-reporting.yaml`; `atomic_function` случая — функция каталога класса набора |
 | `docs/kb/` | база знаний (уровень `ST-5-LOCAL`) |
 | `docs/guides/` | пошаговые инструкции для пользователя |
 

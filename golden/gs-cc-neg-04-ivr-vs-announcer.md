@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -23,8 +23,15 @@ temperature: 0.1
 > можно оставить заявку. Если человек хочет — пусть оставит.»
 
 Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
-`after-hours-greeting`, профиль `P-SETTINGS`, владелец — руководитель
-контакт-центра.
+`omnichannel-contact-center/function/interaction-routing`, профиль
+`P-SETTINGS`, владелец — руководитель контакт-центра.
+
+Функция — ближайший узел класса `contact-center` в каталоге
+`taxonomy/mango-products.yaml`: маршрутизация входящего обращения. Узлы
+голосового меню и автоинформатора (`ivr-voice-menu/…`) в каталоге отнесены
+только к `voice-ucaas`; узла `contact-center` для них нет — это вопрос
+владельцу каталога, а не значение, которое эталон вправе изобрести. Прежнее
+значение `after-hours-greeting` в каталоге отсутствует.
 
 ## Словарь связанных терминов
 
