@@ -7,6 +7,22 @@ TASK-0002. Преобразуй приложенную расшифровку в
 product_class=contact-center, profile=P-SETTINGS, projection=V-BIZ.
 ```
 
+## Объявление продуктов задачи
+
+Продукт задачи объявляется до запуска маршрута: `product_class`,
+`atomic_function`, `profile` и владелец. Значение `atomic_function` берётся из
+закрытого каталога продуктов [`taxonomy/mango-products.yaml`](../../taxonomy/mango-products.yaml)
+по id узла `level: function`; придумывать функцию нельзя. Цепочка
+Domain → Capability → Feature → Atomic Function читается по полю `parents`.
+Если подходящей функции в каталоге нет или подходят две, не выбирайте
+ближайшую: укажите это во входе как вопрос.
+
+```text
+TASK-0004. Продукт A: product_class=contact-center,
+atomic_function=call-routing/function/queue-management, profile=P-SETTINGS,
+владелец: Иван.
+```
+
 ## Сырое требование в бизнес-требование
 
 ```text
