@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -23,8 +23,14 @@ temperature: 0.1
 > можно оставить заявку. Если человек хочет — пусть оставит.»
 
 Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
-`after-hours-greeting`, профиль `P-SETTINGS`, владелец — руководитель
+`omnichannel-contact-center/function/interaction-routing` из каталога
+`taxonomy/mango-products.yaml`, профиль `P-SETTINGS`, владелец — руководитель
 контакт-центра.
+
+Функции голосового меню и автосекретаря в каталоге относятся к классу
+`voice-ucaas`; у класса `contact-center` ближайшая функция — маршрутизация
+входящего обращения. Подбор функции чужого класса «по смыслу» — отказ на
+входе, а не допустимая разметка.
 
 ## Словарь связанных терминов
 

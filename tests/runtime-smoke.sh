@@ -85,8 +85,16 @@ require_text taxonomy/source-tiers.yaml 'path: docs/kb' 'ST-5-LOCAL points to do
 # Closed Mango product catalog: every golden atomic_function is a catalog function id.
 require_file taxonomy/mango-products.yaml
 require_text taxonomy/mango-products.yaml '^closed: true$' 'product catalog is closed'
-for af in $(grep -hEo 'atomic_function: *"?[a-z0-9/-]+' "$ROOT"/golden/cases*.yaml | sed 's/.*: *"\{0,1\}//'); do
+require_text taxonomy/products.yaml '^catalog: taxonomy/mango-products\.yaml' 'product taxonomy declares the closed catalog'
+require_text taxonomy/products.yaml '^class_domains:' 'product taxonomy declares class_domains'
+for af in $(grep -h 'atomic_function:' "$ROOT"/golden/cases*.yaml | grep -v '# намеренно вне каталога' | grep -Eo 'atomic_function: *"?[a-z0-9/-]+' | sed 's/.*: *"\{0,1\}//'); do
   if grep -Fq "{id: \"$af\", level: function," "$ROOT/taxonomy/mango-products.yaml" 2>/dev/null; then pass "golden atomic_function $af is in catalog"; else fail "golden atomic_function $af is in catalog"; fi
+done
+# The catalog-refusal negative case declares a function that must stay outside the catalog.
+outside=$(grep -h 'atomic_function:.*# намеренно вне каталога' "$ROOT"/golden/cases*.yaml | grep -Eo 'atomic_function: *"?[a-z0-9/-]+' | sed 's/.*: *"\{0,1\}//')
+if [ -n "$outside" ]; then pass 'golden set has a function-outside-catalog negative case'; else fail 'golden set has a function-outside-catalog negative case'; fi
+for af in $outside; do
+  if grep -Fq "{id: \"$af\"," "$ROOT/taxonomy/mango-products.yaml" 2>/dev/null; then fail "golden negative function $af is outside catalog"; else pass "golden negative function $af is outside catalog"; fi
 done
 
 if [ "$FAILURES" -ne 0 ]; then

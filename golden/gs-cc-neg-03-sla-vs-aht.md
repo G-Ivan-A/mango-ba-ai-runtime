@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -22,9 +22,16 @@ temperature: 0.1
 > «Добавьте в отчёт по группам среднее время обслуживания за период и подсветку
 > красным, если оно вышло за 120 секунд.»
 
-Реестр продуктов: маркер `А`, класс `analytics-reporting`, atomic function
-`group-report-threshold`, профиль `P-NO-SETTINGS`, владелец — руководитель
+Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
+`report-builder/function/custom-parameter-create` из каталога
+`taxonomy/mango-products.yaml`, профиль `P-NO-SETTINGS`, владелец — руководитель
 контакт-центра.
+
+Класс входа — `contact-center`, а не `analytics-reporting`: эталон входит в
+набор `contact-center`, пара `TRM-SLA` ↔ `TRM-AHT` взята из словаря домена
+контакт-центра, а функция отчёта по группам в каталоге входит в классы
+`contact-center`. Отдельный набор `analytics-reporting` формируется вместе со
+словарём этого класса.
 
 ## Словарь связанных терминов
 

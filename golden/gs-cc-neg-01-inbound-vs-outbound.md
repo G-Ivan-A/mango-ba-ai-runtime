@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -24,7 +24,8 @@ temperature: 0.1
 > обратный звонок. Ну и входящие тоже посмотрите, там та же история.»
 
 Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
-`callback-offer`, профиль `P-SETTINGS`, владелец — руководитель контакт-центра.
+`outbound-calling/function/callback-scheduling` из каталога
+`taxonomy/mango-products.yaml`, профиль `P-SETTINGS`, владелец — руководитель контакт-центра.
 
 ## Словарь связанных терминов
 

@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -24,7 +24,8 @@ temperature: 0.1
 > показывать супервизору предупреждение и не добавлять туда новых.»
 
 Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
-`queue-capacity-limit`, профиль `P-SETTINGS`, владелец — супервизор
+`call-routing/function/queue-management` из каталога
+`taxonomy/mango-products.yaml`, профиль `P-SETTINGS`, владелец — супервизор
 контакт-центра.
 
 ## Словарь связанных терминов

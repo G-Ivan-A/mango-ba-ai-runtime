@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -29,7 +29,8 @@ temperature: 0.1
 > двадцать секунд.»
 
 Реестр продуктов объявлен во входе: маркер `А`, класс `contact-center`, atomic
-function `queue-callback-offer`, профиль `P-SETTINGS`, владелец — руководитель
+function `call-routing/function/overflow-routing` из каталога
+`taxonomy/mango-products.yaml`, профиль `P-SETTINGS`, владелец — руководитель
 контакт-центра.
 
 ## Ожидаемая структура выхода
