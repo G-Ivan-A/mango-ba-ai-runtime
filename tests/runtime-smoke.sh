@@ -82,6 +82,13 @@ docs=$(find "$ROOT/docs/kb" -mindepth 2 -maxdepth 2 -name index.md | wc -l | tr 
 if [ "$docs" -gt 0 ]; then pass "knowledge base has $docs documents"; else fail 'knowledge base is populated'; fi
 require_text taxonomy/source-tiers.yaml 'path: docs/kb' 'ST-5-LOCAL points to docs/kb'
 
+# Closed Mango product catalog: every golden atomic_function is a catalog function id.
+require_file taxonomy/mango-products.yaml
+require_text taxonomy/mango-products.yaml '^closed: true$' 'product catalog is closed'
+for af in $(grep -hEo 'atomic_function: *"?[a-z0-9/-]+' "$ROOT"/golden/cases*.yaml | sed 's/.*: *"\{0,1\}//'); do
+  if grep -Fq "{id: \"$af\", level: function," "$ROOT/taxonomy/mango-products.yaml" 2>/dev/null; then pass "golden atomic_function $af is in catalog"; else fail "golden atomic_function $af is in catalog"; fi
+done
+
 if [ "$FAILURES" -ne 0 ]; then
   printf 'runtime smoke test failed: %s check(s)\n' "$FAILURES" >&2
   exit 1
