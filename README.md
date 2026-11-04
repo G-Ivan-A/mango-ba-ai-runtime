@@ -46,7 +46,8 @@ updated: 2026-09-26
 `docs/kb/` — копия `kb/processed` из
 [`mango_ba_prompts`](https://github.com/G-Ivan-A/mango_ba_prompts/tree/main/kb/processed).
 Навигация: [`docs/kb/MAP.json`](docs/kb/MAP.json) →
-`docs/kb/maps/<документ>.json` → `sections/NN-*.md`.
+`docs/kb/maps/<документ>.toc.tsv` → `sections/NN-*.md`; карта
+`docs/kb/maps/<документ>.json` — когда нужны подсказка, страницы или токены.
 Порядок выбора и повторного поиска: [`docs/kb/USAGE.md`](docs/kb/USAGE.md).
 
 ## Версии и происхождение
