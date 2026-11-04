@@ -30,6 +30,7 @@ updated: 2026-09-26
 | `contracts/` | системные промпты-контракты `C-IN`, `C-CORE`, `C-QUEST`, `C-OUT-BCREQ`, `C-RK` |
 | `taxonomy/`, `routes/` | закрытые словари и граф маршрута |
 | `taxonomy/mango-products.yaml` | закрытый каталог продуктов Mango (Domain → Capability → Feature → Atomic Function); значение `atomic_function` берётся из него по id |
+| `taxonomy/domain-glossary*.yaml` | словарь домена на продуктовый класс: `domain-glossary.yaml` — `contact-center`, `domain-glossary-voice-ucaas.yaml`, `domain-glossary-analytics-reporting.yaml`; пары `confusable_with` — источник отрицательных эталонов (EP-G7) |
 | `templates/`, `golden/`, `evaluation/` | шаблоны, эталоны, гейты и промпт `G-mach` |
 | `docs/kb/` | база знаний (уровень `ST-5-LOCAL`) |
 | `docs/guides/` | пошаговые инструкции для пользователя |

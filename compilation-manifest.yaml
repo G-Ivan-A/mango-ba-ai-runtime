@@ -31,6 +31,15 @@ copied:
   - what: смежные термины домена контакт-центра с основанием смешения
     from: словарь домена и материалы кросс-валидации
     to: taxonomy/domain-glossary.yaml
+  - what: смежные термины доменов voice-ucaas и analytics-reporting с основанием смешения (РТ-4)
+    from: база знаний docs/kb (руководство ЛК, API ВАТС, API сервиса интеграций, Mango Talker, интеграции amoCRM, Битрикс24, 1С) и каталог taxonomy/mango-products.yaml
+    to: [taxonomy/domain-glossary-voice-ucaas.yaml, taxonomy/domain-glossary-analytics-reporting.yaml]
+    note: >-
+      форма записи — как у словаря contact-center; значения выписаны из
+      разделов базы знаний без добавления смысла, у каждого термина указаны
+      sources (разделы docs/kb) и catalog (узлы каталога класса). Спица —
+      SSOT значений словаря домена: перенос этих значений в спицу — решение
+      владельца
   - what: уровни источников знания, формы доказательства и правило разрешения конфликта источников
     from: исследование извлечения знания (лестница готовности корпуса, матрица стратегий, приоритет модификаторов)
     to: taxonomy/source-tiers.yaml

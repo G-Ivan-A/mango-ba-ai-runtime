@@ -1,0 +1,119 @@
+# Версионированный глоссарий предметной области voice-ucaas (Виртуальная АТС,
+# SIP, софтфон). Форма записи — как у taxonomy/domain-glossary.yaml
+# (contact-center); назначение в исполнении то же:
+#   1. Слот S-GLOSSARY документа класса voice-ucaas заполняется только
+#      терминами этого словаря (термин вне словаря = открытый вопрос).
+#   2. Пары `confusable_with` — источник отрицательных случаев Golden Set
+#      класса (EP-G7).
+# Значения не придуманы: у каждого термина `sources` — разделы копии базы
+# знаний docs/kb, где термин определён или различение видно в тексте;
+# `catalog` — узлы taxonomy/mango-products.yaml, к которым термин относится.
+# Класс вне среза маршрута (in_slice: false в taxonomy/products.yaml):
+# словарь — данные для промптов спицы и структурной сверки эталонов.
+vocabulary: domain-glossary
+closed: false            # каталог значений растёт в споке; форма записи закрыта
+product_class: voice-ucaas
+version: "0.1"
+required_fields: [id, term, definition, confusable_with]
+terms:
+  - id: TRM-FORWARDING
+    term: Переадресация
+    aliases: [переадресация вызова, правило переадресации, схема переадресации]
+    definition: >-
+      правило Виртуальной АТС, по которому входящий вызов до ответа
+      направляется сотруднику, группе или на внешний номер (схема
+      распределения звонков, переадресация по номеру клиента).
+    sources:
+      - docs/kb/mango-lk-manual/sections/110-pereadresaciya-po-nomeru-klienta.md
+      - docs/kb/mango-lk-manual/sections/15-blok-1-raspisanie-i-shema-raspredelenie.md
+    catalog: [cloud-pbx/feature/call-routing-rules]
+    confusable_with:
+      - term: Перевод звонка
+        why: >-
+          переадресацию выполняет настройка АТС до ответа, перевод — сотрудник
+          во время разговора. Корпус называет оба действия «перевести»
+          (ЛК §4.4.4: «вызов переводится в соответствии с параметрами этого
+          правила»), и подмена переносит требование из настроек АТС в
+          действия сотрудника и обратно.
+  - id: TRM-TRANSFER
+    term: Перевод звонка
+    aliases: [перевод вызова, transfer]
+    definition: >-
+      действие сотрудника во время разговора: соединённый вызов передаётся
+      другому сотруднику или на внешний номер («Виджет интеграции позволяет
+      во время разговора перевести звонок на другого сотрудника или внешний
+      номер»; API: запрос выполняется в состоянии CONNECTED).
+    sources:
+      - docs/kb/integration-amocrm/sections/50-kak-perevesti-zvonok.md
+      - docs/kb/api-server-client/sections/39-perevod-transfer-zvonka.md
+    catalog: [unified-communications/feature/softphone]
+    confusable_with:
+      - term: Переадресация
+        why: см. TRM-FORWARDING — разный момент (до ответа и во время разговора) и разный исполнитель
+  - id: TRM-BLIND-TRANSFER
+    term: Слепой перевод
+    aliases: [«слепой» перевод, blind transfer]
+    definition: >-
+      перевод звонка, при котором вызов сразу передаётся адресату без
+      предварительного разговора с ним (Mango Talker: «Слепой: перевод на
+      любого сотрудника»; API: POST /v1/transfer/blind).
+    sources:
+      - docs/kb/mtalker/windows-mac-working/sections/63-perevod-vyzova-na-drugogo-sotrudnika.md
+      - docs/kb/api-server-client/sections/39-perevod-transfer-zvonka.md
+    catalog: [unified-communications/feature/softphone]
+    confusable_with:
+      - term: Консультативный перевод
+        why: >-
+          оба — виды перевода с одной кнопки «Перевод»; при консультативном
+          сотрудник сначала говорит с адресатом, а звонок абонента стоит на
+          удержании. Подмена убирает из требования шаг консультации и
+          удержание (в API — разные запросы /v1/transfer/blind и
+          /v1/transfer/hold).
+  - id: TRM-CONSULT-TRANSFER
+    term: Консультативный перевод
+    aliases: [перевод с консультацией, «С консультацией»]
+    definition: >-
+      перевод звонка, при котором сотрудник соединяется с адресатом, пока
+      звонок абонента на удержании, и передаёт вызов после консультации
+      (amoCRM §7.6: «будет переведен в режим удержания звонок, который вы
+      хотите перевести»; API: POST /v1/transfer/hold).
+    sources:
+      - docs/kb/integration-amocrm/sections/50-kak-perevesti-zvonok.md
+      - docs/kb/mtalker/windows-mac-working/sections/63-perevod-vyzova-na-drugogo-sotrudnika.md
+      - docs/kb/api-server-client/sections/39-perevod-transfer-zvonka.md
+    catalog: [unified-communications/feature/softphone]
+    confusable_with:
+      - term: Слепой перевод
+        why: см. TRM-BLIND-TRANSFER
+  - id: TRM-SIP-ACCOUNT
+    term: Учётная запись SIP
+    aliases: [SIP-учётная запись, SIP-учётка, SIP-адрес]
+    definition: >-
+      учётная запись для регистрации SIP-телефона или программного телефона,
+      закреплённая за сотрудником Виртуальной АТС (ЛК §4.6.1.1.2: поле
+      «Закреплена за сотрудником», SIP-адрес и пароль).
+    sources:
+      - docs/kb/mango-lk-manual/sections/271-uchetnye-zapisi-sip.md
+      - docs/kb/mango-lk-manual/sections/268-nastroyka-sip.md
+    catalog: [cloud-pbx/feature/extension-management]
+    confusable_with:
+      - term: SIP Trunk
+        why: >-
+          учётная запись — абонентское подключение одного сотрудника, транк —
+          канал между АТС клиента и Виртуальной АТС. Оба называются «SIP» и
+          ведут звонки через ВАТС; подмена переносит требование с телефона
+          сотрудника на межстанционную связь с её номерами и правилами
+          преобразования номера.
+  - id: TRM-SIP-TRUNK
+    term: SIP Trunk
+    aliases: [SIP-транк, SIP trunk, транк]
+    definition: >-
+      «виртуальный канал связи между вашей АТС (кАТС) и Виртуальной АТС MANGO
+      OFFICE»; объединяет АТС в единую сеть для внутренних, входящих и
+      исходящих звонков (ЛК §5.2).
+    sources:
+      - docs/kb/mango-lk-manual/sections/321-chto-takoe-sip-trunk.md
+    catalog: [sip-connectivity/feature/sip-trunking]
+    confusable_with:
+      - term: Учётная запись SIP
+        why: см. TRM-SIP-ACCOUNT
