@@ -1,7 +1,8 @@
 """Structure of the closed Mango product catalog taxonomy/mango-products.yaml.
 
 The catalog is a copy of the spoke catalog 2026-10-28.1: one line per node.
-The checks pin the numbers of issue #15 (RT-1) and the chain
+The checks pin the numbers of issue #15 (RT-1), the owner acceptance of the
+catalog (spoke decision R-17, synced by RT-6 in issue #20) and the chain
 Domain -> Capability -> Feature -> Atomic Function without a YAML dependency.
 """
 
@@ -74,6 +75,15 @@ class ProductCatalogTest(unittest.TestCase):
             per_class, {"contact-center": 66, "voice-ucaas": 51, "analytics-reporting": 28}
         )
         self.assertEqual(sum(1 for n in functions if not n["classes"]), 39)
+
+    def test_lifecycle_after_acceptance(self):
+        # R-17: the owner accepted all 74 added-for-review nodes; nothing is
+        # left on review and the catalog itself is accepted.
+        self.assertEqual(self.header["catalog_status"], '"accepted"')
+        self.assertEqual(
+            Counter(n["lifecycle"] for n in self.nodes), {"retained": 279, "accepted": 74}
+        )
+        self.assertNotIn("added-for-review", {n["lifecycle"] for n in self.nodes})
 
     def test_parents_are_one_level_up(self):
         for node in self.nodes:
