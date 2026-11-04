@@ -37,22 +37,24 @@ cases:
       trace_nonempty: true
   - id: GS-VU-02
     kind: positive
-    file: golden/gs-vu-02-trunk-failover.md
+    file: golden/gs-vu-02-crm-api-call.md
     origin: synthetic
     confirmed_by: none
     product_class: voice-ucaas
-    atomic_function: sip-connectivity/function/trunk-failover
+    atomic_function: cpaas/function/programmable-voice-call
     artifact_class: A-BCREQ
     format_class: F-SHORT
     projection: V-BIZ
-    product_profile: P-SETTINGS
+    product_profile: P-API
     expect:
       outcome: completed
       slots_present_all: true
-      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SETTINGS, S-UI, S-SCENARIO, S-AC, S-LIMITS, S-OPEN, S-INTEGRATION, S-TRACE]
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SCENARIO, S-AC, S-LIMITS, S-OPEN, S-INTEGRATION, S-TRACE]
       empty_with_reason:
+        S-SETTINGS: "нет в источнике"
+        S-UI: "нет по продукту"
         S-NFR: "в источнике нет требований к качеству"
-      glossary_terms: [SIP Trunk]
+      glossary_terms: [Переадресация]
       trace_nonempty: true
   - id: GS-VU-NEG-01
     kind: negative

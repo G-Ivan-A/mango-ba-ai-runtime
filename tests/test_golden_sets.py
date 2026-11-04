@@ -97,6 +97,8 @@ class GoldenSetTest(unittest.TestCase):
             with self.subTest(name):
                 kinds = [c["kind"] for c in cases]
                 self.assertGreaterEqual(kinds.count("positive"), 2)
+                profiles = [c["product_profile"] for c in cases if c["kind"] == "positive"]
+                self.assertEqual(len(profiles), len(set(profiles)), "positives differ in profile")
                 covered = {
                     frozenset(re.findall(r"TRM-[A-Z0-9-]+", c["glossary_pair"]))
                     for c in cases if "glossary_pair" in c
