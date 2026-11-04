@@ -3,11 +3,11 @@
 # Манифест — единственное место пакета, где Хаб упоминается как источник.
 # Ни один артефакт времени выполнения на Хаб не ссылается (контракт 2).
 manifest: execution-package-mvp-bcreq
-version: "0.5"
-meta_model_version: "0.4"
-compiled_at: 2026-09-26
+version: "0.6"
+meta_model_version: "0.5"
+compiled_at: 2026-11-04
 hub_ssot: https://github.com/G-Ivan-A/hybrid-Intelligence-lab
-hub_commit: dbf3baa96d3585150974212254af81bcf7b03150
+hub_commit: b3a9e161c9fb459cb9112d3aaa4d003bbfb5c4fa   # main Хаба после PR #720 (норма PT-5 — коммит de68984)
 target_spoke: mango-ba-ai-runtime
 slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-center, процессы P-01, P-02, P-03"
 
@@ -31,6 +31,15 @@ copied:
   - what: смежные термины домена контакт-центра с основанием смешения
     from: словарь домена и материалы кросс-валидации
     to: taxonomy/domain-glossary.yaml
+  - what: смежные термины доменов voice-ucaas и analytics-reporting с основанием смешения (РТ-4)
+    from: база знаний docs/kb (руководство ЛК, API ВАТС, API сервиса интеграций, Mango Talker, интеграции amoCRM, Битрикс24, 1С) и каталог taxonomy/mango-products.yaml
+    to: [taxonomy/domain-glossary-voice-ucaas.yaml, taxonomy/domain-glossary-analytics-reporting.yaml]
+    note: >-
+      форма записи — как у словаря contact-center; значения выписаны из
+      разделов базы знаний без добавления смысла, у каждого термина указаны
+      sources (разделы docs/kb) и catalog (узлы каталога класса). Спица —
+      SSOT значений словаря домена: перенос этих значений в спицу — решение
+      владельца
   - what: уровни источников знания, формы доказательства и правило разрешения конфликта источников
     from: исследование извлечения знания (лестница готовности корпуса, матрица стратегий, приоритет модификаторов)
     to: taxonomy/source-tiers.yaml
@@ -53,14 +62,19 @@ copied:
     to: docs/kb
     note: копия каталога без изменений; уровень ST-5-LOCAL
   - what: каталог продуктов Mango 2026-10-28.1 (все 353 узла Domain → Capability → Feature → Atomic Function)
-    from: https://github.com/G-Ivan-A/mango_ba_prompts/blob/7f920e2e967ad1331e027fef885ea68ecef7070f/docs/taxonomy/products.json
-    source_commit: 7f920e2e967ad1331e027fef885ea68ecef7070f
+    from: https://github.com/G-Ivan-A/mango_ba_prompts/blob/e3597fd74da9c4f631ca46697c643462e2cf0b85/docs/taxonomy/products.json
+    source_commit: e3597fd74da9c4f631ca46697c643462e2cf0b85
     to: taxonomy/mango-products.yaml
     note: >-
       копия значений каталога спицы без отбора и без изменения смысла: id,
       имена, связи и lifecycle сохранены, classes вычислены через предков по
       runtime_compatibility каталога; правило привязки atomic_function к
-      каталогу — задача Хаба, в каталог не входит
+      каталогу (PT-5) скомпилировано отдельно, см. transformed. Хаб не
+      принимает каталог спицы как источник: Source хранит собственный
+      версионированный снимок значений (PT-2), поэтому каталог остаётся
+      копией спицы, а не звеном цепочки Хаба. Источник — коммит спицы
+      после решения Р-17 (status accepted, 74 узла added-for-review →
+      accepted); РТ-6 сменил только lifecycle, catalog_status и происхождение
 
 # 2. Преобразовано: нормативный текст стал структурой, которую исполняет
 #    скрипт, а не читает человек.
@@ -83,6 +97,25 @@ transformed:
     note: >-
       EP-G7 переведено в исполняемый вид: каждая пара confusable_with словаря
       домена обязана иметь отрицательный случай, что проверяется валидатором
+  - what: правило PT-5 (функция продукта на входе — закрытое значение каталога)
+    to: [taxonomy/products.yaml, contracts/c-in.md, AGENTS.md, skills/transcript-normalization-contact-center.md, evaluation/validate-package.md, evaluation/g-mach-checklist.md]
+    form: >-
+      поля catalog и class_domains словаря продуктов; условие c-in.products[]
+      и отказ шага check-schema узла n1; проверки формы каталога в
+      check_taxonomies и класса и функции каждого случая в check_golden для
+      каждого golden/cases*.yaml (недопустимое значение входа —
+      declared_function с catalog_check, а не atomic_function)
+  - what: Golden Set по продуктовым классам с привязкой к каталогу (РТ-3, RFC-RT-001)
+    to: [golden/cases.yaml, golden/cases-voice-ucaas.yaml, golden/cases-analytics-reporting.yaml]
+    form: индекс на класс; у каждого случая product_class и atomic_function — функция каталога taxonomy/mango-products.yaml с классом набора
+    note: >-
+      все случаи synthetic с confirmed_by none и применяются структурно до
+      подтверждения человеком. Недопустимое значение входа отрицательного
+      случая «функция вне каталога / чужого класса» записано в
+      declared_function, проверка — catalog_check. check_golden проверяет все
+      наборы golden/cases*.yaml; наборы классов вне среза (in_slice: false) —
+      данные для промптов спицы и структурной сверки, отказывающий пакет —
+      refusing_pack узла маршрута
   - what: правила следа EP-R4, EP-R8 и лист прогона
     to: [routes/run-sheet-template.yaml, contracts/c-rk.md]
     form: append-only перечень событий и проекция передачи работы

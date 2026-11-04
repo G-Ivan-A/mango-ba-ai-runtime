@@ -32,7 +32,8 @@ for file in AGENTS.md README.md compilation-manifest.yaml \
   docs/guides/README.md docs/guides/00-quick-start.md \
   routes/rg-bcreq-v1.yaml routes/run-sheet-template.yaml \
   evaluation/validate-package.md evaluation/g-mach-checklist.md \
-  evaluation/g-human-checklist.md docs/kb/README.md
+  evaluation/g-human-checklist.md docs/kb/README.md \
+  golden/cases.yaml golden/cases-voice-ucaas.yaml golden/cases-analytics-reporting.yaml
 do
   require_file "$file"
 done
@@ -87,6 +88,22 @@ require_file taxonomy/mango-products.yaml
 require_text taxonomy/mango-products.yaml '^closed: true$' 'product catalog is closed'
 for af in $(grep -hEo 'atomic_function: *"?[a-z0-9/-]+' "$ROOT"/golden/cases*.yaml | sed 's/.*: *"\{0,1\}//'); do
   if grep -Fq "{id: \"$af\", level: function," "$ROOT/taxonomy/mango-products.yaml" 2>/dev/null; then pass "golden atomic_function $af is in catalog"; else fail "golden atomic_function $af is in catalog"; fi
+done
+# Rule PT-5: the product taxonomy points at the catalog; every catalog-refusal case
+# declares an input function that fails c-in for the reason in catalog_check.
+require_text taxonomy/products.yaml '^catalog: taxonomy/mango-products\.yaml' 'product taxonomy declares the closed catalog'
+require_text taxonomy/products.yaml '^class_domains:' 'product taxonomy declares class_domains'
+refusals=$(awk '/^ *declared_function:/ { f = $2 } /^ *catalog_check:/ { print f "=" $2; f = "" }' "$ROOT"/golden/cases*.yaml)
+if [ -n "$refusals" ]; then pass 'golden sets have catalog-refusal cases'; else fail 'golden sets have catalog-refusal cases'; fi
+for pair in $refusals; do
+  df=${pair%%=*}; check=${pair#*=}
+  case "$check" in
+    outside-catalog)
+      if grep -Fq "{id: \"$df\"," "$ROOT/taxonomy/mango-products.yaml" 2>/dev/null; then fail "declared function $df is outside catalog"; else pass "declared function $df is outside catalog"; fi ;;
+    foreign-class|not-function)
+      if [ -n "$df" ] && grep -Fq "{id: \"$df\"," "$ROOT/taxonomy/mango-products.yaml" 2>/dev/null; then pass "declared function $df is a catalog node ($check)"; else fail "declared function $df is a catalog node ($check)"; fi ;;
+    *) fail "catalog_check $check is a known value" ;;
+  esac
 done
 
 if [ "$FAILURES" -ne 0 ]; then

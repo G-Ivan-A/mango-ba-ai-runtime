@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -22,9 +22,19 @@ temperature: 0.1
 > «Добавьте в отчёт по группам среднее время обслуживания за период и подсветку
 > красным, если оно вышло за 120 секунд.»
 
-Реестр продуктов: маркер `А`, класс `analytics-reporting`, atomic function
-`group-report-threshold`, профиль `P-NO-SETTINGS`, владелец — руководитель
-контакт-центра.
+Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
+`report-builder/function/custom-parameter-create`, профиль `P-NO-SETTINGS`,
+владелец — руководитель контакт-центра.
+
+Класс случая — `contact-center` (до версии 1.1 реестр объявлял
+`analytics-reporting`, а индекс `golden/cases.yaml` — `contact-center`).
+Основания: пара `TRM-SLA` ↔ `TRM-AHT` есть только в словаре `contact-center`,
+отказывает навык этого класса, а отчёт по группам операторов — отчёт
+контакт-центра; функция «Создание пользовательского параметра отчёта»
+каталога относится и к `contact-center`. Перенос в набор
+`analytics-reporting` оставил бы пару без отрицательного случая (EP-G7), а
+словарь `analytics-reporting` этой пары не содержит. Прежнее значение
+`group-report-threshold` в каталоге отсутствует.
 
 ## Словарь связанных терминов
 

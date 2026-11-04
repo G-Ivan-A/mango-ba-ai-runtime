@@ -1,0 +1,112 @@
+# Машиночитаемый индекс Golden Set класса analytics-reporting (коллтрекинг,
+# сквозная аналитика, отчёты). Форма — как у golden/cases.yaml
+# (contact-center); поля product_class и atomic_function привязывают случай к
+# функции каталога taxonomy/mango-products.yaml, в classes которой есть класс
+# набора.
+# Поведение маршрута (RFC-RT-001, R-4): класс вне среза (in_slice: false в
+# taxonomy/products.yaml), навыков класса в skills/ нет, маршрут
+# routes/rg-bcreq-v1.yaml объявлен для contact-center. Набор — данные для
+# промптов спицы и структурной сверки; check_golden проверяет набор наравне с
+# golden/cases.yaml (evaluation/validate-package.md, пункты 2–8). У
+# отрицательных случаев отказывающий узел — узел графа (refusing_node) и
+# пакет навыка узла (refusing_pack), а не навык класса: навыка нет.
+golden_set: mvp-bcreq-analytics-reporting
+version: "0.2"
+product_class: analytics-reporting
+catalog_version: "2026-10-28.1"
+structural_only: true   # все эталоны synthetic и до подтверждения человеком
+                        # применяются только структурно
+cases:
+  - id: GS-AR-01
+    kind: positive
+    file: golden/gs-ar-01-monthly-romi.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: analytics-reporting
+    atomic_function: end-to-end-analytics/function/romi-calculation
+    artifact_class: A-BCREQ
+    format_class: F-SHORT
+    projection: V-BIZ
+    product_profile: P-NO-SETTINGS
+    expect:
+      outcome: completed
+      slots_present_all: true
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SCENARIO, S-AC, S-LIMITS, S-OPEN, S-INTEGRATION, S-TRACE]
+      empty_with_reason:
+        S-SETTINGS: "нет по продукту"
+        S-UI: "нет в источнике"
+        S-NFR: "в источнике нет требований к качеству"
+      glossary_terms: [Сквозная аналитика]
+      trace_nonempty: true
+  - id: GS-AR-02
+    kind: positive
+    file: golden/gs-ar-02-calltracking-widget.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: analytics-reporting
+    atomic_function: call-tracking/function/calltracking-widget-create
+    artifact_class: A-BCREQ
+    format_class: F-APPROVAL
+    projection: V-APPROVE
+    product_profile: P-SETTINGS
+    expect:
+      outcome: completed
+      slots_present_all: true
+      filled: [S-GLOSSARY, S-PROBLEM, S-SCOPE, S-SOLUTION, S-FR, S-SETTINGS, S-UI, S-SCENARIO, S-AC, S-NFR, S-LIMITS, S-OPEN, S-INTEGRATION, S-TRACE]
+      empty_with_reason: {}
+      glossary_terms: [Динамический коллтрекинг]
+      trace_nonempty: true
+  - id: GS-AR-NEG-01
+    kind: negative
+    file: golden/gs-ar-neg-01-dynamic-vs-static.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: analytics-reporting
+    atomic_function: call-tracking/function/source-attribution
+    glossary_pair: [TRM-DYNAMIC-CT, TRM-STATIC-CT]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_pack: SK-context-extraction
+      reason: "привязка номера в источнике близка к двум значениям словаря: к посетителю или к ссылке перехода; источник не позволяет выбрать одно"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Динамический коллтрекинг, Статический коллтрекинг]
+        allowed_statuses: [включено, исключено, не применимо]
+  - id: GS-AR-NEG-02
+    kind: negative
+    file: golden/gs-ar-neg-02-calltracking-vs-e2e.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: analytics-reporting
+    atomic_function: multichannel-analytics/function/attribution-modeling
+    glossary_pair: [TRM-CALLTRACKING, TRM-E2E-ANALYTICS]
+    expect:
+      outcome: refused
+      refusing_node: n2
+      refusing_pack: SK-context-extraction
+      reason: "предмет аналитики близок к двум значениям словаря: источник звонка или окупаемость с учётом выручки; источник не позволяет выбрать одно"
+      artifact_produced: false
+      fallback_requirement:
+        slot: S-LIMITS
+        statuses_required_for: [Коллтрекинг, Сквозная аналитика]
+        allowed_statuses: [включено, исключено, не применимо]
+  # Отрицательный случай «функция вне каталога» (RFC-RT-001, РТ-3):
+  # atomic_function — функция класса набора, о которой сценарий; недопустимое
+  # значение входа — declared_function (в каталоге его нет).
+  - id: GS-AR-NEG-03
+    kind: negative
+    file: golden/gs-ar-neg-03-function-outside-catalog.md
+    origin: synthetic
+    confirmed_by: none
+    product_class: analytics-reporting
+    atomic_function: end-to-end-analytics/function/romi-calculation
+    declared_function: romi-dashboard-export
+    catalog_check: outside-catalog
+    expect:
+      outcome: refused
+      refusing_node: n1
+      refusing_pack: SK-transcript-normalization
+      reason: "функция вне каталога: romi-dashboard-export не является id узла taxonomy/mango-products.yaml; значение вне закрытого словаря не изобретается и не подбирается (правило 1 AGENTS.md)"
+      artifact_produced: false

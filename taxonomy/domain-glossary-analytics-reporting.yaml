@@ -1,0 +1,89 @@
+# Версионированный глоссарий предметной области analytics-reporting
+# (коллтрекинг, сквозная аналитика). Форма записи — как у
+# taxonomy/domain-glossary.yaml (contact-center); назначение в исполнении то же:
+#   1. Слот S-GLOSSARY документа класса analytics-reporting заполняется только
+#      терминами этого словаря (термин вне словаря = открытый вопрос).
+#   2. Пары `confusable_with` — источник отрицательных случаев Golden Set
+#      класса (EP-G7).
+# Значения не придуманы: у каждого термина `sources` — разделы копии базы
+# знаний docs/kb, где термин определён или различение видно в тексте;
+# `catalog` — узлы taxonomy/mango-products.yaml, к которым термин относится.
+# Класс вне среза маршрута (in_slice: false в taxonomy/products.yaml):
+# словарь — данные для промптов спицы и структурной сверки эталонов.
+vocabulary: domain-glossary
+closed: false            # каталог значений растёт в споке; форма записи закрыта
+product_class: analytics-reporting
+version: "0.1"
+required_fields: [id, term, definition, confusable_with]
+terms:
+  - id: TRM-DYNAMIC-CT
+    term: Динамический коллтрекинг
+    aliases: [ДКТ, динамический номер, номер динамического коллтрекинга]
+    definition: >-
+      коллтрекинг, в котором номер привязан к сессии конкретного посетителя
+      сайта: по номеру определяется посетитель и его источник (API ВАТС
+      §3.6.1: «По номеру динамического коллтрекинга выдаёт информацию о
+      сессии пользователя, привязанного к номеру»).
+    sources:
+      - docs/kb/vpbx-api/sections/74-zapros-informacii-o-posetitele-sayta-po.md
+      - docs/kb/integration-bitrix24/sections/49-chto-eto-daet.md
+    catalog: [call-tracking/feature/dynamic-number-pool]
+    confusable_with:
+      - term: Статический коллтрекинг
+        why: >-
+          статический номер закреплён за ссылкой перехода, а не за
+          посетителем; подмена меняет точность атрибуции с посетителя на
+          источник и тип номера в событиях API (1 — динамический,
+          2 — статический). Корпус перечисляет оба через «или» («номера
+          динамического или статического коллтрекинга»).
+  - id: TRM-STATIC-CT
+    term: Статический коллтрекинг
+    aliases: [статический номер, виджет «Статический коллтрекинг»]
+    definition: >-
+      виджет, который «показывает посетителям сайта определенный телефонный
+      номер в зависимости от ссылки, с которой посетитель перешел на сайт»,
+      и отчёт по показам (ЛК §4.5.8). По тому же разделу инструмент
+      недоступен для нового подключения; подключённый ранее работает.
+    sources:
+      - docs/kb/mango-lk-manual/sections/147-staticheskiy-kolltreking.md
+      - docs/kb/vpbx-api/sections/27-uvedomlenie-o-vyzove.md
+    catalog: [call-tracking/feature/source-attribution]
+    confusable_with:
+      - term: Динамический коллтрекинг
+        why: см. TRM-DYNAMIC-CT
+  - id: TRM-CALLTRACKING
+    term: Коллтрекинг
+    aliases: [call tracking, номер коллтрекинга]
+    definition: >-
+      учёт входящих звонков по номерам коллтрекинга с привязкой звонка к
+      рекламному источнику посетителя сайта (рекламное объявление, поисковый
+      запрос, город, время на сайте — интеграция Битрикс24 §2.3).
+    sources:
+      - docs/kb/integration-bitrix24/sections/48-obschee.md
+    catalog: [call-tracking/feature/source-attribution, call-tracking/feature/call-analytics]
+    confusable_with:
+      - term: Сквозная аналитика
+        why: >-
+          коллтрекинг отвечает, откуда пришёл звонок; сквозная аналитика
+          связывает обращение с воронкой и выручкой (ROMI). Корпус сам
+          смешивает термины («интеграция с Коллтрекингом MANGO OFFICE
+          (сквозная аналитика)», amoCRM §2.2) и сам же их различает («отчеты
+          коллтрекинга, кроме Сквозной аналитики», 1С). Подмена расширяет
+          требование до учёта выручки или сужает его до источника звонка.
+  - id: TRM-E2E-ANALYTICS
+    term: Сквозная аналитика
+    aliases: [end-to-end analytics]
+    definition: >-
+      связь рекламного источника обращения с воронкой продаж и выручкой для
+      расчёта ROMI (каталог: «Сквозная аналитика и ROMI», функции
+      funnel-tracking, romi-calculation). Определения в базе знаний нет:
+      раздел API ВАТС §3.6 «Сквозная аналитика» содержит только запросы по
+      динамическому номеру — определение собрано по узлам каталога.
+    sources:
+      - docs/kb/vpbx-api/sections/73-skvoznaya-analitika.md
+      - docs/kb/integration-1c/sections/11-obrabotka-zvonkov.md
+      - docs/kb/integration-amocrm/sections/14-dopolnitelnye-nastroyki-integracii-obzor.md
+    catalog: [end-to-end-analytics/feature/revenue-attribution, end-to-end-analytics/feature/romi-calculation, end-to-end-analytics/feature/funnel-analysis]
+    confusable_with:
+      - term: Коллтрекинг
+        why: см. TRM-CALLTRACKING

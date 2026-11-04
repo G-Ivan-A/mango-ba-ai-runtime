@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -24,7 +24,14 @@ temperature: 0.1
 > обратный звонок. Ну и входящие тоже посмотрите, там та же история.»
 
 Реестр продуктов: маркер `А`, класс `contact-center`, atomic function
-`callback-offer`, профиль `P-SETTINGS`, владелец — руководитель контакт-центра.
+`call-routing/function/overflow-routing`, профиль `P-SETTINGS`, владелец —
+руководитель контакт-центра.
+
+Функция взята из каталога `taxonomy/mango-products.yaml` (прежнее значение
+`callback-offer` в каталоге отсутствует). Реестр называет функцию, по которой
+подана заявка, но не разрешает термин источника: «ИО» и «входящие» названы в
+одной реплике, и выбор направления по реестру был бы тем же выбором по
+правдоподобию.
 
 ## Словарь связанных терминов
 

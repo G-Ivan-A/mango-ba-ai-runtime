@@ -5,8 +5,8 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.0
-updated: 2026-09-15
+version: 1.1
+updated: 2026-11-04
 temperature: 0.1
 ---
 
@@ -29,8 +29,13 @@ temperature: 0.1
 > двадцать секунд.»
 
 Реестр продуктов объявлен во входе: маркер `А`, класс `contact-center`, atomic
-function `queue-callback-offer`, профиль `P-SETTINGS`, владелец — руководитель
-контакт-центра.
+function `call-routing/function/overflow-routing`, профиль `P-SETTINGS`,
+владелец — руководитель контакт-центра.
+
+Функция взята из каталога `taxonomy/mango-products.yaml`: правило перелива по
+порогу (`params`: `overflow_target`, `abandon_threshold`), а предложение
+обратного звонка — цель перелива. Прежнее значение `queue-callback-offer` в
+каталоге отсутствует.
 
 ## Ожидаемая структура выхода
 
