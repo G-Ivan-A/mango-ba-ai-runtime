@@ -1,21 +1,32 @@
 # Закрытый словарь продуктов среза. Ось идентичности — предмет, о котором
 # требование. Форма уровней унаследована (Domain → Capability → Feature →
 # Atomic Function); каталог значений принадлежит споку и расширяется в споке.
+# Каталог значений — закрытый словарь taxonomy/mango-products.yaml: значение
+# atomic_function входа — id узла level: function каталога, а продуктовый
+# класс входа входит в classes этого узла (правило PT-5).
 # Правило PT-1: продуктовый класс объявляется ДО начала шага и не выводится
 # из текста артефакта. Шаг, получивший вход без объявленного класса, отказывает.
 vocabulary: products
 closed: true
-version: "1.0"
+version: "1.1"
 levels:
   - {id: Domain, name: Семейство, question: "В какой продуктовой или сервисной зоне находится требование?"}
   - {id: Capability, name: Класс, question: "Какую способность должен иметь продукт или команда?"}
   - {id: Feature, name: Подкласс, question: "Что именно пользователь или администратор включает, настраивает или использует?"}
   - {id: Atomic Function, name: Функция, question: "Какую неделимую функцию, параметр или правило можно протестировать отдельно?"}
 binding_level: Atomic Function   # PT-3: связь только с Domain считается неполной разметкой
+catalog: taxonomy/mango-products.yaml   # PT-5: закрытый каталог значений уровней
 classes:
   - {id: contact-center, name: Контакт-центр, default_profile: P-SETTINGS, in_slice: true}
   - {id: voice-ucaas, name: Телефония и UCaaS, default_profile: P-SETTINGS, in_slice: false}
   - {id: analytics-reporting, name: Аналитика и отчётность, default_profile: P-NO-SETTINGS, in_slice: false}
+# Класс runtime → домен каталога. Узел каталога относится к классу, если
+# среди его предков есть домен класса. Функция доменов без класса runtime
+# несёт classes: [] и во входе не объявляется: класса для неё нет.
+class_domains:
+  contact-center: contact-center
+  voice-ucaas: voice-ucaas
+  analytics-reporting: analytics
 # Профиль управляет заполненностью слотов документа, но не составом скелета
 # (правило PT-4/R-3): слот словаря присутствует всегда, различается значение
 # «заполнен» или «пуст с причиной».
