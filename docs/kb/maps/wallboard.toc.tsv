@@ -1,0 +1,22 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Начало работы	01-nachalo-raboty.md
+1.1	Подключение модуля Программа для ЭВМ "Wallboard Mango Office" в Личном кабинете ВАТС	02-podklyuchenie-modulya-programma-dlya-evm.md
+1.2	Создание аккаунта Wallboard	03-sozdanie-akkaunta-wallboard.md
+2	Страница авторизации	04-stranica-avtorizacii.md
+3	Настройка Wallboard	05-nastroyka-wallboard.md
+3.1	Настройка Wallboard по шаблону	06-nastroyka-wallboard-po-shablonu.md
+3.1.1	Выбор шаблона	07-vybor-shablona.md
+3.1.2	Выбор группы для мониторинга	08-vybor-gruppy-dlya-monitoringa.md
+3.2	Настройка «своего шаблона» показателей Wallboard	09-nastroyka-svoego-shablona-pokazateley-wa.md
+3.2.1	Настройка виджета общего группового показателя	10-nastroyka-vidzheta-obschego-gruppovogo-p.md
+3.2.2	Настройка виджета персонального показателя (рейтинга)	11-nastroyka-vidzheta-personalnogo-pokazate.md
+3.3	Показатели производительности Wallboard	12-pokazateli-proizvoditelnosti-wallboard.md
+3.3.1	Показатели производительности группы «Звонки»	13-pokazateli-proizvoditelnosti-gruppy-zvon.md
+3.3.2	Показатели производительности группы «Сделки»	14-pokazateli-proizvoditelnosti-gruppy-sdel.md
+3.3.3	Показатели производительности группы «Битрикс24»	15-pokazateli-proizvoditelnosti-gruppy-bitr.md
+4	Главное окно модуля	16-glavnoe-okno-modulya.md
+4.1	Персональные показатели (рейтинги)	17-personalnye-pokazateli-reytingi.md
+4.1.1	Рейтинг по сотрудникам	18-reyting-po-sotrudnikam.md
+4.1.2	Рейтинг по группам	19-reyting-po-gruppam.md
+4.2	Общие групповые показатели	20-obschie-gruppovye-pokazateli.md

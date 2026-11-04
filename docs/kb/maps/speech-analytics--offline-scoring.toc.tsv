@@ -1,0 +1,88 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Общие сведения	01-obschie-svedeniya.md
+2	Мои отчеты	02-moi-otchety.md
+2.1	Расходы Речевой аналитики	03-rashody-rechevoy-analitiki.md
+2.2	Анализ сотрудников	04-analiz-sotrudnikov.md
+2.2.1	Блок фильтров	05-blok-filtrov.md
+2.2.2	Блок визуализации срабатывания тематик	06-blok-vizualizacii-srabatyvaniya-tematik.md
+2.2.3	Блок таблицы Разговоры, детализация	07-blok-tablicy-razgovory-detalizaciya.md
+2.3	Анализ разговоров	08-analiz-razgovorov.md
+2.3.1	Как настраивается отчет “Анализ разговоров”	09-kak-nastraivaetsya-otchet-analiz-razgovo.md
+2.4	Показатели отчетов	10-pokazateli-otchetov.md
+2.5	Анализ по чек-листам	11-analiz-po-chek-listam.md
+2.5.1	Конструктор чек-листов	12-konstruktor-chek-listov.md
+2.5.2	Статистика	13-statistika.md
+2.5.3	Правила подсчета статистики	14-pravila-podscheta-statistiki.md
+2.6	Ловец инсайтов	15-lovec-insaytov.md
+2.6.1	Блок параметров	16-blok-parametrov.md
+2.6.2	Блок результатов	17-blok-rezultatov.md
+3	Тегирование разговоров	18-tegirovanie-razgovorov.md
+3.1	Тематики	19-tematiki.md
+3.2	Создание и редактирование тематик	20-sozdanie-i-redaktirovanie-tematik.md
+3.2.1	Ключевые слова	21-klyuchevye-slova.md
+3.2.2	Расширенные настройки	22-rasshirennye-nastroyki.md
+3.2.3	Настройка уведомлений	23-nastroyka-uvedomleniy.md
+3.3	Советы по настройке тематик	24-sovety-po-nastroyke-tematik.md
+3.4	Примеры использования тематики	25-primery-ispolzovaniya-tematiki.md
+3.5	Предустановленные тематики	26-predustanovlennye-tematiki.md
+3.6	Техническая тематика	27-tehnicheskaya-tematika.md
+3.7	Заявки на улучшение качества распознавания	28-zayavki-na-uluchshenie-kachestva-raspozn.md
+3.8	AI Тематики	29-ai-tematiki.md
+4	Подключенные каналы	30-podklyuchennye-kanaly.md
+4.1	Основные настройки	31-osnovnye-nastroyki.md
+4.2	Настройки FTP	32-nastroyki-ftp.md
+4.3	Настройки API	33-nastroyki-api.md
+4.4	Загрузить вручную	34-zagruzit-vruchnuyu.md
+5	Офлайновые записи	35-oflaynovye-zapisi.md
+5.1	Все разговоры	36-vse-razgovory.md
+5.1.1	Метки на плеере при прослушивании записи разговора	37-metki-na-pleere-pri-proslushivanii-zapis.md
+5.2	Избранное	38-izbrannoe.md
+5.3	Настройки (офлайн скоринга)	39-nastroyki-oflayn-skoringa.md
+6	Как работает поиск по распознанным записям разговоров	40-kak-rabotaet-poisk-po-raspoznannym-zapis.md
+6.1	Термины и определения	41-terminy-i-opredeleniya.md
+6.2	Правила обработки поисковых запросов	42-pravila-obrabotki-poiskovyh-zaprosov.md
+6.3	Общие советы для составления поисковых запросов	43-obschie-sovety-dlya-sostavleniya-poiskov.md
+7	Общие настройки	44-obschie-nastroyki.md
+7.1	Настройки	45-nastroyki.md
+7.1.1	Распознавание разговоров	46-raspoznavanie-razgovorov.md
+7.1.2	AI Конспекты	47-ai-konspekty.md
+7.1.3	AI Тегирование	48-ai-tegirovanie.md
+7.1.4	Дополнительные настройки	49-dopolnitelnye-nastroyki.md
+7.2	Сотрудники и группы	50-sotrudniki-i-gruppy.md
+7.2.1	Вкладка «Сотрудники»	51-vkladka-sotrudniki.md
+7.2.2	Вкладка «Группы»	52-vkladka-gruppy.md
+7.3	Безопасность и ограничения	53-bezopasnost-i-ogranicheniya.md
+7.3.1	Вкладка «Настройки»	54-vkladka-nastroyki.md
+7.3.2	Безопасность PRO	55-bezopasnost-pro.md
+7.3.3	Вкладка «Журнал действий»	56-vkladka-zhurnal-deystviy.md
+7.3.4	Вкладка «Настройки доступа»	57-vkladka-nastroyki-dostupa.md
+7.3.5	Вкладка «Ограничения»	58-vkladka-ogranicheniya.md
+7.3.6	SSO (Single Sign-On)	59-sso-single-sign-on.md
+7.4	Облачное хранилище	60-oblachnoe-hranilische.md
+7.5	Подключение по LDAP	61-podklyuchenie-po-ldap.md
+7.5	Шаг 1. Подключение к LDAP-серверу	62-shag-1-podklyuchenie-k-ldap-serveru.md
+7.5	Шаг 2. Сопоставление атрибутов	63-shag-2-sopostavlenie-atributov.md
+7.5	Шаг 3. Сопоставление сотрудников	64-shag-3-sopostavlenie-sotrudnikov.md
+7.5	Шаг 4. Настройка синхронизации	65-shag-4-nastroyka-sinhronizacii.md
+7.6	API коннектор	66-api-konnektor.md
+7.7	Управление услугами	67-upravlenie-uslugami.md
+8	Финансы	68-finansy.md
+8.1	Документы	69-dokumenty.md
+9.1.2	Просмотреть/загрузить бухгалтерские документы	70-prosmotret-zagruzit-buhgalterskie-dokume.md
+9.1.3	Сформировать счет на предоплату телекоммуникационных услуг	71-sformirovat-schet-na-predoplatu-telekomm.md
+9.1.4	Создать акт сверки взаимных расчетов	72-sozdat-akt-sverki-vzaimnyh-raschetov.md
+9.1.5	Получить детализацию совершенных разговоров	73-poluchit-detalizaciyu-sovershennyh-razgo.md
+8.2	Договоры	74-dogovory.md
+8.3	Расходы на продукт	75-rashody-na-produkt.md
+8.4	Платежи	76-platezhi.md
+8.5	Пополнить счет	77-popolnit-schet.md
+9.5.1	Банковский перевод	78-bankovskiy-perevod.md
+9.5.1.1	Для юридических лиц	79-dlya-yuridicheskih-lic.md
+8.5.1.1	Для физических лиц	80-dlya-fizicheskih-lic.md
+9.5.2	Банковские карты	81-bankovskie-karty.md
+9.5.3	Оплата через QR-код	82-oplata-cherez-qr-kod.md
+8.6	Автоплатеж	83-avtoplatezh.md
+8.7	Реквизиты	84-rekvizity.md
+8.8	Настройка уведомлений	85-nastroyka-uvedomleniy.md
+9	Роли и права доступа	86-roli-i-prava-dostupa.md

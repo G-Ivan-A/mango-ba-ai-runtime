@@ -3,10 +3,10 @@
   "taxonomy_ref": "taxonomy/products.yaml#classes",
   "generated_by": "docs/kb/build_map.py",
   "navigation": {
-    "select_document": "Match question terms and known product class against title, aliases and product_ids; open only the selected sections_map.",
-    "select_section": "Match the question against section title and hint; open the exact path of the best matching section, then adjacent rows only if context is needed.",
+    "select_document": "Match question terms and known product class against title, aliases and product_ids; open only the selected sections_toc.",
+    "select_section": "Open sections_toc first: one read gives the whole section list as tab-separated section, title and file, without quoting. Choose sections by title and open each file at sections/<file> next to the document index, then adjacent rows only if context is needed. Open a row of sections_map only when its hint, pages or tokens are needed.",
     "retrieval_if_insufficient": [
-      "Search other sections in the same document map.",
+      "Search other rows of the same sections_toc.",
       "Search other documents in the same group_id.",
       "Search documents with overlapping product_ids, then all document titles and aliases.",
       "If local KB still lacks evidence, follow taxonomy/source-tiers.yaml and record the missing source or question."
@@ -29,6 +29,7 @@
       ],
       "index": "docs/kb/api-server-client/index.md",
       "sections_map": "docs/kb/maps/api-server-client.json",
+      "sections_toc": "docs/kb/maps/api-server-client.toc.tsv",
       "section_count": 57
     },
     {
@@ -47,6 +48,7 @@
       ],
       "index": "docs/kb/cov-robot-fil/index.md",
       "sections_map": "docs/kb/maps/cov-robot-fil.json",
+      "sections_toc": "docs/kb/maps/cov-robot-fil.toc.tsv",
       "section_count": 75
     },
     {
@@ -64,6 +66,7 @@
       ],
       "index": "docs/kb/integration-1c/index.md",
       "sections_map": "docs/kb/maps/integration-1c.json",
+      "sections_toc": "docs/kb/maps/integration-1c.toc.tsv",
       "section_count": 33
     },
     {
@@ -80,6 +83,7 @@
       ],
       "index": "docs/kb/integration-amocrm/index.md",
       "sections_map": "docs/kb/maps/integration-amocrm.json",
+      "sections_toc": "docs/kb/maps/integration-amocrm.toc.tsv",
       "section_count": 86
     },
     {
@@ -97,6 +101,7 @@
       ],
       "index": "docs/kb/integration-bitrix24/index.md",
       "sections_map": "docs/kb/maps/integration-bitrix24.json",
+      "sections_toc": "docs/kb/maps/integration-bitrix24.toc.tsv",
       "section_count": 192
     },
     {
@@ -113,6 +118,7 @@
       ],
       "index": "docs/kb/integration-bpmsoft/index.md",
       "sections_map": "docs/kb/maps/integration-bpmsoft.json",
+      "sections_toc": "docs/kb/maps/integration-bpmsoft.toc.tsv",
       "section_count": 127
     },
     {
@@ -131,6 +137,7 @@
       ],
       "index": "docs/kb/integration-ident/index.md",
       "sections_map": "docs/kb/maps/integration-ident.json",
+      "sections_toc": "docs/kb/maps/integration-ident.toc.tsv",
       "section_count": 9
     },
     {
@@ -149,6 +156,7 @@
       ],
       "index": "docs/kb/lk-vats-sso/index.md",
       "sections_map": "docs/kb/maps/lk-vats-sso.json",
+      "sections_toc": "docs/kb/maps/lk-vats-sso.toc.tsv",
       "section_count": 10
     },
     {
@@ -167,6 +175,7 @@
       ],
       "index": "docs/kb/mango-cc-manual/index.md",
       "sections_map": "docs/kb/maps/mango-cc-manual.json",
+      "sections_toc": "docs/kb/maps/mango-cc-manual.toc.tsv",
       "section_count": 103
     },
     {
@@ -184,6 +193,7 @@
       ],
       "index": "docs/kb/mango-lk-manual/index.md",
       "sections_map": "docs/kb/maps/mango-lk-manual.json",
+      "sections_toc": "docs/kb/maps/mango-lk-manual.toc.tsv",
       "section_count": 352
     },
     {
@@ -201,6 +211,7 @@
       ],
       "index": "docs/kb/mdialogi-api/index.md",
       "sections_map": "docs/kb/maps/mdialogi-api.json",
+      "sections_toc": "docs/kb/maps/mdialogi-api.toc.tsv",
       "section_count": 70
     },
     {
@@ -218,6 +229,7 @@
       ],
       "index": "docs/kb/mtalker/android-user-guide/index.md",
       "sections_map": "docs/kb/maps/mtalker--android-user-guide.json",
+      "sections_toc": "docs/kb/maps/mtalker--android-user-guide.toc.tsv",
       "section_count": 99
     },
     {
@@ -235,6 +247,7 @@
       ],
       "index": "docs/kb/mtalker/quick-start/index.md",
       "sections_map": "docs/kb/maps/mtalker--quick-start.json",
+      "sections_toc": "docs/kb/maps/mtalker--quick-start.toc.tsv",
       "section_count": 7
     },
     {
@@ -252,6 +265,7 @@
       ],
       "index": "docs/kb/mtalker/windows-mac-admin/index.md",
       "sections_map": "docs/kb/maps/mtalker--windows-mac-admin.json",
+      "sections_toc": "docs/kb/maps/mtalker--windows-mac-admin.toc.tsv",
       "section_count": 15
     },
     {
@@ -269,6 +283,7 @@
       ],
       "index": "docs/kb/mtalker/windows-mac-settings/index.md",
       "sections_map": "docs/kb/maps/mtalker--windows-mac-settings.json",
+      "sections_toc": "docs/kb/maps/mtalker--windows-mac-settings.toc.tsv",
       "section_count": 55
     },
     {
@@ -286,6 +301,7 @@
       ],
       "index": "docs/kb/mtalker/windows-mac-working/index.md",
       "sections_map": "docs/kb/maps/mtalker--windows-mac-working.json",
+      "sections_toc": "docs/kb/maps/mtalker--windows-mac-working.toc.tsv",
       "section_count": 143
     },
     {
@@ -304,6 +320,7 @@
       ],
       "index": "docs/kb/quality-management/index.md",
       "sections_map": "docs/kb/maps/quality-management.json",
+      "sections_toc": "docs/kb/maps/quality-management.toc.tsv",
       "section_count": 52
     },
     {
@@ -321,6 +338,7 @@
       ],
       "index": "docs/kb/rolevaya-model-vats/index.md",
       "sections_map": "docs/kb/maps/rolevaya-model-vats.json",
+      "sections_toc": "docs/kb/maps/rolevaya-model-vats.toc.tsv",
       "section_count": 65
     },
     {
@@ -338,6 +356,7 @@
       ],
       "index": "docs/kb/sip-trunk/index.md",
       "sections_map": "docs/kb/maps/sip-trunk.json",
+      "sections_toc": "docs/kb/maps/sip-trunk.toc.tsv",
       "section_count": 39
     },
     {
@@ -355,6 +374,7 @@
       ],
       "index": "docs/kb/speech-analytics/kats/index.md",
       "sections_map": "docs/kb/maps/speech-analytics--kats.json",
+      "sections_toc": "docs/kb/maps/speech-analytics--kats.toc.tsv",
       "section_count": 92
     },
     {
@@ -372,6 +392,7 @@
       ],
       "index": "docs/kb/speech-analytics/offline-scoring/index.md",
       "sections_map": "docs/kb/maps/speech-analytics--offline-scoring.json",
+      "sections_toc": "docs/kb/maps/speech-analytics--offline-scoring.toc.tsv",
       "section_count": 87
     },
     {
@@ -389,6 +410,7 @@
       ],
       "index": "docs/kb/speech-analytics/user-guide/index.md",
       "sections_map": "docs/kb/maps/speech-analytics--user-guide.json",
+      "sections_toc": "docs/kb/maps/speech-analytics--user-guide.toc.tsv",
       "section_count": 67
     },
     {
@@ -406,6 +428,7 @@
       ],
       "index": "docs/kb/speech-analytics/vats-offline-scoring/index.md",
       "sections_map": "docs/kb/maps/speech-analytics--vats-offline-scoring.json",
+      "sections_toc": "docs/kb/maps/speech-analytics--vats-offline-scoring.toc.tsv",
       "section_count": 88
     },
     {
@@ -425,6 +448,7 @@
       ],
       "index": "docs/kb/vpbx-api/index.md",
       "sections_map": "docs/kb/maps/vpbx-api.json",
+      "sections_toc": "docs/kb/maps/vpbx-api.toc.tsv",
       "section_count": 255
     },
     {
@@ -444,6 +468,7 @@
       ],
       "index": "docs/kb/wallboard/index.md",
       "sections_map": "docs/kb/maps/wallboard.json",
+      "sections_toc": "docs/kb/maps/wallboard.toc.tsv",
       "section_count": 21
     }
   ]

@@ -1,0 +1,58 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Аннотация	01-annotaciya.md
+1	Принципы интеграции и обработка ошибок	02-principy-integracii-i-obrabotka-oshibok.md
+1.1	Назначение	03-naznachenie.md
+1.2	Требования совместимости и список поддерживаемых протоколов	04-trebovaniya-sovmestimosti-i-spisok-podde.md
+1.3	Доступ к функциям	05-dostup-k-funkciyam.md
+1.4	Обработка ошибок	06-obrabotka-oshibok.md
+2	Описание примеров использования Сервиса	07-opisanie-primerov-ispolzovaniya-servisa.md
+2.1	Последовательность подключения Сервиса	08-posledovatelnost-podklyucheniya-servisa.md
+2.2	Корректное завершение работы приложения пользователя	09-korrektnoe-zavershenie-raboty-prilozheni.md
+2.3	Порядок получения пропущенных событий	10-poryadok-polucheniya-propuschennyh-sobyt.md
+2.4	Порядок инициирования звонка callback	11-poryadok-iniciirovaniya-zvonka-callback.md
+2.5	Порядок проигрывания записи	12-poryadok-proigryvaniya-zapisi.md
+2.6	Порядок перевода на ответственного сотрудника	13-poryadok-perevoda-na-otvetstvennogo-sotr.md
+2.7	Звонки на группу	14-zvonki-na-gruppu.md
+3	REST API	15-rest-api.md
+3.1	Описание запросов	16-opisanie-zaprosov.md
+3.1.1	Создание интеграции	17-sozdanie-integracii.md
+3.1.2	Обновление интеграции	18-obnovlenie-integracii.md
+3.1.3	Удалить интеграцию	19-udalit-integraciyu.md
+3.1.4	Установить настройки	20-ustanovit-nastroyki.md
+3.1.5	Получить настройки	21-poluchit-nastroyki.md
+3.1.6	Создать пользователя (в интеграции)	22-sozdat-polzovatelya-v-integracii.md
+3.1.7	Обновить пользователя (в интеграции)	23-obnovit-polzovatelya-v-integracii.md
+3.1.8	Удалить пользователя (в интеграции)	24-udalit-polzovatelya-v-integracii.md
+3.1.9	Получить статус пользователей (в интеграции)	25-poluchit-status-polzovateley-v-integraci.md
+3.1.10	Получить список пользователей (в интеграции)	26-poluchit-spisok-polzovateley-v-integraci.md
+3.1.11	Получить список пользователей (ВАТС)	27-poluchit-spisok-polzovateley-vats.md
+3.1.12	Получить вебсокет	28-poluchit-vebsoket.md
+3.1.13	Начать сессию вебсокета	29-nachat-sessiyu-vebsoketa.md
+3.1.14	Завершить сессию вебсокета	30-zavershit-sessiyu-vebsoketa.md
+3.1.15	Проверка статуса сервера	31-proverka-statusa-servera.md
+3.1.16	Инициировать звонок	32-iniciirovat-zvonok.md
+3.1.17	Завершение звонка	33-zavershenie-zvonka.md
+3.1.18	Отправить SMS	34-otpravit-sms.md
+3.1.19	Получение записи	35-poluchenie-zapisi.md
+3.1.20	Перевести на сотрудника	36-perevesti-na-sotrudnika.md
+3.1.21	Получить пропущенные события	37-poluchit-propuschennye-sobytiya.md
+3.1.22	Запрос статистики вызовов	38-zapros-statistiki-vyzovov.md
+3.1.23	Перевод (transfer) звонка	39-perevod-transfer-zvonka.md
+3.1.24	КЦ. Получение информации о задании	40-kc-poluchenie-informacii-o-zadanii.md
+3.2	События	41-sobytiya.md
+3.2.1	События телефонии	42-sobytiya-telefonii.md
+3.2.2	События записи	43-sobytiya-zapisi.md
+3.2.3	Изменение статуса пользователя	44-izmenenie-statusa-polzovatelya.md
+3.2.4	Информация ДКТ	45-informaciya-dkt.md
+3.2.5	Результат команды route/async/	46-rezultat-komandy-route-async.md
+3.2.6	Результат команды v1/callstat/request	47-rezultat-komandy-v1-callstat-request.md
+3.2.7	Вебсокет закрыт со стороны сервера API	48-vebsoket-zakryt-so-storony-servera-api.md
+4	Справочники	49-spravochniki.md
+4.1	Коды ответа JSON Result[code]	50-kody-otveta-json-result-code.md
+4.2	Система Registration[system]	51-sistema-registration-system.md
+4.3	Состояние звонка	52-sostoyanie-zvonka.md
+4.4	Тип звонка	53-tip-zvonka.md
+4.5	Статус записи	54-status-zapisi.md
+5	Список кодов результатов	55-spisok-kodov-rezultatov.md
+5	Список изменений в документе	56-spisok-izmeneniy-v-dokumente.md

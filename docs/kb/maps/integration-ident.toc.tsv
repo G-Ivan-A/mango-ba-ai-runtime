@@ -1,0 +1,10 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Обзор	01-obzor.md
+2	Как настроить интеграцию	02-kak-nastroit-integraciyu.md
+2	Порядок действий	03-poryadok-deystviy.md
+—	Шаг 1. Подключение Виртуальной АТС MANGO OFFICE	04-shag-1-podklyuchenie-virtualnoy-ats-mang.md
+—	Шаг 2. Установка софтфона Mango Talker	05-shag-2-ustanovka-softfona-mango-talker.md
+—	Шаг 3. Подключение виджета в Личном кабинете Виртуальной АТС	06-shag-3-podklyuchenie-vidzheta-v-lichnom.md
+—	Шаг 4. Как обратиться в службу поддержки IDENT	07-shag-4-kak-obratitsya-v-sluzhbu-podderzh.md
+3	Как отключить виджет интеграции	08-kak-otklyuchit-vidzhet-integracii.md

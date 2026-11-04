@@ -1,0 +1,93 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Общие сведения	01-obschie-svedeniya.md
+1.1	Подключение услуги «Речевая аналитика»	02-podklyuchenie-uslugi-rechevaya-analitika.md
+1.2	Меню «Речевая аналитика»	03-menyu-rechevaya-analitika.md
+2	Мои отчеты	04-moi-otchety.md
+2.1	Расходы Речевой аналитики	05-rashody-rechevoy-analitiki.md
+2.2	Анализ сотрудников	06-analiz-sotrudnikov.md
+2.2.1	Блок фильтров	07-blok-filtrov.md
+2.2.2	Блок визуализации срабатывания тематик	08-blok-vizualizacii-srabatyvaniya-tematik.md
+2.2.3	Блок таблицы Разговоры, детализация	09-blok-tablicy-razgovory-detalizaciya.md
+2.3	Анализ разговоров	10-analiz-razgovorov.md
+2.3.1	Как настраивается отчет “Анализ разговоров”	11-kak-nastraivaetsya-otchet-analiz-razgovo.md
+2.4	Анализ по чек-листам	12-analiz-po-chek-listam.md
+2.4.1	Конструктор чек-листов	13-konstruktor-chek-listov.md
+2.4.2	Статистика	14-statistika.md
+2.4.3	Правила подсчета статистики	15-pravila-podscheta-statistiki.md
+2.5	Ловец инсайтов	16-lovec-insaytov.md
+2.5.1	Блок параметров	17-blok-parametrov.md
+2.5.2	Блок результатов	18-blok-rezultatov.md
+2.6	Показатели отчетов	19-pokazateli-otchetov.md
+3	Тегирование разговоров	20-tegirovanie-razgovorov.md
+3.1	Тематики	21-tematiki.md
+3.2	Создание и редактирование тематик	22-sozdanie-i-redaktirovanie-tematik.md
+3.2.1	Ключевые слова	23-klyuchevye-slova.md
+3.2.2	Расширенные настройки	24-rasshirennye-nastroyki.md
+3.2.3	Настройка уведомлений	25-nastroyka-uvedomleniy.md
+3.3	Советы по настройке тематик	26-sovety-po-nastroyke-tematik.md
+3.4	Примеры использования тематики	27-primery-ispolzovaniya-tematiki.md
+3.5	Предустановленные тематики	28-predustanovlennye-tematiki.md
+3.6	Заявки на улучшение качества распознавания	29-zayavki-na-uluchshenie-kachestva-raspozn.md
+3.7	ИИ Тематики	30-ii-tematiki.md
+4	Запись разговоров	31-zapis-razgovorov.md
+4.1	Записанные разговоры	32-zapisannye-razgovory.md
+4.2	Избранное	33-izbrannoe.md
+4.3	Режимы записи	34-rezhimy-zapisi.md
+4.4	Настройки	35-nastroyki.md
+4.5	Экспорт	36-eksport.md
+5	Как работает поиск по распознанным записям разговоров	37-kak-rabotaet-poisk-po-raspoznannym-zapis.md
+5.1	Термины и определения	38-terminy-i-opredeleniya.md
+5.2	Правила обработки поисковых запросов	39-pravila-obrabotki-poiskovyh-zaprosov.md
+5.3	Общие советы для составления поисковых запросов	40-obschie-sovety-dlya-sostavleniya-poiskov.md
+6	Финансы	41-finansy.md
+6.1	Документы	42-dokumenty.md
+6.1.1	Просмотреть/загрузить бухгалтерские документы	43-prosmotret-zagruzit-buhgalterskie-dokume.md
+6.1.2	Сформировать счет на предоплату телекоммуникационных услуг	44-sformirovat-schet-na-predoplatu-telekomm.md
+6.1.3	Создать акт сверки взаимных расчетов	45-sozdat-akt-sverki-vzaimnyh-raschetov.md
+6.1.4	Получить детализацию совершенных разговоров	46-poluchit-detalizaciyu-sovershennyh-razgo.md
+6.2	Договоры	47-dogovory.md
+6.3	Расходы на продукт	48-rashody-na-produkt.md
+6.4	Платежи	49-platezhi.md
+6.5	Пополнить счет	50-popolnit-schet.md
+6.5.1	Банковский перевод	51-bankovskiy-perevod.md
+6.5.1.1	Для юридических лиц	52-dlya-yuridicheskih-lic.md
+6.5.1.2	Для физических лиц	53-dlya-fizicheskih-lic.md
+6.5.2	Банковские карты	54-bankovskie-karty.md
+6.5.3	Оплата через QR-код	55-oplata-cherez-qr-kod.md
+6.6	Автоплатеж	56-avtoplatezh.md
+6.7	Реквизиты	57-rekvizity.md
+6.8	Уведомления	58-uvedomleniya.md
+7	Общие настройки	59-obschie-nastroyki.md
+7.1	Речевая аналитика	60-rechevaya-analitika.md
+7.1.1	Распознавание разговоров	61-raspoznavanie-razgovorov.md
+7.1.2	ИИ Конспекты	62-ii-konspekty.md
+7.1.3	ИИ Тегирование	63-ii-tegirovanie.md
+7.1.4	ИИ Помощники	64-ii-pomoschniki.md
+7.1.4.1	Что это такое и зачем нужно	65-chto-eto-takoe-i-zachem-nuzhno.md
+7.1.4.2	Как создать ИИ Помощника	66-kak-sozdat-ii-pomoschnika.md
+7.1.4.3	Настройка ИИ Помощника	67-nastroyka-ii-pomoschnika.md
+7.1.4.4	Где смотреть результаты	68-gde-smotret-rezultaty.md
+7.1.5	Дополнительные настройки	69-dopolnitelnye-nastroyki.md
+7.2	Сотрудники и группы	70-sotrudniki-i-gruppy.md
+7.2.1	Вкладка «Сотрудники»	71-vkladka-sotrudniki.md
+7.2.2	Вкладка «Группы»	72-vkladka-gruppy.md
+7.3	Безопасность и ограничения	73-bezopasnost-i-ogranicheniya.md
+7.3.1	Вкладка «Настройки»	74-vkladka-nastroyki.md
+7.3.2	Безопасность PRO	75-bezopasnost-pro.md
+7.3.3	Вкладка «Журнал действий»	76-vkladka-zhurnal-deystviy.md
+7.3.4	Вкладка «Настройки доступа»	77-vkladka-nastroyki-dostupa.md
+7.3.5	Вкладка «Ограничения»	78-vkladka-ogranicheniya.md
+7.3.6	SSO (Single Sign-On)	79-sso-single-sign-on.md
+7.4	Облачное хранилище	80-oblachnoe-hranilische.md
+7.5	Подключение по LDAP	81-podklyuchenie-po-ldap.md
+7.5	Шаг 1. Подключение к LDAP-серверу	82-shag-1-podklyuchenie-k-ldap-serveru.md
+7.5	Шаг 2. Сопоставление атрибутов	83-shag-2-sopostavlenie-atributov.md
+7.5	Шаг 3. Сопоставление сотрудников	84-shag-3-sopostavlenie-sotrudnikov.md
+7.5	Шаг 4. Настройка синхронизации	85-shag-4-nastroyka-sinhronizacii.md
+7.6	Настройка SIP	86-nastroyka-sip.md
+7.6.1	Вкладка Настройка	87-vkladka-nastroyka.md
+7.6.2	Вкладка Маршрутизация	88-vkladka-marshrutizaciya.md
+7.6.3	Активация SIP Trunk в карточке сотрудника	89-aktivaciya-sip-trunk-v-kartochke-sotrudn.md
+7.7	Управление услугами	90-upravlenie-uslugami.md
+8	Роли и права доступа	91-roli-i-prava-dostupa.md

@@ -1,0 +1,193 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Начало работы с интеграцией	01-nachalo-raboty-s-integraciey.md
+1.1	Как настроить интеграцию	02-kak-nastroit-integraciyu.md
+1.1	Подготовка	03-podgotovka.md
+1.1	Порядок действий	04-poryadok-deystviy.md
+1.1	Шаг 1. Подключите Виртуальную АТС MANGO OFFICE	05-shag-1-podklyuchite-virtualnuyu-ats-mang.md
+1.1	Шаг 2. Установка софтфона Mango Talker	06-shag-2-ustanovka-softfona-mango-talker.md
+1.1	Шаг 3. Настройка Виртуальной АТС. Выбор пакета интеграции	07-shag-3-nastroyka-virtualnoy-ats-vybor-pa.md
+1.1	Шаг 4. Установка приложения интеграции в Битрикс24	08-shag-4-ustanovka-prilozheniya-integracii.md
+1.1	Шаг 5. Сопоставление сотрудников Виртуальной АТС и Битрикс24	09-shag-5-sopostavlenie-sotrudnikov-virtual.md
+1.1	Общее	10-obschee.md
+1.1	Как настроить сопоставление сотрудников	11-kak-nastroit-sopostavlenie-sotrudnikov.md
+1.1	Как сохранять все звонки в Битрикс24. Обобщенно	12-kak-sohranyat-vse-zvonki-v-bitriks24-obo.md
+1.1	Как включить передачу данных по “не звонковым” обращениям	13-kak-vklyuchit-peredachu-dannyh-po-ne-zvo.md
+1.1	Как посмотреть списки сотрудников ВАТС и сотрудников Битрикс24	14-kak-posmotret-spiski-sotrudnikov-vats-i.md
+1.1	Шаг 6. Проверка настройки телефонии	15-shag-6-proverka-nastroyki-telefonii.md
+1.1	Установка дополнительных настроек интеграции при подключении расширенного пакета	16-ustanovka-dopolnitelnyh-nastroek-integra.md
+1.2	Разные возможности базового и расширенного пакетов	17-raznye-vozmozhnosti-bazovogo-i-rasshiren.md
+1.2	Базовый пакет	18-bazovyy-paket.md
+1.2	Расширенный пакет	19-rasshirennyy-paket.md
+1.3	Как проверить, что данные о звонках передаются в Битрикс24	20-kak-proverit-chto-dannye-o-zvonkah-pered.md
+1.4	Как отображаются данные о звонке в Битрикс24. Обобщенно	21-kak-otobrazhayutsya-dannye-o-zvonke-v-bi.md
+1.5	Как позвонить или принять звонок	22-kak-pozvonit-ili-prinyat-zvonok.md
+2	Настройки приложения интеграции с Битрикс24	23-nastroyki-prilozheniya-integracii-s-bitr.md
+2.1	Как открыть форму настройки приложения	24-kak-otkryt-formu-nastroyki-prilozheniya.md
+2.2	Настройка “Сохранять все звонки” или как сохраняются звонки сотрудников, не указанных в таблице сопоставления	25-nastroyka-sohranyat-vse-zvonki-ili-kak-s.md
+2.2	Общее	26-obschee.md
+2.2	Подробно об особенностях работы	27-podrobno-ob-osobennostyah-raboty.md
+2.2	Как включить настройку	28-kak-vklyuchit-nastroyku.md
+2.3	Обработка входящих звонков	29-obrabotka-vhodyaschih-zvonkov.md
+2.3	Автоматически создавать лид и дело при входящих звонках	30-avtomaticheski-sozdavat-lid-i-delo-pri-v.md
+2.3	Указывать источник при входящих звонках	31-ukazyvat-istochnik-pri-vhodyaschih-zvonk.md
+2.3	На что влияет эта настройка	32-na-chto-vliyaet-eta-nastroyka.md
+2.3	Требования	33-trebovaniya.md
+2.3	Как настроить справочник источников	34-kak-nastroit-spravochnik-istochnikov.md
+2.3	Как включить настройку	35-kak-vklyuchit-nastroyku.md
+2.3	Обновлять ответственного при переводах входящих вызовов	36-obnovlyat-otvetstvennogo-pri-perevodah-v.md
+2.3	На что влияет эта настройка	37-na-chto-vliyaet-eta-nastroyka.md
+2.3	Как включить настройку	38-kak-vklyuchit-nastroyku.md
+2.3	Указать ответственного при пропущенных звонках в группу	39-ukazat-otvetstvennogo-pri-propuschennyh.md
+2.3	Требования	40-trebovaniya.md
+2.3	На что влияет эта настройка	41-na-chto-vliyaet-eta-nastroyka.md
+2.3	Вот как включить настройку	42-vot-kak-vklyuchit-nastroyku.md
+2.3	Указать ответственного при пропущенных звонках в IVR	43-ukazat-otvetstvennogo-pri-propuschennyh.md
+2.3	Требования	44-trebovaniya.md
+2.3	На что влияет эта настройка	45-na-chto-vliyaet-eta-nastroyka.md
+2.3	Как включить настройку	46-kak-vklyuchit-nastroyku.md
+2.3	Интеграция с Динамическим коллтрекингом	47-integraciya-s-dinamicheskim-kolltrekingo.md
+2.3	Общее	48-obschee.md
+2.3	Что это дает?	49-chto-eto-daet.md
+2.3	Во время звонка	50-vo-vremya-zvonka.md
+2.3	В отчетах и списках Битрикс24	51-v-otchetah-i-spiskah-bitriks24.md
+2.3	Как включить настройку	52-kak-vklyuchit-nastroyku.md
+2.3	Как загрузить в Битрикс24 данные коллтрекинга о других типах обращений, кроме звонков	53-kak-zagruzit-v-bitriks24-dannye-kolltrek.md
+2.3	Добавлять сообщение о звонке сотруднику Битрикс24 в чат	54-dobavlyat-soobschenie-o-zvonke-sotrudnik.md
+2.3	Умные алгоритмы распределения входящих вызовов	55-umnye-algoritmy-raspredeleniya-vhodyasch.md
+2.3	Обзор	56-obzor.md
+2.3	Предварительные действия. Включение звукового приветствия	57-predvaritelnye-deystviya-vklyuchenie-zvu.md
+2.3	Как настроить распределение звонков в приложении интеграции	58-kak-nastroit-raspredelenie-zvonkov-v-pri.md
+2.3	Что будет, если в схеме распределения не включен параметр "ожидать окончания" или отсутствует звуковое приветствие	59-chto-budet-esli-v-sheme-raspredeleniya-n.md
+2.3	Значение "Переадресовывать на ответственного и переадресовывать далее на номер, если нет ответа"	60-znachenie-pereadresovyvat-na-otvetstvenn.md
+2.3	Примеры настройки правил умного алгоритма распределения	61-primery-nastroyki-pravil-umnogo-algoritm.md
+2.3	Настройка расписания работы умных правил	62-nastroyka-raspisaniya-raboty-umnyh-pravi.md
+2.3	Фильтровать входящие звонки по линиям	63-filtrovat-vhodyaschie-zvonki-po-liniyam.md
+2.4	Совершение исходящих звонков	64-sovershenie-ishodyaschih-zvonkov.md
+2.4	Автоматический прием при исходящем звонке	65-avtomaticheskiy-priem-pri-ishodyaschem-z.md
+2.4	Перезванивать с номера, на который звонил Клиент	66-perezvanivat-s-nomera-na-kotoryy-zvonil.md
+2.4	Обзор	67-obzor.md
+2.4	Как включить настройку	68-kak-vklyuchit-nastroyku.md
+2.5	Отправка SMS	69-otpravka-sms.md
+2.5	SMS-визитка	70-sms-vizitka.md
+2.5	Обзор	71-obzor.md
+2.5	Как включить и настроить	72-kak-vklyuchit-i-nastroit.md
+2.5	Отправка SMS вручную из карточки лида/контакта/сделки	73-otpravka-sms-vruchnuyu-iz-kartochki-lida.md
+2.5	Обзор	74-obzor.md
+2.5	Как включить возможность отправки sms	75-kak-vklyuchit-vozmozhnost-otpravki-sms.md
+2.6	SMS-рассылка	76-sms-rassylka.md
+2.6	Обзор	77-obzor.md
+2.6	Требования	78-trebovaniya.md
+2.6	Как включить настройку	79-kak-vklyuchit-nastroyku.md
+2.6	Как отправить sms-рассылку	80-kak-otpravit-sms-rassylku.md
+2.7	SMS уведомления из роботов продаж/процессов	81-sms-uvedomleniya-iz-robotov-prodazh-proc.md
+2.7	Обзор	82-obzor.md
+2.7	Как включить настройку	83-kak-vklyuchit-nastroyku.md
+2.7	Как настроить уведомление в роботах и бизнес-процессах	84-kak-nastroit-uvedomlenie-v-robotah-i-biz.md
+2.8	Отображать сделки в карточке звонка	85-otobrazhat-sdelki-v-kartochke-zvonka.md
+2.9	Поддерживать обратные звонки от Битрикс24	86-podderzhivat-obratnye-zvonki-ot-bitriks2.md
+2.9	Как это работает	87-kak-eto-rabotaet.md
+2.9	Ограничения	88-ogranicheniya.md
+2.9	Как включить или выключить поддержку обратных звонков	89-kak-vklyuchit-ili-vyklyuchit-podderzhku.md
+2.10	Интеграция с речевой аналитикой	90-integraciya-s-rechevoy-analitikoy.md
+2.10	Перед началом работы	91-pered-nachalom-raboty.md
+2.10	Сохранение тематик разговоров	92-sohranenie-tematik-razgovorov.md
+2.10	Общие сведения	93-obschie-svedeniya.md
+2.10	Как это работает	94-kak-eto-rabotaet.md
+2.10	Как включить сохранение тематик	95-kak-vklyuchit-sohranenie-tematik.md
+2.10	Как посмотреть тематику разговора	96-kak-posmotret-tematiku-razgovora.md
+2.10	Сохранение текстов Речевой аналитики	97-sohranenie-tekstov-rechevoy-analitiki.md
+2.10	Общие сведения	98-obschie-svedeniya.md
+2.10	Как настроить	99-kak-nastroit.md
+2.10	Как посмотреть распознанный текст	100-kak-posmotret-raspoznannyy-tekst.md
+2.10	Передача данных в Речевую аналитику	101-peredacha-dannyh-v-rechevuyu-analitiku.md
+2.11	Обработка входящих вебхуков	102-obrabotka-vhodyaschih-vebhukov.md
+2.11	Типы вебхуков	103-tipy-vebhukov.md
+2.11	Автоперезвон через вебхук	104-avtoperezvon-cherez-vebhuk.md
+2.11	Обзор	105-obzor.md
+2.11	Как включить автоперезвон через вебхук	106-kak-vklyuchit-avtoperezvon-cherez-vebhuk.md
+2.11	Перемещение сделок в Битрикс24 через вебхук	107-peremeschenie-sdelok-v-bitriks24-cherez.md
+2.11	Общее	108-obschee.md
+2.11	Настройка вебхука в приложении интеграции Битрикс24	109-nastroyka-vebhuka-v-prilozhenii-integrac.md
+2.11	Добавление во внешнюю систему URL-адреса вебхука перемещения сделок. Общие требования.	110-dobavlenie-vo-vneshnyuyu-sistemu-url-adr.md
+2.11	Описание параметров вебхука	111-opisanie-parametrov-vebhuka.md
+2.11	DealID	112-dealid.md
+2.11	Result	113-result.md
+2.11	Описание допустимых значений параметра Result.	114-opisanie-dopustimyh-znacheniy-parametra.md
+2.12	Загружать отсутствующие звонки в CRM	115-zagruzhat-otsutstvuyuschie-zvonki-v-crm.md
+2.13	Всплывающие сообщения об ошибках в интерфейсе Битрикс24	116-vsplyvayuschie-soobscheniya-ob-oshibkah.md
+2.14	Как включить или выключить показ звонков в календаре	117-kak-vklyuchit-ili-vyklyuchit-pokaz-zvonk.md
+2.15	Поиск по номеру телефона среди записей Битрикс24 (в приложении)	118-poisk-po-nomeru-telefona-sredi-zapisey-b.md
+2.16	Номер другого оператора, подключенный к Виртуальной АТС в Личном кабинете MANGO OFFICE	119-nomer-drugogo-operatora-podklyuchennyy-k.md
+2.17	Использование способов дозвона до сотрудника и алгоритмов дозвона в ЛК	120-ispolzovanie-sposobov-dozvona-do-sotrudn.md
+2.18	Использование алгоритмов распределения вызовов	121-ispolzovanie-algoritmov-raspredeleniya-v.md
+2.19	Переключение между режимами работы Битрикс24	122-pereklyuchenie-mezhdu-rezhimami-raboty-b.md
+2.20	Настройка отображения карточки звонка	123-nastroyka-otobrazheniya-kartochki-zvonka.md
+2.22	Интеграция с Контакт-центром MANGO OFFICE	124-integraciya-s-kontakt-centrom-mango-offi.md
+2.22	Обзор	125-obzor.md
+2.22	Требования	126-trebovaniya.md
+2.22	Настройка интеграции с Контакт-центром MANGO OFFICE. Общие инструкции	127-nastroyka-integracii-s-kontakt-centrom-m.md
+2.22	Отправка данных о лиде из Контакт-центра MANGO OFFICE	128-otpravka-dannyh-o-lide-iz-kontakt-centra.md
+2.22	Обзор	129-obzor.md
+2.22	Требования	130-trebovaniya.md
+2.22	Ограничения импорта данных обращений	131-ogranicheniya-importa-dannyh-obrascheniy.md
+2.22	Импорт данных из "пользовательских" полей	132-import-dannyh-iz-polzovatelskih-poley.md
+2.22	Как настроить	133-kak-nastroit.md
+2.22	Как включить автоматическое создание контактов и сделок в Битрикс24	134-kak-vklyuchit-avtomaticheskoe-sozdanie-k.md
+2.22	Как отправить данные о лидах в Битрикс24	135-kak-otpravit-dannye-o-lidah-v-bitriks24.md
+2.22	Как в Битрикс24 посмотреть контакты и сделки, созданные по входящему обращению Контакт-центра MANGO OFFICE	136-kak-v-bitriks24-posmotret-kontakty-i-sde.md
+2.22	Передаваемые данные	137-peredavaemye-dannye.md
+2.22	Сделка	138-sdelka.md
+2.22	Контакт	139-kontakt.md
+2.22	Как настроить передачу диалога с Клиентом (чата) из Контакт-Центра MANGO OFFICE в историю коммуникаций Битрикс24	140-kak-nastroit-peredachu-dialoga-s-kliento.md
+2.22	Обзор	141-obzor.md
+2.22	Порядок действий	142-poryadok-deystviy.md
+2.22	Сохранение тематик Контакт-Центра MANGO OFFICE	143-sohranenie-tematik-kontakt-centra-mango.md
+2.22	Обзор	144-obzor.md
+2.22	Как включить настройку	145-kak-vklyuchit-nastroyku.md
+2.22	Как посмотреть тематику Контакт-Центра	146-kak-posmotret-tematiku-kontakt-centra.md
+2.22	Автопостановка задания в кампанию исходящего обзвона при изменении в воронке продаж. Интеграция с Контакт-центром MANGO OFFICE через вебхуки	147-avtopostanovka-zadaniya-v-kampaniyu-isho.md
+2.22	Обзор	148-obzor.md
+2.22	Понятие "Технический таск" в кампании исходящего обзвона	149-ponyatie-tehnicheskiy-task-v-kampanii-is.md
+2.22	Ограничения	150-ogranicheniya.md
+2.22	Как настроить интеграцию в Контакт-центром MANGO OFFICE через вебхуки	151-kak-nastroit-integraciyu-v-kontakt-centr.md
+2.22	Как добавить вебхуки интеграции в робота в Битрик24	152-kak-dobavit-vebhuki-integracii-v-robota.md
+2.22	Скрипты разговора с Клиентом в Битрикс24	153-skripty-razgovora-s-klientom-v-bitriks24.md
+2.22	Скрипты	154-skripty.md
+2.22	Требования	155-trebovaniya.md
+2.22	Как выдать или снять права доступа к приложению интеграции	156-kak-vydat-ili-snyat-prava-dostupa-k-pril.md
+2.22	Как включить использование скриптов в приложении	157-kak-vklyuchit-ispolzovanie-skriptov-v-pr.md
+2.22	Сохранять постзвонковую оценку качества	158-sohranyat-postzvonkovuyu-ocenku-kachestv.md
+2.22	Сохранять данные кампаний исходящих обзвонов Контакт-центра	159-sohranyat-dannye-kampaniy-ishodyaschih-o.md
+2.23	Отправлять WhatsApp-сообщение при пропущенном звонке	160-otpravlyat-whatsapp-soobschenie-pri-prop.md
+2.23	Назначение	161-naznachenie.md
+2.23	Принцип работы	162-princip-raboty.md
+2.23	Как включить	163-kak-vklyuchit.md
+2.24	Использование сервиса «Манго Диалоги» для обмена сообщениями	164-ispolzovanie-servisa-mango-dialogi-dlya.md
+2.24.1	Назначение интеграции	165-naznachenie-integracii.md
+2.24.2	Подключение Манго Диалогов в ЛК ВАТС	166-podklyuchenie-mango-dialogov-v-lk-vats.md
+2.24.3	Подключение каналов «Манго Диалоги» в ЛК ВАТС	167-podklyuchenie-kanalov-mango-dialogi-v-lk.md
+2.24.4	Активируйте использование Манго Диалогов для передачи текстовых сообщений	168-aktiviruyte-ispolzovanie-mango-dialogov.md
+2.24.5	Проверьте подключение виджета Манго Диалоги в Битрикс24	169-proverte-podklyuchenie-vidzheta-mango-di.md
+2.24.6	Настройте «Открытую линию» в Битрикс24	170-nastroyte-otkrytuyu-liniyu-v-bitriks24.md
+2.24.7	Как обрабатывать чаты в Контакт-центре Битрикс24	171-kak-obrabatyvat-chaty-v-kontakt-centre-b.md
+3	Обработка звонков	172-obrabotka-zvonkov.md
+3.1	Входящий звонок	173-vhodyaschiy-zvonok.md
+3.2	Исходящий звонок	174-ishodyaschiy-zvonok.md
+3.3	Пропущенные звонки	175-propuschennye-zvonki.md
+3.4	Контроль за обработкой пропущенного звонка	176-kontrol-za-obrabotkoy-propuschennogo-zvo.md
+3.4	Обзор	177-obzor.md
+3.4	Как обработать пропущенный звонок	178-kak-obrabotat-propuschennyy-zvonok.md
+3.5	История вызовов	179-istoriya-vyzovov.md
+3.6	Просмотр сведений о звонках в календаре	180-prosmotr-svedeniy-o-zvonkah-v-kalendare.md
+3.7	Запись разговоров	181-zapis-razgovorov.md
+4	Интеграция с адресной книгой Виртуальной АТС	182-integraciya-s-adresnoy-knigoy-virtualnoy.md
+5	Софтфон MANGO CONNECT	183-softfon-mango-connect.md
+5.1	Описание	184-opisanie.md
+5.2	Дополнительно. Как включить и выключить режим "Не беспокоить" / DND	185-dopolnitelno-kak-vklyuchit-i-vyklyuchit.md
+6	Коробочная версия Битрикс24	186-korobochnaya-versiya-bitriks24.md
+7	Обновление приложения	187-obnovlenie-prilozheniya.md
+—	Приложения.	188-prilozheniya.md
+—	А. Как открыть отчет "Детализация звонков" в Битрикс24	189-a-kak-otkryt-otchet-detalizaciya-zvonkov.md
+—	Б. Настройка отображения колонок в списке лидов, сделок, контактов	190-b-nastroyka-otobrazheniya-kolonok-v-spis.md
+—	Список изменений в документе	191-spisok-izmeneniy-v-dokumente.md

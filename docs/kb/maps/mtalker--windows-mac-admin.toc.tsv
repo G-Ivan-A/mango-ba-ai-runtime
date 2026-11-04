@@ -1,0 +1,16 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Общие сведения	01-obschie-svedeniya.md
+—	Как зарегистрировать нового сотрудника и выдать ему логин и пароль для входа в MTalker	02-kak-zaregistrirovat-novogo-sotrudnika-i.md
+—	Схема приема звонков	03-shema-priema-zvonkov.md
+—	Общие сведения	04-obschie-svedeniya.md
+—	Как добавить номер в схему	05-kak-dobavit-nomer-v-shemu.md
+—	Как исключить номер из схемы	06-kak-isklyuchit-nomer-iz-shemy.md
+—	Схема “Только на основной номер”	07-shema-tolko-na-osnovnoy-nomer.md
+—	Схема “На все номера одновременно”	08-shema-na-vse-nomera-odnovremenno.md
+—	Схема “На все номера по очереди”	09-shema-na-vse-nomera-po-ocheredi.md
+—	Расписание приема звонков	10-raspisanie-priema-zvonkov.md
+—	Выбор исходящего номера	11-vybor-ishodyaschego-nomera.md
+—	Переход к регистрации нового сотрудника в ВАТС	12-perehod-k-registracii-novogo-sotrudnika.md
+—	Покупка многоканальных номеров	13-pokupka-mnogokanalnyh-nomerov.md
+—	Инициация исходящего вызова из командной строки	14-iniciaciya-ishodyaschego-vyzova-iz-koman.md

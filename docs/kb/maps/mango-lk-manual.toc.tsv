@@ -1,0 +1,353 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Добро пожаловать в Личный кабинет!	01-dobro-pozhalovat-v-lichnyy-kabinet.md
+1.1	Вход в личный кабинет	02-vhod-v-lichnyy-kabinet.md
+1.2	Восстановление пароля	03-vosstanovlenie-parolya.md
+1.3	Договор оферты	04-dogovor-oferty.md
+1.4	Общие сведения	05-obschie-svedeniya.md
+1.5	Панель лицевого счета	06-panel-licevogo-scheta.md
+1.6	Панель навигации	07-panel-navigacii.md
+1.7	Панель продуктов	08-panel-produktov.md
+1.7.1	Витрина продуктов	09-vitrina-produktov.md
+1.8	Обучение работе с ватс	10-obuchenie-rabote-s-vats.md
+1.8.1	Сценарий МИКРО	11-scenariy-mikro.md
+1.8.1.1	Начало обучения	12-nachalo-obucheniya.md
+1.8.1.2	Добавление сотрудников.	13-dobavlenie-sotrudnikov.md
+1.8.1.3	Главная страница (сценарий МИКРО)	14-glavnaya-stranica-scenariy-mikro.md
+1.8.1.3.1	Блок 1. Расписание и схема распределение звонков	15-blok-1-raspisanie-i-shema-raspredelenie.md
+1.8.1.3.2	Блок 2. Сотрудники	16-blok-2-sotrudniki.md
+1.8.1.3.3	Блок 3. Звонки	17-blok-3-zvonki.md
+1.8.2	Сценарий МАЛЫЙ + СРЕДНИЙ	18-scenariy-malyy-sredniy.md
+1.8.2.1	Блок 1. Начало обучения. Шкала прогресса Онбординга.	19-blok-1-nachalo-obucheniya-shkala-progres.md
+1.8.2.2	Блок 2. Добавление сотрудников	20-blok-2-dobavlenie-sotrudnikov.md
+1.8.2.3	Блок 3. Добавление групп	21-blok-3-dobavlenie-grupp.md
+1.8.2.4	Блок 4. Настройка схем распределения звонков	22-blok-4-nastroyka-shem-raspredeleniya-zvo.md
+1.8.2.5	Блок 5. Настройка исходящих вызовов	23-blok-5-nastroyka-ishodyaschih-vyzovov.md
+1.8.2.6	Блок 6. Увеличение продаж	24-blok-6-uvelichenie-prodazh.md
+1.8.2.7	Блок 7. Работа сотрудников	25-blok-7-rabota-sotrudnikov.md
+1.8.2.8	Блок 8. Полученные возможности	26-blok-8-poluchennye-vozmozhnosti.md
+1.8.2.9	Завершение обучения	27-zavershenie-obucheniya.md
+2	Финансы	28-finansy.md
+2.1	Документы	29-dokumenty.md
+2.1.1	Просмотреть/загрузить бухгалтерские документы	30-prosmotret-zagruzit-buhgalterskie-dokume.md
+2.1.2	Сформировать счет на предоплату телекоммуникационных услуг	31-sformirovat-schet-na-predoplatu-telekomm.md
+2.1.3	Создать акт сверки взаимных расчетов	32-sozdat-akt-sverki-vzaimnyh-raschetov.md
+2.1.4	Получить детализацию совершенных звонков	33-poluchit-detalizaciyu-sovershennyh-zvonk.md
+2.2	Договоры	34-dogovory.md
+2.3	Расходы на связь	35-rashody-na-svyaz.md
+2.4	История платежей	36-istoriya-platezhey.md
+2.5	Пополнить счет	37-popolnit-schet.md
+2.5.1	Банковский перевод	38-bankovskiy-perevod.md
+2.5.1.1	Для юридических лиц	39-dlya-yuridicheskih-lic.md
+2.5.1.2	Физическим лицам	40-fizicheskim-licam.md
+2.5.2	Банковские карты	41-bankovskie-karty.md
+2.5.3	Электронные платежи	42-elektronnye-platezhi.md
+2.5.4	Оплата наличными	43-oplata-nalichnymi.md
+2.5.5	Оплата через QR-код	44-oplata-cherez-qr-kod.md
+2.6	Автоматический платеж	45-avtomaticheskiy-platezh.md
+2.7	Реквизиты	46-rekvizity.md
+2.8	Настройка уведомлений	47-nastroyka-uvedomleniy.md
+2.9	Расходы на продукт	48-rashody-na-produkt.md
+3	Поддержка	49-podderzhka.md
+3.1	Вкладка «поддержка»	50-vkladka-podderzhka.md
+3.1.1	Контакты персонального менеджера	51-kontakty-personalnogo-menedzhera.md
+3.1.2	Быстрые каналы связи	52-bystrye-kanaly-svyazi.md
+3.1.3	Написать в техподдержку	53-napisat-v-tehpodderzhku.md
+3.1.4	Инструкции и вспомогательные материалы	54-instrukcii-i-vspomogatelnye-materialy.md
+3.2	Вкладка «обращения»	55-vkladka-obrascheniya.md
+3.2.1	Общий обзор	56-obschiy-obzor.md
+3.2.2	Работа со статусами	57-rabota-so-statusami.md
+3.2.3	Карточка обращения	58-kartochka-obrascheniya.md
+3.3	Вкладка «наши офисы»	59-vkladka-nashi-ofisy.md
+4	Продукт «Виртуальная АТС»	60-produkt-virtualnaya-ats.md
+4	Демо-версия ватс	61-demo-versiya-vats.md
+4	Главная страница пользователя	62-glavnaya-stranica-polzovatelya.md
+4	Персональная карточка сотрудника	63-personalnaya-kartochka-sotrudnika.md
+4	Виджет «Лента звонков»	64-vidzhet-lenta-zvonkov.md
+4	Виджет «Сотрудники»	65-vidzhet-sotrudniki.md
+4	Виджет «Блок кнопок быстрых коммуникаций»	66-vidzhet-blok-knopok-bystryh-kommunikaciy.md
+4	Виджет «Настройки личной защиты»	67-vidzhet-nastroyki-lichnoy-zaschity.md
+4	Виджет «Аналитика»	68-vidzhet-analitika.md
+4	Виджет «Коллтрекинг»	69-vidzhet-kolltreking.md
+4	Виджеты Бухгалтера	70-vidzhety-buhgaltera.md
+4	Приложение «Личный кабинет»	71-prilozhenie-lichnyy-kabinet.md
+4	Начало работы	72-nachalo-raboty.md
+4	Блокировка ВАТС	73-blokirovka-vats.md
+4.1	Навигационная панель	74-navigacionnaya-panel.md
+4.1.1	Смена версии и тарифа продукта	75-smena-versii-i-tarifa-produkta.md
+4.2	Блок «ваши номера»	76-blok-vashi-nomera.md
+4.2.1	Номера MANGO OFFICE	77-nomera-mango-office.md
+4.2.2	Номера других операторов	78-nomera-drugih-operatorov.md
+4.2.2.1	Пассивный SIP	79-passivnyy-sip.md
+4.2.2.2	Активный SIP	80-aktivnyy-sip.md
+4.2.3	Виджеты для сайта	81-vidzhety-dlya-sayta.md
+4.2.3.1	Добавление виджета	82-dobavlenie-vidzheta.md
+4.2.3.2	Настройка виджета «Звонок с сайта»	83-nastroyka-vidzheta-zvonok-s-sayta.md
+4.2.3.2.1	Вкладка «Основные»	84-vkladka-osnovnye.md
+4.2.3.2.2	Вкладка «Расписание»	85-vkladka-raspisanie.md
+4.2.3.2.3	Вкладка «Внешний вид»	86-vkladka-vneshniy-vid.md
+4.2.3.2.4	Вкладка «Код для вставки»	87-vkladka-kod-dlya-vstavki.md
+4.2.3.2.5	Тест виджета	88-test-vidzheta.md
+4.2.3.2.6	Удаление виджета	89-udalenie-vidzheta.md
+4.2.3.3	Настройка виджета «Обратный звонок»	90-nastroyka-vidzheta-obratnyy-zvonok.md
+4.2.3.3.1	Вкладка «Основные»	91-vkladka-osnovnye.md
+4.2.3.3.2	Вкладка «Расписание»	92-vkladka-raspisanie.md
+4.2.3.3.3	Вкладка «Генератор лидов»	93-vkladka-generator-lidov.md
+4.2.3.3.4	Вкладка «Внешний вид»	94-vkladka-vneshniy-vid.md
+4.2.3.3.5	Вкладка «Код для вставки»	95-vkladka-kod-dlya-vstavki.md
+4.2.3.3.6	Тест виджета	96-test-vidzheta.md
+4.2.3.3.7	Удаление виджета	97-udalenie-vidzheta.md
+4.2.3.4	Настройка виджета «Текстовые коммуникации»	98-nastroyka-vidzheta-tekstovye-kommunikaci.md
+4.3	Блок «персонал»	99-blok-personal.md
+4.4	Обработка звонков	100-obrabotka-zvonkov.md
+4.4.1	Номера, подключенные к АТС	101-nomera-podklyuchennye-k-ats.md
+4.4.1.1	Закладка «Номера»	102-zakladka-nomera.md
+4.4.1.2	Закладка «Настройки приема звонков»	103-zakladka-nastroyki-priema-zvonkov.md
+4.4.1.3	Закладка «Перенос номеров»	104-zakladka-perenos-nomerov.md
+4.4.2	Голосовое меню и распределение звонков	105-golosovoe-menyu-i-raspredelenie-zvonkov.md
+4.4.2.1	Настройки для входящих линий	106-nastroyki-dlya-vhodyaschih-liniy.md
+4.4.2.2	Дополнительные настройки	107-dopolnitelnye-nastroyki.md
+4.4.2.3	SMS Ответы	108-sms-otvety.md
+4.4.3	Настройки дозвона и сообщений по умолчанию	109-nastroyki-dozvona-i-soobscheniy-po-umolc.md
+4.4.4	Переадресация по номеру клиента	110-pereadresaciya-po-nomeru-klienta.md
+4.4.5	Черный/белый список	111-chernyy-belyy-spisok.md
+4.4.6	Сотрудники и группы	112-sotrudniki-i-gruppy.md
+4.4.6.1	Работа с сотрудниками	113-rabota-s-sotrudnikami.md
+4.4.6.1.1	Вкладка «Карточка»	114-vkladka-kartochka.md
+4.4.6.1.2	Вкладка «Телефония»	115-vkladka-telefoniya.md
+4.4.6.1.3	Вкладка «Группы»	116-vkladka-gruppy.md
+4.4.6.1.4	Вкладка «КПК»	117-vkladka-kpk.md
+4.4.6.1.5	Вкладка «Автосекретарь»	118-vkladka-avtosekretar.md
+4.4.6.2	Работа с группами	119-rabota-s-gruppami.md
+4.4.6.2.1	Вкладка «Параметры группы»	120-vkladka-parametry-gruppy.md
+4.4.6.2.2	Вкладка «Сотрудники и прием вызовов»	121-vkladka-sotrudniki-i-priem-vyzovov.md
+4.4.6.2.3	Вкладка «Очередь вызовов»	122-vkladka-ochered-vyzovov.md
+4.4.6.3	Роботы	123-roboty.md
+4.5	Инструменты	124-instrumenty.md
+4.5.1	Статистика и мониторинг	125-statistika-i-monitoring.md
+4.5.1.1	Оценка эффективности работы	126-ocenka-effektivnosti-raboty.md
+4.5.1.2	Нагрузка по часам	127-nagruzka-po-chasam.md
+4.5.1.3	Показатели обслуживания	128-pokazateli-obsluzhivaniya.md
+4.5.1.4	Оценка эффективности рекламы	129-ocenka-effektivnosti-reklamy.md
+4.5.2	История вызовов	130-istoriya-vyzovov.md
+4.5.2.1	Все вызовы	131-vse-vyzovy.md
+4.5.2.2	Пропущенные вызовы	132-propuschennye-vyzovy.md
+4.5.2.3	Несостоявшиеся вызовы	133-nesostoyavshiesya-vyzovy.md
+4.5.2.4	Видеозвонки	134-videozvonki.md
+4.5.3	Запись разговоров	135-zapis-razgovorov.md
+4.5.3.1	Записанные разговоры	136-zapisannye-razgovory.md
+4.5.3.2	Избранное	137-izbrannoe.md
+4.5.3.3	Режимы записи	138-rezhimy-zapisi.md
+4.5.3.4	Настройки	139-nastroyki.md
+4.5.3.5	Экспорт	140-eksport.md
+4.5.4	Контакт-центр	141-kontakt-centr.md
+4.5.4.1	Юkassa	142-yukassa.md
+4.5.4.2	Unisender	143-unisender.md
+4.5.4.3	Битрикс 24	144-bitriks-24.md
+4.5.6	Голосовые сообщения	145-golosovye-soobscheniya.md
+4.5.7	Заказ звонка	146-zakaz-zvonka.md
+4.5.8	Статический коллтрекинг	147-staticheskiy-kolltreking.md
+4.5.8.1	Отчеты статического коллтрекинга	148-otchety-staticheskogo-kolltrekinga.md
+4.5.9	Аналитика	149-analitika.md
+4.5.9.1	Продажи	150-prodazhi.md
+4.5.9.1.1	Входящие	151-vhodyaschie.md
+4.5.9.1.1	Отчет «Пропущенные звонки»	152-otchet-propuschennye-zvonki.md
+4.5.9.1.1	Отчет «Причины пропущенных звонков»	153-otchet-prichiny-propuschennyh-zvonkov.md
+4.5.9.1.1	Отчет «Время ожидания»	154-otchet-vremya-ozhidaniya.md
+4.5.9.1.1	Отчет «Длительность разговора»	155-otchet-dlitelnost-razgovora.md
+4.5.9.1.1	Отчет «Количество перезвонов по пропущенным звонкам»	156-otchet-kolichestvo-perezvonov-po-propusc.md
+4.5.9.1.1	Отчет «Насколько быстро сотрудники пытаются перезвонить»	157-otchet-naskolko-bystro-sotrudniki-pytayu.md
+4.5.9.1.1	Отчет «Распределение звонков по регионам»	158-otchet-raspredelenie-zvonkov-po-regionam.md
+4.5.9.1.2	Исходящие	159-ishodyaschie.md
+4.5.9.1.2	Отчет «Качественные звонки»	160-otchet-kachestvennye-zvonki.md
+4.5.9.1.2	Отчет «В какое время лучше совершать звонки»	161-otchet-v-kakoe-vremya-luchshe-sovershat.md
+4.5.9.1.2	Отчет «Исходящий обзвон»	162-otchet-ishodyaschiy-obzvon.md
+4.5.9.1.2	Отчет «Длительность разговора»	163-otchet-dlitelnost-razgovora.md
+4.5.9.2	Обслуживание	164-obsluzhivanie.md
+4.5.9.2.1	Пропущенные	165-propuschennye.md
+4.5.9.2.1	Отчет «Количество пропущенных вызовов»	166-otchet-kolichestvo-propuschennyh-vyzovov.md
+4.5.9.2.1	Отчет «Причины пропущенных звонков»	167-otchet-prichiny-propuschennyh-zvonkov.md
+4.5.9.2.1	Отчет «В какое время теряются звонки»	168-otchet-v-kakoe-vremya-teryayutsya-zvonki.md
+4.5.9.2.1	Отчет «Сколько клиенты готовы ждать на линии»	169-otchet-skolko-klienty-gotovy-zhdat-na-li.md
+4.5.9.2.2	Принятые	170-prinyatye.md
+4.5.9.2.2	Отчет «Сколько звонков принято быстро»	171-otchet-skolko-zvonkov-prinyato-bystro.md
+4.5.9.2.2	Отчет «Средняя продолжительность»	172-otchet-srednyaya-prodolzhitelnost.md
+4.5.9.2.2	Отчет «Время ожидания ответа»	173-otchet-vremya-ozhidaniya-otveta.md
+4.5.9.2.2	Отчет «Время обслуживания вызова»	174-otchet-vremya-obsluzhivaniya-vyzova.md
+4.5.9.2.2	Отчет «Сколько сотрудников решают проблему клиента»	175-otchet-skolko-sotrudnikov-reshayut-probl.md
+4.5.9.2.2	Отчет «Сколько звонков требуется клиенту для решения проблемы»	176-otchet-skolko-zvonkov-trebuetsya-klientu.md
+4.5.9.2.2	Отчет «Распределение звонков по пунктам голосового меню»	177-otchet-raspredelenie-zvonkov-po-punktam.md
+4.5.10	Адресная книга контрагентов	178-adresnaya-kniga-kontragentov.md
+4.5.10.1	Добавление контакта	179-dobavlenie-kontakta.md
+4.5.11	Текстовые коммуникации	180-tekstovye-kommunikacii.md
+4.5.11.1	Подключение «Текстовые коммуникации» в Личном кабинете	181-podklyuchenie-tekstovye-kommunikacii-v-l.md
+4.5.11.2	Мои группы каналов	182-moi-gruppy-kanalov.md
+4.5.11.2.1	Настройки группы каналов	183-nastroyki-gruppy-kanalov.md
+4.5.11.2.1.1	Основные настройки	184-osnovnye-nastroyki.md
+4.5.11.2.2.2	Расписание работы	185-raspisanie-raboty.md
+4.5.11.2.2.3	Код для сайта	186-kod-dlya-sayta.md
+4.5.11.2.2	Настройка каналов коммуникации	187-nastroyka-kanalov-kommunikacii.md
+4.5.11.2.2	Обратный звонок	188-obratnyy-zvonok.md
+4.5.11.2.2	Лидогенерация	189-lidogeneraciya.md
+4.5.11.2.2	Чат на сайте	190-chat-na-sayte.md
+4.5.11.2.2	ВКонтакте	191-vkontakte.md
+4.5.11.2.2	WhatsApp	192-whatsapp.md
+4.5.11.2.2	Telegram	193-telegram.md
+4.5.11.2.2	Max	194-max.md
+4.5.11.2.2	Назаначение канала max	195-nazanachenie-kanala-max.md
+4.5.11.2.2	Как подключить канал max	196-kak-podklyuchit-kanal-max.md
+4.5.11.2.2	1. Получение API-токена Max	197-1-poluchenie-api-tokena-max.md
+4.5.11.2.2	2. Открытие страницы каналов	198-2-otkrytie-stranicy-kanalov.md
+4.5.11.2.2	3. Переход к настройкам	199-3-perehod-k-nastroykam.md
+4.5.11.2.2	4. Подключение токена Max	200-4-podklyuchenie-tokena-max.md
+4.5.11.2.2	5. Прием и обработка обращений	201-5-priem-i-obrabotka-obrascheniy.md
+4.5.11.2.2	6. Автоматические ответы	202-6-avtomaticheskie-otvety.md
+4.5.11.2.2	7. Показывать сообщение при закрытии обращения	203-7-pokazyvat-soobschenie-pri-zakrytii-obr.md
+4.5.11.2.2	8. Нерабочее время	204-8-nerabochee-vremya.md
+4.5.11.2.2	9. Автоматическое завершение диалогов	205-9-avtomaticheskoe-zavershenie-dialogov.md
+4.5.11.2.2	10. Завершение подключения	206-10-zavershenie-podklyucheniya.md
+4.5.11.2.2	Клиентское приложение	207-klientskoe-prilozhenie.md
+4.5.11.2.2	Е-mail	208-e-mail.md
+4.5.11.2.2	Aвито	209-avito.md
+4.5.11.2.2	Авито Работа	210-avito-rabota.md
+4.5.11.2.3	Удаление группы каналов	211-udalenie-gruppy-kanalov.md
+4.5.11.2.4	Чат-бот для групп каналов «Текстовые коммуникации»	212-chat-bot-dlya-grupp-kanalov-tekstovye-ko.md
+4.5.11.2.5	Шаблоны WhatsApp	213-shablony-whatsapp.md
+4.5.11.2.5.1	Создание шаблона WhatsApp	214-sozdanie-shablona-whatsapp.md
+4.5.11.3	Отчеты	215-otchety.md
+4.5.11.3.1	Панель «Отчеты»	216-panel-otchety.md
+4.5.11.3.1.1	Блок фильтров	217-blok-filtrov.md
+4.5.11.3.1.2	Блок графиков	218-blok-grafikov.md
+4.5.11.3.2	Отчет «Время реакции»	219-otchet-vremya-reakcii.md
+4.5.11.3.2	Блок визуализации	220-blok-vizualizacii.md
+4.5.11.3.2	Блок таблицы	221-blok-tablicy.md
+4.5.11.3.3	Отчет «Быстрый ответ»	222-otchet-bystryy-otvet.md
+4.5.11.3.3	Блок визуализации	223-blok-vizualizacii.md
+4.5.11.3.3	Блок таблицы	224-blok-tablicy.md
+4.5.11.3.4	Отчет «Время обработки (общения)»	225-otchet-vremya-obrabotki-obscheniya.md
+4.5.11.3.4	Блок визуализации	226-blok-vizualizacii.md
+4.5.11.3.4	Блок таблицы	227-blok-tablicy.md
+4.5.11.3.5	Экспорт отчетов	228-eksport-otchetov.md
+4.5.11.4	Отписка от рассылок WhatsApp	229-otpiska-ot-rassylok-whatsapp.md
+4.5.11.5	Google Аналитика и Яндекс Метрика для «Текстовые коммуникации»	230-google-analitika-i-yandeks-metrika-dlya.md
+4.5.11.5.1	Постановка целей по событиям «Текстовые коммуникации» в Яндекс.Метрике	231-postanovka-celey-po-sobytiyam-tekstovye.md
+4.5.12	Речевая аналитика	232-rechevaya-analitika.md
+4.5.13	Wallboard	233-wallboard.md
+4.5.13.1	Настройка виджетов групповых показателей	234-nastroyka-vidzhetov-gruppovyh-pokazatele.md
+4.5.13.2	Показатели производительности Wallboard	235-pokazateli-proizvoditelnosti-wallboard.md
+4.5.14	Сделки	236-sdelki.md
+4.5.15	Контроль качества	237-kontrol-kachestva.md
+4.5.16	Аналитика «Calltouch»	238-analitika-calltouch.md
+4.5.17	Анализ конкурентов	239-analiz-konkurentov.md
+4.5.17.1	Анализ по домену	240-analiz-po-domenu.md
+4.5.17.1	Блок «Контекстная реклама»	241-blok-kontekstnaya-reklama.md
+4.5.17.1	Блок «Органический трафик»	242-blok-organicheskiy-trafik.md
+4.5.17.2	Анализ по ключевому слову	243-analiz-po-klyuchevomu-slovu.md
+4.5.17.3	Telegram	244-telegram.md
+4.5.18	Управление дозвоном и маркировка	245-upravlenie-dozvonom-i-markirovka.md
+4.5.18.1	Статистика	246-statistika.md
+4.5.18.2	Правила автоподстановки	247-pravila-avtopodstanovki.md
+4.5.18.3	Этикетка и МАВ	248-etiketka-i-mav.md
+4.5.18.3.1	Этикетка	249-etiketka.md
+4.5.18.3.2	Мав	250-mav.md
+4.5.19	Карусель номеров	251-karusel-nomerov.md
+4.5.19.1	Отключение и повторное подключение услуги	252-otklyuchenie-i-povtornoe-podklyuchenie-u.md
+4.5.19.2	Создание карусели	253-sozdanie-karuseli.md
+4.5.19.3	Редактирование карусели	254-redaktirovanie-karuseli.md
+4.5.19.3	Добавление номеров	255-dobavlenie-nomerov.md
+4.5.19.3	Добавление сотрудников	256-dobavlenie-sotrudnikov.md
+4.5.19.3	Удаление номеров и сотрудников вне карусели	257-udalenie-nomerov-i-sotrudnikov-vne-karus.md
+4.5.19.4	Как работает логика маршрутизации звонков	258-kak-rabotaet-logika-marshrutizacii-zvonk.md
+4.5.19.4	Когда лучше использовать правило «По маске»	259-kogda-luchshe-ispolzovat-pravilo-po-mask.md
+4.5.19.4	Когда лучше использовать правило «По региону»	260-kogda-luchshe-ispolzovat-pravilo-po-regi.md
+4.5.19.5	Удаление каруселей и отключение услуги	261-udalenie-karuseley-i-otklyuchenie-uslugi.md
+4.5.19.6	Примеры использования	262-primery-ispolzovaniya.md
+4.5.19.7	Права доступа к разделу «Карусель номеров»	263-prava-dostupa-k-razdelu-karusel-nomerov.md
+4.5.20	Автодозвон из форм	264-avtodozvon-iz-form.md
+4.5.20.1	Сценарии использования «Автодозвон из форм»	265-scenarii-ispolzovaniya-avtodozvon-iz-for.md
+4.5.21	Роботы	266-roboty.md
+4.6	Настройка атс	267-nastroyka-ats.md
+4.6.1	Настройка SIP	268-nastroyka-sip.md
+4.6.1.1	Учетные записи и домены SIP	269-uchetnye-zapisi-i-domeny-sip.md
+4.6.1.1.1	Домены SIP	270-domeny-sip.md
+4.6.1.1.2	Учетные записи SIP	271-uchetnye-zapisi-sip.md
+4.6.1.2	Настройки SIP телефонии	272-nastroyki-sip-telefonii.md
+4.6.1.3	Безопасность	273-bezopasnost.md
+4.6.1.4	SIP Trunk	274-sip-trunk.md
+4.6.1.5	Внешний MediaProxy	275-vneshniy-mediaproxy.md
+4.6.2	Аудиофайлы	276-audiofayly.md
+4.6.3	Безопасность и ограничения	277-bezopasnost-i-ogranicheniya.md
+4.6.3.1	Настройка	278-nastroyka.md
+4.6.3.2	Журнал действий	279-zhurnal-deystviy.md
+4.6.3.3	Настройка доступа	280-nastroyka-dostupa.md
+4.6.3.3.1	Просмотр списка ролей	281-prosmotr-spiska-roley.md
+4.6.3.3.2	Создание роли	282-sozdanie-roli.md
+4.6.3.3.3	Создание роли путем копирования	283-sozdanie-roli-putem-kopirovaniya.md
+4.6.3.3.4	Удаление роли	284-udalenie-roli.md
+4.6.3.3.5	Сбросить настройки роли	285-sbrosit-nastroyki-roli.md
+4.6.3.3.6	Настройка прав доступа роли	286-nastroyka-prav-dostupa-roli.md
+4.6.3.3.6	Доступ к ИИ-инструментам Контакт-центра	287-dostup-k-ii-instrumentam-kontakt-centra.md
+4.6.3.3.7	Настройка доступа к персональным контактам	288-nastroyka-dostupa-k-personalnym-kontakta.md
+4.6.3.4	Ограничения	289-ogranicheniya.md
+4.6.3.5	Безопасность PRO	290-bezopasnost-pro.md
+4.6.3.5	SSO (Single Sign-On)	291-sso-single-sign-on.md
+4.6.4	Конференц-связь	292-konferenc-svyaz.md
+4.6.4.1	Конференц-связь	293-konferenc-svyaz.md
+4.6.4.2	Комнаты конференций	294-komnaty-konferenciy.md
+4.6.4.3	Видеосвязь	295-videosvyaz.md
+4.6.4.3.1	Транскрибация и конспектирование видеовстреч	296-transkribaciya-i-konspektirovanie-videov.md
+4.6.5	Дополнительные настройки	297-dopolnitelnye-nastroyki.md
+4.6.5.1	Голосовая почта	298-golosovaya-pochta.md
+4.6.5.2	Облачное хранилище	299-oblachnoe-hranilische.md
+4.6.5.3	Интеграция с мобильной связью	300-integraciya-s-mobilnoy-svyazyu.md
+4.6.5.4	Отправка SMS	301-otpravka-sms.md
+4.6.5.5	Автоподстановка номера	302-avtopodstanovka-nomera.md
+4.6.5.6	Автоперезвон	303-avtoperezvon.md
+4.6.5.7	Прочие	304-prochie.md
+4.6.5.8	Общие настройки	305-obschie-nastroyki.md
+4.6.6	Управление услугами	306-upravlenie-uslugami.md
+4.6.7	Интеграции	307-integracii.md
+4.6.7.1	Подключить интеграцию	308-podklyuchit-integraciyu.md
+4.6.7.2	Решения партнеров	309-resheniya-partnerov.md
+4.6.7.3	API Коннектор	310-api-konnektor.md
+4.6.7.4	Gооgle контакты	311-google-kontakty.md
+4.6.7.5	Подключение по LDAP	312-podklyuchenie-po-ldap.md
+4.6.7.5	Шаг 1. Подключение к LDAP-серверу	313-shag-1-podklyuchenie-k-ldap-serveru.md
+4.6.7.5	Шаг 2. Сопоставление атрибутов	314-shag-2-sopostavlenie-atributov.md
+4.6.7.5	Шаг 3. Сопоставление сотрудников	315-shag-3-sopostavlenie-sotrudnikov.md
+4.6.7.5	Шаг 4. Настройка синхронизации	316-shag-4-nastroyka-sinhronizacii.md
+4.6.7.7	Вебхуки	317-vebhuki.md
+4.6.7.8	Мои интеграции	318-moi-integracii.md
+5	SIP Trunk	319-sip-trunk.md
+5.1	Термины и определения	320-terminy-i-opredeleniya.md
+5.2	Что такое sip trunk	321-chto-takoe-sip-trunk.md
+5.3	Создание и редактирование sip trunk	322-sozdanie-i-redaktirovanie-sip-trunk.md
+5.3.1	Внешний SIP Trunk	323-vneshniy-sip-trunk.md
+5.3.1.1	Настройка	324-nastroyka.md
+5.3.1.2	Номера	325-nomera.md
+5.3.1.3	Маршрутизация	326-marshrutizaciya.md
+5.3.1.3.1	Правила использование масок:	327-pravila-ispolzovanie-masok.md
+5.3.1.3.2	Правила преобразования номера:	328-pravila-preobrazovaniya-nomera.md
+5.3.1.3.2	Резервирование	329-rezervirovanie.md
+5.3.1.3.2	Резервирование	330-rezervirovanie.md
+5.3.2	Внутренний SIP Trunk	331-vnutrenniy-sip-trunk.md
+5.3.2.1	Настройка	332-nastroyka.md
+5.3.2.2	Номера	333-nomera.md
+5.3.2.3	Маршрутизация	334-marshrutizaciya.md
+5.3.3	Активация SIP Trunk в карточке сотрудника	335-aktivaciya-sip-trunk-v-kartochke-sotrudn.md
+5.3.4	Редактирование SIP Trunk	336-redaktirovanie-sip-trunk.md
+5.3.5	Удаление SIP Trunk	337-udalenie-sip-trunk.md
+5.3.5	Резервирование.	338-rezervirovanie.md
+5.4	Рабочая панель sip trunk	339-rabochaya-panel-sip-trunk.md
+5.4.1	Список транков	340-spisok-trankov.md
+5.4.2	Список правил маршрутизации	341-spisok-pravil-marshrutizacii.md
+5.5	Настройка схемы распределения звонков в Личном кабинете	342-nastroyka-shemy-raspredeleniya-zvonkov-v.md
+5.6	Примеры настройки звонков через sip trunk	343-primery-nastroyki-zvonkov-cherez-sip-tru.md
+5.7	Конфигурация популярных PBX	344-konfiguraciya-populyarnyh-pbx.md
+5.7.1	Создание SIP trunk для FreePBX (Asterisk)	345-sozdanie-sip-trunk-dlya-freepbx-asterisk.md
+5.7.1.1	Как проверить состояние транка	346-kak-proverit-sostoyanie-tranka.md
+5.7.1.2	Исходящая маршрутизация	347-ishodyaschaya-marshrutizaciya.md
+5.7.2	Создание SIP trunk для FusionPBX (Freeswitch)	348-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md
+5.7.2.1	Исходящая маршрутизация	349-ishodyaschaya-marshrutizaciya.md
+5.8	Роли и права доступа sip trunk	350-roli-i-prava-dostupa-sip-trunk.md
+6	Роли и права доступа ЛК ВАТС	351-roli-i-prava-dostupa-lk-vats.md
