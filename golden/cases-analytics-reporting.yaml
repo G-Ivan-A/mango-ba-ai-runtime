@@ -6,12 +6,12 @@
 # Поведение маршрута (RFC-RT-001, R-4): класс вне среза (in_slice: false в
 # taxonomy/products.yaml), навыков класса в skills/ нет, маршрут
 # routes/rg-bcreq-v1.yaml объявлен для contact-center. Набор — данные для
-# промптов спицы и структурной сверки; check_golden читает только
-# golden/cases.yaml, поэтому набор не меняет вердикт G-mach по пакету. У
+# промптов спицы и структурной сверки; check_golden проверяет набор наравне с
+# golden/cases.yaml (evaluation/validate-package.md, пункты 2–8). У
 # отрицательных случаев отказывающий узел — узел графа (refusing_node) и
 # пакет навыка узла (refusing_pack), а не навык класса: навыка нет.
 golden_set: mvp-bcreq-analytics-reporting
-version: "0.1"
+version: "0.2"
 product_class: analytics-reporting
 catalog_version: "2026-10-28.1"
 structural_only: true   # все эталоны synthetic и до подтверждения человеком
@@ -108,5 +108,5 @@ cases:
       outcome: refused
       refusing_node: n1
       refusing_pack: SK-transcript-normalization
-      reason: "функция продукта во входе вне закрытого каталога taxonomy/mango-products.yaml; значение вне закрытого словаря не изобретается и не подбирается (правило 1 AGENTS.md)"
+      reason: "функция вне каталога: romi-dashboard-export не является id узла taxonomy/mango-products.yaml; значение вне закрытого словаря не изобретается и не подбирается (правило 1 AGENTS.md)"
       artifact_produced: false

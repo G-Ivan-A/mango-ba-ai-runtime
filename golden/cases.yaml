@@ -130,8 +130,8 @@ cases:
   # Отрицательный случай «функция вне каталога» (RFC-RT-001, РТ-3). Поле
   # atomic_function — функция каталога, о которой сценарий (по нему случай
   # отбирается и проверяется smoke-тестом); недопустимое значение входа —
-  # declared_function. Норма main этот отказ выводит только из общего правила 1
-  # AGENTS.md: привязка поля c-in к каталогу — задача PT-5/ХАБ-1.
+  # declared_function. Отказ — условие c-in.products[] (правило PT-5,
+  # contracts/c-in.md); причина в начале reason — значение catalog_check.
   - id: GS-CC-NEG-05
     kind: negative
     file: golden/gs-cc-neg-05-function-outside-catalog.md
@@ -145,5 +145,5 @@ cases:
       outcome: refused
       refusing_node: n1
       refusing_skill: transcript-normalization-contact-center
-      reason: "функция продукта во входе вне закрытого каталога taxonomy/mango-products.yaml; значение вне закрытого словаря не изобретается и не подбирается (правило 1 AGENTS.md)"
+      reason: "функция вне каталога: queue-callback-offer не является id узла taxonomy/mango-products.yaml; значение вне закрытого словаря не изобретается и не подбирается (правило 1 AGENTS.md)"
       artifact_produced: false

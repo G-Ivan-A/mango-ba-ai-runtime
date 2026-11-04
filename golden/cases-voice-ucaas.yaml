@@ -5,12 +5,12 @@
 # Поведение маршрута (RFC-RT-001, R-4): класс вне среза (in_slice: false в
 # taxonomy/products.yaml), навыков класса в skills/ нет, маршрут
 # routes/rg-bcreq-v1.yaml объявлен для contact-center. Набор — данные для
-# промптов спицы и структурной сверки; check_golden читает только
-# golden/cases.yaml, поэтому набор не меняет вердикт G-mach по пакету. У
+# промптов спицы и структурной сверки; check_golden проверяет набор наравне с
+# golden/cases.yaml (evaluation/validate-package.md, пункты 2–8). У
 # отрицательных случаев отказывающий узел — узел графа (refusing_node) и
 # пакет навыка узла (refusing_pack), а не навык класса: навыка нет.
 golden_set: mvp-bcreq-voice-ucaas
-version: "0.1"
+version: "0.2"
 product_class: voice-ucaas
 catalog_version: "2026-10-28.1"
 structural_only: true   # все эталоны synthetic и до подтверждения человеком
@@ -126,5 +126,5 @@ cases:
       outcome: refused
       refusing_node: n1
       refusing_pack: SK-transcript-normalization
-      reason: "функция реестра есть в каталоге, но в её classes нет объявленного класса voice-ucaas; функция не подменяется функцией объявленного класса, а класс — классом функции (правило 1 AGENTS.md; класс объявлен до начала — правило 2)"
+      reason: "функция чужого класса: функция реестра есть в каталоге, но в её classes нет объявленного класса voice-ucaas; функция не подменяется функцией объявленного класса, а класс — классом функции (правило 1 AGENTS.md; класс объявлен до начала — правило 2)"
       artifact_produced: false

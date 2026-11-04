@@ -5,7 +5,7 @@ artifact_class: A-BCREQ
 origin: synthetic
 confirmed_by: none
 status: draft
-version: 1.1
+version: 1.2
 updated: 2026-11-04
 temperature: 0.1
 ---
@@ -51,12 +51,14 @@ temperature: 0.1
 
 ## Зависимость от нормы
 
-Сегодня `contracts/c-in.md` описывает `atomic_function` как непустую строку, а
-правило 1 AGENTS.md не называет функцию продукта среди закрытых значений.
-Отказ выводится из общего правила: каталог лежит в `taxonomy/` и закрыт.
-Явное требование — привязка `atomic_function` к каталогу в `c-in` и проверка
-в `check_golden` — входит в задачу PT-5/ХАБ-1 (RFC-RT-001, раздел 6). До неё
-эталон применяется структурно.
+Отказ — условие `c-in.products[]` (правило PT-5, `contracts/c-in.md`):
+`atomic_function` — id узла `level: function` каталога
+`taxonomy/mango-products.yaml`, в `classes` которого входит класс записи.
+Правило 1 AGENTS.md называет функцию продукта среди закрытых значений; навык
+`n1` проверяет её на шаге `check-schema`; `check_golden` (пункт 6) требует,
+чтобы `declared_function` случая не проходила условие именно по причине
+«функция вне каталога» и чтобы `reason` начиналась с неё. Эталон synthetic и
+до подтверждения человеком применяется структурно.
 
 ## Чего в эталоне намеренно нет
 
