@@ -1,0 +1,89 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Оглавление	01-oglavlenie.md
+1	Общие сведения	02-obschie-svedeniya.md
+2	Подключение услуги «Речевая аналитика»	03-podklyuchenie-uslugi-rechevaya-analitika.md
+2.1	Подключение в демо-режиме	04-podklyuchenie-v-demo-rezhime.md
+2.2	Подключение услуги в платном режиме	05-podklyuchenie-uslugi-v-platnom-rezhime.md
+3	Настройки	06-nastroyki.md
+3.1	Шаги онбординга	07-shagi-onbordinga.md
+3.2	Настройки распознавания записей	08-nastroyki-raspoznavaniya-zapisey.md
+3.3	Аналитика текстовых коммуникаций	09-analitika-tekstovyh-kommunikaciy.md
+3.4	ИИ Инструменты	10-ii-instrumenty.md
+3.4.1	ИИ Конспекты	11-ii-konspekty.md
+3.4.2	ИИ Тегирование	12-ii-tegirovanie.md
+3.4.3	ИИ Помощники	13-ii-pomoschniki.md
+3.4.3.1	Что это такое и зачем нужно	14-chto-eto-takoe-i-zachem-nuzhno.md
+3.4.3.2	Как создать ИИ Помощника	15-kak-sozdat-ii-pomoschnika.md
+3.4.3.3	Настройка ИИ Помощника	16-nastroyka-ii-pomoschnika.md
+3.4.3.4	Где смотреть результаты	17-gde-smotret-rezultaty.md
+3.5	Дополнительные настройки	18-dopolnitelnye-nastroyki.md
+3.6	Отключение услуги	19-otklyuchenie-uslugi.md
+4	Как работает поиск по разговорам	20-kak-rabotaet-poisk-po-razgovoram.md
+4.1	Термины и определения	21-terminy-i-opredeleniya.md
+4.2	Правила обработки поисковых запросов	22-pravila-obrabotki-poiskovyh-zaprosov.md
+4.3	Общие советы для составления поисковых запросов	23-obschie-sovety-dlya-sostavleniya-poiskov.md
+5	Поиск по аудиозаписям разговоров	24-poisk-po-audiozapisyam-razgovorov.md
+5.1	Поля формы модуля поиска в записях разговоров	25-polya-formy-modulya-poiska-v-zapisyah-ra.md
+5.2	Прослушивание записей	26-proslushivanie-zapisey.md
+6	Тегирование разговоров	27-tegirovanie-razgovorov.md
+6.1	Тематики	28-tematiki.md
+6.2	Создание и редактирование тематик	29-sozdanie-i-redaktirovanie-tematik.md
+6.2.1	Ключевые слова	30-klyuchevye-slova.md
+6.2.2	Расширенные настройки	31-rasshirennye-nastroyki.md
+6.2.3	Настройка уведомлений	32-nastroyka-uvedomleniy.md
+6.3	Советы по настройке тематик	33-sovety-po-nastroyke-tematik.md
+6.4	Примеры использования тематики	34-primery-ispolzovaniya-tematiki.md
+6.5	Предустановленные тематики	35-predustanovlennye-tematiki.md
+6.6	Заявки на улучшение качества распознавания	36-zayavki-na-uluchshenie-kachestva-raspozn.md
+6.7	Техническая тематика	37-tehnicheskaya-tematika.md
+6.8	ИИ Тематики	38-ii-tematiki.md
+7	Офлайн-скоринг	39-oflayn-skoring.md
+7.1	Офлайновые записи	40-oflaynovye-zapisi.md
+7.1.1	Избранные	41-izbrannye.md
+7.1.2	Настройки	42-nastroyki.md
+7.2	Подключенные каналы	43-podklyuchennye-kanaly.md
+7.2.1	Основные настройки	44-osnovnye-nastroyki.md
+7.2.2	Настройки FTP	45-nastroyki-ftp.md
+7.2.3	Настройки API	46-nastroyki-api.md
+7.2.4	Загрузить вручную	47-zagruzit-vruchnuyu.md
+8	Текстовые коммуникации	48-tekstovye-kommunikacii.md
+8.1	Список текстовых коммуникаций	49-spisok-tekstovyh-kommunikaciy.md
+8.2	Метки на осциллограмме разговора	50-metki-na-oscillogramme-razgovora.md
+9	Отчеты	51-otchety.md
+9.1	Расходы Речевой аналитики	52-rashody-rechevoy-analitiki.md
+9.2	Анализ сотрудников	53-analiz-sotrudnikov.md
+9.2.1	Блок фильтров	54-blok-filtrov.md
+9.2.2	Блок визуализации срабатывания тематик	55-blok-vizualizacii-srabatyvaniya-tematik.md
+9.2.3	Блок таблицы Разговоры, детализация	56-blok-tablicy-razgovory-detalizaciya.md
+9.2.4	Детализация разговоров	57-detalizaciya-razgovorov.md
+9.3	Анализ разговоров	58-analiz-razgovorov.md
+9.3.1	Блок фильтров	59-blok-filtrov.md
+9.3.2	Блок визуализаций	60-blok-vizualizaciy.md
+9.3.3	Блок таблицы	61-blok-tablicy.md
+9.3.4	Детализация	62-detalizaciya.md
+9.4	Анализ по чек-листам	63-analiz-po-chek-listam.md
+9.4.1	Конструктор чек-листов	64-konstruktor-chek-listov.md
+9.4.2	Статистика	65-statistika.md
+9.4.3	Правила подсчета статистики	66-pravila-podscheta-statistiki.md
+9.5	Ловец инсайтов	67-lovec-insaytov.md
+9.5.1	Блок параметров	68-blok-parametrov.md
+9.5.2	Блок результатов	69-blok-rezultatov.md
+9.6	Показатели отчетов	70-pokazateli-otchetov.md
+10	Роли и права доступа	71-roli-i-prava-dostupa.md
+11	Интеграция Речевой аналитики со сторонними ВАТС	72-integraciya-rechevoy-analitiki-so-storon.md
+11.1	Точка входа «Пассивный SIP»	73-tochka-vhoda-passivnyy-sip.md
+11.1.1	Подключение пассивного SIP	74-podklyuchenie-passivnogo-sip.md
+11.1.2	Создание сотрудника	75-sozdanie-sotrudnika.md
+11.2	Точка входа «Активный SIP»	76-tochka-vhoda-aktivnyy-sip.md
+11.2.1	Создание сотрудника	77-sozdanie-sotrudnika.md
+11.2.2	Подключение активного SIP	78-podklyuchenie-aktivnogo-sip.md
+11.3	Точка входа «DID MANGO OFFICE»	79-tochka-vhoda-did-mango-office.md
+11.3.1	Настройка схемы распределения звонков в Личном кабинете	80-nastroyka-shemy-raspredeleniya-zvonkov-v.md
+11.4	Точка входа «SIP Trunk»	81-tochka-vhoda-sip-trunk.md
+11.4	Вкладка Настройка	82-vkladka-nastroyka.md
+11.4	Вкладка Номера	83-vkladka-nomera.md
+11.4	Вкладка Телефония	84-vkladka-telefoniya.md
+11.4.1	Активация SIP Trunk в карточке сотрудника	85-aktivaciya-sip-trunk-v-kartochke-sotrudn.md
+11.4.2	Настройка схемы распределения звонков в Личном кабинете	86-nastroyka-shemy-raspredeleniya-zvonkov-v.md
+12	Подключение двухфакторной аутентификации	87-podklyuchenie-dvuhfaktornoy-autentifikac.md

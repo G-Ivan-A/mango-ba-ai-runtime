@@ -1,0 +1,104 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Начало работы	01-nachalo-raboty.md
+1.1	Регистрация нового пользователя	02-registraciya-novogo-polzovatelya.md
+1.2	Вход в систему	03-vhod-v-sistemu.md
+2	Главное окно программы	04-glavnoe-okno-programmy.md
+2.1	Управление статусом	05-upravlenie-statusom.md
+2.2	Пропущенные вызовы	06-propuschennye-vyzovy.md
+2.3	Очередь обращений	07-ochered-obrascheniy.md
+2.4	Панель показателей	08-panel-pokazateley.md
+2.5	Панель управления телефонией	09-panel-upravleniya-telefoniey.md
+2.6	Панель графика работы	10-panel-grafika-raboty.md
+3	Dashboard	11-dashboard.md
+3.1	Создание и настройка виджета	12-sozdanie-i-nastroyka-vidzheta.md
+3.2	Редактирование виджета	13-redaktirovanie-vidzheta.md
+3.3	Удаление виджета	14-udalenie-vidzheta.md
+3.4	Виджеты по умолчанию	15-vidzhety-po-umolchaniyu.md
+4	Обращения	16-obrascheniya.md
+4.1	Контроль обращений	17-kontrol-obrascheniy.md
+4.2	Автоматическое распределение обращений	18-avtomaticheskoe-raspredelenie-obrascheni.md
+4.3	Мои обращения	19-moi-obrascheniya.md
+4.4	Настройка автоматических действий	20-nastroyka-avtomaticheskih-deystviy.md
+4.5	История обращений	21-istoriya-obrascheniy.md
+5	Сделки	22-sdelki.md
+5.1	Сделки в работе	23-sdelki-v-rabote.md
+5.2	История сделок	24-istoriya-sdelok.md
+5.3	Воронка продаж	25-voronka-prodazh.md
+5.4	Настройка воронки продаж	26-nastroyka-voronki-prodazh.md
+5.5	Настройка автоматических действий	27-nastroyka-avtomaticheskih-deystviy.md
+5.6	Настройка пользовательских полей	28-nastroyka-polzovatelskih-poley.md
+5.7	Настройка причин отказа	29-nastroyka-prichin-otkaza.md
+6	Задачи	30-zadachi.md
+6.1	Календарь задач	31-kalendar-zadach.md
+6.2	Отчет по задачам	32-otchet-po-zadacham.md
+6.3	Список задач в верхней панели	33-spisok-zadach-v-verhney-paneli.md
+6.4	Создание задачи	34-sozdanie-zadachi.md
+6.5	Просмотр задач из других модулей	35-prosmotr-zadach-iz-drugih-moduley.md
+7	Сотрудники	36-sotrudniki.md
+7.1	Контроль сотрудников	37-kontrol-sotrudnikov.md
+7.2	Карточка рабочего дня	38-kartochka-rabochego-dnya.md
+7.3	Рабочее время сотрудника	39-rabochee-vremya-sotrudnika.md
+7.4	Производительность сотрудников	40-proizvoditelnost-sotrudnikov.md
+7.5	Производительность групп	41-proizvoditelnost-grupp.md
+7.6	Достижения сотрудников	42-dostizheniya-sotrudnikov.md
+8	План работы (WFM)	43-plan-raboty-wfm.md
+8.1	График работы	44-grafik-raboty.md
+8.2	Планирование входящих	45-planirovanie-vhodyaschih.md
+8.3	Отчеты	46-otchety.md
+8.4	Обмен сменами	47-obmen-smenami.md
+8.5	Настройки	48-nastroyki.md
+9	История вызовов	49-istoriya-vyzovov.md
+9.1	История вызовов	50-istoriya-vyzovov.md
+9.2	Обслуживание входящих вызовов	51-obsluzhivanie-vhodyaschih-vyzovov.md
+9.3	Пропущенные вызовы	52-propuschennye-vyzovy.md
+10	Клиенты	53-klienty.md
+10.1	Контакты (адресная книга)	54-kontakty-adresnaya-kniga.md
+10.2	Организации	55-organizacii.md
+10.3	Настройка полей	56-nastroyka-poley.md
+11	Исходящий обзвон	57-ishodyaschiy-obzvon.md
+11.1	Список кампаний	58-spisok-kampaniy.md
+11.2	Настройка полей	59-nastroyka-poley.md
+11.3	Настройка автоматических действий	60-nastroyka-avtomaticheskih-deystviy.md
+11.4	Добавление кампании	61-dobavlenie-kampanii.md
+11.5	Карточка кампании	62-kartochka-kampanii.md
+11.6	Карточка вызова	63-kartochka-vyzova.md
+12	Скрипты	64-skripty.md
+12.1	Список скриптов	65-spisok-skriptov.md
+12.2	Создание, импорт, экспорт скрипта	66-sozdanie-import-eksport-skripta.md
+12.3	Статистика	67-statistika.md
+13	Внутреннее общение	68-vnutrennee-obschenie.md
+13.1	Сотрудники	69-sotrudniki.md
+13.2	Комнаты конференций	70-komnaty-konferenciy.md
+13.3	Чаты	71-chaty.md
+13.4	Видеоконференции	72-videokonferencii.md
+14	Текстовые рассылки	73-tekstovye-rassylki.md
+14.1	Текстовые рассылки	74-tekstovye-rassylki.md
+14.2	Карточка кампании	75-kartochka-kampanii.md
+14.3	Настройки полей	76-nastroyki-poley.md
+15	Бизнес-аналитика	77-biznes-analitika.md
+15.1	Группа отчетов "Продажи"	78-gruppa-otchetov-prodazhi.md
+15.2	Группа отчетов "Обслуживание"	79-gruppa-otchetov-obsluzhivanie.md
+16	Речевая аналитика	80-rechevaya-analitika.md
+16.1	Отчеты речевой аналитики	81-otchety-rechevoy-analitiki.md
+16.2	Тегирование разговоров в Речевoй аналитике	82-tegirovanie-razgovorov-v-rechevoy-analit.md
+16.3	Настройки речевoй аналитики	83-nastroyki-rechevoy-analitiki.md
+16.4	Подключенные каналы	84-podklyuchennye-kanaly.md
+16.5	Заявки на улучшение качества распознавания	85-zayavki-na-uluchshenie-kachestva-raspozn.md
+16.6	Текстовые коммуникации	86-tekstovye-kommunikacii.md
+16.7	ИИ Помощники	87-ii-pomoschniki.md
+17	Приложение 1. Управление правами доступа	88-prilozhenie-1-upravlenie-pravami-dostupa.md
+17.1	Роли и права доступа ЛК ВАТС	89-roli-i-prava-dostupa-lk-vats.md
+17.2	Вкладка ВАТС	90-vkladka-vats.md
+17.3	Вкладка "Обработка звонков"	91-vkladka-obrabotka-zvonkov.md
+17.4	Вкладка "Настройка АТС"	92-vkladka-nastroyka-ats.md
+17.5	Вкладка "Финансы"	93-vkladka-finansy.md
+17.6	Вкладка "Смена версии"	94-vkladka-smena-versii.md
+17.7	Вкладка "Виджеты"	95-vkladka-vidzhety.md
+18	Приложение 2: Роли и права доступа Контакт-центра	96-prilozhenie-2-roli-i-prava-dostupa-konta.md
+19	Приложение 3: Отчеты об ошибках	97-prilozhenie-3-otchety-ob-oshibkah.md
+20	Приложение 4: Ассоциация со ссылками «callto» и «tel»	98-prilozhenie-4-associaciya-so-ssylkami-ca.md
+21	Приложение 5: Блокировка Контакт-центра	99-prilozhenie-5-blokirovka-kontakt-centra.md
+22	Приложение 6: Дополнительные возможности Контакт-Центра	100-prilozhenie-6-dopolnitelnye-vozmozhnosti.md
+23	Приложение 7. Взаимодействие КЦ со сторонними программами	101-prilozhenie-7-vzaimodeystvie-kc-so-storo.md
+24	Приложение 8. Устранение неполадок	102-prilozhenie-8-ustranenie-nepoladok.md

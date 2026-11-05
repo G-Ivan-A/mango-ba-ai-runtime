@@ -1,0 +1,144 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	О MTalker	01-o-mtalker.md
+1.1	Обзор	02-obzor.md
+1.2	Как использовать MTalker	03-kak-ispolzovat-mtalker.md
+1.3	Навигация	04-navigaciya.md
+1.4	Фоновый режим работы MTalker	05-fonovyy-rezhim-raboty-mtalker.md
+1.5	Не удаётся войти в MTalker или как изменить или сбросить пароль	06-ne-udaetsya-voyti-v-mtalker-ili-kak-izme.md
+1.6	Создать новый пароль	07-sozdat-novyy-parol.md
+1.7	Просмотр версии MTalker	08-prosmotr-versii-mtalker.md
+1.8	Вызов справки о MTalker	09-vyzov-spravki-o-mtalker.md
+2	Начало работы	10-nachalo-raboty.md
+2.1	Установка MTalker на ПК	11-ustanovka-mtalker-na-pk.md
+2.2	Как создать аккаунт	12-kak-sozdat-akkaunt.md
+2.3	Первый запуск работы MTalker. Проверка настроек	13-pervyy-zapusk-raboty-mtalker-proverka-na.md
+2.4	Удаление MTalker	14-udalenie-mtalker.md
+3	Вход и выход	15-vhod-i-vyhod.md
+3.1	Вход по логину и паролю	16-vhod-po-loginu-i-parolyu.md
+3.2	Создать новый пароль	17-sozdat-novyy-parol.md
+3.3	Вход при помощи короткого кода (без пароля)	18-vhod-pri-pomoschi-korotkogo-koda-bez-par.md
+3.4	Вход по данным Контакт-Центра MANGO OFFICE	19-vhod-po-dannym-kontakt-centra-mango-offi.md
+3.5	Вход через браузер	20-vhod-cherez-brauzer.md
+3.6	Как выйти из аккаунта из MTalker	21-kak-vyyti-iz-akkaunta-iz-mtalker.md
+4	Как начать переписку с одним или несколькими собеседниками	22-kak-nachat-perepisku-s-odnim-ili-neskolk.md
+4.1	О чатах в MTalker	23-o-chatah-v-mtalker.md
+4.2	Как начать чат “один-на-один”	24-kak-nachat-chat-odin-na-odin.md
+4.3	Исходящие сообщения	25-ishodyaschie-soobscheniya.md
+4.4	Как отправить файл или смс, или факс	26-kak-otpravit-fayl-ili-sms-ili-faks.md
+4.5	Голосовое сообщение	27-golosovoe-soobschenie.md
+4.6	Входящие сообщения	28-vhodyaschie-soobscheniya.md
+4.7	Как открывать входящие файлы и скачивать их	29-kak-otkryvat-vhodyaschie-fayly-i-skachiv.md
+4.8	Реакции (эмоджи) на сообщение	30-reakcii-emodzhi-na-soobschenie.md
+4.9	Как форматировать сообщения	31-kak-formatirovat-soobscheniya.md
+4.10	Поиск сообщений	32-poisk-soobscheniy.md
+4.11	Копирование, пересылка и удаление сообщений	33-kopirovanie-peresylka-i-udalenie-soobsch.md
+4.12	Цитирование сообщений	34-citirovanie-soobscheniy.md
+4.13	Посмотреть контактные данные собеседника	35-posmotret-kontaktnye-dannye-sobesednika.md
+4.14	Посмотреть историю сообщений	36-posmotret-istoriyu-soobscheniy.md
+4.15	Очистить вашу историю сообщений	37-ochistit-vashu-istoriyu-soobscheniy.md
+4.16	Закрепление и открепление чата	38-zakreplenie-i-otkreplenie-chata.md
+4.17	Работа с техподдержкой	39-rabota-s-tehpodderzhkoy.md
+5	Как создать общий чат или канал и управлять им 4608	40-kak-sozdat-obschiy-chat-ili-kanal-i-upra.md
+5.1	Об общих чатах и каналах	41-ob-obschih-chatah-i-kanalah.md
+5.2	Как создать общий чат или канал	42-kak-sozdat-obschiy-chat-ili-kanal.md
+5.3	Публичные чаты и каналы	43-publichnye-chaty-i-kanaly.md
+5.4	Добавить участника	44-dobavit-uchastnika.md
+5.5	Пригласить по ссылке нового участника	45-priglasit-po-ssylke-novogo-uchastnika.md
+5.6	Как присоединиться по ссылке	46-kak-prisoedinitsya-po-ssylke.md
+5.7	Отображение списка участников	47-otobrazhenie-spiska-uchastnikov.md
+5.8	Выдача/снятие прав администратора	48-vydacha-snyatie-prav-administratora.md
+5.9	Быстрый переход к карточке контакта	49-bystryy-perehod-k-kartochke-kontakta.md
+5.10	Как переименовать чат / канал	50-kak-pereimenovat-chat-kanal.md
+5.11	Настройка видимости истории чата для новых участников	51-nastroyka-vidimosti-istorii-chata-dlya-n.md
+5.12	Настройка уведомлений видимости истории чата	52-nastroyka-uvedomleniy-vidimosti-istorii.md
+5.13	Удалить участника	53-udalit-uchastnika.md
+5.14	Выход из общего чата	54-vyhod-iz-obschego-chata.md
+5.15	Выход из канала	55-vyhod-iz-kanala.md
+6	Как позвонить или принять звонок	56-kak-pozvonit-ili-prinyat-zvonok.md
+6.1	Как позвонить?	57-kak-pozvonit.md
+6.2	Как принять входящий аудио звонок?	58-kak-prinyat-vhodyaschiy-audio-zvonok.md
+6.3	Заказ обратного звонка	59-zakaz-obratnogo-zvonka.md
+6.4	Как добавить третьего участника в звонок	60-kak-dobavit-tretego-uchastnika-v-zvonok.md
+6.5	Как позвонить по второй линии	61-kak-pozvonit-po-vtoroy-linii.md
+6.6	Удержание вызова	62-uderzhanie-vyzova.md
+6.7	Перевод вызова на другого сотрудника	63-perevod-vyzova-na-drugogo-sotrudnika.md
+6.8	Как отправить сообщение в чат, смс или факс участнику звонка	64-kak-otpravit-soobschenie-v-chat-sms-ili.md
+6.9	Регулировка громкости динамиков и микрофона во время звонка	65-regulirovka-gromkosti-dinamikov-i-mikrof.md
+6.10	Как выключить микрофон	66-kak-vyklyuchit-mikrofon.md
+6.11	Запись разговора. Общие сведения	67-zapis-razgovora-obschie-svedeniya.md
+6.12	Сообщение “Внимание! Звонок был отправлен на номер…”	68-soobschenie-vnimanie-zvonok-byl-otpravle.md
+6.13	Завершение вызова	69-zavershenie-vyzova.md
+6.14	Во время звонка. Общее описание окна проведения сеанса связи	70-vo-vremya-zvonka-obschee-opisanie-okna-p.md
+7	Как сделать видеоконференцию	71-kak-sdelat-videokonferenciyu.md
+7.1	О видеоконференция в MTalker	72-o-videokonferenciya-v-mtalker.md
+7.2	Онбординг видеоконференций	73-onbording-videokonferenciy.md
+7.3	Расшифровка и конспектирование записей встреч	74-rasshifrovka-i-konspektirovanie-zapisey.md
+7.4	О роли администратора видеоконференции	75-o-roli-administratora-videokonferencii.md
+7.5	Как посмотреть состав участников видеоконференции	76-kak-posmotret-sostav-uchastnikov-videoko.md
+7.6	Как позвонить с видео абоненту или в групповой чат	77-kak-pozvonit-s-video-abonentu-ili-v-grup.md
+7.7	Как принять входящий видео звонок	78-kak-prinyat-vhodyaschiy-video-zvonok.md
+7.8	Как добавить или удалить сотрудников и гостей видеоконференции	79-kak-dobavit-ili-udalit-sotrudnikov-i-gos.md
+7.9	Как присоединиться по ссылке к видеоконференции	80-kak-prisoedinitsya-po-ssylke-k-videokonf.md
+7.10	Как создать видеоконференцию и пригласить участников	81-kak-sozdat-videokonferenciyu-i-priglasit.md
+7.11	Как выйти из видеоконференции	82-kak-vyyti-iz-videokonferencii.md
+7.12	Как настроить собственные камеру и микрофон	83-kak-nastroit-sobstvennye-kameru-i-mikrof.md
+7.13	Включение демонстрации экрана	84-vklyuchenie-demonstracii-ekrana.md
+7.14	Как изменить фоновые эффекты	85-kak-izmenit-fonovye-effekty.md
+7.15	Поднять руку	86-podnyat-ruku.md
+7.16	Изменить раскладку отображения окон участников	87-izmenit-raskladku-otobrazheniya-okon-uch.md
+7.17	Ограничения видеоконференции	88-ogranicheniya-videokonferencii.md
+7.18	Чат во время видеоконференции	89-chat-vo-vremya-videokonferencii.md
+8	Конференции (комнаты)	90-konferencii-komnaty.md
+8.1	Общее	91-obschee.md
+8.2	Работа с комнатами	92-rabota-s-komnatami.md
+8.3	Как начать аудио конференцию	93-kak-nachat-audio-konferenciyu.md
+8.4	Работа с видеоконференцией (ВКС)	94-rabota-s-videokonferenciey-vks.md
+9	Контакты	95-kontakty.md
+9.1	Общие сведения	96-obschie-svedeniya.md
+9.2	Поиск контактов по произвольному параметру	97-poisk-kontaktov-po-proizvolnomu-parametr.md
+9.3	Группы контактов. Фильтры	98-gruppy-kontaktov-filtry.md
+9.4	Как посмотреть данные контакта и историю вызовов	99-kak-posmotret-dannye-kontakta-i-istoriyu.md
+9.5	Личные контакты	100-lichnye-kontakty.md
+9.6	Список “Избранное”	101-spisok-izbrannoe.md
+10	История вызовов	102-istoriya-vyzovov.md
+10.1	Общие сведения	103-obschie-svedeniya.md
+10.2	Поиск записи в истории вызовов	104-poisk-zapisi-v-istorii-vyzovov.md
+10.3	Вывод на экран записи о звонке	105-vyvod-na-ekran-zapisi-o-zvonke.md
+10.4	Обратная связь. Как связаться с абонентом, указанным в истории вызовов	106-obratnaya-svyaz-kak-svyazatsya-s-abonent.md
+10.5	Создать контакт	107-sozdat-kontakt.md
+10.6	Запись разговора	108-zapis-razgovora.md
+10.7	Удаление записи из истории вызовов	109-udalenie-zapisi-iz-istorii-vyzovov.md
+11	Автосекретарь	110-avtosekretar.md
+11.1	Общее	111-obschee.md
+11.2	Как настроить правило	112-kak-nastroit-pravilo.md
+12	СМС-рассылка	113-sms-rassylka.md
+12.1	Как создать рассылку	114-kak-sozdat-rassylku.md
+12.2	Как редактировать или удалить рассылку	115-kak-redaktirovat-ili-udalit-rassylku.md
+13	Раздел “Обращения”. Общие сведения	116-razdel-obrascheniya-obschie-svedeniya.md
+13.1	Общие сведения	117-obschie-svedeniya.md
+13.2	Обращения в Манго Диалоги	118-obrascheniya-v-mango-dialogi.md
+13.3	Обращения в техническую поддержку	119-obrascheniya-v-tehnicheskuyu-podderzhku.md
+14	Управление своим профилем пользователя	120-upravlenie-svoim-profilem-polzovatelya.md
+14.1	Как изменить статус или отключить показ уведомлений из всех чатов и	121-kak-izmenit-status-ili-otklyuchit-pokaz.md
+14.2	Как сменить или удалить аватар	122-kak-smenit-ili-udalit-avatar.md
+14.3	Как отключить функцию “Запомнить меня”?	123-kak-otklyuchit-funkciyu-zapomnit-menya.md
+15	Автоматический набор номера. Автодозвон	124-avtomaticheskiy-nabor-nomera-avtodozvon.md
+15.1	Общие сведения	125-obschie-svedeniya.md
+15.2	Включение	126-vklyuchenie.md
+16	Настройки MTalker	127-nastroyki-mtalker.md
+16.1	Как открыть. Обобщенно	128-kak-otkryt-obobschenno.md
+16.2	Управление MTalker	129-upravlenie-mtalker.md
+16.3	Как включить автоматический переход в фоновый режим при автозапуске	130-kak-vklyuchit-avtomaticheskiy-perehod-v.md
+16.4	Файлы и загрузки	131-fayly-i-zagruzki.md
+16.5	Как обновить MTalker	132-kak-obnovit-mtalker.md
+16.6	Персонализация	133-personalizaciya.md
+16.7	Видео	134-video.md
+16.8	Звук	135-zvuk.md
+16.9	Использовать внешний телефон	136-ispolzovat-vneshniy-telefon.md
+16.10	Технические настройки	137-tehnicheskie-nastroyki.md
+16.11	Кодеки	138-kodeki.md
+16.12	Сессии пользователя	139-sessii-polzovatelya.md
+16.13	Как посмотреть свой номер SIP-ID аккаунт	140-kak-posmotret-svoy-nomer-sip-id-akkaunt.md
+16.14	Как посмотреть свой исходящий номер	141-kak-posmotret-svoy-ishodyaschiy-nomer.md
+16.15	Как посмотреть настройку распределения звонков на ваш аккаунт	142-kak-posmotret-nastroyku-raspredeleniya-z.md

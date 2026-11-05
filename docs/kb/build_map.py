@@ -1,4 +1,4 @@
-"""Build the compact document and section navigation maps from KB indexes.
+"""Build the compact document and section navigation maps and section TOCs from KB indexes.
 
 Run ``python docs/kb/build_map.py`` after adding or replacing a manual.
 Run ``python docs/kb/build_map.py --check`` to verify committed maps.
@@ -15,6 +15,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[2]
 KB = ROOT / "docs/kb"
 SECTION_LINK = re.compile(r"\[sections/([^]\n]+)\]\(sections/([^)]*)\)")
+TOC_FIELDS = ("section", "title", "file")
 
 # Search words are routing hints, not product facts. Product IDs come from the
 # frontmatter of each index and must exist in taxonomy/products.yaml#classes.
@@ -73,7 +74,7 @@ def section_rows(index_text, directory):
         file_path = directory / "sections" / match.group(2)
         if not file_path.is_file():
             raise ValueError(f"missing section: {file_path}")
-        meta = frontmatter(file_path.read_text())
+        meta = frontmatter(file_path.read_text(encoding="utf-8"))
         hint = "|".join(after[4:-1]).strip()
         rows.append(
             {
@@ -93,8 +94,25 @@ def section_rows(index_text, directory):
     return rows
 
 
+def toc_text(rows):
+    """Render one tab-separated line per section, in map order and without quoting.
+
+    A section map of a large manual does not fit into one file read of a chat
+    model, and the model has no file search; the TOC always fits (RFC-RT-001, РТ-7).
+    """
+    lines = ["\t".join(TOC_FIELDS)]
+    for row in rows:
+        section, title = (row[field].replace("\t", " ") for field in ("section", "title"))
+        lines.append(f"{section}\t{title}\t{Path(row['path']).name}")
+    return "\n".join(lines) + "\n"
+
+
+def json_text(data):
+    return json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+
+
 def build():
-    taxonomy = (ROOT / "taxonomy/products.yaml").read_text()
+    taxonomy = (ROOT / "taxonomy/products.yaml").read_text(encoding="utf-8")
     class_ids = set(re.findall(r"\{id: ([a-z-]+), name:", taxonomy))
     documents = []
     outputs = {}
@@ -102,7 +120,8 @@ def build():
         directory = index.parent
         if not (directory / "sections").is_dir():
             continue  # multi-document package index; leaf indexes follow
-        meta = frontmatter(index.read_text())
+        index_text = index.read_text(encoding="utf-8")
+        meta = frontmatter(index_text)
         product_ids = meta.get("product_ids")
         if meta.get("product_taxonomy_ref") != "taxonomy/products.yaml#classes":
             raise ValueError(f"missing product taxonomy reference: {index}")
@@ -111,14 +130,18 @@ def build():
         relative = directory.relative_to(KB)
         document_id = "--".join(relative.parts)
         group_id = relative.parts[0]
-        rows = section_rows(index.read_text(), directory)
+        rows = section_rows(index_text, directory)
         map_path = KB / "maps" / f"{document_id}.json"
-        outputs[map_path] = {
-            "document_id": document_id,
-            "index": index.relative_to(ROOT).as_posix(),
-            "product_ids": product_ids,
-            "sections": rows,
-        }
+        toc_path = KB / "maps" / f"{document_id}.toc.tsv"
+        outputs[map_path] = json_text(
+            {
+                "document_id": document_id,
+                "index": index.relative_to(ROOT).as_posix(),
+                "product_ids": product_ids,
+                "sections": rows,
+            }
+        )
+        outputs[toc_path] = toc_text(rows)
         documents.append(
             {
                 "id": document_id,
@@ -129,25 +152,28 @@ def build():
                 "aliases": ALIASES.get(group_id, []),
                 "index": index.relative_to(ROOT).as_posix(),
                 "sections_map": map_path.relative_to(ROOT).as_posix(),
+                "sections_toc": toc_path.relative_to(ROOT).as_posix(),
                 "section_count": len(rows),
             }
         )
-    outputs[KB / "MAP.json"] = {
-        "schema_version": 1,
-        "taxonomy_ref": "taxonomy/products.yaml#classes",
-        "generated_by": "docs/kb/build_map.py",
-        "navigation": {
-            "select_document": "Match question terms and known product class against title, aliases and product_ids; open only the selected sections_map.",
-            "select_section": "Match the question against section title and hint; open the exact path of the best matching section, then adjacent rows only if context is needed.",
-            "retrieval_if_insufficient": [
-                "Search other sections in the same document map.",
-                "Search other documents in the same group_id.",
-                "Search documents with overlapping product_ids, then all document titles and aliases.",
-                "If local KB still lacks evidence, follow taxonomy/source-tiers.yaml and record the missing source or question.",
-            ],
-        },
-        "documents": documents,
-    }
+    outputs[KB / "MAP.json"] = json_text(
+        {
+            "schema_version": 1,
+            "taxonomy_ref": "taxonomy/products.yaml#classes",
+            "generated_by": "docs/kb/build_map.py",
+            "navigation": {
+                "select_document": "Match question terms and known product class against title, aliases and product_ids; open only the selected sections_toc.",
+                "select_section": "Open sections_toc first: one read gives the whole section list as tab-separated section, title and file, without quoting. Choose sections by title and open each file at sections/<file> next to the document index, then adjacent rows only if context is needed. Open a row of sections_map only when its hint, pages or tokens are needed.",
+                "retrieval_if_insufficient": [
+                    "Search other rows of the same sections_toc.",
+                    "Search other documents in the same group_id.",
+                    "Search documents with overlapping product_ids, then all document titles and aliases.",
+                    "If local KB still lacks evidence, follow taxonomy/source-tiers.yaml and record the missing source or question.",
+                ],
+            },
+            "documents": documents,
+        }
+    )
     return outputs
 
 
@@ -157,21 +183,22 @@ def main():
     args = parser.parse_args()
     outputs = build()
     stale = []
-    for path, data in outputs.items():
-        serialized = json.dumps(data, ensure_ascii=False, indent=2) + "\n"
+    for path, text in outputs.items():
+        content = text.encode("utf-8")
         if args.check:
-            if not path.is_file() or path.read_text() != serialized:
+            if not path.is_file() or path.read_bytes() != content:
                 stale.append(str(path.relative_to(ROOT)))
         else:
             path.parent.mkdir(parents=True, exist_ok=True)
-            path.write_text(serialized)
+            path.write_bytes(content)
     if args.check:
-        unexpected = set((KB / "maps").glob("*.json")) - set(outputs)
+        unexpected = set((KB / "maps").glob("*")) - set(outputs)
         stale.extend(str(path.relative_to(ROOT)) for path in sorted(unexpected))
     if stale:
-        print("Stale KB maps: " + ", ".join(stale), file=sys.stderr)
+        print("Stale KB maps or section TOCs: " + ", ".join(stale), file=sys.stderr)
         return 1
-    print(f"{'Checked' if args.check else 'Built'} {len(outputs) - 1} document maps and MAP.json")
+    documents = (len(outputs) - 1) // 2
+    print(f"{'Checked' if args.check else 'Built'} {documents} document maps, {documents} section TOCs and MAP.json")
     return 0
 
 

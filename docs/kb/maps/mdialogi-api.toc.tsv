@@ -1,0 +1,71 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Определения и сокращения	01-opredeleniya-i-sokrascheniya.md
+1	О Манго Диалогах	02-o-mango-dialogah.md
+1.1	Общее	03-obschee.md
+1.2	Поддерживаемые каналы коммуникации	04-podderzhivaemye-kanaly-kommunikacii.md
+1.3	Принцип текстовых коммуникаций с Клиентом при помощи Манго Диалогов	05-princip-tekstovyh-kommunikaciy-s-kliento.md
+1.4	Основные сущности	06-osnovnye-suschnosti.md
+2	Начало работы с API	07-nachalo-raboty-s-api.md
+2.1	Введение в API	08-vvedenie-v-api.md
+2.2	Несколько шагов и можно приступать к работе	09-neskolko-shagov-i-mozhno-pristupat-k-rab.md
+2.3	Общие положения о взаимодействии систем	10-obschie-polozheniya-o-vzaimodeystvii-sis.md
+2.3.1	Модель авторизации	11-model-avtorizacii.md
+2.3.2	Модель взаимодействия	12-model-vzaimodeystviya.md
+2.3.3	Виды запросов	13-vidy-zaprosov.md
+2.3.4	Ограничения	14-ogranicheniya.md
+2.3.5	Лимиты количества запросов к API	15-limity-kolichestva-zaprosov-k-api.md
+2.3.6	Разрешенные IP-адреса	16-razreshennye-ip-adresa.md
+2.3.7	Об электронной подписи запросов	17-ob-elektronnoy-podpisi-zaprosov.md
+2.3.7	Общее	18-obschee.md
+2.3.7	vpbx_api_salt	19-vpbx-api-salt.md
+2.4	Объекты данных	20-obekty-dannyh.md
+2.4.1	Объект Widget	21-obekt-widget.md
+2.4.2	Объект Сhannel	22-obekt-shannel.md
+2.4.3	Объект SocialUser	23-obekt-socialuser.md
+2.4.4	Объект Сhat	24-obekt-shat.md
+2.4.5	Объект Session	25-obekt-session.md
+2.4.6	Объект Message	26-obekt-message.md
+2.4.7	Объект Button	27-obekt-button.md
+3	Руководство по API	28-rukovodstvo-po-api.md
+3.1	Обмен сообщениями в WhatsApp	29-obmen-soobscheniyami-v-whatsapp.md
+3.1.1	Общее	30-obschee.md
+3.1.2	Доступ к методам	31-dostup-k-metodam.md
+3.1.3	Получение списка HSM-шаблонов	32-poluchenie-spiska-hsm-shablonov.md
+3.1.4	Отправление HSM	33-otpravlenie-hsm.md
+3.2	API управления сессиями	34-api-upravleniya-sessiyami.md
+3.2.1	Создать новую сессию	35-sozdat-novuyu-sessiyu.md
+3.2.2	Взять сессию в работу	36-vzyat-sessiyu-v-rabotu.md
+3.2.3	Перевод сессии на другого сотрудника или группу	37-perevod-sessii-na-drugogo-sotrudnika-ili.md
+3.2.4	Закрыть сессию	38-zakryt-sessiyu.md
+3.2.5	Отправить сообщение оператора к Клиенту	39-otpravit-soobschenie-operatora-k-klientu.md
+3.2.6	Загрузка истории чата	40-zagruzka-istorii-chata.md
+3.3	API Realtime (вебхуки)	41-api-realtime-vebhuki.md
+3.3.1	Сессия в состоянии ожидания	42-sessiya-v-sostoyanii-ozhidaniya.md
+3.3.2	Сессия взята в работу	43-sessiya-vzyata-v-rabotu.md
+3.3.3	Сессия закрыта	44-sessiya-zakryta.md
+3.3.4	HSM-сообщение оператора прочитано клиентом	45-hsm-soobschenie-operatora-prochitano-kli.md
+3.3.5	Сообщение оператора не доставлено клиенту	46-soobschenie-operatora-ne-dostavleno-klie.md
+3.3.6	Сообщение оператора доставлено клиенту	47-soobschenie-operatora-dostavleno-klientu.md
+3.3.7	Сообщение оператора прочитано клиентом	48-soobschenie-operatora-prochitano-kliento.md
+3.3.8	Новое сообщение в чате	49-novoe-soobschenie-v-chate.md
+4	Коды ошибок	50-kody-oshibok.md
+4.1	Важная информация	51-vazhnaya-informaciya.md
+4.2	Возможные коды ошибок API	52-vozmozhnye-kody-oshibok-api.md
+4.2.1	Коды ошибок ответа API	53-kody-oshibok-otveta-api.md
+4.2.2	Коды ошибок доставки сообщений	54-kody-oshibok-dostavki-soobscheniy.md
+4.2.3	Обработка неизвестных ошибок	55-obrabotka-neizvestnyh-oshibok.md
+4.2.4	Примечания	56-primechaniya.md
+5	Примеры использования API	57-primery-ispolzovaniya-api.md
+5.1	Прием и обработка обращений Клиента	58-priem-i-obrabotka-obrascheniy-klienta.md
+5.2	Оператор обращается к Клиенту	59-operator-obraschaetsya-k-klientu.md
+5.3	Перевод обращения на другого оператора	60-perevod-obrascheniya-na-drugogo-operator.md
+6	Устаревшие методы API	61-ustarevshie-metody-api.md
+6.1	Отправление каскада сообщений через WhatsApp и SMS	62-otpravlenie-kaskada-soobscheniy-cherez-w.md
+6.1.1	Правила работы	63-pravila-raboty.md
+6.1.2	Ограничения	64-ogranicheniya.md
+6.1.3	Описание запроса	65-opisanie-zaprosa.md
+6.1.4	Получить список виджетов	66-poluchit-spisok-vidzhetov.md
+6.1.5	Получить список активных сессий	67-poluchit-spisok-aktivnyh-sessiy.md
+6.2	Получение статусов отправленных HSM-сообщений	68-poluchenie-statusov-otpravlennyh-hsm-soo.md
+—	История документа	69-istoriya-dokumenta.md

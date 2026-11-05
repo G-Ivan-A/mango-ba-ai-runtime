@@ -1,0 +1,128 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Начало работы с интеграцией	01-nachalo-raboty-s-integraciey.md
+1	Обзор	02-obzor.md
+1	Важная информация	03-vazhnaya-informaciya.md
+1	Подготовка	04-podgotovka.md
+1	Порядок действий	05-poryadok-deystviy.md
+1	Шаг 1. Подключение Виртуальной АТС MANGO OFFICE	06-shag-1-podklyuchenie-virtualnoy-ats-mang.md
+1	Шаг 2. Установка софтфона Mango Talker	07-shag-2-ustanovka-softfona-mango-talker.md
+1	Шаг 3. Установка приложения интеграции в BPMSoft	08-shag-3-ustanovka-prilozheniya-integracii.md
+1	Установка приложения	09-ustanovka-prilozheniya.md
+1	Установка системных настроек	10-ustanovka-sistemnyh-nastroek.md
+1	Шаг 4. Настройка интеграции в Личном кабинете MANGO OFFICE	11-shag-4-nastroyka-integracii-v-lichnom-ka.md
+1	Установка и базовые настройки	12-ustanovka-i-bazovye-nastroyki.md
+1	Настойка подключения к BPMSoft	13-nastoyka-podklyucheniya-k-bpmsoft.md
+1	Настройка соответствия внутренних номеров сотрудников	14-nastroyka-sootvetstviya-vnutrennih-nomer.md
+1	Общее	15-obschee.md
+1	Как настроить сопоставление сотрудников	16-kak-nastroit-sopostavlenie-sotrudnikov.md
+2	Дополнительные настройки интеграции	17-dopolnitelnye-nastroyki-integracii.md
+2.1	Обработка звонков	18-obrabotka-zvonkov.md
+2.1	Как настроить длительность успешно принятых и дозвонившихся	19-kak-nastroit-dlitelnost-uspeshno-prinyat.md
+2.1	Создавать контакт / контрагента / лид при звонках с новых номеров	20-sozdavat-kontakt-kontragenta-lid-pri-zvo.md
+2.1	Ответственный при пропущенных звонках в группу	21-otvetstvennyy-pri-propuschennyh-zvonkah.md
+2.1	Флаг “Фиксировать пропущенные в IVR”	22-flag-fiksirovat-propuschennye-v-ivr.md
+2.1	Загружать постзвонковую оценку	23-zagruzhat-postzvonkovuyu-ocenku.md
+2.1	Обзор	24-obzor.md
+2.1	Требования	25-trebovaniya.md
+2.1	Как подключить	26-kak-podklyuchit.md
+2.2	Обработка повторных входящих вызовов	27-obrabotka-povtornyh-vhodyaschih-vyzovov.md
+2.2	Создать лид	28-sozdat-lid.md
+2.2	Сохранение данных Коллтрекинга MANGO OFFICE	29-sohranenie-dannyh-kolltrekinga-mango-off.md
+2.2	Обзор	30-obzor.md
+2.2	Как включить или выключить сохранение данных коллтрекинга	31-kak-vklyuchit-ili-vyklyuchit-sohranenie.md
+2.2	Как посмотреть данные коллтрекинга в BPMSoft	32-kak-posmotret-dannye-kolltrekinga-v-bpms.md
+2.2	Умные правила распределения входящих звонков	33-umnye-pravila-raspredeleniya-vhodyaschih.md
+2.2	Обзор	34-obzor.md
+2.2	Как создать и настроить умные правила	35-kak-sozdat-i-nastroit-umnye-pravila.md
+2.2	Примеры настройки умного алгоритма распределения	36-primery-nastroyki-umnogo-algoritma-raspr.md
+2.3	Обработка исходящих звонков	37-obrabotka-ishodyaschih-zvonkov.md
+2.3	Исходящий звонок по клику из BPMSoft	38-ishodyaschiy-zvonok-po-kliku-iz-bpmsoft.md
+2.4	Дополнительные настройки интеграции	39-dopolnitelnye-nastroyki-integracii.md
+2.4	Сохранение данных речевой аналитики	40-sohranenie-dannyh-rechevoy-analitiki.md
+2.4	Перед началом работы	41-pered-nachalom-raboty.md
+2.4	Сохранение тематик разговоров	42-sohranenie-tematik-razgovorov.md
+2.4	Сохранение текстов Речевой аналитики	43-sohranenie-tekstov-rechevoy-analitiki.md
+2.4	Общие сведения	44-obschie-svedeniya.md
+2.4	Как настроить	45-kak-nastroit.md
+2.4	Как посмотреть распознанный текст	46-kak-posmotret-raspoznannyy-tekst.md
+2.4	Общие сведения	47-obschie-svedeniya.md
+2.4	Как включить сохранение резюме разговора	48-kak-vklyuchit-sohranenie-rezyume-razgovo.md
+2.4	Как работает формирование резюме	49-kak-rabotaet-formirovanie-rezyume.md
+2.4	Как посмотреть резюме разговора	50-kak-posmotret-rezyume-razgovora.md
+2.4	Использование ВКС MANGO TALKER	51-ispolzovanie-vks-mango-talker.md
+2.4	Как включить использование ВКС	52-kak-vklyuchit-ispolzovanie-vks.md
+2.4	Как работать с видеоконференцией в карточке контакта	53-kak-rabotat-s-videokonferenciey-v-kartoc.md
+2.4	Результаты видео-встречи	54-rezultaty-video-vstrechi.md
+2.4	Загрузка отсутствующих в CRM звонков	55-zagruzka-otsutstvuyuschih-v-crm-zvonkov.md
+2.4	Обзор	56-obzor.md
+2.4	Как включить	57-kak-vklyuchit.md
+2.4	Отключить работу с лидами	58-otklyuchit-rabotu-s-lidami.md
+2.4	Обзор	59-obzor.md
+2.4	Как включить	60-kak-vklyuchit.md
+2.4	Использовать статусы Контакт-Центра	61-ispolzovat-statusy-kontakt-centra.md
+2.4	Обзор	62-obzor.md
+2.4	Требования	63-trebovaniya.md
+2.4	Статусы Контакт-центра в интерфейсе BPMSoft	64-statusy-kontakt-centra-v-interfeyse-bpms.md
+2.4	Как включить настройку “Использовать статусы Контакт-Центра”	65-kak-vklyuchit-nastroyku-ispolzovat-statu.md
+2.4	Ручная привязка звонка к сущностям	66-ruchnaya-privyazka-zvonka-k-suschnostyam.md
+2.4	Обзор	67-obzor.md
+2.4	Как включить	68-kak-vklyuchit.md
+2.4	Привязка звонка к сущности вручную	69-privyazka-zvonka-k-suschnosti-vruchnuyu.md
+2.5	Настройка действий в зависимости от роли	70-nastroyka-deystviy-v-zavisimosti-ot-roli.md
+2.5	Общее	71-obschee.md
+2.5	Назначение	72-naznachenie.md
+2.5	Просмотр примененных правил в карточке звонка	73-prosmotr-primenennyh-pravil-v-kartochke.md
+2.5	Ограничения	74-ogranicheniya.md
+2.5	Тестовые правила	75-testovye-pravila.md
+2.5	Как открыть настройку	76-kak-otkryt-nastroyku.md
+2.5	Как устроена таблица правил	77-kak-ustroena-tablica-pravil.md
+2.5	Описание интерфейса	78-opisanie-interfeysa.md
+2.5	О видах действий	79-o-vidah-deystviy.md
+2.5	Требование к заполнению графы “Значение”	80-trebovanie-k-zapolneniyu-grafy-znachenie.md
+2.5	Как интерпретируются правила, указанные в таблице	81-kak-interpretiruyutsya-pravila-ukazannye.md
+2.5	Как активировать настройку	82-kak-aktivirovat-nastroyku.md
+2.5	Важная информация	83-vazhnaya-informaciya.md
+2.5	Как активировать или деактивировать настройку	84-kak-aktivirovat-ili-deaktivirovat-nastro.md
+2.5	Управление правилами выполнения действий	85-upravlenie-pravilami-vypolneniya-deystvi.md
+2.5	Как включить или приостановить действие правила	86-kak-vklyuchit-ili-priostanovit-deystvie.md
+2.5	Как настроить колонки в таблице	87-kak-nastroit-kolonki-v-tablice.md
+2.5	Добавление	88-dobavlenie.md
+2.5	Редактирование или удаление правила	89-redaktirovanie-ili-udalenie-pravila.md
+2.6	Настройка “Сохранять историю действий по звонкам”	90-nastroyka-sohranyat-istoriyu-deystviy-po.md
+2.6	Общее	91-obschee.md
+2.6	Как включить или выключить настройку	92-kak-vklyuchit-ili-vyklyuchit-nastroyku.md
+2.6	Дальнейшие действия	93-dalneyshie-deystviya.md
+2.6	Как проверить, включена ли настройка ”Настройки действий в зависимости от роли”	94-kak-proverit-vklyuchena-li-nastroyka-nas.md
+2.7	Отчет “Действия звонка”	95-otchet-deystviya-zvonka.md
+2.7	Общее	96-obschee.md
+2.7	Требования	97-trebovaniya.md
+2.7	Как открыть отчет	98-kak-otkryt-otchet.md
+2.7	Структура отчета	99-struktura-otcheta.md
+2.7	Данные о правилах, применённых к звонку	100-dannye-o-pravilah-primenennyh-k-zvonku.md
+2.7	Сообщение “Нет данных”	101-soobschenie-net-dannyh.md
+2.7	Сообщение “1”. Неполная настройка сохранения истории действий по звонкам	102-soobschenie-1-nepolnaya-nastroyka-sohran.md
+2.8	Отправка сообщений WhatsApp	103-otpravka-soobscheniy-whatsapp.md
+2.8	Общее	104-obschee.md
+2.8	Общее о Манго Диалогах	105-obschee-o-mango-dialogah.md
+2.8	Как включить отправку сообщений WhatsApp	106-kak-vklyuchit-otpravku-soobscheniy-whats.md
+2.8	Как отправить Клиенту сообщение WhatsApp	107-kak-otpravit-klientu-soobschenie-whatsap.md
+2.9	Добавление задания на исходящий обзвон в Контакт-центр MANGO OFFICE	108-dobavlenie-zadaniya-na-ishodyaschiy-obzv.md
+2.9	Обзор	109-obzor.md
+2.9	Как включить настройку	110-kak-vklyuchit-nastroyku.md
+2.9	Как добавить задание в кампанию исходящего обзвона Контакт-центра MANGO OFFICE	111-kak-dobavit-zadanie-v-kampaniyu-ishodyas.md
+3	Как совершать и принимать вызовы	112-kak-sovershat-i-prinimat-vyzovy.md
+3.1	Входящий звонок	113-vhodyaschiy-zvonok.md
+3.2	Исходящий звонок	114-ishodyaschiy-zvonok.md
+3.3	Как перевести звонок на другого сотрудника или произвольный номер	115-kak-perevesti-zvonok-na-drugogo-sotrudni.md
+3.3	Общее	116-obschee.md
+3.3	Ограничения	117-ogranicheniya.md
+3.3	Как перевести звонок с консультацией	118-kak-perevesti-zvonok-s-konsultaciey.md
+3.3	Слепой перевод или как перевести звонок без консультации	119-slepoy-perevod-ili-kak-perevesti-zvonok.md
+4	Пропущенные звонки	120-propuschennye-zvonki.md
+4.1	Настройка внешнего вида таблицы звонков	121-nastroyka-vneshnego-vida-tablicy-zvonkov.md
+5	История вызовов	122-istoriya-vyzovov.md
+6	Запись разговоров	123-zapis-razgovorov.md
+—	Приложение. Информация для администраторов	124-prilozhenie-informaciya-dlya-administrat.md
+—	Как изменить логин и пароль API BPMSoft	125-kak-izmenit-login-i-parol-api-bpmsoft.md
+—	Список изменений в документе	126-spisok-izmeneniy-v-dokumente.md

@@ -1,0 +1,53 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Быстрый старт	01-bystryy-start.md
+1.1	Как подключить модуль Контроль качества в Личном кабинете	02-kak-podklyuchit-modul-kontrol-kachestva.md
+1.2	Как добавить контролера	03-kak-dobavit-kontrolera.md
+1.3	Роли и функции	04-roli-i-funkcii.md
+2	Настройка бланков оценки	05-nastroyka-blankov-ocenki.md
+2.1	Создание бланка оценки	06-sozdanie-blanka-ocenki.md
+2.2	Просмотр и редактирование бланка оценки	07-prosmotr-i-redaktirovanie-blanka-ocenki.md
+2.3	Настройка шкалы оценок и веса критериев	08-nastroyka-shkaly-ocenok-i-vesa-kriteriev.md
+2.4	Настройка апелляции	09-nastroyka-apellyacii.md
+2.5	Удаление бланка оценки	10-udalenie-blanka-ocenki.md
+2.6	Бланк оценки "Базовая оценка сотрудника"	11-blank-ocenki-bazovaya-ocenka-sotrudnika.md
+3	Оценка обращений	12-ocenka-obrascheniy.md
+3.1	Оценка звонков	13-ocenka-zvonkov.md
+3.2	Оценка чатов	14-ocenka-chatov.md
+3.3	Рандомайзер	15-randomayzer.md
+4	Настройка постзвонковой оценки	16-nastroyka-postzvonkovoy-ocenki.md
+4.1	Настройка правил постзвонковой оценки	17-nastroyka-pravil-postzvonkovoy-ocenki.md
+4.2	Настройка уведомлений о постзвонковых оценках	18-nastroyka-uvedomleniy-o-postzvonkovyh-oc.md
+5	Запись экрана	19-zapis-ekrana.md
+5.1	Просмотр и скачивание записей	20-prosmotr-i-skachivanie-zapisey.md
+5.2	Просмотр настроек записи	21-prosmotr-nastroek-zapisi.md
+5.3	Назначение правил записи	22-naznachenie-pravil-zapisi.md
+6	Оценка качества в чатах	23-ocenka-kachestva-v-chatah.md
+6.1	Создание, редактирование и удаление правила	24-sozdanie-redaktirovanie-i-udalenie-pravi.md
+7	Статистика	25-statistika.md
+7.1	Динамика оценок	26-dinamika-ocenok.md
+7.2	Сводная статистика	27-svodnaya-statistika.md
+7.3	Работа контролеров	28-rabota-kontrolerov.md
+8	Апелляции	29-apellyacii.md
+8.1	Как сотруднику подать апелляцию	30-kak-sotrudniku-podat-apellyaciyu.md
+8.2	Как контролеру обрабатывать апелляции	31-kak-kontroleru-obrabatyvat-apellyacii.md
+9	Речевая аналитика	32-rechevaya-analitika.md
+9.1	Подключение услуги Речевая аналитика	33-podklyuchenie-uslugi-rechevaya-analitika.md
+9.2	Вкладка ОТЧЕТЫ	34-vkladka-otchety.md
+9.3	Вкладка ТЕГИРОВАНИЕ РАЗГОВОРОВ	35-vkladka-tegirovanie-razgovorov.md
+9.4	Вкладка НАСТРОЙКИ	36-vkladka-nastroyki.md
+9.4.1	Шаги онбординга	37-shagi-onbordinga.md
+9.4.2	Настройки распознавания записей	38-nastroyki-raspoznavaniya-zapisey.md
+9.4.3	Аналитика текстовых коммуникаций	39-analitika-tekstovyh-kommunikaciy.md
+9.4.4	ИИ Инструменты	40-ii-instrumenty.md
+9.4.4.1	ИИ Конспекты	41-ii-konspekty.md
+9.4.4.2	ИИ Тегирование	42-ii-tegirovanie.md
+9.4.4.3	ИИ Помощники	43-ii-pomoschniki.md
+9.4.4.3.1	Что это такое и зачем нужно	44-chto-eto-takoe-i-zachem-nuzhno.md
+9.4.4.3.2	Как создать ИИ Помощника	45-kak-sozdat-ii-pomoschnika.md
+9.4.4.3.3	Настройка ИИ Помощника	46-nastroyka-ii-pomoschnika.md
+9.4.4.3.4	Где смотреть результаты	47-gde-smotret-rezultaty.md
+9.4.5	Дополнительные настройки	48-dopolnitelnye-nastroyki.md
+9.4.6	Отключение услуги	49-otklyuchenie-uslugi.md
+9.5	Вкладка ЗАЯВКИ	50-vkladka-zayavki.md
+10	Дополнительные возможности	51-dopolnitelnye-vozmozhnosti.md

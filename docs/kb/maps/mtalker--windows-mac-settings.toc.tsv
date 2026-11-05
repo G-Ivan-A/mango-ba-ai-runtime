@@ -1,0 +1,56 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Как открыть настройки. Обобщенно	01-kak-otkryt-nastroyki-obobschenno.md
+2	Управление MTalker	02-upravlenie-mtalker.md
+2.1	Автоматический запуск работы	03-avtomaticheskiy-zapusk-raboty.md
+2.2	Автоматический вход пользователя	04-avtomaticheskiy-vhod-polzovatelya.md
+2.2	Общие сведения	05-obschie-svedeniya.md
+2.2	Как включить автоматический вход	06-kak-vklyuchit-avtomaticheskiy-vhod.md
+2.2	Как отключить автоматический вход	07-kak-otklyuchit-avtomaticheskiy-vhod.md
+3	Как включить автоматический переход в фоновый режим при автозапуске	08-kak-vklyuchit-avtomaticheskiy-perehod-v.md
+4	Файлы и загрузки	09-fayly-i-zagruzki.md
+4.1	Общие сведения	10-obschie-svedeniya.md
+4.2	Как найти и открыть загруженный файл	11-kak-nayti-i-otkryt-zagruzhennyy-fayl.md
+4.3	Как изменить папку сохранения файлов	12-kak-izmenit-papku-sohraneniya-faylov.md
+4.4	Как включить запрос места сохранения файлов	13-kak-vklyuchit-zapros-mesta-sohraneniya-f.md
+4.5	Автозагрузка изображений	14-avtozagruzka-izobrazheniy.md
+5	Как обновить MTalker	15-kak-obnovit-mtalker.md
+6	Персонализация	16-personalizaciya.md
+6.1	Внешний вид	17-vneshniy-vid.md
+6.1	Как включить или выключить подтверждение действия пользователя	18-kak-vklyuchit-ili-vyklyuchit-podtverzhde.md
+6.1	Включение и выключение уведомлений о новых сообщениях	19-vklyuchenie-i-vyklyuchenie-uvedomleniy-o.md
+6.2	Обработка кликов по ссылкам	20-obrabotka-klikov-po-ssylkam.md
+6.3	Переключение фокуса при входящем звонке	21-pereklyuchenie-fokusa-pri-vhodyaschem-zv.md
+6.4	Удаление лишних символов при вводе номера	22-udalenie-lishnih-simvolov-pri-vvode-nome.md
+6.4	Общие сведения	23-obschie-svedeniya.md
+6.4	Включение проверки	24-vklyuchenie-proverki.md
+6.5	Уведомления	25-uvedomleniya.md
+6.5	Настройка отправки на e-mail	26-nastroyka-otpravki-na-e-mail.md
+6.5	Звуковые уведомления. Как выбрать рингтон	27-zvukovye-uvedomleniya-kak-vybrat-rington.md
+6.6	Клавиши отправки сообщений в чат	28-klavishi-otpravki-soobscheniy-v-chat.md
+6.7	Глобальные горячие клавиши	29-globalnye-goryachie-klavishi.md
+6.8	Язык	30-yazyk.md
+6.9	Конфиденциальность. Как удалить личные данные	31-konfidencialnost-kak-udalit-lichnye-dann.md
+7	Видео	32-video.md
+7.1	Открывать видео звонки во внешнем браузере	33-otkryvat-video-zvonki-vo-vneshnem-brauze.md
+8	Звук	34-zvuk.md
+8.1	Изменение параметров звуковых устройства	35-izmenenie-parametrov-zvukovyh-ustroystva.md
+8.2	Как быстро переключить вывод звука на стороннюю гарнитуру	36-kak-bystro-pereklyuchit-vyvod-zvuka-na-s.md
+8.3	Сброс настроек звука	37-sbros-nastroek-zvuka.md
+8.4	Автоподнятие трубки для исходящих звонков	38-avtopodnyatie-trubki-dlya-ishodyaschih-z.md
+9	Использовать внешний телефон	39-ispolzovat-vneshniy-telefon.md
+9.1	Общие сведения	40-obschie-svedeniya.md
+9.2	Включение функции и ввод внешнего номера	41-vklyuchenie-funkcii-i-vvod-vneshnego-nom.md
+10	Технические настройки	42-tehnicheskie-nastroyki.md
+10.1	Подключение к сети	43-podklyuchenie-k-seti.md
+10.1	Прокси-сервер	44-proksi-server.md
+10.1	Настройки SIP	45-nastroyki-sip.md
+10.1	Включение/выключение функций CNG, VAD, анти-эхо	46-vklyuchenie-vyklyuchenie-funkciy-cng-vad.md
+10.2	Кодеки	47-kodeki.md
+10.2	Перечень поддерживаемых кодеков	48-perechen-podderzhivaemyh-kodekov.md
+10.2	Включение и выключение кодеков	49-vklyuchenie-i-vyklyuchenie-kodekov.md
+10.2	Настройка приоритета использования кодека	50-nastroyka-prioriteta-ispolzovaniya-kodek.md
+10.2	Загрузка настроек кодеков с сервера	51-zagruzka-nastroek-kodekov-s-servera.md
+10.3	Сессии пользователя	52-sessii-polzovatelya.md
+10.3	Как узнать, на каких устройствах открыты сессии пользователей	53-kak-uznat-na-kakih-ustroystvah-otkryty-s.md
+10.3	Удаленный выход из MTalker	54-udalennyy-vyhod-iz-mtalker.md

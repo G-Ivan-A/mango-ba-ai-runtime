@@ -1,0 +1,100 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Начало работы	01-nachalo-raboty.md
+—	Обзор	02-obzor.md
+—	Установка и удаление	03-ustanovka-i-udalenie.md
+—	Вход и выход	04-vhod-i-vyhod.md
+—	Общее описание интерфейса	05-obschee-opisanie-interfeysa.md
+—	Как позвонить или принять входящий звонок	06-kak-pozvonit-ili-prinyat-vhodyaschiy-zvo.md
+—	Звонок сотруднику	07-zvonok-sotrudniku.md
+—	Как позвонить на любой номер телефона	08-kak-pozvonit-na-lyuboy-nomer-telefona.md
+—	В комнату аудио конференцсвязи	09-v-komnatu-audio-konferencsvyazi.md
+—	Как начать групповой видеозвонок	10-kak-nachat-gruppovoy-videozvonok.md
+—	Как принять входящий звонок?	11-kak-prinyat-vhodyaschiy-zvonok.md
+—	Как отправить сообщение сотруднику ВАТС	12-kak-otpravit-soobschenie-sotrudniku-vats.md
+—	Отправка сообщения в чат	13-otpravka-soobscheniya-v-chat.md
+—	Отправка аудио и видеофайла, местоположения, файля, контакта или СМС-	14-otpravka-audio-i-videofayla-mestopolozhe.md
+—	Проверка статуса доставки отправленного сообщения	15-proverka-statusa-dostavki-otpravlennogo.md
+—	Как позвонить или отправить смс на произвольный номер	16-kak-pozvonit-ili-otpravit-sms-na-proizvo.md
+—	Получение сообщений	17-poluchenie-soobscheniy.md
+—	Как отправить email	18-kak-otpravit-email.md
+—	Во время звонка	19-vo-vremya-zvonka.md
+—	Управление видеозвонком	20-upravlenie-videozvonkom.md
+—	Управление аудио звонком	21-upravlenie-audio-zvonkom.md
+—	Конференции	22-konferencii.md
+—	Общее	23-obschee.md
+—	Онбординг видеоконференций	24-onbording-videokonferenciy.md
+—	Экран видеоконференции	25-ekran-videokonferencii.md
+—	Как начать аудио конференцию	26-kak-nachat-audio-konferenciyu.md
+—	Как позвонить в комнату аудио конференции	27-kak-pozvonit-v-komnatu-audio-konferencii.md
+—	Как создать новую видеоконференцию и поделиться ссылкой на нее	28-kak-sozdat-novuyu-videokonferenciyu-i-po.md
+—	Как присоединиться к конференции по ссылке	29-kak-prisoedinitsya-k-konferencii-po-ssyl.md
+—	Расшифровка и конспектирование записей встреч	30-rasshifrovka-i-konspektirovanie-zapisey.md
+—	Чат во время видеоконференции	31-chat-vo-vremya-videokonferencii.md
+—	Поднять руку во время видеоконференции	32-podnyat-ruku-vo-vremya-videokonferencii.md
+—	Поиск комнаты конференции	33-poisk-komnaty-konferencii.md
+—	Проведение чата	34-provedenie-chata.md
+—	Общие сведения	35-obschie-svedeniya.md
+—	Описание элементов интерфейса чата/канала	36-opisanie-elementov-interfeysa-chata-kana.md
+—	Создание нового чата или канала	37-sozdanie-novogo-chata-ili-kanala.md
+—	Отображение удаленного сотрудника	38-otobrazhenie-udalennogo-sotrudnika.md
+—	Входящие	39-vhodyaschie.md
+—	Группы чатов	40-gruppy-chatov.md
+—	Фильтр чатов по непрочитанным сообщениям	41-filtr-chatov-po-neprochitannym-soobschen.md
+—	Закрепление и открепление чата	42-zakreplenie-i-otkreplenie-chata.md
+—	Поиск сообщений	43-poisk-soobscheniy.md
+—	Операции над сообщениями	44-operacii-nad-soobscheniyami.md
+—	Работа с техподдержкой	45-rabota-s-tehpodderzhkoy.md
+—	Посмотреть контактные данные собеседника	46-posmotret-kontaktnye-dannye-sobesednika.md
+—	Посмотреть историю сообщений в чате	47-posmotret-istoriyu-soobscheniy-v-chate.md
+—	Удаление всей переписки	48-udalenie-vsey-perepiski.md
+—	Администрирование общего чата или канала	49-administrirovanie-obschego-chata-ili-kan.md
+—	Общие сведения	50-obschie-svedeniya.md
+—	Описание прав участников	51-opisanie-prav-uchastnikov.md
+—	Отображение списка участников	52-otobrazhenie-spiska-uchastnikov.md
+—	Добавить участника	53-dobavit-uchastnika.md
+—	Выдача / снятие прав администратора	54-vydacha-snyatie-prav-administratora.md
+—	Быстрый переход к карточке контакта	55-bystryy-perehod-k-kartochke-kontakta.md
+—	Переименовать чат / канал	56-pereimenovat-chat-kanal.md
+—	Удалить участника	57-udalit-uchastnika.md
+—	Выход из общего чата / канала	58-vyhod-iz-obschego-chata-kanala.md
+—	Просмотр общих файлов	59-prosmotr-obschih-faylov.md
+—	Как отключить уведомления о новых сообщениях в чате / канале	60-kak-otklyuchit-uvedomleniya-o-novyh-soob.md
+—	Журнал вызовов	61-zhurnal-vyzovov.md
+—	Описание журнала вызовов	62-opisanie-zhurnala-vyzovov.md
+—	Разделы журнала	63-razdely-zhurnala.md
+—	Поиск и фильтрации записей	64-poisk-i-filtracii-zapisey.md
+—	Как посмотреть подробные данные о групповом звонке / конференции	65-kak-posmotret-podrobnye-dannye-o-gruppov.md
+—	Как перезвонить ?	66-kak-perezvonit.md
+—	Как отправить сообщение	67-kak-otpravit-soobschenie.md
+—	Как заказать обратный звонок?	68-kak-zakazat-obratnyy-zvonok.md
+—	Описание карточки вызова	69-opisanie-kartochki-vyzova.md
+—	Как сохранить номер в телефонной книге	70-kak-sohranit-nomer-v-telefonnoy-knige.md
+—	Прослушать запись разговора	71-proslushat-zapis-razgovora.md
+—	Как скопировать информацию о звонках в журнале вызовов	72-kak-skopirovat-informaciyu-o-zvonkah-v-z.md
+—	Удаление записи о звонке из журнала вызовов	73-udalenie-zapisi-o-zvonke-iz-zhurnala-vyz.md
+—	Контакты	74-kontakty.md
+—	Общие сведения	75-obschie-svedeniya.md
+—	Поиск контакта	76-poisk-kontakta.md
+—	Описание карточки контакта	77-opisanie-kartochki-kontakta.md
+—	Как связаться с контактом	78-kak-svyazatsya-s-kontaktom.md
+—	Как посмотреть историю взаимодействия с абонентом	79-kak-posmotret-istoriyu-vzaimodeystviya-s.md
+—	Как добавлять, импортировать, редактировать и удалять контакты	80-kak-dobavlyat-importirovat-redaktirovat.md
+—	Как фильтровать, сортировать и настроить отображение контактов	81-kak-filtrovat-sortirovat-i-nastroit-otob.md
+—	Автосекретарь	82-avtosekretar.md
+—	Общее	83-obschee.md
+—	Проверка статуса работы правил	84-proverka-statusa-raboty-pravil.md
+—	Как включить или выключить правило	85-kak-vklyuchit-ili-vyklyuchit-pravilo.md
+—	Управление профилем пользователя	86-upravlenie-profilem-polzovatelya.md
+—	Как вывести на экран и скопировать ваш SIP-ID	87-kak-vyvesti-na-ekran-i-skopirovat-vash-s.md
+—	Как изменить или сбросить свой пароль	88-kak-izmenit-ili-sbrosit-svoy-parol.md
+—	Смена статуса пользователя	89-smena-statusa-polzovatelya.md
+—	Как поменять или удалить аватар	90-kak-pomenyat-ili-udalit-avatar.md
+—	Служебные операции	91-sluzhebnye-operacii.md
+—	Конфиденциальность	92-konfidencialnost.md
+—	Расписание приема звонков и сообщений	93-raspisanie-priema-zvonkov-i-soobscheniy.md
+—	Автозагрузка файлов и изображений	94-avtozagruzka-faylov-i-izobrazheniy.md
+—	Как обновить MTalker	95-kak-obnovit-mtalker.md
+—	Уведомления	96-uvedomleniya.md
+—	Технические настройки	97-tehnicheskie-nastroyki.md
+—	Как сообщить о проблеме или отправить отзыв	98-kak-soobschit-o-probleme-ili-otpravit-ot.md

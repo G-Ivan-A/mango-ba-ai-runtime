@@ -1,0 +1,87 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Начало работы с интеграцией	01-nachalo-raboty-s-integraciey.md
+1	Обзор	02-obzor.md
+1	Шаг 1. Подключение Виртуальной АТС MANGO OFFICE	03-shag-1-podklyuchenie-virtualnoy-ats-mang.md
+1	Шаг 2. Установка софтфона Mango Talker	04-shag-2-ustanovka-softfona-mango-talker.md
+1	Шаг 3. Установка виджета интеграции в amoCRM	05-shag-3-ustanovka-vidzheta-integracii-v-a.md
+1	Шаг 4. Настройка Виртуальной АТС. Выбор пакета интеграции	06-shag-4-nastroyka-virtualnoy-ats-vybor-pa.md
+1	Шаг 5. Сопоставление сотрудников Виртуальной АТС и amoCRM	07-shag-5-sopostavlenie-sotrudnikov-virtual.md
+1	Установка дополнительных настроек интеграции. Общее	08-ustanovka-dopolnitelnyh-nastroek-integra.md
+1	Как проверить передачу звонков в amoCRM	09-kak-proverit-peredachu-zvonkov-v-amocrm.md
+1	Как отображаются данные о звонке в amoCRM. Обобщенно	10-kak-otobrazhayutsya-dannye-o-zvonke-v-am.md
+1	Как позвонить или принять звонок	11-kak-pozvonit-ili-prinyat-zvonok.md
+2	Настройка интеграции	12-nastroyka-integracii.md
+2.1	Включение уведомлений в браузере	13-vklyuchenie-uvedomleniy-v-brauzere.md
+2.2	Дополнительные настройки интеграции. Обзор	14-dopolnitelnye-nastroyki-integracii-obzor.md
+2.3	Настройка “Сохранять все звонки” или как сохраняются	15-nastroyka-sohranyat-vse-zvonki-ili-kak-s.md
+2.4	Обработка входящих вызовов от новых Клиентов	16-obrabotka-vhodyaschih-vyzovov-ot-novyh-k.md
+2.5	Обработка повторных входящих вызовов	17-obrabotka-povtornyh-vhodyaschih-vyzovov.md
+2.6	Обработка исходящих вызовов новым Клиентам	18-obrabotka-ishodyaschih-vyzovov-novym-kli.md
+2.7	Пропущенные в IVR	19-propuschennye-v-ivr.md
+2.8	Ответственный при пропущенных звонках в группу	20-otvetstvennyy-pri-propuschennyh-zvonkah.md
+2.9	Сохранение данных Речевой Аналитики	21-sohranenie-dannyh-rechevoy-analitiki.md
+2.10	Ограничение номеров ВАТС	22-ogranichenie-nomerov-vats.md
+2.11	Номера других операторов, подключенные к Виртуальной АТС	23-nomera-drugih-operatorov-podklyuchennye.md
+2.12	Поиск по номеру телефона среди записей в amoCRM	24-poisk-po-nomeru-telefona-sredi-zapisey-v.md
+2.13	Определять внутренние номера SIP-транка	25-opredelyat-vnutrennie-nomera-sip-tranka.md
+2.14	Наличие дублей контактов в amoCRM	26-nalichie-dubley-kontaktov-v-amocrm.md
+2.15	Использование способов дозвона до сотрудника и	27-ispolzovanie-sposobov-dozvona-do-sotrudn.md
+2.16	Использование алгоритмов распределения вызовов	28-ispolzovanie-algoritmov-raspredeleniya-v.md
+2.17	Ставить задачи по пропущенным вызовам	29-stavit-zadachi-po-propuschennym-vyzovam.md
+2.18	SMS-визитка	30-sms-vizitka.md
+2.19	Отправка SMS из карточки Клиента	31-otpravka-sms-iz-kartochki-klienta.md
+2.20	Отслеживание звонков с нескольких доменов	32-otslezhivanie-zvonkov-s-neskolkih-domeno.md
+2.21	Интеграция Виртуальной АТС одновременно с несколькими	33-integraciya-virtualnoy-ats-odnovremenno.md
+2.22	Загружать отсутствующие в amoCRM звонки	34-zagruzhat-otsutstvuyuschie-v-amocrm-zvon.md
+2.23	Создание сделок в разных воронках в зависимости от	35-sozdanie-sdelok-v-raznyh-voronkah-v-zavi.md
+2.24	Заменять номер линии на комментарий в интерфейсе CRM	36-zamenyat-nomer-linii-na-kommentariy-v-in.md
+2.25	Прочие настройки	37-prochie-nastroyki.md
+3	Входящий звонок	38-vhodyaschiy-zvonok.md
+3.1	Общее	39-obschee.md
+3.2	Информационное сообщение “Ответственный: не определен”	40-informacionnoe-soobschenie-otvetstvennyy.md
+4	Исходящий звонок	41-ishodyaschiy-zvonok.md
+5	Пропущенные звонки	42-propuschennye-zvonki.md
+6	История вызовов	43-istoriya-vyzovov.md
+7	Карточка звонка	44-kartochka-zvonka.md
+7.1	Обзор	45-obzor.md
+7.2	Как управлять отображением карточки звонка	46-kak-upravlyat-otobrazheniem-kartochki-zv.md
+7.3	Об интерфейсе карточки звонка	47-ob-interfeyse-kartochki-zvonka.md
+7.4	Как позвонить или принять звонок	48-kak-pozvonit-ili-prinyat-zvonok.md
+7.5	Как добавить контакт	49-kak-dobavit-kontakt.md
+7.6	Как перевести звонок	50-kak-perevesti-zvonok.md
+7.7	Ставить задачу по звонку вручную	51-stavit-zadachu-po-zvonku-vruchnuyu.md
+7.8	История звонков	52-istoriya-zvonkov.md
+7.9	Номеронабиратель	53-nomeronabiratel.md
+7.10	Мой исходящий номер	54-moy-ishodyaschiy-nomer.md
+7.11	Информационное сообщение “Ответственный: не определен”	55-informacionnoe-soobschenie-otvetstvennyy.md
+7.12	Ограничения по передачи звонка в новый контакт	56-ogranicheniya-po-peredachi-zvonka-v-novy.md
+7.13	Пользовательские настройки карточки звонка	57-polzovatelskie-nastroyki-kartochki-zvonk.md
+8	Список обзвона	58-spisok-obzvona.md
+9	Аналитика	59-analitika.md
+10	Запись разговоров	60-zapis-razgovorov.md
+11	Интеграция с Коллтрекингом MANGO OFFICE	61-integraciya-s-kolltrekingom-mango-office.md
+11.1	Обзор	62-obzor.md
+11.2	Как настроить	63-kak-nastroit.md
+11.3	Возможности	64-vozmozhnosti.md
+12	Постзвонковая оценка качества	65-postzvonkovaya-ocenka-kachestva.md
+12	Общее	66-obschee.md
+12	Как настроить	67-kak-nastroit.md
+12	Как посмотреть звонки с оценкой ниже, чем максимальный порог	68-kak-posmotret-zvonki-s-ocenkoy-nizhe-che.md
+13	Интеграция с адресной книгой Виртуальной АТС	69-integraciya-s-adresnoy-knigoy-virtualnoy.md
+14	Интеграция с Контакт Центром MANGO OFFICE	70-integraciya-s-kontakt-centrom-mango-offi.md
+14.1	Учет кампаний исходящего обзвона в amoCRM	71-uchet-kampaniy-ishodyaschego-obzvona-v-a.md
+14.2	Интеграция с digital-воронкой	72-integraciya-s-digital-voronkoy.md
+14.3	Сохранять в сделках тематики и комментарии звонка из Контакт-центра	73-sohranyat-v-sdelkah-tematiki-i-kommentar.md
+15	Софтфон MANGO CONNECT	74-softfon-mango-connect.md
+15.1	Обзор	75-obzor.md
+15.2	Установка и первый запуск работы	76-ustanovka-i-pervyy-zapusk-raboty.md
+15.3	Дополнительно	77-dopolnitelno.md
+16	Особенности	78-osobennosti.md
+17	Всплывающие сообщения об ошибках в интерфейсе	79-vsplyvayuschie-soobscheniya-ob-oshibkah.md
+17.1	Обзор	80-obzor.md
+17.2	Перечень кодов ошибок	81-perechen-kodov-oshibok.md
+17.3	Уведомления по электронной почте о блокировке виджета	82-uvedomleniya-po-elektronnoy-pochte-o-blo.md
+17.4	Пример уведомления о блокировке виджета	83-primer-uvedomleniya-o-blokirovke-vidzhet.md
+17.5	Что делать, если не приходит уведомление о блокировке?	84-chto-delat-esli-ne-prihodit-uvedomlenie.md
+17.5	Список изменений в документе	85-spisok-izmeneniy-v-dokumente.md

@@ -1,0 +1,256 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Определения и сокращения	01-opredeleniya-i-sokrascheniya.md
+1	Основные сведения	02-osnovnye-svedeniya.md
+1.1	Назначение	03-naznachenie.md
+1.2	Требования совместимости и список поддерживаемых протоколов	04-trebovaniya-sovmestimosti-i-spisok-podde.md
+1.3	Ограничения	05-ogranicheniya.md
+1.4	Лимиты количества запросов к API	06-limity-kolichestva-zaprosov-k-api.md
+1.4.1	О неверных запросах к API. Ошибка 401	07-o-nevernyh-zaprosah-k-api-oshibka-401.md
+1.4.2	API ВАТС	08-api-vats.md
+1.4.3	API КЦ	09-api-kc.md
+1.4.4	Что делать, если получили ошибку 503 и/или 5008?	10-chto-delat-esli-poluchili-oshibku-503-i.md
+2	Общие положения о взаимодействии систем	11-obschie-polozheniya-o-vzaimodeystvii-sis.md
+2.1	Модель авторизации	12-model-avtorizacii.md
+2.2	Модель взаимодействия	13-model-vzaimodeystviya.md
+2.1.1	API ВАТС	14-api-vats.md
+2.1.2	API КЦ	15-api-kc.md
+2.3	Работа с услугами Виртуальной АТС	16-rabota-s-uslugami-virtualnoy-ats.md
+2.4	Уникальный код вашей ВАТС, ключ для создания подписи и параметр "sign"	17-unikalnyy-kod-vashey-vats-klyuch-dlya-so.md
+2.4.1	Уникальный код вашей ВАТС	18-unikalnyy-kod-vashey-vats.md
+2.4.2	Ключ создания подписи	19-klyuch-sozdaniya-podpisi.md
+2.4.3	О параметре "sign"	20-o-parametre-sign.md
+2.4.4	Поле json	21-pole-json.md
+2.4.5	Как узнать свой уникальный код ВАТС и ключ создания подписи?	22-kak-uznat-svoy-unikalnyy-kod-vats-i-klyu.md
+2.5	Эмулятор API Виртуальной АТС	23-emulyator-api-virtualnoy-ats.md
+3	Описание методов API Виртуальной АТС MANGO OFFICE	24-opisanie-metodov-api-virtualnoy-ats-mang.md
+3.1	API Realtime	25-api-realtime.md
+3.1.1	Общее	26-obschee.md
+3.1.2	Уведомление о вызове	27-uvedomlenie-o-vyzove.md
+3.1.3	Уведомление о результате отправки SMS	28-uvedomlenie-o-rezultate-otpravki-sms.md
+3.1.4	Уведомление о записи разговора	29-uvedomlenie-o-zapisi-razgovora.md
+3.1.5	Уведомление о нажатиях DTMF клавиш	30-uvedomlenie-o-nazhatiyah-dtmf-klavish.md
+3.1.5	О параметре location	31-o-parametre-location.md
+3.1.6	Уведомление о завершении вызова	32-uvedomlenie-o-zavershenii-vyzova.md
+3.1.7	Событие о завершении процесса распознавания тематик в разговорах	33-sobytie-o-zavershenii-processa-raspoznav.md
+3.1.8	Событие о помещении записи разговора в облачное хранилище	34-sobytie-o-pomeschenii-zapisi-razgovora-v.md
+3.2	API Команды	35-api-komandy.md
+3.2.1	Инициирование вызова от имени сотрудника	36-iniciirovanie-vyzova-ot-imeni-sotrudnika.md
+3.2.2	Инициирование вызова от имени группы	37-iniciirovanie-vyzova-ot-imeni-gruppy.md
+3.2.3	Завершение вызова	38-zavershenie-vyzova.md
+3.2.4	Отправка SMS	39-otpravka-sms.md
+3.2.5	Включение записи разговора	40-vklyuchenie-zapisi-razgovora.md
+3.2.6	Включение воспроизведения звукового файла	41-vklyuchenie-vosproizvedeniya-zvukovogo-f.md
+3.2.7	Маршрутизация вызова	42-marshrutizaciya-vyzova.md
+3.2.7	О параметре route	43-o-parametre-route.md
+3.2.8	Перевод вызова	44-perevod-vyzova.md
+3.2.9	Соединение вызова в режиме OnHold и вызова в режиме Connected	45-soedinenie-vyzova-v-rezhime-onhold-i-vyz.md
+3.2.10	Отмена перевода вызова	46-otmena-perevoda-vyzova.md
+3.2.11	Постановка вызова на удержание	47-postanovka-vyzova-na-uderzhanie.md
+3.2.11.1	Описание запроса на удержание вызова	48-opisanie-zaprosa-na-uderzhanie-vyzova.md
+3.2.11.2	Получение результата выполнения запроса	49-poluchenie-rezultata-vypolneniya-zaprosa.md
+3.3	Методы работы с правилами переадресации	50-metody-raboty-s-pravilami-pereadresacii.md
+3.3.1	Получить список правил переадресации	51-poluchit-spisok-pravil-pereadresacii.md
+3.3.2	Добавление нового правила переадресации	52-dobavlenie-novogo-pravila-pereadresacii.md
+3.3.3	Изменение правила переадресации	53-izmenenie-pravila-pereadresacii.md
+3.3.4	Удаление правила переадресации	54-udalenie-pravila-pereadresacii.md
+3.4	API Статистика	55-api-statistika.md
+3.4.1	Запрос базовой статистики	56-zapros-bazovoy-statistiki.md
+3.4.1.1	Запуск формирования статистики	57-zapusk-formirovaniya-statistiki.md
+3.4.1.2	Получение статистики вызовов	58-poluchenie-statistiki-vyzovov.md
+3.4.2	Запрос расширенной статистики	59-zapros-rasshirennoy-statistiki.md
+3.4.2.1	Обзор	60-obzor.md
+3.4.2.2	Запуск формирования статистики	61-zapusk-formirovaniya-statistiki.md
+3.4.2.3	Получение статистики вызовов	62-poluchenie-statistiki-vyzovov.md
+3.5	API Записи разговоров, Речевая Аналитика	63-api-zapisi-razgovorov-rechevaya-analitik.md
+3.5.1	Получение записи разговора посредством POST запроса	64-poluchenie-zapisi-razgovora-posredstvom.md
+3.5.2	Получение записи разговора посредством GET запроса без авторизации	65-poluchenie-zapisi-razgovora-posredstvom.md
+3.5.3	Прямая ссылка на запись разговора с авторизацией через Личный кабинет	66-pryamaya-ssylka-na-zapis-razgovora-s-avt.md
+3.5.4	Получение тематик разговора (Speech2Text)	67-poluchenie-tematik-razgovora-speech2text.md
+3.5.5	Получение списка расшифровок распознанных разговоров	68-poluchenie-spiska-rasshifrovok-raspoznan.md
+3.5.6	Запрос информации о конспекте разговора	69-zapros-informacii-o-konspekte-razgovora.md
+3.5.7	Запрос записей с расшифровками звонков	70-zapros-zapisey-s-rasshifrovkami-zvonkov.md
+3.5.8	Получение списка ИИ помощников	71-poluchenie-spiska-ii-pomoschnikov.md
+3.5.9	Получение результатов работы ИИ помощников	72-poluchenie-rezultatov-raboty-ii-pomoschn.md
+3.6	Сквозная аналитика.	73-skvoznaya-analitika.md
+3.6.1	Запрос информации о посетителе сайта по динамическому номеру	74-zapros-informacii-o-posetitele-sayta-po.md
+3.6.2	Запрос истории навигации посетителя сайта по динамическому номеру	75-zapros-istorii-navigacii-posetitelya-say.md
+3.7	API Конфигурация	76-api-konfiguraciya.md
+3.7.1	Запрос списка сотрудников ВАТС	77-zapros-spiska-sotrudnikov-vats.md
+3.7.2	Получить список групп	78-poluchit-spisok-grupp.md
+3.7.3	Добавить группу	79-dobavit-gruppu.md
+3.7.4	Редактировать группу	80-redaktirovat-gruppu.md
+3.7.5	Удалить группу	81-udalit-gruppu.md
+3.7.6	Получение баланса	82-poluchenie-balansa.md
+3.7.7	Получение списка номеров ВАТС	83-poluchenie-spiska-nomerov-vats.md
+3.7.8	Получение списка мелодий и звуковых сообщений	84-poluchenie-spiska-melodiy-i-zvukovyh-soo.md
+3.7.9	Получение списка схем переадресаций	85-poluchenie-spiska-shem-pereadresaciy.md
+3.7.10	Установить схему на входящем номере	86-ustanovit-shemu-na-vhodyaschem-nomere.md
+3.7.11	Получить список ролей	87-poluchit-spisok-roley.md
+3.7.12	Создать сотрудника	88-sozdat-sotrudnika.md
+3.7.13	Редактировать сотрудника	89-redaktirovat-sotrudnika.md
+3.7.13.1	Ограничения	90-ogranicheniya.md
+3.7.13.2	Описание метода	91-opisanie-metoda.md
+3.7.14	Удалить сотрудника	92-udalit-sotrudnika.md
+3.7.15	Получить список индивидуальных правил автосекретаря для сотрудников	93-poluchit-spisok-individualnyh-pravil-avt.md
+3.7.16	Изменить статус индивидуальных правил автосекретаря сотрудника	94-izmenit-status-individualnyh-pravil-avto.md
+3.7.17	Получить sip учетные записи сотрудников	95-poluchit-sip-uchetnye-zapisi-sotrudnikov.md
+3.7.18	Получить настроенные домены	96-poluchit-nastroennye-domeny.md
+3.7.19	Создать sip-учетку	97-sozdat-sip-uchetku.md
+3.7.20	Редактировать sip-учетку	98-redaktirovat-sip-uchetku.md
+3.7.21	Удалить sip-учетку	99-udalit-sip-uchetku.md
+3.7.22	Запрос номеров sip-trunk'ов	100-zapros-nomerov-sip-trunk-ov.md
+3.8	API запрещенных направлений вызова	101-api-zapreschennyh-napravleniy-vyzova.md
+3.8.1	Общее	102-obschee.md
+3.8.2	Ограничение входящих коммуникаций	103-ogranichenie-vhodyaschih-kommunikaciy.md
+3.8.2.1	Получение текущего режима работы ч/б списка	104-poluchenie-tekuschego-rezhima-raboty-ch.md
+3.8.2.2	Получнение списка номеров, входящих в ч/б списки ВАТС	105-poluchnenie-spiska-nomerov-vhodyaschih-v.md
+3.8.2.3	Добавление номера в ч/б список ВАТС	106-dobavlenie-nomera-v-ch-b-spisok-vats.md
+3.8.2.4	Удаление номера из ч/б списка ВАТС	107-udalenie-nomera-iz-ch-b-spiska-vats.md
+3.8.3	Ограничение исходящих коммуникаций	108-ogranichenie-ishodyaschih-kommunikaciy.md
+3.8.3.1	Получение списка номеров, включенных в "черный" список ИО	109-poluchenie-spiska-nomerov-vklyuchennyh-v.md
+3.8.3.2	Добавление номера в "черный" список ИО	110-dobavlenie-nomera-v-chernyy-spisok-io.md
+3.8.3.3	Обновление описания номера в "черном" списке ИО	111-obnovlenie-opisaniya-nomera-v-chernom-sp.md
+3.8.3.4	Блокировка номера, внесенного в "черный" список ИО	112-blokirovka-nomera-vnesennogo-v-chernyy-s.md
+3.8.3.5	Разблокировка номера, внесенного в "черный" список ИО	113-razblokirovka-nomera-vnesennogo-v-cherny.md
+3.8.3.6	Удаление номера из "черного" списка ИО	114-udalenie-nomera-iz-chernogo-spiska-io.md
+3.8.3.7	Включение запрета на все исходящие коммуникации	115-vklyuchenie-zapreta-na-vse-ishodyaschie.md
+3.8.3.8	Выключение запрета на все исходящие коммуникации	116-vyklyuchenie-zapreta-na-vse-ishodyaschie.md
+3.9	API для работы с адресной книгой	117-api-dlya-raboty-s-adresnoy-knigoy.md
+3.9.1	Организации	118-organizacii.md
+3.9.1.1	Получить организацию по id	119-poluchit-organizaciyu-po-id.md
+3.9.1.2	Получить список организаций, инициация отчета	120-poluchit-spisok-organizaciy-iniciaciya-o.md
+3.9.1.3	Получить список организаций, постраничное получение	121-poluchit-spisok-organizaciy-postranichno.md
+3.9.1.4	Добавить организацию	122-dobavit-organizaciyu.md
+3.9.1.5	Редактировать организацию	123-redaktirovat-organizaciyu.md
+3.9.1.6	Удалить организацию	124-udalit-organizaciyu.md
+3.9.2	Группы	125-gruppy.md
+3.9.2.1	Получить группу по id	126-poluchit-gruppu-po-id.md
+3.9.2.2	Получить список групп, инициация отчета	127-poluchit-spisok-grupp-iniciaciya-otcheta.md
+3.9.2.3	Получить список групп, постраничное получение	128-poluchit-spisok-grupp-postranichnoe-polu.md
+3.9.2.4	Добавить группу	129-dobavit-gruppu.md
+3.9.2.5	Редактировать группу	130-redaktirovat-gruppu.md
+3.9.2.6	Удалить группу	131-udalit-gruppu.md
+3.9.3	Контакты	132-kontakty.md
+3.9.3.1	Получить список контактов, инициация отчета	133-poluchit-spisok-kontaktov-iniciaciya-otc.md
+3.9.3.2	Получить список контактов, постраничное получение	134-poluchit-spisok-kontaktov-postranichnoe.md
+3.9.3.3	Получить контакт по id	135-poluchit-kontakt-po-id.md
+3.9.3.4	Добавить контакт	136-dobavit-kontakt.md
+3.9.3.5	Редактировать контакт	137-redaktirovat-kontakt.md
+3.9.3.6	Удалить контакт	138-udalit-kontakt.md
+3.9.4	Уведомление об операциях с адресной книгой	139-uvedomlenie-ob-operaciyah-s-adresnoy-kni.md
+3.9.4.1	Обзор	140-obzor.md
+3.9.4.2	Для организаций	141-dlya-organizaciy.md
+3.9.4.3	Для групп	142-dlya-grupp.md
+3.9.4.4	Для контактов	143-dlya-kontaktov.md
+3.9.5	Получение набора пользовательских полей	144-poluchenie-nabora-polzovatelskih-poley.md
+3.10	API для работы с записями и метаданными, полученными из оффлайн-источников	145-api-dlya-raboty-s-zapisyami-i-metadannym.md
+3.10.1	Загрузка и распознавание речи в WAV-файле с привязкой к сотруднику	146-zagruzka-i-raspoznavanie-rechi-v-wav-fay.md
+3.10.1.1	Обзор	147-obzor.md
+3.10.1.2	Требования и рекомендации	148-trebovaniya-i-rekomendacii.md
+3.10.1.3	Описание метода	149-opisanie-metoda.md
+3.10.2	Загрузка и распознавание речи в WAV-файле без сохранения в ВАТС и без привязки к сотруднику	150-zagruzka-i-raspoznavanie-rechi-v-wav-fay.md
+3.10.2.1	Обзор	151-obzor.md
+3.10.2.2	Описание метода	152-opisanie-metoda.md
+3.10.3	Событие о завершении распознавания речи в WAV-файле	153-sobytie-o-zavershenii-raspoznavaniya-rec.md
+3.10.4	Получение результата распознавания речи в WAV-файле	154-poluchenie-rezultata-raspoznavaniya-rech.md
+4	Описание методов API Контакт-центра MANGO OFFICE	155-opisanie-metodov-api-kontakt-centra-mang.md
+4.1	Основное	156-osnovnoe.md
+4.2	Подключение и настройка API КЦ	157-podklyuchenie-i-nastroyka-api-kc.md
+4.3	Управление задачей на автоперезвон	158-upravlenie-zadachey-na-avtoperezvon.md
+4.3.1	Создание задачи на автоперезвон	159-sozdanie-zadachi-na-avtoperezvon.md
+4.3.2	Изменение задачи на автоперезвон	160-izmenenie-zadachi-na-avtoperezvon.md
+4.3.3	Получение задачи по ID	161-poluchenie-zadachi-po-id.md
+4.3.4	Получение списка задач	162-poluchenie-spiska-zadach.md
+4.3.5	Завершение задачи	163-zavershenie-zadachi.md
+4.3.6	Отмена задачи	164-otmena-zadachi.md
+4.4	Управление статусами и сессиями пользователя	165-upravlenie-statusami-i-sessiyami-polzova.md
+4.4.1	Статусы	166-statusy.md
+4.4.1.1	Что означает статус пользователя	167-chto-oznachaet-status-polzovatelya.md
+4.4.1.2	Коды статусов	168-kody-statusov.md
+4.4.1.3	Смена статуса сессии пользователя	169-smena-statusa-sessii-polzovatelya.md
+4.4.1.2	Смена статуса пользователя	170-smena-statusa-polzovatelya.md
+4.4.1.3	Статусы пользователей продукта	171-statusy-polzovateley-produkta.md
+4.4.1.4	Статусы на продукте	172-statusy-na-produkte.md
+4.4.2	События	173-sobytiya.md
+4.4.2.1	Изменение статуса пользователя	174-izmenenie-statusa-polzovatelya.md
+4.4.2.2	Завершение сессии	175-zavershenie-sessii.md
+4.5	Работа со сделками	176-rabota-so-sdelkami.md
+4.5.1	Создание сделки	177-sozdanie-sdelki.md
+4.5.2	Изменение сделки	178-izmenenie-sdelki.md
+4.5.3	Получение сделки по ID	179-poluchenie-sdelki-po-id.md
+4.5.4	Получение списка сделок	180-poluchenie-spiska-sdelok.md
+4.5.5	Получение списка пользовательских полей	181-poluchenie-spiska-polzovatelskih-poley.md
+4.5.6	Получение списка документов сделки	182-poluchenie-spiska-dokumentov-sdelki.md
+4.5.7	Добавление документов к сделке	183-dobavlenie-dokumentov-k-sdelke.md
+4.5.8	Получение списка воронок	184-poluchenie-spiska-voronok.md
+4.6	Кампании исходящего обзвона	185-kampanii-ishodyaschego-obzvona.md
+4.6.1	Общее	186-obschee.md
+4.6.2	Получение списка задач и подзадач кампаний	187-poluchenie-spiska-zadach-i-podzadach-kam.md
+4.6.3	Получение списка кампаний ИО	188-poluchenie-spiska-kampaniy-io.md
+4.6.4	Получение информации о кампании	189-poluchenie-informacii-o-kampanii.md
+4.6.4	Важная информация	190-vazhnaya-informaciya.md
+4.6.4	Описание запроса на создание кампании ИО	191-opisanie-zaprosa-na-sozdanie-kampanii-io.md
+4.6.6	Обновление кампании	192-obnovlenie-kampanii.md
+4.6.7	Добавление нескольких заданий в кампанию (асинхронный метод)	193-dobavlenie-neskolkih-zadaniy-v-kampaniyu.md
+4.6.8	Добавление одного задания в кампанию (синхронный метод)	194-dobavlenie-odnogo-zadaniya-v-kampaniyu-s.md
+4.6.9	Запуск кампании	195-zapusk-kampanii.md
+4.6.10	Остановка кампании	196-ostanovka-kampanii.md
+4.6.11	Удаление кампании	197-udalenie-kampanii.md
+4.6.12	Получение информации для генерации отчёта исходящего обзвона	198-poluchenie-informacii-dlya-generacii-otc.md
+4.6.13	Получение информации о задаче кампании ИО	199-poluchenie-informacii-o-zadache-kampanii.md
+4.6.14	Запуск задания кампании ИО	200-zapusk-zadaniya-kampanii-io.md
+4.6.15	Остановка задания	201-ostanovka-zadaniya.md
+4.6.16	Удаление задания	202-udalenie-zadaniya.md
+4.6.17	Обновление задания кампании ИО	203-obnovlenie-zadaniya-kampanii-io.md
+4.6.18	Получение информации о завершенных заданиях кампании ИО	204-poluchenie-informacii-o-zavershennyh-zad.md
+4.6.18	Важная информация	205-vazhnaya-informaciya.md
+4.6.18	Описание метода	206-opisanie-metoda.md
+4.6.19	Сброс попыток выполнения задания кампании ИО	207-sbros-popytok-vypolneniya-zadaniya-kampa.md
+4.6.20	Получение списка пользовательских полей	208-poluchenie-spiska-polzovatelskih-poley.md
+4.7	Данные Контакт-центра для звонка	209-dannye-kontakt-centra-dlya-zvonka.md
+4.7.1	Получение данных Контакт-центра для звонка	210-poluchenie-dannyh-kontakt-centra-dlya-zv.md
+4.7.2	Получение списка тематик по продукту	211-poluchenie-spiska-tematik-po-produktu.md
+4.7.3	Метод получения информации по скрипту(сценарию) КЦ	212-metod-polucheniya-informacii-po-skriptu.md
+4.7.4	Вопрос для оценки качества работы операторов по обработке вызовов	213-vopros-dlya-ocenki-kachestva-raboty-oper.md
+4.8	Работа с обращениями в Контакт-центре	214-rabota-s-obrascheniyami-v-kontakt-centre.md
+4.8.1	Общее	215-obschee.md
+4.8.2	Создание закрытого обращения	216-sozdanie-zakrytogo-obrascheniya.md
+4.8.3	События	217-sobytiya.md
+4.8.3.1	Общение закрыто	218-obschenie-zakryto.md
+4.9	Управление задачами	219-upravlenie-zadachami.md
+4.9.1	Методы	220-metody.md
+4.9.1.1	Создание задачи	221-sozdanie-zadachi.md
+4.9.1.2	Изменение задачи	222-izmenenie-zadachi.md
+4.9.1.3	Получение задачи по ID	223-poluchenie-zadachi-po-id.md
+4.9.1.4	Получение списка задач	224-poluchenie-spiska-zadach.md
+4.9.1.5	Завершение задачи	225-zavershenie-zadachi.md
+4.9.1.6	Отмена задачи	226-otmena-zadachi.md
+4.9.2	События	227-sobytiya.md
+4.9.2.1	Задача создана	228-zadacha-sozdana.md
+4.9.2.2	Задача изменена	229-zadacha-izmenena.md
+4.10	API Мобильное приложение	230-api-mobilnoe-prilozhenie.md
+4.10.1	Общее	231-obschee.md
+4.10.2	Методы	232-metody.md
+4.10.2.1	Отправка сообщения, либо файла, либо оценки обслуживания	233-otpravka-soobscheniya-libo-fayla-libo-oc.md
+4.10.2.2	Отправка уведомления о наборе текста	234-otpravka-uvedomleniya-o-nabore-teksta.md
+4.10.2.3	Отправка уведомления о прочитанном сообщении	235-otpravka-uvedomleniya-o-prochitannom-soo.md
+4.10.2.4	Отправка уведомления о доставленном сообщении	236-otpravka-uvedomleniya-o-dostavlennom-soo.md
+4.10.2.5	Получение истории сообщений	237-poluchenie-istorii-soobscheniy.md
+4.10.3	События	238-sobytiya.md
+4.10.3.1	Общие параметры для каждого события	239-obschie-parametry-dlya-kazhdogo-sobytiya.md
+4.10.3.2	Отправка сообщения	240-otpravka-soobscheniya.md
+4.10.3.3	Оповещение о том, что пользователь набирает текст	241-opoveschenie-o-tom-chto-polzovatel-nabir.md
+4.10.3.4	Оповещение о том, что сообщение прочитано	242-opoveschenie-o-tom-chto-soobschenie-proc.md
+4.10.3.5	Оповещение о том, что обращение закрыто и нужно оценить работу оператора	243-opoveschenie-o-tom-chto-obraschenie-zakr.md
+4.10.4	Как найти channelId	244-kak-nayti-channelid.md
+—	Список кодов результатов	245-spisok-kodov-rezultatov.md
+—	Примеры поведения	246-primery-povedeniya.md
+—	Уведомление о вызове	247-uvedomlenie-o-vyzove.md
+—	Инициирование исходящего вызова	248-iniciirovanie-ishodyaschego-vyzova.md
+—	Маршрутизация вызова	249-marshrutizaciya-vyzova.md
+—	Перевод вызова с консультацией	250-perevod-vyzova-s-konsultaciey.md
+—	Перевод вызова без консультации	251-perevod-vyzova-bez-konsultacii.md
+—	Обработка нажатий DTMF-клавиш	252-obrabotka-nazhatiy-dtmf-klavish.md
+—	Приложение 1 – Описание поля sip-headers	253-prilozhenie-1-opisanie-polya-sip-headers.md
+—	История документа	254-istoriya-dokumenta.md

@@ -1,0 +1,11 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+—	Содержание                                                  v2 | 13.03.2026	01-soderzhanie-v2-13-03-2026.md
+1	Термины и определения	02-terminy-i-opredeleniya.md
+2	Общие сведения	03-obschie-svedeniya.md
+3	Настройка IdP в ЛК ВАТС MANGO OFFICE	04-nastroyka-idp-v-lk-vats-mango-office.md
+4	Добавление провайдера	05-dobavlenie-provaydera.md
+4	Шаг 1. Настройка Identity-провайдера (IdP).	06-shag-1-nastroyka-identity-provaydera-idp.md
+4	Шаг 2. Сопоставление полей	07-shag-2-sopostavlenie-poley.md
+5	Вход сотрудника в Личный кабинет ВАТС	08-vhod-sotrudnika-v-lichnyy-kabinet-vats.md
+6	Настройка аутентификации и авторизации на примере Keycloak	09-nastroyka-autentifikacii-i-avtorizacii-n.md

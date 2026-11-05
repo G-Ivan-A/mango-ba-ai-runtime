@@ -1,0 +1,40 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Термины и определения	01-terminy-i-opredeleniya.md
+2	Что такое SIP Trunk	02-chto-takoe-sip-trunk.md
+3	Создание и редактирование SIP Trunk	03-sozdanie-i-redaktirovanie-sip-trunk.md
+3	1.	04-1.md
+3	2.	05-2.md
+3	3.	06-3.md
+3.1	Внешний SIP Trunk	07-vneshniy-sip-trunk.md
+3.1.1	Настройка	08-nastroyka.md
+3.1.2	Номера	09-nomera.md
+3.1.3	Маршрутизация	10-marshrutizaciya.md
+3.1.3.1	Правила использование масок:	11-pravila-ispolzovanie-masok.md
+3.1.3.2	Правила преобразования номера:	12-pravila-preobrazovaniya-nomera.md
+3.1.4	Резервирование	13-rezervirovanie.md
+3.2	Внутренний SIP Trunk	14-vnutrenniy-sip-trunk.md
+3.2.1	Настройка	15-nastroyka.md
+3.2.2	Номера	16-nomera.md
+3.2.3	Маршрутизация	17-marshrutizaciya.md
+3.3	Активация SIP Trunk в карточке сотрудника	18-aktivaciya-sip-trunk-v-kartochke-sotrudn.md
+3	1.	19-1.md
+3	2.	20-2.md
+3	3.	21-3.md
+3	3.1.	22-3-1.md
+3	3.2.	23-3-2.md
+3	3.3.	24-3-3.md
+3.4	Редактирование SIP Trunk	25-redaktirovanie-sip-trunk.md
+3.5	Удаление SIP Trunk	26-udalenie-sip-trunk.md
+4	Рабочая панель SIP Trunk	27-rabochaya-panel-sip-trunk.md
+4.1	Список транков	28-spisok-trankov.md
+4.2	Список правил маршрутизации	29-spisok-pravil-marshrutizacii.md
+5	Настройка схемы распределения звонков в Личном кабинете	30-nastroyka-shemy-raspredeleniya-zvonkov-v.md
+6	Примеры настройки звонков через SIP Trunk	31-primery-nastroyki-zvonkov-cherez-sip-tru.md
+7	Конфигурация популярных PBX	32-konfiguraciya-populyarnyh-pbx.md
+7.1	Создание SIP trunk для FreePBX (Asterisk)	33-sozdanie-sip-trunk-dlya-freepbx-asterisk.md
+7.1.1	Как проверить состояние транка	34-kak-proverit-sostoyanie-tranka.md
+7.1.2	Исходящая маршрутизация	35-ishodyaschaya-marshrutizaciya.md
+7.2	Создание SIP trunk для FusionPBX (Freeswitch)	36-sozdanie-sip-trunk-dlya-fusionpbx-freesw.md
+7.2	7.2.1.Исходящая маршрутизация	37-7-2-1-ishodyaschaya-marshrutizaciya.md
+8	Роли и права доступа.	38-roli-i-prava-dostupa.md

@@ -1,0 +1,66 @@
+section	title	file
+—	Титульная часть	00-titulnaya-chast.md
+1	Общие сведения	01-obschie-svedeniya.md
+2	Стандартные роли	02-standartnye-roli.md
+3	Управление ролями	03-upravlenie-rolyami.md
+3.1	Просмотр списка ролей	04-prosmotr-spiska-roley.md
+3.2	Создание роли	05-sozdanie-roli.md
+3.3	Создание роли путем копирования	06-sozdanie-roli-putem-kopirovaniya.md
+3.3.1	Копировать роль без запретов на изменение настроек	07-kopirovat-rol-bez-zapretov-na-izmenenie.md
+3.3.2	Копировать роль	08-kopirovat-rol.md
+3.4	Удаление роли	09-udalenie-roli.md
+3.5	Сбросить настройки роли	10-sbrosit-nastroyki-roli.md
+4	Настройка прав доступа роли	11-nastroyka-prav-dostupa-roli.md
+4.1	Гибкая настройка прав доступа с учетом ролей объекта	12-gibkaya-nastroyka-prav-dostupa-s-uchetom.md
+5	Матрица ролей и прав доступа	13-matrica-roley-i-prav-dostupa.md
+5.1	Раздел «Сотрудники»	14-razdel-sotrudniki.md
+5.1.1	Выбор подконтрольных групп	15-vybor-podkontrolnyh-grupp.md
+5.1.2	Сотрудники и группы	16-sotrudniki-i-gruppy.md
+5.2	Раздел «Инструменты»	17-razdel-instrumenty.md
+5.2.1	WFM	18-wfm.md
+5.2.2	Адресная книга	19-adresnaya-kniga.md
+5.2.3	Аналитика	20-analitika.md
+5.2.4	Аналитика Calltouch	21-analitika-calltouch.md
+5.2.5	Голосовые сообщения	22-golosovye-soobscheniya.md
+5.2.6	Динамический коллтрекинг	23-dinamicheskiy-kolltreking.md
+5.2.7	Задачи	24-zadachi.md
+5.2.8	Заказ звонка	25-zakaz-zvonka.md
+5.2.9	Запись разговоров	26-zapis-razgovorov.md
+5.2.10	История вызовов	27-istoriya-vyzovov.md
+5.2.11	Исходящий обзвон	28-ishodyaschiy-obzvon.md
+5.2.12	Контроль качества	29-kontrol-kachestva.md
+5.2.13	МангоМобайл	30-mangomobayl.md
+5.2.14	Обращения	31-obrascheniya.md
+5.2.15	Отправка SMS	32-otpravka-sms.md
+5.2.16	Отчеты Контакт-Центра	33-otchety-kontakt-centra.md
+5.2.17	Панель показателей	34-panel-pokazateley.md
+5.2.18	Раздел "Управление дозвоном"	35-razdel-upravlenie-dozvonom.md
+5.2.19	Речевая аналитика	36-rechevaya-analitika.md
+5.2.20	Роботы	37-roboty.md
+5.2.21	Сделки	38-sdelki.md
+5.2.22	Скрипты	39-skripty.md
+5.2.23	Статистика и мониторинг	40-statistika-i-monitoring.md
+5.2.24	Статический коллтрекинг	41-staticheskiy-kolltreking.md
+5.2.25	Текстовые рассылки	42-tekstovye-rassylki.md
+5.2.26	Управление звонками	43-upravlenie-zvonkami.md
+5.2.27	Управление сотрудниками	44-upravlenie-sotrudnikami.md
+5.3	Раздел «Обработка звонков»	45-razdel-obrabotka-zvonkov.md
+5.3.1	Голосовое меню и распределение звонков	46-golosovoe-menyu-i-raspredelenie-zvonkov.md
+5.3.2	Настройки дозвона и сообщений по умолчанию	47-nastroyki-dozvona-i-soobscheniy-po-umolc.md
+5.3.3	Номера, подключенные к АТС	48-nomera-podklyuchennye-k-ats.md
+5.3.4	Переадресация по номеру клиента	49-pereadresaciya-po-nomeru-klienta.md
+5.3.5	Черный/белый список	50-chernyy-belyy-spisok.md
+5.4	Раздел «Настройки АТС»	51-razdel-nastroyki-ats.md
+5.4.1	Аудиофайлы	52-audiofayly.md
+5.4.2	Безопасность и ограничения	53-bezopasnost-i-ogranicheniya.md
+5.4.3	Дополнительные настройки	54-dopolnitelnye-nastroyki.md
+5.4.4	Интеграции	55-integracii.md
+5.4.5	Конференц-связь	56-konferenc-svyaz.md
+5.4.6	Настройка SIP	57-nastroyka-sip.md
+5.4.7	Управление услугами	58-upravlenie-uslugami.md
+5.5	Раздел «Финансы»	59-razdel-finansy.md
+5.5.1	Подключение Контакт-центра	60-podklyuchenie-kontakt-centra.md
+5.5.2	Раздел "Финансы" и баланс Лицевого счета	61-razdel-finansy-i-balans-licevogo-scheta.md
+5.5.3	Смена тарифа и подключение услуг	62-smena-tarifa-i-podklyuchenie-uslug.md
+5.6	Раздел «Поддержка»	63-razdel-podderzhka.md
+5.7	Раздел «Функции Mango Talker»	64-razdel-funkcii-mango-talker.md
