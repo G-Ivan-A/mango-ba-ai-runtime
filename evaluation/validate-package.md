@@ -2,8 +2,8 @@
 type: system-prompt
 contract: validate-package
 status: runtime
-version: 0.6
-updated: 2026-11-04
+version: 0.7
+updated: 2026-11-17
 temperature: 0.1
 ---
 
@@ -27,8 +27,9 @@ temperature: 0.1
 - Обязательные разделы навыка, по порядку: `## Когда применять`,
   `## Предусловия`, `## Шаги`, `## Обязательные слоты выхода`,
   `## Самопроверка (G-self)`, `## Отказ`.
-- Ключи провенанса, строки с которыми могут упоминать Хаб: `derived_from:`,
-  `compiled_from:`, `source:`, `hub_ssot:`.
+- Ключи провенанса, строки с которыми могут упоминать источник модели
+  (`ba-ai-metamodel`, до выноса — Хаб): `derived_from:`, `compiled_from:`,
+  `source:`, `source_ssot:`, `source_commit:`, `hub_ssot:`.
 - Уровни каталога продуктов, сверху вниз: `domain`, `capability`, `feature`,
   `function`.
 - Причины отказа по каталогу (правило 1 `AGENTS.md`, `contracts/c-in.md`) и

@@ -11,7 +11,7 @@ inputs: [A-CORE, A-BCREQ]
 outputs: [A-BCREQ]
 contracts: [C-OUT]
 gates: [G-self, G-mach, G-human]
-compiled_from: { hub_commit: 1c81a8682d71df7b6735ac5c7f92af575d6c1356, layers: { meta_model: 0.3, process_taxonomy: 0.2, operation_taxonomy: 0.2, micro_structure: 0.2 } }
+compiled_from: { source_commit: 60c224b300032fbf357708dc4b8d51c697721713, layers: { meta_model: 0.3, process_taxonomy: 0.2, operation_taxonomy: 0.2, micro_structure: 0.2 } }
 derived_from: [ba-meta-model/20-taxonomy.md, ba-meta-model/30-decision-framework.md, ba-operation-taxonomy/20-taxonomy.md, contracts/c-out-bcreq.md, templates/bcreq-skeleton.md]
 compiled_at: 2026-09-15
 status: draft
