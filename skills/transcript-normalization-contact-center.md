@@ -11,7 +11,7 @@ inputs: [A-IN]
 outputs: [A-IN]
 contracts: [C-IN]
 gates: [G-self, G-mach]
-compiled_from: { hub_commit: b3a9e161c9fb459cb9112d3aaa4d003bbfb5c4fa, layers: { meta_model: 0.5, process_taxonomy: 0.2, operation_taxonomy: 0.2 } }
+compiled_from: { source_commit: 657abccc171d1ad6d860bbc262b5cc56aa5e99e0, layers: { meta_model: 0.5, process_taxonomy: 0.2, operation_taxonomy: 0.2 } }
 derived_from: [ba-meta-model/20-taxonomy.md, ba-process-taxonomy/20-taxonomy.md, ba-operation-taxonomy/20-taxonomy.md]
 compiled_at: 2026-11-04
 status: draft
