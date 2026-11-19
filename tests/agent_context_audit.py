@@ -24,13 +24,14 @@ import argparse
 import collections
 import hashlib
 import json
+import posixpath
 import re
 import subprocess
 import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-AUDIT_VERSION = "0.2"
+AUDIT_VERSION = "0.3"
 
 # Stage-1 inputs (task 1: G-Ivan-A/mango_ba_prompts#492, PR #493, merged as
 # 7611c041). Pinned by commit and sha256 of the file bytes.
@@ -295,6 +296,8 @@ def report_clients(files: list[str]) -> None:
     hits = collections.Counter()
     kb_hits = 0
     for path in files:
+        if path == "tests/agent_context_audit.log":
+            continue  # the log quotes these names itself
         try:
             text = (ROOT / path).read_text(encoding="utf-8")
         except (UnicodeDecodeError, IsADirectoryError):
@@ -442,7 +445,12 @@ INTAKE_SUMMARY = {
     "env_word_hits": ["standards/bcreq-lessons/golden-set-bcreq-stage1.md"],
     "ban_hits": [],
     "missing_refs": [],
+    "links": {"absolute/anchor": 805, "inside": 416, "outside-existing": 334},
+    "files_with_outside_links": 64,
+    "outside_by_top_dir": {"docs": 214, "runs": 49, "standards": 31, "experiments": 17, "pr-ops": 8,
+                           "scripts": 6, "prompts": 5, "site": 2, "README.md": 1, "tools": 1},
 }
+MD_LINK = re.compile(r"\]\(([^)\s]+)\)")
 
 
 def intake_check(handoff: dict, repo: str) -> dict:
@@ -450,6 +458,10 @@ def intake_check(handoff: dict, repo: str) -> dict:
     commit = handoff["source_commit"]
     result = {"sha256_match": 0, "extensions": collections.Counter(), "env_word_hits": [],
               "ban_hits": [], "missing_refs": set()}
+    paths = {a["path"] for a in handoff["artifacts"]}
+    tree = set(subprocess.run(["git", "-C", repo, "ls-tree", "-r", "--name-only", commit],
+                              capture_output=True, text=True, check=True).stdout.splitlines())
+    links, files_out, top = collections.Counter(), set(), collections.Counter()
     for artifact in handoff["artifacts"]:
         path = artifact["path"]
         data = subprocess.run(["git", "-C", repo, "show", f"{commit}:{path}"],
@@ -465,8 +477,27 @@ def intake_check(handoff: dict, repo: str) -> dict:
             for ref in SMOKE_REF.findall(line):
                 if not (ROOT / ref).exists():
                     result["missing_refs"].add(ref)
+        if not path.endswith(".md"):
+            continue
+        # Relative links that a byte copy keeps but whose targets stay in stage 1 (sync rule 5).
+        for raw in MD_LINK.findall(text):
+            if re.match(r"^[a-z]+:", raw) or raw.startswith("#"):
+                links["absolute/anchor"] += 1
+                continue
+            target = posixpath.normpath(posixpath.join(posixpath.dirname(path), raw.split("#")[0]))
+            if target in paths:
+                links["inside"] += 1
+            elif target in tree or any(t.startswith(target + "/") for t in tree):
+                links["outside-existing"] += 1
+                files_out.add(path)
+                top[target.split("/")[0]] += 1
+            else:
+                links["broken-at-source"] += 1
     result["extensions"] = dict(result["extensions"])
     result["missing_refs"] = sorted(result["missing_refs"])
+    result["links"] = dict(links)
+    result["files_with_outside_links"] = len(files_out)
+    result["outside_by_top_dir"] = dict(top.most_common())
     return result
 
 
@@ -492,7 +523,11 @@ def report_handoff(handoff: dict | None, intake: dict | None) -> None:
     print(f"- расширения: {INTAKE_SUMMARY['extensions']} — файлы .json вне docs/kb, tests, .github нарушают проверку 'no .py or .json runtime files';")
     print(f"- слова привязки к среде: {INTAKE_SUMMARY['env_word_hits']};")
     print(f"- явные запреты внешних баз: {INTAKE_SUMMARY['ban_hits'] or 'нет'};")
-    print(f"- относительные ссылки (contracts|skills|…)/x.(md|yaml) без файла в runtime: {INTAKE_SUMMARY['missing_refs'] or 'нет'}.")
+    print(f"- относительные ссылки (contracts|skills|…)/x.(md|yaml) без файла в runtime: {INTAKE_SUMMARY['missing_refs'] or 'нет'};")
+    print(f"- markdown-ссылки в .md: {INTAKE_SUMMARY['links']} — 'outside-existing' ведут на файлы этапа 1 вне манифеста;")
+    print(f"  таких ссылок {INTAKE_SUMMARY['links']['outside-existing']} в {INTAKE_SUMMARY['files_with_outside_links']} файлах, "
+          f"по каталогам цели: {INTAKE_SUMMARY['outside_by_top_dir']}.")
+    print("  Байтовая копия (правила 1, 2, 4 sync_policy) оставит их битыми в runtime, переписывание (правило 5) меняет sha256 — решение Р-RT-7.")
 
 
 def load_pinned(path: str | None, expected: str, label: str) -> dict | None:
