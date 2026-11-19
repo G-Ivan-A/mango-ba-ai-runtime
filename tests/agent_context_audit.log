@@ -1,6 +1,6 @@
-# Аудит As-Is агентного контекста (RFC-RT-002), версия скрипта 0.2
+# Аудит As-Is агентного контекста (RFC-RT-002), версия скрипта 0.3
 
-HEAD: fc2d15e6ab8f14485888b9342e43c6d518342433; отслеживаемых файлов: 7008.
+HEAD: 567d378362cfa44296868b22a9f15ef104ce4cdf; отслеживаемых файлов: 7008.
 Встроенная сводка #492 сверена с runtime-deps.json: совпадает.
 Сверено с манифестом передачи: артефактов уже в runtime — 0.
 
@@ -21,7 +21,7 @@ HEAD: fc2d15e6ab8f14485888b9342e43c6d518342433; отслеживаемых фа�
 | `skills` | 11 | 57215 | 10619181b3ab | 11 навыков узлов маршрута | валидатор |
 | `taxonomy` | 10 | 158682 | d193d37e8f53 | закрытые словари, каталог продуктов, уровни источников | валидатор; валидатор, модель, сайт |
 | `templates` | 3 | 11058 | 69ad4453153d | скелеты A-BCREQ, A-QUEST, A-CORE | валидатор, модель, сайт |
-| `tests` | 10 | 95066 | 36745d76a32c | проверки репозитория (smoke, unittest), этот аудит | CI (GitHub Actions) |
+| `tests` | 10 | 97411 | 20984b456951 | проверки репозитория (smoke, unittest), этот аудит | CI (GitHub Actions) |
 
 ## 2. Защищённые пути этапа 1 (ФТ-4)
 
@@ -243,4 +243,7 @@ compilation-manifest.yaml: version 0.7, meta_model_version 0.5, compiled_at 2026
 - расширения: {'md': 126, 'json': 7} — файлы .json вне docs/kb, tests, .github нарушают проверку 'no .py or .json runtime files';
 - слова привязки к среде: ['standards/bcreq-lessons/golden-set-bcreq-stage1.md'];
 - явные запреты внешних баз: нет;
-- относительные ссылки (contracts|skills|…)/x.(md|yaml) без файла в runtime: нет.
+- относительные ссылки (contracts|skills|…)/x.(md|yaml) без файла в runtime: нет;
+- markdown-ссылки в .md: {'absolute/anchor': 805, 'inside': 416, 'outside-existing': 334} — 'outside-existing' ведут на файлы этапа 1 вне манифеста;
+  таких ссылок 334 в 64 файлах, по каталогам цели: {'docs': 214, 'runs': 49, 'standards': 31, 'experiments': 17, 'pr-ops': 8, 'scripts': 6, 'prompts': 5, 'site': 2, 'README.md': 1, 'tools': 1}.
+  Байтовая копия (правила 1, 2, 4 sync_policy) оставит их битыми в runtime, переписывание (правило 5) меняет sha256 — решение Р-RT-7.
