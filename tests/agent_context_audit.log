@@ -1,0 +1,225 @@
+# Аудит As-Is агентного контекста (RFC-RT-002), версия скрипта 0.1
+
+HEAD: 15cb0b917faa4a0d963762f28803489b6f1baa44; отслеживаемых файлов: 7005.
+Встроенная сводка #492 сверена с runtime-deps.json: совпадает.
+Сверено с манифестом передачи: артефактов уже в runtime — 0.
+
+## 1. Инвентаризация (ФТ-1): элементы верхнего уровня
+
+| Элемент | Файлов | Байт | sha256 дерева (12) | Назначение | Потребитель этапа 1 (#492) |
+| --- | ---: | ---: | --- | --- | --- |
+| `.github` | 1 | 416 | 958f6ba4516c | CI: smoke и unittest при push/pull_request | CI (GitHub Actions) |
+| `.gitignore` | 1 | 19 | 5a0d14220ea9 | исключение байткода Python | git |
+| `AGENTS.md` | 1 | 12070 | 69d04c1fa565 | загрузочный системный промпт маршрута RG-BCREQ-v1 | валидатор |
+| `README.md` | 1 | 3900 | 466c3bbf6c25 | вход человека: первый запуск, состав, навигация БЗ | валидатор |
+| `compilation-manifest.yaml` | 1 | 14680 | 09769a0431a0 | происхождение пакета: copied / transformed / discarded | человек; tests/test_source_pin.py |
+| `contracts` | 5 | 22865 | 26b25b9cab8f | системные промпты-контракты C-IN, C-CORE, C-QUEST, C-OUT-BCREQ, C-RK | валидатор |
+| `docs` | 6937 | 197914191 | 64c774b4df04 | docs/kb — БЗ ST-5-LOCAL; docs/guides — инструкции пользователя | валидатор; валидатор, модель, сайт |
+| `evaluation` | 4 | 26162 | 2da254afdbae | метрики, чек-листы гейтов, промпт G-mach | валидатор; валидатор, модель, сайт |
+| `golden` | 21 | 89330 | c25fecf62ac9 | Golden Set по продуктовым классам | валидатор; валидатор, модель, сайт |
+| `routes` | 2 | 6760 | b7dbffcb005c | граф маршрута и шаблон листа прогона | валидатор |
+| `skills` | 11 | 57215 | 10619181b3ab | 11 навыков узлов маршрута | валидатор |
+| `taxonomy` | 10 | 158682 | d193d37e8f53 | закрытые словари, каталог продуктов, уровни источников | валидатор; валидатор, модель, сайт |
+| `templates` | 3 | 11058 | 69ad4453153d | скелеты A-BCREQ, A-QUEST, A-CORE | валидатор, модель, сайт |
+| `tests` | 7 | 60922 | 13d81d38e254 | проверки репозитория (smoke, unittest), этот аудит | CI (GitHub Actions) |
+
+## 2. Защищённые пути этапа 1 (ФТ-4)
+
+Источник: G-Ivan-A/mango_ba_prompts@7af2dc57:experiments/issue_492/runtime-deps.json (sha256 a7db1c665f84).
+Сводка #492: {'runtime_paths': 447, 'защищённый': 431, 'защищённый (двойной)': 14, 'свободный': 2}; строк docs/kb/*: {'rows': 424, 'защищённый': 419, 'защищённый (двойной)': 3, 'свободный': 2}.
+
+| Путь | Статус | Потребитель | Тип ссылки | Есть в рабочем дереве |
+| --- | --- | --- | --- | --- |
+| `/` | защищённый | валидатор, сайт, сборка | SHA (иной срез), SHA (реестр), main, корень, шаблон | да |
+| `AGENTS.md` | защищённый | валидатор | SHA (иной срез) | да |
+| `README.md` | защищённый | валидатор | SHA (иной срез) | да |
+| `contracts/c-in.md` | защищённый | валидатор | SHA (иной срез) | да |
+| `docs/kb` | защищённый | валидатор | SHA (иной срез), шаблон | да |
+| `docs/kb/MAP.json` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр), main | да |
+| `docs/kb/README.md` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр), main | да |
+| `docs/kb/USAGE.md` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр), main | да |
+| `evaluation/g-human-checklist.md` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр) | да |
+| `evaluation/validate-package.md` | защищённый | валидатор | SHA (иной срез) | да |
+| `golden/cases-analytics-reporting.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (реестр) | да |
+| `golden/cases-voice-ucaas.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (реестр) | да |
+| `golden/cases.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр), клон | да |
+| `golden/gs-cc-01-queue-overflow.md` | защищённый | валидатор | SHA (иной срез) | да |
+| `golden/gs-cc-neg-03-sla-vs-aht.md` | защищённый | валидатор | SHA (иной срез) | да |
+| `routes/rg-bcreq-v1.yaml` | защищённый | валидатор | SHA (иной срез) | да |
+| `skills/` | защищённый | валидатор | SHA (иной срез) | да |
+| `taxonomy/domain-glossary-analytics-reporting.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (реестр) | да |
+| `taxonomy/domain-glossary-voice-ucaas.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр) | да |
+| `taxonomy/domain-glossary.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (реестр) | да |
+| `taxonomy/mango-products.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр), клон | да |
+| `taxonomy/processes.yaml` | защищённый | валидатор | SHA (иной срез) | да |
+| `taxonomy/products.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр), main, клон | да |
+| `taxonomy/projections.yaml` | защищённый | валидатор | SHA (иной срез) | да |
+| `taxonomy/source-tiers.yaml` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр) | да |
+| `templates/bcreq-skeleton.md` | защищённый (двойной) | валидатор, модель, сайт | SHA (иной срез), SHA (реестр) | да |
+
+Дайджест защищённых каталогов (sha256 по «путь NUL sha256 LF»):
+- `docs/kb`: 6931 файлов, dfbb29a95d083d1e604e25749bf0faae403f1b48e6bdd14a574fd4eb68cd26d4
+- `taxonomy`: 10 файлов, d193d37e8f53cf3d346486f2d86d2b501b8b90a82c06bdac8b8013fc840d6383
+- `templates`: 3 файлов, 69ad4453153dba65c530d8e4b8e1009e9e9442d8872ae4a723b5922ba50b9bd5
+- `golden`: 21 файлов, c25fecf62ac926428abbc5e462c8bde46d3a235d03542cb3795524829a40dc3b
+- `evaluation`: 4 файлов, 2da254afdbae26b9f72f5136fa3b8b009eb10275200c4e74e68d6feb82f2af17
+- изменено в защищённых каталогах относительно `90f0823`: 0
+- изменено в защищённых каталогах относительно `68ad8fcffd47`: 1
+  - evaluation/validate-package.md
+
+## 3. Г1: пакеты и файлы контекста агентных клиентов
+
+| Путь | Клиент | В рабочем дереве | Последнее удаление в истории |
+| --- | --- | --- | --- |
+| `AGENTS.md` | открытый стандарт AGENTS.md (OpenCode, Codex и др.) | да | — |
+| `CLAUDE.md` | Claude Code | нет | — |
+| `.claude` | Claude Code | нет | — |
+| `GEMINI.md` | Gemini CLI | нет | — |
+| `.gemini` | Gemini CLI | нет | — |
+| `.opencode` | OpenCode | нет | — |
+| `opencode.json` | OpenCode | нет | — |
+| `opencode.jsonc` | OpenCode | нет | — |
+| `.agents` | каталог навыков .agents/skills | нет | a4b1377 2026-09-26 |
+| `.hub-profile.json` | профиль среды исполнения Хаба | нет | a4b1377 2026-09-26 |
+| `.clinerules` | Cline | нет | — |
+| `.cursor` | Cursor | нет | — |
+| `.cursorrules` | Cursor (устаревший формат) | нет | — |
+| `.windsurf` | Windsurf | нет | — |
+| `.windsurfrules` | Windsurf | нет | — |
+| `.github/copilot-instructions.md` | GitHub Copilot | нет | — |
+| `.github/instructions` | GitHub Copilot | нет | — |
+| `.qwen` | Qwen Code | нет | — |
+| `.gigacode` | GigaCode | нет | — |
+| `QWEN.md` | Qwen Code | нет | — |
+
+Упоминания имён клиентов в отслеживаемых файлах вне docs/kb:
+- `tests/runtime-smoke.sh`: 6
+- docs/kb (продуктовая БЗ, не конфигурация клиента): 36
+
+Коммиты, удалившие срез под среду исполнения:
+- `.hub-profile.json`: a4b1377 2026-09-26 restructure runtime as environment-neutral repository for model chats
+  > - move skills from .agents/skills/<name>/SKILL.md to skills/<name>.md
+  > - convert contracts/*.schema.json and tools/validate-package.py into
+  > Markdown system prompts (contracts/<name>.md, evaluation/validate-package.md)
+  > - drop GigaCode slice: .hub-profile.json, tools/, runs/, experiments/
+  > - remove out_of_slice bans: unreachable knowledge tiers are skipped, not blocking
+  > - rewrite README, AGENTS.md, guides and smoke test for chat usage
+
+## 4. Г2: единый вход AGENTS.md и каталог навыков
+
+AGENTS.md: version 0.7, updated 2026-11-17, 12070 байт.
+
+| Элемент контракта ФТ-2 | В AGENTS.md |
+| --- | --- |
+| маркер ACCESS_GAP | нет |
+| запрет имитации чтения (unverified) | да |
+| правило цитирования: локатор + дословная цитата | да |
+| навигация БЗ: README.md базы знаний | нет |
+| навигация БЗ: MAP.json | нет |
+| навигация БЗ: sections_toc / *.toc.tsv | нет |
+| навигация БЗ: USAGE.md | нет |
+| навигация БЗ: index.md → sections/ | да |
+
+Навыков: 11; раскладка: {'skills/<имя>.md': 11}.
+Поля frontmatter навыков (поле: число навыков): {'compiled_at': 11, 'compiled_from': 11, 'contracts': 11, 'derived_from': 11, 'description': 11, 'gates': 11, 'inputs': 11, 'interaction': 11, 'name': 11, 'outputs': 11, 'packs': 11, 'product_class': 11, 'status': 11, 'temperature': 11, 'updated': 11, 'version': 11}.
+- поле `version` есть у 11 из 11 навыков
+- поле `compiled_from` есть у 11 из 11 навыков
+- поле `derived_from` есть у 11 из 11 навыков
+- поле `compiled_at` есть у 11 из 11 навыков
+
+| Навык | version | compiled_at | compiled_from.source_commit | слой meta_model |
+| --- | --- | --- | --- | --- |
+| `ambiguity-detection-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `answer-integration-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `bcreq-assembly-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `bcreq-decomposition-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `context-extraction-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `core-assembly-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `problem-statement-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `question-formation-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `question-prioritization-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+| `transcript-normalization-contact-center` | 1.1 | 2026-11-04 | 657abccc171d | 0.5 |
+| `value-hypothesis-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
+- каталог `agents/`: нет
+
+## 5. Г3: иная устаревшая информация
+
+compilation-manifest.yaml: version 0.7, meta_model_version 0.5, compiled_at 2026-11-04.
+
+| Файл | version | meta_model_version | updated | Расхождение с манифестом |
+| --- | --- | --- | --- | --- |
+| `AGENTS.md` | 0.7 | — | 2026-11-17 | — |
+| `README.md` | 0.5 | 0.4 | 2026-09-26 | meta_model_version 0.4 ≠ 0.5; версия пакета 0.5 ≠ 0.7; updated раньше compiled_at 2026-11-04 |
+| `contracts/c-core.md` | 0.5 | — | 2026-09-26 | updated раньше compiled_at 2026-11-04 |
+| `contracts/c-in.md` | 0.6 | — | 2026-11-04 | — |
+| `contracts/c-out-bcreq.md` | 0.5 | — | 2026-09-26 | updated раньше compiled_at 2026-11-04 |
+| `contracts/c-quest.md` | 0.5 | — | 2026-09-26 | updated раньше compiled_at 2026-11-04 |
+| `contracts/c-rk.md` | 0.5 | — | 2026-09-26 | updated раньше compiled_at 2026-11-04 |
+| `docs/guides/00-quick-start.md` | — | — | — | — |
+| `docs/guides/02-processes.md` | — | — | — | — |
+| `docs/guides/03-task-types.md` | — | — | — | — |
+| `docs/guides/05-human-review.md` | — | — | — | — |
+| `docs/guides/06-dialog-rules.md` | — | — | — | — |
+| `docs/guides/README.md` | — | — | — | — |
+| `evaluation/g-human-checklist.md` | 1.0 | — | 2026-09-15 | updated раньше compiled_at 2026-11-04 |
+| `evaluation/g-mach-checklist.md` | 1.1 | — | 2026-11-04 | — |
+| `evaluation/validate-package.md` | 0.7 | — | 2026-11-17 | — |
+| `templates/bcreq-skeleton.md` | 1.0 | — | 2026-09-15 | updated раньше compiled_at 2026-11-04 |
+| `templates/quest-skeleton.md` | 1.0 | — | 2026-09-15 | updated раньше compiled_at 2026-11-04 |
+
+- заголовок README.md: «Mango BA AI Runtime — MVP BCREQ 0.5»
+- навигация БЗ: README.md — MAP.json → toc.tsv; AGENTS.md — index.md → sections/ (без MAP.json и sections_toc)
+- упоминания прежнего источника модели (Хаб) вне compilation-manifest.yaml и tests/:
+  - `AGENTS.md:14`: нормативному документу источника модели (`ba-ai-metamodel`, до выноса — Хаб)
+  - `evaluation/validate-package.md:16`: продуктов этого класса, в runtime-артефактах нет ссылок в Хаб), а затем
+  - `evaluation/validate-package.md:31`: (`ba-ai-metamodel`, до выноса — Хаб): `derived_from:`, `compiled_from:`,
+  - `evaluation/validate-package.md:43`: - Пути Хаба, запрещённые во время выполнения: `ba-meta-model`,
+  - `evaluation/validate-package.md:175`: содержат путей Хаба.
+  - `taxonomy/artifacts.yaml:2`: # Расширение словаря выполняется задачей Хаба с указанием непокрытого случая (T-2).
+
+## 6. Приём SSOT этапа 1 (ФТ-3): манифест задачи 1
+
+Источник: G-Ivan-A/mango_ba_prompts@7af2dc57:docs/contracts/ssot-stage1-handoff-manifest.json (sha256 00d71f4a7121).
+Сводка: {'source_commit': '7dea8f716d69e55c183865630d10f40cdb6e46b1', 'artifacts': 133, 'contracts': 24, 'in_runtime': 0, 'transfer_cards': {'BL-185': 38, 'BL-186': 31, 'BL-187': 62, 'BL-188': 2}}.
+
+| Карточка | Каталог источника | Артефактов |
+| --- | --- | --- |
+| BL-185 | `docs/ba-processes` | 1 |
+| BL-185 | `prompts/archive` | 6 |
+| BL-185 | `prompts/bcreq-constitution-governance-oneshot.md` | 1 |
+| BL-185 | `prompts/bcreq-constraints-documentation-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-context-understanding-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-core-documentation-oneshot.md` | 1 |
+| BL-185 | `prompts/bcreq-extra-risk-analysis-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-fr-documentation-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-in-understanding-oneshot.md` | 1 |
+| BL-185 | `prompts/bcreq-nfr-documentation-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-orr-solution-design-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-products-impact-analysis-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-review-validation-oneshot.md` | 1 |
+| BL-185 | `prompts/bcreq-scenarios-modeling-oneshot.md` | 1 |
+| BL-185 | `prompts/bcreq-uc-modeling-stepwise.md` | 1 |
+| BL-185 | `prompts/bcreq-work-solution-design-oneshot.md` | 1 |
+| BL-185 | `prompts/drafts` | 17 |
+| BL-186 | `docs/ba-processes` | 6 |
+| BL-186 | `docs/rfc` | 1 |
+| BL-186 | `prompts/drafts` | 24 |
+| BL-187 | `standards/bcreq-composition-standard.md` | 1 |
+| BL-187 | `standards/bcreq-industry-practice.md` | 1 |
+| BL-187 | `standards/bcreq-lessons` | 5 |
+| BL-187 | `standards/bcreq-manual-classes` | 41 |
+| BL-187 | `standards/bcreq-prompt-architecture.md` | 1 |
+| BL-187 | `standards/bcreq-prompt-base-standard.md` | 1 |
+| BL-187 | `standards/bcreq-prompt-profiles.md` | 1 |
+| BL-187 | `standards/bcreq-runtime-references.md` | 1 |
+| BL-187 | `standards/bcreq-sections` | 9 |
+| BL-187 | `standards/product-classification-contract.md` | 1 |
+| BL-188 | `docs/ba-processes` | 1 |
+| BL-188 | `docs/contracts` | 1 |
+
+Проверка копии как есть по правилам tests/runtime-smoke.sh: пересчитано по клону, совпадает со встроенной.
+- sha256 совпадает у 133 из 133 артефактов;
+- расширения: {'md': 126, 'json': 7} — файлы .json вне docs/kb, tests, .github нарушают проверку 'no .py or .json runtime files';
+- слова привязки к среде: ['standards/bcreq-lessons/golden-set-bcreq-stage1.md'];
+- явные запреты внешних баз: нет;
+- относительные ссылки (contracts|skills|…)/x.(md|yaml) без файла в runtime: нет.
