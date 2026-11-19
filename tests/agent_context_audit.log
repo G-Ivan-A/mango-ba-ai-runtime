@@ -1,6 +1,6 @@
-# Аудит As-Is агентного контекста (RFC-RT-002), версия скрипта 0.1
+# Аудит As-Is агентного контекста (RFC-RT-002), версия скрипта 0.2
 
-HEAD: 15cb0b917faa4a0d963762f28803489b6f1baa44; отслеживаемых файлов: 7005.
+HEAD: fc2d15e6ab8f14485888b9342e43c6d518342433; отслеживаемых файлов: 7008.
 Встроенная сводка #492 сверена с runtime-deps.json: совпадает.
 Сверено с манифестом передачи: артефактов уже в runtime — 0.
 
@@ -21,7 +21,7 @@ HEAD: 15cb0b917faa4a0d963762f28803489b6f1baa44; отслеживаемых фа�
 | `skills` | 11 | 57215 | 10619181b3ab | 11 навыков узлов маршрута | валидатор |
 | `taxonomy` | 10 | 158682 | d193d37e8f53 | закрытые словари, каталог продуктов, уровни источников | валидатор; валидатор, модель, сайт |
 | `templates` | 3 | 11058 | 69ad4453153d | скелеты A-BCREQ, A-QUEST, A-CORE | валидатор, модель, сайт |
-| `tests` | 7 | 60922 | 13d81d38e254 | проверки репозитория (smoke, unittest), этот аудит | CI (GitHub Actions) |
+| `tests` | 10 | 95066 | 36745d76a32c | проверки репозитория (smoke, unittest), этот аудит | CI (GitHub Actions) |
 
 ## 2. Защищённые пути этапа 1 (ФТ-4)
 
@@ -93,6 +93,7 @@ HEAD: 15cb0b917faa4a0d963762f28803489b6f1baa44; отслеживаемых фа�
 | `QWEN.md` | Qwen Code | нет | — |
 
 Упоминания имён клиентов в отслеживаемых файлах вне docs/kb:
+- `tests/agent_context_audit.py`: 47
 - `tests/runtime-smoke.sh`: 6
 - docs/kb (продуктовая БЗ, не конфигурация клиента): 36
 
@@ -141,6 +142,26 @@ AGENTS.md: version 0.7, updated 2026-11-17, 12070 байт.
 | `transcript-normalization-contact-center` | 1.1 | 2026-11-04 | 657abccc171d | 0.5 |
 | `value-hypothesis-contact-center` | 1.0 | 2026-09-15 | 60c224b30003 | 0.3 |
 - каталог `agents/`: нет
+
+Пригодность навыков для зеркала `<имя>/SKILL.md` по спецификации Agent Skills
+(agentskills.io/specification: name 1–64 [a-z0-9-] и равно каталогу; description
+1–1024 символа; SKILL.md короче 500 строк):
+
+| Навык | name = имя файла | name по шаблону | символов description | строк |
+| --- | --- | --- | ---: | ---: |
+| `ambiguity-detection-contact-center` | да | да | 189 | 79 |
+| `answer-integration-contact-center` | да | да | 153 | 76 |
+| `bcreq-assembly-contact-center` | да | да | 186 | 94 |
+| `bcreq-decomposition-contact-center` | да | да | 149 | 78 |
+| `context-extraction-contact-center` | да | да | 226 | 87 |
+| `core-assembly-contact-center` | да | да | 152 | 77 |
+| `problem-statement-contact-center` | да | да | 185 | 77 |
+| `question-formation-contact-center` | да | да | 179 | 71 |
+| `question-prioritization-contact-center` | да | да | 197 | 71 |
+| `transcript-normalization-contact-center` | да | да | 222 | 88 |
+| `value-hypothesis-contact-center` | да | да | 161 | 75 |
+- пригодны без правки текста: 11 из 11
+- AGENTS.md: 12070 байт; предел Codex project_doc_max_bytes 32 KiB — в пределе
 
 ## 5. Г3: иная устаревшая информация
 

@@ -30,7 +30,7 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parents[1]
-AUDIT_VERSION = "0.1"
+AUDIT_VERSION = "0.2"
 
 # Stage-1 inputs (task 1: G-Ivan-A/mango_ba_prompts#492, PR #493, merged as
 # 7611c041). Pinned by commit and sha256 of the file bytes.
@@ -194,6 +194,29 @@ def frontmatter(text: str) -> dict[str, str]:
     return fields
 
 
+SKILL_NAME = re.compile(r"[a-z0-9]+(?:-[a-z0-9]+)*")
+
+
+def block_value(text: str, key: str) -> str:
+    """Value of a frontmatter key, including an indented folded block (``>-``)."""
+    if not text.startswith("---\n"):
+        return ""
+    lines = text[4:text.find("\n---", 4)].splitlines()
+    for i, line in enumerate(lines):
+        if line.startswith(f"{key}:"):
+            head = line[len(key) + 1:].strip()
+            if head not in (">", ">-", "|", "|-"):
+                return head.strip('"')
+            body = []
+            for cont in lines[i + 1:]:
+                if cont.startswith(" ") or not cont:
+                    body.append(cont.strip())
+                else:
+                    break
+            return " ".join(body)
+    return ""
+
+
 def top_level(path: str) -> str:
     return path.split("/", 1)[0]
 
@@ -337,6 +360,26 @@ def report_entry_and_skills(files: list[str]) -> None:
             f"{commit.group(1)[:12] if commit else '—'} | {layer.group(1) if layer else '—'} |"
         )
     print(f"- каталог `agents/`: {'есть' if any(f.startswith('agents/') for f in files) else 'нет'}")
+    print()
+    print("Пригодность навыков для зеркала `<имя>/SKILL.md` по спецификации Agent Skills")
+    print("(agentskills.io/specification: name 1–64 [a-z0-9-] и равно каталогу; description")
+    print("1–1024 символа; SKILL.md короче 500 строк):")
+    print()
+    print("| Навык | name = имя файла | name по шаблону | символов description | строк |")
+    print("| --- | --- | --- | ---: | ---: |")
+    fits = 0
+    for path in skills:
+        text = (ROOT / path).read_text(encoding="utf-8")
+        name = frontmatter(text).get("name", "")
+        stem = Path(path).stem
+        description = " ".join(block_value(text, "description").split())
+        lines = text.count("\n")
+        ok = (name == stem, bool(SKILL_NAME.fullmatch(name)), 1 <= len(description) <= 1024, lines < 500)
+        fits += all(ok)
+        print(f"| `{stem}` | {'да' if ok[0] else 'нет'} | {'да' if ok[1] else 'нет'} | {len(description)} | {lines} |")
+    print(f"- пригодны без правки текста: {fits} из {len(skills)}")
+    size = len(agents.encode())
+    print(f"- AGENTS.md: {size} байт; предел Codex project_doc_max_bytes 32 KiB — {'в пределе' if size <= 32768 else 'превышен'}")
 
 
 def report_staleness(files: list[str]) -> None:

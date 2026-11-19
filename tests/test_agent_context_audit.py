@@ -55,6 +55,20 @@ class StageOneContracts(unittest.TestCase):
                 self.assertFalse(present, f"{marker} ({client}) needs an owner decision, RFC-RT-002")
 
 
+    def test_skills_fit_agent_skills_mirror(self):
+        """RFC-RT-002 option «mirror <name>/SKILL.md» relies on this without editing skill texts."""
+        for path in sorted(f for f in tracked() if f.startswith("skills/")):
+            text = (ROOT / path).read_text(encoding="utf-8")
+            name = audit.frontmatter(text).get("name", "")
+            description = " ".join(audit.block_value(text, "description").split())
+            with self.subTest(skill=path):
+                self.assertEqual(name, Path(path).stem)
+                self.assertRegex(name, audit.SKILL_NAME.pattern)
+                self.assertLessEqual(len(name), 64)
+                self.assertTrue(1 <= len(description) <= 1024, len(description))
+                self.assertLess(text.count("\n"), 500)
+
+
 class AuditLog(unittest.TestCase):
     def test_log_names_the_rfc(self):
         first = LOG.read_text(encoding="utf-8").splitlines()[0]
