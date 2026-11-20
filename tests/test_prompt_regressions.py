@@ -76,6 +76,29 @@ class ProductProfiles(unittest.TestCase):
             self.assertTrue(used, p["id"])
             self.assertLessEqual(set(used), known, p["id"])
 
+    def aliases(self, text):
+        block = re.search(r"^spoken_aliases:\n((?:  - \{.*\}\n?)+)", text, re.M)
+        return [dict(re.findall(r"(\w+): (\"[^\"]*\"|[^,}]+)", line)) for line in block[1].splitlines()]
+
+    def test_spoken_aliases_resolve(self):
+        """Разговорная форма → термин; продукт ссылается на объявленный профиль."""
+        profiles = {p["id"] for p in self.profiles}
+        aliases = self.aliases(self.text)
+        self.assertEqual({a["spoken"].strip('"'): a["term"] for a in aliases}, {"амо": "amoCRM", "вакс": "ВАТС"})
+        for a in aliases:
+            self.assertIn(a["kind"], ("product", "external"), a)
+            if a["kind"] == "product":
+                self.assertIn(a.get("profile"), profiles, a)
+            else:
+                self.assertNotIn("profile", a, a)
+
+    def test_mutation_alias_to_unknown_profile_fails(self):
+        mutated = self.text.replace("profile: PP-VATS}", "profile: PP-UNKNOWN}", 1)
+        self.assertNotEqual(mutated, self.text)
+        profiles = {p["id"] for p in self.profiles}
+        bad = [a for a in self.aliases(mutated) if a["kind"] == "product" and a.get("profile") not in profiles]
+        self.assertTrue(bad)
+
     def test_ids_do_not_collide_with_slot_profiles(self):
         slot_profiles = set(re.findall(r"\{id: (P-[A-Z-]+),", (ROOT / "taxonomy/products.yaml").read_text(encoding="utf-8")))
         self.assertTrue(slot_profiles)
