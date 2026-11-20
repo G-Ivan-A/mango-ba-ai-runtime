@@ -111,8 +111,8 @@ class PromptRegressions(unittest.TestCase):
         self.cases = parse_list(self.text, "cases", r"^  - id: (\S+)()$")
 
     def test_case_ids_and_register(self):
-        self.assertEqual([c["id"] for c in self.cases], ["PR-01", "PR-02", "PR-03"])
-        self.assertEqual(sorted(c["register"] for c in self.cases), ["CR-01", "CR-02", "CR-03"])
+        self.assertEqual([c["id"] for c in self.cases], ["PR-01", "PR-02", "PR-03", "PR-04"])
+        self.assertEqual(sorted(c["register"] for c in self.cases), ["CR-01", "CR-02", "CR-03", "CR-04"])
 
     def test_required_fields(self):
         for c in self.cases:
