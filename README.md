@@ -31,8 +31,10 @@ updated: 2026-09-26
 | `taxonomy/`, `routes/` | закрытые словари и граф маршрута |
 | `taxonomy/mango-products.yaml` | закрытый каталог продуктов Mango (Domain → Capability → Feature → Atomic Function); значение `atomic_function` берётся из него по id |
 | `taxonomy/domain-glossary*.yaml` | словарь домена на продуктовый класс: `domain-glossary.yaml` — `contact-center`, `domain-glossary-voice-ucaas.yaml`, `domain-glossary-analytics-reporting.yaml`; пары `confusable_with` — источник отрицательных эталонов (EP-G7) |
+| `taxonomy/product-profiles.yaml` | профили продуктов для сверки терминов: словари D1…D11, минимальный набор и словари профиля (И-11 спицы промптов); не путать с профилями заполненности слотов `P-*` в `taxonomy/products.yaml` |
 | `templates/`, `golden/`, `evaluation/` | шаблоны, эталоны, гейты и промпт `G-mach` |
 | `golden/cases*.yaml` | Golden Set на продуктовый класс: `cases.yaml` — `contact-center`, `cases-voice-ucaas.yaml`, `cases-analytics-reporting.yaml`; `G-mach` (`check_golden`) проверяет все наборы; `atomic_function` случая — функция каталога класса набора (правило PT-5) |
+| `golden/prompt-regressions.yaml` | регрессионные кейсы чистоты промптов спицы PR-01…PR-04 (И-12): кейс — вход прогона, принцип — в промпте; в `G-mach` не входит |
 | `docs/kb/` | база знаний (уровень `ST-5-LOCAL`) |
 | `docs/guides/` | пошаговые инструкции для пользователя |
 

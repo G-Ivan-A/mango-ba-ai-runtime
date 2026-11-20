@@ -1,0 +1,88 @@
+# Справочник профилей продуктов для сверки терминов и выбора доменных
+# стандартов (И-11 реестра справочников спицы промптов; задача РТ-8).
+#
+# Зачем отдельный справочник. Промпты шагов Ш-0 и Ш-2 спицы держат только
+# принцип: «возьми минимальный набор словарей и словари профилей задействованных
+# продуктов». Значения — какие профили есть и какие словари каждому нужны —
+# продуктовый факт; в тексте промпта он нарушал бы правило чистоты промптов
+# (факт одного продукта в общем принципе). Значения перенесены сюда дословно из
+# текста промптов и стандартов спицы на коммите e051e0fa (см.
+# compilation-manifest.yaml, раздел copied).
+#
+# Не путать с taxonomy/products.yaml → profiles (P-SETTINGS, P-NO-SETTINGS,
+# P-DEVICE, P-API): те профили управляют заполненностью слотов документа, эти —
+# набором словарей сверки и доменных стандартов по продукту из раздела 2.5.
+# Идентификаторы разведены префиксом PP-.
+vocabulary: product-profiles
+closed: true
+version: "1.0"
+required_fields: [id, name, scope, dictionaries]
+
+# Словари сверки. Порядок источников истины для термина задаёт стандарт
+# раздела 1 спицы; здесь — только состав словарей и их область.
+dictionaries:
+  - {id: D1, name: "BABOK Guide v3 Glossary (IIBA)", scope: "термины БА: требование, стейкхолдер, решение", access: "открыт для чтения"}
+  - {id: D2, name: "IREB CPRE Glossary", scope: "инженерия требований: FR, NFR, constraint, use case", access: "открыт"}
+  - {id: D3, name: "ISO/IEC/IEEE 24765:2017 Systems and software engineering — Vocabulary (SEVOCAB)", scope: "программная инженерия: интерфейс, компонент, конфигурация", access: "SEVOCAB открыт"}
+  - {id: D4, name: "ISO/IEC/IEEE 29148:2018 (термины); ISO/IEC 25010:2023", scope: "требования и характеристики качества", access: "платный, термины доступны через SEVOCAB"}
+  - {id: D5, name: "3GPP TR 21.905 Vocabulary for 3GPP Specifications", scope: "телефония, ВАТС: вызов, абонент, переадресация", access: "открыт"}
+  - {id: D6, name: "ITU-T Terms and Definitions; ITU-T E.600", scope: "телефонный трафик, КЦ: попытка вызова, занятие, нагрузка", access: "открыт"}
+  - {id: D7, name: "IEC Electropedia (IEV)", scope: "электросвязь, общие технические термины", access: "открыт"}
+  - {id: D8, name: "OpenAPI Specification; RFC 9110 HTTP Semantics", scope: "API: метод, ресурс, код ответа, webhook", access: "открыт"}
+  - {id: D9, name: "TM Forum SID / eTOM, TM Forum Open APIs", scope: "телеком-операторы: продукт, услуга, ресурс", access: "SID и eTOM — для членов TM Forum; Open APIs — Apache-2.0"}
+  - {id: D10, name: "ГОСТ 34.602-2020 (термины ТЗ)", scope: "российский контекст ТЗ", access: "открыт"}
+  - {id: D11, name: "Маппинг терминов Mango", scope: "продуктовые термины Mango ↔ международные аналоги", access: "внутренний"}
+
+# Минимальный набор для любой задачи — независимо от продуктов.
+minimal_set: [D1, D2, D11]
+
+# Профиль подключается, если продукт есть в разделе 2.5 документа. Набор
+# словарей задачи = minimal_set ∪ dictionaries всех подключённых профилей.
+profiles:
+  - id: PP-LK
+    name: ЛК (личный кабинет, настройки)
+    scope: сквозной, владелец — продукт настройки
+    domain_standards: "WCAG — только если доработка меняет интерфейс и Заказчик это требует"
+    dictionaries: [D1, D2, D11]
+    fr_specifics: "настройка → исполнение (Б3.7)"
+  - id: PP-VATS
+    name: ВАТС
+    scope: voice-ucaas
+    domain_standards: "3GPP TR 21.905 (терминология), SIP RFC 3261 (сигнализация)"
+    dictionaries: [D5, D6]
+    fr_specifics: "правила маршрутизации вызова"
+  - id: PP-KC
+    name: КЦ
+    scope: contact-center
+    domain_standards: "SCXML (сценарии и состояния), ITU-T E.600 (трафик, нагрузка), BPMN (процесс оператора)"
+    dictionaries: [D6, D11]
+    fr_specifics: "очередь, распределение, статусы оператора"
+  - id: PP-RA
+    name: РА (речевая аналитика)
+    scope: analytics
+    domain_standards: "— (класс стандарта не выбран: открытого отраслевого стандарта нет)"
+    dictionaries: [D11, D3]
+    fr_specifics: "правила анализа, чек-листы качества"
+  - id: PP-API
+    name: API / интеграции
+    scope: сквозной
+    domain_standards: "OpenAPI, AsyncAPI, RFC 9110"
+    dictionaries: [D8]
+    fr_specifics: "тип изменения метода; обратная совместимость"
+  - id: PP-OPERATOR
+    name: Оператор связи (опция)
+    scope: "—"
+    domain_standards: "TM Forum Open APIs, SID"
+    dictionaries: [D9]
+    fr_specifics: "только при ODA-1…ODA-3"
+
+# Разговорные формы продуктовых и внешних терминов для нормализации
+# стенограмм (промпт asr-ingestion спицы: «продуктовые термины — по
+# справочнику профилей продуктов»). Значения перенесены дословно из примеров
+# промпта на коммите e051e0fa; в промпте остался обезличенный пример формы.
+# kind: product — продукт с профилем (поле profile), external — внешняя
+# система, профиля у неё нет. Неоднозначная форма в справочник не вносится:
+# промпт оставляет её как есть и помечает «Требует проверки».
+spoken_aliases:
+  - {spoken: "амо", term: amoCRM, kind: external}
+  - {spoken: "вакс", term: ВАТС, kind: product, profile: PP-VATS}
