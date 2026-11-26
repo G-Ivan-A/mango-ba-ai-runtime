@@ -11,8 +11,13 @@
 # docs/import/hub-54face1618f7/commit-map.txt коммит 657abcc — тот же снимок,
 # что main Хаба b3a9e16 после PR #720, все 324 файла источника побайтно
 # совпадают; норма PT-5 — коммит 42e8c1b (в Хабе de68984).
+#
+# 0.8 (BL-192 спицы, RFC-RT-002 Р-RT-2…Р-RT-4): универсальный контекст агента
+# без перекомпиляции — source_commit и compiled_at не меняются, нормативное
+# содержание источника модели не тронуто. Зеркало навыков .agents/skills/ и
+# правки AGENTS.md (ACCESS_GAP, поиск в docs/kb) записаны в transformed.
 manifest: execution-package-mvp-bcreq
-version: "0.7"
+version: "0.8"
 meta_model_version: "0.5"
 compiled_at: 2026-11-04
 source_ssot: https://github.com/G-Ivan-A/ba-ai-metamodel
@@ -24,7 +29,7 @@ slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-c
 # него в чате модели. Пакет содержит физические копии всего необходимого.
 deployment:
   mechanism: ссылка на репозиторий (или вставка его файлов) в чате модели
-  result: "AGENTS.md, skills/, taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/"
+  result: "AGENTS.md, skills/, .agents/skills/ (зеркало skills/), taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/"
   hub_access_required_at_runtime: false
 
 # 1. Скопировано физически: содержание перенесено в пакет дословно или с
@@ -151,6 +156,24 @@ transformed:
   - what: правила следа EP-R4, EP-R8 и лист прогона
     to: [routes/run-sheet-template.yaml, contracts/c-rk.md]
     form: append-only перечень событий и проекция передачи работы
+  - what: навыки skills/<имя>.md в раскладке, которую клиенты находят сами (RFC-RT-002, Р-RT-3 B)
+    to: .agents/skills/<имя>/SKILL.md
+    form: >-
+      генерируемая побайтная копия каждого skills/<имя>.md
+      (tests/build_skills_mirror.py), сверка sha256 в
+      tests/test_skills_mirror.py и tests/runtime-smoke.sh; skills/ остаётся
+      единственным источником, зеркало вручную не правится
+  - what: запись причины для недоступного уровня источников и маршрут поиска в базе знаний (RFC-RT-002 §4.1, Р-RT-2)
+    to: AGENTS.md
+    form: >-
+      правило 10 называет запись причины маркером
+      `ACCESS_GAP: <что> — <почему>` (недоступный, платный или внешний
+      источник; содержание не выводится) и отличает его от unverified;
+      раздел «Поиск в базе знаний» повторяет маршрут docs/kb/USAGE.md
+      (MAP.json → sections_toc → sections → retrieval_if_insufficient).
+      Источник — норма taxonomy/source-tiers.yaml («пропускается с записью
+      причины») и docs/kb/USAGE.md (РТ-7); нормативного текста AGENTS.md в
+      ba-ai-metamodel нет (проверено на e1f67e2), новое правило не вводится
 
 # 3. Отброшено: во время выполнения не используется. Отбрасывание —
 #    сознательное решение компиляции, а не пропуск (Анти-Инфляция).
@@ -165,8 +188,13 @@ discarded:
     why: за границей вертикального среза MVP; внесены в бэклог масштабирования
   - what: организационные материалы Хаба (карта артефактов, бэклог, история решений)
     why: управляют развитием модели, а не исполнением маршрута
-  - what: срез под конкретную среду исполнения (.hub-profile.json, .agents/skills/, tools/, runs/, experiments/)
-    why: репозиторий не привязан к среде и варианту развёртывания; навыки перенесены в skills/, валидатор — в промпт evaluation/validate-package.md
+  - what: срез под конкретную среду исполнения (.hub-profile.json, tools/, runs/, experiments/)
+    why: >-
+      репозиторий не привязан к среде и варианту развёртывания; навыки
+      перенесены в skills/, валидатор — в промпт evaluation/validate-package.md.
+      .agents/skills/ больше не срез среды: с 0.8 это зеркало skills/ в
+      открытой раскладке навыков (см. transformed), без файлов конкретного
+      клиента
 
 # Обратная связь: ba-ai-metamodel — SSOT развивающейся модели (после выноса
 # из Хаба). Расхождение, обнаруженное в спутнике, исправляется задачей

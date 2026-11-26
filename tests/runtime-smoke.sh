@@ -21,9 +21,12 @@ require_text() {
   if grep -Eq "$2" "$ROOT/$1"; then pass "$3"; else fail "$3"; fi
 }
 
-# Runtime files outside the bundled knowledge base.
+# Runtime files outside the bundled knowledge base and the pinned SSOT copy.
+# The SSOT catalog holds byte copies of another repository, so it is exempt from
+# the word and extension checks the same way as docs/kb (RFC-RT-002, Р-RT-4).
 runtime_files() {
   find "$ROOT" -path "$ROOT/.git" -prune -o -path "$ROOT/docs/kb" -prune \
+    -o -path "$ROOT/ssot" -prune \
     -o -path "$ROOT/tests" -prune -o -path "$ROOT/.github" -prune \
     -o -type f -print
 }
@@ -43,9 +46,25 @@ for contract in c-in c-core c-quest c-out-bcreq c-rk; do
   require_text "contracts/$contract.md" '^type: system-prompt$' "$contract is a system prompt"
 done
 
-for path in .agents .hub-profile.json tools runs experiments; do
+for path in .hub-profile.json tools runs experiments; do
   require_absent "$path"
 done
+
+# .agents holds only the generated skills mirror (RFC-RT-002, Р-RT-3 B):
+# .agents/skills/<name>/SKILL.md, byte-equal to skills/<name>.md, nothing else.
+# Regenerate with: python3 tests/build_skills_mirror.py
+mirrored=0
+for skill in "$ROOT"/skills/*.md; do
+  name=$(basename "$skill" .md)
+  copy=".agents/skills/$name/SKILL.md"
+  if [ -f "$ROOT/$copy" ] && [ ! -L "$ROOT/$copy" ] && cmp -s "$skill" "$ROOT/$copy"; then
+    pass "$copy mirrors skills/$name.md"; mirrored=$((mirrored + 1))
+  else
+    fail "$copy mirrors skills/$name.md"
+  fi
+done
+extra=$(find "$ROOT/.agents" \( -type f -o -type l \) 2>/dev/null | wc -l | tr -d ' ')
+if [ "$extra" -eq "$mirrored" ]; then pass '.agents holds only the skills mirror'; else fail ".agents holds only the skills mirror (found $extra files)"; fi
 
 if [ -n "$(runtime_files | grep -E '\.(py|json)$' || true)" ]; then
   fail 'no .py or .json runtime files'
@@ -53,10 +72,17 @@ else
   pass 'no .py or .json runtime files'
 fi
 
-# The manifest records provenance, so it may name removed paths.
-if runtime_files | grep -v '/compilation-manifest.yaml$' | xargs grep -EIl 'GigaCode|GitVerse|Qwen|\.schema\.json|\.agents/|tools/validate|hub-profile' >/dev/null 2>&1; then
+# The manifest records provenance, so it may name removed paths. The skills
+# mirror path .agents/skills/ is client-neutral (Agent Skills layout), so it is
+# stripped before the check; any other .agents/ reference still fails.
+ENV_WORDS='GigaCode|GitVerse|Qwen|\.schema\.json|\.agents/|tools/validate|hub-profile'
+env_refs() {
+  runtime_files | grep -v '/compilation-manifest.yaml$' | xargs grep -EIn "$ENV_WORDS" 2>/dev/null \
+    | sed 's#^[^:]*:[0-9]*:##; s#\.agents/skills/##g' | grep -E "$ENV_WORDS" || true
+}
+if [ -n "$(env_refs)" ]; then
   fail 'no environment-specific references'
-  runtime_files | grep -v '/compilation-manifest.yaml$' | xargs grep -EIn 'GigaCode|GitVerse|Qwen|\.schema\.json|\.agents/|tools/validate|hub-profile' >&2 || true
+  runtime_files | grep -v '/compilation-manifest.yaml$' | xargs grep -EIn "$ENV_WORDS" >&2 || true
 else
   pass 'no environment-specific references'
 fi

@@ -17,3 +17,24 @@ jobs:
         run: sh tests/runtime-smoke.sh
       - name: Validate knowledge base navigation and product catalog
         run: python -m unittest discover -s tests -p 'test_*.py'
+
+  # OpenCode initialisation smoke (RFC-RT-002, Э4; BL-192): AGENTS.md reaches
+  # the model in full and the 11 skills are offered from .agents/skills. The
+  # model is a local mock, no key is used. The versions below are the lines
+  # checked by BL-192; pinning one of them is BL-132 of mango_ba_prompts.
+  opencode:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    strategy:
+      fail-fast: false
+      matrix:
+        package: ["opencode-ai@1.19.6", "@opencode/cli@2.4.2"]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Install ${{ matrix.package }}
+        run: npm install --no-save --prefix "$RUNNER_TEMP/opencode" "${{ matrix.package }}"
+      - name: Run OpenCode smoke
+        run: python3 tests/opencode_smoke.py --opencode "$RUNNER_TEMP/opencode/node_modules/.bin/opencode" --timeout 300
