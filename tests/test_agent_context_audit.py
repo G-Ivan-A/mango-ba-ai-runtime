@@ -15,6 +15,7 @@ owner decides otherwise (decisions Р-RT-1…N):
   section «discarded») and the task forbids changing its structure.
 """
 
+import re
 import subprocess
 import sys
 import unittest
@@ -61,9 +62,8 @@ class StageOneContracts(unittest.TestCase):
 
     def test_agents_dir_is_only_skills_mirror(self):
         under = {f for f in tracked() if f.startswith(".agents/")}
-        stray = {f for f in under if not audit.re.fullmatch(r"\.agents/skills/[a-z0-9]+(-[a-z0-9]+)*/SKILL\.md", f)}
+        stray = {f for f in under if not re.fullmatch(r"\.agents/skills/[a-z0-9]+(-[a-z0-9]+)*/SKILL\.md", f)}
         self.assertEqual(stray, set(), "only the generated skills mirror may live under .agents (Р-RT-3 B)")
-
 
     def test_skills_fit_agent_skills_mirror(self):
         """RFC-RT-002 option «mirror <name>/SKILL.md» relies on this without editing skill texts."""
