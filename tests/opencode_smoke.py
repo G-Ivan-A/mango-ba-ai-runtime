@@ -8,10 +8,15 @@ this repository
 2. (V1, V2) sends AGENTS.md to the model in full as project instructions and
    offers it the 11 skills with the descriptions of skills/<name>.md;
 3. (control) offers none of them in a copy of AGENTS.md and skills/ without
-   the mirror: discovery comes from the mirror, not from the flat layout.
+   the mirror: discovery comes from the mirror, not from the flat layout;
+4. (V1, V2) loads the IDE layer of the stage-1 processes (BL-192 Э5): the
+   three agents with their modes, the four commands bound to the orchestrator
+   (V1), the effective permissions the client computes for each agent, and,
+   in a copy of the repository, a write the model asks for: AGENTS.md is
+   refused, work/<key>/ is written.
 
-Step 2 needs a model request. The script starts a local mock of an
-OpenAI-compatible endpoint, records the request and answers «ok»: no real model
+Steps 2 and 4 need a model request. The script starts a local mock of an
+OpenAI-compatible endpoint, records the request and answers «ok» (in step 4 it first asks for two writes): no real model
 is called and no key is used. OpenCode runs with an isolated HOME and XDG
 directories, so the user's global config, skills and sessions are not read.
 The provider package @ai-sdk/openai-compatible is installed by OpenCode itself
@@ -47,6 +52,66 @@ import agent_context_audit as audit  # noqa: E402
 PROMPT = "перечисли навыки"
 AGENTS_TITLE = "# AGENTS.md: системный промпт исполнения маршрута RG-BCREQ-v1"
 
+# IDE layer (BL-192 Э5): agent -> (mode, hidden); command -> process.
+LAYER_AGENTS = {"bcreq-orchestrator": ("primary", False), "bcreq-step": ("subagent", True),
+                "bcreq-reviewer": ("subagent", True)}
+LAYER_COMMANDS = {"a-in": "A-IN", "a-core": "A-CORE", "a-work": "A-WORK", "a-release": "A-RELEASE"}
+ORCHESTRATOR_TITLE = "# Оркестратор процессов этапа 1"
+PROBE_KEY = "SMOKE-1"
+PROBE_WRITES = ("AGENTS.md", f"work/{PROBE_KEY}/probe.md")
+# V2 renames permissions when it translates the V1 `permission` object.
+V2_NAMES = {"bash": "shell", "task": "subagent"}
+
+
+def expected_decisions() -> list[tuple[str, str, str, str]]:
+    """(agent, permission, pattern, action) the IDE layer must produce in the client."""
+    rows = []
+    for agent in (*LAYER_AGENTS, "build"):
+        orchestrator, reviewer = agent == "bcreq-orchestrator", agent == "bcreq-reviewer"
+        rows += [
+            (agent, "edit", "AGENTS.md", "deny"),
+            (agent, "edit", ".opencode/agents/bcreq-orchestrator.md", "deny"),
+            (agent, "edit", "ssot/mango_ba_prompts/docs/ba-processes/bcreq-ide-gates.json", "deny"),
+            (agent, "edit", f"work/{PROBE_KEY}/AIN-01.md", "deny" if reviewer else "allow"),
+            (agent, "read", ".env", "deny"),
+            (agent, "webfetch", "*", "deny"),
+            (agent, "websearch", "*", "deny"),
+            (agent, "external_directory", "/etc/hosts", "deny"),
+            (agent, "execute", "*", "deny"),
+            (agent, "task", "general", "deny"),
+            (agent, "task", "bcreq-step", "allow" if orchestrator else "deny"),
+            (agent, "question", "*", "allow" if orchestrator else "deny"),
+            (agent, "jira_create_issue", "*", "deny"),
+            (agent, "confluence_update_page", "*", "deny"),
+            (agent, "jira_get_issue", "*", "ask"),
+        ]
+        if agent in ("bcreq-step", "bcreq-reviewer"):
+            rows.append((agent, "bash", "git status", "deny"))
+        if orchestrator:
+            rows += [(agent, "bash", "git status", "allow"), (agent, "bash", "rm -rf work", "ask")]
+    return rows
+
+
+def wildcard(pattern: str, text: str) -> bool:
+    """OpenCode wildcard: `*` is any text (including `/`), `?` one character."""
+    regex = "".join(".*" if c == "*" else "." if c == "?" else re.escape(c) for c in pattern)
+    return re.fullmatch(regex, text, re.S) is not None
+
+
+def decide(rules: list[tuple[str, str, str]], permission: str, pattern: str) -> str:
+    """Last matching (permission, pattern, action) rule wins; no match is ask."""
+    for rule_permission, rule_pattern, action in reversed(rules):
+        if wildcard(rule_permission, permission) and wildcard(rule_pattern, pattern):
+            return action
+    return "ask"
+
+
+def client_rules(entries: list[dict]) -> list[tuple[str, str, str]]:
+    """Rules as the client prints them: V1 {permission, pattern, action}, V2 {action, resource, effect}."""
+    if entries and "effect" in entries[0]:
+        return [(e["action"], e["resource"], e["effect"]) for e in entries]
+    return [(e["permission"], e["pattern"], e["action"]) for e in entries]
+
 
 def route_skills() -> dict[str, str]:
     """Skill name -> normalised description from skills/<name>.md."""
@@ -61,6 +126,8 @@ class MockModel(BaseHTTPRequestHandler):
     """Minimal OpenAI-compatible chat completions endpoint that records requests."""
 
     requests: list[dict] = []
+    # Step 4: absolute paths the model asks to write before it answers.
+    writes: tuple[str, ...] = ()
 
     def log_message(self, *args):
         pass
@@ -81,7 +148,11 @@ class MockModel(BaseHTTPRequestHandler):
         MockModel.requests.append(request)
         base = {"id": "smoke", "created": int(time.time()), "model": "m"}
         usage = {"prompt_tokens": 1, "completion_tokens": 1, "total_tokens": 2}
-        if request.get("stream"):
+        tools = {t.get("function", {}).get("name"): t.get("function", {}) for t in request.get("tools", [])}
+        answered = any(m.get("role") == "tool" for m in request.get("messages", []))
+        if MockModel.writes and request.get("stream") and "write" in tools and not answered:
+            self._send(200, "text/event-stream", write_calls(base, tools["write"], MockModel.writes, usage))
+        elif request.get("stream"):
             chunks = [
                 {**base, "object": "chat.completion.chunk",
                  "choices": [{"index": 0, "delta": {"role": "assistant", "content": "ok"}, "finish_reason": None}]},
@@ -96,6 +167,22 @@ class MockModel(BaseHTTPRequestHandler):
                 **base, "object": "chat.completion", "usage": usage,
                 "choices": [{"index": 0, "message": {"role": "assistant", "content": "ok"}, "finish_reason": "stop"}],
             }).encode())
+
+
+def write_calls(base: dict, write_tool: dict, paths: tuple[str, ...], usage: dict) -> bytes:
+    """A streamed answer that calls the client's write tool once per path."""
+    properties = write_tool.get("parameters", {}).get("properties", {})
+    key = "filePath" if "filePath" in properties else "path"  # V1 filePath, V2 path
+    calls = [{"index": i, "id": f"call_{i}", "type": "function",
+              "function": {"name": "write", "arguments": json.dumps({key: path, "content": "probe\n"})}}
+             for i, path in enumerate(paths)]
+    chunks = [
+        {**base, "object": "chat.completion.chunk",
+         "choices": [{"index": 0, "delta": {"role": "assistant", "tool_calls": calls}, "finish_reason": None}]},
+        {**base, "object": "chat.completion.chunk", "choices": [{"index": 0, "delta": {}, "finish_reason": "tool_calls"}]},
+        {**base, "object": "chat.completion.chunk", "choices": [], "usage": usage},
+    ]
+    return b"".join(b"data: " + json.dumps(c).encode() + b"\n\n" for c in chunks) + b"data: [DONE]\n\n"
 
 
 def isolated_env(home: Path, port: int) -> dict[str, str]:
@@ -184,11 +271,35 @@ def control_project(base: Path) -> Path:
     return project
 
 
+def layer_project(base: Path) -> Path:
+    """A copy of the repository files (no work/) for the write probe of step 4."""
+    project = base / "layer"
+    listed = subprocess.run(["git", "ls-files", "-z", "--cached", "--others", "--exclude-standard"], cwd=ROOT,
+                            capture_output=True, text=True, check=True).stdout
+    for rel in filter(None, listed.split("\0")):
+        source = ROOT / rel
+        if source.is_file() and not rel.startswith("work/"):
+            (project / rel).parent.mkdir(parents=True, exist_ok=True)
+            (project / rel).write_bytes(source.read_bytes())
+    subprocess.run(["git", "init", "-q", str(project)], check=True)
+    return project
+
+
+def debug_json(opencode: str, args: list[str], env: dict, timeout: int):
+    proc = subprocess.run([opencode, "debug", *args], cwd=ROOT, env={**env, "PWD": str(ROOT)},
+                          capture_output=True, text=True, stdin=subprocess.DEVNULL, timeout=timeout)
+    try:
+        return json.loads(proc.stdout), ""
+    except json.JSONDecodeError:
+        return None, (proc.stderr or proc.stdout)[-500:]
+
+
 def main(argv=None) -> int:
     parser = argparse.ArgumentParser(description="OpenCode initialisation smoke (RFC-RT-002, Э4)")
     parser.add_argument("--opencode", required=True, help="path to the opencode executable (V1 or V2)")
     parser.add_argument("--timeout", type=int, default=240, help="seconds per opencode call")
     parser.add_argument("--no-control", action="store_true", help="skip the control run without the mirror")
+    parser.add_argument("--no-layer", action="store_true", help="skip the IDE layer checks (step 4)")
     args = parser.parse_args(argv)
 
     want = route_skills()
@@ -254,6 +365,70 @@ def main(argv=None) -> int:
             _, request = run_client(args.opencode, major, control_project(home), env, args.timeout)
             seen = sorted(set(want) & set(offered_skills(request)))
             check(bool(request) and not seen, "control without the mirror offers no route skills", f"{seen}")
+
+        # 4. IDE layer of the stage-1 processes (BL-192 Э5).
+        if not args.no_layer:
+            rules = {}
+            if major < 2:
+                config, error = debug_json(args.opencode, ["config", "--pure"], env, args.timeout)
+                commands = (config or {}).get("command") or {}
+                check(set(LAYER_AGENTS) <= set((config or {}).get("agent") or {}),
+                      "debug config has the three layer agents", error)
+                for command, process in LAYER_COMMANDS.items():
+                    entry = commands.get(command) or {}
+                    check(entry.get("agent") == "bcreq-orchestrator", f"/{command} starts bcreq-orchestrator", f"{entry}")
+                    check(f"Процесс: {process}. Ключ задачи: $ARGUMENTS" in entry.get("template", ""),
+                          f"/{command} passes {process} and the task key")
+                for name in (*LAYER_AGENTS, "build"):
+                    agent, error = debug_json(args.opencode, ["agent", name, "--pure"], env, args.timeout)
+                    agent = agent or {}
+                    if name in LAYER_AGENTS:
+                        check(agent.get("mode") == LAYER_AGENTS[name][0], f"agent {name} is {LAYER_AGENTS[name][0]}",
+                              error or f"{agent.get('mode')}")
+                    rules[name] = client_rules(agent.get("permission") or [])
+            else:
+                # V2 has no command list to print; its loader is checked by the TUI test runs (M6).
+                agents, error = debug_json(args.opencode, ["agents", "--standalone"], env, args.timeout)
+                by_id = {a.get("id"): a for a in agents or []}
+                for name, (mode, hidden) in LAYER_AGENTS.items():
+                    agent = by_id.get(name) or {}
+                    check((agent.get("mode"), bool(agent.get("hidden"))) == (mode, hidden),
+                          f"agent {name} is {mode}{', hidden' if hidden else ''}",
+                          error or f"{agent.get('mode')}, hidden={agent.get('hidden')}")
+                for name in (*LAYER_AGENTS, "build"):
+                    rules[name] = client_rules((by_id.get(name) or {}).get("permissions") or [])
+            for agent, permission, pattern, action in expected_decisions():
+                name = V2_NAMES.get(permission, permission) if major >= 2 else permission
+                got = decide(rules.get(agent, []), name, pattern)
+                check(got == action, f"{agent}: {name} {pattern} is {action}", got)
+
+            project = layer_project(home)
+            before = (project / "AGENTS.md").read_bytes()
+            MockModel.requests.clear()
+            MockModel.writes = tuple(str(project / rel) for rel in PROBE_WRITES)
+            if major >= 2:
+                cmd = [args.opencode, "run", "--standalone", "--archived", "-m", "smoke/m",
+                       "--agent", "bcreq-orchestrator", PROBE_KEY]
+            else:
+                cmd = [args.opencode, "run", "--pure", "-m", "smoke/m", "--command", "a-in", PROBE_KEY]
+            try:
+                proc = subprocess.run(cmd, cwd=project, env={**env, "PWD": str(project)}, capture_output=True,
+                                      text=True, stdin=subprocess.DEVNULL, timeout=args.timeout)
+            finally:
+                MockModel.writes = ()
+            sent = [r for r in MockModel.requests if r.get("tools")]
+            check(proc.returncode == 0 and bool(sent), "the orchestrator run reaches the mock model",
+                  (proc.stderr or proc.stdout)[-500:])
+            check(any(ORCHESTRATOR_TITLE in system_of(r) for r in sent), "the model gets the orchestrator prompt")
+            if major < 2:
+                check(any(f"Процесс: A-IN. Ключ задачи: {PROBE_KEY}" in text_of(r) for r in sent),
+                      "/a-in passes the process and the key to the model")
+            results = [m for r in sent for m in r.get("messages", []) if m.get("role") == "tool"]
+            check(len(results) >= len(PROBE_WRITES), "the client answers both write calls", f"{len(results)}")
+            check((project / "AGENTS.md").read_bytes() == before, "a write to AGENTS.md is refused")
+            written = project / PROBE_WRITES[1]
+            check(written.is_file() and written.read_text(encoding="utf-8") == "probe\n",
+                  f"a write to {PROBE_WRITES[1]} is done")
     finally:
         server.shutdown()
         subprocess.run(["rm", "-rf", str(home)], check=False)

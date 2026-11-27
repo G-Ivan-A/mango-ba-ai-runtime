@@ -19,7 +19,9 @@ jobs:
         run: python -m unittest discover -s tests -p 'test_*.py'
 
   # OpenCode initialisation smoke (RFC-RT-002, Э4; BL-192): AGENTS.md reaches
-  # the model in full and the 11 skills are offered from .agents/skills. The
+  # the model in full and the 11 skills are offered from .agents/skills; the
+  # IDE layer (BL-192 Э5) loads its agents and commands, the client computes
+  # the layer's permissions and refuses a write outside work/. The
   # model is a local mock, no key is used. The versions below are the lines
   # checked by BL-192; pinning one of them is BL-132 of mango_ba_prompts.
   opencode:
