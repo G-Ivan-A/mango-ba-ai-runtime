@@ -12,8 +12,8 @@ this repository
 4. (V1, V2) loads the IDE layer of the stage-1 processes (BL-192 Э5): the
    three agents with their modes, the four commands bound to the orchestrator
    (V1), the effective permissions the client computes for each agent, and,
-   in a copy of the repository, a write the model asks for: AGENTS.md is
-   refused, work/<key>/ is written.
+   in a copy of the repository, writes the model asks for: AGENTS.md is
+   refused, also through work/<key>/../../, and work/<key>/ is written.
 
 Steps 2 and 4 need a model request. The script starts a local mock of an
 OpenAI-compatible endpoint, records the request and answers «ok» (in step 4 it first asks for two writes): no real model
@@ -58,7 +58,8 @@ LAYER_AGENTS = {"bcreq-orchestrator": ("primary", False), "bcreq-step": ("subage
 LAYER_COMMANDS = {"a-in": "A-IN", "a-core": "A-CORE", "a-work": "A-WORK", "a-release": "A-RELEASE"}
 ORCHESTRATOR_TITLE = "# Оркестратор процессов этапа 1"
 PROBE_KEY = "SMOKE-1"
-PROBE_WRITES = ("AGENTS.md", f"work/{PROBE_KEY}/probe.md")
+# A protected file, the same file through work/ (the client resolves the path), a file in work/.
+PROBE_WRITES = ("AGENTS.md", f"work/{PROBE_KEY}/../../AGENTS.md", f"work/{PROBE_KEY}/probe.md")
 # V2 renames permissions when it translates the V1 `permission` object.
 V2_NAMES = {"bash": "shell", "task": "subagent"}
 
@@ -424,11 +425,14 @@ def main(argv=None) -> int:
                 check(any(f"Процесс: A-IN. Ключ задачи: {PROBE_KEY}" in text_of(r) for r in sent),
                       "/a-in passes the process and the key to the model")
             results = [m for r in sent for m in r.get("messages", []) if m.get("role") == "tool"]
-            check(len(results) >= len(PROBE_WRITES), "the client answers both write calls", f"{len(results)}")
-            check((project / "AGENTS.md").read_bytes() == before, "a write to AGENTS.md is refused")
-            written = project / PROBE_WRITES[1]
+            check(len(results) >= len(PROBE_WRITES), "the client answers every write call", f"{len(results)}")
+            check((project / "AGENTS.md").read_bytes() == before,
+                  f"writes to AGENTS.md and {PROBE_WRITES[1]} are refused")
+            written = project / PROBE_WRITES[-1]
             check(written.is_file() and written.read_text(encoding="utf-8") == "probe\n",
-                  f"a write to {PROBE_WRITES[1]} is done")
+                  f"a write to {PROBE_WRITES[-1]} is done")
+            check(sorted(p.relative_to(project).as_posix() for p in (project / "work").rglob("*") if p.is_file())
+                  == [PROBE_WRITES[-1]], "nothing else is written to work/")
     finally:
         server.shutdown()
         subprocess.run(["rm", "-rf", str(home)], check=False)
