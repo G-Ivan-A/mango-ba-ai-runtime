@@ -24,9 +24,10 @@ require_text() {
 # Runtime files outside the bundled knowledge base and the pinned SSOT copy.
 # The SSOT catalog holds byte copies of another repository, so it is exempt from
 # the word and extension checks the same way as docs/kb (RFC-RT-002, Р-RT-4).
+# work/ is the git-ignored workspace of an IDE run (BL-192 Э5), not runtime.
 runtime_files() {
   find "$ROOT" -path "$ROOT/.git" -prune -o -path "$ROOT/docs/kb" -prune \
-    -o -path "$ROOT/ssot" -prune \
+    -o -path "$ROOT/ssot" -prune -o -path "$ROOT/work" -prune \
     -o -path "$ROOT/tests" -prune -o -path "$ROOT/.github" -prune \
     -o -type f -print
 }
@@ -66,11 +67,30 @@ done
 extra=$(find "$ROOT/.agents" \( -type f -o -type l \) 2>/dev/null | wc -l | tr -d ' ')
 if [ "$extra" -eq "$mirrored" ]; then pass '.agents holds only the skills mirror'; else fail ".agents holds only the skills mirror (found $extra files)"; fi
 
-if [ -n "$(runtime_files | grep -E '\.(py|json)$' || true)" ]; then
-  fail 'no .py or .json runtime files'
+# opencode.json is the one JSON file: the client reads it, the model does not
+# (IDE layer, ADR-020 of mango_ba_prompts; BL-192 Э5).
+if [ -n "$(runtime_files | grep -v "^$ROOT/opencode.json\$" | grep -E '\.(py|json)$' || true)" ]; then
+  fail 'no .py or .json runtime files besides opencode.json'
 else
-  pass 'no .py or .json runtime files'
+  pass 'no .py or .json runtime files besides opencode.json'
 fi
+
+# IDE layer of the stage-1 processes (BL-192 Э5): one orchestrator, two
+# subagents, four commands that all start the orchestrator. Permissions are
+# checked by tests/test_ide_layer.py.
+require_file opencode.json
+require_text .gitignore '^work/$' 'work/ is not tracked'
+for agent in bcreq-orchestrator bcreq-step bcreq-reviewer; do
+  require_file ".opencode/agents/$agent.md"
+done
+for command in a-in a-core a-work a-release; do
+  require_file ".opencode/commands/$command.md"
+  require_text ".opencode/commands/$command.md" '^agent: bcreq-orchestrator$' "/$command starts bcreq-orchestrator"
+done
+# The client itself may add an ignored .opencode/.gitignore and plugin files;
+# only Markdown definitions belong to the layer (tracked set: test_ide_layer.py).
+layer=$(find "$ROOT/.opencode" -type f -name '*.md' | wc -l | tr -d ' ')
+if [ "$layer" -eq 7 ]; then pass '.opencode holds 3 agents and 4 commands'; else fail ".opencode holds 3 agents and 4 commands (found $layer definitions)"; fi
 
 # The manifest records provenance, so it may name removed paths. The skills
 # mirror path .agents/skills/ is client-neutral (Agent Skills layout), so it is

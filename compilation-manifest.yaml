@@ -16,8 +16,14 @@
 # без перекомпиляции — source_commit и compiled_at не меняются, нормативное
 # содержание источника модели не тронуто. Зеркало навыков .agents/skills/ и
 # правки AGENTS.md (ACCESS_GAP, поиск в docs/kb) записаны в transformed.
+#
+# 0.9 (BL-192 Э5 «IDE-слой», RFC-RT-003 и ADR-020 спицы промптов): слой IDE
+# для процессов этапа 1 без перекомпиляции — source_commit и compiled_at не
+# меняются, нормативное содержание источника модели не тронуто. Слой
+# opencode.json, .opencode/ и раздел «Оркестрация и гейты» AGENTS.md
+# записаны в transformed.
 manifest: execution-package-mvp-bcreq
-version: "0.8"
+version: "0.9"
 meta_model_version: "0.5"
 compiled_at: 2026-11-04
 source_ssot: https://github.com/G-Ivan-A/ba-ai-metamodel
@@ -29,7 +35,7 @@ slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-c
 # него в чате модели. Пакет содержит физические копии всего необходимого.
 deployment:
   mechanism: ссылка на репозиторий (или вставка его файлов) в чате модели
-  result: "AGENTS.md, skills/, .agents/skills/ (зеркало skills/), taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/"
+  result: "AGENTS.md, skills/, .agents/skills/ (зеркало skills/), taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/, opencode.json и .opencode/ (IDE-слой процессов этапа 1)"
   hub_access_required_at_runtime: false
 
 # 1. Скопировано физически: содержание перенесено в пакет дословно или с
@@ -175,6 +181,23 @@ transformed:
       причины») и docs/kb/USAGE.md (РТ-7); нормативного текста AGENTS.md в
       ba-ai-metamodel нет (проверено на e1f67e2), новое правило не вводится
 
+  - what: IDE-слой процессов этапа 1 (RFC-RT-003 §5–§7, ADR-020 спицы промптов; BL-192 Э5)
+    to: [AGENTS.md, opencode.json, .opencode/agents/, .opencode/commands/]
+    form: >-
+      раздел «Оркестрация и гейты» AGENTS.md (8 правил: маршрут из SSOT
+      этапа 1 fail-closed, без вопроса идут только шаги типа T, один вопрос
+      на шаг или гейт, решение — только явный ответ, журнал решений в
+      work/<ключ>/decisions.jsonl, запись только в work/, возврат предлагает
+      агент, пауза по слову БА); оркестратор bcreq-orchestrator (primary) с
+      субагентами bcreq-step и bcreq-reviewer; команды /a-in, /a-core,
+      /a-work, /a-release; права opencode.json: запись только в work/, веб и
+      внешние каталоги запрещены, MCP Jira, Confluence и веба выключены,
+      чтение с подтверждением, запись запрещена. Источник — решения владельца
+      Р-RT-10…Р-RT-21 по RFC-RT-003 и ADR-020 (mango_ba_prompts#508) и карта
+      гейтов docs/ba-processes/bcreq-ide-gates.json спицы, которая приходит в
+      ssot/ с приёмом SSOT этапа 1. Нормативного текста AGENTS.md в
+      ba-ai-metamodel нет, маршрут RG-BCREQ-v1 и навыки не меняются
+
 # 3. Отброшено: во время выполнения не используется. Отбрасывание —
 #    сознательное решение компиляции, а не пропуск (Анти-Инфляция).
 discarded:
@@ -194,7 +217,9 @@ discarded:
       перенесены в skills/, валидатор — в промпт evaluation/validate-package.md.
       .agents/skills/ больше не срез среды: с 0.8 это зеркало skills/ в
       открытой раскладке навыков (см. transformed), без файлов конкретного
-      клиента
+      клиента. opencode.json и .opencode/ с 0.9 — IDE-слой процессов этапа 1
+      по решению владельца (ADR-020 спицы промптов, см. transformed): он
+      задаёт роли и права клиента и маршрут не дублирует
 
 # Обратная связь: ba-ai-metamodel — SSOT развивающейся модели (после выноса
 # из Хаба). Расхождение, обнаруженное в спутнике, исправляется задачей
