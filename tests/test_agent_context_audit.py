@@ -7,7 +7,8 @@ owner decides otherwise (decisions Р-RT-1…N):
   G-Ivan-A/mango_ba_prompts#492) still exists;
 * no client-specific context package is added without a decision; the
   skills mirror .agents/skills/<name>/SKILL.md is allowed by the owner's
-  decision on Р-RT-3 B (BL-192, runtime #27);
+  decision on Р-RT-3 B (BL-192, runtime #27), the OpenCode IDE layer
+  (.opencode/, opencode.json) by the decision on ADR-020 (BL-192 Э5);
 * the audit log is in place, names the RFC it supports and was produced by
   the current audit script. The RFC itself lives in the RFC registry of
   G-Ivan-A/mango_ba_prompts (docs/rfc/2026-11-runtime-universal-agent-context.md):
@@ -52,7 +53,10 @@ class StageOneContracts(unittest.TestCase):
         # AGENTS.md is the single entry; .agents is the skills mirror (owner
         # decision on Р-RT-3 B, BL-192). Its content is guarded separately:
         # only .agents/skills/<name>/SKILL.md byte-equal to skills/ (test_skills_mirror.py).
-        allowed = {"AGENTS.md", ".agents"}
+        # .opencode and opencode.json are the IDE layer of the stage-1
+        # processes: owner decision on ADR-020 and Р-RT-11 (mango_ba_prompts#508,
+        # BL-192 Э5); their content is guarded by test_ide_layer.py.
+        allowed = {"AGENTS.md", ".agents", ".opencode", "opencode.json"}
         for marker, client in audit.CLIENT_MARKERS:
             if marker in allowed:
                 continue

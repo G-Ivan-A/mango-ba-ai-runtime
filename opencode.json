@@ -1,0 +1,117 @@
+{
+  "$schema": "https://opencode.ai/config.json",
+  "permission": {
+    "*": "ask",
+    "read": {
+      "*": "allow",
+      "*.env": "deny",
+      "*.env.*": "deny"
+    },
+    "glob": "allow",
+    "grep": "allow",
+    "list": "allow",
+    "skill": "allow",
+    "todowrite": "allow",
+    "todoread": "allow",
+    "edit": {
+      "*": "deny",
+      "work/**": "allow",
+      "*/AGENTS.md": "deny",
+      "*/CLAUDE.md": "deny",
+      "*/CONTEXT.md": "deny"
+    },
+    "bash": {
+      "*": "ask",
+      "git status": "allow"
+    },
+    "task": "deny",
+    "question": "deny",
+    "plan_enter": "deny",
+    "plan_exit": "deny",
+    "execute": "deny",
+    "webfetch": "deny",
+    "websearch": "deny",
+    "codesearch": "deny",
+    "external_directory": "deny",
+    "jira_*": "deny",
+    "jira_*get*": "ask",
+    "jira_*search*": "ask",
+    "jira_*list*": "ask",
+    "jira_*create*": "deny",
+    "jira_*update*": "deny",
+    "jira_*delete*": "deny",
+    "jira_*add*": "deny",
+    "jira_*edit*": "deny",
+    "jira_*transition*": "deny",
+    "jira_*upload*": "deny",
+    "jira_*remove*": "deny",
+    "jira_*assign*": "deny",
+    "jira_*move*": "deny",
+    "jira_*batch*": "deny",
+    "jira_*post*": "deny",
+    "jira_*put*": "deny",
+    "jira_*set_*": "deny",
+    "confluence_*": "deny",
+    "confluence_*get*": "ask",
+    "confluence_*search*": "ask",
+    "confluence_*list*": "ask",
+    "confluence_*create*": "deny",
+    "confluence_*update*": "deny",
+    "confluence_*delete*": "deny",
+    "confluence_*add*": "deny",
+    "confluence_*edit*": "deny",
+    "confluence_*transition*": "deny",
+    "confluence_*upload*": "deny",
+    "confluence_*remove*": "deny",
+    "confluence_*assign*": "deny",
+    "confluence_*move*": "deny",
+    "confluence_*batch*": "deny",
+    "confluence_*post*": "deny",
+    "confluence_*put*": "deny",
+    "confluence_*set_*": "deny",
+    "web_*": "deny",
+    "web_*search*": "ask",
+    "web_*fetch*": "ask",
+    "web_*read*": "ask",
+    "web_*create*": "deny",
+    "web_*update*": "deny",
+    "web_*delete*": "deny",
+    "web_*add*": "deny",
+    "web_*edit*": "deny",
+    "web_*transition*": "deny",
+    "web_*upload*": "deny",
+    "web_*remove*": "deny",
+    "web_*assign*": "deny",
+    "web_*move*": "deny",
+    "web_*batch*": "deny",
+    "web_*post*": "deny",
+    "web_*put*": "deny",
+    "web_*set_*": "deny"
+  },
+  "mcp": {
+    "jira": {
+      "type": "remote",
+      "url": "{env:MANGO_JIRA_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer {env:MANGO_JIRA_MCP_TOKEN}"
+      },
+      "enabled": false
+    },
+    "confluence": {
+      "type": "remote",
+      "url": "{env:MANGO_CONFLUENCE_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer {env:MANGO_CONFLUENCE_MCP_TOKEN}"
+      },
+      "enabled": false
+    },
+    "web": {
+      "type": "remote",
+      "url": "{env:MANGO_WEB_MCP_URL}",
+      "headers": {
+        "Authorization": "Bearer {env:MANGO_WEB_MCP_TOKEN}"
+      },
+      "enabled": false
+    }
+  }
+}
