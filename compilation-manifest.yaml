@@ -22,8 +22,14 @@
 # меняются, нормативное содержание источника модели не тронуто. Слой
 # opencode.json, .opencode/ и раздел «Оркестрация и гейты» AGENTS.md
 # записаны в transformed.
+#
+# 0.10 (M2 RFC-RT-003, BL-185…BL-188, передача №1): приём SSOT этапа 1 спицы
+# промптов без перекомпиляции — source_commit и compiled_at не меняются,
+# нормативное содержание источника модели не тронуто. Побайтная копия
+# ssot/mango_ba_prompts/ записана в copied, правило ссылок из ssot/ в
+# AGENTS.md — в transformed.
 manifest: execution-package-mvp-bcreq
-version: "0.9"
+version: "0.10"
 meta_model_version: "0.5"
 compiled_at: 2026-11-04
 source_ssot: https://github.com/G-Ivan-A/ba-ai-metamodel
@@ -35,7 +41,7 @@ slice: "A-IN → A-CORE → A-BCREQ, продуктовый класс contact-c
 # него в чате модели. Пакет содержит физические копии всего необходимого.
 deployment:
   mechanism: ссылка на репозиторий (или вставка его файлов) в чате модели
-  result: "AGENTS.md, skills/, .agents/skills/ (зеркало skills/), taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/, opencode.json и .opencode/ (IDE-слой процессов этапа 1)"
+  result: "AGENTS.md, skills/, .agents/skills/ (зеркало skills/), taxonomy/, contracts/, routes/, templates/, golden/, evaluation/, docs/kb/, docs/guides/, opencode.json и .opencode/ (IDE-слой процессов этапа 1), ssot/ (копия SSOT этапа 1 спицы промптов)"
   hub_access_required_at_runtime: false
 
 # 1. Скопировано физически: содержание перенесено в пакет дословно или с
@@ -118,6 +124,18 @@ copied:
     note: >-
       кейс — вход прогона, принцип остался в промпте; набор synthetic, в
       G-mach не входит (G-mach читает golden/cases*.yaml)
+  - what: SSOT этапа 1 — 135 артефактов манифеста ssot-stage1-handoff 0.2 (BL-185 — 38, BL-186 — 31, BL-187 — 62, BL-188 — 4), карта гейтов IDE и ручной процесс (M2 RFC-RT-003, передача №1)
+    from: https://github.com/G-Ivan-A/mango_ba_prompts/tree/40ef5edd0938b9a5e961dec2e46e625b6c7a2576
+    source_commit: 40ef5edd0938b9a5e961dec2e46e625b6c7a2576
+    to: [ssot/mango_ba_prompts/, ssot/mango_ba_prompts.manifest.json, ssot/mango_ba_prompts.link-map.json, ssot/TRANSFERS.md]
+    note: >-
+      побайтная закреплённая копия по манифесту 0.2 (sha256 файла
+      fa25616fea25a427d0c8c18f1a386195b16fe0b1631312665b122f5bf7b17ea8),
+      пути источника сохранены, .gitattributes ssot/** -text. Копия не
+      правится: обновление — следующая передача с новой строкой журнала
+      ssot/TRANSFERS.md (правила sync_policy манифеста). Публикация
+      разрешена владельцем: Р-RT-22 = А (runtime #31). Сверку без сети и без
+      спицы делает tests/test_ssot_transfer.py, копию — tests/build_ssot_transfer.py
 
 # 2. Преобразовано: нормативный текст стал структурой, которую исполняет
 #    скрипт, а не читает человек.
@@ -197,6 +215,18 @@ transformed:
       гейтов docs/ba-processes/bcreq-ide-gates.json спицы, которая приходит в
       ssot/ с приёмом SSOT этапа 1. Нормативного текста AGENTS.md в
       ba-ai-metamodel нет, маршрут RG-BCREQ-v1 и навыки не меняются
+  - what: разрешение ссылок из копии SSOT этапа 1 на цели вне передачи (RFC-RT-003 §12, Р-RT-7 = 7а; M2, BL-185…BL-188)
+    to: [AGENTS.md]
+    form: >-
+      правило 10: ссылка из ssot/ на цель вне передачи разрешается по
+      ssot/mango_ba_prompts.link-map.json на permalink спицы на
+      source_commit, байты копии и ссылки в них не переписываются; цель вне
+      передачи без доступа к спице — ACCESS_GAP, текст по памяти не
+      восстанавливается. Таблица «Что здесь есть» называет копию, её
+      манифест, карту ссылок и журнал передач. Источник — sync_policy
+      манифеста ssot-stage1-handoff 0.2 (правила 2 и 5) и решение
+      Р-RT-7 = 7а спицы промптов; нормативного текста AGENTS.md в
+      ba-ai-metamodel нет, новое правило исполнения маршрута не вводится
 
 # 3. Отброшено: во время выполнения не используется. Отбрасывание —
 #    сознательное решение компиляции, а не пропуск (Анти-Инфляция).
