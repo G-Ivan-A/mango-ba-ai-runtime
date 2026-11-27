@@ -1,0 +1,2908 @@
+{
+ "link_map": "ssot-stage1-link-map",
+ "version": "0.2",
+ "issue": 506,
+ "manifest": "docs/contracts/ssot-stage1-handoff-manifest.json",
+ "source_repository": "G-Ivan-A/mango_ba_prompts",
+ "source_commit": "40ef5edd0938b9a5e961dec2e46e625b6c7a2576",
+ "target_dir": "ssot/mango_ba_prompts/",
+ "decision": "Р-RT-7, вариант 7а: байты не меняются, ссылка вне передачи разрешается по этой карте",
+ "method": "`](цель)` в .md артефактах манифеста; схема `x:` и `#якорь` — абсолютные; путь от каталога файла через posixpath.normpath, якорь отброшен, %-кодирование снято; как intake_check в tests/agent_context_audit.py runtime",
+ "normative_roots": [
+  "prompts/",
+  "standards/",
+  "docs/ba-processes/",
+  "docs/contracts/",
+  "docs/taxonomy/"
+ ],
+ "how_to_resolve": "inside — открыть target_dir + target; outside — permalink (нужен доступ к спице, иначе ACCESS_GAP); next_transfer_candidate — нормативная цель, кандидат передачи №2; broken — дефект источника, не восстанавливать по памяти",
+ "summary": {
+  "files_scanned": 127,
+  "links": {
+   "absolute/anchor": 391,
+   "inside": 336,
+   "outside": 211
+  },
+  "absolute_links_to_hub": 142,
+  "files_with_outside_links": 26,
+  "targets": {
+   "outside": 95
+  },
+  "next_transfer_candidates": 14
+ },
+ "targets": [
+  {
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md",
+   "normative": true,
+   "occurrences": 11,
+   "from": [
+    "docs/ba-processes/bcreq-manual-process.md",
+    "standards/bcreq-manual-classes/README.md",
+    "standards/bcreq-prompt-base-standard.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md",
+   "normative": true,
+   "occurrences": 6,
+   "from": [
+    "standards/bcreq-prompt-base-standard.md",
+    "standards/bcreq-prompt-profiles.md",
+    "standards/bcreq-runtime-references.md",
+    "standards/bcreq-sections/README.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "docs/taxonomy/products.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/taxonomy/products.json",
+   "normative": true,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-runtime-references.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "prompts/README.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/prompts/README.md",
+   "normative": true,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/golden-set-bcreq-stage1.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "prompts/archive/constraints-documentation-stepwise.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/prompts/archive/constraints-documentation-stepwise.md",
+   "normative": true,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "prompts/letter-customer-documentation-legacy.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/prompts/letter-customer-documentation-legacy.md",
+   "normative": true,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-manual-classes/README.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/GLOSSARY.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/GLOSSARY.md",
+   "normative": true,
+   "occurrences": 3,
+   "from": [
+    "standards/product-classification-contract.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/ba-ontology.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/ba-ontology.md",
+   "normative": true,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-sections/01-glossary.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md",
+   "normative": true,
+   "occurrences": 14,
+   "from": [
+    "docs/ba-processes/bcreq-manual-process.md",
+    "docs/contracts/bcreq-stage-gates.md",
+    "standards/bcreq-manual-classes/README.md",
+    "standards/bcreq-prompt-base-standard.md",
+    "standards/bcreq-prompt-profiles.md",
+    "standards/bcreq-runtime-references.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md",
+   "normative": true,
+   "occurrences": 6,
+   "from": [
+    "docs/ba-processes/bcreq-manual-process.md",
+    "docs/contracts/bcreq-stage-gates.md",
+    "standards/bcreq-sections/03-functional-requirements.md",
+    "standards/bcreq-sections/README.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/evals-contract-standard.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/evals-contract-standard.md",
+   "normative": true,
+   "occurrences": 4,
+   "from": [
+    "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+    "standards/bcreq-lessons/rubric-bcreq-stage1.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/industry-standards-standard.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/industry-standards-standard.md",
+   "normative": true,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-industry-practice.md",
+    "standards/bcreq-sections/README.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/kb-standard.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/kb-standard.md",
+   "normative": true,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-sections/01-glossary.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "standards/prompt-standard.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/prompt-standard.md",
+   "normative": true,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-prompt-architecture.md",
+    "standards/bcreq-prompt-base-standard.md"
+   ],
+   "next_transfer_candidate": true
+  },
+  {
+   "target": "README.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/README.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/product-classification-contract.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/adr/003-ba-ontology.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/003-ba-ontology.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-sections/01-glossary.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "normative": false,
+   "occurrences": 12,
+   "from": [
+    "docs/contracts/bcreq-stage-gates.md",
+    "standards/bcreq-composition-standard.md",
+    "standards/bcreq-prompt-architecture.md",
+    "standards/bcreq-sections/01-glossary.md",
+    "standards/bcreq-sections/02-business-context.md",
+    "standards/bcreq-sections/03-functional-requirements.md",
+    "standards/bcreq-sections/04-non-functional-requirements.md",
+    "standards/bcreq-sections/05-solution-description.md",
+    "standards/bcreq-sections/06-implementation-constraints.md",
+    "standards/bcreq-sections/07-use-cases.md",
+    "standards/bcreq-sections/08-supplementary.md",
+    "standards/bcreq-sections/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "normative": false,
+   "occurrences": 4,
+   "from": [
+    "standards/bcreq-lessons/README.md",
+    "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+    "standards/bcreq-lessons/rubric-bcreq-stage1.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/adr/2026-11-adr-018-rfc-audit-decisions.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-11-adr-018-rfc-audit-decisions.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/adr/2026-11-adr-019-bcreq-a-in-collection.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-11-adr-019-bcreq-a-in-collection.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-10-23-bcreq-standards-third-opinion.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-23-bcreq-standards-third-opinion.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-composition-standard.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-10-23-prompts-catalog-audit.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-23-prompts-catalog-audit.md",
+   "normative": false,
+   "occurrences": 3,
+   "from": [
+    "standards/bcreq-composition-standard.md",
+    "standards/bcreq-prompt-architecture.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-10-29-bcreq-checkpoint.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-29-bcreq-checkpoint.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-manual-classes/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-10-31-bcreq-pipeline-run-experience-review.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-31-bcreq-pipeline-run-experience-review.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-11-02-bcreq-prompts-classes-standards-check.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-11-02-bcreq-prompts-classes-standards-check.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-prompt-profiles.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-11-03-bl-156-step-prompts-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-11-03-bl-156-step-prompts-report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/2026-11-04-bl-156-157-readiness-check.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-11-04-bl-156-157-readiness-check.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/analysis/experiment-1027-analysis.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/experiment-1027-analysis.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/audit/2026-11-07-bcreq-ttz-rfc-audit.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/audit/2026-11-07-bcreq-ttz-rfc-audit.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/audit/2026-11-08-site-2.8.5-readiness.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/audit/2026-11-08-site-2.8.5-readiness.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/rfc/2026-10-bcreq-manual-pipeline.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-manual-pipeline.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-manual-classes/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md",
+   "normative": false,
+   "occurrences": 7,
+   "from": [
+    "standards/bcreq-sections/02-business-context.md",
+    "standards/bcreq-sections/06-implementation-constraints.md",
+    "standards/bcreq-sections/08-supplementary.md",
+    "standards/bcreq-sections/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "normative": false,
+   "occurrences": 4,
+   "from": [
+    "standards/bcreq-lessons/README.md",
+    "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+    "standards/bcreq-lessons/rubric-bcreq-stage1.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "normative": false,
+   "occurrences": 16,
+   "from": [
+    "docs/ba-processes/bcreq-manual-process.md",
+    "standards/bcreq-manual-classes/README.md",
+    "standards/bcreq-prompt-base-standard.md",
+    "standards/bcreq-prompt-profiles.md",
+    "standards/bcreq-runtime-references.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/rfc/2026-11-bcreq-step-format.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-step-format.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "normative": false,
+   "occurrences": 7,
+   "from": [
+    "standards/bcreq-runtime-references.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/site-access.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/site-access.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/task-for-konard-template.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/task-for-konard-template.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "docs/taxonomy.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/taxonomy.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-prompt-architecture.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_387/chat-2026-10-22-23-register.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_387/chat-2026-10-22-23-register.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "docs/contracts/bcreq-stage-gates.md",
+    "standards/bcreq-sections/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_411/research/lessons_coverage.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_411/research/lessons_coverage.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_425/archetypes.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_425/archetypes.json",
+   "normative": false,
+   "occurrences": 3,
+   "from": [
+    "standards/bcreq-prompt-profiles.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_432/measure_common_part.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_432/measure_common_part.py",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-prompt-base-standard.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/README.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/README.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/dialogue-delta.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/dialogue-delta.json",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/extract_dialogue.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/extract_dialogue.py",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/follow-up-review.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/follow-up-review.json",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/practice-ledger.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/practice-ledger.json",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/preservation-baseline.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/preservation-baseline.json",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/review-cases.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/review-cases.json",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_468/source-manifest.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/source-manifest.json",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "experiments/issue_474/coverage.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_474/coverage.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-a-in-execution.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "pr-ops/BACKLOG.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/BACKLOG.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md",
+   "normative": false,
+   "occurrences": 7,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md",
+    "standards/bcreq-prompt-base-standard.md",
+    "standards/bcreq-prompt-profiles.md",
+    "standards/bcreq-runtime-references.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "normative": false,
+   "occurrences": 3,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "normative": false,
+   "occurrences": 4,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0018/feedback/review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0018/feedback/review-notes.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "normative": false,
+   "occurrences": 4,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0021/feedback/review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0021/feedback/review-notes.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0022/feedback/ba-review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0022/feedback/ba-review-notes.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0023/feedback/ba-review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0023/feedback/ba-review-notes.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0025/feedback/review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0025/feedback/review-notes.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0026/feedback/ba-review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0026/feedback/ba-review-notes.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0064/reports/error-analysis.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0064/reports/error-analysis.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0073/outputs/error-statistics.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0073/outputs/error-statistics.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0074/outputs/error-statistics.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0074/outputs/error-statistics.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0074/outputs/golden-set-candidates.json",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0074/outputs/golden-set-candidates.json",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0074/outputs/section-prompts.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0074/outputs/section-prompts.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0075/outputs/error-statistics.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0075/outputs/error-statistics.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0076/outputs/error-statistics.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0076/outputs/error-statistics.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0076/outputs/prompt-improvements.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0076/outputs/prompt-improvements.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0077/feedback/review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0077/feedback/review-notes.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0078/feedback/review-notes.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0078/feedback/review-notes.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/README.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0079/metadata.yaml",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0079/metadata.yaml",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0080/outputs/golden-set-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0080/outputs/golden-set-report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0082/outputs/golden-set-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0082/outputs/golden-set-report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0083/outputs/report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0083/outputs/report.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0084/outputs/golden-set-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0084/outputs/golden-set-report.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0085/outputs/golden-set-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0085/outputs/golden-set-report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0086/outputs/golden-set-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0086/outputs/golden-set-report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0087/outputs/golden-set-report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0087/outputs/golden-set-report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0089/outputs/report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0089/outputs/report.md",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0090/outputs/bcreq.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0090/outputs/bcreq.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0092/metadata.yaml",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0092/metadata.yaml",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/2026/RUN-0092/outputs/report.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0092/outputs/report.md",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "runs/README.md",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/README.md",
+   "normative": false,
+   "occurrences": 3,
+   "from": [
+    "docs/ba-processes/bcreq-run-kit.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "scripts/bcreq_handoff.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/bcreq_handoff.py",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-step-handoff.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "scripts/build_bcreq_a_in.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/build_bcreq_a_in.py",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-step-handoff.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "scripts/build_bcreq_step_prompts.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/build_bcreq_step_prompts.py",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-step-handoff.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "scripts/build_bcreq_system_track.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/build_bcreq_system_track.py",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/ba-processes/bcreq-step-handoff.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "scripts/validate_issue_411_lessons_pipeline.py",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/validate_issue_411_lessons_pipeline.py",
+   "normative": false,
+   "occurrences": 2,
+   "from": [
+    "standards/bcreq-lessons/golden-set-bcreq-stage1.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "site/index.html",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/site/index.html",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "site/screenshots/issue-468/before-processes.png",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/site/screenshots/issue-468/before-processes.png",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "docs/rfc/2026-11-a-in-decomposition.md"
+   ],
+   "next_transfer_candidate": false
+  },
+  {
+   "target": "tools/validate-frontmatter.sh",
+   "class": "outside",
+   "kind": "blob",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/tools/validate-frontmatter.sh",
+   "normative": false,
+   "occurrences": 1,
+   "from": [
+    "standards/bcreq-lessons/golden-set-bcreq-stage1.md"
+   ],
+   "next_transfer_candidate": false
+  }
+ ],
+ "links": [
+  {
+   "from": "docs/ba-processes/bcreq-a-in-execution.md",
+   "line": 199,
+   "raw": "../../experiments/issue_474/coverage.md",
+   "target": "experiments/issue_474/coverage.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_474/coverage.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-manual-process.md",
+   "line": 31,
+   "raw": "../rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-manual-process.md",
+   "line": 32,
+   "raw": "../../standards/bcreq-flow-glossary.md",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-manual-process.md",
+   "line": 36,
+   "raw": "../contracts/bcreq-manual-state.md",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-manual-process.md",
+   "line": 278,
+   "raw": "../../standards/bcreq-process-standard.md#3-human-gates-в-ключевых-точках",
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md#3-human-gates-в-ключевых-точках"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 57,
+   "raw": "../../runs/2026/RUN-0083/outputs/report.md",
+   "target": "runs/2026/RUN-0083/outputs/report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0083/outputs/report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 60,
+   "raw": "../../runs/2026/RUN-0089/outputs/report.md",
+   "target": "runs/2026/RUN-0089/outputs/report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0089/outputs/report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 65,
+   "raw": "../../runs/2026/RUN-0086/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0086/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0086/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 68,
+   "raw": "../../runs/2026/RUN-0084/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0084/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0084/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 69,
+   "raw": "../../runs/2026/RUN-0085/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0085/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0085/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 70,
+   "raw": "../../runs/2026/RUN-0087/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0087/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0087/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 73,
+   "raw": "../analysis/2026-11-04-bl-156-157-readiness-check.md",
+   "target": "docs/analysis/2026-11-04-bl-156-157-readiness-check.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-11-04-bl-156-157-readiness-check.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 151,
+   "raw": "../analysis/2026-11-03-bl-156-step-prompts-report.md",
+   "target": "docs/analysis/2026-11-03-bl-156-step-prompts-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-11-03-bl-156-step-prompts-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 164,
+   "raw": "../../runs/2026/RUN-0080/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0080/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0080/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 165,
+   "raw": "../../runs/2026/RUN-0082/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0082/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0082/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 168,
+   "raw": "../../runs/2026/RUN-0084/outputs/golden-set-report.md",
+   "target": "runs/2026/RUN-0084/outputs/golden-set-report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0084/outputs/golden-set-report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 176,
+   "raw": "../../runs/2026/RUN-0083/outputs/report.md",
+   "target": "runs/2026/RUN-0083/outputs/report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0083/outputs/report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 178,
+   "raw": "../../runs/2026/RUN-0089/outputs/report.md",
+   "target": "runs/2026/RUN-0089/outputs/report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0089/outputs/report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 182,
+   "raw": "../../runs/2026/RUN-0092/outputs/report.md",
+   "target": "runs/2026/RUN-0092/outputs/report.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0092/outputs/report.md"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 240,
+   "raw": "../../runs/README.md#контракт-записи",
+   "target": "runs/README.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/README.md#контракт-записи"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 243,
+   "raw": "../../runs/README.md#реестр-записей",
+   "target": "runs/README.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/README.md#реестр-записей"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 290,
+   "raw": "../../runs/2026/RUN-0079/metadata.yaml",
+   "target": "runs/2026/RUN-0079/metadata.yaml",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0079/metadata.yaml"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-run-kit.md",
+   "line": 380,
+   "raw": "../../runs/README.md#реестр-записей",
+   "target": "runs/README.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/README.md#реестр-записей"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-step-handoff.md",
+   "line": 26,
+   "raw": "../../scripts/build_bcreq_a_in.py",
+   "target": "scripts/build_bcreq_a_in.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/build_bcreq_a_in.py"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-step-handoff.md",
+   "line": 28,
+   "raw": "../../scripts/build_bcreq_step_prompts.py",
+   "target": "scripts/build_bcreq_step_prompts.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/build_bcreq_step_prompts.py"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-step-handoff.md",
+   "line": 30,
+   "raw": "../../scripts/build_bcreq_system_track.py",
+   "target": "scripts/build_bcreq_system_track.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/build_bcreq_system_track.py"
+  },
+  {
+   "from": "docs/ba-processes/bcreq-step-handoff.md",
+   "line": 34,
+   "raw": "../../scripts/bcreq_handoff.py",
+   "target": "scripts/bcreq_handoff.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/bcreq_handoff.py"
+  },
+  {
+   "from": "docs/contracts/bcreq-stage-gates.md",
+   "line": 37,
+   "raw": "../adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "docs/contracts/bcreq-stage-gates.md",
+   "line": 40,
+   "raw": "../../standards/bcreq-process-standard.md#2-конвейер-подпроцессов-оптимальное-число--6",
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md#2-конвейер-подпроцессов-оптимальное-число--6"
+  },
+  {
+   "from": "docs/contracts/bcreq-stage-gates.md",
+   "line": 89,
+   "raw": "../../standards/bcreq-process-standard.md#3-human-gates-в-ключевых-точках",
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md#3-human-gates-в-ключевых-точках"
+  },
+  {
+   "from": "docs/contracts/bcreq-stage-gates.md",
+   "line": 96,
+   "raw": "../../standards/bcreq-flow-glossary.md#3-гейт-определение-типы-ключевые-гейты",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#3-гейт-определение-типы-ключевые-гейты"
+  },
+  {
+   "from": "docs/contracts/bcreq-stage-gates.md",
+   "line": 136,
+   "raw": "../../standards/bcreq-process-standard.md",
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md"
+  },
+  {
+   "from": "docs/contracts/bcreq-stage-gates.md",
+   "line": 184,
+   "raw": "../../experiments/issue_387/chat-2026-10-22-23-register.md",
+   "target": "experiments/issue_387/chat-2026-10-22-23-register.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_387/chat-2026-10-22-23-register.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 19,
+   "raw": "2026-11-bcreq-step-format.md",
+   "target": "docs/rfc/2026-11-bcreq-step-format.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-step-format.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 29,
+   "raw": "../audit/2026-11-08-site-2.8.5-readiness.md",
+   "target": "docs/audit/2026-11-08-site-2.8.5-readiness.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/audit/2026-11-08-site-2.8.5-readiness.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 96,
+   "raw": "../task-for-konard-template.md",
+   "target": "docs/task-for-konard-template.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/task-for-konard-template.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 144,
+   "raw": "../../experiments/issue_468/README.md",
+   "target": "experiments/issue_468/README.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/README.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 159,
+   "raw": "../adr/2026-11-adr-019-bcreq-a-in-collection.md",
+   "target": "docs/adr/2026-11-adr-019-bcreq-a-in-collection.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-11-adr-019-bcreq-a-in-collection.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 162,
+   "raw": "../../experiments/issue_468/source-manifest.json",
+   "target": "experiments/issue_468/source-manifest.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/source-manifest.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 164,
+   "raw": "../../site/index.html",
+   "target": "site/index.html",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/site/index.html"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 176,
+   "raw": "../../runs/2026/RUN-0090/outputs/bcreq.md",
+   "target": "runs/2026/RUN-0090/outputs/bcreq.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0090/outputs/bcreq.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 177,
+   "raw": "../../runs/2026/RUN-0092/metadata.yaml",
+   "target": "runs/2026/RUN-0092/metadata.yaml",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0092/metadata.yaml"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 242,
+   "raw": "../../experiments/issue_468/follow-up-review.json",
+   "target": "experiments/issue_468/follow-up-review.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/follow-up-review.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 289,
+   "raw": "../../experiments/issue_468/source-manifest.json",
+   "target": "experiments/issue_468/source-manifest.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/source-manifest.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 292,
+   "raw": "../../experiments/issue_468/extract_dialogue.py",
+   "target": "experiments/issue_468/extract_dialogue.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/extract_dialogue.py"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 299,
+   "raw": "../../experiments/issue_468/dialogue-delta.json",
+   "target": "experiments/issue_468/dialogue-delta.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/dialogue-delta.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 316,
+   "raw": "../../experiments/issue_468/practice-ledger.json",
+   "target": "experiments/issue_468/practice-ledger.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/practice-ledger.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 399,
+   "raw": "../../experiments/issue_468/preservation-baseline.json",
+   "target": "experiments/issue_468/preservation-baseline.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/preservation-baseline.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 695,
+   "raw": "../../experiments/issue_468/review-cases.json",
+   "target": "experiments/issue_468/review-cases.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_468/review-cases.json"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 703,
+   "raw": "../audit/2026-11-07-bcreq-ttz-rfc-audit.md",
+   "target": "docs/audit/2026-11-07-bcreq-ttz-rfc-audit.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/audit/2026-11-07-bcreq-ttz-rfc-audit.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 821,
+   "raw": "../../site/screenshots/issue-468/before-processes.png",
+   "target": "site/screenshots/issue-468/before-processes.png",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/site/screenshots/issue-468/before-processes.png"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 837,
+   "raw": "../site-access.md",
+   "target": "docs/site-access.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/site-access.md"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 857,
+   "raw": "../../pr-ops/BACKLOG.md#декомпозиция-a-in-issue-468",
+   "target": "pr-ops/BACKLOG.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/BACKLOG.md#декомпозиция-a-in-issue-468"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 858,
+   "raw": "../../pr-ops/backlog-ba-model.md#bl-179-декомпозиция-a-in-и-rfc",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-179-декомпозиция-a-in-и-rfc"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 869,
+   "raw": "../../pr-ops/backlog-ba-model.md#bl-181-аудит-rfc-bcreq-и-ттз",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-181-аудит-rfc-bcreq-и-ттз"
+  },
+  {
+   "from": "docs/rfc/2026-11-a-in-decomposition.md",
+   "line": 874,
+   "raw": "../adr/2026-11-adr-018-rfc-audit-decisions.md",
+   "target": "docs/adr/2026-11-adr-018-rfc-audit-decisions.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-11-adr-018-rfc-audit-decisions.md"
+  },
+  {
+   "from": "standards/bcreq-composition-standard.md",
+   "line": 19,
+   "raw": "../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-composition-standard.md",
+   "line": 111,
+   "raw": "../docs/analysis/2026-10-23-prompts-catalog-audit.md#35-антипаттерны",
+   "target": "docs/analysis/2026-10-23-prompts-catalog-audit.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-23-prompts-catalog-audit.md#35-антипаттерны"
+  },
+  {
+   "from": "standards/bcreq-composition-standard.md",
+   "line": 125,
+   "raw": "../docs/analysis/2026-10-23-bcreq-standards-third-opinion.md#3-findings",
+   "target": "docs/analysis/2026-10-23-bcreq-standards-third-opinion.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-23-bcreq-standards-third-opinion.md#3-findings"
+  },
+  {
+   "from": "standards/bcreq-industry-practice.md",
+   "line": 25,
+   "raw": "industry-standards-standard.md",
+   "target": "standards/industry-standards-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/industry-standards-standard.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 15,
+   "raw": "../../docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "target": "docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-017-run-lessons-ssot.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 15,
+   "raw": "../../docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "target": "docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-run-lessons-pipeline.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 30,
+   "raw": "../../runs/2026/RUN-0064/reports/error-analysis.md",
+   "target": "runs/2026/RUN-0064/reports/error-analysis.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0064/reports/error-analysis.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 31,
+   "raw": "../../runs/2026/RUN-0073/outputs/error-statistics.md",
+   "target": "runs/2026/RUN-0073/outputs/error-statistics.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0073/outputs/error-statistics.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 32,
+   "raw": "../../runs/2026/RUN-0074/outputs/error-statistics.md",
+   "target": "runs/2026/RUN-0074/outputs/error-statistics.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0074/outputs/error-statistics.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 33,
+   "raw": "../../runs/2026/RUN-0075/outputs/error-statistics.md",
+   "target": "runs/2026/RUN-0075/outputs/error-statistics.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0075/outputs/error-statistics.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 34,
+   "raw": "../../runs/2026/RUN-0076/outputs/error-statistics.md",
+   "target": "runs/2026/RUN-0076/outputs/error-statistics.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0076/outputs/error-statistics.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 39,
+   "raw": "../../experiments/issue_411/research/lessons_coverage.md",
+   "target": "experiments/issue_411/research/lessons_coverage.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_411/research/lessons_coverage.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 83,
+   "raw": "../../runs/2026/RUN-0018/feedback/review-notes.md",
+   "target": "runs/2026/RUN-0018/feedback/review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0018/feedback/review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 83,
+   "raw": "../../docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md",
+   "target": "docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 84,
+   "raw": "../../runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0017/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 84,
+   "raw": "../../runs/2026/RUN-0023/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0023/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0023/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 85,
+   "raw": "../../runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0020/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 85,
+   "raw": "../../docs/analysis/experiment-1027-analysis.md",
+   "target": "docs/analysis/experiment-1027-analysis.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/experiment-1027-analysis.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 86,
+   "raw": "../../runs/2026/RUN-0026/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0026/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0026/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 86,
+   "raw": "../../runs/2026/RUN-0025/feedback/review-notes.md",
+   "target": "runs/2026/RUN-0025/feedback/review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0025/feedback/review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 87,
+   "raw": "../../runs/2026/RUN-0022/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0022/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0022/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 87,
+   "raw": "../../runs/2026/RUN-0026/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0026/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0026/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 88,
+   "raw": "../../runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0017/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 88,
+   "raw": "../../runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0020/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 89,
+   "raw": "../../runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0016/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 90,
+   "raw": "../../runs/2026/RUN-0076/outputs/prompt-improvements.md",
+   "target": "runs/2026/RUN-0076/outputs/prompt-improvements.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0076/outputs/prompt-improvements.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 91,
+   "raw": "../../runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0017/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 91,
+   "raw": "../../runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0016/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 92,
+   "raw": "../../prompts/archive/constraints-documentation-stepwise.md",
+   "target": "prompts/archive/constraints-documentation-stepwise.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/prompts/archive/constraints-documentation-stepwise.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 92,
+   "raw": "../../docs/analysis/experiment-1027-analysis.md",
+   "target": "docs/analysis/experiment-1027-analysis.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/experiment-1027-analysis.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 93,
+   "raw": "../../runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0017/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0017/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 94,
+   "raw": "../../docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md",
+   "target": "docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-28-bcreq-evolution-failure-analysis.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 95,
+   "raw": "../../runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0020/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 96,
+   "raw": "../../runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0016/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0016/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 97,
+   "raw": "../../runs/2026/RUN-0018/feedback/review-notes.md",
+   "target": "runs/2026/RUN-0018/feedback/review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0018/feedback/review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 97,
+   "raw": "../../runs/2026/RUN-0021/feedback/review-notes.md",
+   "target": "runs/2026/RUN-0021/feedback/review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0021/feedback/review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 98,
+   "raw": "../../runs/2026/RUN-0076/outputs/prompt-improvements.md",
+   "target": "runs/2026/RUN-0076/outputs/prompt-improvements.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0076/outputs/prompt-improvements.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 99,
+   "raw": "../../runs/2026/RUN-0074/outputs/section-prompts.md",
+   "target": "runs/2026/RUN-0074/outputs/section-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0074/outputs/section-prompts.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 100,
+   "raw": "../../runs/2026/RUN-0078/feedback/review-notes.md",
+   "target": "runs/2026/RUN-0078/feedback/review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0078/feedback/review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 101,
+   "raw": "../../runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0020/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0020/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 102,
+   "raw": "../../runs/2026/RUN-0074/outputs/golden-set-candidates.json",
+   "target": "runs/2026/RUN-0074/outputs/golden-set-candidates.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0074/outputs/golden-set-candidates.json"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 103,
+   "raw": "../../runs/2026/RUN-0022/feedback/ba-review-notes.md",
+   "target": "runs/2026/RUN-0022/feedback/ba-review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0022/feedback/ba-review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 103,
+   "raw": "../../runs/2026/RUN-0077/feedback/review-notes.md",
+   "target": "runs/2026/RUN-0077/feedback/review-notes.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/runs/2026/RUN-0077/feedback/review-notes.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 550,
+   "raw": "../../docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "target": "docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-017-run-lessons-ssot.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/README.md",
+   "line": 651,
+   "raw": "../../docs/analysis/2026-10-31-bcreq-pipeline-run-experience-review.md",
+   "target": "docs/analysis/2026-10-31-bcreq-pipeline-run-experience-review.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-31-bcreq-pipeline-run-experience-review.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 18,
+   "raw": "../../tools/validate-frontmatter.sh",
+   "target": "tools/validate-frontmatter.sh",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/tools/validate-frontmatter.sh"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 18,
+   "raw": "../../scripts/validate_issue_411_lessons_pipeline.py",
+   "target": "scripts/validate_issue_411_lessons_pipeline.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/validate_issue_411_lessons_pipeline.py"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 20,
+   "raw": "../evals-contract-standard.md",
+   "target": "standards/evals-contract-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/evals-contract-standard.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 27,
+   "raw": "../../docs/rfc/2026-10-bcreq-run-lessons-pipeline.md#режимы-прогона",
+   "target": "docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-run-lessons-pipeline.md#режимы-прогона"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 120,
+   "raw": "../../scripts/validate_issue_411_lessons_pipeline.py",
+   "target": "scripts/validate_issue_411_lessons_pipeline.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/scripts/validate_issue_411_lessons_pipeline.py"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 126,
+   "raw": "../evals-contract-standard.md",
+   "target": "standards/evals-contract-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/evals-contract-standard.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 127,
+   "raw": "../../docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "target": "docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-017-run-lessons-ssot.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 128,
+   "raw": "../../docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "target": "docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-run-lessons-pipeline.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/golden-set-bcreq-stage1.md",
+   "line": 129,
+   "raw": "../../prompts/README.md",
+   "target": "prompts/README.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/prompts/README.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/rubric-bcreq-stage1.md",
+   "line": 39,
+   "raw": "../evals-contract-standard.md",
+   "target": "standards/evals-contract-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/evals-contract-standard.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/rubric-bcreq-stage1.md",
+   "line": 81,
+   "raw": "../evals-contract-standard.md",
+   "target": "standards/evals-contract-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/evals-contract-standard.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/rubric-bcreq-stage1.md",
+   "line": 82,
+   "raw": "../../docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "target": "docs/adr/2026-10-adr-017-run-lessons-ssot.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-017-run-lessons-ssot.md"
+  },
+  {
+   "from": "standards/bcreq-lessons/rubric-bcreq-stage1.md",
+   "line": 83,
+   "raw": "../../docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "target": "docs/rfc/2026-10-bcreq-run-lessons-pipeline.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-run-lessons-pipeline.md"
+  },
+  {
+   "from": "standards/bcreq-manual-classes/README.md",
+   "line": 15,
+   "raw": "../../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#92-состав",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#92-состав"
+  },
+  {
+   "from": "standards/bcreq-manual-classes/README.md",
+   "line": 15,
+   "raw": "../bcreq-flow-glossary.md",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md"
+  },
+  {
+   "from": "standards/bcreq-manual-classes/README.md",
+   "line": 50,
+   "raw": "../../prompts/letter-customer-documentation-legacy.md",
+   "target": "prompts/letter-customer-documentation-legacy.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/prompts/letter-customer-documentation-legacy.md"
+  },
+  {
+   "from": "standards/bcreq-manual-classes/README.md",
+   "line": 181,
+   "raw": "../../docs/contracts/bcreq-manual-state.md",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md"
+  },
+  {
+   "from": "standards/bcreq-manual-classes/README.md",
+   "line": 182,
+   "raw": "../../docs/rfc/2026-10-bcreq-manual-pipeline.md",
+   "target": "docs/rfc/2026-10-bcreq-manual-pipeline.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-manual-pipeline.md"
+  },
+  {
+   "from": "standards/bcreq-manual-classes/README.md",
+   "line": 183,
+   "raw": "../../docs/analysis/2026-10-29-bcreq-checkpoint.md",
+   "target": "docs/analysis/2026-10-29-bcreq-checkpoint.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-29-bcreq-checkpoint.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-architecture.md",
+   "line": 20,
+   "raw": "../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-architecture.md",
+   "line": 22,
+   "raw": "prompt-standard.md",
+   "target": "standards/prompt-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/prompt-standard.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-architecture.md",
+   "line": 24,
+   "raw": "../docs/analysis/2026-10-23-prompts-catalog-audit.md#38-вектор-для-задачи-2",
+   "target": "docs/analysis/2026-10-23-prompts-catalog-audit.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-23-prompts-catalog-audit.md#38-вектор-для-задачи-2"
+  },
+  {
+   "from": "standards/bcreq-prompt-architecture.md",
+   "line": 174,
+   "raw": "../docs/taxonomy.md",
+   "target": "docs/taxonomy.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/taxonomy.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-architecture.md",
+   "line": 289,
+   "raw": "../docs/analysis/2026-10-23-prompts-catalog-audit.md",
+   "target": "docs/analysis/2026-10-23-prompts-catalog-audit.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-10-23-prompts-catalog-audit.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 31,
+   "raw": "../pr-ops/backlog-ba-model.md#bl-151-базовый-стандарт-ручного-промпта-bcreq-по-тесту",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-151-базовый-стандарт-ручного-промпта-bcreq-по-тесту"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 32,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 38,
+   "raw": "bcreq-flow-glossary.md",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 44,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#73-режим-по-тесту",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#73-режим-по-тесту"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 62,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#74-технический-долг-обратное-согласование-через-adr",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#74-технический-долг-обратное-согласование-через-adr"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 64,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#поправка-05-решение-р-14-и-гейты-по-этапам-issue-432",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#поправка-05-решение-р-14-и-гейты-по-этапам-issue-432"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 70,
+   "raw": "prompt-standard.md",
+   "target": "standards/prompt-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/prompt-standard.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 70,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 79,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#93-как-промпт-собирается-из-стандартов",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#93-как-промпт-собирается-из-стандартов"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 95,
+   "raw": "../docs/contracts/bcreq-manual-state.md#подготовка-каждого-вызова",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#подготовка-каждого-вызова"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 100,
+   "raw": "../docs/contracts/bcreq-manual-state.md#подготовка-каждого-вызова",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#подготовка-каждого-вызова"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 117,
+   "raw": "../docs/contracts/bcreq-manual-state.md#полномочия-и-возвраты",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#полномочия-и-возвраты"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 124,
+   "raw": "../docs/contracts/bcreq-manual-state.md#slice-и-full",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#slice-и-full"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 136,
+   "raw": "../docs/contracts/kb-citations.md#обязательный-алгоритм",
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md#обязательный-алгоритм"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 147,
+   "raw": "../docs/contracts/bcreq-manual-state.md#полномочия-и-возвраты",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#полномочия-и-возвраты"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 148,
+   "raw": "bcreq-flow-glossary.md#33-типы-гейта",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#33-типы-гейта"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 149,
+   "raw": "bcreq-flow-glossary.md#38-валидаторы-py-по-этапам-дорожной-карты",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#38-валидаторы-py-по-этапам-дорожной-карты"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 149,
+   "raw": "../docs/contracts/bcreq-manual-state.md",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 150,
+   "raw": "bcreq-flow-glossary.md#37-типы-гейтов-по-этапам-дорожной-карты",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#37-типы-гейтов-по-этапам-дорожной-карты"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 159,
+   "raw": "../docs/contracts/bcreq-manual-state.md#изоляция-и-проверка",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#изоляция-и-проверка"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 160,
+   "raw": "../docs/contracts/bcreq-manual-state.md#полномочия-и-возвраты",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md#полномочия-и-возвраты"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 165,
+   "raw": "bcreq-flow-glossary.md#36-гейты-потока-bcreq",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#36-гейты-потока-bcreq"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 166,
+   "raw": "bcreq-flow-glossary.md#37-типы-гейтов-по-этапам-дорожной-карты",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#37-типы-гейтов-по-этапам-дорожной-карты"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 186,
+   "raw": "../experiments/issue_432/measure_common_part.py",
+   "target": "experiments/issue_432/measure_common_part.py",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_432/measure_common_part.py"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 206,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 209,
+   "raw": "../docs/contracts/bcreq-manual-state.md",
+   "target": "docs/contracts/bcreq-manual-state.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/bcreq-manual-state.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-base-standard.md",
+   "line": 209,
+   "raw": "../docs/contracts/kb-citations.md",
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 27,
+   "raw": "../pr-ops/backlog-ba-model.md#bl-152-профили-архетипов-по-тесту",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-152-профили-архетипов-по-тесту"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 28,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 40,
+   "raw": "../experiments/issue_425/archetypes.json",
+   "target": "experiments/issue_425/archetypes.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_425/archetypes.json"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 54,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#71-состав"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 83,
+   "raw": "../docs/contracts/kb-citations.md#обязательный-алгоритм",
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md#обязательный-алгоритм"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 141,
+   "raw": "bcreq-flow-glossary.md#37-типы-гейтов-по-этапам-дорожной-карты",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#37-типы-гейтов-по-этапам-дорожной-карты"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 175,
+   "raw": "bcreq-flow-glossary.md#33-типы-гейта",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#33-типы-гейта"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 180,
+   "raw": "../experiments/issue_425/archetypes.json",
+   "target": "experiments/issue_425/archetypes.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_425/archetypes.json"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 249,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#92-состав",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#92-состав"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 279,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 281,
+   "raw": "../docs/analysis/2026-11-02-bcreq-prompts-classes-standards-check.md",
+   "target": "docs/analysis/2026-11-02-bcreq-prompts-classes-standards-check.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/analysis/2026-11-02-bcreq-prompts-classes-standards-check.md"
+  },
+  {
+   "from": "standards/bcreq-prompt-profiles.md",
+   "line": 282,
+   "raw": "../experiments/issue_425/archetypes.json",
+   "target": "experiments/issue_425/archetypes.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_425/archetypes.json"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 29,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#8-исключения-ссылки-промптов-на-mango-ba-ai-runtime",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#8-исключения-ссылки-промптов-на-mango-ba-ai-runtime"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 31,
+   "raw": "../pr-ops/backlog-ba-model.md#bl-154-справочники-runtime-перечень-требования-закреплённый-срез",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-154-справочники-runtime-перечень-требования-закреплённый-срез"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 32,
+   "raw": "../pr-ops/backlog-ba-model.md#bl-155-заглушки-недостающих-справочников-runtime",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-155-заглушки-недостающих-справочников-runtime"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 34,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#поправка-04-гейт-и-его-типы-issue-430",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#поправка-04-гейт-и-его-типы-issue-430"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 39,
+   "raw": "bcreq-flow-glossary.md",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 92,
+   "raw": "bcreq-flow-glossary.md#3-гейт-определение-типы-ключевые-гейты",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md#3-гейт-определение-типы-ключевые-гейты"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 96,
+   "raw": "../docs/taxonomy/products.json",
+   "target": "docs/taxonomy/products.json",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/taxonomy/products.json"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 97,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md#3-ссот-и-разделение-ответственности",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md#3-ссот-и-разделение-ответственности"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 122,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md#4-механизм-снятия-заглушки-таксономии-критично",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md#4-механизм-снятия-заглушки-таксономии-критично"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 157,
+   "raw": "../docs/contracts/kb-citations.md",
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 213,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 221,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md#5-рт-1--тело-задачи-для-mango-ba-ai-runtime-копировать-целиком",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md#5-рт-1--тело-задачи-для-mango-ba-ai-runtime-копировать-целиком"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 223,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md#7-рт-3--тело-задачи-для-mango-ba-ai-runtime-копировать-целиком",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md#7-рт-3--тело-задачи-для-mango-ba-ai-runtime-копировать-целиком"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 225,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md#123-рт-6--тело-задачи-для-mango-ba-ai-runtime-копировать-целиком",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md#123-рт-6--тело-задачи-для-mango-ba-ai-runtime-копировать-целиком"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 249,
+   "raw": "../docs/rfc/2026-11-bcreq-flow-processes-prompts.md#8-исключения-ссылки-промптов-на-mango-ba-ai-runtime",
+   "target": "docs/rfc/2026-11-bcreq-flow-processes-prompts.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-bcreq-flow-processes-prompts.md#8-исключения-ссылки-промптов-на-mango-ba-ai-runtime"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 250,
+   "raw": "../pr-ops/backlog-ba-model.md#bl-114-самодостаточность-промптов-и-справочники-в-runtime",
+   "target": "pr-ops/backlog-ba-model.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/pr-ops/backlog-ba-model.md#bl-114-самодостаточность-промптов-и-справочники-в-runtime"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 251,
+   "raw": "bcreq-flow-glossary.md",
+   "target": "standards/bcreq-flow-glossary.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-flow-glossary.md"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 253,
+   "raw": "../docs/contracts/kb-citations.md",
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md"
+  },
+  {
+   "from": "standards/bcreq-runtime-references.md",
+   "line": 254,
+   "raw": "../docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "target": "docs/rfc/2026-11-runtime-product-catalog-golden-set.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-11-runtime-product-catalog-golden-set.md"
+  },
+  {
+   "from": "standards/bcreq-sections/01-glossary.md",
+   "line": 31,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/01-glossary.md",
+   "line": 81,
+   "raw": "../../docs/adr/003-ba-ontology.md",
+   "target": "docs/adr/003-ba-ontology.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/003-ba-ontology.md"
+  },
+  {
+   "from": "standards/bcreq-sections/01-glossary.md",
+   "line": 82,
+   "raw": "../ba-ontology.md",
+   "target": "standards/ba-ontology.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/ba-ontology.md"
+  },
+  {
+   "from": "standards/bcreq-sections/01-glossary.md",
+   "line": 110,
+   "raw": "../kb-standard.md",
+   "target": "standards/kb-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/kb-standard.md"
+  },
+  {
+   "from": "standards/bcreq-sections/02-business-context.md",
+   "line": 34,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/02-business-context.md",
+   "line": 45,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-05",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-05"
+  },
+  {
+   "from": "standards/bcreq-sections/02-business-context.md",
+   "line": 71,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-07",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-07"
+  },
+  {
+   "from": "standards/bcreq-sections/03-functional-requirements.md",
+   "line": 20,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/03-functional-requirements.md",
+   "line": 147,
+   "raw": "../bcreq-process-standard.md#2-конвейер-подпроцессов-оптимальное-число--6",
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md#2-конвейер-подпроцессов-оптимальное-число--6"
+  },
+  {
+   "from": "standards/bcreq-sections/04-non-functional-requirements.md",
+   "line": 18,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/05-solution-description.md",
+   "line": 25,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/06-implementation-constraints.md",
+   "line": 18,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/06-implementation-constraints.md",
+   "line": 36,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-07",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-07"
+  },
+  {
+   "from": "standards/bcreq-sections/07-use-cases.md",
+   "line": 19,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/08-supplementary.md",
+   "line": 18,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/08-supplementary.md",
+   "line": 29,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-05",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-05"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 22,
+   "raw": "../../docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "target": "docs/adr/2026-10-adr-012-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/adr/2026-10-adr-012-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 31,
+   "raw": "../../experiments/issue_387/chat-2026-10-22-23-register.md",
+   "target": "experiments/issue_387/chat-2026-10-22-23-register.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/experiments/issue_387/chat-2026-10-22-23-register.md"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 37,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 89,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-06",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-06"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 153,
+   "raw": "../../docs/contracts/kb-citations.md",
+   "target": "docs/contracts/kb-citations.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/contracts/kb-citations.md"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 163,
+   "raw": "../../docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-03",
+   "target": "docs/rfc/2026-10-bcreq-meta-standards.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/docs/rfc/2026-10-bcreq-meta-standards.md#rfc-387-03"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 173,
+   "raw": "../bcreq-process-standard.md#3-human-gates-в-ключевых-точках",
+   "target": "standards/bcreq-process-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/bcreq-process-standard.md#3-human-gates-в-ключевых-точках"
+  },
+  {
+   "from": "standards/bcreq-sections/README.md",
+   "line": 201,
+   "raw": "../industry-standards-standard.md",
+   "target": "standards/industry-standards-standard.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/industry-standards-standard.md"
+  },
+  {
+   "from": "standards/product-classification-contract.md",
+   "line": 31,
+   "raw": "GLOSSARY.md",
+   "target": "standards/GLOSSARY.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/GLOSSARY.md"
+  },
+  {
+   "from": "standards/product-classification-contract.md",
+   "line": 46,
+   "raw": "GLOSSARY.md",
+   "target": "standards/GLOSSARY.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/GLOSSARY.md"
+  },
+  {
+   "from": "standards/product-classification-contract.md",
+   "line": 176,
+   "raw": "../README.md",
+   "target": "README.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/README.md"
+  },
+  {
+   "from": "standards/product-classification-contract.md",
+   "line": 177,
+   "raw": "GLOSSARY.md",
+   "target": "standards/GLOSSARY.md",
+   "class": "outside",
+   "permalink": "https://github.com/G-Ivan-A/mango_ba_prompts/blob/40ef5edd0938b9a5e961dec2e46e625b6c7a2576/standards/GLOSSARY.md"
+  }
+ ]
+}

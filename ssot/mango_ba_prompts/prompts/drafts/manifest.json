@@ -1,0 +1,514 @@
+{
+  "source_issue": "#438",
+  "task": "BL-156",
+  "build_date": "2026-11-08",
+  "runtime_sha": "68ad8fcffd47439fc3051852d9a2fbbe23815855",
+  "standards": {
+    "base": "standards/bcreq-prompt-base-standard.md@0.1.3",
+    "profiles": "standards/bcreq-prompt-profiles.md@0.1.3",
+    "runtime_references": "standards/bcreq-runtime-references.md@0.5",
+    "catalog": "standards/bcreq-manual-classes/catalog.json@0.2"
+  },
+  "excluded_base_rules": {
+    "БС-01": "v0.1 берёт вход из блока «Состояние BCREQ» без полей task/phase/class/revision/rule_bundle и режимов START/CONTINUE; правило остановило бы каждый вызов v0.1 (WAITING) из-за отсутствующих полей",
+    "БС-04": "в v0.1 нет режима CONTINUE с base и slices: шаг получает документ и «Состояние BCREQ» целиком",
+    "БС-07": "v0.1 задаёт свой «Формат вывода» и блок «Состояние BCREQ»; один блок `BCREQ_OUTPUT` заменил бы формат, который проверен прогонами и RUN-0079",
+    "БС-09": "SLICE и FULL — типы результата `BCREQ_OUTPUT` (БС-07); в v0.1 их нет, сборку фазы выполняет Ш-Р",
+    "БС-11": "«поле payload» — часть `BCREQ_OUTPUT` (БС-07); в v0.1 то же требование записано как «[ТРЕБУЕТСЯ УТОЧНЕНИЕ] и вопрос в 8.4»",
+    "БС-13": "v0.1 рекомендует следующий шаг маршрута (Ш-N) и оставляет выбор БА; правило требует следующую операцию (К-NN) — другая единица маршрута"
+  },
+  "terms": {
+    "UNKNOWN": "`[ТРЕБУЕТСЯ УТОЧНЕНИЕ]` с вопросом в 8.4 (маркер v0.1)",
+    "WAITING, BLOCKED, INCOMPLETE": "остановка по CB с перечнем недостающего; статус — в строке «текущий» блока «Состояние BCREQ»",
+    "receipt": "блок «Проверки (receipt)» после блока «Состояние BCREQ»: выполненные проверки, прочитанные и непрочитанные источники, ограничения, расхождения с блоком «Стандарты шага»",
+    "операция К-NN": "часть шага; контракт операции — ниже, раздел «Контракты операций»"
+  },
+  "notes": {
+    "Ш-В": [
+      "Профиль TRANSFORM в этом шаге относится к варианту исправления в замечании (операция К-30 — адресная правка): документ ты не меняешь — текст шага выше, раздел 4: «Не меняй текст документа» (АД-2). `before` — цитата из документа, `after` — вариант, semantic_diff — смысл правки."
+    ],
+    "Ш-0": [
+      "Профиль RECORD (К-34) записывает только явный ответ БА; на шаге Ш-0 это стартовые данные и правила, которые БА подтвердил, а не согласие по умолчанию. Остальные параметры собирает Ш-А."
+    ]
+  },
+  "lessons_blocks": "не добавлены: ждут ADR-017 (--apply-prompts)",
+  "drafts": [
+    {
+      "file": "prompts/drafts/bcreq-constitution-governance-oneshot.md",
+      "steps": [
+        "Ш-0"
+      ],
+      "based_on": "prompts/bcreq-constitution-governance-oneshot.md",
+      "based_on_sha256": "794b4df122dca054dcae0f1b0d7aa0ff571e8f1bfa0fe54e540780a5dd123407",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "INGEST",
+        "VERIFY",
+        "RECORD"
+      ],
+      "operations": [
+        "К-13",
+        "К-34",
+        "К-36"
+      ],
+      "runtime_refs": [
+        "И-3",
+        "И-7",
+        "И-11"
+      ],
+      "stubs": [
+        "З-5"
+      ],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-intake-questionnaire-stepwise.md",
+      "steps": [
+        "Ш-А"
+      ],
+      "based_on": null,
+      "based_on_sha256": null,
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "INGEST"
+      ],
+      "operations": [
+        "К-01"
+      ],
+      "runtime_refs": [
+        "И-7"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-context-understanding-stepwise.md",
+      "steps": [
+        "Ш-1"
+      ],
+      "based_on": "prompts/bcreq-context-understanding-stepwise.md",
+      "based_on_sha256": "8183dd1872fcef6637fc4822ae2e254cbc2afd62eb0e58f62b18f99cb6d16f4e",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "INGEST",
+        "EXTRACT",
+        "ANALYZE",
+        "ELICIT",
+        "GENERATE"
+      ],
+      "operations": [
+        "К-02",
+        "К-03",
+        "К-04",
+        "К-09",
+        "К-14",
+        "К-15"
+      ],
+      "runtime_refs": [
+        "И-1",
+        "И-6",
+        "И-7"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-products-impact-analysis-stepwise.md",
+      "steps": [
+        "Ш-2"
+      ],
+      "based_on": "prompts/bcreq-products-impact-analysis-stepwise.md",
+      "based_on_sha256": "59babf58f4e8ba885d4c5a8fec47d4acc4986a7d4b1e6aaf2c3c66ed3ef80ffa",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "EXTRACT",
+        "ANALYZE"
+      ],
+      "operations": [
+        "К-05",
+        "К-06",
+        "К-07",
+        "К-08",
+        "К-11"
+      ],
+      "runtime_refs": [
+        "И-1",
+        "И-2",
+        "И-7",
+        "И-11"
+      ],
+      "stubs": [
+        "З-5"
+      ],
+      "gates": [
+        "G-self",
+        "Г-IN"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-fr-documentation-stepwise.md",
+      "steps": [
+        "Ш-3"
+      ],
+      "based_on": "prompts/bcreq-fr-documentation-stepwise.md",
+      "based_on_sha256": "27dfe183a84460de1259204008e7cf93850e6e10c7f374df9f1520289ea6aa60",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-16",
+        "К-17"
+      ],
+      "runtime_refs": [
+        "И-1",
+        "И-4",
+        "И-7"
+      ],
+      "stubs": [
+        "З-2"
+      ],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-nfr-documentation-stepwise.md",
+      "steps": [
+        "Ш-4"
+      ],
+      "based_on": "prompts/bcreq-nfr-documentation-stepwise.md",
+      "based_on_sha256": "af1acb878a87497ae9b021d65cd59e3c06f5d5a8fc662ef40c7170b282e805bb",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-18"
+      ],
+      "runtime_refs": [
+        "И-4",
+        "И-7"
+      ],
+      "stubs": [
+        "З-2"
+      ],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-uc-modeling-stepwise.md",
+      "steps": [
+        "Ш-5",
+        "Ш-8"
+      ],
+      "based_on": "prompts/bcreq-uc-modeling-stepwise.md",
+      "based_on_sha256": "5ed17d013e50e5141d114153d55cf79714fba85ff0c71583229e538fbc6a35f8",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-19",
+        "К-24"
+      ],
+      "runtime_refs": [
+        "И-4",
+        "И-7"
+      ],
+      "stubs": [
+        "З-2"
+      ],
+      "gates": [
+        "G-self",
+        "Г-С1",
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-orr-solution-design-stepwise.md",
+      "steps": [
+        "Ш-6"
+      ],
+      "based_on": "prompts/bcreq-orr-solution-design-stepwise.md",
+      "based_on_sha256": "a3625617be079c43475b17f8c7485e148f34416d8f3bcc2a066f91c33af04b69",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-21",
+        "К-22"
+      ],
+      "runtime_refs": [
+        "И-1",
+        "И-7"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-constraints-documentation-stepwise.md",
+      "steps": [
+        "Ш-7"
+      ],
+      "based_on": "prompts/bcreq-constraints-documentation-stepwise.md",
+      "based_on_sha256": "b11e8c4429ce4136b6eea8802b28223b91c68d452a9fdf546d148382dd0373ae",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-23"
+      ],
+      "runtime_refs": [
+        "И-1",
+        "И-7"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-extra-risk-analysis-stepwise.md",
+      "steps": [
+        "Ш-9"
+      ],
+      "based_on": "prompts/bcreq-extra-risk-analysis-stepwise.md",
+      "based_on_sha256": "16f581591b9ad0a4dc0fff2c958080531e94a4a8add1f3f762eb89333d4994ab",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-25",
+        "К-26",
+        "К-27"
+      ],
+      "runtime_refs": [
+        "И-7"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-review-validation-oneshot.md",
+      "steps": [
+        "Ш-В"
+      ],
+      "based_on": "prompts/bcreq-review-validation-oneshot.md",
+      "based_on_sha256": "46466fdb6608aa463d38a0aa8f86e5a2d0f80b8f62bbf780f97418c144ba5cda",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "ANALYZE",
+        "VERIFY",
+        "TRANSFORM"
+      ],
+      "operations": [
+        "К-10",
+        "К-20",
+        "К-28",
+        "К-29",
+        "К-30",
+        "К-39"
+      ],
+      "runtime_refs": [
+        "И-3",
+        "И-5",
+        "И-7",
+        "И-8"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self",
+        "G-mach",
+        "Г-W"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-release-readiness-oneshot.md",
+      "steps": [
+        "Ш-Р"
+      ],
+      "based_on": null,
+      "based_on_sha256": null,
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "VERIFY",
+        "TRANSFORM",
+        "RECORD"
+      ],
+      "operations": [
+        "К-12",
+        "К-31",
+        "К-32",
+        "К-33",
+        "К-35"
+      ],
+      "runtime_refs": [
+        "И-3",
+        "И-7"
+      ],
+      "stubs": [],
+      "gates": [
+        "G-self",
+        "Выпуск"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    },
+    {
+      "file": "prompts/drafts/bcreq-scenarios-modeling-oneshot.md",
+      "steps": [
+        "Ш-С"
+      ],
+      "based_on": "prompts/bcreq-scenarios-modeling-oneshot.md",
+      "based_on_sha256": "5bc6187a97807c8636f2beae6ed5a7a813073875746057b569cf7e657f9cd2b3",
+      "runtime_main_to_sha": 0,
+      "hub_main_to_metamodel_sha": 0,
+      "profiles": [
+        "GENERATE"
+      ],
+      "operations": [
+        "К-37",
+        "К-38"
+      ],
+      "runtime_refs": [
+        "И-4",
+        "И-7"
+      ],
+      "stubs": [
+        "З-2"
+      ],
+      "gates": [
+        "G-self"
+      ],
+      "excluded_base_rules": [
+        "БС-01",
+        "БС-04",
+        "БС-07",
+        "БС-09",
+        "БС-11",
+        "БС-13"
+      ]
+    }
+  ]
+}
