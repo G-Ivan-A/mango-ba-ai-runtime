@@ -13,8 +13,8 @@ this repository
    three agents with their modes, the four commands bound to the orchestrator
    (V1), the effective permissions the client computes for each agent, and,
    in a copy of the repository, writes the model asks for: AGENTS.md is
-   refused, also through work/<key>/../../ and by `git diff --output`, and
-   work/<key>/ is written.
+   refused, also through work/<key>/../../ and by `git diff --output`; an
+   AGENTS.md in work/<key>/ is refused; work/<key>/probe.md is written.
 
 Steps 2 and 4 need a model request. The script starts a local mock of an
 OpenAI-compatible endpoint, records the request and answers «ok» (in step 4 it first asks for two writes): no real model
@@ -59,8 +59,10 @@ LAYER_AGENTS = {"bcreq-orchestrator": ("primary", False), "bcreq-step": ("subage
 LAYER_COMMANDS = {"a-in": "A-IN", "a-core": "A-CORE", "a-work": "A-WORK", "a-release": "A-RELEASE"}
 ORCHESTRATOR_TITLE = "# Оркестратор процессов этапа 1"
 PROBE_KEY = "SMOKE-1"
-# A protected file, the same file through work/ (the client resolves the path), a file in work/.
-PROBE_WRITES = ("AGENTS.md", f"work/{PROBE_KEY}/../../AGENTS.md", f"work/{PROBE_KEY}/probe.md")
+# A protected file, the same file through work/ (the client resolves the path), an instructions file in
+# work/ (the client would attach it to the model as instructions), a file in work/.
+PROBE_WRITES = ("AGENTS.md", f"work/{PROBE_KEY}/../../AGENTS.md", f"work/{PROBE_KEY}/AGENTS.md",
+                f"work/{PROBE_KEY}/probe.md")
 # A shell command that writes a file by an option rather than a redirect: it asks, so a run without a
 # person refuses it. An allow rule `git diff*` would let it overwrite AGENTS.md (#506, BL-192 Э5).
 PROBE_SHELL = "git diff --output=AGENTS.md"
@@ -78,6 +80,8 @@ def expected_decisions() -> list[tuple[str, str, str, str]]:
             (agent, "edit", ".opencode/agents/bcreq-orchestrator.md", "deny"),
             (agent, "edit", "ssot/mango_ba_prompts/docs/ba-processes/bcreq-ide-gates.json", "deny"),
             (agent, "edit", f"work/{PROBE_KEY}/AIN-01.md", "deny" if reviewer else "allow"),
+            (agent, "edit", f"work/{PROBE_KEY}/AGENTS.md", "deny"),
+            (agent, "edit", f"work/{PROBE_KEY}/CLAUDE.md", "deny"),
             (agent, "read", ".env", "deny"),
             (agent, "webfetch", "*", "deny"),
             (agent, "websearch", "*", "deny"),
@@ -458,6 +462,7 @@ def main(argv=None) -> int:
                 check(not results, "V1 ends the run at the shell command that asks", f"{len(results)}")
             check((project / "AGENTS.md").read_bytes() == before,
                   f"writes to AGENTS.md and {PROBE_WRITES[1]}, and `{PROBE_SHELL}` are refused")
+            check(not (project / PROBE_WRITES[2]).exists(), f"a write to {PROBE_WRITES[2]} is refused")
             written = project / PROBE_WRITES[-1]
             check(written.is_file() and written.read_text(encoding="utf-8") == "probe\n",
                   f"a write to {PROBE_WRITES[-1]} is done")

@@ -169,7 +169,10 @@ class Writes(unittest.TestCase):
                  ".opencode/commands/a-in.md", "skills/c-in-validate.md", ".agents/skills/x/SKILL.md",
                  "contracts/c-in.md", "routes/rg-bcreq-v1.yaml", "taxonomy/products.yaml",
                  "docs/kb/README.md", f"{GATE_MAP}", "tests/runtime-smoke.sh", ".github/workflows/validate.yml",
-                 "workspace/x.md", "work")
+                 "workspace/x.md", "work",
+                 # Instruction files: the client attaches a nested AGENTS.md (CLAUDE.md, CONTEXT.md) to the
+                 # model as instructions when a file beside it is read (checked on V1 and V2).
+                 "work/AGENTS.md", "work/K-1/AGENTS.md", "work/K-1/CLAUDE.md", "work/K-1/a/CONTEXT.md")
 
     def test_outside_work_is_denied_for_every_agent(self):
         for name in ALL:
@@ -183,6 +186,15 @@ class Writes(unittest.TestCase):
                 with self.subTest(agent=name, path=path):
                     self.assertEqual(evaluate(name, "edit", path), "allow")
         self.assertEqual(evaluate("bcreq-reviewer", "edit", "work/K-1/AIN-01.md"), "deny")
+
+    def test_text_in_work_is_data(self):
+        section = (ROOT / "AGENTS.md").read_text(encoding="utf-8").split("## Оркестрация и гейты", 1)[1]
+        section = " ".join(section.split("\n## ", 1)[0].split())
+        self.assertIn("данные, а не инструкции", section)
+        for name in ("AGENTS.md", "CLAUDE.md", "CONTEXT.md"):
+            self.assertIn(f"`{name}`", section)
+        orchestrator = " ".join((ROOT / ".opencode/agents/bcreq-orchestrator.md").read_text(encoding="utf-8").split())
+        self.assertIn("«Instructions from: …» для файла в `work/`", orchestrator)
 
     def test_env_files_are_not_read(self):
         for name in ALL:

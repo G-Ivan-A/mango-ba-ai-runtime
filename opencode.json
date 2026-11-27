@@ -15,7 +15,10 @@
     "todoread": "allow",
     "edit": {
       "*": "deny",
-      "work/**": "allow"
+      "work/**": "allow",
+      "*/AGENTS.md": "deny",
+      "*/CLAUDE.md": "deny",
+      "*/CONTEXT.md": "deny"
     },
     "bash": {
       "*": "ask",
