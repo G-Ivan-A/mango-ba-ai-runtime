@@ -13,7 +13,8 @@ this repository
    three agents with their modes, the four commands bound to the orchestrator
    (V1), the effective permissions the client computes for each agent, and,
    in a copy of the repository, writes the model asks for: AGENTS.md is
-   refused, also through work/<key>/../../, and work/<key>/ is written.
+   refused, also through work/<key>/../../ and by `git diff --output`, and
+   work/<key>/ is written.
 
 Steps 2 and 4 need a model request. The script starts a local mock of an
 OpenAI-compatible endpoint, records the request and answers «ok» (in step 4 it first asks for two writes): no real model
@@ -60,6 +61,9 @@ ORCHESTRATOR_TITLE = "# Оркестратор процессов этапа 1"
 PROBE_KEY = "SMOKE-1"
 # A protected file, the same file through work/ (the client resolves the path), a file in work/.
 PROBE_WRITES = ("AGENTS.md", f"work/{PROBE_KEY}/../../AGENTS.md", f"work/{PROBE_KEY}/probe.md")
+# A shell command that writes a file by an option rather than a redirect: it asks, so a run without a
+# person refuses it. An allow rule `git diff*` would let it overwrite AGENTS.md (#506, BL-192 Э5).
+PROBE_SHELL = "git diff --output=AGENTS.md"
 # V2 renames permissions when it translates the V1 `permission` object.
 V2_NAMES = {"bash": "shell", "task": "subagent"}
 
@@ -88,8 +92,9 @@ def expected_decisions() -> list[tuple[str, str, str, str]]:
         ]
         if agent in ("bcreq-step", "bcreq-reviewer"):
             rows.append((agent, "bash", "git status", "deny"))
-        if orchestrator:
-            rows += [(agent, "bash", "git status", "allow"), (agent, "bash", "rm -rf work", "ask")]
+        if orchestrator or agent == "build":
+            rows += [(agent, "bash", "git status", "allow"), (agent, "bash", "rm -rf work", "ask"),
+                     (agent, "bash", PROBE_SHELL, "ask"), (agent, "bash", "git diff --no-index /dev/null .env", "ask")]
     return rows
 
 
@@ -127,8 +132,9 @@ class MockModel(BaseHTTPRequestHandler):
     """Minimal OpenAI-compatible chat completions endpoint that records requests."""
 
     requests: list[dict] = []
-    # Step 4: absolute paths the model asks to write before it answers.
+    # Step 4: absolute paths the model asks to write, and shell commands it asks to run, before it answers.
     writes: tuple[str, ...] = ()
+    shell: tuple[str, ...] = ()
 
     def log_message(self, *args):
         pass
@@ -152,7 +158,11 @@ class MockModel(BaseHTTPRequestHandler):
         tools = {t.get("function", {}).get("name"): t.get("function", {}) for t in request.get("tools", [])}
         answered = any(m.get("role") == "tool" for m in request.get("messages", []))
         if MockModel.writes and request.get("stream") and "write" in tools and not answered:
-            self._send(200, "text/event-stream", write_calls(base, tools["write"], MockModel.writes, usage))
+            shell = next((name for name in ("bash", "shell") if name in tools), None)  # V1 bash, V2 shell
+            calls = [write_call(tools["write"], path) for path in MockModel.writes]
+            if shell:
+                calls += [shell_call(shell, tools[shell], command) for command in MockModel.shell]
+            self._send(200, "text/event-stream", tool_calls(base, calls, usage))
         elif request.get("stream"):
             chunks = [
                 {**base, "object": "chat.completion.chunk",
@@ -170,13 +180,26 @@ class MockModel(BaseHTTPRequestHandler):
             }).encode())
 
 
-def write_calls(base: dict, write_tool: dict, paths: tuple[str, ...], usage: dict) -> bytes:
-    """A streamed answer that calls the client's write tool once per path."""
+def write_call(write_tool: dict, path: str) -> tuple[str, dict]:
+    """A call of the client's write tool: V1 names the path filePath, V2 path."""
     properties = write_tool.get("parameters", {}).get("properties", {})
-    key = "filePath" if "filePath" in properties else "path"  # V1 filePath, V2 path
+    return "write", {"filePath" if "filePath" in properties else "path": path, "content": "probe\n"}
+
+
+def shell_call(name: str, shell_tool: dict, command: str) -> tuple[str, dict]:
+    """A call of the client's shell tool (V1 bash, V2 shell)."""
+    properties = shell_tool.get("parameters", {}).get("properties", {})
+    arguments = {"command": command}
+    if "description" in properties:
+        arguments["description"] = "smoke"
+    return name, arguments
+
+
+def tool_calls(base: dict, calls: list[tuple[str, dict]], usage: dict) -> bytes:
+    """A streamed answer that makes the given tool calls."""
     calls = [{"index": i, "id": f"call_{i}", "type": "function",
-              "function": {"name": "write", "arguments": json.dumps({key: path, "content": "probe\n"})}}
-             for i, path in enumerate(paths)]
+              "function": {"name": name, "arguments": json.dumps(arguments)}}
+             for i, (name, arguments) in enumerate(calls)]
     chunks = [
         {**base, "object": "chat.completion.chunk",
          "choices": [{"index": 0, "delta": {"role": "assistant", "tool_calls": calls}, "finish_reason": None}]},
@@ -407,6 +430,7 @@ def main(argv=None) -> int:
             before = (project / "AGENTS.md").read_bytes()
             MockModel.requests.clear()
             MockModel.writes = tuple(str(project / rel) for rel in PROBE_WRITES)
+            MockModel.shell = (PROBE_SHELL,)
             if major >= 2:
                 cmd = [args.opencode, "run", "--standalone", "--archived", "-m", "smoke/m",
                        "--agent", "bcreq-orchestrator", PROBE_KEY]
@@ -416,7 +440,7 @@ def main(argv=None) -> int:
                 proc = subprocess.run(cmd, cwd=project, env={**env, "PWD": str(project)}, capture_output=True,
                                       text=True, stdin=subprocess.DEVNULL, timeout=args.timeout)
             finally:
-                MockModel.writes = ()
+                MockModel.writes = MockModel.shell = ()
             sent = [r for r in MockModel.requests if r.get("tools")]
             check(proc.returncode == 0 and bool(sent), "the orchestrator run reaches the mock model",
                   (proc.stderr or proc.stdout)[-500:])
@@ -425,9 +449,15 @@ def main(argv=None) -> int:
                 check(any(f"Процесс: A-IN. Ключ задачи: {PROBE_KEY}" in text_of(r) for r in sent),
                       "/a-in passes the process and the key to the model")
             results = [m for r in sent for m in r.get("messages", []) if m.get("role") == "tool"]
-            check(len(results) >= len(PROBE_WRITES), "the client answers every write call", f"{len(results)}")
+            if major >= 2:
+                check(len(results) >= len(PROBE_WRITES) + 1, "the client answers every write and shell call",
+                      f"{len(results)}")
+            else:
+                # V1 ends a run without a person at the first rule that asks, so no tool result returns
+                # to the model; the files below show what the client did.
+                check(not results, "V1 ends the run at the shell command that asks", f"{len(results)}")
             check((project / "AGENTS.md").read_bytes() == before,
-                  f"writes to AGENTS.md and {PROBE_WRITES[1]} are refused")
+                  f"writes to AGENTS.md and {PROBE_WRITES[1]}, and `{PROBE_SHELL}` are refused")
             written = project / PROBE_WRITES[-1]
             check(written.is_file() and written.read_text(encoding="utf-8") == "probe\n",
                   f"a write to {PROBE_WRITES[-1]} is done")

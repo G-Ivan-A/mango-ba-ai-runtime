@@ -219,6 +219,16 @@ class Tools(unittest.TestCase):
     def test_shell(self):
         self.assertEqual(evaluate(ORCHESTRATOR, "bash", "git status"), "allow")
         self.assertEqual(evaluate(ORCHESTRATOR, "bash", "rm -rf work"), "ask")
+        # Commands that write or read past the client rules by an option ask a person:
+        # git diff --output overwrites a file, git diff --no-index reads any file.
+        for command in ("git diff --output=AGENTS.md", "git diff --no-index /dev/null .env",
+                        "git status --porcelain > AGENTS.md"):
+            for name in (ORCHESTRATOR, "build"):
+                with self.subTest(agent=name, command=command):
+                    self.assertEqual(evaluate(name, "bash", command), "ask")
+        bash = json.loads((ROOT / "opencode.json").read_text(encoding="utf-8"))["permission"]["bash"]
+        self.assertEqual({k for k, v in bash.items() if v == "allow"}, {"git status"},
+                         "a shell allow rule must be an exact command without options")
         for name in SUBAGENTS:
             with self.subTest(agent=name):
                 self.assertEqual(evaluate(name, "bash", "git status"), "deny")

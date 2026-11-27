@@ -113,8 +113,9 @@ class Permissions(unittest.TestCase):
 
 class WriteProbe(unittest.TestCase):
     def chunks(self, properties):
-        body = smoke.write_calls({"id": "x"}, {"parameters": {"properties": properties}},
-                                 ("/p/AGENTS.md", "/p/work/K/probe.md"), {})
+        tool = {"parameters": {"properties": properties}}
+        calls = [smoke.write_call(tool, path) for path in ("/p/AGENTS.md", "/p/work/K/probe.md")]
+        body = smoke.tool_calls({"id": "x"}, calls, {})
         lines = [line[6:] for line in body.decode().split("\n\n") if line.startswith("data: {")]
         return [json.loads(line) for line in lines]
 
@@ -128,6 +129,13 @@ class WriteProbe(unittest.TestCase):
         chunks = self.chunks({"path": {}, "content": {}})
         self.assertIn("path", json.loads(chunks[0]["choices"][0]["delta"]["tool_calls"][0]["function"]["arguments"]))
         self.assertEqual(chunks[1]["choices"][0]["finish_reason"], "tool_calls")
+
+    def test_shell_call(self):
+        v1 = {"parameters": {"properties": {"command": {}, "description": {}}}}
+        v2 = {"parameters": {"properties": {"command": {}, "background": {}}}}
+        self.assertEqual(smoke.shell_call("bash", v1, smoke.PROBE_SHELL),
+                         ("bash", {"command": smoke.PROBE_SHELL, "description": "smoke"}))
+        self.assertEqual(smoke.shell_call("shell", v2, "git status"), ("shell", {"command": "git status"}))
 
     def test_layer_project_has_no_work(self):
         with tempfile.TemporaryDirectory() as tmp:
