@@ -1,0 +1,116 @@
+{
+  "siteVersion": "2.7.0",
+  "observedAt": "2026-11-08",
+  "sourceCommit": "7152e499bac5d73c08f4ac59a0a714c577597e7e",
+  "publicationCommit": "268aee900e04e8888364c003d7a602cf573a148d",
+  "url": "https://g-ivan-a.github.io/mango_ba_prompts/",
+  "projection": {
+    "issue": 495,
+    "function": "scripts/prompt_purity.py:project",
+    "note": "Файлы архива = project(оригинал на sourceCommit): без ссылок на приватный репо и HTML-комментариев (супер-правило #495). sha256/bodySha256 — опубликованный оригинал 2.7.0; projectedSha256/projectedBodySha256 — файл в архиве."
+  },
+  "entries": [
+    {
+      "sourcePath": "prompts/drafts/bcreq-intake-questionnaire-stepwise.md",
+      "archivePath": "prompts/archive/a-in-v2.7.0/bcreq-intake-questionnaire-stepwise.md",
+      "step": "Ш-А",
+      "replacedBy": [
+        "AIN-02"
+      ],
+      "sha256": "580106bfb3458042de6d08e3d6ff320e0e4ef67cd5b73825a43234d8a21b9e37",
+      "bodySha256": "b88de09a50e2139b871b7d4fe51a7469b00fdd5c0a494d76628bda5524cc85af",
+      "projectedSha256": "14edd82b28af03018bfbb9021a868d82192220af1b8b1aec001f3a2981a72a48",
+      "projectedBodySha256": "e468544a85289a063306fd836057b8e9f9f9216a4fdb244f96bb4603a75ff835"
+    },
+    {
+      "sourcePath": "prompts/drafts/bcreq-context-understanding-stepwise.md",
+      "archivePath": "prompts/archive/a-in-v2.7.0/bcreq-context-understanding-stepwise.md",
+      "step": "Ш-1",
+      "replacedBy": [
+        "AIN-01",
+        "AIN-02",
+        "AIN-03",
+        "AIN-04",
+        "AIN-05",
+        "AIN-06",
+        "AIN-07",
+        "AIN-08",
+        "AIN-09",
+        "AIN-10",
+        "AIN-11",
+        "AIN-12",
+        "AIN-13",
+        "AIN-14",
+        "AIN-15",
+        "AIN-16",
+        "AIN-17",
+        "AIN-18",
+        "AIN-19",
+        "AIN-20",
+        "AIN-21",
+        "AIN-22",
+        "AIN-23",
+        "AIN-24"
+      ],
+      "sha256": "277b6577a3adca185930c4665c58f001ccf27b122ef132bc84c73573d9cc04d6",
+      "bodySha256": "5aecfb3416747cc39c607274b9b07a9e6f678b102d8f9a480c456a922c29e941",
+      "projectedSha256": "73808f55708e07cc407d5d6092388c92bbf1e1ef63506db39f0341c10cf2d1cb",
+      "projectedBodySha256": "4840bb46ba3e6c9ff1eed1441a1be936722b1649d7ca0d36e115d6288b301e5a"
+    },
+    {
+      "sourcePath": "prompts/drafts/bcreq-products-impact-analysis-stepwise.md",
+      "archivePath": "prompts/archive/a-in-v2.7.0/bcreq-products-impact-analysis-stepwise.md",
+      "step": "Ш-2",
+      "replacedBy": [
+        "AIN-06",
+        "AIN-07",
+        "AIN-08",
+        "AIN-09",
+        "AIN-10",
+        "AIN-11",
+        "AIN-12",
+        "AIN-13",
+        "AIN-22"
+      ],
+      "sha256": "1f9e7c452b256de3f1f3c287b7b153a75be40572ec95cd6282e8d63974e29c67",
+      "bodySha256": "9365c53824c70f08357fb29c74b4c70c93727a1b6b2ada166a9696c450545829",
+      "projectedSha256": "2e6854bb7c7b62b77e8a62f5b500f5919ed335e3bc23e3969d3014747944ac19",
+      "projectedBodySha256": "da67e960fe9d7079e4be1750a8796103be724a4f57d313e513a0fa30d4a7c7ea"
+    },
+    {
+      "sourcePath": "prompts/bcreq-in-understanding-oneshot.md",
+      "archivePath": "prompts/archive/a-in-v2.7.0/bcreq-in-understanding-oneshot.md",
+      "step": "A-IN one-shot",
+      "replacedBy": [
+        "AIN-01",
+        "AIN-02",
+        "AIN-03",
+        "AIN-04",
+        "AIN-05",
+        "AIN-06",
+        "AIN-07",
+        "AIN-08",
+        "AIN-09",
+        "AIN-10",
+        "AIN-11",
+        "AIN-12",
+        "AIN-13",
+        "AIN-14",
+        "AIN-15",
+        "AIN-16",
+        "AIN-17",
+        "AIN-18",
+        "AIN-19",
+        "AIN-20",
+        "AIN-21",
+        "AIN-22",
+        "AIN-23",
+        "AIN-24"
+      ],
+      "sha256": "838e3c5fbae47e8a5684a24bdeafb4b27f7eb21caff5696151ceaa3487c235f9",
+      "bodySha256": "2c5674dbda4a41e58e794003aed6567986d1cd5876b708ced2ab98841baa30f3",
+      "projectedSha256": "9b1291785c3f862b1f1cc2d75b4ac725f99b4a473761cc500756b02b253f42c7",
+      "projectedBodySha256": "0eb36155904d713a2eb790086dcca17a774e1cdc66c4951951d71722df0177b0"
+    }
+  ]
+}

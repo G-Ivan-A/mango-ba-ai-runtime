@@ -1,0 +1,867 @@
+{
+  "id": "BCREQ-IDE-GATES",
+  "version": "0.1",
+  "status": "accepted",
+  "rfc": "RFC-RT-003, раздел 5 (issue #506, ADR-020)",
+  "generated_by": "scripts/build_bcreq_ide_gates.py",
+  "runtime_path": "ssot/mango_ba_prompts/docs/ba-processes/bcreq-ide-gates.json",
+  "note": "Карта исполняет норму этапа 1 и не меняет её. Тип шага меняет только процесс спицы (Р-RT-12).",
+  "sources": {
+    "docs/ba-processes/bcreq-a-in-route.json": "5cec366507d980c0d7e138e199e8158e84d4751d07d6060b51a976e41768e0e9",
+    "docs/ba-processes/bcreq-a-in-execution.md": "936cd3ac27e786240e6c0024b94bf2a6c8ea0b09f6700380ac14d4e7c531ce48",
+    "docs/ba-processes/bcreq-manual-process.md": "d7035373aba2ef38e6fa368c1fd61c37418c4087a5a85fb69a3a41f796f4e6ea"
+  },
+  "stop_types": {
+    "T": "технический шаг: исполняется без остановки, итог шага пишется в журнал; по Р-09 ввод следующего промпта и есть принятие",
+    "P": "проверка БА (Р-09): остановка, один вопрос «принять и запустить <шаг> / принять и остановиться / доработать / вернуться» по шагу и редакции",
+    "G": "гейт: остановка с вопросом решения гейта, исходами и ролью, которая решает; для гибрида — рекомендация модели с основанием",
+    "B": "блокировка (Р-19): остановка всего процесса до устранения причины; приоритет над всеми допусками"
+  },
+  "interaction": {
+    "advance_while_paused": false,
+    "resume_requires_ba_instruction": true,
+    "future_comment_authorizes_execution": false,
+    "blocked_unavailable": "blocked"
+  },
+  "technical_steps": [
+    "Ш-0",
+    "AIN-01",
+    "AIN-03",
+    "AIN-04",
+    "AIN-05",
+    "AIN-06",
+    "AIN-07",
+    "AIN-08",
+    "AIN-09",
+    "AIN-10",
+    "AIN-12",
+    "AIN-15",
+    "AIN-19",
+    "AIN-22"
+  ],
+  "never_technical": [
+    "Ш-2",
+    "Ш-5",
+    "Ш-В",
+    "Ш-Р",
+    "AIN-21",
+    "AIN-24"
+  ],
+  "accept_unless_objection": [
+    "AIN-06",
+    "AIN-22"
+  ],
+  "gates": [
+    {
+      "code": "AIN-21",
+      "type": "гибрид",
+      "key": true,
+      "checks": "модель готовит отчёт, БА проверяет критерии и версию",
+      "decides": "БА",
+      "outcomes": "allow → отдельный AIN-22, доработка → по маршруту AIN, остановка",
+      "record": "протокол допуска: задача, попытка, маршрут, snapshot и версия, версия отчёта, решение, автор, дата, locator, условия",
+      "transition": null,
+      "hybrid": true,
+      "decision_by_model": false
+    },
+    {
+      "code": "Г-IN",
+      "type": "гибрид",
+      "key": true,
+      "checks": "модель сверяет критерии и рекомендует исход, БА проверяет результат Ш-2 или AIN-24",
+      "decides": "БА",
+      "outcomes": "дальше → Ш-3, доработка → A-IN, полный match и решение БА → CS",
+      "record": "журнал гейтов и 8.5, с рекомендацией и расхождением",
+      "transition": "A-IN → A-CORE",
+      "hybrid": true,
+      "decision_by_model": false
+    },
+    {
+      "code": "Г-С1",
+      "type": "человек",
+      "key": true,
+      "checks": "БА по отчёту предпроверки и оценке «от»",
+      "decides": "Заказчик",
+      "outcomes": "согласование → Ш-6, уточнение → A-IN или A-CORE, отказ → СТОП",
+      "record": "решение Заказчика в журнале гейтов и 8.5",
+      "transition": "A-CORE → A-WORK",
+      "hybrid": false,
+      "decision_by_model": false
+    },
+    {
+      "code": "Г-W",
+      "type": "человек",
+      "key": true,
+      "checks": "БА по итогам Ш-В с независимой второй ролью и отчёту предпроверки",
+      "decides": "ПО продукта, архитектор продукта, руководитель КК",
+      "outcomes": "согласование → Заказчику итоговую оценку, после её согласования → Ш-Р. Уточнение → A-IN, A-CORE или A-WORK. Отказ согласующих → СТОП",
+      "record": "решения согласующих и ответ Заказчика в журнале гейтов и 8.5",
+      "transition": "A-WORK → A-RELEASE",
+      "hybrid": false,
+      "decision_by_model": false
+    },
+    {
+      "code": "Выпуск",
+      "type": "человек",
+      "key": true,
+      "checks": "БА сверяет отчёт Ш-Р, пакеты, ревизию и обязательные одобрения",
+      "decides": "БА по процессу A-RELEASE",
+      "outcomes": "выпуск → BASELINE, доработка → затронутый шаг, остановка → СТОП",
+      "record": "решение о выпуске и ревизия в журнале гейтов и 8.5, идентификатор baseline в манифесте выпуска",
+      "transition": "A-RELEASE → утверждённый BCREQ",
+      "hybrid": false,
+      "decision_by_model": false
+    }
+  ],
+  "processes": [
+    {
+      "stage": "A-IN",
+      "command": "/a-in",
+      "formats": {
+        "system": [
+          {
+            "id": "Ш-0",
+            "name": "Конституция",
+            "type": "T"
+          },
+          {
+            "id": "Ш-А",
+            "name": "Анкета",
+            "type": "P"
+          },
+          {
+            "id": "Ш-1",
+            "name": "Контекст и глоссарий",
+            "type": "P"
+          },
+          {
+            "id": "Ш-2",
+            "name": "Продукты и стейкхолдеры",
+            "type": "G",
+            "gate_after": "Г-IN"
+          }
+        ],
+        "decomposed": [
+          {
+            "id": "Ш-0",
+            "name": "Конституция",
+            "type": "T"
+          },
+          {
+            "id": "AIN-01",
+            "name": "Правила и версия",
+            "type": "T"
+          },
+          {
+            "id": "AIN-02",
+            "name": "Данные у БА",
+            "type": "P"
+          },
+          {
+            "id": "AIN-03",
+            "name": "Реестр источников",
+            "type": "T"
+          },
+          {
+            "id": "AIN-04",
+            "name": "Атомизация",
+            "type": "T"
+          },
+          {
+            "id": "AIN-05",
+            "name": "Качество и смысл",
+            "type": "T"
+          },
+          {
+            "id": "AIN-06",
+            "name": "Кандидаты продуктов",
+            "type": "T",
+            "accept_unless_objection": true
+          },
+          {
+            "id": "AIN-07",
+            "name": "План retrieval",
+            "type": "T"
+          },
+          {
+            "id": "AIN-08",
+            "name": "Веб-извлечение",
+            "type": "T"
+          },
+          {
+            "id": "AIN-09",
+            "name": "Извлечение БЗ",
+            "type": "T"
+          },
+          {
+            "id": "AIN-10",
+            "name": "Замыкание зависимостей",
+            "type": "T"
+          },
+          {
+            "id": "AIN-11",
+            "name": "Сверка противоречий",
+            "type": "P"
+          },
+          {
+            "id": "AIN-12",
+            "name": "Исполнимость сейчас",
+            "type": "T"
+          },
+          {
+            "id": "AIN-13",
+            "name": "Согласование пула",
+            "type": "P"
+          },
+          {
+            "id": "AIN-14",
+            "name": "Словарь — раздел 1",
+            "type": "P"
+          },
+          {
+            "id": "AIN-15",
+            "name": "Остаточные пробелы",
+            "type": "T"
+          },
+          {
+            "id": "AIN-16",
+            "name": "Вопросы Заказчику",
+            "type": "P"
+          },
+          {
+            "id": "AIN-17",
+            "name": "Решение БА по вопросам",
+            "type": "P"
+          },
+          {
+            "id": "AIN-18",
+            "name": "Новые данные",
+            "type": "P"
+          },
+          {
+            "id": "AIN-19",
+            "name": "Повторная нормализация",
+            "type": "T"
+          },
+          {
+            "id": "AIN-20",
+            "name": "Снимок памяти",
+            "type": "P"
+          },
+          {
+            "id": "AIN-21",
+            "name": "Гейт до раздела 2",
+            "type": "G",
+            "gate_after": "AIN-21"
+          },
+          {
+            "id": "AIN-22",
+            "name": "Сборка раздела 2",
+            "type": "T",
+            "accept_unless_objection": true,
+            "requires_gate": {
+              "code": "AIN-21",
+              "outcome": "allow"
+            },
+            "separate_call": true
+          },
+          {
+            "id": "AIN-23",
+            "name": "Проверка раздела 2",
+            "type": "P"
+          },
+          {
+            "id": "AIN-24",
+            "name": "Г-IN и передача",
+            "type": "G",
+            "gate_after": "Г-IN"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "A-CORE",
+      "command": "/a-core",
+      "formats": {
+        "both": [
+          {
+            "id": "Ш-0",
+            "name": "Конституция",
+            "type": "T"
+          },
+          {
+            "id": "Ш-3",
+            "name": "ФТ",
+            "type": "P"
+          },
+          {
+            "id": "Ш-4",
+            "name": "НФТ",
+            "type": "P"
+          },
+          {
+            "id": "Ш-5",
+            "name": "UC, прогон 1",
+            "type": "G",
+            "gate_after": "Г-С1"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "A-WORK",
+      "command": "/a-work",
+      "formats": {
+        "both": [
+          {
+            "id": "Ш-0",
+            "name": "Конституция",
+            "type": "T"
+          },
+          {
+            "id": "Ш-6",
+            "name": "ОРР",
+            "type": "P"
+          },
+          {
+            "id": "Ш-7",
+            "name": "Ограничения",
+            "type": "P"
+          },
+          {
+            "id": "Ш-8",
+            "name": "UC, прогон 2",
+            "type": "P"
+          },
+          {
+            "id": "Ш-9",
+            "name": "Риски и приёмка",
+            "type": "P"
+          },
+          {
+            "id": "Ш-В",
+            "name": "Валидация второй ролью",
+            "type": "G",
+            "gate_after": "Г-W"
+          }
+        ]
+      }
+    },
+    {
+      "stage": "A-RELEASE",
+      "command": "/a-release",
+      "formats": {
+        "both": [
+          {
+            "id": "Ш-0",
+            "name": "Конституция",
+            "type": "T"
+          },
+          {
+            "id": "Ш-Р",
+            "name": "Выпуск",
+            "type": "G",
+            "gate_after": "Выпуск"
+          }
+        ]
+      }
+    }
+  ],
+  "on_request": [
+    {
+      "id": "Ш-С",
+      "name": "Сценарии по запросу",
+      "type": "P"
+    }
+  ],
+  "transitions": [
+    {
+      "from": "Ш-0",
+      "format": "system",
+      "action": "продолжить",
+      "when": "Конституция принята, входы и системный формат зафиксированы, БА вводит промпт Ш-А",
+      "admission": null,
+      "requires_gate": null,
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "вход-Ш-0",
+        "ввод-промпта"
+      ],
+      "target": "Ш-А"
+    },
+    {
+      "from": "Ш-0",
+      "format": "decomposed",
+      "action": "продолжить",
+      "when": "Конституция принята, входы зафиксированы, БА вводит промпт AIN-01",
+      "admission": null,
+      "requires_gate": null,
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "вход-Ш-0",
+        "ввод-промпта"
+      ],
+      "target": "AIN-01"
+    },
+    {
+      "from": "Ш-А",
+      "format": "system",
+      "action": "продолжить",
+      "when": "Анкета проверена или БА явно пропустил ответы. При пропуске записаны UNKNOWN и принятые стандарты, решение в 8.5",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-1"
+    },
+    {
+      "from": "Ш-1",
+      "format": "system",
+      "action": "продолжить",
+      "when": "Контекст, термины и границы проверены. БА принял разделы 1–2 и решение по вопросам",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-2"
+    },
+    {
+      "from": "Ш-1",
+      "format": "system",
+      "action": "выйти в CS",
+      "when": "Исполнимость «Да» по всей проблеме, БА решил завершить BCREQ",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [
+        "полный-match"
+      ],
+      "target": "CS"
+    },
+    {
+      "from": "Ш-2",
+      "format": "system",
+      "action": "продолжить",
+      "when": "Результат системного Ш-2 принят, явное актуальное решение Г-IN записано в журнале гейтов и 8.5",
+      "admission": "Г-IN/дальше",
+      "requires_gate": {
+        "code": "Г-IN",
+        "outcome": "дальше"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [],
+      "target": "Ш-3"
+    },
+    {
+      "from": "Ш-2",
+      "format": "system",
+      "action": "выйти в CS",
+      "when": "Исполнимость «Да» по всей проблеме, решение Г-IN о передаче в CS принято БА",
+      "admission": "Г-IN/CS",
+      "requires_gate": {
+        "code": "Г-IN",
+        "outcome": "CS"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "полный-match"
+      ],
+      "target": "CS"
+    },
+    {
+      "from": "AIN-21",
+      "format": "decomposed",
+      "action": "продолжить",
+      "when": "Выполнены критерии допуска, есть явный allow БА для текущих task, attempt, route, snapshot и его версии. БА запускает отдельный AIN-22",
+      "admission": "AIN-21/allow",
+      "requires_gate": {
+        "code": "AIN-21",
+        "outcome": "allow"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "критерии-AIN-21",
+        "отдельный-вызов"
+      ],
+      "target": "AIN-22"
+    },
+    {
+      "from": "AIN-24",
+      "format": "decomposed",
+      "action": "продолжить",
+      "when": "Есть актуальный AIN-21, handover AIN-24 принят, отдельно записано явное решение Г-IN той же версии",
+      "admission": "Г-IN/дальше",
+      "requires_gate": {
+        "code": "Г-IN",
+        "outcome": "дальше"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [],
+      "target": "Ш-3"
+    },
+    {
+      "from": "AIN-24",
+      "format": "decomposed",
+      "action": "выйти в CS",
+      "when": "Handover фиксирует полный match, БА выбрал CS по Г-IN",
+      "admission": "Г-IN/CS",
+      "requires_gate": {
+        "code": "Г-IN",
+        "outcome": "CS"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "полный-match",
+        "handover"
+      ],
+      "target": "CS"
+    },
+    {
+      "from": "Ш-3",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "Проверен вход своего формата и БА принял ФТ",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-4"
+    },
+    {
+      "from": "Ш-4",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА принял НФТ и вопросы по недостающим метрикам",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-5"
+    },
+    {
+      "from": "Ш-5",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА проверил прогон 1, покрытие ФТ 100 %, оценку «от» и пакет. Заказчик согласовал пакет",
+      "admission": "Г-С1/согласование",
+      "requires_gate": {
+        "code": "Г-С1",
+        "outcome": "согласование"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "покрытие-100%",
+        "оценка-от"
+      ],
+      "target": "Ш-6"
+    },
+    {
+      "from": "Ш-5",
+      "format": "оба",
+      "action": "остановить",
+      "when": "Заказчик отказал на Г-С1",
+      "admission": "Г-С1/отказ",
+      "requires_gate": {
+        "code": "Г-С1",
+        "outcome": "отказ"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [],
+      "target": "СТОП"
+    },
+    {
+      "from": "Ш-6",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА принял описание решения и покрытие ФТ",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-7"
+    },
+    {
+      "from": "Ш-7",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА принял ограничения с источниками, выполнимость ФТ сохранена",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-8"
+    },
+    {
+      "from": "Ш-8",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА принял прогон 2, расхождения с решением разобраны",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-9"
+    },
+    {
+      "from": "Ш-9",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА принял риски, зависимости и план приёмки",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "Ш-В"
+    },
+    {
+      "from": "Ш-В",
+      "format": "оба",
+      "action": "продолжить",
+      "when": "БА разобрал замечания, команда согласовала Г-W, Заказчик согласовал итоговую оценку",
+      "admission": "Г-W/согласование",
+      "requires_gate": {
+        "code": "Г-W",
+        "outcome": "согласование"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "оценка-согласована"
+      ],
+      "target": "Ш-Р"
+    },
+    {
+      "from": "Ш-В",
+      "format": "оба",
+      "action": "остановить",
+      "when": "Согласующие отказали на Г-W",
+      "admission": "Г-W/отказ",
+      "requires_gate": {
+        "code": "Г-W",
+        "outcome": "отказ"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [],
+      "target": "СТОП"
+    },
+    {
+      "from": "Ш-Р",
+      "format": "оба",
+      "action": "выпустить",
+      "when": "БА проверил отчёт и пакеты одной ревизии, зафиксированы обязательные одобрения и явное решение о выпуске",
+      "admission": "Выпуск/выпуск",
+      "requires_gate": {
+        "code": "Выпуск",
+        "outcome": "выпуск"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "пакеты-готовы"
+      ],
+      "target": "BASELINE"
+    },
+    {
+      "from": "*",
+      "format": "оба",
+      "action": "уточнить с моделью",
+      "when": "Непонятный вывод, вопрос о данных или `[ТРЕБУЕТСЯ УТОЧНЕНИЕ]`. Ответ и проверка в текущем контексте. Если меняется основание, нужен возврат",
+      "admission": null,
+      "requires_gate": null,
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "вопрос-модели"
+      ],
+      "target": "текущий"
+    },
+    {
+      "from": "*",
+      "format": "оба",
+      "action": "уточнить с Заказчиком",
+      "when": "Есть открытый бизнес-вопрос с адресатом в 8.4. БА отправляет вопрос и фиксирует ответ. Внутри AIN — только нумерованным списком AIN-16, по маршруту AIN",
+      "admission": null,
+      "requires_gate": null,
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "вопрос-Заказчику"
+      ],
+      "target": "текущий"
+    },
+    {
+      "from": "*",
+      "format": "оба",
+      "action": "сценарии по запросу",
+      "when": "БА явно запросил US или UC, есть применимый принятый контекст разделов 1–3 и разрешено моделирование. Сохранить исходные шаг, формат, ревизию и допуски",
+      "admission": null,
+      "requires_gate": null,
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "запрос-сценариев",
+        "контекст-сценариев"
+      ],
+      "target": "Ш-С"
+    },
+    {
+      "from": "Ш-С",
+      "format": "оба",
+      "action": "вернуться в контекст",
+      "when": "БА принял сценарии или отменил запрос, сохранённый контекст доступен и актуален",
+      "admission": "БА",
+      "requires_gate": null,
+      "requires_ba_acceptance": true,
+      "conditions": [],
+      "target": "исходный"
+    },
+    {
+      "from": "Ш-Р",
+      "format": "оба",
+      "action": "остановить",
+      "when": "На гейте выпуска БА явно отказал в выпуске и завершил прогон",
+      "admission": "Выпуск/остановка",
+      "requires_gate": {
+        "code": "Выпуск",
+        "outcome": "остановка"
+      },
+      "requires_ba_acceptance": false,
+      "conditions": [],
+      "target": "СТОП"
+    },
+    {
+      "from": "*",
+      "format": "оба",
+      "action": "остановить по решению БА",
+      "when": "БА явно остановил прогон, причина записана в 8.5",
+      "admission": null,
+      "requires_gate": null,
+      "requires_ba_acceptance": false,
+      "conditions": [
+        "остановка-БА"
+      ],
+      "target": "СТОП"
+    }
+  ],
+  "returns": [
+    {
+      "reason": "контекст",
+      "when": "Ошибка в термине, контексте или границах",
+      "stage": "A-IN",
+      "system": "Ш-1",
+      "decomposed": "AIN-15"
+    },
+    {
+      "reason": "продукты",
+      "when": "Ошибка в составе продуктов, команд или зависимостей",
+      "stage": "A-IN",
+      "system": "Ш-2",
+      "decomposed": "AIN-15"
+    },
+    {
+      "reason": "источники",
+      "when": "После снятия блокировки надо пересмотреть план поиска, evidence или противоречащие сведения",
+      "stage": "A-IN",
+      "system": "Ш-1",
+      "decomposed": "AIN-15"
+    },
+    {
+      "reason": "допуск-AIN",
+      "when": "Изменился принятый snapshot или недействителен допуск к разделу 2, повторить оценку допуска после перепроверки оснований",
+      "stage": "A-IN",
+      "system": null,
+      "decomposed": "AIN-21"
+    },
+    {
+      "reason": "передача-AIN",
+      "when": "Разделы AIN приняты и AIN-21 актуален, требуется актуальный handover и Г-IN",
+      "stage": "A-IN",
+      "system": null,
+      "decomposed": "AIN-24"
+    },
+    {
+      "reason": "допуск-системный",
+      "when": "Недействителен системный Ш-2/Г-IN, основания Ш-1 сохранены",
+      "stage": "A-IN",
+      "system": "Ш-2",
+      "decomposed": null
+    },
+    {
+      "reason": "ФТ",
+      "when": "Неполное покрытие ФТ первым UC, ограничение делает ФТ невыполнимым либо надо уточнить требование",
+      "stage": "A-CORE",
+      "system": "Ш-3",
+      "decomposed": "Ш-3"
+    },
+    {
+      "reason": "НФТ",
+      "when": "Изменилось требование к качеству или его метрика",
+      "stage": "A-CORE",
+      "system": "Ш-4",
+      "decomposed": "Ш-4"
+    },
+    {
+      "reason": "UC-1",
+      "when": "Уточняется первый прогон без изменения ФТ",
+      "stage": "A-CORE",
+      "system": "Ш-5",
+      "decomposed": "Ш-5"
+    },
+    {
+      "reason": "решение",
+      "when": "Нужно пересмотреть ОРР",
+      "stage": "A-WORK",
+      "system": "Ш-6",
+      "decomposed": "Ш-6"
+    },
+    {
+      "reason": "ограничения",
+      "when": "Изменилось основание раздела 6",
+      "stage": "A-WORK",
+      "system": "Ш-7",
+      "decomposed": "Ш-7"
+    },
+    {
+      "reason": "UC-2",
+      "when": "Уточняются границы, ошибки или UI в сценариях решения",
+      "stage": "A-WORK",
+      "system": "Ш-8",
+      "decomposed": "Ш-8"
+    },
+    {
+      "reason": "риски",
+      "when": "Изменились риски, зависимости поставки или приёмка",
+      "stage": "A-WORK",
+      "system": "Ш-9",
+      "decomposed": "Ш-9"
+    },
+    {
+      "reason": "проверка",
+      "when": "Нужно повторить независимую валидацию изменённого кандидата",
+      "stage": "A-WORK",
+      "system": "Ш-В",
+      "decomposed": "Ш-В"
+    },
+    {
+      "reason": "пакеты",
+      "when": "В выпускном комплекте дефект, который не затрагивает принятые разделы и оценку",
+      "stage": "A-RELEASE",
+      "system": "Ш-Р",
+      "decomposed": "Ш-Р"
+    }
+  ],
+  "decision_log": {
+    "path": "work/<ключ>/decisions.jsonl",
+    "fields": [
+      "code",
+      "type",
+      "outcome",
+      "who",
+      "when",
+      "locator",
+      "version",
+      "question_id",
+      "model_recommendation",
+      "divergence"
+    ],
+    "hybrid_only": [
+      "model_recommendation",
+      "divergence"
+    ]
+  }
+}
